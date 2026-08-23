@@ -6,6 +6,22 @@ Entries are listed newest first.
 
 ---
 
+## 2026-08-23 — Migration Merged into Main; Canon Index and World Status Populated
+
+### Decision
+Merged the previously-unmerged `claude/git-push-kyp7tp` branch (which contained the full document migration) into `main`, and populated `00_MASTER/CANON_INDEX.md` and `00_MASTER/WORLD_STATUS.md` with the actual current state of the repository.
+
+### Reason
+`main` had been left on placeholder/scaffolding content while the real migrated material sat on an unmerged branch, so the repository did not reflect the true state of the world. The two master index files were also still placeholders despite substantive content existing elsewhere in the repo.
+
+### Consequence
+`main` is now the single source of truth reflecting all migrated Aruun material: World Bible v1.5, continental dossiers, canonical flora/fauna libraries, Hearth cultural material, and the full historical archive. `CANON_INDEX.md` and `WORLD_STATUS.md` now list real documents and real gaps (notably: no cultures yet for Shattered/Rift/Lost, `04_HISTORY` and `05_SYSTEMS` are entirely empty). Several duplicate migration/test branches remain on the remote from earlier attempts and should be cleaned up separately.
+
+### Status
+N/A — this is a repository/infrastructure decision, not a worldbuilding decision. No canon, working, or provisional world content was established or changed.
+
+---
+
 ## 2026-08-23 — Document Migration Bundle Applied
 
 ### Decision

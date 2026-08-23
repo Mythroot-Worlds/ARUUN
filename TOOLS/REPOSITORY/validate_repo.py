@@ -1,243 +1,142 @@
 #!/usr/bin/env python3
 """ARUUN repository audit validator.
 
-Read-only by design. Scans the repository, infers document identity from paths
-and metadata, and writes audit reports. It never renames or rewrites files.
-
-Usage:
-    python TOOLS/REPOSITORY/validate_repo.py
-    python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
+Read-only by design. Scans Markdown/text documents, validates identity/path/name
+metadata, builds a lightweight dependency graph, and flags known contradictory
+claims without automatically deciding canon. Reports are written to disk.
 """
-
 from __future__ import annotations
-
-import argparse
-import re
-from dataclasses import dataclass, asdict
+import argparse, re
+from dataclasses import dataclass
 from pathlib import Path
-from typing import Optional
 
-IGNORE_DIRS = {".git", ".github", "node_modules"}
-ACTIVE_TOP = {"00_MASTER", "01_WORLD", "02_ECOLOGY", "03_PEOPLES", "04_HISTORY", "05_SYSTEMS", "06_WORKING", "08_RELEASES"}
-ARCHIVE_TOP = "07_ARCHIVE"
-VALID_LAYERS = {"world", "tool", "reference", "audit", "archive", "release"}
-VALID_STATUS = {"canon", "working_model", "inference", "proposal", "open", "unknown", "retired", "canon_reference", "working", "provisional"}
-VALID_AUTHORITY = {"world", "regional", "continental", "tool", "reference", "supporting", "historical", "audit"}
-
-SUBJECT_ALIASES = {
-    "family_birth_childhood": "family.birth_childhood",
-    "birth_childhood": "family.birth_childhood",
-    "childhood_and_birth": "family.birth_childhood",
-    "family_partnership": "family.partnership",
-    "governance_and_authority": "governance.authority",
-    "governance_authority": "governance.authority",
-    "food_subsistence": "food.subsistence",
-    "settlement_housing": "settlement.housing",
+IGNORE_DIRS={".git",".github","node_modules"}
+ARCHIVE_TOP="07_ARCHIVE"
+VALID_LAYERS={"world","tool","reference","audit","archive","release"}
+VALID_STATUS={"canon","working_model","inference","proposal","open","unknown","retired","canon_reference","working","provisional"}
+VALID_AUTHORITY={"world","regional","continental","tool","reference","supporting","historical","audit"}
+SUBJECT_ALIASES={
+ "family_birth_childhood":"family.birth_childhood","birth_childhood":"family.birth_childhood",
+ "family_partnership":"family.partnership","governance_and_authority":"governance.authority",
+ "governance_authority":"governance.authority","food_subsistence":"food.subsistence",
+ "settlement_housing":"settlement.housing",
 }
-
+KNOWN_CLAIMS=[
+ ("DEMO-001","Hearth population",r"(?:~|about\s*)?1[.,]?5\s*(?:million|M)\b",r"~?1[.,]?91\s*(?:million|M)\b","Superseded Hearth population claim (~1.5M) conflicts with the newer ~1.91M working demographic model.","Review current active demographic references; preserve historical/archive occurrences."),
+ ("DEMO-002","Plains population",r"450[,.]?000|450k\b",r"650[,.]?000|650k\b","Superseded Plains population claim (~450k) conflicts with the newer ~650k working model.","Review current active demographic references."),
+ ("DEMO-003","River population",r"375[,.]?000|375k\b",r"500[,.]?000|500k\b","Superseded River population claim (~375k) conflicts with the newer ~500k working model.","Review current active demographic references."),
+ ("DEMO-004","Wetlands population",r"225[,.]?000|225k\b",r"290[,.]?000|290k\b","Superseded Wetlands population claim (~225k) conflicts with the newer ~290k working model.","Review current active demographic references."),
+ ("DEMO-005","Coast population",r"180[,.]?000|180k\b",r"290[,.]?000|290k\b","Superseded Coast population claim (~180k) conflicts with the newer ~290k working model.","Review current active demographic references."),
+ ("DEMO-006","Mountains population",r"120[,.]?000|120k\b",r"95[,.]?000|95k\b","Superseded Mountains population claim (~120k) conflicts with the newer ~95k working model.","Review current active demographic references."),
+ ("DEMO-007","Desert population",r"105[,.]?000|105k\b",r"85[,.]?000|85k\b","Superseded Desert/dry-interior population claim (~105k) conflicts with the newer ~85k working model.","Review current active demographic references."),
+]
 @dataclass
 class Finding:
-    id: str
-    severity: str
-    category: str
-    path: str
-    message: str
-    recommendation: str = ""
-
+ id:str; severity:str; category:str; path:str; message:str; recommendation:str=""; related:str=""
 @dataclass
 class Document:
-    path: str
-    filename: str
-    title: str = ""
-    id: str = ""
-    domain: str = ""
-    layer: str = ""
-    scope: str = ""
-    status: str = ""
-    authority: str = ""
-    world: str = ""
-    continent: str = ""
-    people: str = ""
-    subject: str = ""
-    source_of_truth: Optional[bool] = None
-    archive: bool = False
+ path:str; filename:str; title:str=""; id:str=""; domain:str=""; layer:str=""; scope:str=""; status:str=""; authority:str=""; continent:str=""; people:str=""; subject:str=""; archive:bool=False
 
+def parse_frontmatter(text):
+ if not text.startswith("---\n"): return {}
+ end=text.find("\n---",4)
+ if end<0:return {}
+ d={}
+ for line in text[4:end].splitlines():
+  if ":" in line:
+   k,v=line.split(":",1); d[k.strip()]=v.strip().strip("\"'")
+ return d
 
-def parse_frontmatter(text: str) -> dict[str, str]:
-    if not text.startswith("---\n"):
-        return {}
-    end = text.find("\n---", 4)
-    if end < 0:
-        return {}
-    data = {}
-    for line in text[4:end].splitlines():
-        if ":" not in line:
-            continue
-        key, value = line.split(":", 1)
-        key = key.strip()
-        value = value.strip().strip('"\'')
-        data[key] = value
-    return data
+def inline_status(text):
+ m=re.search(r"\*\*Status:\*\*\s*([^\n]+)",text,re.I); return m.group(1).strip().lower() if m else ""
 
+def first_heading(text):
+ m=re.search(r"^#\s+(.+)$",text,re.M); return m.group(1).strip() if m else ""
 
-def inline_status(text: str) -> str:
-    m = re.search(r"\*\*Status:\*\*\s*([^\n]+)", text, re.I)
-    return m.group(1).strip().lower() if m else ""
+def subject_from_stem(stem):
+ k=stem.lower().replace("-","_").replace(" ","_")
+ if k.endswith("_comparative"):k=k[:-12]
+ return SUBJECT_ALIASES.get(k,".".join(x for x in k.split("_") if x))
 
+def expected(rel):
+ p=rel.parts; o={}
+ if not p:return o
+ if p[0]=="03_PEOPLES":
+  o.update(domain="peoples",layer="reference" if "COMPARATIVE" in p else "world")
+  if len(p)>=3 and p[1]=="CULTURES":
+   o["continent"]=p[2].title()
+   if len(p)>=4 and p[3]!="COMPARATIVE":o.update(people=p[3].title(),scope="people")
+   elif len(p)>=4:o["scope"]="subject"
+ elif p[0]=="02_ECOLOGY":
+  o["domain"]="ecology"; o["layer"]="tool" if any(x in rel.name.upper() for x in ("MATRIX","CREATION","PREDICTIVE","NECESSITY","PACKAGE")) else "world"
+ elif p[0]=="01_WORLD":o.update(domain="world",layer="world")
+ elif p[0]=="00_MASTER":o.update(domain="master",layer="reference")
+ elif p[0]=="TOOLS":o.update(domain="repository",layer="tool")
+ elif p[0]==ARCHIVE_TOP:o["layer"]="archive"
+ return o
 
-def first_heading(text: str) -> str:
-    m = re.search(r"^#\s+(.+)$", text, re.M)
-    return m.group(1).strip() if m else ""
+def scan(root):
+ docs=[]; findings=[]; texts={}; n=1
+ for path in sorted(root.rglob("*.md")):
+  if any(x in IGNORE_DIRS for x in path.parts):continue
+  rel=path.relative_to(root); text=path.read_text(encoding="utf-8",errors="replace"); texts[str(rel)]=text
+  fm=parse_frontmatter(text); exp=expected(rel); archive=bool(rel.parts and rel.parts[0]==ARCHIVE_TOP)
+  d=Document(str(rel),path.name,fm.get("title",first_heading(text)),fm.get("id",""),fm.get("domain",exp.get("domain","")),fm.get("layer",exp.get("layer","")),fm.get("scope",""),fm.get("status",inline_status(text)),fm.get("authority",""),fm.get("continent",exp.get("continent","")),fm.get("people",exp.get("people","")),fm.get("subject",subject_from_stem(path.stem)),archive)
+  docs.append(d)
+  if archive:continue
+  if not d.id:findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),"Missing stable document id.","Assign a stable ID when the document is next actively edited."));n+=1
+  if not fm and not inline_status(text):findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),"No recognized frontmatter or inline Status metadata.","Migrate metadata when actively editing; do not rewrite historical files."));n+=1
+  if d.layer not in VALID_LAYERS:findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),f"Unknown/missing layer: {d.layer or '<missing>'}.","Map to the repository schema."));n+=1
+  if d.status and d.status not in VALID_STATUS:findings.append(Finding(f"META-{n:04d}","INFO","status",str(rel),f"Unnormalized status: {d.status}.","Map to the target status vocabulary when edited."));n+=1
+  if d.authority and d.authority not in VALID_AUTHORITY:findings.append(Finding(f"META-{n:04d}","WARNING","authority",str(rel),f"Unknown authority: {d.authority}.","Map to the schema authority vocabulary."));n+=1
+  for field in ("domain","layer","continent","people"):
+   if field in exp and getattr(d,field) and getattr(d,field).lower()!=exp[field].lower():
+    findings.append(Finding(f"PATH-{n:04d}","ERROR","path_metadata",str(rel),f"{field}={getattr(d,field)!r} conflicts with path expectation {exp[field]!r}.","Review path and metadata; do not auto-rewrite."));n+=1
+  upper=path.stem.upper()
+  if any(t in upper for t in ("FINAL","FINAL2","BATCH","TEMP","NEW_","UPDATED","REVISION")):
+   findings.append(Finding(f"NAME-{n:04d}","WARNING","filename",str(rel),"Filename contains a production/temporary naming pattern.","Recommend a stable subject-based filename after collision/reference review."));n+=1
+  if "COMPARATIVE" in rel.parts and not path.stem.endswith("_COMPARATIVE"):
+   findings.append(Finding(f"NAME-{n:04d}","WARNING","filename",str(rel),"Comparative document is not explicitly marked in its filename.","Use <SUBJECT>_COMPARATIVE.md."));n+=1
+ return docs,findings,texts
 
+def semantic_claim_audit(docs,findings,texts):
+ active=[d for d in docs if not d.archive]
+ for code,label,old,new,msg,rec in KNOWN_CLAIMS:
+  old_paths=[]; new_paths=[]
+  for d in active:
+   text=texts[d.path]
+   if re.search(old,text,re.I):old_paths.append(d.path)
+   if re.search(new,text,re.I):new_paths.append(d.path)
+  if old_paths:
+   sev="WARNING"
+   findings.append(Finding(code,sev,"semantic_conflict",old_paths[0],msg,rec,"; ".join(new_paths) if new_paths else "Newer working model not yet found in active Markdown"))
 
-def normalized_subject(stem: str) -> str:
-    key = stem.lower().replace("-", "_").replace(" ", "_")
-    if key.endswith("_comparative"):
-        key = key[:-12]
-    if key in SUBJECT_ALIASES:
-        return SUBJECT_ALIASES[key]
-    parts = [p for p in key.split("_") if p]
-    return ".".join(parts)
+def duplicate_audit(docs,findings):
+ groups={}
+ for d in docs:
+  if d.archive:continue
+  key=(d.continent.lower(),d.people.lower(),d.subject.lower(),d.scope.lower())
+  groups.setdefault(key,[]).append(d)
+ for i,(key,items) in enumerate(groups.items(),1):
+  if len(items)>1 and key[2] and key[1] and not all("comparative" in x.path.lower() for x in items):
+   findings.append(Finding(f"DUP-{i:04d}","WARNING","duplicate_subject",items[0].path,f"Multiple active documents appear to represent {key[2]!r} for {key[1]}.","Review authority/source-of-truth and legacy aliases.","; ".join(x.path for x in items)))
 
+def write_reports(out,docs,findings):
+ out.mkdir(parents=True,exist_ok=True)
+ idx="# ARUUN Repository Index\n\nGenerated by read-only validator.\n\n| Path | ID | Layer | Scope | Status | Authority |\n|---|---|---|---|---|---|\n"+"\n".join(f"| `{d.path}` | `{d.id}` | `{d.layer}` | `{d.scope}` | `{d.status}` | `{d.authority}` |" for d in docs)+"\n"
+ (out/"REPOSITORY_INDEX.md").write_text(idx,encoding="utf-8")
+ naming="# ARUUN Naming Report\n\n"
+ for f in findings:
+  if f.category=="filename":naming+=f"## {f.id} — {f.severity}\n- **Path:** `{f.path}`\n- **Finding:** {f.message}\n- **Recommendation:** {f.recommendation}\n\n"
+ (out/"NAMING_REPORT.md").write_text(naming,encoding="utf-8")
+ ledger="# ARUUN Discrepancy Ledger\n\nRead-only findings. Historical/archive occurrences are excluded from semantic conflict checks.\n\n"
+ for f in findings:
+  if f.category!="filename":ledger+=f"## {f.id} — {f.severity}\n- **Category:** {f.category}\n- **Path:** `{f.path}`\n- **Finding:** {f.message}\n- **Recommendation:** {f.recommendation}\n- **Related:** {f.related or '—'}\n- **Status:** open\n\n"
+ (out/"DISCREPANCY_LEDGER.md").write_text(ledger,encoding="utf-8")
+ errors=sum(f.severity=="ERROR" for f in findings); warnings=sum(f.severity=="WARNING" for f in findings); infos=sum(f.severity=="INFO" for f in findings)
+ (out/"AUDIT_SUMMARY.md").write_text(f"# ARUUN Repository Audit Summary\n\n**Mode:** READ-ONLY\n\n| Metric | Count |\n|---|---:|\n| Documents scanned | {len(docs)} |\n| Findings | {len(findings)} |\n| Errors | {errors} |\n| Warnings | {warnings} |\n| Info | {infos} |\n",encoding="utf-8")
 
-def expected_from_path(rel: Path) -> dict[str, str]:
-    p = rel.parts
-    out = {}
-    if p and p[0] == "03_PEOPLES":
-        out["domain"] = "peoples"
-        if len(p) >= 3 and p[1] == "CULTURES":
-            out["continent"] = p[2].title()
-            if len(p) >= 4 and p[3] != "COMPARATIVE":
-                out["people"] = p[3].title()
-                out["scope"] = "people"
-            elif len(p) >= 4 and p[3] == "COMPARATIVE":
-                out["scope"] = "subject"
-        out["layer"] = "reference" if "COMPARATIVE" in p else "world"
-    elif p and p[0] == "02_ECOLOGY":
-        out["domain"] = "ecology"
-        out["layer"] = "tool" if any(x in rel.name.upper() for x in ("MATRIX", "CREATION", "PREDICTIVE", "NECESSITY", "PACKAGE")) else "world"
-    elif p and p[0] == "01_WORLD":
-        out["domain"] = "world"
-        out["layer"] = "world"
-    elif p and p[0] == "00_MASTER":
-        out["domain"] = "master"
-        out["layer"] = "reference"
-    elif p and p[0] == "TOOLS":
-        out["domain"] = "repository"
-        out["layer"] = "tool"
-    elif p and p[0] == ARCHIVE_TOP:
-        out["layer"] = "archive"
-    return out
-
-
-def scan(root: Path) -> tuple[list[Document], list[Finding]]:
-    docs: list[Document] = []
-    findings: list[Finding] = []
-    counter = 1
-
-    for path in sorted(root.rglob("*.md")):
-        if any(part in IGNORE_DIRS for part in path.parts):
-            continue
-        rel = path.relative_to(root)
-        text = path.read_text(encoding="utf-8", errors="replace")
-        fm = parse_frontmatter(text)
-        exp = expected_from_path(rel)
-        archive = bool(rel.parts and rel.parts[0] == ARCHIVE_TOP)
-        stem = path.stem
-        doc = Document(
-            path=str(rel), filename=path.name,
-            title=fm.get("title", first_heading(text)), id=fm.get("id", ""),
-            domain=fm.get("domain", exp.get("domain", "")),
-            layer=fm.get("layer", exp.get("layer", "")),
-            scope=fm.get("scope", ""), status=fm.get("status", inline_status(text)),
-            authority=fm.get("authority", ""), world=fm.get("world", ""),
-            continent=fm.get("continent", exp.get("continent", "")),
-            people=fm.get("people", exp.get("people", "")),
-            subject=fm.get("subject", normalized_subject(stem)),
-            source_of_truth=(fm.get("source_of_truth", "").lower() == "true") if "source_of_truth" in fm else None,
-            archive=archive,
-        )
-        docs.append(doc)
-
-        if archive:
-            continue
-        if not doc.id:
-            findings.append(Finding(f"META-{counter:04d}", "WARNING", "metadata", str(rel), "Missing stable document id.", "Assign a stable ID during migration.")); counter += 1
-        if not fm and not inline_status(text):
-            findings.append(Finding(f"META-{counter:04d}", "WARNING", "metadata", str(rel), "No recognized frontmatter or inline Status metadata.", "Infer metadata from path/content and migrate when actively edited.")); counter += 1
-        if doc.layer not in VALID_LAYERS:
-            findings.append(Finding(f"META-{counter:04d}", "WARNING", "metadata", str(rel), f"Unknown layer: {doc.layer or '<missing>'}.", "Use the schema layer vocabulary.")); counter += 1
-        if doc.status and doc.status not in VALID_STATUS:
-            findings.append(Finding(f"META-{counter:04d}", "INFO", "status", str(rel), f"Unnormalized status: {doc.status}.", "Map it to the target status vocabulary during migration.")); counter += 1
-        if doc.authority and doc.authority not in VALID_AUTHORITY:
-            findings.append(Finding(f"META-{counter:04d}", "WARNING", "authority", str(rel), f"Unknown authority: {doc.authority}.", "Map it to the target authority vocabulary.")); counter += 1
-
-        # Path ↔ metadata checks.
-        for field in ("domain", "layer", "continent", "people"):
-            if field in exp and getattr(doc, field) and getattr(doc, field).lower() != exp[field].lower():
-                findings.append(Finding(f"PATH-{counter:04d}", "ERROR", "path_metadata", str(rel), f"{field}={getattr(doc, field)!r} conflicts with path expectation {exp[field]!r}.", "Review the path and metadata; do not auto-rewrite.")); counter += 1
-
-        # Filename rules.
-        upper = stem.upper()
-        suspicious = any(token in upper for token in ("FINAL", "FINAL2", "BATCH", "TEMP", "NEW_", "UPDATED", "REVISION"))
-        if suspicious:
-            findings.append(Finding(f"NAME-{counter:04d}", "WARNING", "filename", str(rel), "Filename contains a production/temporary naming pattern.", "Rename to the subject-based convention after reference/collision review.")); counter += 1
-        if "COMPARATIVE" in rel.parts and not stem.endswith("_COMPARATIVE"):
-            findings.append(Finding(f"NAME-{counter:04d}", "WARNING", "filename", str(rel), "Comparative document is not explicitly marked as comparative in its filename.", "Use <SUBJECT>_COMPARATIVE.md.")); counter += 1
-
-    return docs, findings
-
-
-def duplicate_findings(docs: list[Document], findings: list[Finding]) -> None:
-    groups: dict[tuple[str, str, str, str], list[Document]] = {}
-    for d in docs:
-        if d.archive:
-            continue
-        key = (d.continent.lower(), d.people.lower(), d.subject.lower(), d.scope.lower())
-        groups.setdefault(key, []).append(d)
-    n = sum(1 for f in findings if f.id.startswith("DUP-")) + 1
-    for key, items in groups.items():
-        if len(items) > 1 and key[2] and key[1] and "comparative" not in " ".join(x.path.lower() for x in items):
-            findings.append(Finding(f"DUP-{n:04d}", "WARNING", "duplicate_subject", items[0].path, f"Multiple active documents appear to represent subject {key[2]!r} for {key[1]}.", "Review source-of-truth authority and legacy aliases.")); n += 1
-
-
-def write_reports(root: Path, out: Path, docs: list[Document], findings: list[Finding]) -> None:
-    out.mkdir(parents=True, exist_ok=True)
-    duplicate_findings(docs, findings)
-    index = "# ARUUN Repository Index\n\nGenerated by the read-only validator.\n\n| Path | ID | Layer | Scope | Status | Authority | Source of Truth |\n|---|---|---|---|---|---|---|\n"
-    for d in docs:
-        index += f"| `{d.path}` | `{d.id}` | `{d.layer}` | `{d.scope}` | `{d.status}` | `{d.authority}` | `{d.source_of_truth}` |\n"
-    (out / "REPOSITORY_INDEX.md").write_text(index, encoding="utf-8")
-
-    naming = "# ARUUN Naming Report\n\nFilename/path findings from the read-only audit.\n\n"
-    for f in findings:
-        if f.category == "filename":
-            naming += f"## {f.id} — {f.severity}\n- **Path:** `{f.path}`\n- **Finding:** {f.message}\n- **Recommendation:** {f.recommendation}\n\n"
-    (out / "NAMING_REPORT.md").write_text(naming, encoding="utf-8")
-
-    ledger = "# ARUUN Discrepancy Ledger\n\nRead-only findings. Nothing here is automatically treated as a canon correction.\n\n"
-    for f in findings:
-        if f.category != "filename":
-            ledger += f"## {f.id} — {f.severity}\n- **Category:** {f.category}\n- **Path:** `{f.path}`\n- **Finding:** {f.message}\n- **Recommendation:** {f.recommendation}\n- **Status:** open\n\n"
-    (out / "DISCREPANCY_LEDGER.md").write_text(ledger, encoding="utf-8")
-
-    summary = {"documents_scanned": len(docs), "findings": len(findings), "errors": sum(f.severity == "ERROR" for f in findings), "warnings": sum(f.severity == "WARNING" for f in findings), "info": sum(f.severity == "INFO" for f in findings)}
-    lines = ["# ARUUN Repository Audit Summary", "", "**Mode:** READ-ONLY", "", "| Metric | Count |", "|---|---:|"] + [f"| {k.replace('_',' ').title()} | {v} |" for k, v in summary.items()]
-    (out / "AUDIT_SUMMARY.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
-
-
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--root", default=".")
-    parser.add_argument("--out", default="TOOLS/REPOSITORY/REPORTS")
-    args = parser.parse_args()
-    root = Path(args.root).resolve()
-    out = (root / args.out).resolve() if not Path(args.out).is_absolute() else Path(args.out)
-    docs, findings = scan(root)
-    write_reports(root, out, docs, findings)
-    print(f"Scanned {len(docs)} Markdown documents; generated {len(findings)} findings.")
-    print(f"Reports: {out}")
-    return 0
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+def main():
+ p=argparse.ArgumentParser();p.add_argument("--root",default=".");p.add_argument("--out",default="TOOLS/REPOSITORY/REPORTS");a=p.parse_args();root=Path(a.root).resolve();out=(root/a.out).resolve() if not Path(a.out).is_absolute() else Path(a.out)
+ docs,findings,texts=scan(root);semantic_claim_audit(docs,findings,texts);duplicate_audit(docs,findings);write_reports(out,docs,findings);print(f"Scanned {len(docs)} Markdown documents; generated {len(findings)} findings. Reports: {out}")
+if __name__=="__main__":main()

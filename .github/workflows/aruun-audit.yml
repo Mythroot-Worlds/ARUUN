@@ -1,0 +1,42 @@
+name: ARUUN Repository Audit
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.md'
+      - 'TOOLS/REPOSITORY/**'
+      - '.github/workflows/aruun-audit.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    name: Audit ARUUN repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run read-only repository validator
+        run: python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
+
+      - name: Upload audit reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: aruun-repository-audit
+          path: TOOLS/REPOSITORY/REPORTS/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Print audit summary
+        run: cat TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md

@@ -946,6 +946,22 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Related:** —
 - **Status:** open
 
+## META-0121 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator_patch_notes.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0122 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator_patch_notes.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
 ## DEMO-001 — WARNING
 - **Category:** semantic_conflict
 - **Path:** `00_MASTER/WORLD_BIBLE.md`

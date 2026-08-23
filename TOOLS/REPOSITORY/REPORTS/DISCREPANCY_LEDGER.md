@@ -1,0 +1,988 @@
+# ARUUN Discrepancy Ledger
+
+Read-only findings. Historical/archive occurrences are excluded from semantic conflict checks.
+
+## META-0001 — WARNING
+- **Category:** metadata
+- **Path:** `00_MASTER/CANON_INDEX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0002 — WARNING
+- **Category:** metadata
+- **Path:** `00_MASTER/FOUNDATION_WORLD_PROFILE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0003 — INFO
+- **Category:** status
+- **Path:** `00_MASTER/FOUNDATION_WORLD_PROFILE.md`
+- **Finding:** Unnormalized status: authoritative.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0004 — WARNING
+- **Category:** metadata
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0005 — INFO
+- **Category:** status
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Unnormalized status: current authoritative world bible for development..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0006 — WARNING
+- **Category:** metadata
+- **Path:** `00_MASTER/WORLD_STATUS.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0007 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0008 — INFO
+- **Category:** status
+- **Path:** `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
+- **Finding:** Unnormalized status: broad working pass. nothing here is locked canon unless explicitly approved..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0009 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0010 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0011 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0012 — INFO
+- **Category:** status
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+- **Finding:** Unnormalized status: proposed working layer — not cultural canon.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0013 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0014 — INFO
+- **Category:** status
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
+- **Finding:** Unnormalized status: canonical consolidation / current state.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0015 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0016 — INFO
+- **Category:** status
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md`
+- **Finding:** Unnormalized status: working canon — creative geography decision.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0017 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0018 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0019 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0020 — INFO
+- **Category:** status
+- **Path:** `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md`
+- **Finding:** Unnormalized status: working canon — science-derived geographic decision.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0021 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/LOST/DOSSIER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0022 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/LOST/DOSSIER.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0023 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/RIFT/DOSSIER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0024 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/RIFT/DOSSIER.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0025 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0026 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0027 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/PLANET/TECTONICS.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0028 — WARNING
+- **Category:** metadata
+- **Path:** `01_WORLD/PLANET/TECTONICS.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0029 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0030 — INFO
+- **Category:** status
+- **Path:** `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md`
+- **Finding:** Unnormalized status: working canon. built per `01_master_instructions.md` and `05_batch_prompt.md`. no world-name has been assigned; none is used here..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0031 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0032 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0033 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0034 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0035 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0036 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0037 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0038 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0040 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0041 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0042 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0043 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0045 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0046 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0047 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_NECESSITY_SHEET.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0048 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/CREATURE_NECESSITY_SHEET.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0049 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0050 — INFO
+- **Category:** status
+- **Path:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
+- **Finding:** Unnormalized status: broad working framework. not locked canon..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0051 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0052 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0053 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0054 — INFO
+- **Category:** status
+- **Path:** `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md`
+- **Finding:** Unnormalized status: working canon, built per `01_flora_function_matrix.md` and `02_flora_creation_matrix.md`, cross-referenced against the existing `creature_library.md` (v0.2). no world-name assigned; none used here..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0055 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/EDIBLE_FLORA_EXPANSION_HANDOFF.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0056 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/EDIBLE_FLORA_EXPANSION_HANDOFF.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0057 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0058 — INFO
+- **Category:** status
+- **Path:** `02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md`
+- **Finding:** Unnormalized status: working canon, built per `aruunite_edible_flora_expansion_handoff.md`, cross-referenced against `mythroot_flora_library_v0.1.md` and `creature_library.md`. world is aruun; the peoples are aruunites..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0059 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0060 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0061 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0062 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0063 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0064 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0065 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0066 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0067 — WARNING
+- **Category:** metadata
+- **Path:** `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0068 — INFO
+- **Category:** status
+- **Path:** `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
+- **Finding:** Unnormalized status: broad working framework. not locked canon..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0069 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0070 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/COAST.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0071 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/COAST.md`
+- **Finding:** Unnormalized status: working canon / peoples phase.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0072 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0073 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md`
+- **Finding:** Unnormalized status: canon reference sheet.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0074 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0075 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0076 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0077 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md`
+- **Finding:** Unnormalized status: working model — not canon.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0079 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0080 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/DESERT.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0081 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/DESERT.md`
+- **Finding:** Unnormalized status: working canon / peoples phase.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0082 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0083 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Unnormalized status: saved working canon — approved framework; later refinements remain possible..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0084 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0085 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
+- **Finding:** Unnormalized status: working draft — review before lock.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0086 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0087 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
+- **Finding:** Unnormalized status: working proposals — review individually before lock..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0088 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0089 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0090 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0091 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0092 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md`
+- **Finding:** Unnormalized status: working update — not canon.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0093 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0094 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/PLAINS.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0095 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/PLAINS.md`
+- **Finding:** Unnormalized status: working canon / peoples phase.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0096 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0097 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0098 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0099 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md`
+- **Finding:** Unnormalized status: working canon / peoples phase.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0100 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0101 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md`
+- **Finding:** Unnormalized status: updated working canon / preservation + peoples-phase update.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0102 — WARNING
+- **Category:** metadata
+- **Path:** `03_PEOPLES/SPECIES/HUMAN_EVOLUTION_RESEARCH_TRACK.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0103 — INFO
+- **Category:** status
+- **Path:** `03_PEOPLES/SPECIES/HUMAN_EVOLUTION_RESEARCH_TRACK.md`
+- **Finding:** Unnormalized status: open research framework.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0104 — WARNING
+- **Category:** metadata
+- **Path:** `CHANGELOG.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0105 — WARNING
+- **Category:** metadata
+- **Path:** `CHANGELOG.md`
+- **Finding:** Unknown/missing layer: <missing>.
+- **Recommendation:** Map to the repository schema.
+- **Related:** —
+- **Status:** open
+
+## META-0106 — INFO
+- **Category:** status
+- **Path:** `CHANGELOG.md`
+- **Finding:** Unnormalized status: locked..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0107 — WARNING
+- **Category:** metadata
+- **Path:** `LICENSE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0108 — WARNING
+- **Category:** metadata
+- **Path:** `LICENSE.md`
+- **Finding:** Unknown/missing layer: <missing>.
+- **Recommendation:** Map to the repository schema.
+- **Related:** —
+- **Status:** open
+
+## META-0109 — INFO
+- **Category:** status
+- **Path:** `LICENSE.md`
+- **Finding:** Unnormalized status: placeholder — no license has been finalized yet..
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0110 — WARNING
+- **Category:** metadata
+- **Path:** `PROJECT_OPERATING_RULES.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0111 — WARNING
+- **Category:** metadata
+- **Path:** `PROJECT_OPERATING_RULES.md`
+- **Finding:** Unknown/missing layer: <missing>.
+- **Recommendation:** Map to the repository schema.
+- **Related:** —
+- **Status:** open
+
+## META-0112 — INFO
+- **Category:** status
+- **Path:** `PROJECT_OPERATING_RULES.md`
+- **Finding:** Unnormalized status: canon — project workflow.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0113 — WARNING
+- **Category:** metadata
+- **Path:** `README.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0114 — WARNING
+- **Category:** metadata
+- **Path:** `README.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0115 — WARNING
+- **Category:** metadata
+- **Path:** `README.md`
+- **Finding:** Unknown/missing layer: <missing>.
+- **Recommendation:** Map to the repository schema.
+- **Related:** —
+- **Status:** open
+
+## META-0116 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0117 — INFO
+- **Category:** status
+- **Path:** `TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md`
+- **Finding:** Unnormalized status: working tool specification.
+- **Recommendation:** Map to the target status vocabulary when edited.
+- **Related:** —
+- **Status:** open
+
+## META-0118 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/README.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0119 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/README.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## DEMO-001 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Hearth population claim (~1.5M) conflicts with the newer ~1.91M working demographic model.
+- **Recommendation:** Review current active demographic references; preserve historical/archive occurrences.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+
+## DEMO-002 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Plains population claim (~450k) conflicts with the newer ~650k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+
+## DEMO-003 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded River population claim (~375k) conflicts with the newer ~500k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** 01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md; 01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md; 03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md; TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md
+- **Status:** open
+
+## DEMO-004 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Wetlands population claim (~225k) conflicts with the newer ~290k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+
+## DEMO-005 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Coast population claim (~180k) conflicts with the newer ~290k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+
+## DEMO-006 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Mountains population claim (~120k) conflicts with the newer ~95k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+
+## DEMO-007 — WARNING
+- **Category:** semantic_conflict
+- **Path:** `00_MASTER/WORLD_BIBLE.md`
+- **Finding:** Superseded Desert/dry-interior population claim (~105k) conflicts with the newer ~85k working model.
+- **Recommendation:** Review current active demographic references.
+- **Related:** Newer working model not yet found in active Markdown
+- **Status:** open
+

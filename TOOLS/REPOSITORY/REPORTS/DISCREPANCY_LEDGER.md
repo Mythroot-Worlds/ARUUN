@@ -930,12 +930,68 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Related:** —
 - **Status:** open
 
+## META-0120 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0121 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0122 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0123 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0124 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0125 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0126 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
 ## DEMO-001 — WARNING
 - **Category:** semantic_conflict
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Hearth population claim (~1.5M) conflicts with the newer ~1.91M working demographic model.
 - **Recommendation:** Review current active demographic references; preserve historical/archive occurrences.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-002 — WARNING
@@ -943,7 +999,7 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Plains population claim (~450k) conflicts with the newer ~650k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-003 — WARNING
@@ -951,7 +1007,7 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded River population claim (~375k) conflicts with the newer ~500k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** 01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md; 01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md; 03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md; TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md
+- **Related:** 01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md; 01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md; 03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md; TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md; TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-004 — WARNING
@@ -959,7 +1015,7 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Wetlands population claim (~225k) conflicts with the newer ~290k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-005 — WARNING
@@ -967,7 +1023,7 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Coast population claim (~180k) conflicts with the newer ~290k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-006 — WARNING
@@ -975,7 +1031,7 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Mountains population claim (~120k) conflicts with the newer ~95k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 
 ## DEMO-007 — WARNING
@@ -983,6 +1039,6 @@ Read-only findings. Historical/archive occurrences are excluded from semantic co
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded Desert/dry-interior population claim (~105k) conflicts with the newer ~85k working model.
 - **Recommendation:** Review current active demographic references.
-- **Related:** Newer working model not yet found in active Markdown
+- **Related:** TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 

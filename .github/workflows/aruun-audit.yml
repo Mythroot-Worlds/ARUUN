@@ -7,7 +7,8 @@ on:
       - main
     paths:
       - '**/*.md'
-      - 'TOOLS/REPOSITORY/**'
+      - 'TOOLS/REPOSITORY/validate_repo.py'
+      - 'TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md'
       - '.github/workflows/aruun-audit.yml'
 
 permissions:

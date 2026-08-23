@@ -1,11 +1,11 @@
 # MYTHROOT — PREHISTORIC MASTER WORLD BIBLE
-## Preservation & Canon Update — v1.5
+## Consolidated Canon Update — v1.4
 
-**Status:** Current authoritative World Bible for development.
+**Purpose:** Current authoritative World Bible update following the v1.3 consolidation checkpoint.
 
-**Source-preservation note:** v1.4 remains preserved as a historical snapshot. This v1.5 keeps all content present in the available v1.4 consolidation and restores/adds material identified in the v1.3 audit that should not have been lost.
+**Historical base:** `MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.3.md`
 
-> **Versioning rule:** New versions preserve prior material. Nothing is intentionally deleted unless explicitly marked RETIRED/SUPERSEDED.
+> This revision preserves the v1.3 canon as the historical base and adds the current locked Peoples-phase decisions. Older versions remain historical snapshots.
 
 ---
 
@@ -60,7 +60,7 @@ The established planetary framework remains:
 - two substantial moons
 - four major continental systems
 
-The causal chain remains:
+The World Bible continues to use the established causal chain:
 
 **planetary parameters → atmosphere/circulation → geography → ocean circulation → climate → water systems → ecology → evolution → culture**
 
@@ -77,40 +77,7 @@ The four major continental systems remain:
 3. **Rift** — one great continental system actively splitting into two major halves.
 4. **Lost** — enormous continuous continent isolated by an immense ocean.
 
-The established working seven-plate architecture remains:
-- Hearth Plate
-- Shatter-West Plate
-- Shatter-East Plate
-- Rift Crown Plate
-- Rift South Plate
-- Oceanic Ring Plate
-- Lost Plate
-
-### Geological history
-
-**Ancient continental assembly**
-→ volcanic arcs, accretion, collisions, stabilization
-
-**Supercontinental interval**
-→ broad ancestral continental complex
-
-**Lost separation**
-→ major rift succeeds, new oceanic crust forms, Lost begins long isolation
-
-**Main-cluster breakup**
-→ Hearth, Shattered, and Rift systems emerge
-
-**Shattering**
-→ overlapping rifts + transform/oblique motion + rotation + accretion create enormous fragments
-
-**Rift formation**
-→ continental crust thins, faults and basins form, volcanism increases, but full ocean formation has not yet occurred
-
-**Long reorganization**
-→ spreading, subduction, transform motion, accretion, uplift, erosion
-
-**Present**
-→ four continental systems remain active geological participants.
+The established working plate architecture and geological sequence remain unchanged from v1.3.
 
 ### Lost isolation
 
@@ -154,34 +121,7 @@ The existing climate overlay remains the authoritative broad climate scaffold.
 
 ---
 
-# 5. OCEAN CIRCULATION & MARINE CLIMATE
-
-The ocean system follows the same causal philosophy as the terrestrial climate model:
-
-> **latitude → winds → currents → heat/moisture → upwelling → marine productivity → coastal climate → terrestrial ecology**
-
-Surface currents are driven primarily by global wind systems, modified by planetary rotation (Coriolis) and continental geometry.
-
-Established broad effects include:
-- moderated coasts;
-- warm and cool current regions;
-- wet and dry coastal climates;
-- storm corridors;
-- different climates around enclosed and semi-enclosed seas;
-- major fisheries near upwelling;
-- settlements near estuaries and river mouths;
-- seasonal coastal migrations;
-- navigation corridors;
-- dangerous current crossings;
-- fog hazards;
-- storm-exposed coasts;
-- coastal resource booms/crashes.
-
-Exact current speeds, temperatures, salinities, seasonal strength, and precise coastline intersections remain open until detailed mapping requires them.
-
----
-
-# 6. ECOLOGY
+# 5. ECOLOGY
 
 The canonical ecological framework remains:
 
@@ -195,19 +135,9 @@ The ecosystem is intentionally larger than the canonical libraries.
 
 The libraries represent **well-understood exemplars**, not total biodiversity.
 
-### Ecological identity by continent
-
-**Hearth:** connected abundance and broad terrestrial food webs.
-
-**Shattered:** fragmentation and specialization.
-
-**Rift:** transition and instability.
-
-**Lost:** deep-time independence.
-
 ---
 
-# 7. HUMANITY — ARUUNITES
+# 6. HUMANITY — ARUUNITES
 
 ## Species identity
 
@@ -223,11 +153,15 @@ They remain a recognizable humanoid lineage shaped by:
 - geographic isolation;
 - culture;
 - technology;
-- long-term gene flow patterns.
+- and long-term gene flow patterns.
 
 ### Species-level evolutionary principle
 
 > **Evolution solves the problems that remain after behavior and technology have done their work.**
+
+Cold does not automatically create extreme cold anatomy if clothing, shelter, fire, and seasonal movement solve most of the pressure.
+
+Heat does not automatically create extreme heat morphology if shade, clothing, water management, and activity timing solve most of the pressure.
 
 Culture and biology interact:
 
@@ -235,7 +169,7 @@ Culture and biology interact:
 
 ---
 
-# 8. ARUUNITE BASELINE
+# 7. ARUUNITE BASELINE
 
 The current species baseline is intentionally compact, robust, and athletic rather than bodybuilder-heavy.
 
@@ -258,7 +192,7 @@ Four-limb locomotion is not the normal adult gait.
 
 ---
 
-# 9. CONTINENTAL ARUUNITE EVOLUTIONARY PROFILES
+# 8. CONTINENTAL ARUUNITE EVOLUTIONARY PROFILES
 
 ## Hearth
 
@@ -273,6 +207,8 @@ Typical traits:
 - strong feet;
 - environmental awareness;
 - high gene flow limiting extreme regional divergence.
+
+Regional climate adaptations are generally subtle because behavior, technology, mobility, and gene flow buffer many pressures.
 
 ## Rift
 
@@ -324,9 +260,9 @@ The Lost baseline should remain recognizably Aruunite rather than becoming an al
 
 ---
 
-# 10. HUMAN POPULATION GEOGRAPHY
+# 9. HUMAN POPULATION GEOGRAPHY
 
-The standalone **HPGL v0.3** is now the detailed reference.
+The standalone HPGL v0.2 is now the detailed reference.
 
 ## Global working population
 
@@ -351,9 +287,12 @@ Larger seasonal aggregations:
 
 A community is not automatically a complete people.
 
-## Population distribution
+---
 
-### Hearth — 1.5 million
+# 10. POPULATION DISTRIBUTION
+
+## Hearth — 1.5 million
+
 - River valleys/floodplains: 25% / 375,000
 - Grassland/woodland: 30% / 450,000
 - Wetlands/lakes: 15% / 225,000
@@ -362,7 +301,10 @@ A community is not automatically a complete people.
 - Dry interior/rain shadows: 7% / 105,000
 - Other/scattered seasonal: 3% / 45,000
 
-### Shattered — 800,000
+Hearth has the strongest overall connectivity and gene flow.
+
+## Shattered — 800,000
+
 - Wet western/ocean fragments: 30% / 240,000
 - Coastal productivity: 25% / 200,000
 - Seasonal interior basins: 20% / 160,000
@@ -371,7 +313,10 @@ A community is not automatically a complete people.
 - Highlands: 5% / 40,000
 - Peripheral islands: 2% / 16,000
 
-### Rift — 1 million
+Connectivity varies sharply by crossing difficulty.
+
+## Rift — 1 million
+
 - Rift-floor grasslands: 25% / 250,000
 - Major lake margins: 20% / 200,000
 - River corridors: 15% / 150,000
@@ -380,7 +325,10 @@ A community is not automatically a complete people.
 - Seasonal woodland/uplands: 7% / 70,000
 - Dry basins/volcanic margins: 6% / 60,000
 
-### Lost — 300,000
+Connectivity is moderate overall but extremely patchy.
+
+## Lost — 300,000
+
 - Coastal networks: 38% / 114,000
 - Grassland/plateau margins: 24% / 72,000
 - Wetland/lake complexes: 10% / 30,000
@@ -388,11 +336,14 @@ A community is not automatically a complete people.
 - Arid basins: 7% / 21,000
 - Deep interior: 9% / 27,000
 
+Lost has the lowest overall population and greatest isolation potential.
+
 ---
 
 # 11. HUMAN MOBILITY
 
 Aruunite movement may be:
+
 - sedentary;
 - seasonally mobile;
 - semi-nomadic;
@@ -431,9 +382,7 @@ The World Bible provides **broad knowledge** about peoples:
 
 Each continent will receive a standalone deep-reference document structurally similar to the Continental Dossiers.
 
-These documents are equally important parts of the setting package.
-
-They will contain:
+These documents will contain:
 - population overview;
 - demographic distribution;
 - environmental zones;
@@ -460,6 +409,8 @@ They will contain:
 - historical development;
 - regional peoples/cultural branches;
 - open questions.
+
+The detailed documents are **equally important parts of the setting package**. They are not secondary simply because the World Bible summarizes them.
 
 ---
 
@@ -515,49 +466,25 @@ Lost is where the greatest regional divergence is expected, but the shared Aruun
 
 # 15. FOOD & PLANT DEVELOPMENT
 
-The canonical flora library currently contains **30 entries**, including **13 signature entries**. The flora system is organized around ecological function rather than botanical completeness.
+The current flora library remains ecological rather than agricultural.
 
-The current library includes, among others:
-- Broadgrass
-- Marshreed
-- Riverweed
-- Duskroot
-- Stonemat
-- Bloomthorn
-- Hollowfruit
-- Deepshoal weed
-- Tideshrub
-- Crustbloom
-- Shoregrass
-- Thornbrush
-- Fragmentreed
-- Ashbloom
-- Driftweed
-- Valleymix
-- Faultscrub
-- Ashcolonizer
-- Rift reed-stand
-- Basinweed
-- Floodroot
-- Galleryhang
-- Plateautuft
-- Deeplichen
-- Mudmat
-- Driftplankton mat
-- Canopyveil
-- Basinsucculent
-- Marginbloom
-- Rootveil
+A dedicated edible-flora expansion handoff has been created for the flora generator.
 
-Background plant diversity exists beyond the 30 named entries.
+The target is enough:
+- staple carbohydrates;
+- seeds/nuts;
+- roots/tubers;
+- fruits;
+- legumes;
+- greens;
+- oils/fats;
+- fermentation substrates;
+- sweetener/honey-like systems;
+- hydration foods;
+- regionally important fallback foods;
+- future domestication candidates.
 
-A dedicated edible-flora expansion handoff has been created for expanding the flora library into plausible Aruunite food plants, including staples, fruits, roots/tubers, legumes, oils/fats, fermentation substrates, sweetener systems, hydration plants, seasonality, toxicity, and domestication potential.
-
-### Agriculture status
-
-Agriculture is **not automatically unlocked** merely because domestication-compatible plants exist.
-
-Wild gathering, plant management, proto-domestication, and agriculture are distinct stages.
+Agriculture is **not automatically assumed** merely because domestication-compatible plants exist.
 
 ---
 
@@ -583,43 +510,10 @@ Do not create an Earth cow/horse analogue unless the ecological pass independent
 
 ---
 
-# 17. CANONICAL FAUNA & ECOLOGICAL INTEGRATION
-
-The canonical fauna library contains **34 exemplars**.
-
-The fauna framework emphasizes:
-- ecological function before body plan;
-- meaningful convergent solutions;
-- large-animal ecological consequences;
-- dangerous but non-malevolent animals;
-- regional variants where justified;
-- Lost's independent evolutionary solutions;
-- cross-environment organisms that connect systems.
-
-The ecological cross-reference confirms strong established plant-fauna relationships, including:
-- Broadgrass → Broadback
-- Marshreed → Marshtread + Marshwing
-- Riverweed → Rivergrazer
-- Duskroot → Rootsnout
-- Stonemat → Ridgehorn
-- Bloomthorn → small burrowers → Duststriker
-- Hollowfruit → Rootsnout + Longjaw habitat
-- Deepshoal weed → fish analogues → Deepjaw
-
-Intentional convergence/divergence pairs include:
-- Broadback vs Basingrazer vs Plateauhorn
-- Ridgehorn vs Highvault vs Shellback
-- Shattered burrower vs Mudweaver
-- Bloomthorn vs Basinsucculent
-- Hearth Broadgrass vs Lost Plateautuft
-
-The canonical libraries are not the total biodiversity of Aruun.
-
----
-
-# 18. STANDALONE DOCUMENT ARCHITECTURE
+# 17. STANDALONE DOCUMENT ARCHITECTURE
 
 The following remain standalone and equally important:
+
 - Master World Bible
 - Continental Dossiers
 - Continental Cultural documents
@@ -636,13 +530,15 @@ The following remain standalone and equally important:
 - Project Changelog
 - specialized research/reference documents
 
-The World Bible summarizes what a creator needs to know while the standalone documents preserve depth.
+The World Bible should summarize what a creator needs to know while the standalone documents preserve depth.
 
 ---
 
-# 19. MATRIX REFERENCE NOTE
+# 18. MATRIX REFERENCE NOTE
 
 The standalone matrices are methodology documents.
+
+At the bottom of the World Bible, they are to be explained briefly:
 
 **Predictive Evolution Matrix:** uses continent + climate + function to identify plausible evolutionary solutions.
 
@@ -656,57 +552,20 @@ The matrices do not replace creative judgment.
 
 ---
 
-# 20. ANACHRONISM & INTERNAL COHERENCE
+# 19. CHANGE MANAGEMENT
 
-## Principle
+Substantive revisions must advance document versions.
 
-> **Anachronism may be impossible; it must not be arbitrary.**
+Older versions remain historical snapshots.
 
-The setting may contain organisms or conditions that did not coexist in Earth's history.
+The project maintains **one changelog** as the continuity record.
 
-The exact mechanism remains **UNKNOWN / OPEN**.
-
-Do not assume:
-- time travel;
-- portals;
-- alternate Earth;
-- divine creation;
-- magical convergence;
-- evolutionary divergence;
-- another planet;
-
-unless later explicitly chosen.
-
-The working scientific/ecological design instead focuses on making coexistence internally coherent.
+Current changelog:
+`MYTHROOT_PROJECT_CHANGELOG.md`
 
 ---
 
-# 21. STORY-BUILDING PHILOSOPHY
-
-## Story density, not information density.
-
-A developed region may contain:
-- geography;
-- ecology;
-- peoples;
-- resources;
-- settlements;
-- history;
-- conflicts;
-- beliefs;
-- story opportunities.
-
-A distant region may remain:
-- a name;
-- rumor;
-- ecological description;
-- or blank space.
-
-Uneven depth is intentional.
-
----
-
-# 22. CURRENT DEVELOPMENT STATUS
+# 20. CURRENT DEVELOPMENT STATUS
 
 ## Established / Locked for current phase
 
@@ -716,7 +575,6 @@ Uneven depth is intentional.
 - Planetary/climate framework
 - Ocean/current framework
 - Flora and fauna libraries
-- Ecological cross-reference
 - Human population baseline
 - Continental population allocations
 - Aruunite baseline
@@ -724,9 +582,8 @@ Uneven depth is intentional.
 - Lost deep-time isolation constraint
 - World Bible vs standalone-document architecture
 - Single changelog policy
-- Peoples-phase documentation architecture
 
-## Open / next major phase
+## Next major phase
 
 **PEOPLES → CULTURES → SUBSISTENCE → TECHNOLOGY → SOCIAL ORGANIZATION**
 
@@ -734,22 +591,18 @@ The next documents to build are the **Continental Cultural documents**, beginnin
 
 ---
 
-# 23. CHANGE MANAGEMENT
+# 21. BOTTOM-OF-BIBLE REFERENCE NOTE
 
-Substantive revisions must advance document versions.
+The standalone matrices, libraries, maps, HPGL, and specialized reference documents are maintained separately so they can be used as quick-reference and deep-development tools.
 
-Older versions remain historical snapshots.
+They are all part of the Aruun setting package.
 
-The project maintains **one changelog** as the continuity record.
-
-Nothing canonical is intentionally deleted without a SUPERSEDED/RETIRED note.
+The World Bible summarizes their established results and explains their role; it does not replace them.
 
 ---
 
 # VERSION
 
-**v1.5 — Preservation Audit / Peoples Phase**
+**v1.4 — Peoples Phase / Canon Consolidation**
 
-This revision preserves the available v1.4 consolidation, restores v1.3-era material identified during audit, and adds current locked Peoples-phase canon.
-
-v1.4 remains preserved as a historical snapshot.
+This revision supersedes v1.3 for current development and preserves v1.3 as a historical snapshot.

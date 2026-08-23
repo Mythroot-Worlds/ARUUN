@@ -1,50 +1,11 @@
-# Changelog
+# MYTHROOT WORLDS — PROJECT CHANGELOG
 
-This changelog records **worldbuilding decisions and their meaning** — what was established or revised, why, and what it affects. It is separate from the Git commit log, which records the technical history of file changes.
-
-Entries are listed newest first.
-
----
-
-## 2026-08-23 — Document Migration Bundle Applied
-
-### Decision
-Migrated the existing Aruun/Mythroot source material (world profile, world bible history, climate, continental dossiers, flora/fauna libraries, Hearth cultural and demographic documents, and project changelogs) from the migration bundle into the domain directories, per `REPO_TABLE_OF_CONTENTS.md`'s proposed destinations.
-
-### Reason
-To make this repository the actual authoritative home for existing Aruun content, rather than a structure with only placeholder files.
-
-### Consequence
-- `00_MASTER/WORLD_BIBLE.md` and `00_MASTER/FOUNDATION_WORLD_PROFILE.md` are now populated from the latest available sources (World Bible v1.5; the Authoritative world profile).
-- Superseded versions of versioned documents (World Bible v0.1–v1.4, HPGL v0.1–v0.2, tectonic model v0.1, ocean/marine climate v0.1, desert cultural base v0.1–v0.2, and the earlier world-concept seed) were preserved under `07_ARCHIVE/HISTORICAL/`, not deleted.
-- Where two source documents were both mapped to the same destination and were not versions of the same document (e.g. Hearth geography overlays, Sunscour hydrology/oasis documents, Hearth family/partnership profiles, Hearth leadership/governance documents), they were combined into the destination file as clearly separated, source-attributed sections rather than editorially merged.
-- `HEARTH_PEOPLES_MOUNTAIN_SPECIALIZATION_STRUCTURE_v0.1.md` was placed at `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md` and remains marked working/not canon, per the migration bundle's own note.
-- Content ownership/canon status was **not** re-decided as part of this migration; each document's own status metadata (where present) was preserved as written.
-
-### Status
-N/A — this is a repository/infrastructure decision, not a worldbuilding decision. No canon, working, or provisional world content was created, reconciled, or overwritten by the migration itself.
-
----
-
-## 2026-08-23 — Repository Structure Established
-
-### Decision
-Established the initial directory structure and configuration files for the Aruun source repository, per `ARUUN_REPOSITORY_STRUCTURE_INSTRUCTIONS.md`.
-
-### Reason
-To provide a stable, domain-organized home for Aruun source material so that "what is the current truth about Aruun?" can be answered by looking at this repository, rather than by searching prior conversations or uploads.
-
-### Consequence
-Future content migration and creation should be placed into the appropriate domain directory (`01_WORLD` through `08_RELEASES`) rather than collected into a single combined document.
-
-### Status
-N/A — this is a repository/infrastructure decision, not a worldbuilding decision. No canon, working, or provisional world content was established or changed.
+## Current Project Changelog
+**Purpose:** Internal continuity record. This is the single changelog for meaningful Mythroot Worlds project decisions and document revisions.
 
 ---
 
 ## 2026-08-22 — Peoples Phase / Canon Consolidation
-
-*Migrated from `MYTHROOT_PROJECT_CHANGELOG.md` during document migration.*
 
 ### 1. Planet Name Established
 **Change:** The planet/world is now canonically named **Aruun**.
@@ -195,52 +156,77 @@ Each substantive document revision must:
 
 ---
 
-### 11. Edible Flora Expansion Handoff Created
-A dedicated Markdown handoff was created for expansion of the flora library into plausible Aruunite edible plants.
+## 2026-08-22 — Preservation Audit / Versioning Correction
 
-It covers:
-- grains/seeds;
-- nuts/oils;
-- roots/tubers;
-- fruits;
-- legumes;
-- greens;
-- fungi;
-- fermentation;
-- honey-like sweetener ecology;
-- hydration plants;
-- saline/mineral foods;
-- domestication potential;
-- toxicity/preparation;
-- seasonality;
-- regional coverage;
-- flora-fauna relationships.
+### 11. HPGL v0.3
+**Change:** Created `MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.3.md`.
 
-**Status:** HANDOFF COMPLETE / CLAUDE EXPANSION INPUT.
+**Preserved:** v0.2 content.
+
+**Restored/retained from v0.1:** fuller human danger/settlement-pressure material and detailed qualitative Shattered/Rift/Lost population descriptions.
+
+**Added/clarified:** explicit contact categories, Lost isolation distinction, and preservation-first version history.
+
+**Removed:** NONE.
+
+**Status:** CURRENT WORKING VERSION.
 
 ---
 
-### 12. Domestication / Pack & Milking Animals
-**Decision:** The setting should investigate **1–2 plausible domestication candidates**, preferably from the existing fauna library rather than inventing Earth-livestock analogues.
+### 12. Master World Bible v1.5
+**Change:** Created `MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.5.md`.
 
-Criteria:
-- behavioral compatibility;
-- social structure;
-- diet/carrying cost;
-- 1.25g tolerance;
-- reproductive/lactation biology;
-- usefulness;
-- ecological consequences;
-- plausibility at the current technology stage.
+**Preserved:** available v1.4 consolidation content.
 
-**Status:** OPEN / NEXT RESEARCH PASS.
+**Restored from earlier material identified during audit:**
+- ocean circulation / marine climate framework;
+- anachronism coherence principle;
+- broader flora/fauna ecological integration;
+- standalone Continental Dossier architecture;
+- canonical ecological relationships and convergence/divergence examples;
+- broader human danger/ecological embeddedness context.
+
+**Added/clarified:**
+- explicit 30-entry flora roster at Bible level;
+- edible-flora development status;
+- domestication/pack/milking animal next-pass criteria;
+- current Peoples-phase status;
+- preservation-first change-management rule.
+
+**Removed:** NONE intentionally.
+
+**Important audit limitation:** file search exposes indexed document content rather than guaranteeing byte-for-byte raw source access. Therefore v1.5 is a corrected preservation consolidation based on the available v1.4 content plus earlier-version material surfaced by audit; it is not represented as a cryptographic/byte-identical copy of v1.3.
+
+**Status:** CURRENT WORLD BIBLE VERSION.
 
 ---
 
-### Versioning Rule
+### 13. Edible Flora Handoff
+**Change:** Existing `ARUUNITE_EDIBLE_FLORA_EXPANSION_HANDOFF.md` remains preserved.
 
-The newest applicable version of a document is authoritative.
+**Status:** HANDOFF COMPLETE; no destructive rewrite.
 
-Older versions remain historical snapshots.
+---
 
-Do not silently overwrite substantive canon.
+### 14. Versioning Rule Reinforced
+**New rule:** A version bump means:
+
+**previous version + additions/modifications**
+
+not:
+
+**reconstruction from search snippets + additions**
+
+If a literal preservation copy cannot be guaranteed, the result must be labeled **consolidation draft** rather than falsely presented as a lossless version.
+
+**Status:** LOCKED PROJECT PROCESS.
+
+---
+
+## Current authoritative document versions
+
+- Master World Bible: **v1.5**
+- Human Population Geography Layer: **v0.3**
+- Edible Flora Expansion Handoff: **current handoff preserved**
+- Project Changelog: **current**
+- Other standalone libraries/matrices: **unchanged unless a substantive update is required**

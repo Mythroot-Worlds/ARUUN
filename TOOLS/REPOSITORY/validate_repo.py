@@ -13,15 +13,18 @@ IGNORE_DIRS={".git",".github","node_modules"}; ARCHIVE_TOP="07_ARCHIVE"
 VALID_LAYERS={"world","tool","reference","audit","archive","release"}
 VALID_STATUS={"canon","working_model","inference","proposal","open","unknown","retired","canon_reference","working","provisional"}
 VALID_AUTHORITY={"world","regional","continental","tool","reference","supporting","historical","audit"}
-STATUS_MAP={
- "authoritative":"canon","current authoritative world bible for development.":"canon",
- "canonical consolidation / current state":"canon","working canon — creative geography decision":"canon",
- "working canon — science-derived geographic decision":"canon","working canon":"working_model",
- "broad working pass. nothing here is locked canon unless explicitly approved.":"working_model",
- "proposed working layer — not cultural canon":"proposal",
- "broad working framework. not locked canon.":"working_model",
- "working canon. built per `01_master_instructions.md` and `05_batch_prompt.md`. no world-name has been assigned; none is used here.":"working_model",
-}
+STATUS_PATTERNS=[
+ (r"^authoritative\.?$","canon"),
+ (r"^current authoritative world bible for development\.?$","canon"),
+ (r"^canonical consolidation / current state\.?$","canon"),
+ (r"^canonical consolidation.*","canon"),
+ (r"^working canon.*","working_model"),
+ (r"^broad working pass.*not locked canon.*","working_model"),
+ (r"^broad working framework.*not locked canon.*","working_model"),
+ (r"^proposed working layer.*not cultural canon.*","proposal"),
+ (r"^science-derived geographic decision.*","working_model"),
+ (r"^working canon\. built per.*","working_model"),
+]
 SUBJECT_ALIASES={"family_birth_childhood":"family.birth_childhood","birth_childhood":"family.birth_childhood","family_partnership":"family.partnership","governance_and_authority":"governance.authority","governance_authority":"governance.authority","food_subsistence":"food.subsistence","settlement_housing":"settlement.housing"}
 KNOWN_CLAIMS=[
  ("DEMO-001",r"(?:~|about\s*)?1[.,]?5\s*(?:million|M)\b",r"~?1[.,]?91\s*(?:million|M)\b","Superseded Hearth population claim (~1.5M) conflicts with the newer ~1.91M working demographic model.","Review current active demographic references; preserve historical/archive occurrences."),
@@ -76,7 +79,10 @@ def expected(rel):
 
 def normalized_status(raw):
  s=raw.strip().lower().rstrip(".")
- return STATUS_MAP.get(s,s)
+ if s in VALID_STATUS:return s
+ for pattern,normalized in STATUS_PATTERNS:
+  if re.search(pattern,s,re.I):return normalized
+ return ""
 
 def scan(root):
  docs=[];findings=[];texts={};n=1
@@ -90,13 +96,15 @@ def scan(root):
   if not d.id:findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),"Missing stable document id.","Assign a stable ID when the document is next actively edited."));n+=1
   if not fm and not inline_status(text):findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),"No recognized frontmatter or inline Status metadata.","Migrate metadata when actively editing; do not rewrite historical files."));n+=1
   if d.layer not in VALID_LAYERS:findings.append(Finding(f"META-{n:04d}","WARNING","metadata",str(rel),f"Unknown/missing layer: {d.layer or '<missing>'}.","Map to the repository schema."));n+=1
-  if raw_status and status not in VALID_STATUS:findings.append(Finding(f"META-{n:04d}","INFO","status",str(rel),f"Unnormalized status: {raw_status}.","Map to the target status vocabulary when edited."));n+=1
+  if raw_status and not status:findings.append(Finding(f"META-{n:04d}","INFO","status",str(rel),f"Status vocabulary not yet mapped: {raw_status}.","Add an explicit mapping only if this existing phrase is intended to remain active."));n+=1
   if d.authority and d.authority not in VALID_AUTHORITY:findings.append(Finding(f"META-{n:04d}","WARNING","authority",str(rel),f"Unknown authority: {d.authority}.","Map to the schema authority vocabulary."));n+=1
   for field in ("domain","layer","continent","people"):
    if field in exp and getattr(d,field) and getattr(d,field).lower()!=exp[field].lower():findings.append(Finding(f"PATH-{n:04d}","ERROR","path_metadata",str(rel),f"{field}={getattr(d,field)!r} conflicts with path expectation {exp[field]!r}.","Review path and metadata; do not auto-rewrite."));n+=1
-  upper=path.stem.upper()
-  if any(t in upper for t in ("FINAL","FINAL2","TEMP","NEW_","UPDATED")) or ("REVISION" in upper and "DEMOGRAPHIC_MOUNTAIN_REVISION.md" in path.name):
-   findings.append(Finding(f"NAME-{n:04d}","WARNING","filename",str(rel),"Filename contains a production/temporary naming pattern.","Recommend a stable subject-based filename after collision/reference review."));n+=1
+  upper=path.stem.upper(); package="CREATION_PACKAGE" in str(rel).upper()
+  production_warning=any(t in upper for t in ("FINAL","FINAL2","TEMP","NEW_","UPDATED"))
+  if "BATCH" in upper and not package:production_warning=True
+  if "REVISION" in upper:production_warning=True
+  if production_warning:findings.append(Finding(f"NAME-{n:04d}","WARNING","filename",str(rel),"Filename contains a production/temporary naming pattern.","Recommend a stable subject-based filename after collision/reference review."));n+=1
   if "COMPARATIVE" in rel.parts and not path.stem.endswith("_COMPARATIVE"):findings.append(Finding(f"NAME-{n:04d}","WARNING","filename",str(rel),"Comparative document is not explicitly marked in its filename.","Use <SUBJECT>_COMPARATIVE.md."));n+=1
  return docs,findings,texts
 

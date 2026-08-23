@@ -1,0 +1,1 @@
+Validator refinement queued: existing ARUUN status phrases should normalize to canonical/working_model/proposal for reporting without generating migration warnings solely because the source uses legacy wording. This note is temporary and should be removed after validator update.

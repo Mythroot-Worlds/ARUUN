@@ -900,7 +900,7 @@
 - **Category:** semantic_conflict
 - **Path:** `00_MASTER/WORLD_BIBLE.md`
 - **Finding:** Superseded River population claim (~375k) conflicts with the newer ~500k working model.
-- **Recommendation:** Review current active demographic references.
+- **Recommendation:** Review current demographic references.
 - **Related:** 01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md; 01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md; 03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md; TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md; TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md
 - **Status:** open
 

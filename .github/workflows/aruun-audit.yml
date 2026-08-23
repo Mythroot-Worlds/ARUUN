@@ -11,7 +11,7 @@ on:
       - '.github/workflows/aruun-audit.yml'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   audit:
@@ -29,6 +29,18 @@ jobs:
 
       - name: Run read-only repository validator
         run: python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
+
+      - name: Commit audit reports to repository
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add TOOLS/REPOSITORY/REPORTS/
+          if git diff --cached --quiet; then
+            echo "No audit report changes to commit."
+          else
+            git commit -m "chore(audit): update repository audit reports"
+            git push
+          fi
 
       - name: Upload audit reports
         uses: actions/upload-artifact@v4

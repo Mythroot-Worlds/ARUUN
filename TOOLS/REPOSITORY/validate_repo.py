@@ -24,7 +24,7 @@ SUBJECT_ALIASES={"family_birth_childhood":"family.birth_childhood","birth_childh
 KNOWN_CLAIMS=[
  ("DEMO-001",r"(?:~|about\s*)?1[.,]?5\s*(?:million|M)\b",r"~?1[.,]?91\s*(?:million|M)\b","Superseded Hearth population claim (~1.5M) conflicts with the newer ~1.91M working demographic model.","Review current active demographic references; preserve historical/archive occurrences."),
  ("DEMO-002",r"450[,.]?000|450k\b",r"650[,.]?000|650k\b","Superseded Plains population claim (~450k) conflicts with the newer ~650k working model.","Review current active demographic references."),
- ("DEMO-003",r"375[,.]?000|375k\b",r"500[,.]?000|500k\b","Superseded River population claim (~375k) conflicts with the newer ~500k working model.","Review current active demographic references."),
+ ("DEMO-003",r"375[,.]?000|375k\b",r"500[,.]?000|500k\b","Superseded River population claim (~375k) conflicts with the newer ~500k working model.","Review current demographic references."),
  ("DEMO-004",r"225[,.]?000|225k\b",r"290[,.]?000|290k\b","Superseded Wetlands population claim (~225k) conflicts with the newer ~290k working model.","Review current demographic references."),
  ("DEMO-005",r"180[,.]?000|180k\b",r"290[,.]?000|290k\b","Superseded Coast population claim (~180k) conflicts with the newer ~290k working model.","Review current demographic references."),
  ("DEMO-006",r"120[,.]?000|120k\b",r"95[,.]?000|95k\b","Superseded Mountains population claim (~120k) conflicts with the newer ~95k working model.","Review current demographic references."),

@@ -1,0 +1,39 @@
+{
+  "engine": "CORE A.C.E. Human Reconciliation Set",
+  "mode": "READ_ONLY",
+  "purpose": "Preserve human judgments from the corrected blind-test pass without promoting them into training or canon changes.",
+  "annotation_policy": {
+    "human_judgments_are_ground_truth_candidates": true,
+    "automatic_training": false,
+    "automatic_canon_change": false,
+    "preserve_raw_choices": true,
+    "preserve_reasoning": true,
+    "deduplicate_by_exact_pair": true
+  },
+  "annotations": [
+    {"left":"03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/PLAINS.md","raw_choices":["VARIANT"],"reasoning":"Broad Hearth family/birth framework versus Plains regional expression."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/DESERT.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md","raw_choices":["RELATED","SUPPORTING","HISTORICAL"],"reasoning":"Desert is a regional-level document; Mountain Specialist Houses is settlement-level. Both concern Hearth peoples. The reasoning describes scope and population hierarchy rather than historical change; preserve HISTORICAL as the raw selected option for audit."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md","right":"03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Partnership and reproduction/family formation overlap conceptually."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md","right":"03_PEOPLES/CULTURES/HEARTH/WETLANDS.md","raw_choices":["SUPPORTING","CONFLICT"],"reasoning":"Supporting/audit document versus regional culture document."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/DESERT.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED","SUPPORTING","HISTORICAL"],"reasoning":"Both concern Desert peoples; one is broad regional information and the other focuses on family/birth/childhood. Reasoning indicates scope/function, not historical change; preserve HISTORICAL as raw selection."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md","raw_choices":["RELATED","CONFLICT"],"reasoning":"Leadership document versus mountain lineage structure; overlapping authority can create conflict/overlap."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Broad family/birth framework versus narrower Mountain expression."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Same people/cultural population; regional material versus comparative/continental treatment."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Different peoples/groups, both narrow birth/childhood material."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/DESERT.md","right":"03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Same people/cultural population; regional view versus continental/comparative view."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Birth material for different regions, both narrow views."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Same as previous: different regional family/birth material."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Different regional peoples, both narrow family/birth material."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT.md","raw_choices":["RELATED"],"reasoning":"Broad leadership/governance versus broad regional population information."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/COAST.md","right":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","raw_choices":["RELATED"],"reasoning":"Broad regional/cultural information versus broad governance information."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/WETLANDS.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Broad family framework versus regional cultural view."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Both narrow family/birth views for different regions."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md","right":"03_PEOPLES/CULTURES/HEARTH/WETLANDS.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Broad family framework versus broad regional cultural view."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md","raw_choices":["RELATED"],"reasoning":"Same family/birth subject across different regions."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md","right":"03_PEOPLES/CULTURES/HEARTH/DESERT.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Broad regional content versus support/audit checklist."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md","raw_choices":["RELATED","SUPPORTING"],"reasoning":"Narrow regional/settlement material versus support/audit checklist."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/PLAINS.md","right":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","raw_choices":["RELATED"],"reasoning":"Broad region versus broad leadership."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/WETLANDS.md","right":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","raw_choices":["RELATED"],"reasoning":"Broad region versus broad leadership."},
+    {"left":"03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md","right":"03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md","raw_choices":["VARIANT","SUPPORTING","CONFLICT"],"reasoning":"Mountain House heads run villages together while retaining House specialty responsibilities. This is overlapping governance structure at different scales, not automatically contradiction."}
+  ]
+}

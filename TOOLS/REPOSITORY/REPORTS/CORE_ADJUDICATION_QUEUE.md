@@ -5,6 +5,10 @@
 Source discoveries: **70**
 Review queue: **30**
 
+## Resolution vocabulary
+- Final: `DUPLICATE`, `SUPPORTING`, `HISTORICAL`, `MISPLACED`, `CONFLICT`, `RELATED`, `COINCIDENTAL`, `REVIEW`, `UNRESOLVED`
+- Legacy only: `VARIANT` — never a final resolution; route through semantic arbitration.
+
 | Review | Strength | Relationship | Status |
 |---|---:|---|---|
 | `ADJ-001` | **5/5** | `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` | PENDING |

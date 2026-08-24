@@ -3,9 +3,24 @@
   "mode": "REVIEW_ONLY",
   "source_discoveries": 70,
   "queue_size": 30,
+  "final_label_vocabulary": [
+    "COINCIDENTAL",
+    "CONFLICT",
+    "DUPLICATE",
+    "HISTORICAL",
+    "MISPLACED",
+    "RELATED",
+    "REVIEW",
+    "SUPPORTING",
+    "UNRESOLVED"
+  ],
+  "legacy_label_vocabulary": [
+    "VARIANT"
+  ],
   "instructions": [
-    "Assign a human_label only after reviewing both records.",
-    "Use existing labels where applicable: VARIANT, SUPPORTING, HISTORICAL, MISPLACED, CONFLICT, RELATED, COINCIDENTAL, REVIEW.",
+    "Assign a human_label only after reviewing both records and their context.",
+    "Final labels: DUPLICATE, SUPPORTING, HISTORICAL, MISPLACED, CONFLICT, RELATED, COINCIDENTAL, REVIEW, or UNRESOLVED.",
+    "VARIANT is legacy-only and must never be written as a final resolution; route it to REVIEW/context arbitration.",
     "Do not infer canon from match strength alone.",
     "Record a reason and preserve the relationship_id."
   ],

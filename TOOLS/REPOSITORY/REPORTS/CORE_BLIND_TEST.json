@@ -2,7 +2,7 @@
   "engine": "CORE A.C.E. Blind Generalization Test",
   "mode": "READ_ONLY",
   "holdout_size": 30,
-  "exemplar_pool_size": 2,
+  "exemplar_pool_size": 42,
   "predictions": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -13,11 +13,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
+        "VARIANT": 1.732379000772445,
         "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -36,6 +36,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -94,7 +106,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -108,11 +122,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.623,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
-        "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
+        "VARIANT": 1.8161895003862227,
+        "HISTORICAL": 1.764213562373095,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -131,6 +145,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -163,6 +189,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -189,7 +221,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -203,11 +238,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
+        "VARIANT": 1.732379000772445,
         "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -226,6 +261,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -284,7 +331,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -385,11 +434,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.623,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
+        "VARIANT": 1.8161895003862227,
         "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -408,6 +457,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -466,7 +527,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -480,11 +543,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.548,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
-        "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
+        "VARIANT": 2.4661895003862226,
+        "HISTORICAL": 1.9142135623730951,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -503,6 +566,24 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.5,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-7062981cf353b9e5",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.5,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -535,6 +616,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.5,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -561,7 +648,11 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-7062981cf353b9e5",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -575,11 +666,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.69,
+      "confidence": 0.556,
       "evidence_scores": {
         "RELATED": 3.1457513110645907,
-        "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
+        "VARIANT": 2.516189500386223,
+        "HISTORICAL": 1.764213562373095,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -598,6 +689,30 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -630,6 +745,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -656,7 +777,12 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-2c7f63b3574579db",
+        "LED-6dd5155cd156c15c",
+        "LED-81165e4846882bbc",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -670,11 +796,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
+        "VARIANT": 1.732379000772445,
+        "HISTORICAL": 1.4813708498984761,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -693,6 +819,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -725,6 +863,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -751,7 +895,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -765,11 +912,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
+        "VARIANT": 1.732379000772445,
         "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -788,6 +935,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -846,7 +1005,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -947,11 +1108,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.564,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
+        "VARIANT": 2.3161895003862227,
         "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -970,6 +1131,24 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.5,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-e2f2e4b304ba82dc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1028,7 +1207,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc",
+        "LED-e2f2e4b304ba82dc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1042,9 +1224,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.804,
+      "confidence": 0.841,
       "evidence_scores": {
-        "VARIANT": 2.41379000772445,
+        "VARIANT": 3.1137900077244502,
         "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
@@ -1065,6 +1247,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1123,7 +1317,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1137,11 +1333,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
+        "VARIANT": 1.732379000772445,
         "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -1160,6 +1356,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1218,7 +1426,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1232,11 +1442,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
+        "VARIANT": 1.732379000772445,
+        "HISTORICAL": 1.4813708498984761,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -1255,6 +1465,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1287,6 +1509,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -1313,7 +1541,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1327,9 +1558,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.714,
+      "confidence": 0.78,
       "evidence_scores": {
-        "VARIANT": 1.669193338482967,
+        "VARIANT": 2.369193338482967,
         "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
@@ -1350,6 +1581,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1408,7 +1651,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1422,11 +1667,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.564,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
+        "VARIANT": 2.3161895003862227,
         "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -1445,6 +1690,24 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.5,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-e2f2e4b304ba82dc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1503,7 +1766,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc",
+        "LED-e2f2e4b304ba82dc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1517,9 +1783,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.804,
+      "confidence": 0.841,
       "evidence_scores": {
-        "VARIANT": 2.41379000772445,
+        "VARIANT": 3.1137900077244502,
         "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
@@ -1540,6 +1806,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1598,7 +1876,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1612,11 +1892,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.698,
+      "confidence": 0.602,
       "evidence_scores": {
         "RELATED": 2.6166010488516727,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
+        "VARIANT": 1.732379000772445,
+        "HISTORICAL": 1.4813708498984761,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -1635,6 +1915,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1667,6 +1959,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -1693,7 +1991,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1707,9 +2008,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.804,
+      "confidence": 0.841,
       "evidence_scores": {
-        "VARIANT": 2.41379000772445,
+        "VARIANT": 3.1137900077244502,
         "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
@@ -1730,6 +2031,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1788,7 +2101,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -1802,9 +2117,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.714,
+      "confidence": 0.78,
       "evidence_scores": {
-        "VARIANT": 1.669193338482967,
+        "VARIANT": 2.369193338482967,
         "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
@@ -1825,6 +2140,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -1883,7 +2210,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -2071,11 +2400,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
+        "VARIANT": 1.732379000772445,
         "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -2094,6 +2423,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -2152,7 +2493,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -2166,9 +2509,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.804,
+      "confidence": 0.841,
       "evidence_scores": {
-        "VARIANT": 2.41379000772445,
+        "VARIANT": 3.1137900077244502,
         "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
@@ -2189,6 +2532,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -2247,7 +2602,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -2356,11 +2713,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.679,
+      "confidence": 0.623,
       "evidence_scores": {
         "RELATED": 2.995751311064591,
-        "HISTORICAL": 1.4142135623730951,
-        "VARIANT": 1.1161895003862226,
+        "VARIANT": 1.8161895003862227,
+        "HISTORICAL": 1.764213562373095,
         "COINCIDENTAL": 1.0,
         "CONFLICT": 1.0,
         "REVIEW": 1.0,
@@ -2379,6 +2736,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -2411,6 +2780,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -2437,7 +2812,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -2538,11 +2916,11 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.686,
+      "confidence": 0.587,
       "evidence_scores": {
         "RELATED": 2.4666010488516728,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
+        "VARIANT": 1.732379000772445,
+        "HISTORICAL": 1.4813708498984761,
         "COINCIDENTAL": 0.8,
         "CONFLICT": 0.8,
         "REVIEW": 0.8,
@@ -2561,6 +2939,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -2593,6 +2983,12 @@
             "support": 2.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "RELATED": [
@@ -2619,7 +3015,10 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-1f4d9425dc932d0d",
+        "LED-6dd5155cd156c15c",
+        "LED-95bd1fef92560afc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -2720,9 +3119,9 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.714,
+      "confidence": 0.78,
       "evidence_scores": {
-        "VARIANT": 1.669193338482967,
+        "VARIANT": 2.369193338482967,
         "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
@@ -2743,6 +3142,18 @@
             "support": 1.0,
             "proposed": "MERGE",
             "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.35,
+            "source": "DECISION_LEDGER"
           }
         ],
         "MISPLACED": [
@@ -2801,7 +3212,9 @@
         ]
       },
       "exemplar_hits": [
-        "ANN-2633e780eecf83e6"
+        "ANN-2633e780eecf83e6",
+        "LED-2c7f63b3574579db",
+        "LED-81165e4846882bbc"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true

@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Exemplar Pool",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "mode": "READ_ONLY",
-  "example_count": 2,
+  "example_count": 42,
   "examples": [
     {
       "example_id": "ANN-2633e780eecf83e6",
@@ -13,6 +13,7 @@
       "raw_choices": [
         "RELATED"
       ],
+      "proposed": null,
       "reason": "Same region; one is historical/support material and the other is family/leadership document.",
       "domain": "PEOPLES",
       "role": "CANON",
@@ -29,11 +30,652 @@
         "RELATED",
         "SUPPORTING"
       ],
+      "proposed": null,
       "reason": "Same people/cultural population; regional view versus continental/comparative view.",
       "domain": "PEOPLES",
       "role": "CANON",
       "source": "HUMAN_ANNOTATION",
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "LED-039c3457cb3db2f3",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "COINCIDENTAL",
+      "raw_choices": [
+        "COINCIDENTAL"
+      ],
+      "proposed": "MERGE",
+      "reason": "Repeated process language is not a world-information relationship.",
+      "domain": "TOOLS",
+      "role": "TOOL",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-0b7fa62c14da5a5c",
+      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both are regional developmental systems addressing the same cultural layer, but their practices and principles differ; they are regional variants, not duplicates.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-0c662ecdd077ea60",
+      "relationship_id": "REL-b14ccfa2f792b164",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "The family/partnership profile contains Coast-specific household and partnership proposals, while the Coast record covers the broader culture; they overlap materially but serve different scopes.",
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-0df8e855dafd3846",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "SUPPORTING",
+      "raw_choices": [
+        "SUPPORTING"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Methodology supports the library but is not itself a duplicate world fact.",
+      "domain": "ECOLOGY",
+      "role": "TOOL",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-0f048a755a37745f",
+      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The Plains regional record provides the detailed Plains expression of the shared Hearth framework; preserve the regional detail rather than collapse it into the umbrella record.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-1f4d9425dc932d0d",
+      "relationship_id": "REL-8f0d4a8b5d7f0d2a",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The Mountain regional record is the specialist-lineage expression of the umbrella Hearth developmental framework; regional specificity must remain intact.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-25a1cc1ae7f97bc6",
+      "relationship_id": "REL-b530ce6659fa3717",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "The family profile includes Desert partnership, oasis, Lifekeeper, and Water Watcher material while the Desert record covers broader culture; the overlap is substantive but not identical.",
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-2c7f63b3574579db",
+      "relationship_id": "REL-50cd84d073a9394d",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both are regional childhood systems within the shared Hearth framework; the River system adds water-specific knowledge and travel expectations rather than replacing Plains practice.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-39a4c36724bf8d6a",
+      "relationship_id": "REL-e37bc5dc52f71e21",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The Wetlands record is a regional implementation of the shared developmental framework with distinct group-based practices.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-4c78bce508c78597",
+      "relationship_id": "REL-9119c7e451067bdb",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "The demographic working model directly informs why Mountain specialist structures consolidate competencies; the documents support the same working design without being duplicates.",
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-65689af3f1d0bce6",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Shared cultural pattern may be expressed differently by region; preserve regional distinctions until equivalence is proven.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-66e44231e012d59e",
+      "relationship_id": "REL-feb21b4aefc7a187",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both are aquatic-region developmental systems, but Coast communal breadth and River water-network training are materially distinct.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-69b887dbb229ad9a",
+      "relationship_id": "REL-fad598e6ee381f08",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both are regional survival cultures with strong mobility and resource-management themes, but their social structures and environmental pressures are distinct.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-6dd5155cd156c15c",
+      "relationship_id": "REL-f51bfc99cb5d96a7",
+      "left": null,
+      "right": null,
+      "label": "HISTORICAL",
+      "raw_choices": [
+        "HISTORICAL"
+      ],
+      "proposed": "MERGE",
+      "reason": "The current Specialist Houses document explicitly supersedes earlier open working material; the older lineages update remains useful historical development context but cannot override current canon.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-7062981cf353b9e5",
+      "relationship_id": "REL-1405f0ab574f068e",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both are regional expressions of the shared Hearth developmental problem, but Plains contribution-based mobility and Mountain lineage-based training are materially different.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-79df0ad5129dbf8d",
+      "relationship_id": "REL-3fb322fe3ce82be1",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both use broad community learning and useful work, but Wetlands centers the functional group and seasonal exchanges while Plains centers mobile/anchor community life.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-7cd33931a73ab5f2",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "COINCIDENTAL",
+      "raw_choices": [
+        "COINCIDENTAL"
+      ],
+      "proposed": "MERGE",
+      "reason": "Lexical similarity alone is insufficient evidence of identity.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-7e25701c0ea80050",
+      "relationship_id": "REL-d760a97344d0c388",
+      "left": null,
+      "right": null,
+      "label": "SUPPORTING",
+      "raw_choices": [
+        "SUPPORTING"
+      ],
+      "proposed": "MERGE",
+      "reason": "The checklist explicitly defines leadership and decision-making as an audit layer; it is a tool for checking governance material, not a competing source of governance canon.",
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-81165e4846882bbc",
+      "relationship_id": "REL-6393b0e5604c64be",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both solve childhood development within Hearth but produce different environmental and cultural responses; the relationship is comparative/variant, not duplication.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-817fa6b875cf569a",
+      "relationship_id": "REL-eefa3db53e167615",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both are regional culture records with substantial shared Hearth survival vocabulary, but their communal structures and ecological constraints are distinct.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-82a97d05287983f3",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "REVIEW",
+      "raw_choices": [
+        "REVIEW"
+      ],
+      "proposed": "MERGE",
+      "reason": "Uncertainty must remain explicit rather than being converted into a confident merge.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-95bd1fef92560afc",
+      "relationship_id": "REL-2bccf3bd93305a2f",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both address early skill development but Wetlands uses group rotation and seasonal exchange while Mountains emphasize specialist lineage immersion.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-99fe86b41548dd59",
+      "relationship_id": "REL-9c7fbdc858131086",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The Coast record instantiates the shared Hearth developmental framework with Coast-specific practice; regional detail must remain intact.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-9b9ea7d6a782c85c",
+      "relationship_id": "REL-90b218660b55f84f",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "Both address developmental systems shaped by aquatic environments, but Wetlands and River have distinct social units, training, and adulthood criteria.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-a6dd47dda9895911",
+      "relationship_id": "REL-93788d9bb20b191c",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both have strong communal survival structures and environmental specialization, but Wetlands centers functional groups and Desert centers oasis/Lifekeeper networks.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-ab7fda1b26070b5e",
+      "relationship_id": "REL-773193a03cf54926",
+      "left": null,
+      "right": null,
+      "label": "SUPPORTING",
+      "raw_choices": [
+        "SUPPORTING"
+      ],
+      "proposed": "MERGE",
+      "reason": "The checklist supplies the audit categories used to evaluate Coast culture; it is supporting process infrastructure, not another Coast canon record.",
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-c5411507f2f14088",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "HISTORICAL",
+      "raw_choices": [
+        "HISTORICAL"
+      ],
+      "proposed": "MERGE",
+      "reason": "Archive evidence must remain traceable but cannot override current canon.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-cac5875be276379c",
+      "relationship_id": "REL-d2769ca87432c610",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both regional culture records share aquatic and communal survival pressures, but they describe distinct peoples and ecological adaptations.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-d1f26e91a9984f7d",
+      "relationship_id": "REL-675f7dc38c063173",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both emphasize broad competence, cooperation, and movement/information exchange, but Coast communal life and Plains mobile-group life are distinct systems.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-d67c1121088abcc8",
+      "relationship_id": "REL-05ae219e967b33df",
+      "left": null,
+      "right": null,
+      "label": "SUPPORTING",
+      "raw_choices": [
+        "SUPPORTING"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The comparative document summarizes and contrasts the same developmental framework; it is a reference layer that supports navigation and comparison rather than a second canon source.",
+      "domain": "PEOPLES",
+      "role": "COMPARATIVE",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-db33f585601b2309",
+      "relationship_id": "REL-341efe5ddc2482a6",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both describe Hearth social institutions and intersect around family authority, partnership, elders, and community decision-making, but neither is a duplicate of the other.",
+      "domain": "PEOPLES",
+      "role": "WORKING_CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-dc0c7e8aa86ad72a",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Additional compatible detail should be related and potentially consolidated without erasing either provenance trail.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-e278673c99c37e62",
+      "relationship_id": "REL-9356c781e2ab7917",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "The family profile contains Plains household and partnership proposals that connect directly to the broader Plains social structure, but neither record replaces the other.",
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-e2f2e4b304ba82dc",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "MERGE",
+      "reason": "A broad comparative statement and a regional expression can coexist; do not flatten regional specificity.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-e7f7fa9c0e0c1ed3",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "CONFLICT",
+      "raw_choices": [
+        "CONFLICT"
+      ],
+      "proposed": "MERGE",
+      "reason": "Do not silently choose a winner; preserve both provenance trails and require human resolution.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-ef367ca201c02b80",
+      "relationship_id": null,
+      "left": null,
+      "right": null,
+      "label": "MISPLACED",
+      "raw_choices": [
+        "MISPLACED"
+      ],
+      "proposed": "KEEP",
+      "reason": "The information may be valid but its location does not match its stated geographic scope; flag for placement review rather than duplicate it.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-f026d494b5993efe",
+      "relationship_id": "REL-ead9ec80b42f820d",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The regional Desert record is a detailed expression of the broader approved Hearth developmental framework; it preserves regional specificity rather than being a separate contradictory fact.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-f37595952e2a12d1",
+      "relationship_id": "REL-78aa0ac023ba1f89",
+      "left": null,
+      "right": null,
+      "label": "VARIANT",
+      "raw_choices": [
+        "VARIANT"
+      ],
+      "proposed": "DUPLICATE",
+      "reason": "The River regional record expands the umbrella framework with river-specific learning and travel; it is a regional variant, not duplicate canon.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-fd35d55f3de974c5",
+      "relationship_id": "REL-999325433c79bc99",
+      "left": null,
+      "right": null,
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": "MERGE",
+      "reason": "Both emphasize distributed competence, cooperation, and flexible work, but Wetlands communal separatism and Plains mobility create distinct cultural systems.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
+    },
+    {
+      "example_id": "LED-ffcf4e321d345256",
+      "relationship_id": "REL-63e65f85b9949f10",
+      "left": null,
+      "right": null,
+      "label": "SUPPORTING",
+      "raw_choices": [
+        "SUPPORTING"
+      ],
+      "proposed": "MERGE",
+      "reason": "The checklist explicitly tracks family and partnership topics as an audit framework; it supports the cultural record but does not constitute the cultural facts.",
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "source": "DECISION_LEDGER",
+      "confidence": "HUMAN_ADJUDICATED"
     }
   ],
   "holdout_exclusion": {

@@ -2,10 +2,10 @@
 
 Growing human-verified precedent library. Current blind-test holdouts are excluded.
 
-Examples: **2**
+Examples: **42**
 Excluded holdout IDs: **30**
 Excluded holdout pairs: **30**
 
 ## Sources
-- Decision ledger examples: **0**
+- Decision ledger examples: **40**
 - Human annotation examples: **2**

@@ -1,89 +1,40 @@
 # ARUUN Canonical Consolidation Review
 
 **Mode:** READ-ONLY / PROPOSE-ONLY
+**Context aware:** Yes
 
-This packet consolidates repeated evidence for human review. It does not declare canon, delete sources, or move files.
+Repeated wording is weak evidence by itself. Folder/domain context, document role, and common process language are used to reduce false positives.
 
 ## Decision vocabulary
 `KEEP` · `MERGE` · `MOVE` · `LINK` · `ARCHIVE` · `UNRESOLVED`
 
-Shared evidence units: **73**
+Context-compatible shared evidence units: **58**
 
-## 1. Hearth: ~1.5 million
+## 1. > **Anachronism may be impossible; it must not be arbitrary.**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
-- **Sources:** `00_MASTER/WORLD_BIBLE.md`, `CHANGELOG.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `CHANGELOG.md`
-  - `00_MASTER/WORLD_BIBLE.md`
-
-## 2. Older versions remain historical snapshots.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `00_MASTER/WORLD_BIBLE.md`, `CHANGELOG.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `CHANGELOG.md`
-  - `00_MASTER/WORLD_BIBLE.md`
-
-## 3. > **Anachronism may be impossible; it must not be arbitrary.**
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
+- **Domains:** system
+- **Roles:** canon, other
 - **Sources:** `00_MASTER/FOUNDATION_WORLD_PROFILE.md`, `00_MASTER/WORLD_BIBLE.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `00_MASTER/FOUNDATION_WORLD_PROFILE.md`
-  - `00_MASTER/WORLD_BIBLE.md`
+  - `00_MASTER/FOUNDATION_WORLD_PROFILE.md` — system / other
+  - `00_MASTER/WORLD_BIBLE.md` — system / canon
 
-## 4. **Shattered:** fragmentation and specialization.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `00_MASTER/WORLD_BIBLE.md`, `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `00_MASTER/WORLD_BIBLE.md`
-  - `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-
-## 5. **Rift:** transition and instability.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `00_MASTER/WORLD_BIBLE.md`, `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `00_MASTER/WORLD_BIBLE.md`
-  - `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-
-## 6. **Lost:** deep-time independence.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `00_MASTER/WORLD_BIBLE.md`, `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `00_MASTER/WORLD_BIBLE.md`
-  - `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md`
-
-## 7. <!-- Migrated document: this file combines multiple source documents preserved verbatim below, each under its own heading with original filename noted. No content has been reconciled or edited. -->
+## 2. <!-- Migrated document: this file combines multiple source documents preserved verbatim below, each under its own heading with original filename noted. No content has been reconciled or edited. -->
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 4
+- **Domains:** peoples, world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md`, `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md`
+  - `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md` — peoples / canon
+  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md` — peoples / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md` — world / canon
 
-## 8. Documents record our decisions. They do not make our decisions.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md`, `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
-  - `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md`
-
-## 9. | People | Developmental emphasis |
+## 3. | People | Developmental emphasis |
 |---|---|
 | Plains | Carry your share |
 | Mountains | Master your lineage's knowledge |
@@ -93,133 +44,60 @@ Shared evidence units: **73**
 | Coast | Become broadly capable and dependable |
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** peoples
+- **Roles:** canon, reference
 - **Sources:** `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md`, `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md`
-  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` — peoples / canon
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md` — peoples / reference
 
-## 10. **Status:** WORKING CANON / PEOPLES PHASE
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 4
-- **Sources:** `03_PEOPLES/CULTURES/HEARTH/COAST.md`, `03_PEOPLES/CULTURES/HEARTH/DESERT.md`, `03_PEOPLES/CULTURES/HEARTH/PLAINS.md`, `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md`
-  - `03_PEOPLES/CULTURES/HEARTH/COAST.md`
-  - `03_PEOPLES/CULTURES/HEARTH/PLAINS.md`
-  - `03_PEOPLES/CULTURES/HEARTH/DESERT.md`
-
-## 11. **Don't get caught slipping. Trust has to be earned every day.**
+## 4. Before designing individual species, every major continental system should eventually have broad representatives of:
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
-- **Sources:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-
-## 12. **A broken relationship travels farther than a broken boat.**
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-
-## 13. **Your group stands on its own, but your choices affect the village.**
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-
-## 14. **Those who know the danger have a responsibility to warn the people.**
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-
-## 15. **Nobody rules the community; the community carries itself.**
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`, `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-
-## 16. Flagged rather than silently left out:
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md`, `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md`
-  - `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md`
-
-## 17. **Status:** Broad working framework. Not locked canon.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
+  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md` — ecology / tool
 
-## 18. Do not begin by asking:
+## 5. ecosystem engineers;
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
+  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md` — ecology / tool
 
-## 19. Before designing individual species, every major continental system should eventually have broad representatives of:
+## 6. Use this matrix to rapidly create plausible canonical plants from environmental and ecological requirements.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
-- **Sources:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
-
-## 20. ecosystem engineers;
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
-- **Sources:** `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
-- **Decision:** `UNRESOLVED`
-- **Provenance:**
-  - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
-
-## 21. Use this matrix to rapidly create plausible canonical plants from environmental and ecological requirements.
-- **Status:** SHARED_EVIDENCE
-- **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 22. > **CONTINENT → CLIMATE → FUNCTION → EVOLUTIONARY POSSIBILITIES → PLANT**
+## 7. > **CONTINENT → CLIMATE → FUNCTION → EVOLUTIONARY POSSIBILITIES → PLANT**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 3
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 23. Potential growth forms:
+## 8. Potential growth forms:
 - grass/grass-like
 - herbaceous
 - vine
@@ -234,22 +112,26 @@ Shared evidence units: **73**
 - root-dominant
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 24. Choose based on function and climate.
+## 9. Choose based on function and climate.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 25. Possible strategies:
+## 10. Possible strategies:
 - shallow spreading
 - deep taproot
 - dense fibrous roots
@@ -262,22 +144,26 @@ Shared evidence units: **73**
 - waterlogged-soil adaptations
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 26. Ask what problem the roots solve.
+## 11. Ask what problem the roots solve.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 27. Possible solutions:
+## 12. Possible solutions:
 - continuous water uptake
 - deep groundwater access
 - water storage
@@ -290,13 +176,15 @@ Shared evidence units: **73**
 - salt exclusion
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 28. Possible solutions:
+## 13. Possible solutions:
 - low-growing full-sun growth
 - shade tolerance
 - canopy competition
@@ -308,22 +196,26 @@ Shared evidence units: **73**
 - narrow leaves
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 29. Do not automatically maximize growth. Competition matters.
+## 14. Do not automatically maximize growth. Competition matters.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 30. Possible strategies:
+## 15. Possible strategies:
 - wind pollination
 - water pollination
 - animal pollination
@@ -337,13 +229,15 @@ Shared evidence units: **73**
 - disturbance-triggered reproduction
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 31. Possible mechanisms:
+## 16. Possible mechanisms:
 - wind
 - water
 - animals
@@ -354,22 +248,26 @@ Shared evidence units: **73**
 - clonal expansion
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 32. Choose based on geography and available dispersal agents.
+## 17. Choose based on geography and available dispersal agents.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 33. Possible solutions:
+## 18. Possible solutions:
 - toxins
 - irritants
 - bitter compounds
@@ -382,22 +280,26 @@ Shared evidence units: **73**
 - underground storage
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 34. Defense should have an ecological purpose and cost.
+## 19. Defense should have an ecological purpose and cost.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 35. Possible strategies:
+## 20. Possible strategies:
 - fast-growing annual-like cycle
 - long-lived perennial
 - slow-growing woody plant
@@ -409,13 +311,15 @@ Shared evidence units: **73**
 - disturbance specialist
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 36. Consider:
+## 21. Consider:
 - grazers
 - browsers
 - pollinators
@@ -427,40 +331,48 @@ Shared evidence units: **73**
 - ecosystem engineers
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 37. A plant should exist within a network rather than as an isolated object.
+## 22. A plant should exist within a network rather than as an isolated object.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 38. Lost should be evolutionarily different, not randomly fantastical.
+## 23. Lost should be evolutionarily different, not randomly fantastical.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 39. Use scale appropriate to climate and mechanics.
+## 24. Use scale appropriate to climate and mechanics.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 40. Possible:
+## 25. Possible:
 - ground-hugging mats
 - ankle/knee-high vegetation
 - waist-high shrubs
@@ -470,31 +382,37 @@ Shared evidence units: **73**
 - substantial canopy trees
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 41. Very tall forests require strong ecological and mechanical justification.
+## 26. Very tall forests require strong ecological and mechanical justification.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 42. The project's broad vegetation aesthetic favors **thick, robust growth over absurd vertical height**.
+## 27. The project's broad vegetation aesthetic favors **thick, robust growth over absurd vertical height**.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 43. **Working name:**  
+## 28. **Working name:**  
 **Continent:**  
 **Climate/environment:**  
 **Primary function:**  
@@ -514,22 +432,26 @@ Shared evidence units: **73**
 **Regional variants:**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 44. Do not attempt to invent every plant.
+## 29. Do not attempt to invent every plant.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 45. Build:
+## 30. Build:
 1. foundational producers;
 2. major herbivore food sources;
 3. major browse resources;
@@ -540,231 +462,281 @@ Shared evidence units: **73**
 8. a limited number of distinctive signature plants.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 46. Stop when the ecosystem has enough functional coverage to support the animal library and make each region visually/ecologically distinct.
+## 31. Stop when the ecosystem has enough functional coverage to support the animal library and make each region visually/ecologically distinct.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 47. Before accepting a plant:
+## 32. Before accepting a plant:
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 48. **Does it have a job?**
+## 33. **Does it have a job?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 49. **Does the climate explain it?**
+## 34. **Does the climate explain it?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 50. **Does the continent affect its distribution or divergence?**
+## 35. **Does the continent affect its distribution or divergence?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 51. **Does its anatomy/physiology solve a real problem?**
+## 36. **Does its anatomy/physiology solve a real problem?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 52. **Does it have a tradeoff?**
+## 37. **Does it have a tradeoff?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 53. **Does it interact with animals or other plants?**
+## 38. **Does it interact with animals or other plants?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 54. **Does it make the ecosystem more believable?**
+## 39. **Does it make the ecosystem more believable?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 55. **Is it actually different enough to deserve its own canonical entry?**
+## 40. **Is it actually different enough to deserve its own canonical entry?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 56. If not, revise, merge, or leave it as an implied background organism.
+## 41. If not, revise, merge, or leave it as an implied background organism.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** ecology
+- **Roles:** tool
 - **Sources:** `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`, `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
-  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — ecology / tool
+  - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — ecology / tool
 
-## 57. **Purpose:** Standalone reference for mapmaking and future regional development.
+## 42. **Purpose:** Standalone reference for mapmaking and future regional development.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 4
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md`, `01_WORLD/CONTINENTS/LOST/DOSSIER.md`, `01_WORLD/CONTINENTS/RIFT/DOSSIER.md`, `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md`
-  - `01_WORLD/CONTINENTS/RIFT/DOSSIER.md`
-  - `01_WORLD/CONTINENTS/LOST/DOSSIER.md`
-  - `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md`
+  - `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md` — world / canon
+  - `01_WORLD/CONTINENTS/RIFT/DOSSIER.md` — world / canon
+  - `01_WORLD/CONTINENTS/LOST/DOSSIER.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md` — world / canon
 
-## 58. Great Western/Southwestern Watershed:** Frostward/Aegir → Stonehearth → Great Plains → Greenmarsh/SilverSpine → coast.
+## 43. Great Western/Southwestern Watershed:** Frostward/Aegir → Stonehearth → Great Plains → Greenmarsh/SilverSpine → coast.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 59. Greenmarsh:** low-gradient receiving basin with wetlands, lakes, backwaters, and distributaries.
+## 44. Greenmarsh:** low-gradient receiving basin with wetlands, lakes, backwaters, and distributaries.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 60. Northern Chain:** northern uplands → lake systems → rivers → Greenmarsh and/or northern coast.
+## 45. Northern Chain:** northern uplands → lake systems → rivers → Greenmarsh and/or northern coast.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 61. Sunscour:** major closed/endorheic basin draining inward to an inland lake/salt system.
+## 46. Sunscour:** major closed/endorheic basin draining inward to an inland lake/salt system.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 62. Southward Range:** major watershed divide separating interior and southern coastal drainage.
+## 47. Southward Range:** major watershed divide separating interior and southern coastal drainage.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 63. Embercoast:** short, steep volcanic rivers draining to coastal plains/estuaries.
+## 48. Embercoast:** short, steep volcanic rivers draining to coastal plains/estuaries.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 64. Eastern/southeastern uplands:** shorter direct-to-coast drainage systems.
+## 49. Eastern/southeastern uplands:** shorter direct-to-coast drainage systems.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 65. The **SilverSpine Delta** is the terminal deltaic complex of the principal continental river network.
+## 50. The **SilverSpine Delta** is the terminal deltaic complex of the principal continental river network.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 66. Embercoast Volcanic Arc
+## 51. Embercoast Volcanic Arc
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 67. Stormcoast Peninsula
+## 52. Stormcoast Peninsula
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 68. Coastal Isles / Isle Chains
+## 53. Coastal Isles / Isle Chains
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 69. **environment → water → resources → human corridors → population density → contact/isolation → peoples**
+## 54. **environment → water → resources → human corridors → population density → contact/isolation → peoples**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 70. | Human zone | Share | Approx. population |
+## 55. | Human zone | Share | Approx. population |
 |---|---:|---:|
 | River valleys & floodplains | 25% | 375,000 |
 | Grassland / woodland mosaic | 30% | 450,000 |
@@ -776,35 +748,43 @@ Shared evidence units: **73**
 | **TOTAL** | **100%** | **1,500,000** |
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 71. D1 — HIGH:** repeatedly productive environments capable of supporting persistent communities and large seasonal aggregations.
+## 56. D1 — HIGH:** repeatedly productive environments capable of supporting persistent communities and large seasonal aggregations.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 72. D3 — LOW:** small populations concentrated around specific resources.
+## 57. D3 — LOW:** small populations concentrated around specific resources.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon
 
-## 73. A geographic region does not automatically equal one people.
+## 58. A geographic region does not automatically equal one people.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
+- **Domains:** world
+- **Roles:** canon
 - **Sources:** `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`, `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 - **Decision:** `UNRESOLVED`
 - **Provenance:**
-  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
-  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
+  - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — world / canon
+  - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — world / canon

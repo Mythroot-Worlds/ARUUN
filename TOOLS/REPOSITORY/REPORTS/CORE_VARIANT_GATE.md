@@ -1,17 +1,17 @@
 # CORE VARIANT Gate
 
-VARIANT means informational near-equivalence, not merely shared subject matter.
+VARIANT is informational near-equivalence, not shared subject matter.
 
 Candidates assessed: **70**
 Eligible VARIANT candidates: **0**
 Rejected VARIANT candidates: **70**
 
-## Required gates
+## Gates
 - Same subject
 - Same scope
 - Same applicable time
 - Same purpose
 - Same document role
-- Substantially equivalent semantic claims **or** strong bidirectional information-unit equivalence when explicit relational claims are sparse.
+- Bidirectional information equivalence, using pairwise semantic comparison when explicit claims are sparse.
 
-Information-unit similarity is evidence only; it cannot override subject, scope, time, purpose, or role gates.
+The comparator is evidence, not autonomous canon authority.

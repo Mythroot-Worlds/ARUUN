@@ -97,7 +97,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.404
         },
         {
@@ -117,7 +117,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.353
         },
         {
@@ -137,7 +137,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.316
         },
         {
@@ -157,7 +157,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.305
         },
         {
@@ -177,7 +177,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.55
         },
         {
@@ -197,7 +197,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.334
         },
         {
@@ -217,7 +217,7 @@
           "sections_only_in_b": [
             "birth_childhood_coming_of_age"
           ],
-          "changed_sections": [],
+          "unit_analysis": {},
           "overall_similarity": 0.305
         },
         {
@@ -225,9 +225,42 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 6,
+              "shared_units": [
+                {
+                  "a": "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                  "b": "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                  "score": 0.674,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community.",
+                "*Principle:** Become broadly capable and dependable."
+              ],
+              "unique_to_b": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden.",
+                "*Principle:** Become useful to your group and village."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                  "b": "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.41
         },
         {
@@ -235,9 +268,30 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 5,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community.",
+                "*Principle:** Become broadly capable and dependable."
+              ],
+              "unique_to_b": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival.",
+                "*Principle:** Carry your share."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.278
         },
         {
@@ -245,9 +299,31 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community.",
+                "*Principle:** Become broadly capable and dependable."
+              ],
+              "unique_to_b": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful.",
+                "*Principle:** Read the water and know the network."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.336
         },
         {
@@ -255,9 +331,35 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 10,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community.",
+                "*Principle:** Become broadly capable and dependable."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the oasis community with experienced support.",
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.291
         },
         {
@@ -265,9 +367,40 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 4,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Become broadly capable and dependable.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "score": 0.52,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community."
+              ],
+              "unique_to_b": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Become broadly capable and dependable.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.214
         },
         {
@@ -275,9 +408,31 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 7,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is a community event; biological parentage remains recognized.",
+                "Infants live within the communal environment and learn by observing everyone.",
+                "Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.",
+                "Everyone learns broad survival skills rather than inheriting a narrow role from parents.",
+                "Adolescents increasingly participate fully in communal work cycles.",
+                "Adulthood means being able to care for oneself and contribute reliably to the community.",
+                "*Principle:** Become broadly capable and dependable."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the extended specialist lineage.",
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage.",
+                "*Principle:** Master your lineage's knowledge."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.301
         },
         {
@@ -285,9 +440,40 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 5,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Become useful to your group and village.",
+                  "b": "*Principle:** Carry your share.",
+                  "score": 0.523,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden."
+              ],
+              "unique_to_b": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Become useful to your group and village.",
+                  "b": "*Principle:** Carry your share.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.381
         },
         {
@@ -295,9 +481,30 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden.",
+                "*Principle:** Become useful to your group and village."
+              ],
+              "unique_to_b": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful.",
+                "*Principle:** Read the water and know the network."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.408
         },
         {
@@ -305,9 +512,34 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 10,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden.",
+                "*Principle:** Become useful to your group and village."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the oasis community with experienced support.",
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.284
         },
         {
@@ -315,9 +547,39 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 4,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Become useful to your group and village.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "score": 0.612,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden."
+              ],
+              "unique_to_b": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Become useful to your group and village.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.277
         },
         {
@@ -325,9 +587,30 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is primarily supported by the 12\u201315-person functional group.",
+                "Infants are cared for by many adults within the group.",
+                "Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.",
+                "Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.",
+                "Adulthood means being trusted to carry an independent portion of the group's survival burden.",
+                "*Principle:** Become useful to your group and village."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the extended specialist lineage.",
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage.",
+                "*Principle:** Master your lineage's knowledge."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.311
         },
         {
@@ -335,9 +618,29 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 5,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival.",
+                "*Principle:** Carry your share."
+              ],
+              "unique_to_b": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful.",
+                "*Principle:** Read the water and know the network."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.375
         },
         {
@@ -345,9 +648,33 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 5,
+              "units_b": 10,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival.",
+                "*Principle:** Carry your share."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the oasis community with experienced support.",
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.243
         },
         {
@@ -355,9 +682,38 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 5,
+              "units_b": 4,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Carry your share.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "score": 0.488,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival."
+              ],
+              "unique_to_b": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Carry your share.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.26
         },
         {
@@ -365,9 +721,40 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 5,
+              "units_b": 6,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Carry your share.",
+                  "b": "*Principle:** Master your lineage's knowledge.",
+                  "score": 0.552,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+                "Infants are carried while adults work and learn through constant observation.",
+                "Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference.",
+                "Adulthood is demonstrated by reliable contribution to survival."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the extended specialist lineage.",
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Carry your share.",
+                  "b": "*Principle:** Master your lineage's knowledge.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.312
         },
         {
@@ -375,9 +762,34 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 10,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful.",
+                "*Principle:** Read the water and know the network."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the oasis community with experienced support.",
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.329
         },
         {
@@ -385,9 +797,39 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 4,
+              "shared_units": [
+                {
+                  "a": "*Principle:** Read the water and know the network.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "score": 0.531,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful."
+              ],
+              "unique_to_b": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "*Principle:** Read the water and know the network.",
+                  "b": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.248
         },
         {
@@ -395,9 +837,30 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 6,
+              "units_b": 6,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth is supported by the extended household and community.",
+                "Infants are gradually and safely introduced to water.",
+                "Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.",
+                "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
+                "Adulthood means being able to travel the river safely enough to be useful.",
+                "*Principle:** Read the water and know the network."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the extended specialist lineage.",
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage.",
+                "*Principle:** Master your lineage's knowledge."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.255
         },
         {
@@ -405,9 +868,32 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 10,
+              "units_b": 4,
+              "shared_units": [],
+              "unique_to_a": [
+                "Birth occurs within the oasis community with experienced support.",
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "unique_to_b": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "possible_conflicts": []
+            }
+          },
           "overall_similarity": 0.197
         },
         {
@@ -415,9 +901,45 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 10,
+              "units_b": 6,
+              "shared_units": [
+                {
+                  "a": "Birth occurs within the oasis community with experienced support.",
+                  "b": "Birth occurs within the extended specialist lineage.",
+                  "score": 0.534,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "Infants remain close to family and learn early that water must not be wasted.",
+                "Education deliberately has two stages: **theory and practice**.",
+                "Earlier in the day, elders teach plants, animals, weather, terrain, water conservation, tracks, resources, survival rules, stories, and accumulated knowledge.",
+                "Later, experienced adults take children into the environment and demonstrate those lessons.",
+                "Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.",
+                "Parents remain deeply involved but are not the child's entire educational system.",
+                "Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.",
+                "Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.",
+                "*Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing."
+              ],
+              "unique_to_b": [
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage.",
+                "*Principle:** Master your lineage's knowledge."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "Birth occurs within the oasis community with experienced support.",
+                  "b": "Birth occurs within the extended specialist lineage.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.26
         },
         {
@@ -425,9 +947,39 @@
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
-          "changed_sections": [
-            "birth_childhood_coming_of_age"
-          ],
+          "unit_analysis": {
+            "birth_childhood_coming_of_age": {
+              "units_a": 4,
+              "units_b": 6,
+              "shared_units": [
+                {
+                  "a": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "b": "*Principle:** Master your lineage's knowledge.",
+                  "score": 0.585,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [
+                "*Status:** CANON REFERENCE SHEET",
+                "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+                "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive."
+              ],
+              "unique_to_b": [
+                "Birth occurs within the extended specialist lineage.",
+                "Infants remain immersed in their specialist family's environment.",
+                "Training begins early through simple lineage-specific games and tasks.",
+                "Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.",
+                "Adulthood requires sustained competence recognized by the specialist lineage."
+              ],
+              "possible_conflicts": [
+                {
+                  "a": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
+                  "b": "*Principle:** Master your lineage's knowledge.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            }
+          },
           "overall_similarity": 0.215
         }
       ],

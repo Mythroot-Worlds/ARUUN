@@ -142,6 +142,103 @@
       "auto_apply": false
     }
   ],
+  "contrastive_groups": [
+    {
+      "domain": "ECOLOGY",
+      "role": "TOOL",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "VARIANT"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "KEEP",
+      "observed_labels": [
+        "MISPLACED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "COINCIDENTAL",
+        "CONFLICT",
+        "HISTORICAL",
+        "RELATED",
+        "REVIEW",
+        "VARIANT"
+      ],
+      "label_count": 6,
+      "contrastive": true
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "COMPARATIVE",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "RELATED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING_CANON",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "RELATED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "TOOLS",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "COINCIDENTAL"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    }
+  ],
   "safety": {
     "automatic_rule_promotion": false,
     "automatic_canon_change": false,

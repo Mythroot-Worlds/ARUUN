@@ -27,3 +27,7 @@ Heuristic candidates: **14**
 - `PEOPLES/WORKING` proposed `MERGE` → observed `RELATED` (4 examples): **CANDIDATE**
 - `PEOPLES/WORKING_CANON` proposed `MERGE` → observed `RELATED` (1 examples): **CANDIDATE**
 - `TOOLS/TOOL` proposed `MERGE` → observed `COINCIDENTAL` (1 examples): **CANDIDATE**
+
+## Contrastive groups
+A contrastive group contains the same proposed signal/context with multiple human-observed outcomes. These are evidence for discrimination, not automatic rules.
+- `PEOPLES/CANON` proposed `MERGE` → COINCIDENTAL, CONFLICT, HISTORICAL, RELATED, REVIEW, VARIANT

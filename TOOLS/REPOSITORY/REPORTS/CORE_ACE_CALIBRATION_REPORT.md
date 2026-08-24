@@ -4,8 +4,8 @@
 
 Human decisions are evidence for calibration, not automatic permission to change canon or rules.
 
-Labeled decisions: **0**
-Heuristic candidates: **0**
+Labeled decisions: **10**
+Heuristic candidates: **10**
 
 ## Safety invariants
 - Automatic rule promotion: **OFF**
@@ -13,5 +13,13 @@ Heuristic candidates: **0**
 - Provenance loss: **HARD FAILURE**
 
 ## Candidate heuristics
-
-No labeled decisions exist yet. Populate `CORE_DECISION_LEDGER.json` with human-adjudicated examples from the Hearth Family/Birth/Childhood calibration set before promoting any heuristic.
+- `ECOLOGY/TOOL` proposed `DUPLICATE` → observed `SUPPORTING` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `DUPLICATE` → observed `VARIANT` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `KEEP` → observed `MISPLACED` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `COINCIDENTAL` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `CONFLICT` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `HISTORICAL` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `RELATED` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `REVIEW` (1 examples): **CANDIDATE**
+- `PEOPLES/CANON` proposed `MERGE` → observed `VARIANT` (1 examples): **CANDIDATE**
+- `TOOLS/TOOL` proposed `MERGE` → observed `COINCIDENTAL` (1 examples): **CANDIDATE**

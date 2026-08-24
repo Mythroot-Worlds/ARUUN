@@ -1,7 +1,7 @@
 {
   "engine": "CORE A.C.E.",
   "mode": "READ_ONLY",
-  "decision_count": 0,
+  "decision_count": 10,
   "label_vocabulary": [
     "COINCIDENTAL",
     "CONFLICT",
@@ -14,7 +14,98 @@
     "VARIANT"
   ],
   "promotion_threshold": 5,
-  "heuristic_candidates": [],
+  "heuristic_candidates": [
+    {
+      "domain": "ECOLOGY",
+      "role": "TOOL",
+      "proposed": "DUPLICATE",
+      "observed_label": "SUPPORTING",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "DUPLICATE",
+      "observed_label": "VARIANT",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "KEEP",
+      "observed_label": "MISPLACED",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "COINCIDENTAL",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "CONFLICT",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "HISTORICAL",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "RELATED",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "REVIEW",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_label": "VARIANT",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "TOOLS",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_label": "COINCIDENTAL",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    }
+  ],
   "safety": {
     "automatic_rule_promotion": false,
     "automatic_canon_change": false,

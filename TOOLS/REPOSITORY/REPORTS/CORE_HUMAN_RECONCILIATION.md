@@ -3,12 +3,12 @@
 Read-only reconciliation of human annotations against exact blind-test relationship IDs.
 
 - Holdout relationships: **30**
-- Human annotations: **24**
-- Unique annotation pairs: **24**
-- Exact-ID matches: **23**
-- Unmatched annotations: **1**
+- Human annotations: **31**
+- Unique annotation pairs: **31**
+- Exact-ID matches: **29**
+- Unmatched annotations: **2**
 - Duplicate annotations: **0**
-- Remaining holdout relationships: **7**
+- Remaining holdout relationships: **1**
 
 ## Safety
 - Human judgments are not written into the decision ledger.
@@ -40,12 +40,12 @@ Read-only reconciliation of human annotations against exact blind-test relations
 - `REL-23635a2218f45fb1` — `RELATED` vs human `RELATED`
 - `REL-0b3c9d254927f41d` — `RELATED` vs human `RELATED`
 - `REL-8638cf21392a42fa` — `RELATED` vs human `VARIANT, SUPPORTING, CONFLICT`
+- `REL-8d381cdc12c23313` — `RELATED` vs human `RELATED`
+- `REL-8bca83b957da6f2e` — `RELATED` vs human `RELATED`
+- `REL-3a5d6786a3b536d1` — `RELATED` vs human `RELATED`
+- `REL-af2a40ec0f6f2d0a` — `RELATED` vs human `RELATED`
+- `REL-232cec354bd43aba` — `RELATED` vs human `RELATED`
+- `REL-c04041f0ac1c1e21` — `RELATED` vs human `RELATED`
 
 ## Remaining holdout relationships
-- `REL-8d381cdc12c23313` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`
-- `REL-8bca83b957da6f2e` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
-- `REL-3a5d6786a3b536d1` — `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
-- `REL-af2a40ec0f6f2d0a` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/COAST.md`
-- `REL-232cec354bd43aba` — `03_PEOPLES/CULTURES/HEARTH/COAST.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`
 - `REL-72e255c74d740ee4` — `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`
-- `REL-c04041f0ac1c1e21` — `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`

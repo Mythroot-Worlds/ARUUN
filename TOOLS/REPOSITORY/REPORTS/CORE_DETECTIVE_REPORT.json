@@ -1,6 +1,6 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "2.2",
+  "schema_version": "2.3",
   "mode": "READ_ONLY",
   "domain_profile": "Mythroot Worldbuilding",
   "purpose": "bounded investigation using Mythroot deciding factors, configurable evidence neighborhoods, grounded claim candidates, question coverage, and auditable second-pass targeting",
@@ -216,7 +216,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -228,7 +228,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -240,7 +240,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -252,7 +252,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -264,7 +264,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -276,7 +276,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -287,7 +287,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -365,6 +365,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 42,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -1036,8 +1037,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -1045,6 +1045,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 52,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -1857,8 +1858,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -1866,6 +1866,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 26,
+              "grounded_direct_claims": 26,
               "contextual_claims": 6,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -2360,8 +2361,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 26
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -4360,7 +4360,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -4378,7 +4378,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 129
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -4613,7 +4613,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -4625,7 +4625,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -4637,7 +4637,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -4649,7 +4649,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -4661,7 +4661,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -4673,7 +4673,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -4684,7 +4684,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -4762,6 +4762,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 44,
               "independent_context_sources": 9,
               "evidence_quality": [
@@ -5476,8 +5477,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -5485,6 +5485,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 45,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -6182,8 +6183,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -6191,6 +6191,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 32,
+              "grounded_direct_claims": 32,
               "contextual_claims": 9,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -6822,8 +6823,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 32
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -8887,7 +8887,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -8905,7 +8905,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 133
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -9149,7 +9149,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -9161,7 +9161,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -9173,7 +9173,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -9185,7 +9185,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -9197,7 +9197,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -9209,7 +9209,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -9220,7 +9220,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -9299,6 +9299,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 38,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -9908,8 +9909,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -9917,6 +9917,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 60,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -10849,8 +10850,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -10858,6 +10858,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 33,
+              "grounded_direct_claims": 33,
               "contextual_claims": 8,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -11478,8 +11479,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 33
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -13662,7 +13662,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -13680,7 +13680,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 142
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -13935,7 +13935,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -13947,7 +13947,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -13959,7 +13959,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -13971,7 +13971,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -13983,7 +13983,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -13995,7 +13995,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -14006,7 +14006,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -14086,6 +14086,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 44,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -14757,8 +14758,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -14766,6 +14766,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 61,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -15704,8 +15705,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -15713,6 +15713,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 42,
+              "grounded_direct_claims": 42,
               "contextual_claims": 15,
               "independent_context_sources": 8,
               "evidence_quality": [
@@ -16553,8 +16554,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 42
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -19025,7 +19025,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -19043,7 +19043,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 164
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -19255,7 +19255,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -19267,7 +19267,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -19279,7 +19279,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -19291,7 +19291,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -19303,7 +19303,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -19315,7 +19315,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -19326,7 +19326,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -19403,6 +19403,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 3,
+              "grounded_direct_claims": 3,
               "contextual_claims": 41,
               "independent_context_sources": 9,
               "evidence_quality": [
@@ -20069,8 +20070,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 3
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -20078,6 +20078,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 51,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -20862,8 +20863,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -20871,6 +20871,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 27,
+              "grounded_direct_claims": 27,
               "contextual_claims": 9,
               "independent_context_sources": 7,
               "evidence_quality": [
@@ -21416,8 +21417,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 27
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -23434,7 +23434,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -23452,7 +23452,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 132
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -23697,7 +23697,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -23709,7 +23709,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -23721,7 +23721,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -23733,7 +23733,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -23745,7 +23745,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -23757,7 +23757,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -23768,7 +23768,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -23835,6 +23835,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 3,
+              "grounded_direct_claims": 3,
               "contextual_claims": 48,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -24597,8 +24598,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 3
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -24606,6 +24606,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 56,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -25470,8 +25471,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -27121,7 +27121,7 @@
             "authority role and organizational level require contextual confirmation",
             "explicit support relationship is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -27139,7 +27139,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 108
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -27351,7 +27351,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -27363,7 +27363,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -27375,7 +27375,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -27387,7 +27387,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -27399,7 +27399,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -27411,7 +27411,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -27422,7 +27422,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -27501,6 +27501,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 45,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -28217,8 +28218,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -28226,6 +28226,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 47,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -28965,8 +28966,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -28974,6 +28974,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 34,
+              "grounded_direct_claims": 34,
               "contextual_claims": 8,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -29625,8 +29626,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 34
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -31754,7 +31754,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -31772,7 +31772,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 136
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -32025,7 +32025,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -32037,7 +32037,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -32049,7 +32049,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -32061,7 +32061,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -32073,7 +32073,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -32085,7 +32085,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -32096,7 +32096,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -32175,6 +32175,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 47,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -32915,8 +32916,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -32924,6 +32924,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 53,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -33740,8 +33741,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -33749,6 +33749,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 30,
+              "grounded_direct_claims": 30,
               "contextual_claims": 11,
               "independent_context_sources": 7,
               "evidence_quality": [
@@ -34362,8 +34363,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 30
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -36554,7 +36554,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -36572,7 +36572,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 144
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -36809,7 +36809,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -36821,7 +36821,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -36833,7 +36833,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -36845,7 +36845,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -36857,7 +36857,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -36869,7 +36869,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -36880,7 +36880,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -36959,6 +36959,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 48,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -37715,8 +37716,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -37724,6 +37724,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 55,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -38578,8 +38579,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -38587,6 +38587,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 29,
+              "grounded_direct_claims": 29,
               "contextual_claims": 8,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -39152,8 +39153,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 29
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -41350,7 +41350,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -41368,7 +41368,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 143
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -41615,7 +41615,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -41627,7 +41627,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -41639,7 +41639,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -41651,7 +41651,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -41663,7 +41663,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -41675,7 +41675,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -41686,7 +41686,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -41765,6 +41765,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 44,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -42458,8 +42459,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -42467,6 +42467,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 57,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -43347,8 +43348,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -43356,6 +43356,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 32,
+              "grounded_direct_claims": 32,
               "contextual_claims": 10,
               "independent_context_sources": 7,
               "evidence_quality": [
@@ -43986,8 +43987,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 32
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -46212,7 +46212,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -46230,7 +46230,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 146
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -46404,7 +46404,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -46416,7 +46416,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -46428,7 +46428,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -46440,7 +46440,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -46452,7 +46452,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -46464,7 +46464,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -46475,7 +46475,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -46528,6 +46528,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 56,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -47397,8 +47398,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -48293,7 +48293,7 @@
           "resolved_unknowns": [
             "explicit support relationship is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -48311,7 +48311,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 57
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -48466,7 +48466,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -48478,7 +48478,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -48490,7 +48490,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -48502,7 +48502,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -48514,7 +48514,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -48526,7 +48526,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -48537,7 +48537,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -48599,6 +48599,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 52,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -49457,8 +49458,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -49466,6 +49466,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 34,
+              "grounded_direct_claims": 34,
               "contextual_claims": 7,
               "independent_context_sources": 4,
               "evidence_quality": [
@@ -50099,8 +50100,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 34
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -51615,7 +51615,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -51633,7 +51633,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 95
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -51849,7 +51849,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -51861,7 +51861,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -51873,7 +51873,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -51885,7 +51885,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -51897,7 +51897,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -51909,7 +51909,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -51920,7 +51920,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -51999,6 +51999,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 3,
+              "grounded_direct_claims": 3,
               "contextual_claims": 41,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -52670,8 +52671,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 3
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -52679,6 +52679,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 53,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -53497,8 +53498,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -53506,6 +53506,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 26,
+              "grounded_direct_claims": 26,
               "contextual_claims": 7,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -54012,8 +54013,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 26
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -56030,7 +56030,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -56048,7 +56048,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 131
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -56287,7 +56287,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -56299,7 +56299,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -56311,7 +56311,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -56323,7 +56323,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -56335,7 +56335,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -56347,7 +56347,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -56358,7 +56358,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -56437,6 +56437,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 45,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -57163,8 +57164,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -57172,6 +57172,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 46,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -57885,8 +57886,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -57894,6 +57894,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 32,
+              "grounded_direct_claims": 32,
               "contextual_claims": 9,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -58525,8 +58526,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 32
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -60618,7 +60618,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -60636,7 +60636,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -60795,7 +60795,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -60807,7 +60807,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -60819,7 +60819,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -60831,7 +60831,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -60843,7 +60843,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -60855,7 +60855,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -60866,7 +60866,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -60929,6 +60929,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 51,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -61753,8 +61754,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -61762,6 +61762,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 35,
+              "grounded_direct_claims": 35,
               "contextual_claims": 9,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -62438,8 +62439,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 35
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -63963,7 +63963,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -63981,7 +63981,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 97
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -64154,7 +64154,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -64166,7 +64166,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -64178,7 +64178,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -64190,7 +64190,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -64202,7 +64202,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -64214,7 +64214,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -64225,7 +64225,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -64289,6 +64289,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 60,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -65218,8 +65219,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -65227,6 +65227,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 38,
+              "grounded_direct_claims": 38,
               "contextual_claims": 8,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -65925,8 +65926,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 38
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -67577,7 +67577,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -67595,7 +67595,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 107
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -67749,7 +67749,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -67761,7 +67761,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -67773,7 +67773,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -67785,7 +67785,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -67797,7 +67797,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -67809,7 +67809,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -67820,7 +67820,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -67883,7 +67883,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 0
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -68098,7 +68098,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -68110,7 +68110,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -68122,7 +68122,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -68134,7 +68134,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -68146,7 +68146,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -68158,7 +68158,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -68169,7 +68169,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -68234,6 +68234,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 49,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -68985,8 +68986,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -68994,6 +68994,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 26,
+              "grounded_direct_claims": 26,
               "contextual_claims": 8,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -69506,8 +69507,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 26
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -70794,7 +70794,7 @@
             "authority role and organizational level require contextual confirmation",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -70812,7 +70812,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 85
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -70986,7 +70986,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -70998,7 +70998,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -71010,7 +71010,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -71022,7 +71022,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -71034,7 +71034,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -71046,7 +71046,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -71057,7 +71057,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -71121,6 +71121,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 48,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -71884,8 +71885,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -71893,6 +71893,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 26,
+              "grounded_direct_claims": 26,
               "contextual_claims": 6,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -72392,8 +72393,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 26
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -73679,7 +73679,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -73697,7 +73697,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 81
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -73857,7 +73857,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -73869,7 +73869,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -73881,7 +73881,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -73893,7 +73893,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -73905,7 +73905,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -73917,7 +73917,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -73928,7 +73928,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -73990,6 +73990,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 3,
+              "grounded_direct_claims": 3,
               "contextual_claims": 46,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -74751,8 +74752,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 3
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -74760,6 +74760,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 38,
+              "grounded_direct_claims": 38,
               "contextual_claims": 8,
               "independent_context_sources": 5,
               "evidence_quality": [
@@ -75486,8 +75487,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 38
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -76998,7 +76998,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -77016,7 +77016,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 95
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -77277,7 +77277,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -77289,7 +77289,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -77301,7 +77301,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -77313,7 +77313,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -77325,7 +77325,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -77337,7 +77337,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -77348,7 +77348,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -77428,6 +77428,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 45,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -78132,8 +78133,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -78141,6 +78141,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 62,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -79093,8 +79094,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -79102,6 +79102,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 34,
+              "grounded_direct_claims": 34,
               "contextual_claims": 12,
               "independent_context_sources": 8,
               "evidence_quality": [
@@ -79786,8 +79787,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 34
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -82149,7 +82149,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -82167,7 +82167,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -82429,7 +82429,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -82441,7 +82441,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -82453,7 +82453,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -82465,7 +82465,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -82477,7 +82477,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -82489,7 +82489,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -82500,7 +82500,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -82580,6 +82580,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 45,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -83284,8 +83285,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -83293,6 +83293,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 62,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -84245,8 +84246,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -84254,6 +84254,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 34,
+              "grounded_direct_claims": 34,
               "contextual_claims": 12,
               "independent_context_sources": 8,
               "evidence_quality": [
@@ -84938,8 +84939,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 34
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -87301,7 +87301,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -87319,7 +87319,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -87519,7 +87519,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -87531,7 +87531,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -87543,7 +87543,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -87555,7 +87555,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -87567,7 +87567,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -87579,7 +87579,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -87590,7 +87590,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -87668,6 +87668,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 3,
+              "grounded_direct_claims": 3,
               "contextual_claims": 37,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -88277,8 +88278,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 3
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -88286,6 +88286,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 56,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -89151,8 +89152,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -89160,6 +89160,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 29,
+              "grounded_direct_claims": 29,
               "contextual_claims": 9,
               "independent_context_sources": 7,
               "evidence_quality": [
@@ -89734,8 +89735,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 29
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -91805,7 +91805,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -91823,7 +91823,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -91980,7 +91980,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -91992,7 +91992,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -92004,7 +92004,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -92016,7 +92016,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -92028,7 +92028,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -92040,7 +92040,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -92051,7 +92051,7 @@
           "scope_signal": false,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -92115,7 +92115,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 0
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -92369,7 +92369,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -92381,7 +92381,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -92393,7 +92393,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -92405,7 +92405,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -92417,7 +92417,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -92429,7 +92429,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -92440,7 +92440,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -92521,6 +92521,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 43,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -93202,8 +93203,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -93211,6 +93211,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 53,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -94033,8 +94034,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -94042,6 +94042,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 28,
+              "grounded_direct_claims": 28,
               "contextual_claims": 8,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -94588,8 +94589,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 28
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -96660,7 +96660,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -96678,7 +96678,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -96902,7 +96902,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -96914,7 +96914,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -96926,7 +96926,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -96938,7 +96938,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -96950,7 +96950,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -96962,7 +96962,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -96973,7 +96973,7 @@
           "scope_signal": true,
           "functional_continuity_signal": false,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -97051,6 +97051,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 43,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -97742,8 +97743,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -97751,6 +97751,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 46,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -98465,8 +98466,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -98474,6 +98474,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 31,
+              "grounded_direct_claims": 31,
               "contextual_claims": 9,
               "independent_context_sources": 6,
               "evidence_quality": [
@@ -99083,8 +99084,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 31
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -101120,7 +101120,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -101138,7 +101138,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 132
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -101407,7 +101407,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -101419,7 +101419,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -101431,7 +101431,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -101443,7 +101443,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -101455,7 +101455,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -101467,7 +101467,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -101478,7 +101478,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -101558,6 +101558,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 43,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -102228,8 +102229,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -102237,6 +102237,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 64,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -103216,8 +103217,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -103225,6 +103225,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 40,
+              "grounded_direct_claims": 40,
               "contextual_claims": 16,
               "independent_context_sources": 9,
               "evidence_quality": [
@@ -104047,8 +104048,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 40
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -106541,7 +106541,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -106559,7 +106559,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 166
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -106820,7 +106820,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -106832,7 +106832,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -106844,7 +106844,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -106856,7 +106856,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -106868,7 +106868,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -106880,7 +106880,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -106891,7 +106891,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -106970,6 +106970,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 49,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -107714,8 +107715,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -107723,6 +107723,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 60,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -108645,8 +108646,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -108654,6 +108654,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 40,
+              "grounded_direct_claims": 40,
               "contextual_claims": 16,
               "independent_context_sources": 8,
               "evidence_quality": [
@@ -109478,8 +109479,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 40
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -111991,7 +111991,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -112009,7 +112009,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 167
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -112267,7 +112267,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -112279,7 +112279,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -112291,7 +112291,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -112303,7 +112303,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -112315,7 +112315,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -112327,7 +112327,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -112338,7 +112338,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -112417,6 +112417,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 2,
+              "grounded_direct_claims": 2,
               "contextual_claims": 45,
               "independent_context_sources": 11,
               "evidence_quality": [
@@ -113121,8 +113122,7 @@
                   "entities": [],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 2
+              ]
             },
             {
               "question": "Which source explicitly establishes that one document supports, informs, references, or derives from the other?",
@@ -113130,6 +113130,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 62,
               "independent_context_sources": 12,
               "evidence_quality": [
@@ -114082,8 +114083,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -114091,6 +114091,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 34,
+              "grounded_direct_claims": 34,
               "contextual_claims": 12,
               "independent_context_sources": 8,
               "evidence_quality": [
@@ -114775,8 +114776,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 34
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -117138,7 +117138,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -117156,7 +117156,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -117319,7 +117319,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "SUPPORTING": {
           "gate_factors": [
@@ -117331,7 +117331,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "HISTORICAL": {
           "gate_factors": [
@@ -117343,7 +117343,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "CONFLICT": {
           "gate_factors": [
@@ -117355,7 +117355,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "MISPLACED": {
           "gate_factors": [
@@ -117367,7 +117367,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "DUPLICATE": {
           "gate_factors": [
@@ -117379,7 +117379,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         },
         "RELATED": {
           "gate_factors": [
@@ -117390,7 +117390,7 @@
           "scope_signal": true,
           "functional_continuity_signal": true,
           "status": "candidate_only",
-          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+          "reason": "Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -117453,6 +117453,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 1,
+              "grounded_direct_claims": 1,
               "contextual_claims": 44,
               "independent_context_sources": 10,
               "evidence_quality": [
@@ -118121,8 +118122,7 @@
                   ],
                   "grounded": false
                 }
-              ],
-              "grounded_direct_claims": 1
+              ]
             },
             {
               "question": "Which source establishes the temporal relationship, revision, supersession, or historical precedence between these documents?",
@@ -118130,6 +118130,7 @@
               "answerability": 1.0,
               "answers_question": true,
               "direct_claims": 27,
+              "grounded_direct_claims": 27,
               "contextual_claims": 7,
               "independent_context_sources": 4,
               "evidence_quality": [
@@ -118632,8 +118633,7 @@
                   ],
                   "grounded": true
                 }
-              ],
-              "grounded_direct_claims": 27
+              ]
             }
           ],
           "unanswered_after_round": [],
@@ -119827,7 +119827,7 @@
             "explicit support relationship is not established by indicators alone",
             "temporal precedence/supersession is not established by indicators alone"
           ],
-          "basis": "claim-level evidence met grounded question validity rule"
+          "basis": "grounded question-specific evidence"
         }
       ],
       "unknown_after": [],
@@ -119845,7 +119845,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 79
       },
-      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; unresolved questions remain explicit; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,

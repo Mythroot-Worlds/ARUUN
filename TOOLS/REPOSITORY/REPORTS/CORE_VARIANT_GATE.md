@@ -12,6 +12,6 @@ Rejected VARIANT candidates: **70**
 - Same applicable time
 - Same purpose
 - Same document role
-- At least 75% semantic-claim overlap
+- Substantially equivalent semantic claims **or** strong bidirectional information-unit equivalence when explicit relational claims are sparse.
 
-A failed gate keeps the case out of VARIANT and records the reason for human/context arbitration.
+Information-unit similarity is evidence only; it cannot override subject, scope, time, purpose, or role gates.

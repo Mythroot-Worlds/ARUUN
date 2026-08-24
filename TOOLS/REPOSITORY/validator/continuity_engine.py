@@ -5,7 +5,8 @@ Folder-dependent document continuity analysis for Git repositories.
 
 The engine is intentionally conservative: it reports possible information loss
 and meaningful fact changes for review; it never decides canon or mutates world
-content.
+content. Explicit test fixtures are analyzed for detector validation but are
+never counted as canon.
 """
 from __future__ import annotations
 
@@ -21,6 +22,7 @@ DOC_EXTENSIONS = {".md", ".txt"}
 GENERATED_PREFIXES = ("TOOLS/REPOSITORY/REPORTS/",)
 ADMIN_PATH_PREFIXES = ("00_MASTER/",)
 ADMIN_FILENAMES = {"CHANGELOG.md", "README.md"}
+TEST_PREFIXES = ("TOOLS/REPOSITORY/CONTINUITY_TEST/",)
 
 
 def git(*args: str) -> str:
@@ -114,16 +116,15 @@ def factual_numeric_changes(current_text: str, previous_text: str) -> list[dict]
 def classify(current: Path, root: Path) -> dict:
     rel = current.relative_to(root).as_posix()
     parts = current.relative_to(root).parts
-    administrative = (
-        rel.startswith(ADMIN_PATH_PREFIXES)
-        or current.name in ADMIN_FILENAMES
-    )
+    administrative = rel.startswith(ADMIN_PATH_PREFIXES) or current.name in ADMIN_FILENAMES
+    test_fixture = rel.startswith(TEST_PREFIXES)
     return {
         "path": rel,
         "folder": "/".join(parts[:-1]),
         "filename": current.name,
         "archive": "07_ARCHIVE" in parts or "ARCHIVE" in parts,
         "tool": "TOOLS" in parts,
+        "test_fixture": test_fixture,
         "administrative": administrative,
         "scope_tokens": [p.lower() for p in parts[:-1]],
     }
@@ -161,6 +162,7 @@ def main() -> int:
     ap.add_argument("--root", default=".")
     ap.add_argument("--out", default="TOOLS/REPOSITORY/REPORTS")
     ap.add_argument("--scope", default=None, help="Repository-relative folder to analyze, e.g. 03_PEOPLES/CULTURES/HEARTH")
+    ap.add_argument("--include-test-fixtures", action="store_true", help="Analyze explicit disposable continuity fixtures without treating them as canon")
     args = ap.parse_args()
     root = Path(args.root).resolve()
     out = root / args.out
@@ -172,14 +174,16 @@ def main() -> int:
 
     findings = []
     for r in records:
-        # Administrative/master documents are useful reference material, but
-        # are not treated as world-canon lineage by this engine.
-        if r["tool"] or r["administrative"]:
+        # Tools, administrative material, and test fixtures are not canon.
+        # Explicit test fixtures may nevertheless be analyzed to validate the detector.
+        if r["tool"] and not (args.include_test_fixtures and r["test_fixture"]):
+            continue
+        if r["administrative"]:
             continue
         for v in r["versions"]:
             if v["potentially_dropped"]:
                 findings.append({
-                    "type": "POTENTIAL_CANON_LOSS",
+                    "type": "POTENTIAL_CANON_LOSS" if not r["test_fixture"] else "TEST_POTENTIAL_LOSS",
                     "severity": "REVIEW",
                     "path": r["path"],
                     "folder": r["folder"],
@@ -189,7 +193,7 @@ def main() -> int:
                 })
             if v["numeric_fact_changes"]:
                 findings.append({
-                    "type": "NUMERIC_FACT_CHANGE",
+                    "type": "NUMERIC_FACT_CHANGE" if not r["test_fixture"] else "TEST_NUMERIC_FACT_CHANGE",
                     "severity": "REVIEW",
                     "path": r["path"],
                     "folder": r["folder"],
@@ -202,6 +206,7 @@ def main() -> int:
         "scope": args.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT",
         "generated_reports_excluded": True,
         "administrative_documents_excluded_from_canon_findings": True,
+        "test_fixtures_included": bool(args.include_test_fixtures),
         "documents": len(records),
         "findings": len(findings),
         "records": records,
@@ -213,7 +218,8 @@ def main() -> int:
         "# ARUUN Continuity Report", "", "**Mode:** READ-ONLY", "",
         f"**Scope:** `{args.scope or 'ALL ACTIVE NON-GENERATED CONTENT'}`",
         "**Generated audit reports excluded:** yes",
-        "**Administrative/master documents excluded from canon findings:** yes", "",
+        "**Administrative/master documents excluded from canon findings:** yes",
+        f"**Explicit continuity test fixtures included:** {'yes' if args.include_test_fixtures else 'no'}", "",
         f"Documents analyzed: {len(records)}", f"Continuity findings: {len(findings)}", "",
     ]
     if not findings:
@@ -224,7 +230,7 @@ def main() -> int:
             lines.append(f"### {i}. {f['type']} — {f['path']}")
             lines.append(f"- Folder: `{f['folder']}`")
             lines.append(f"- Historical commit: `{f['commit']}`")
-            if f['type'] == 'POTENTIAL_CANON_LOSS':
+            if f['type'] in {'POTENTIAL_CANON_LOSS', 'TEST_POTENTIAL_LOSS'}:
                 lines.append(f"- Potentially dropped statements: {f['dropped_count']}")
                 for x in f['dropped'][:10]:
                     lines.append(f"  - {x}")

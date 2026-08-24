@@ -1,19 +1,20 @@
 # CORE A.C.E. Detective Report
 
-Bounded evidence-seeking investigation with configurable evidence neighborhoods, evidence quality/provenance scoring, question-specific validity, and causally auditable second-pass targeting.
+Claim-level evidence investigation.
 
-Cases: **30**
-Evidence pool size: **10**
-Unknown cases before: **24**
-Unknown cases after: **23**
-Cases with evidence: **30**
-Cases with evidence updates: **10**
-Unknown cases reduced: **1**
-Questions fully answered: **12**
-Direct evidence observations: **20**
-Contextual evidence observations: **2101**
-Cases requiring second pass: **23**
-Causally justified second passes: **23**
-Distinct second-pass targets: **23**
-Average rounds: **1.77**
-Total evidence target slots: **530**
+{
+  "cases": 30,
+  "evidence_pool_size": 10,
+  "with_unknowns_before": 28,
+  "with_unknowns_after": 0,
+  "unknown_cases_reduced": 28,
+  "cases_with_evidence_updates": 28,
+  "questions_answered": 74,
+  "direct_claims": 1166,
+  "contextual_claims": 1771,
+  "unique_claims": 2937,
+  "cases_requiring_second_pass": 0,
+  "causally_justified_second_passes": 0,
+  "distinct_second_pass_targets": 0,
+  "average_rounds": 1.0
+}

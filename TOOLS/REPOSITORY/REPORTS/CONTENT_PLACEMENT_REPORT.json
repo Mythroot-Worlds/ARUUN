@@ -1,0 +1,121 @@
+{
+  "mode": "READ_ONLY",
+  "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
+  "documents": 69,
+  "findings": 12,
+  "findings_detail": [
+    {
+      "type": "TOOL_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "confidence": "medium",
+      "signals": [
+        "simulation",
+        "model"
+      ],
+      "recommendation": "Review whether this material belongs in a tool/reference layer rather than ordinary lore."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "confidence": "medium",
+      "candidate_region": "COAST",
+      "score": 24,
+      "other_region_score": 15,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
+    },
+    {
+      "type": "LEGACY_FLAT_REGIONAL_FILE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "subject": "family.partnership",
+      "confidence": "high",
+      "recommendation": "Likely legacy flat file; compare against regional source files before migration."
+    },
+    {
+      "type": "LEGACY_FLAT_REGIONAL_FILE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "subject": "family.birth_childhood",
+      "confidence": "high",
+      "recommendation": "Likely legacy flat file; compare against regional source files before migration."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "confidence": "medium",
+      "candidate_region": "WETLANDS",
+      "score": 12,
+      "other_region_score": 6,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/WETLANDS/."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "confidence": "medium",
+      "candidate_region": "COAST",
+      "score": 44,
+      "other_region_score": 4,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "confidence": "medium",
+      "candidate_region": "PLAINS",
+      "score": 10,
+      "other_region_score": 1,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/PLAINS/."
+    },
+    {
+      "type": "LEGACY_FLAT_REGIONAL_FILE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "subject": "governance.authority",
+      "confidence": "high",
+      "recommendation": "Likely legacy flat file; compare against regional source files before migration."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "confidence": "medium",
+      "candidate_region": "DESERT",
+      "score": 18,
+      "other_region_score": 4,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
+    },
+    {
+      "type": "TOOL_CANDIDATE",
+      "path": "02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "confidence": "medium",
+      "signals": [
+        "matrix",
+        "necessity sheet",
+        "predictive evolution",
+        "function matrix"
+      ],
+      "recommendation": "Review whether this material belongs in a tool/reference layer rather than ordinary lore."
+    },
+    {
+      "type": "REGIONAL_PLACEMENT_CANDIDATE",
+      "path": "01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+      "confidence": "medium",
+      "candidate_region": "DESERT",
+      "score": 70,
+      "other_region_score": 30,
+      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
+    },
+    {
+      "type": "SUBJECT_LINEAGE_CLUSTER",
+      "subject": "family_birth_childhood",
+      "paths": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+        "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      ],
+      "confidence": "high",
+      "recommendation": "Review these files as one subject lineage; decide authoritative source, supporting copy, or archive."
+    }
+  ]
+}

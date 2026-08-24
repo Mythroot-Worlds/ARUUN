@@ -36,6 +36,9 @@ jobs:
       - name: Run read-only repository validator
         run: python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
 
+      - name: Run read-only content placement audit
+        run: python TOOLS/REPOSITORY/validator/content_placement_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
+
       - name: Run read-only continuity engine
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
 
@@ -89,6 +92,7 @@ jobs:
         if: always()
         run: |
           if [ -f TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md ]; then cat TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md; fi
+          if [ -f TOOLS/REPOSITORY/REPORTS/CONTENT_PLACEMENT_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTENT_PLACEMENT_REPORT.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md; fi
           for region in PLAINS MOUNTAINS RIVER WETLANDS DESERT COAST; do

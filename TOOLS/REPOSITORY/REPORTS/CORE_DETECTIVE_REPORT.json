@@ -1,0 +1,1615 @@
+{
+  "engine": "CORE A.C.E. Detective",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "purpose": "bounded contextual investigation before relationship classification",
+  "cases": [
+    {
+      "relationship_id": "REL-ed6dfb7c702bc752",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "known": [
+        "scope: shared indicators PLAINS",
+        "scope: differing indicators COAST, CONTINENT, DESERT, LOCAL, NARROW, RIVER, VILLAGE, WETLAND",
+        "population: shared indicators FAMILY, HOUSEHOLD, PEOPLE, PEOPLES",
+        "population: differing indicators LINEAGE",
+        "family: shared indicators FAMILY, HOUSEHOLD",
+        "family: differing indicators BIRTH, CHILDHOOD, MARRIAGE",
+        "authority: differing indicators AUTHORITY, LEADERSHIP",
+        "specialist: differing indicators CRAFT, LINEAGE, SPECIALIST",
+        "support: differing indicators FRAMEWORK"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-611f05a8b4f4793f",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators DESERT, NARROW",
+        "population: shared indicators PEOPLE",
+        "population: differing indicators FAMILY, HOUSE, LINEAGE, PEOPLES",
+        "family: shared indicators MARRIAGE",
+        "family: differing indicators BIRTH, FAMILY",
+        "authority: differing indicators HOUSE, LEADERSHIP",
+        "specialist: shared indicators CRAFT",
+        "specialist: differing indicators HOUSE, LINEAGE, SPECIALIST",
+        "support: differing indicators REFERENCE",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify HISTORICAL?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: shared indicators COAST, DESERT, PLAINS, RIVER, VILLAGE",
+        "scope: differing indicators LOCAL, MOUNTAIN, NARROW, REGIONAL, SETTLEMENT, WETLAND",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "family: shared indicators BIRTH, CHILDHOOD, FAMILY, HOUSEHOLD",
+        "family: differing indicators KIN, MARRIAGE",
+        "authority: differing indicators AUTHORITY, LEADERSHIP",
+        "specialist: shared indicators LINEAGE, SPECIALIST",
+        "specialist: differing indicators CRAFT",
+        "support: differing indicators FRAMEWORK"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-dffe4c73e4cfa6b9",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, PLAINS, RIVER, SETTLEMENT",
+        "scope: differing indicators COAST, CONTINENT, CONTINENTAL, DESERT, MOUNTAIN, REGION, REGIONAL, VILLAGE, WETLAND",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators CLAN",
+        "family: shared indicators FAMILY, HOUSEHOLD, MARRIAGE",
+        "family: differing indicators BIRTH, CHILDHOOD, KIN",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY",
+        "specialist: shared indicators LINEAGE",
+        "specialist: differing indicators CRAFT, SPECIALIST",
+        "support: differing indicators AUDIT, CHECKLIST, GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-2aa256d2321cd8d4",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: shared indicators DESERT",
+        "scope: differing indicators LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, VILLAGE",
+        "population: shared indicators FAMILY, PEOPLES",
+        "population: differing indicators LINEAGE, PEOPLE",
+        "family: shared indicators FAMILY",
+        "family: differing indicators BIRTH, CHILDHOOD, MARRIAGE",
+        "authority: differing indicators LEADERSHIP",
+        "specialist: differing indicators CRAFT, LINEAGE",
+        "support: differing indicators REFERENCE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-cff466521f8c52e3",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
+      },
+      "known": [
+        "scope: shared indicators MOUNTAIN, NARROW, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, CONTINENT, DESERT, LOCAL, PLAINS, RIVER, WETLAND",
+        "population: shared indicators FAMILY, HOUSE, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSEHOLD",
+        "family: shared indicators FAMILY, MARRIAGE",
+        "family: differing indicators HOUSEHOLD",
+        "authority: shared indicators HOUSE",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, LEADER, LEADERSHIP",
+        "specialist: shared indicators HOUSE, LINEAGE, SPECIALIST",
+        "specialist: differing indicators CRAFT",
+        "support: differing indicators GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-8d381cdc12c23313",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators NARROW, VILLAGE",
+        "scope: differing indicators COAST, DESERT, LOCAL, MOUNTAIN, PLAINS, REGIONAL, RIVER, SETTLEMENT",
+        "population: shared indicators PEOPLE",
+        "population: differing indicators FAMILY, HOUSE, HOUSEHOLD, LINEAGE, PEOPLES",
+        "family: shared indicators BIRTH",
+        "family: differing indicators CHILDHOOD, FAMILY, HOUSEHOLD, MARRIAGE",
+        "authority: differing indicators HOUSE",
+        "specialist: shared indicators SPECIALIST",
+        "specialist: differing indicators CRAFT, HOUSE, LINEAGE",
+        "support: differing indicators FRAMEWORK",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify HISTORICAL?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-8638cf21392a42fa",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, MOUNTAIN, NARROW, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, CONTINENT, DESERT, PLAINS, RIVER, WETLAND",
+        "population: shared indicators HOUSE, PEOPLE",
+        "population: differing indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLES",
+        "family: shared indicators MARRIAGE",
+        "family: differing indicators BIRTH, FAMILY, HOUSEHOLD",
+        "authority: shared indicators HOUSE",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, LEADER, LEADERSHIP",
+        "specialist: shared indicators CRAFT, HOUSE, SPECIALIST",
+        "specialist: differing indicators LINEAGE",
+        "support: differing indicators GUIDE",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify HISTORICAL?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-8bca83b957da6f2e",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "known": [
+        "scope: shared indicators COAST, DESERT, NARROW, PLAINS, RIVER, VILLAGE",
+        "scope: differing indicators CONTINENT, LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, WETLAND",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSE",
+        "family: shared indicators FAMILY, HOUSEHOLD",
+        "family: differing indicators BIRTH, CHILDHOOD, MARRIAGE",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, HOUSE, LEADER, LEADERSHIP",
+        "specialist: shared indicators LINEAGE, SPECIALIST",
+        "specialist: differing indicators CRAFT, HOUSE",
+        "support: differing indicators FRAMEWORK, GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-0b3c9d254927f41d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, PLAINS, RIVER, SETTLEMENT, WETLAND",
+        "scope: differing indicators COAST, CONTINENT, DESERT, MOUNTAIN, NARROW, REGIONAL, VILLAGE",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSE",
+        "family: shared indicators FAMILY, HOUSEHOLD, MARRIAGE",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, HOUSE, LEADER",
+        "specialist: shared indicators LINEAGE",
+        "specialist: differing indicators CRAFT, HOUSE, SPECIALIST",
+        "support: differing indicators GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-3a5d6786a3b536d1",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators COAST, DESERT, PLAINS, REGIONAL, RIVER, VILLAGE",
+        "population: shared indicators LINEAGE",
+        "population: differing indicators FAMILY, PEOPLE, PEOPLES",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY",
+        "specialist: shared indicators LINEAGE",
+        "specialist: differing indicators SPECIALIST",
+        "support: differing indicators REFERENCE"
+      ],
+      "unknown": [
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-e0cced50cb5960dc",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators COAST, DESERT, NARROW",
+        "population: shared indicators PEOPLES",
+        "population: differing indicators FAMILY",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY"
+      ],
+      "unknown": [
+        "exact scope relationship is unresolved"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-af2a40ec0f6f2d0a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "known": [
+        "scope: shared indicators COAST, RIVER, VILLAGE",
+        "scope: differing indicators DESERT, NARROW, PLAINS, SETTLEMENT, WETLAND",
+        "population: shared indicators FAMILY, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSEHOLD",
+        "family: shared indicators FAMILY",
+        "family: differing indicators BIRTH, CHILDHOOD, HOUSEHOLD, MARRIAGE",
+        "authority: differing indicators LEADERSHIP",
+        "specialist: shared indicators LINEAGE, SPECIALIST",
+        "specialist: differing indicators CRAFT",
+        "support: differing indicators FRAMEWORK"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-232cec354bd43aba",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, LOCAL, MOUNTAIN, NARROW, REGIONAL, RIVER, WETLAND",
+        "population: shared indicators PEOPLE",
+        "population: differing indicators FAMILY, HOUSE, LINEAGE, PEOPLES",
+        "family: shared indicators MARRIAGE",
+        "family: differing indicators BIRTH, FAMILY",
+        "authority: differing indicators HOUSE, LEADERSHIP",
+        "specialist: shared indicators CRAFT, SPECIALIST",
+        "specialist: differing indicators HOUSE, LINEAGE",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify HISTORICAL?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-193f32ad2d9de810",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators DESERT, PLAINS",
+        "population: shared indicators PEOPLES",
+        "population: differing indicators FAMILY",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY"
+      ],
+      "unknown": [
+        "exact scope relationship is unresolved"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-ed460f945de5591e",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
+      },
+      "known": [
+        "scope: shared indicators DESERT",
+        "scope: differing indicators COAST, PLAINS, REGIONAL, RIVER, VILLAGE",
+        "population: differing indicators FAMILY, LINEAGE, PEOPLE, PEOPLES",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY",
+        "specialist: differing indicators LINEAGE",
+        "support: differing indicators REFERENCE"
+      ],
+      "unknown": [
+        "population overlap is unresolved",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-d1a7bee30a221feb",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators COAST, NARROW, PLAINS",
+        "population: shared indicators PEOPLES",
+        "family: shared indicators BIRTH, CHILDHOOD"
+      ],
+      "unknown": [
+        "exact scope relationship is unresolved"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-72e255c74d740ee4",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators MOUNTAIN, SETTLEMENT",
+        "scope: differing indicators LOCAL, NARROW, REGIONAL, VILLAGE",
+        "population: shared indicators HOUSE, PEOPLE",
+        "population: differing indicators LINEAGE",
+        "family: differing indicators BIRTH, MARRIAGE",
+        "authority: shared indicators HOUSE",
+        "specialist: shared indicators HOUSE, SPECIALIST",
+        "specialist: differing indicators CRAFT, LINEAGE",
+        "historical: differing indicators HISTORICAL, REVISION"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify HISTORICAL?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators COAST, DESERT, NARROW, PLAINS, RIVER, VILLAGE",
+        "population: shared indicators FAMILY, LINEAGE, PEOPLES",
+        "population: differing indicators HOUSEHOLD, PEOPLE",
+        "family: shared indicators BIRTH, CHILDHOOD, FAMILY",
+        "family: differing indicators HOUSEHOLD",
+        "specialist: shared indicators LINEAGE, SPECIALIST",
+        "support: differing indicators FRAMEWORK"
+      ],
+      "unknown": [
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-691ab0ffea5a8ddd",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators DESERT",
+        "population: shared indicators FAMILY, PEOPLES",
+        "population: differing indicators LINEAGE",
+        "family: shared indicators BIRTH, CHILDHOOD, FAMILY",
+        "specialist: differing indicators LINEAGE, SPECIALIST"
+      ],
+      "unknown": [],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-f4e20b002bded05b",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "known": [
+        "scope: shared indicators DESERT, LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, CONTINENT, NARROW, PLAINS, RIVER, WETLAND",
+        "population: shared indicators FAMILY, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSE, HOUSEHOLD",
+        "family: shared indicators FAMILY, MARRIAGE",
+        "family: differing indicators HOUSEHOLD",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, HOUSE, LEADER",
+        "specialist: shared indicators CRAFT, LINEAGE",
+        "specialist: differing indicators HOUSE, SPECIALIST",
+        "support: differing indicators GUIDE, REFERENCE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-bd1c8665a244842a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "known": [
+        "scope: shared indicators COAST, RIVER, SETTLEMENT, VILLAGE, WETLAND",
+        "scope: differing indicators CONTINENT, DESERT, LOCAL, MOUNTAIN, NARROW, PLAINS, REGIONAL",
+        "population: shared indicators FAMILY, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSE, HOUSEHOLD",
+        "family: shared indicators FAMILY, MARRIAGE",
+        "family: differing indicators HOUSEHOLD",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY, COUNCIL, HEAD, HOUSE, LEADER",
+        "specialist: shared indicators CRAFT, LINEAGE, SPECIALIST",
+        "specialist: differing indicators HOUSE",
+        "support: differing indicators GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-e793b0e075cf8c23",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "known": [
+        "scope: shared indicators PLAINS, RIVER",
+        "scope: differing indicators COAST, DESERT, LOCAL, NARROW, SETTLEMENT, VILLAGE, WETLAND",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "family: shared indicators FAMILY, HOUSEHOLD",
+        "family: differing indicators BIRTH, CHILDHOOD, MARRIAGE",
+        "authority: differing indicators LEADERSHIP",
+        "specialist: shared indicators LINEAGE",
+        "specialist: differing indicators SPECIALIST",
+        "support: differing indicators FRAMEWORK"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-b329cd231d2727ad",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators COAST, NARROW",
+        "population: shared indicators PEOPLES",
+        "population: differing indicators FAMILY, LINEAGE",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY",
+        "specialist: differing indicators LINEAGE, SPECIALIST"
+      ],
+      "unknown": [],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-879f1faee1124f5d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, PLAINS, RIVER, SETTLEMENT, WETLAND",
+        "scope: differing indicators COAST, DESERT, MOUNTAIN, REGIONAL, VILLAGE",
+        "population: shared indicators FAMILY, HOUSEHOLD, LINEAGE, PEOPLE, PEOPLES",
+        "family: shared indicators FAMILY, HOUSEHOLD, MARRIAGE",
+        "family: differing indicators BIRTH, CHILDHOOD, KIN",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY",
+        "specialist: shared indicators LINEAGE",
+        "specialist: differing indicators CRAFT, SPECIALIST"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-c04041f0ac1c1e21",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, SETTLEMENT",
+        "scope: differing indicators MOUNTAIN, NARROW, PLAINS, REGIONAL, RIVER, VILLAGE, WETLAND",
+        "population: shared indicators PEOPLE",
+        "population: differing indicators FAMILY, HOUSE, HOUSEHOLD, LINEAGE, PEOPLES",
+        "family: shared indicators MARRIAGE",
+        "family: differing indicators BIRTH, FAMILY, HOUSEHOLD",
+        "authority: differing indicators HOUSE, LEADERSHIP",
+        "specialist: differing indicators CRAFT, HOUSE, LINEAGE, SPECIALIST",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify HISTORICAL?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-bb7994106d0f01f6",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "known": [
+        "scope: shared indicators DESERT, LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, CONTINENT, CONTINENTAL, PLAINS, REGION, RIVER",
+        "population: shared indicators FAMILY, LINEAGE, PEOPLE, PEOPLES",
+        "population: differing indicators CLAN, HOUSEHOLD",
+        "family: shared indicators FAMILY, MARRIAGE",
+        "family: differing indicators BIRTH, CHILDHOOD, HOUSEHOLD, KIN",
+        "authority: shared indicators LEADERSHIP",
+        "authority: differing indicators AUTHORITY",
+        "specialist: shared indicators CRAFT, LINEAGE",
+        "specialist: differing indicators SPECIALIST",
+        "support: differing indicators AUDIT, CHECKLIST, GUIDE, REFERENCE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-b224e377289a5822",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "known": [
+        "scope: shared indicators LOCAL, MOUNTAIN, REGIONAL, SETTLEMENT, VILLAGE",
+        "scope: differing indicators COAST, CONTINENT, CONTINENTAL, DESERT, NARROW, PLAINS, REGION, RIVER",
+        "population: shared indicators PEOPLE",
+        "population: differing indicators CLAN, FAMILY, HOUSE, HOUSEHOLD, LINEAGE, PEOPLES",
+        "family: shared indicators BIRTH, MARRIAGE",
+        "family: differing indicators CHILDHOOD, FAMILY, HOUSEHOLD, KIN",
+        "authority: differing indicators AUTHORITY, HOUSE, LEADERSHIP",
+        "specialist: shared indicators CRAFT, SPECIALIST",
+        "specialist: differing indicators HOUSE, LINEAGE",
+        "support: differing indicators AUDIT, CHECKLIST, GUIDE",
+        "historical: differing indicators HISTORICAL"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "HISTORICAL",
+          "basis": "historical/revision indicators present",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify HISTORICAL?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-23635a2218f45fb1",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "known": [
+        "scope: shared indicators CONTINENT, LOCAL, PLAINS, WETLAND",
+        "scope: differing indicators COAST, DESERT, MOUNTAIN, NARROW, REGIONAL, RIVER, SETTLEMENT, VILLAGE",
+        "population: shared indicators FAMILY, HOUSEHOLD, PEOPLE, PEOPLES",
+        "population: differing indicators HOUSE, LINEAGE",
+        "family: shared indicators FAMILY, HOUSEHOLD, MARRIAGE",
+        "authority: shared indicators AUTHORITY, LEADERSHIP",
+        "authority: differing indicators COUNCIL, HEAD, HOUSE, LEADER",
+        "specialist: shared indicators CRAFT",
+        "specialist: differing indicators HOUSE, LINEAGE, SPECIALIST",
+        "support: differing indicators GUIDE"
+      ],
+      "unknown": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
+      ],
+      "assumptions": [
+        "authority and specialist signals may describe overlapping roles rather than separate institutions",
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        },
+        {
+          "label": "SUPPORTING",
+          "basis": "support/audit/reference indicators present",
+          "status": "candidate"
+        },
+        {
+          "label": "RELATED",
+          "basis": "shared authority/governance signals",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?",
+        "What evidence would falsify SUPPORTING?",
+        "What evidence would falsify RELATED?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-6ec15f56d38ae655",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "known": [
+        "scope: differing indicators DESERT, VILLAGE",
+        "population: shared indicators PEOPLES",
+        "population: differing indicators FAMILY",
+        "family: shared indicators BIRTH, CHILDHOOD",
+        "family: differing indicators FAMILY"
+      ],
+      "unknown": [
+        "exact scope relationship is unresolved"
+      ],
+      "assumptions": [
+        "shared family vocabulary may indicate a shared subject without implying duplicate content"
+      ],
+      "questions": [
+        "Do either document explicitly define the relationship or authority described?",
+        "What additional document context would resolve the scope/population/role ambiguity?"
+      ],
+      "hypotheses": [
+        {
+          "label": "VARIANT",
+          "basis": "shared subject signals with possible scope differences",
+          "status": "candidate"
+        }
+      ],
+      "challenge_questions": [
+        "What evidence would falsify VARIANT?"
+      ],
+      "investigation_rounds": 2,
+      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    }
+  ],
+  "summary": {
+    "cases": 30,
+    "with_unknowns": 28,
+    "with_hypotheses": 30,
+    "with_questions": 28,
+    "average_rounds": 2
+  },
+  "safety": {
+    "human_validation_required": true,
+    "automatic_canon_change": false,
+    "automatic_rule_promotion": false
+  }
+}

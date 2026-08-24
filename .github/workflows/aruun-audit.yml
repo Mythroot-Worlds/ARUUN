@@ -21,54 +21,39 @@ jobs:
   audit:
     name: Audit ARUUN repository
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
+        with: {fetch-depth: 0}
       - name: Set up Python
         uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
+        with: {python-version: '3.x'}
       - name: Run read-only repository validator
         run: python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
-
       - name: Run read-only content placement audit
         run: python TOOLS/REPOSITORY/validator/content_placement_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
-
       - name: Run read-only content lineage audit
         run: python TOOLS/REPOSITORY/validator/content_lineage_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
-
+      - name: Build read-only canonical assembly review
+        run: python TOOLS/REPOSITORY/validator/canonical_assembly_engine.py --root . --report TOOLS/REPOSITORY/REPORTS/CONTENT_LINEAGE_REPORT.json --out TOOLS/REPOSITORY/REPORTS
       - name: Run read-only continuity engine
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
-
       - name: Run Hearth continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH --out TOOLS/REPOSITORY/REPORTS/HEARTH
-
       - name: Run Hearth Plains live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/PLAINS --out TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS
-
       - name: Run Hearth Mountains live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS --out TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS
-
       - name: Run Hearth River live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/RIVER --out TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER
-
       - name: Run Hearth Wetlands live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/WETLANDS --out TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS
-
       - name: Run Hearth Desert live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/DESERT --out TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT
-
       - name: Run Hearth Coast live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/COAST --out TOOLS/REPOSITORY/REPORTS/HEARTH/COAST
-
       - name: Run disposable continuity detector test
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope TOOLS/REPOSITORY/CONTINUITY_TEST --include-test-fixtures --out TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST
-
       - name: Upload audit reports
         uses: actions/upload-artifact@v4
         with:
@@ -76,33 +61,25 @@ jobs:
           path: TOOLS/REPOSITORY/REPORTS/
           if-no-files-found: error
           retention-days: 30
-
       - name: Commit audit reports to repository
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add TOOLS/REPOSITORY/REPORTS/
-          if git diff --cached --quiet; then
-            echo "No audit report changes to commit."
-            exit 0
-          fi
+          if git diff --cached --quiet; then echo "No audit report changes to commit."; exit 0; fi
           git commit -m "chore(audit): update repository audit reports"
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
-
       - name: Print audit summary
         if: always()
         run: |
-          if [ -f TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md ]; then cat TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md; fi
-          if [ -f TOOLS/REPOSITORY/REPORTS/CONTENT_PLACEMENT_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTENT_PLACEMENT_REPORT.md; fi
-          if [ -f TOOLS/REPOSITORY/REPORTS/CONTENT_LINEAGE_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTENT_LINEAGE_REPORT.md; fi
-          if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md; fi
+          for f in AUDIT_SUMMARY.md CONTENT_PLACEMENT_REPORT.md CONTENT_LINEAGE_REPORT.md CANONICAL_ASSEMBLY_REVIEW.md CONTINUITY_REPORT.md; do
+            if [ -f "TOOLS/REPOSITORY/REPORTS/$f" ]; then cat "TOOLS/REPOSITORY/REPORTS/$f"; fi
+          done
           if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md; fi
           for region in PLAINS MOUNTAINS RIVER WETLANDS DESERT COAST; do
-            if [ -f "TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md" ]; then
-              echo "===== HEARTH/$region ====="
-              cat "TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md"
-            fi
+            f="TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md"
+            if [ -f "$f" ]; then echo "===== HEARTH/$region ====="; cat "$f"; fi
           done
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md; fi

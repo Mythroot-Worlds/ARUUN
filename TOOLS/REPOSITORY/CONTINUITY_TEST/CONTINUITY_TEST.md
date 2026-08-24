@@ -4,11 +4,9 @@ This document is deliberately disposable. It exists only to test Git-history con
 
 ## Baseline facts
 
-The mountain people maintain **three seasonal camps**.
+The mountain people maintain **two seasonal camps**.
 
 They use **pack animals for transport**.
-
-**Elders teach children through observation and practice.**
 
 ## Expected test behavior
 

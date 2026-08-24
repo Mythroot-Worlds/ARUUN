@@ -5,8 +5,8 @@
     "documents_analyzed": 18,
     "relationships_discovered": 70,
     "review_queue_size": 70,
-    "novel_discovered_relationships": 70,
-    "discovered_already_adjudicated": 0,
+    "novel_discovered_relationships": 41,
+    "discovered_already_adjudicated": 29,
     "match_strength_distribution": {
       "1": 8,
       "2": 25,
@@ -16,28 +16,28 @@
     }
   },
   "human_calibration": {
-    "relationship_count": 10,
-    "candidate_count": 10,
-    "human_confirmed_count": 10,
+    "relationship_count": 40,
+    "candidate_count": 40,
+    "human_confirmed_count": 40,
     "unresolved_count": 1,
     "by_final_label": {
       "COINCIDENTAL": 2,
       "CONFLICT": 1,
-      "HISTORICAL": 1,
+      "HISTORICAL": 2,
       "MISPLACED": 1,
-      "RELATED": 1,
+      "RELATED": 12,
       "REVIEW": 1,
-      "SUPPORTING": 1,
-      "VARIANT": 2
+      "SUPPORTING": 5,
+      "VARIANT": 16
     },
     "by_proposed_label": {
-      "DUPLICATE": 2,
+      "DUPLICATE": 17,
       "KEEP": 1,
-      "MERGE": 7
+      "MERGE": 22
     }
   },
-  "ace_decisions": 10,
-  "ace_heuristic_candidates": 10,
+  "ace_decisions": 40,
+  "ace_heuristic_candidates": 14,
   "relationship_records": [
     {
       "relationship_id": "REL-a5952657634e",
@@ -143,6 +143,336 @@
       "candidate": "Evidence is insufficient to determine whether two similar records are the same fact",
       "proposed": "MERGE",
       "final": "REVIEW",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-ead9ec80b42f820d",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 DESERT FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "candidate": "COAST FAMILY_BIRTH_CHILDHOOD \u2194 WETLANDS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-9c7fbdc858131086",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 COAST FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-341efe5ddc2482a6",
+      "candidate": "FAMILY_PARTNERSHIP \u2194 GOVERNANCE_AND_AUTHORITY",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "WORKING_CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-90b218660b55f84f",
+      "candidate": "WETLANDS FAMILY_BIRTH_CHILDHOOD \u2194 RIVER FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-50cd84d073a9394d",
+      "candidate": "PLAINS FAMILY_BIRTH_CHILDHOOD \u2194 RIVER FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-3fb322fe3ce82be1",
+      "candidate": "WETLANDS FAMILY_BIRTH_CHILDHOOD \u2194 PLAINS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-63e65f85b9949f10",
+      "candidate": "FAMILY_PARTNERSHIP \u2194 CULTURAL_AUDIT_CHECKLIST",
+      "proposed": "MERGE",
+      "final": "SUPPORTING",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "TOOL"
+      }
+    },
+    {
+      "relationship_id": "REL-d2769ca87432c610",
+      "candidate": "WETLANDS.md \u2194 COAST.md",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-9119c7e451067bdb",
+      "candidate": "DEMOGRAPHIC_MOUNTAIN_REVISION \u2194 MOUNTAINS/SPECIALIST_LINEAGES",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "WORKING"
+      }
+    },
+    {
+      "relationship_id": "REL-e37bc5dc52f71e21",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 WETLANDS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-b14ccfa2f792b164",
+      "candidate": "FAMILY_PARTNERSHIP \u2194 COAST",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "WORKING"
+      }
+    },
+    {
+      "relationship_id": "REL-6393b0e5604c64be",
+      "candidate": "RIVER FAMILY_BIRTH_CHILDHOOD \u2194 DESERT FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-9356c781e2ab7917",
+      "candidate": "FAMILY_PARTNERSHIP \u2194 PLAINS",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "WORKING"
+      }
+    },
+    {
+      "relationship_id": "REL-feb21b4aefc7a187",
+      "candidate": "COAST FAMILY_BIRTH_CHILDHOOD \u2194 RIVER FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-b530ce6659fa3717",
+      "candidate": "FAMILY_PARTNERSHIP \u2194 DESERT",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "WORKING"
+      }
+    },
+    {
+      "relationship_id": "REL-d760a97344d0c388",
+      "candidate": "CULTURAL_AUDIT_CHECKLIST \u2194 GOVERNANCE_AND_AUTHORITY",
+      "proposed": "MERGE",
+      "final": "SUPPORTING",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "TOOL"
+      }
+    },
+    {
+      "relationship_id": "REL-eefa3db53e167615",
+      "candidate": "COAST \u2194 DESERT",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-999325433c79bc99",
+      "candidate": "WETLANDS \u2194 PLAINS",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-f51bfc99cb5d96a7",
+      "candidate": "MOUNTAINS/SPECIALIST_HOUSES_CANON \u2194 MOUNTAINS/SPECIALIST_LINEAGES",
+      "proposed": "MERGE",
+      "final": "HISTORICAL",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-05ae219e967b33df",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE",
+      "proposed": "DUPLICATE",
+      "final": "SUPPORTING",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "COMPARATIVE"
+      }
+    },
+    {
+      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 PLAINS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-78aa0ac023ba1f89",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 RIVER FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-fad598e6ee381f08",
+      "candidate": "PLAINS \u2194 DESERT",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-675f7dc38c063173",
+      "candidate": "COAST \u2194 PLAINS",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-2bccf3bd93305a2f",
+      "candidate": "WETLANDS FAMILY_BIRTH_CHILDHOOD \u2194 MOUNTAINS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-93788d9bb20b191c",
+      "candidate": "WETLANDS \u2194 DESERT",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-773193a03cf54926",
+      "candidate": "CULTURAL_AUDIT_CHECKLIST \u2194 COAST",
+      "proposed": "MERGE",
+      "final": "SUPPORTING",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "TOOL"
+      }
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "candidate": "PLAINS FAMILY_BIRTH_CHILDHOOD \u2194 MOUNTAINS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-8f0d4a8b5d7f0d2a",
+      "candidate": "HEARTH FAMILY_BIRTH_CHILDHOOD \u2194 MOUNTAINS FAMILY_BIRTH_CHILDHOOD",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
       "status": "HUMAN_CONFIRMED",
       "context": {
         "domain": "PEOPLES",

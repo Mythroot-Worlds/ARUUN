@@ -1,7 +1,7 @@
 {
   "engine": "CORE A.C.E.",
   "mode": "READ_ONLY",
-  "decision_count": 10,
+  "decision_count": 40,
   "label_vocabulary": [
     "COINCIDENTAL",
     "CONFLICT",
@@ -29,8 +29,8 @@
       "role": "CANON",
       "proposed": "DUPLICATE",
       "observed_label": "VARIANT",
-      "support": 1,
-      "status": "CANDIDATE",
+      "support": 15,
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
       "auto_apply": false
     },
     {
@@ -65,7 +65,7 @@
       "role": "CANON",
       "proposed": "MERGE",
       "observed_label": "HISTORICAL",
-      "support": 1,
+      "support": 2,
       "status": "CANDIDATE",
       "auto_apply": false
     },
@@ -74,8 +74,8 @@
       "role": "CANON",
       "proposed": "MERGE",
       "observed_label": "RELATED",
-      "support": 1,
-      "status": "CANDIDATE",
+      "support": 7,
+      "status": "ELIGIBLE_FOR_HUMAN_REVIEW",
       "auto_apply": false
     },
     {
@@ -92,6 +92,42 @@
       "role": "CANON",
       "proposed": "MERGE",
       "observed_label": "VARIANT",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "COMPARATIVE",
+      "proposed": "DUPLICATE",
+      "observed_label": "SUPPORTING",
+      "support": 1,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_label": "SUPPORTING",
+      "support": 3,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "proposed": "MERGE",
+      "observed_label": "RELATED",
+      "support": 4,
+      "status": "CANDIDATE",
+      "auto_apply": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING_CANON",
+      "proposed": "MERGE",
+      "observed_label": "RELATED",
       "support": 1,
       "status": "CANDIDATE",
       "auto_apply": false

@@ -2,7 +2,7 @@
   "engine": "CORE A.C.E. Blind Generalization Test",
   "mode": "READ_ONLY",
   "holdout_size": 30,
-  "calibration_outcomes_available": 14,
+  "exemplar_pool_size": 2,
   "predictions": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -13,9 +13,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -26,68 +26,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -99,9 +108,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -112,68 +121,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -185,9 +203,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -198,68 +216,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -284,67 +311,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -357,9 +385,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -370,68 +398,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -443,9 +480,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -456,68 +493,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -529,9 +575,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.69,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 3.1457513110645907,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -542,68 +588,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.5,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -615,9 +670,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -628,68 +683,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -701,9 +765,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -714,68 +778,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -800,67 +873,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -873,9 +947,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -886,68 +960,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -959,10 +1042,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.91,
+      "confidence": 0.804,
       "evidence_scores": {
         "VARIANT": 2.41379000772445,
-        "RELATED": 0.23811761799581316,
+        "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
         "COINCIDENTAL": 0.09,
@@ -972,68 +1055,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1045,9 +1137,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -1058,68 +1150,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1131,9 +1232,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -1144,68 +1245,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1217,10 +1327,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.84,
+      "confidence": 0.714,
       "evidence_scores": {
         "VARIANT": 1.669193338482967,
-        "RELATED": 0.3174901573277509,
+        "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
         "COINCIDENTAL": 0.12,
@@ -1230,68 +1340,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1303,9 +1422,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -1316,68 +1435,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1389,10 +1517,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.91,
+      "confidence": 0.804,
       "evidence_scores": {
         "VARIANT": 2.41379000772445,
-        "RELATED": 0.23811761799581316,
+        "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
         "COINCIDENTAL": 0.09,
@@ -1402,68 +1530,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1475,9 +1612,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.698,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.6166010488516727,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -1488,68 +1625,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.5,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1561,10 +1707,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.91,
+      "confidence": 0.804,
       "evidence_scores": {
         "VARIANT": 2.41379000772445,
-        "RELATED": 0.23811761799581316,
+        "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
         "COINCIDENTAL": 0.09,
@@ -1574,68 +1720,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1647,10 +1802,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.84,
+      "confidence": 0.714,
       "evidence_scores": {
         "VARIANT": 1.669193338482967,
-        "RELATED": 0.3174901573277509,
+        "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
         "COINCIDENTAL": 0.12,
@@ -1660,68 +1815,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1746,67 +1910,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -1832,67 +1997,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -1905,9 +2071,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -1918,68 +2084,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -1991,10 +2166,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.91,
+      "confidence": 0.804,
       "evidence_scores": {
         "VARIANT": 2.41379000772445,
-        "RELATED": 0.23811761799581316,
+        "RELATED": 0.5881176179958132,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
         "COINCIDENTAL": 0.09,
@@ -2004,68 +2179,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": true
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.6,
-            "eligible": false
+            "strength_fit": 0.6
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -2077,9 +2261,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -2090,68 +2274,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -2163,9 +2356,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.679,
       "evidence_scores": {
-        "RELATED": 2.6457513110645907,
+        "RELATED": 2.995751311064591,
         "HISTORICAL": 1.4142135623730951,
         "VARIANT": 1.1161895003862226,
         "COINCIDENTAL": 1.0,
@@ -2176,68 +2369,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.2,
-            "eligible": true
+            "strength_fit": 0.2
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": true
+            "strength_fit": 1.0
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 1.0,
-            "eligible": false
+            "strength_fit": 1.0
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -2262,67 +2464,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -2335,9 +2538,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "confidence": 0.686,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
+        "RELATED": 2.4666010488516728,
         "HISTORICAL": 1.1313708498984762,
         "VARIANT": 1.0323790007724452,
         "COINCIDENTAL": 0.8,
@@ -2348,68 +2551,77 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     },
     {
@@ -2434,67 +2646,68 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
+      "exemplar_hits": [],
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
@@ -2507,10 +2720,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.84,
+      "confidence": 0.714,
       "evidence_scores": {
         "VARIANT": 1.669193338482967,
-        "RELATED": 0.3174901573277509,
+        "RELATED": 0.6674901573277509,
         "HISTORICAL": 0.16970562748477142,
         "MISPLACED": 0.12,
         "COINCIDENTAL": 0.12,
@@ -2520,79 +2733,90 @@
       "evidence_detail": {
         "VARIANT": [
           {
+            "kind": "HEURISTIC",
             "support": 15.0,
             "proposed": "DUPLICATE",
-            "strength_fit": 0.4,
-            "eligible": true
+            "strength_fit": 0.4
           },
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "MISPLACED": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "KEEP",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "COINCIDENTAL": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "CONFLICT": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "HISTORICAL": [
           {
+            "kind": "HEURISTIC",
             "support": 2.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ],
         "RELATED": [
           {
+            "kind": "HEURISTIC",
             "support": 7.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": true
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-2633e780eecf83e6",
+            "similarity": 0.35,
+            "source": "HUMAN_ANNOTATION"
           }
         ],
         "REVIEW": [
           {
+            "kind": "HEURISTIC",
             "support": 1.0,
             "proposed": "MERGE",
-            "strength_fit": 0.8,
-            "eligible": false
+            "strength_fit": 0.8
           }
         ]
       },
-      "prediction_status": "LEARNED_HEURISTIC",
+      "exemplar_hits": [
+        "ANN-2633e780eecf83e6"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
     }
   ],
   "summary": {
-    "predicted_with_learned_heuristic": 30,
+    "predicted_with_evidence": 30,
+    "exemplar_assisted": 24,
     "low_confidence": 0,
     "unclassified": 0,
     "distinct_predictions": 2
   },
   "safety": {
-    "holdout_excluded_from_training": true,
+    "holdout_excluded_from_exemplars": true,
+    "automatic_rule_promotion": false,
     "automatic_canon_change": false,
     "automatic_ledger_update": false,
     "human_validation_required": true

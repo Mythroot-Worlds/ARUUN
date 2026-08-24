@@ -1,0 +1,49 @@
+{
+  "engine": "CORE A.C.E. Exemplar Pool",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "example_count": 2,
+  "examples": [
+    {
+      "example_id": "ANN-2633e780eecf83e6",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/DEMOGRAPHIC_REVISION.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "reason": "Same region; one is historical/support material and the other is family/leadership document.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-84cc835369da94b6",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING"
+      ],
+      "reason": "Same people/cultural population; regional view versus continental/comparative view.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    }
+  ],
+  "holdout_exclusion": {
+    "relationship_ids": 30,
+    "pairs": 30,
+    "leakage_prevented": true
+  },
+  "safety": {
+    "automatic_rule_promotion": false,
+    "automatic_canon_change": false,
+    "holdout_training_leakage": false
+  }
+}

@@ -3,6 +3,7 @@
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
   "generated_reports_excluded": true,
   "administrative_documents_excluded_from_canon_findings": true,
+  "test_fixtures_included": false,
   "documents": 64,
   "findings": 0,
   "records": [
@@ -12,6 +13,7 @@
       "filename": "CANON_INDEX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [
         "00_master"
@@ -74,6 +76,7 @@
       "filename": "FOUNDATION_WORLD_PROFILE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [
         "00_master"
@@ -87,6 +90,7 @@
       "filename": "WORLD_BIBLE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [
         "00_master"
@@ -274,6 +278,7 @@
       "filename": "WORLD_STATUS.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [
         "00_master"
@@ -318,6 +323,7 @@
       "filename": "CLIMATE_OVERLAY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -332,6 +338,7 @@
       "filename": "OCEAN_AND_MARINE_CLIMATE_REFERENCE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -346,6 +353,7 @@
       "filename": "HUMAN_SETTLEMENT_OVERLAY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -362,6 +370,7 @@
       "filename": "HEARTH_CURRENT_CANON.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -377,6 +386,7 @@
       "filename": "HYDROLOGY_AND_DRAINAGE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -392,6 +402,7 @@
       "filename": "MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -407,6 +418,7 @@
       "filename": "SUNSCOUR_OASIS_NETWORK.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -423,6 +435,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -438,6 +451,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -453,6 +467,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -468,6 +483,7 @@
       "filename": "TECTONICS.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "01_world",
@@ -482,6 +498,7 @@
       "filename": "CANONICAL_CREATURE_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -496,6 +513,7 @@
       "filename": "00_README.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -511,6 +529,7 @@
       "filename": "01_MASTER_INSTRUCTIONS.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -526,6 +545,7 @@
       "filename": "02_LIBRARY_ARCHITECTURE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -541,6 +561,7 @@
       "filename": "03_RAPID_CREATION_TEMPLATE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -556,6 +577,7 @@
       "filename": "04_STYLE_AND_FEEL.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -571,6 +593,7 @@
       "filename": "05_BATCH_PROMPT.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -586,6 +609,7 @@
       "filename": "06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -601,6 +625,7 @@
       "filename": "CREATURE_NECESSITY_SHEET.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -615,6 +640,7 @@
       "filename": "FAUNA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -629,6 +655,7 @@
       "filename": "PREDICTIVE_EVOLUTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -643,6 +670,7 @@
       "filename": "CANONICAL_FLORA_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -657,6 +685,7 @@
       "filename": "EDIBLE_FLORA_EXPANSION_HANDOFF.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -671,6 +700,7 @@
       "filename": "EDIBLE_FLORA_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -685,6 +715,7 @@
       "filename": "FLORA_CREATION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -699,6 +730,7 @@
       "filename": "00_README.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -714,6 +746,7 @@
       "filename": "01_FLORA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -729,6 +762,7 @@
       "filename": "02_FLORA_CREATION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -744,6 +778,7 @@
       "filename": "FLORA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "02_ecology",
@@ -758,6 +793,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -774,6 +810,7 @@
       "filename": "COAST.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -789,6 +826,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -805,6 +843,7 @@
       "filename": "CULTURAL_AUDIT_CHECKLIST.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -820,6 +859,7 @@
       "filename": "DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -835,6 +875,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -851,6 +892,7 @@
       "filename": "DESERT.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -866,6 +908,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -881,6 +924,7 @@
       "filename": "FAMILY_PARTNERSHIP.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -896,6 +940,7 @@
       "filename": "GOVERNANCE_AND_AUTHORITY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -911,6 +956,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -927,6 +973,7 @@
       "filename": "SPECIALIST_HOUSES_CANON.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -943,6 +990,7 @@
       "filename": "SPECIALIST_LINEAGES.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -959,6 +1007,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -975,6 +1024,7 @@
       "filename": "PLAINS.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -990,6 +1040,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -1006,6 +1057,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -1022,6 +1074,7 @@
       "filename": "WETLANDS.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -1037,6 +1090,7 @@
       "filename": "HUMAN_POPULATION_GEOGRAPHY.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -1051,6 +1105,7 @@
       "filename": "HUMAN_EVOLUTION_RESEARCH_TRACK.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "03_peoples",
@@ -1065,6 +1120,7 @@
       "filename": "CHANGELOG.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [],
       "history_versions_checked": 2,
@@ -1292,6 +1348,7 @@
       "filename": "LICENSE.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [],
       "history_versions_checked": 0,
@@ -1303,6 +1360,7 @@
       "filename": "PROJECT_OPERATING_RULES.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [],
       "history_versions_checked": 0,
@@ -1314,6 +1372,7 @@
       "filename": "README.md",
       "archive": false,
       "tool": false,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [],
       "history_versions_checked": 0,
@@ -1325,6 +1384,7 @@
       "filename": "ARUUN_REPOSITORY_SCHEMA_v0.1.md",
       "archive": false,
       "tool": true,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "tools",
@@ -1339,6 +1399,7 @@
       "filename": "CONTINUITY_ENGINE_SPEC_v0.1.md",
       "archive": false,
       "tool": true,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "tools",
@@ -1353,6 +1414,7 @@
       "filename": "CONTINUITY_TEST.md",
       "archive": false,
       "tool": true,
+      "test_fixture": true,
       "administrative": false,
       "scope_tokens": [
         "tools",
@@ -1386,6 +1448,7 @@
       "filename": "README.md",
       "archive": false,
       "tool": true,
+      "test_fixture": false,
       "administrative": true,
       "scope_tokens": [
         "tools",
@@ -1431,6 +1494,7 @@
       "filename": "continuity-test-2.txt",
       "archive": false,
       "tool": true,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "tools",
@@ -1445,6 +1509,7 @@
       "filename": "continuity-test.txt",
       "archive": false,
       "tool": true,
+      "test_fixture": false,
       "administrative": false,
       "scope_tokens": [
         "tools",

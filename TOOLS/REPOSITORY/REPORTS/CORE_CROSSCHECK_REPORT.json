@@ -1,0 +1,1101 @@
+{
+  "engine": "CORE A.C.E. Cross-Check",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "purpose": "cross-reference independent Detective and semantic-analysis perspectives",
+  "cases": [
+    {
+      "relationship_id": "REL-ed6dfb7c702bc752",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 1
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-611f05a8b4f4793f",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 1
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-dffe4c73e4cfa6b9",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-2aa256d2321cd8d4",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-cff466521f8c52e3",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-8d381cdc12c23313",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-8638cf21392a42fa",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-8bca83b957da6f2e",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-0b3c9d254927f41d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-3a5d6786a3b536d1",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 1,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-e0cced50cb5960dc",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-af2a40ec0f6f2d0a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-232cec354bd43aba",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-193f32ad2d9de810",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-ed460f945de5591e",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-d1a7bee30a221feb",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": false,
+          "robin_semantic_support": false,
+          "state": "NEITHER",
+          "batman_answerability": 0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": false,
+          "robin_semantic_support": true,
+          "state": "ROBIN_ONLY",
+          "batman_answerability": 0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": false,
+          "robin_semantic_support": false,
+          "state": "NEITHER",
+          "batman_answerability": 0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 0,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-72e255c74d740ee4",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 1,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-691ab0ffea5a8ddd",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-f4e20b002bded05b",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-bd1c8665a244842a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-e793b0e075cf8c23",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-b329cd231d2727ad",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": false,
+          "robin_semantic_support": false,
+          "state": "NEITHER",
+          "batman_answerability": 0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": false,
+          "robin_semantic_support": false,
+          "state": "NEITHER",
+          "batman_answerability": 0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": false,
+          "robin_semantic_support": false,
+          "state": "NEITHER",
+          "batman_answerability": 0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 0,
+      "disagreement_count": 0,
+      "status": "INCONCLUSIVE"
+    },
+    {
+      "relationship_id": "REL-879f1faee1124f5d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 1
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-c04041f0ac1c1e21",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-bb7994106d0f01f6",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-b224e377289a5822",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        }
+      ],
+      "agreement_count": 3,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    },
+    {
+      "relationship_id": "REL-23635a2218f45fb1",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "authority",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 2
+        },
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "medium",
+          "ambiguity_signals": 1
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": false,
+          "state": "BATMAN_ONLY",
+          "batman_answerability": 1.0,
+          "robin_confidence": "low",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 1,
+      "status": "CONFLICT"
+    },
+    {
+      "relationship_id": "REL-6ec15f56d38ae655",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "dimensions": [
+        {
+          "dimension": "support",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        },
+        {
+          "dimension": "temporal",
+          "batman_answered": true,
+          "robin_semantic_support": true,
+          "state": "AGREE",
+          "batman_answerability": 1.0,
+          "robin_confidence": "high",
+          "ambiguity_signals": 0
+        }
+      ],
+      "agreement_count": 2,
+      "disagreement_count": 0,
+      "status": "AGREE"
+    }
+  ],
+  "summary": {
+    "cases": 30,
+    "agree": 20,
+    "conflict": 9,
+    "inconclusive": 1,
+    "batman_only_dimensions": 8,
+    "robin_only_dimensions": 1
+  },
+  "safety": {
+    "human_validation_required": true,
+    "automatic_canon_change": false,
+    "automatic_rule_promotion": false
+  }
+}

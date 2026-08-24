@@ -1,0 +1,645 @@
+{
+  "engine": "CORE Relationship Discovery",
+  "mode": "READ_ONLY",
+  "scope": "03_PEOPLES/CULTURES/HEARTH",
+  "documents_analyzed": 18,
+  "relationships_discovered": 70,
+  "review_queue_size": 70,
+  "relationships": [
+    {
+      "relationship_id": "REL-341efe5ddc2482a6",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 286,
+      "jaccard": 0.2544,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-63e65f85b9949f10",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "shared_terms": 258,
+      "jaccard": 0.2295,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-b14ccfa2f792b164",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "shared_terms": 222,
+      "jaccard": 0.2081,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-b530ce6659fa3717",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 214,
+      "jaccard": 0.198,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-9356c781e2ab7917",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "shared_terms": 207,
+      "jaccard": 0.2033,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-d760a97344d0c388",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 182,
+      "jaccard": 0.1944,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-879f1faee1124f5d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "shared_terms": 151,
+      "jaccard": 0.1566,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-773193a03cf54926",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "shared_terms": 150,
+      "jaccard": 0.1771,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-eefa3db53e167615",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 148,
+      "jaccard": 0.1942,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 147,
+      "jaccard": 0.1581,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-f4e20b002bded05b",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 146,
+      "jaccard": 0.165,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-bd1c8665a244842a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 142,
+      "jaccard": 0.1608,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-bb7994106d0f01f6",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 138,
+      "jaccard": 0.1595,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-d2769ca87432c610",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "shared_terms": 134,
+      "jaccard": 0.2248,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-fad598e6ee381f08",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 133,
+      "jaccard": 0.1865,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-675f7dc38c063173",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "shared_terms": 131,
+      "jaccard": 0.1848,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-23635a2218f45fb1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 127,
+      "jaccard": 0.1523,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-28ac4c37dd679ec6",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "shared_terms": 117,
+      "jaccard": 0.1434,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-93788d9bb20b191c",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 111,
+      "jaccard": 0.1776,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-dffe4c73e4cfa6b9",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "shared_terms": 111,
+      "jaccard": 0.1559,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-999325433c79bc99",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "shared_terms": 108,
+      "jaccard": 0.1935,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-0b3c9d254927f41d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 104,
+      "jaccard": 0.1392,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-4fa696c3cbeb60db",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 104,
+      "jaccard": 0.1138,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-8bca83b957da6f2e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "shared_terms": 102,
+      "jaccard": 0.1435,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-040e4a4a7cc22c80",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "shared_terms": 93,
+      "jaccard": 0.1344,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-ead9ec80b42f820d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 90,
+      "jaccard": 0.375,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-af2a40ec0f6f2d0a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "shared_terms": 84,
+      "jaccard": 0.1382,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-235e306bef3d4304",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "shared_terms": 80,
+      "jaccard": 0.1294,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-b224e377289a5822",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 80,
+      "jaccard": 0.1238,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-ed6dfb7c702bc752",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "shared_terms": 78,
+      "jaccard": 0.1418,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-8638cf21392a42fa",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 76,
+      "jaccard": 0.1121,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-232cec354bd43aba",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 71,
+      "jaccard": 0.1263,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-9c7fbdc858131086",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 62,
+      "jaccard": 0.2583,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-cff466521f8c52e3",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "shared_terms": 61,
+      "jaccard": 0.1012,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-d9d112d54ea48658",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 60,
+      "jaccard": 0.1179,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-e793b0e075cf8c23",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "shared_terms": 59,
+      "jaccard": 0.1285,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-611f05a8b4f4793f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 59,
+      "jaccard": 0.1017,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-e37bc5dc52f71e21",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 50,
+      "jaccard": 0.2083,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-05ae219e967b33df",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 49,
+      "jaccard": 0.1914,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-2aa256d2321cd8d4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 46,
+      "jaccard": 0.0916,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 45,
+      "jaccard": 0.1875,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-78aa0ac023ba1f89",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 45,
+      "jaccard": 0.1875,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-c04041f0ac1c1e21",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 45,
+      "jaccard": 0.1087,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-f51bfc99cb5d96a7",
+      "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "shared_terms": 44,
+      "jaccard": 0.193,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 42,
+      "jaccard": 0.175,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-8d381cdc12c23313",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 40,
+      "jaccard": 0.105,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-9119c7e451067bdb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "shared_terms": 28,
+      "jaccard": 0.224,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-72e255c74d740ee4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 27,
+      "jaccard": 0.125,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 23,
+      "jaccard": 0.2584,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-6393b0e5604c64be",
+      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 23,
+      "jaccard": 0.2054,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-e0cced50cb5960dc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 21,
+      "jaccard": 0.1603,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-55504e87091de8ae",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 21,
+      "jaccard": 0.0946,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-90b218660b55f84f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 19,
+      "jaccard": 0.25,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-6ec15f56d38ae655",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 19,
+      "jaccard": 0.157,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-50cd84d073a9394d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 18,
+      "jaccard": 0.25,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-3fb322fe3ce82be1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 18,
+      "jaccard": 0.2338,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-feb21b4aefc7a187",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 18,
+      "jaccard": 0.2022,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-691ab0ffea5a8ddd",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 18,
+      "jaccard": 0.1579,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-30f5a9626f7e6afd",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 17,
+      "jaccard": 0.1735,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-193f32ad2d9de810",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 17,
+      "jaccard": 0.1441,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-b329cd231d2727ad",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 15,
+      "jaccard": 0.1685,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-d1a7bee30a221feb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 15,
+      "jaccard": 0.163,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-51f1b244d00d546d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 15,
+      "jaccard": 0.1579,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-5371fbbbcd98ffd1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 15,
+      "jaccard": 0.1579,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-ed460f945de5591e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 15,
+      "jaccard": 0.1071,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-2bccf3bd93305a2f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 14,
+      "jaccard": 0.1795,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-63c6ff0ac1ceecb0",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "shared_terms": 14,
+      "jaccard": 0.1239,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 13,
+      "jaccard": 0.1757,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-7770c1de53d22d03",
+      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 12,
+      "jaccard": 0.16,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-3a5d6786a3b536d1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "shared_terms": 10,
+      "jaccard": 0.1031,
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    }
+  ],
+  "safety": {
+    "automatic_merge": false,
+    "automatic_canon_change": false,
+    "provenance_required": true
+  }
+}

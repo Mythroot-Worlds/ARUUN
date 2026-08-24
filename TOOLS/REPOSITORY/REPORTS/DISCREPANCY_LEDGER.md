@@ -858,7 +858,7 @@
 
 ## META-0110 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -866,13 +866,29 @@
 
 ## META-0111 — WARNING
 - **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0112 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0113 — WARNING
+- **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
 - **Status:** open
 
-## META-0112 — WARNING
+## META-0114 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
@@ -880,7 +896,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0113 — WARNING
+## META-0115 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
 - **Finding:** Missing stable document id.
@@ -888,7 +904,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0114 — WARNING
+## META-0116 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.

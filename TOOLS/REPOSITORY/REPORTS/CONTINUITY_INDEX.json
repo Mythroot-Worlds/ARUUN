@@ -1,6 +1,6 @@
 {
   "mode": "READ_ONLY",
-  "documents": 67,
+  "documents": 68,
   "findings": 32,
   "records": [
     {
@@ -1552,9 +1552,9 @@
           "potentially_dropped": [],
           "numbers_current": [
             "0",
-            "100",
-            "106",
-            "121",
+            "101",
+            "108",
+            "123",
             "15"
           ],
           "numbers_previous": [
@@ -1564,7 +1564,7 @@
             "15",
             "99"
           ],
-          "similarity": 0.9749
+          "similarity": 0.9694
         },
         {
           "commit": "9d9a690f810634366cf81f6d19c8e98d0d5f6437",
@@ -1573,9 +1573,9 @@
           "potentially_dropped": [],
           "numbers_current": [
             "0",
-            "100",
-            "106",
-            "121",
+            "101",
+            "108",
+            "123",
             "15"
           ],
           "numbers_previous": [
@@ -1585,7 +1585,7 @@
             "13",
             "99"
           ],
-          "similarity": 0.9694
+          "similarity": 0.9638
         },
         {
           "commit": "f00b51cebaed217c389e1ca2ab72c6edf8153ce1",
@@ -1594,9 +1594,9 @@
           "potentially_dropped": [],
           "numbers_current": [
             "0",
-            "100",
-            "106",
-            "121",
+            "101",
+            "108",
+            "123",
             "15"
           ],
           "numbers_previous": [
@@ -1606,7 +1606,7 @@
             "119",
             "13"
           ],
-          "similarity": 0.9889
+          "similarity": 0.9722
         },
         {
           "commit": "3780616e9a67a0a912527b04b09ce3b907e9fbc8",
@@ -1615,9 +1615,9 @@
           "potentially_dropped": [],
           "numbers_current": [
             "0",
-            "100",
-            "106",
-            "121",
+            "101",
+            "108",
+            "123",
             "15"
           ],
           "numbers_previous": [
@@ -1627,7 +1627,7 @@
             "129",
             "23"
           ],
-          "similarity": 0.9833
+          "similarity": 0.9722
         },
         {
           "commit": "64b3ec78470035c33671353e1f227dd77a3397c8",
@@ -1636,9 +1636,9 @@
           "potentially_dropped": [],
           "numbers_current": [
             "0",
-            "100",
-            "106",
-            "121",
+            "101",
+            "108",
+            "123",
             "15"
           ],
           "numbers_previous": [
@@ -1651,6 +1651,20 @@
           "similarity": 0.9638
         }
       ]
+    },
+    {
+      "path": "TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md",
+      "folder": "TOOLS/REPOSITORY/REPORTS",
+      "filename": "CONTINUITY_REPORT.md",
+      "archive": false,
+      "tool": true,
+      "scope_tokens": [
+        "tools",
+        "repository",
+        "reports"
+      ],
+      "history_versions_checked": 0,
+      "versions": []
     },
     {
       "path": "TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md",
@@ -1758,7 +1772,8 @@
             "related: tools/repository/reports/discrepancy ledger.md"
           ],
           "added": [
-            "path: tools/repository/continuity engine spec v0.1.md"
+            "path: tools/repository/continuity engine spec v0.1.md",
+            "path: tools/repository/reports/continuity report.md"
           ],
           "potentially_dropped": [],
           "numbers_current": [
@@ -1881,6 +1896,8 @@
             "0112",
             "0113",
             "0114",
+            "0115",
+            "0116",
             "1"
           ],
           "numbers_previous": [
@@ -2003,7 +2020,7 @@
             "0112",
             "1"
           ],
-          "similarity": 0.9748
+          "similarity": 0.961
         },
         {
           "commit": "8c7ce1da42be25c563a6aab01f16ab3b298319ab",
@@ -2098,7 +2115,8 @@
             "related: tools/repository/reports/discrepancy ledger.md"
           ],
           "added": [
-            "path: tools/repository/continuity engine spec v0.1.md"
+            "path: tools/repository/continuity engine spec v0.1.md",
+            "path: tools/repository/reports/continuity report.md"
           ],
           "potentially_dropped": [],
           "numbers_current": [
@@ -2221,6 +2239,8 @@
             "0112",
             "0113",
             "0114",
+            "0115",
+            "0116",
             "1"
           ],
           "numbers_previous": [
@@ -2343,7 +2363,7 @@
             "0112",
             "1"
           ],
-          "similarity": 0.9747
+          "similarity": 0.961
         },
         {
           "commit": "9d9a690f810634366cf81f6d19c8e98d0d5f6437",
@@ -2438,6 +2458,7 @@
           "added": [
             "finding: status vocabulary not yet mapped: working.",
             "path: tools/repository/continuity engine spec v0.1.md",
+            "path: tools/repository/reports/continuity report.md",
             "recommendation: review current demographic references."
           ],
           "potentially_dropped": [
@@ -2563,6 +2584,8 @@
             "0112",
             "0113",
             "0114",
+            "0115",
+            "0116",
             "1"
           ],
           "numbers_previous": [
@@ -2683,7 +2706,7 @@
             "0110",
             "1"
           ],
-          "similarity": 0.9779
+          "similarity": 0.9698
         },
         {
           "commit": "f00b51cebaed217c389e1ca2ab72c6edf8153ce1",
@@ -2778,6 +2801,7 @@
           "added": [
             "finding: status vocabulary not yet mapped: working.",
             "path: tools/repository/continuity engine spec v0.1.md",
+            "path: tools/repository/reports/continuity report.md",
             "recommendation: review current demographic references."
           ],
           "potentially_dropped": [
@@ -2904,6 +2928,8 @@
             "0112",
             "0113",
             "0114",
+            "0115",
+            "0116",
             "1"
           ],
           "numbers_previous": [
@@ -3026,7 +3052,7 @@
             "0112",
             "1"
           ],
-          "similarity": 0.9524
+          "similarity": 0.9378
         },
         {
           "commit": "3780616e9a67a0a912527b04b09ce3b907e9fbc8",
@@ -3120,6 +3146,7 @@
             "finding: status vocabulary not yet mapped: working update \u2014 not canon.",
             "finding: status vocabulary not yet mapped: working.",
             "path: tools/repository/continuity engine spec v0.1.md",
+            "path: tools/repository/reports/continuity report.md",
             "recommendation: add an explicit mapping only if this existing phrase is intended to remain active.",
             "recommendation: review current demographic references."
           ],
@@ -3267,6 +3294,8 @@
             "0112",
             "0113",
             "0114",
+            "0115",
+            "0116",
             "1"
           ],
           "numbers_previous": [
@@ -3400,7 +3429,7 @@
             "1",
             "2"
           ],
-          "similarity": 0.7433
+          "similarity": 0.7476
         }
       ]
     },
@@ -3597,7 +3626,8 @@
             "| tools/repository/reports/repository index.md | | tool | | | |"
           ],
           "added": [
-            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |"
+            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |",
+            "| tools/repository/reports/continuity report.md | | tool | | | |"
           ],
           "potentially_dropped": [],
           "numbers_current": [
@@ -3628,7 +3658,7 @@
             "8",
             "9"
           ],
-          "similarity": 0.9958
+          "similarity": 0.9895
         },
         {
           "commit": "9d9a690f810634366cf81f6d19c8e98d0d5f6437",
@@ -3732,7 +3762,8 @@
           "added": [
             "| 00 master/canon index.md | | reference | | | |",
             "| 00 master/world status.md | | reference | | | |",
-            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |"
+            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |",
+            "| tools/repository/reports/continuity report.md | | tool | | | |"
           ],
           "potentially_dropped": [
             "| 00 master/canon index.md | | reference | | working | |",
@@ -3766,7 +3797,7 @@
             "8",
             "9"
           ],
-          "similarity": 0.9951
+          "similarity": 0.9888
         },
         {
           "commit": "f00b51cebaed217c389e1ca2ab72c6edf8153ce1",
@@ -3870,7 +3901,8 @@
           "added": [
             "| 00 master/canon index.md | | reference | | | |",
             "| 00 master/world status.md | | reference | | | |",
-            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |"
+            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |",
+            "| tools/repository/reports/continuity report.md | | tool | | | |"
           ],
           "potentially_dropped": [
             "| 00 master/canon index.md | | reference | | working | |",
@@ -3905,7 +3937,7 @@
             "8",
             "9"
           ],
-          "similarity": 0.9913
+          "similarity": 0.9851
         },
         {
           "commit": "3780616e9a67a0a912527b04b09ce3b907e9fbc8",
@@ -4009,7 +4041,8 @@
             "| 07 archive/unclassified/aruunite pack milking animal design sheet.md | | archive | | | |",
             "| project operating rules.md | | | | | |",
             "| tools/repository/aruun repository schema v0.1.md | | tool | | | |",
-            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |"
+            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |",
+            "| tools/repository/reports/continuity report.md | | tool | | | |"
           ],
           "potentially_dropped": [
             "| 00 master/canon index.md | | reference | | working | |",
@@ -4085,7 +4118,7 @@
             "8",
             "9"
           ],
-          "similarity": 0.4077
+          "similarity": 0.4062
         },
         {
           "commit": "64b3ec78470035c33671353e1f227dd77a3397c8",
@@ -4189,7 +4222,8 @@
             "| 07 archive/unclassified/aruunite pack milking animal design sheet.md | | archive | | | |",
             "| project operating rules.md | | | | | |",
             "| tools/repository/aruun repository schema v0.1.md | | tool | | | |",
-            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |"
+            "| tools/repository/continuity engine spec v0.1.md | | tool | | | |",
+            "| tools/repository/reports/continuity report.md | | tool | | | |"
           ],
           "potentially_dropped": [
             "| 00 master/canon index.md | | reference | | working | |",
@@ -4264,7 +4298,7 @@
             "8",
             "9"
           ],
-          "similarity": 0.4091
+          "similarity": 0.4076
         }
       ]
     },
@@ -4556,9 +4590,9 @@
       ],
       "current": [
         "0",
-        "100",
-        "106",
-        "121",
+        "101",
+        "108",
+        "123",
         "15"
       ]
     },
@@ -4577,9 +4611,9 @@
       ],
       "current": [
         "0",
-        "100",
-        "106",
-        "121",
+        "101",
+        "108",
+        "123",
         "15"
       ]
     },
@@ -4598,9 +4632,9 @@
       ],
       "current": [
         "0",
-        "100",
-        "106",
-        "121",
+        "101",
+        "108",
+        "123",
         "15"
       ]
     },
@@ -4619,9 +4653,9 @@
       ],
       "current": [
         "0",
-        "100",
-        "106",
-        "121",
+        "101",
+        "108",
+        "123",
         "15"
       ]
     },
@@ -4640,9 +4674,9 @@
       ],
       "current": [
         "0",
-        "100",
-        "106",
-        "121",
+        "101",
+        "108",
+        "123",
         "15"
       ]
     },
@@ -4892,6 +4926,8 @@
         "0112",
         "0113",
         "0114",
+        "0115",
+        "0116",
         "1"
       ]
     },
@@ -5141,6 +5177,8 @@
         "0112",
         "0113",
         "0114",
+        "0115",
+        "0116",
         "1"
       ]
     },
@@ -5399,6 +5437,8 @@
         "0112",
         "0113",
         "0114",
+        "0115",
+        "0116",
         "1"
       ]
     },
@@ -5660,6 +5700,8 @@
         "0112",
         "0113",
         "0114",
+        "0115",
+        "0116",
         "1"
       ]
     },
@@ -5952,6 +5994,8 @@
         "0112",
         "0113",
         "0114",
+        "0115",
+        "0116",
         "1"
       ]
     },

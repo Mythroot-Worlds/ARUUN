@@ -4,7 +4,8 @@
 Folder-dependent document continuity analysis for Git repositories.
 
 The engine is intentionally conservative: it reports possible information loss
-and change for review; it never decides canon or mutates world content.
+and meaningful fact changes for review; it never decides canon or mutates world
+content.
 """
 from __future__ import annotations
 
@@ -17,9 +18,9 @@ from pathlib import Path
 
 IGNORE_PARTS = {".git", ".github", "__pycache__"}
 DOC_EXTENSIONS = {".md", ".txt"}
-GENERATED_PREFIXES = (
-    "TOOLS/REPOSITORY/REPORTS/",
-)
+GENERATED_PREFIXES = ("TOOLS/REPOSITORY/REPORTS/",)
+ADMIN_PATH_PREFIXES = ("00_MASTER/",)
+ADMIN_FILENAMES = {"CHANGELOG.md", "README.md"}
 
 
 def git(*args: str) -> str:
@@ -30,6 +31,8 @@ def git(*args: str) -> str:
 def current_files(root: Path, scope: str | None = None) -> list[Path]:
     base = root / scope if scope else root
     out: list[Path] = []
+    if not base.exists():
+        return out
     for p in base.rglob("*"):
         if not p.is_file() or p.suffix.lower() not in DOC_EXTENSIONS:
             continue
@@ -73,19 +76,55 @@ def facts(text: str) -> set[str]:
     return result
 
 
-def numbers(text: str) -> set[str]:
-    return set(re.findall(r"\b\d+(?:\.\d+)?%?\b", text))
+def number_skeleton(line: str) -> str:
+    """Normalize a factual line while replacing numeric values with a marker."""
+    line = normalize(line)
+    line = re.sub(r"\b\d+(?:\.\d+)?(?:\s*(?:%|million|billion|thousand|m|km|kg|g|years?|months?|days?|people))?\b", "<NUM>", line)
+    return re.sub(r"\s+", " ", line).strip()
+
+
+def factual_numeric_changes(current_text: str, previous_text: str) -> list[dict]:
+    """Find numeric changes only when the surrounding factual statement persists."""
+    previous: dict[str, set[str]] = {}
+    for raw in previous_text.splitlines():
+        n = normalize(raw)
+        if len(n) < 20 or n.startswith(("status:", "scope:", "source:", "---")):
+            continue
+        skeleton = number_skeleton(raw)
+        nums = set(re.findall(r"\b\d+(?:\.\d+)?%?\b", n))
+        if nums:
+            previous.setdefault(skeleton, set()).update(nums)
+
+    changes: list[dict] = []
+    for raw in current_text.splitlines():
+        n = normalize(raw)
+        if len(n) < 20 or n.startswith(("status:", "scope:", "source:", "---")):
+            continue
+        skeleton = number_skeleton(raw)
+        nums = set(re.findall(r"\b\d+(?:\.\d+)?%?\b", n))
+        if not nums or skeleton not in previous:
+            continue
+        old_nums = sorted(previous[skeleton])
+        new_nums = sorted(nums)
+        if old_nums != new_nums:
+            changes.append({"statement": n, "previous": old_nums, "current": new_nums})
+    return changes
 
 
 def classify(current: Path, root: Path) -> dict:
     rel = current.relative_to(root).as_posix()
     parts = current.relative_to(root).parts
+    administrative = (
+        rel.startswith(ADMIN_PATH_PREFIXES)
+        or current.name in ADMIN_FILENAMES
+    )
     return {
         "path": rel,
         "folder": "/".join(parts[:-1]),
         "filename": current.name,
         "archive": "07_ARCHIVE" in parts or "ARCHIVE" in parts,
         "tool": "TOOLS" in parts,
+        "administrative": administrative,
         "scope_tokens": [p.lower() for p in parts[:-1]],
     }
 
@@ -96,8 +135,7 @@ def compare(current_text: str, previous_text: str) -> dict:
         "preserved": sorted(cf & pf),
         "added": sorted(cf - pf),
         "potentially_dropped": sorted(pf - cf),
-        "numbers_current": sorted(numbers(current_text)),
-        "numbers_previous": sorted(numbers(previous_text)),
+        "numeric_fact_changes": factual_numeric_changes(current_text, previous_text),
         "similarity": round(difflib.SequenceMatcher(None, previous_text, current_text).ratio(), 4),
     }
 
@@ -134,9 +172,12 @@ def main() -> int:
 
     findings = []
     for r in records:
+        # Administrative/master documents are useful reference material, but
+        # are not treated as world-canon lineage by this engine.
+        if r["tool"] or r["administrative"]:
+            continue
         for v in r["versions"]:
-            # Tooling is tracked for continuity, but never escalated as canon loss.
-            if v["potentially_dropped"] and not r["tool"]:
+            if v["potentially_dropped"]:
                 findings.append({
                     "type": "POTENTIAL_CANON_LOSS",
                     "severity": "REVIEW",
@@ -146,21 +187,21 @@ def main() -> int:
                     "dropped_count": len(v["potentially_dropped"]),
                     "dropped": v["potentially_dropped"][:50],
                 })
-            if v["numbers_current"] != v["numbers_previous"] and not r["tool"]:
+            if v["numeric_fact_changes"]:
                 findings.append({
-                    "type": "NUMERIC_CHANGE",
+                    "type": "NUMERIC_FACT_CHANGE",
                     "severity": "REVIEW",
                     "path": r["path"],
                     "folder": r["folder"],
                     "commit": v["commit"],
-                    "previous": v["numbers_previous"],
-                    "current": v["numbers_current"],
+                    "changes": v["numeric_fact_changes"][:50],
                 })
 
     report = {
         "mode": "READ_ONLY",
         "scope": args.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT",
         "generated_reports_excluded": True,
+        "administrative_documents_excluded_from_canon_findings": True,
         "documents": len(records),
         "findings": len(findings),
         "records": records,
@@ -171,7 +212,8 @@ def main() -> int:
     lines = [
         "# ARUUN Continuity Report", "", "**Mode:** READ-ONLY", "",
         f"**Scope:** `{args.scope or 'ALL ACTIVE NON-GENERATED CONTENT'}`",
-        "**Generated audit reports excluded:** yes", "",
+        "**Generated audit reports excluded:** yes",
+        "**Administrative/master documents excluded from canon findings:** yes", "",
         f"Documents analyzed: {len(records)}", f"Continuity findings: {len(findings)}", "",
     ]
     if not findings:
@@ -187,8 +229,8 @@ def main() -> int:
                 for x in f['dropped'][:10]:
                     lines.append(f"  - {x}")
             else:
-                lines.append(f"- Previous numbers: {f['previous']}")
-                lines.append(f"- Current numbers: {f['current']}")
+                for change in f['changes'][:10]:
+                    lines.append(f"- `{change['statement']}`: {change['previous']} → {change['current']}")
             lines.append("")
     (out / "CONTINUITY_REPORT.md").write_text("\n".join(lines), encoding="utf-8")
     return 0

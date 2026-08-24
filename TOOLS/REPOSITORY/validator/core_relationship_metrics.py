@@ -6,22 +6,28 @@ from collections import Counter
 from pathlib import Path
 
 def load(p,d):
- try:return json.loads(p.read_text(encoding="utf-8")) if p.exists() else d
+ try:return json.loads(p.read_text(encoding='utf-8')) if p.exists() else d
  except:return d
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');a=ap.parse_args();root=Path(a.root).resolve();out=root/a.out;out.mkdir(parents=True,exist_ok=True)
  ledger=load(out/'CORE_DECISION_LEDGER.json',{'decisions':[]}); decisions=ledger.get('decisions',[])
  ace=load(out/'CORE_ACE_CALIBRATION_REPORT.json',{'decision_count':0,'heuristic_candidates':[]})
- # Each adjudicated example is a stable relationship record for the calibration corpus.
+ discovery=load(out/'CORE_RELATIONSHIP_DISCOVERY.json',{'relationships':[],'relationships_discovered':0,'review_queue_size':0})
+ discovered=discovery.get('relationships',[])
+ confirmed_ids=set()
  rel=[]
  for d in decisions:
   rid=d.get('relationship_id') or 'REL-'+hashlib.sha1(d.get('id','').encode()).hexdigest()[:12]
+  confirmed_ids.add(rid)
   rel.append({'relationship_id':rid,'candidate':d.get('candidate'),'proposed':d.get('proposed'),'final':d.get('label'),'status':'HUMAN_CONFIRMED','context':d.get('context',{})})
  counts=Counter(x['final'] for x in rel); proposed=Counter(x['proposed'] for x in rel)
- data={'engine':'CORE Relationship Metrics','mode':'TELEMETRY_ONLY','relationship_count':len(rel),'candidate_count':len(rel),'human_confirmed_count':len(rel),'unresolved_count':sum(1 for x in rel if x['final']=='REVIEW'),'by_final_label':dict(sorted(counts.items())),'by_proposed_label':dict(sorted(proposed.items())),'ace_decisions':ace.get('decision_count',0),'ace_heuristic_candidates':len(ace.get('heuristic_candidates',[])),'relationship_records':rel,'run_comparison_note':'Persist these metrics between runs to calculate discovery growth, novelty, confirmation rate, false-positive rate, and coverage once candidate discovery telemetry is available.','safety':{'automatic_relationship_acceptance':False,'automatic_canon_change':False,'stable_relationship_ids':True,'provenance_required':True}}
+ discovered_ids={x.get('relationship_id') for x in discovered if x.get('relationship_id')}
+ novel=len(discovered_ids-confirmed_ids)
+ overlap=len(discovered_ids & confirmed_ids)
+ data={'engine':'CORE Relationship Metrics','mode':'TELEMETRY_ONLY','discovery':{'documents_analyzed':discovery.get('documents_analyzed',0),'relationships_discovered':discovery.get('relationships_discovered',len(discovered)),'review_queue_size':discovery.get('review_queue_size',len(discovered)),'novel_discovered_relationships':novel,'discovered_already_adjudicated':overlap},'human_calibration':{'relationship_count':len(rel),'candidate_count':len(rel),'human_confirmed_count':len(rel),'unresolved_count':sum(1 for x in rel if x['final']=='REVIEW'),'by_final_label':dict(sorted(counts.items())),'by_proposed_label':dict(sorted(proposed.items()))},'ace_decisions':ace.get('decision_count',0),'ace_heuristic_candidates':len(ace.get('heuristic_candidates',[])),'relationship_records':rel,'run_comparison_note':'Compare discovery counts and stable relationship IDs across runs. Human adjudication remains the ground truth for confirmation and false-positive rates.','safety':{'automatic_relationship_acceptance':False,'automatic_canon_change':False,'stable_relationship_ids':True,'provenance_required':True}}
  (out/'CORE_RELATIONSHIP_METRICS.json').write_text(json.dumps(data,indent=2),encoding='utf-8')
- md=['# CORE Relationship Metrics','','**Telemetry only.** These metrics measure relationships and human adjudication; they do not authorize canon changes.','',f"Human-confirmed relationships: **{len(rel)}**",f"Unresolved: **{data['unresolved_count']}**",f"A.C.E. labeled decisions: **{ace.get('decision_count',0)}**",f"A.C.E. heuristic candidates: **{len(ace.get('heuristic_candidates',[]))}**",'','## Final labels']+[f'- `{k}`: **{v}**' for k,v in sorted(counts.items())]+['','## Next-run metrics','- Discovery growth','- Novel relationship discovery','- Human confirmation rate','- False-positive rate','- Coverage','- Anomaly recognition rate','']
+ md=['# CORE Relationship Metrics','','**Telemetry only.** Discovery metrics measure candidate relationships; human adjudication remains the ground truth.','',f"Discovered relationships: **{data['discovery']['relationships_discovered']}**",f"Novel discovered relationships: **{novel}**",f"Discovery review queue: **{data['discovery']['review_queue_size']}**",f"Human-confirmed relationships: **{len(rel)}**",f"Unresolved human decisions: **{data['human_calibration']['unresolved_count']}**",f"A.C.E. labeled decisions: **{ace.get('decision_count',0)}**",f"A.C.E. heuristic candidates: **{len(ace.get('heuristic_candidates',[]))}**",'','## Human-adjudicated labels']+[f'- `{k}`: **{v}**' for k,v in sorted(counts.items())]+['','## Longitudinal metrics now enabled','- Discovery growth','- Novel relationship discovery','- Stable-ID overlap across runs','- Human confirmation rate (after adjudication)','- False-positive rate (after adjudication)','- Coverage','- Anomaly recognition rate','']
  (out/'CORE_RELATIONSHIP_METRICS.md').write_text('\n'.join(md),encoding='utf-8')
- print(f'CORE relationship metrics: {len(rel)} stable adjudicated relationships.')
+ print(f"CORE metrics: {discovery.get('relationships_discovered',0)} discovered, {len(rel)} human-adjudicated.")
 if __name__=='__main__':main()

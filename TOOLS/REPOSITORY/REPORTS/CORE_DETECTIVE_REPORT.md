@@ -1,6 +1,6 @@
 # CORE A.C.E. Detective Report
 
-Claim-level evidence investigation.
+Grounded claim-level evidence investigation.
 
 {
   "cases": 30,
@@ -10,8 +10,9 @@ Claim-level evidence investigation.
   "unknown_cases_reduced": 28,
   "cases_with_evidence_updates": 28,
   "questions_answered": 74,
-  "direct_claims": 1157,
-  "contextual_claims": 2385,
+  "direct_claims": 911,
+  "grounded_direct_claims": 911,
+  "contextual_claims": 2631,
   "unique_claims": 3542,
   "cases_requiring_second_pass": 0,
   "causally_justified_second_passes": 0,

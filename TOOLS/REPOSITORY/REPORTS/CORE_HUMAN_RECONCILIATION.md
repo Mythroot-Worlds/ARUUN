@@ -17,35 +17,35 @@ Read-only reconciliation of human annotations against exact blind-test relations
 - No canon content is changed automatically.
 
 ## Matched relationships
-- `REL-ed6dfb7c702bc752` — `RELATED` vs human `VARIANT`
-- `REL-611f05a8b4f4793f` — `RELATED` vs human `RELATED, SUPPORTING, HISTORICAL`
-- `REL-ad1f1bd5ac0ddbcc` — `RELATED` vs human `RELATED`
-- `REL-dffe4c73e4cfa6b9` — `RELATED` vs human `SUPPORTING, CONFLICT`
-- `REL-2aa256d2321cd8d4` — `RELATED` vs human `RELATED, SUPPORTING, HISTORICAL`
-- `REL-cff466521f8c52e3` — `RELATED` vs human `RELATED, CONFLICT`
+- `REL-ed6dfb7c702bc752` — `VARIANT` vs human `VARIANT`
+- `REL-611f05a8b4f4793f` — `VARIANT` vs human `RELATED, SUPPORTING, HISTORICAL`
+- `REL-ad1f1bd5ac0ddbcc` — `VARIANT` vs human `RELATED`
+- `REL-dffe4c73e4cfa6b9` — `VARIANT` vs human `SUPPORTING, CONFLICT`
+- `REL-2aa256d2321cd8d4` — `VARIANT` vs human `RELATED, SUPPORTING, HISTORICAL`
+- `REL-cff466521f8c52e3` — `VARIANT` vs human `RELATED, CONFLICT`
 - `REL-53a134160c6d375a` — `VARIANT` vs human `RELATED, SUPPORTING`
-- `REL-ed460f945de5591e` — `RELATED` vs human `RELATED, SUPPORTING`
+- `REL-ed460f945de5591e` — `VARIANT` vs human `RELATED, SUPPORTING`
 - `REL-d1a7bee30a221feb` — `VARIANT` vs human `RELATED`
 - `REL-e0cced50cb5960dc` — `VARIANT` vs human `RELATED`
 - `REL-193f32ad2d9de810` — `VARIANT` vs human `RELATED`
 - `REL-691ab0ffea5a8ddd` — `VARIANT` vs human `RELATED`
-- `REL-f4e20b002bded05b` — `RELATED` vs human `RELATED`
-- `REL-bd1c8665a244842a` — `RELATED` vs human `RELATED`
-- `REL-e793b0e075cf8c23` — `RELATED` vs human `RELATED, SUPPORTING`
+- `REL-f4e20b002bded05b` — `VARIANT` vs human `RELATED`
+- `REL-bd1c8665a244842a` — `VARIANT` vs human `RELATED`
+- `REL-e793b0e075cf8c23` — `VARIANT` vs human `RELATED, SUPPORTING`
 - `REL-b329cd231d2727ad` — `VARIANT` vs human `RELATED`
-- `REL-879f1faee1124f5d` — `RELATED` vs human `RELATED, SUPPORTING`
+- `REL-879f1faee1124f5d` — `VARIANT` vs human `RELATED, SUPPORTING`
 - `REL-6ec15f56d38ae655` — `VARIANT` vs human `RELATED`
-- `REL-bb7994106d0f01f6` — `RELATED` vs human `RELATED, SUPPORTING`
-- `REL-b224e377289a5822` — `RELATED` vs human `RELATED, SUPPORTING`
-- `REL-23635a2218f45fb1` — `RELATED` vs human `RELATED`
-- `REL-0b3c9d254927f41d` — `RELATED` vs human `RELATED`
-- `REL-8638cf21392a42fa` — `RELATED` vs human `VARIANT, SUPPORTING, CONFLICT`
-- `REL-8d381cdc12c23313` — `RELATED` vs human `RELATED`
-- `REL-8bca83b957da6f2e` — `RELATED` vs human `RELATED`
-- `REL-3a5d6786a3b536d1` — `RELATED` vs human `RELATED`
-- `REL-af2a40ec0f6f2d0a` — `RELATED` vs human `RELATED`
-- `REL-232cec354bd43aba` — `RELATED` vs human `RELATED`
-- `REL-c04041f0ac1c1e21` — `RELATED` vs human `RELATED`
+- `REL-bb7994106d0f01f6` — `VARIANT` vs human `RELATED, SUPPORTING`
+- `REL-b224e377289a5822` — `VARIANT` vs human `RELATED, SUPPORTING`
+- `REL-23635a2218f45fb1` — `VARIANT` vs human `RELATED`
+- `REL-0b3c9d254927f41d` — `VARIANT` vs human `RELATED`
+- `REL-8638cf21392a42fa` — `VARIANT` vs human `VARIANT, SUPPORTING, CONFLICT`
+- `REL-8d381cdc12c23313` — `VARIANT` vs human `RELATED`
+- `REL-8bca83b957da6f2e` — `VARIANT` vs human `RELATED`
+- `REL-3a5d6786a3b536d1` — `VARIANT` vs human `RELATED`
+- `REL-af2a40ec0f6f2d0a` — `VARIANT` vs human `RELATED`
+- `REL-232cec354bd43aba` — `VARIANT` vs human `RELATED`
+- `REL-c04041f0ac1c1e21` — `VARIANT` vs human `RELATED`
 
 ## Remaining holdout relationships
 - `REL-72e255c74d740ee4` — `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md` ↔ `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md`

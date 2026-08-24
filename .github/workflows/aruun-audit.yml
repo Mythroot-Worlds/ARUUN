@@ -45,6 +45,21 @@ jobs:
       - name: Run Hearth Plains live continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/PLAINS --out TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS
 
+      - name: Run Hearth Mountains live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS --out TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS
+
+      - name: Run Hearth River live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/RIVER --out TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER
+
+      - name: Run Hearth Wetlands live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/WETLANDS --out TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS
+
+      - name: Run Hearth Desert live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/DESERT --out TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT
+
+      - name: Run Hearth Coast live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/COAST --out TOOLS/REPOSITORY/REPORTS/HEARTH/COAST
+
       - name: Run disposable continuity detector test
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope TOOLS/REPOSITORY/CONTINUITY_TEST --include-test-fixtures --out TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST
 
@@ -76,5 +91,10 @@ jobs:
           if [ -f TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md ]; then cat TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md; fi
-          if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md; fi
+          for region in PLAINS MOUNTAINS RIVER WETLANDS DESERT COAST; do
+            if [ -f "TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md" ]; then
+              echo "===== HEARTH/$region ====="
+              cat "TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md"
+            fi
+          done
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md; fi

@@ -12,15 +12,17 @@
     "RELATED",
     "REVIEW",
     "SUPPORTING",
-    "UNRESOLVED"
+    "UNRESOLVED",
+    "VARIANT"
   ],
   "legacy_label_vocabulary": [
     "VARIANT"
   ],
   "instructions": [
     "Assign a human_label only after reviewing both records and their context.",
-    "Final labels: DUPLICATE, SUPPORTING, HISTORICAL, MISPLACED, CONFLICT, RELATED, COINCIDENTAL, REVIEW, or UNRESOLVED.",
-    "VARIANT is legacy-only and must never be written as a final resolution; route it to REVIEW/context arbitration.",
+    "VARIANT is now valid only when the variant gate passes: same subject, scope, time, purpose, role, and substantially equivalent claims.",
+    "A VARIANT_CANDIDATE is not an automatic final label; human/context review is still required.",
+    "A failed variant gate is evidence against VARIANT, not evidence for another relationship.",
     "Do not infer canon from match strength alone.",
     "Record a reason and preserve the relationship_id."
   ],
@@ -31,6 +33,27 @@
       "match_strength": 5,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -42,6 +65,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -53,6 +97,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -64,6 +129,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -75,6 +161,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -86,6 +193,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -97,6 +225,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -108,6 +257,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -119,6 +289,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -130,6 +321,27 @@
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -141,6 +353,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -152,6 +385,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -163,6 +417,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -174,6 +449,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -185,6 +481,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -196,6 +513,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -207,6 +545,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -218,6 +577,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -229,6 +609,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -240,6 +641,26 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": true,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -251,6 +672,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -262,6 +704,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -273,6 +736,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -284,6 +768,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -295,6 +800,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -306,6 +832,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -317,6 +864,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -328,6 +896,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -339,6 +928,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,
@@ -350,6 +960,27 @@
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0.0,
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": false,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:time",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "missing_semantic_claims"
+        ]
+      },
       "suggested_classification": "UNCLASSIFIED",
       "human_label": null,
       "human_reason": null,

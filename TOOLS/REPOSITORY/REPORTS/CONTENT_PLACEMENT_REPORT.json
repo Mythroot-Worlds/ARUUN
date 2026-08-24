@@ -2,18 +2,8 @@
   "mode": "READ_ONLY",
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
   "documents": 69,
-  "findings": 12,
+  "findings": 13,
   "findings_detail": [
-    {
-      "type": "TOOL_CANDIDATE",
-      "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
-      "confidence": "medium",
-      "signals": [
-        "simulation",
-        "model"
-      ],
-      "recommendation": "Review whether this material belongs in a tool/reference layer rather than ordinary lore."
-    },
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
@@ -81,16 +71,36 @@
       "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
     },
     {
-      "type": "TOOL_CANDIDATE",
-      "path": "02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "type": "CONSTRUCTION_METHOD_CANDIDATE",
+      "path": "02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
       "confidence": "medium",
       "signals": [
-        "matrix",
         "necessity sheet",
-        "predictive evolution",
-        "function matrix"
+        "predictive evolution"
       ],
-      "recommendation": "Review whether this material belongs in a tool/reference layer rather than ordinary lore."
+      "recommendation": "Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool."
+    },
+    {
+      "type": "CONSTRUCTION_METHOD_CANDIDATE",
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+      "confidence": "medium",
+      "signals": [
+        "creation package",
+        "necessity sheet",
+        "predictive evolution"
+      ],
+      "recommendation": "Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool."
+    },
+    {
+      "type": "CONSTRUCTION_METHOD_CANDIDATE",
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md",
+      "confidence": "medium",
+      "signals": [
+        "formula",
+        "necessity sheet",
+        "predictive evolution"
+      ],
+      "recommendation": "Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool."
     },
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",

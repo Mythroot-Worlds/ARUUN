@@ -3,107 +3,14 @@
   "mode": "READ_ONLY",
   "holdout_size": 30,
   "calibration_outcomes_available": 14,
-  "contrastive_groups": [
-    {
-      "domain": "ECOLOGY",
-      "role": "TOOL",
-      "proposed": "DUPLICATE",
-      "observed_labels": [
-        "SUPPORTING"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "CANON",
-      "proposed": "DUPLICATE",
-      "observed_labels": [
-        "VARIANT"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "CANON",
-      "proposed": "KEEP",
-      "observed_labels": [
-        "MISPLACED"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "CANON",
-      "proposed": "MERGE",
-      "observed_labels": [
-        "COINCIDENTAL",
-        "CONFLICT",
-        "HISTORICAL",
-        "RELATED",
-        "REVIEW",
-        "VARIANT"
-      ],
-      "label_count": 6,
-      "contrastive": true
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "COMPARATIVE",
-      "proposed": "DUPLICATE",
-      "observed_labels": [
-        "SUPPORTING"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "TOOL",
-      "proposed": "MERGE",
-      "observed_labels": [
-        "SUPPORTING"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "WORKING",
-      "proposed": "MERGE",
-      "observed_labels": [
-        "RELATED"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "PEOPLES",
-      "role": "WORKING_CANON",
-      "proposed": "MERGE",
-      "observed_labels": [
-        "RELATED"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    },
-    {
-      "domain": "TOOLS",
-      "role": "TOOL",
-      "proposed": "MERGE",
-      "observed_labels": [
-        "COINCIDENTAL"
-      ],
-      "label_count": 1,
-      "contrastive": false
-    }
-  ],
   "predictions": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -185,7 +92,11 @@
     },
     {
       "relationship_id": "REL-611f05a8b4f4793f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -267,7 +178,11 @@
     },
     {
       "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -349,7 +264,11 @@
     },
     {
       "relationship_id": "REL-dffe4c73e4cfa6b9",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -431,7 +350,11 @@
     },
     {
       "relationship_id": "REL-2aa256d2321cd8d4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -513,7 +436,11 @@
     },
     {
       "relationship_id": "REL-cff466521f8c52e3",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -595,7 +522,11 @@
     },
     {
       "relationship_id": "REL-8d381cdc12c23313",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -677,7 +608,11 @@
     },
     {
       "relationship_id": "REL-8638cf21392a42fa",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -759,7 +694,11 @@
     },
     {
       "relationship_id": "REL-8bca83b957da6f2e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -841,7 +780,11 @@
     },
     {
       "relationship_id": "REL-0b3c9d254927f41d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -923,7 +866,11 @@
     },
     {
       "relationship_id": "REL-3a5d6786a3b536d1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1005,18 +952,22 @@
     },
     {
       "relationship_id": "REL-e0cced50cb5960dc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 3,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.626,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.91,
       "evidence_scores": {
-        "RELATED": 1.5874507866387544,
-        "VARIANT": 0.9485685011586675,
-        "HISTORICAL": 0.848528137423857,
-        "COINCIDENTAL": 0.6,
-        "CONFLICT": 0.6,
-        "REVIEW": 0.6,
-        "MISPLACED": 0.09
+        "VARIANT": 2.41379000772445,
+        "RELATED": 0.23811761799581316,
+        "HISTORICAL": 0.12727922061357855,
+        "MISPLACED": 0.09,
+        "COINCIDENTAL": 0.09,
+        "CONFLICT": 0.09,
+        "REVIEW": 0.09
       },
       "evidence_detail": {
         "VARIANT": [
@@ -1087,7 +1038,11 @@
     },
     {
       "relationship_id": "REL-af2a40ec0f6f2d0a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1169,7 +1124,11 @@
     },
     {
       "relationship_id": "REL-232cec354bd43aba",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1251,18 +1210,22 @@
     },
     {
       "relationship_id": "REL-193f32ad2d9de810",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 2,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.84,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
-        "COINCIDENTAL": 0.8,
-        "CONFLICT": 0.8,
-        "REVIEW": 0.8,
-        "MISPLACED": 0.12
+        "VARIANT": 1.669193338482967,
+        "RELATED": 0.3174901573277509,
+        "HISTORICAL": 0.16970562748477142,
+        "MISPLACED": 0.12,
+        "COINCIDENTAL": 0.12,
+        "CONFLICT": 0.12,
+        "REVIEW": 0.12
       },
       "evidence_detail": {
         "VARIANT": [
@@ -1333,7 +1296,11 @@
     },
     {
       "relationship_id": "REL-ed460f945de5591e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1415,18 +1382,22 @@
     },
     {
       "relationship_id": "REL-d1a7bee30a221feb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 3,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.626,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.91,
       "evidence_scores": {
-        "RELATED": 1.5874507866387544,
-        "VARIANT": 0.9485685011586675,
-        "HISTORICAL": 0.848528137423857,
-        "COINCIDENTAL": 0.6,
-        "CONFLICT": 0.6,
-        "REVIEW": 0.6,
-        "MISPLACED": 0.09
+        "VARIANT": 2.41379000772445,
+        "RELATED": 0.23811761799581316,
+        "HISTORICAL": 0.12727922061357855,
+        "MISPLACED": 0.09,
+        "COINCIDENTAL": 0.09,
+        "CONFLICT": 0.09,
+        "REVIEW": 0.09
       },
       "evidence_detail": {
         "VARIANT": [
@@ -1497,7 +1468,11 @@
     },
     {
       "relationship_id": "REL-72e255c74d740ee4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1579,18 +1554,22 @@
     },
     {
       "relationship_id": "REL-53a134160c6d375a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 3,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.626,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.91,
       "evidence_scores": {
-        "RELATED": 1.5874507866387544,
-        "VARIANT": 0.9485685011586675,
-        "HISTORICAL": 0.848528137423857,
-        "COINCIDENTAL": 0.6,
-        "CONFLICT": 0.6,
-        "REVIEW": 0.6,
-        "MISPLACED": 0.09
+        "VARIANT": 2.41379000772445,
+        "RELATED": 0.23811761799581316,
+        "HISTORICAL": 0.12727922061357855,
+        "MISPLACED": 0.09,
+        "COINCIDENTAL": 0.09,
+        "CONFLICT": 0.09,
+        "REVIEW": 0.09
       },
       "evidence_detail": {
         "VARIANT": [
@@ -1661,18 +1640,22 @@
     },
     {
       "relationship_id": "REL-691ab0ffea5a8ddd",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 2,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.84,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
-        "COINCIDENTAL": 0.8,
-        "CONFLICT": 0.8,
-        "REVIEW": 0.8,
-        "MISPLACED": 0.12
+        "VARIANT": 1.669193338482967,
+        "RELATED": 0.3174901573277509,
+        "HISTORICAL": 0.16970562748477142,
+        "MISPLACED": 0.12,
+        "COINCIDENTAL": 0.12,
+        "CONFLICT": 0.12,
+        "REVIEW": 0.12
       },
       "evidence_detail": {
         "VARIANT": [
@@ -1743,7 +1726,11 @@
     },
     {
       "relationship_id": "REL-f4e20b002bded05b",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "match_strength": 3,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.626,
@@ -1825,7 +1812,11 @@
     },
     {
       "relationship_id": "REL-bd1c8665a244842a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "match_strength": 3,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.626,
@@ -1907,7 +1898,11 @@
     },
     {
       "relationship_id": "REL-e793b0e075cf8c23",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -1989,18 +1984,22 @@
     },
     {
       "relationship_id": "REL-b329cd231d2727ad",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 3,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.626,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.91,
       "evidence_scores": {
-        "RELATED": 1.5874507866387544,
-        "VARIANT": 0.9485685011586675,
-        "HISTORICAL": 0.848528137423857,
-        "COINCIDENTAL": 0.6,
-        "CONFLICT": 0.6,
-        "REVIEW": 0.6,
-        "MISPLACED": 0.09
+        "VARIANT": 2.41379000772445,
+        "RELATED": 0.23811761799581316,
+        "HISTORICAL": 0.12727922061357855,
+        "MISPLACED": 0.09,
+        "COINCIDENTAL": 0.09,
+        "CONFLICT": 0.09,
+        "REVIEW": 0.09
       },
       "evidence_detail": {
         "VARIANT": [
@@ -2071,7 +2070,11 @@
     },
     {
       "relationship_id": "REL-879f1faee1124f5d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -2153,7 +2156,11 @@
     },
     {
       "relationship_id": "REL-c04041f0ac1c1e21",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 1,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -2235,7 +2242,11 @@
     },
     {
       "relationship_id": "REL-bb7994106d0f01f6",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -2317,7 +2328,11 @@
     },
     {
       "relationship_id": "REL-b224e377289a5822",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -2399,7 +2414,11 @@
     },
     {
       "relationship_id": "REL-23635a2218f45fb1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "match_strength": 2,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
       "confidence": 0.652,
@@ -2481,18 +2500,22 @@
     },
     {
       "relationship_id": "REL-6ec15f56d38ae655",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "match_strength": 2,
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.652,
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "DUPLICATE",
+      "predicted_classification": "VARIANT",
+      "confidence": 0.84,
       "evidence_scores": {
-        "RELATED": 2.1166010488516727,
-        "HISTORICAL": 1.1313708498984762,
-        "VARIANT": 1.0323790007724452,
-        "COINCIDENTAL": 0.8,
-        "CONFLICT": 0.8,
-        "REVIEW": 0.8,
-        "MISPLACED": 0.12
+        "VARIANT": 1.669193338482967,
+        "RELATED": 0.3174901573277509,
+        "HISTORICAL": 0.16970562748477142,
+        "MISPLACED": 0.12,
+        "COINCIDENTAL": 0.12,
+        "CONFLICT": 0.12,
+        "REVIEW": 0.12
       },
       "evidence_detail": {
         "VARIANT": [
@@ -2566,7 +2589,7 @@
     "predicted_with_learned_heuristic": 30,
     "low_confidence": 0,
     "unclassified": 0,
-    "distinct_predictions": 1
+    "distinct_predictions": 2
   },
   "safety": {
     "holdout_excluded_from_training": true,

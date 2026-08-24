@@ -42,6 +42,9 @@ jobs:
       - name: Run Hearth continuity audit
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH --out TOOLS/REPOSITORY/REPORTS/HEARTH
 
+      - name: Run Hearth Plains live continuity audit
+        run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope 03_PEOPLES/CULTURES/HEARTH/PLAINS --out TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS
+
       - name: Run disposable continuity detector test
         run: python TOOLS/REPOSITORY/validator/continuity_engine.py --root . --scope TOOLS/REPOSITORY/CONTINUITY_TEST --include-test-fixtures --out TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST
 
@@ -73,4 +76,5 @@ jobs:
           if [ -f TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md ]; then cat TOOLS/REPOSITORY/REPORTS/AUDIT_SUMMARY.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_REPORT.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md; fi
+          if [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md; fi
           if [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md ]; then cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md; fi

@@ -11,7 +11,7 @@ from pathlib import Path
 SKIP={".git",".github","node_modules","__pycache__"}
 ARCHIVE="07_ARCHIVE/"
 REPORTS="TOOLS/REPOSITORY/REPORTS/"
-TOOL_HINTS=("matrix","algorithm","formula","simulation","model","creation package","design sheet","design brief","necessity sheet","predictive evolution","function matrix")
+TOOL_HINTS=("algorithm","formula","simulation","creation package","design sheet","design brief","necessity sheet","predictive evolution")
 SUBJECT_RULES={
  "family_birth_childhood":("family.birth_childhood","FAMILY_BIRTH_CHILDHOOD.md"),
  "family_partnership":("family.partnership","FAMILY_PARTNERSHIP.md"),
@@ -33,14 +33,6 @@ def front(t):
    k,v=line.split(":",1);d[k.strip().lower()]=v.strip().strip("\"'")
  return d
 
-def section_chunks(t):
- heads=list(re.finditer(r"^#{1,4}\s+(.+)$",t,re.M)); out=[]
- for i,m in enumerate(heads):
-  end=heads[i+1].start() if i+1<len(heads) else len(t)
-  body=t[m.end():end]
-  if len(body.strip())>=80: out.append((m.group(1).strip(),body.strip()))
- return out
-
 def score_region(body,region):
  aliases={"PLAINS":("plains","grassland","woodland mosaic","great plains"),"MOUNTAINS":("mountain","highland","upland","ridgehorn","aegir","frostward","southward"),"RIVER":("river","floodplain","delta","riverland","silverpine"),"WETLANDS":("wetland","marsh","lake","greenmarsh","waterlogged"),"DESERT":("desert","dry interior","rain shadow","sunscour","arid","basin"),"COAST":("coast","coastal","marine","shore","gulf","peninsula","isle")}
  return sum(body.lower().count(x) for x in aliases[region])
@@ -48,8 +40,7 @@ def score_region(body,region):
 def expected_region(path,t):
  u=path.upper()
  for r in REGIONS:
-  if f"/{r}/" in "/"+u+"/" or u.endswith(f"/{r}.MD"):
-   return r
+  if f"/{r}/" in "/"+u+"/" or u.endswith(f"/{r}.MD"): return r
  fm=front(t)
  for r in REGIONS:
   if fm.get("people","").upper()==r or fm.get("region","").upper()==r:return r
@@ -66,18 +57,19 @@ def main():
  for p in base.rglob("*.md"):
   if any(x in SKIP for x in p.parts):continue
   rel=p.relative_to(root).as_posix()
-  if rel.startswith(REPORTS):continue
-  if rel.startswith(ARCHIVE):continue
-  t=text(p);docs.append((rel,t,front(t)))
+  if rel.startswith(REPORTS) or rel.startswith(ARCHIVE):continue
+  docs.append((rel,text(p),front(text(p))))
  findings=[]
  for rel,t,fm in docs:
   upper=rel.upper(); low=t.lower(); region=expected_region(rel,t)
   tool_hits=[h for h in TOOL_HINTS if h in low]
-  is_tool_path=(upper.startswith("02_ECOLOGY/") and any(x in upper for x in ("MATRIX","CREATION_PACKAGE","NECESSITY","PREDICTIVE"))) or upper.startswith("TOOLS/")
-  if len(tool_hits)>=2 and not is_tool_path and not upper.startswith("00_MASTER/"):
-   findings.append({"type":"TOOL_CANDIDATE","path":rel,"confidence":"medium","signals":tool_hits[:8],"recommendation":"Review whether this material belongs in a tool/reference layer rather than ordinary lore."})
+  is_tool_path=upper.startswith("TOOLS/")
+  is_world_library=(upper=="02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.MD")
+  if len(tool_hits)>=2 and not is_tool_path and not is_world_library and not upper.startswith("00_MASTER/"):
+   findings.append({"type":"CONSTRUCTION_METHOD_CANDIDATE","path":rel,"confidence":"medium","signals":tool_hits[:8],"recommendation":"Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool."})
+  # Regional routing is advisory and only fires when the content strongly outweighs alternatives.
   region_scores={r:score_region(t,r) for r in REGIONS}; ranked=sorted(region_scores.items(),key=lambda x:x[1],reverse=True)
-  if ranked and ranked[0][1]>=8 and ranked[0][1]>=ranked[1][1]*1.5 and "/HEARTH/" in upper and "/"+ranked[0][0]+"/" not in "/"+upper+"/":
+  if ranked and ranked[0][1]>=8 and ranked[0][1]>=max(1,ranked[1][1])*1.5 and "/HEARTH/" in upper and "/"+ranked[0][0]+"/" not in "/"+upper+"/":
    r,sc=ranked[0]
    if not upper.startswith("03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/"):
     findings.append({"type":"REGIONAL_PLACEMENT_CANDIDATE","path":rel,"confidence":"medium","candidate_region":r,"score":sc,"other_region_score":ranked[1][1],"recommendation":f"Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/{r}/."})
@@ -99,8 +91,7 @@ def main():
  out=root/a.out;out.mkdir(parents=True,exist_ok=True)
  data={"mode":"READ_ONLY","scope":a.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT","documents":len(docs),"findings":len(findings),"findings_detail":findings}
  (out/"CONTENT_PLACEMENT_REPORT.json").write_text(json.dumps(data,indent=2),encoding="utf-8")
- scope=a.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT"
- lines=["# ARUUN Content Placement Audit","","**Mode:** READ-ONLY",f"**Scope:** `{scope}`","",f"Documents analyzed: {len(docs)}",f"Placement candidates: {len(findings)}","","## Review Candidates"]
+ lines=["# ARUUN Content Placement Audit","","**Mode:** READ-ONLY",f"**Scope:** `{a.scope or 'ALL_ACTIVE_NON_GENERATED_CONTENT'}`","",f"Documents analyzed: {len(docs)}",f"Placement candidates: {len(findings)}","","## Review Candidates"]
  for i,f in enumerate(findings,1):
   lines += [f"### {i}. {f['type']}",f"- **Path:** `{f.get('path','—')}`",f"- **Confidence:** {f.get('confidence','—')}",f"- **Recommendation:** {f.get('recommendation','—')}"]
   if 'candidate_region' in f:lines.append(f"- **Candidate region:** {f['candidate_region']}")

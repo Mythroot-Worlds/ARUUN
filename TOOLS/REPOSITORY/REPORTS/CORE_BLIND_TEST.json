@@ -2,17 +2,183 @@
   "engine": "CORE A.C.E. Blind Generalization Test",
   "mode": "READ_ONLY",
   "holdout_size": 30,
-  "eligible_learned_heuristics": 2,
+  "calibration_outcomes_available": 14,
+  "contrastive_groups": [
+    {
+      "domain": "ECOLOGY",
+      "role": "TOOL",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "VARIANT"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "KEEP",
+      "observed_labels": [
+        "MISPLACED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "COINCIDENTAL",
+        "CONFLICT",
+        "HISTORICAL",
+        "RELATED",
+        "REVIEW",
+        "VARIANT"
+      ],
+      "label_count": 6,
+      "contrastive": true
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "COMPARATIVE",
+      "proposed": "DUPLICATE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "SUPPORTING"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "RELATED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "PEOPLES",
+      "role": "WORKING_CANON",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "RELATED"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    },
+    {
+      "domain": "TOOLS",
+      "role": "TOOL",
+      "proposed": "MERGE",
+      "observed_labels": [
+        "COINCIDENTAL"
+      ],
+      "label_count": 1,
+      "contrastive": false
+    }
+  ],
   "predictions": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -22,10 +188,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -35,10 +270,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -48,10 +352,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -61,10 +434,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -74,10 +516,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -87,10 +598,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -100,10 +680,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -113,10 +762,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -126,10 +844,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -139,10 +926,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -152,12 +1008,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -165,10 +1090,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -178,10 +1172,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -191,10 +1254,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -204,10 +1336,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -217,12 +1418,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -230,10 +1500,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -243,12 +1582,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -256,10 +1664,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -269,12 +1746,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -282,12 +1828,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -295,10 +1910,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -308,12 +1992,81 @@
       "match_strength": 3,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.571,
+      "confidence": 0.626,
       "evidence_scores": {
-        "RELATED": 4.2,
-        "VARIANT": 3.15
+        "RELATED": 1.5874507866387544,
+        "VARIANT": 0.9485685011586675,
+        "HISTORICAL": 0.848528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
       },
-      "prediction_status": "LOW_CONFIDENCE",
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6,
+            "eligible": false
+          }
+        ]
+      },
+      "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     },
     {
@@ -321,10 +2074,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -334,10 +2156,79 @@
       "match_strength": 1,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.87,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 7.0,
-        "VARIANT": 1.05
+        "RELATED": 2.6457513110645907,
+        "HISTORICAL": 1.4142135623730951,
+        "VARIANT": 1.1161895003862226,
+        "COINCIDENTAL": 1.0,
+        "CONFLICT": 1.0,
+        "REVIEW": 1.0,
+        "MISPLACED": 0.15
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.2,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 1.0,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -347,10 +2238,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -360,10 +2320,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -373,10 +2402,79 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
@@ -386,19 +2484,89 @@
       "match_strength": 2,
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.727,
+      "confidence": 0.652,
       "evidence_scores": {
-        "RELATED": 5.6000000000000005,
-        "VARIANT": 2.1
+        "RELATED": 2.1166010488516727,
+        "HISTORICAL": 1.1313708498984762,
+        "VARIANT": 1.0323790007724452,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4,
+            "eligible": true
+          },
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "MISPLACED": [
+          {
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "CONFLICT": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ],
+        "RELATED": [
+          {
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": true
+          }
+        ],
+        "REVIEW": [
+          {
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8,
+            "eligible": false
+          }
+        ]
       },
       "prediction_status": "LEARNED_HEURISTIC",
       "requires_human_validation": true
     }
   ],
   "summary": {
-    "predicted_with_learned_heuristic": 24,
-    "low_confidence": 6,
-    "unclassified": 0
+    "predicted_with_learned_heuristic": 30,
+    "low_confidence": 0,
+    "unclassified": 0,
+    "distinct_predictions": 1
   },
   "safety": {
     "holdout_excluded_from_training": true,

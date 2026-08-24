@@ -1,0 +1,144 @@
+{
+  "engine": "CORE Relationship Metrics",
+  "mode": "TELEMETRY_ONLY",
+  "relationship_count": 10,
+  "candidate_count": 10,
+  "human_confirmed_count": 10,
+  "unresolved_count": 1,
+  "by_final_label": {
+    "COINCIDENTAL": 2,
+    "CONFLICT": 1,
+    "HISTORICAL": 1,
+    "MISPLACED": 1,
+    "RELATED": 1,
+    "REVIEW": 1,
+    "SUPPORTING": 1,
+    "VARIANT": 2
+  },
+  "by_proposed_label": {
+    "DUPLICATE": 2,
+    "KEEP": 1,
+    "MERGE": 7
+  },
+  "ace_decisions": 10,
+  "ace_heuristic_candidates": 10,
+  "relationship_records": [
+    {
+      "relationship_id": "REL-a5952657634e",
+      "candidate": "Shared childhood practice described in two Hearth regional canon files",
+      "proposed": "DUPLICATE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-8f390f71ab33",
+      "candidate": "Creation methodology repeated in a world-facing library and its creation package",
+      "proposed": "DUPLICATE",
+      "final": "SUPPORTING",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "ECOLOGY",
+        "role": "TOOL"
+      }
+    },
+    {
+      "relationship_id": "REL-466f1dfeff76",
+      "candidate": "Older Hearth material contradicts current regional canon",
+      "proposed": "MERGE",
+      "final": "HISTORICAL",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-cc2cd1653a6c",
+      "candidate": "Same process phrase appears across unrelated tool documents",
+      "proposed": "MERGE",
+      "final": "COINCIDENTAL",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "TOOLS",
+        "role": "TOOL"
+      }
+    },
+    {
+      "relationship_id": "REL-90bab011db84",
+      "candidate": "Fact about a Hearth group appears in a different regional folder",
+      "proposed": "KEEP",
+      "final": "MISPLACED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-0fe5d162be1f",
+      "candidate": "Two current canon records give incompatible details for the same subject",
+      "proposed": "MERGE",
+      "final": "CONFLICT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-c36dbd5dae64",
+      "candidate": "Two records describe the same subject but add different non-conflicting details",
+      "proposed": "MERGE",
+      "final": "RELATED",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-a31200d1e3c1",
+      "candidate": "Two entries share vocabulary but refer to different subjects",
+      "proposed": "MERGE",
+      "final": "COINCIDENTAL",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-8d3b47016ff5",
+      "candidate": "Regional tradition differs from a broader Hearth comparative statement",
+      "proposed": "MERGE",
+      "final": "VARIANT",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    },
+    {
+      "relationship_id": "REL-001e5de7b360",
+      "candidate": "Evidence is insufficient to determine whether two similar records are the same fact",
+      "proposed": "MERGE",
+      "final": "REVIEW",
+      "status": "HUMAN_CONFIRMED",
+      "context": {
+        "domain": "PEOPLES",
+        "role": "CANON"
+      }
+    }
+  ],
+  "run_comparison_note": "Persist these metrics between runs to calculate discovery growth, novelty, confirmation rate, false-positive rate, and coverage once candidate discovery telemetry is available.",
+  "safety": {
+    "automatic_relationship_acceptance": false,
+    "automatic_canon_change": false,
+    "stable_relationship_ids": true,
+    "provenance_required": true
+  }
+}

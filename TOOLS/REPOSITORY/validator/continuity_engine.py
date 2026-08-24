@@ -3,9 +3,8 @@
 
 Folder-dependent document continuity analysis for Git repositories.
 
-This first implementation deliberately avoids deciding canon. It reports
-possible information loss, additions, modifications, and scope anomalies so a
-creator can review them before consolidation.
+The engine is intentionally conservative: it reports possible information loss
+and change for review; it never decides canon or mutates world content.
 """
 from __future__ import annotations
 
@@ -15,10 +14,12 @@ import json
 import re
 import subprocess
 from pathlib import Path
-from typing import Iterable
 
 IGNORE_PARTS = {".git", ".github", "__pycache__"}
 DOC_EXTENSIONS = {".md", ".txt"}
+GENERATED_PREFIXES = (
+    "TOOLS/REPOSITORY/REPORTS/",
+)
 
 
 def git(*args: str) -> str:
@@ -26,12 +27,16 @@ def git(*args: str) -> str:
     return p.stdout
 
 
-def current_files(root: Path) -> list[Path]:
-    out = []
-    for p in root.rglob("*"):
+def current_files(root: Path, scope: str | None = None) -> list[Path]:
+    base = root / scope if scope else root
+    out: list[Path] = []
+    for p in base.rglob("*"):
         if not p.is_file() or p.suffix.lower() not in DOC_EXTENSIONS:
             continue
+        rel = p.relative_to(root).as_posix()
         if any(part in IGNORE_PARTS for part in p.parts):
+            continue
+        if rel.startswith(GENERATED_PREFIXES):
             continue
         out.append(p)
     return sorted(out)
@@ -56,12 +61,11 @@ def old_content(commit: str, path: Path, root: Path) -> str | None:
 
 def normalize(line: str) -> str:
     line = re.sub(r"[`*_#>-]", " ", line.lower())
-    line = re.sub(r"\s+", " ", line).strip()
-    return line
+    return re.sub(r"\s+", " ", line).strip()
 
 
 def facts(text: str) -> set[str]:
-    result = set()
+    result: set[str] = set()
     for raw in text.splitlines():
         line = normalize(raw)
         if len(line) >= 35 and not line.startswith(("status:", "scope:", "source:", "---")):
@@ -103,8 +107,6 @@ def analyze(path: Path, root: Path) -> dict:
     info = classify(path, root)
     commits = history_for(path, root)
     versions = []
-    # Current HEAD is represented by the file itself; compare up to the latest
-    # historical state that differs from current content.
     for commit in commits[1:]:
         previous = old_content(commit, path, root)
         if previous is None or previous == current_text:
@@ -120,19 +122,21 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".")
     ap.add_argument("--out", default="TOOLS/REPOSITORY/REPORTS")
+    ap.add_argument("--scope", default=None, help="Repository-relative folder to analyze, e.g. 03_PEOPLES/CULTURES/HEARTH")
     args = ap.parse_args()
     root = Path(args.root).resolve()
     out = root / args.out
     out.mkdir(parents=True, exist_ok=True)
 
-    docs = current_files(root)
+    docs = current_files(root, args.scope)
     records = [analyze(p, root) for p in docs]
     records = [r for r in records if not r["archive"]]
 
     findings = []
     for r in records:
         for v in r["versions"]:
-            if v["potentially_dropped"]:
+            # Tooling is tracked for continuity, but never escalated as canon loss.
+            if v["potentially_dropped"] and not r["tool"]:
                 findings.append({
                     "type": "POTENTIAL_CANON_LOSS",
                     "severity": "REVIEW",
@@ -142,7 +146,7 @@ def main() -> int:
                     "dropped_count": len(v["potentially_dropped"]),
                     "dropped": v["potentially_dropped"][:50],
                 })
-            if v["numbers_current"] != v["numbers_previous"]:
+            if v["numbers_current"] != v["numbers_previous"] and not r["tool"]:
                 findings.append({
                     "type": "NUMERIC_CHANGE",
                     "severity": "REVIEW",
@@ -155,6 +159,8 @@ def main() -> int:
 
     report = {
         "mode": "READ_ONLY",
+        "scope": args.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT",
+        "generated_reports_excluded": True,
         "documents": len(records),
         "findings": len(findings),
         "records": records,
@@ -162,9 +168,14 @@ def main() -> int:
     }
     (out / "CONTINUITY_INDEX.json").write_text(json.dumps(report, indent=2), encoding="utf-8")
 
-    lines = ["# ARUUN Continuity Report", "", "**Mode:** READ-ONLY", "", f"Documents analyzed: {len(records)}", f"Continuity findings: {len(findings)}", ""]
+    lines = [
+        "# ARUUN Continuity Report", "", "**Mode:** READ-ONLY", "",
+        f"**Scope:** `{args.scope or 'ALL ACTIVE NON-GENERATED CONTENT'}`",
+        "**Generated audit reports excluded:** yes", "",
+        f"Documents analyzed: {len(records)}", f"Continuity findings: {len(findings)}", "",
+    ]
     if not findings:
-        lines.append("No continuity findings were generated.")
+        lines.append("No canon continuity findings were generated.")
     else:
         lines += ["## Findings", ""]
         for i, f in enumerate(findings, 1):

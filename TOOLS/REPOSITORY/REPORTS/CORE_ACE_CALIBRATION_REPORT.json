@@ -1,0 +1,23 @@
+{
+  "engine": "CORE A.C.E.",
+  "mode": "READ_ONLY",
+  "decision_count": 0,
+  "label_vocabulary": [
+    "COINCIDENTAL",
+    "CONFLICT",
+    "DUPLICATE",
+    "HISTORICAL",
+    "MISPLACED",
+    "RELATED",
+    "REVIEW",
+    "SUPPORTING",
+    "VARIANT"
+  ],
+  "promotion_threshold": 5,
+  "heuristic_candidates": [],
+  "safety": {
+    "automatic_rule_promotion": false,
+    "automatic_canon_change": false,
+    "provenance_loss_is_failure": true
+  }
+}

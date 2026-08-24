@@ -1,6 +1,6 @@
 ## 00_MASTER/CANON_INDEX.md — `b2e82c363aaf`
 
-**Similarity:** 0.0835
+Similarity: 0.0835
 
 ### Preserved
 - | 01 world/ | planet, continents, geography, climate, geology |
@@ -122,7 +122,7 @@
 
 ## 00_MASTER/WORLD_BIBLE.md — `b2e82c363aaf`
 
-**Similarity:** 0.0024
+Similarity: 0.0024
 
 ### Preserved
 
@@ -933,7 +933,7 @@
 
 ## 00_MASTER/WORLD_STATUS.md — `b2e82c363aaf`
 
-**Similarity:** 0.0901
+Similarity: 0.0901
 
 ### Preserved
 
@@ -1006,7 +1006,7 @@
 
 ## CHANGELOG.md — `7a4e2c37ee5e`
 
-**Similarity:** 0.931
+Similarity: 0.931
 
 ### Preserved
 - 00 master/world bible.md and 00 master/foundation world profile.md are now populated from the latest available sources (world bible v1.5; the authoritative world profile).
@@ -1071,7 +1071,7 @@
 
 ## CHANGELOG.md — `b2e82c363aaf`
 
-**Similarity:** 0.1888
+Similarity: 0.1888
 
 ### Preserved
 - 2026 08 23 — repository structure established
@@ -1367,7 +1367,7 @@
 
 ## TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md — `e6350894e350`
 
-**Similarity:** 0.9331
+Similarity: 0.9331
 
 ### Preserved
 - they use pack animals for transport .
@@ -1403,7 +1403,7 @@
 
 ## TOOLS/REPOSITORY/README.md — `af46af0b20cc`
 
-**Similarity:** 0.1076
+Similarity: 0.1076
 
 ### Preserved
 

@@ -1,6 +1,6 @@
 ## TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md — `e6350894e350`
 
-**Similarity:** 0.9331
+Similarity: 0.9331
 
 ### Preserved
 - they use pack animals for transport .

@@ -1,91 +1,22 @@
 {
   "mode": "READ_ONLY",
   "scope": "TOOLS/REPOSITORY/CONTINUITY_TEST",
-  "generated_reports_excluded": true,
-  "administrative_documents_excluded_from_canon_findings": true,
-  "test_fixtures_included": true,
   "documents": 1,
   "findings": 3,
-  "records": [
-    {
-      "path": "TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md",
-      "folder": "TOOLS/REPOSITORY/CONTINUITY_TEST",
-      "filename": "CONTINUITY_TEST.md",
-      "archive": false,
-      "tool": true,
-      "test_fixture": true,
-      "administrative": false,
-      "history_versions_checked": 1,
-      "versions": [
-        {
-          "commit": "e6350894e3507b1029442b336c542f8fe19a8a3e",
-          "preserved": [
-            "they use pack animals for transport .",
-            "this document is deliberately disposable. it exists only to test git history continuity detection.",
-            "when this file is deliberately rewritten, the continuity engine should identify preserved information, additions, modifications, and potentially dropped information. this fixture is not canon."
-          ],
-          "added": [],
-          "potentially_dropped": [
-            "elders teach children through observation and practice."
-          ],
-          "modified": [
-            {
-              "previous": "the mountain people maintain three seasonal camps .",
-              "current": "the mountain people maintain two seasonal camps .",
-              "similarity": 0.94
-            }
-          ],
-          "numeric_fact_changes": [
-            {
-              "statement": "the mountain people maintain two seasonal camps .",
-              "previous": [
-                "3"
-              ],
-              "current": [
-                "2"
-              ]
-            }
-          ],
-          "similarity": 0.9331,
-          "overlay": [
-            "--- previous:e6350894e350",
-            "+++ current",
-            "@@ -4,11 +4,9 @@",
-            " ",
-            " ## Baseline facts",
-            " ",
-            "-The mountain people maintain **three seasonal camps**.",
-            "+The mountain people maintain **two seasonal camps**.",
-            " ",
-            " They use **pack animals for transport**.",
-            "-",
-            "-**Elders teach children through observation and practice.**",
-            " ",
-            " ## Expected test behavior",
-            " "
-          ]
-        }
-      ]
-    }
-  ],
   "findings_detail": [
     {
       "type": "TEST_POTENTIAL_CANON_LOSS",
-      "severity": "REVIEW",
       "path": "TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md",
-      "folder": "TOOLS/REPOSITORY/CONTINUITY_TEST",
       "commit": "e6350894e3507b1029442b336c542f8fe19a8a3e",
-      "dropped": [
+      "items": [
         "elders teach children through observation and practice."
       ]
     },
     {
       "type": "TEST_MODIFIED_FACT",
-      "severity": "REVIEW",
       "path": "TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md",
-      "folder": "TOOLS/REPOSITORY/CONTINUITY_TEST",
       "commit": "e6350894e3507b1029442b336c542f8fe19a8a3e",
-      "changes": [
+      "items": [
         {
           "previous": "the mountain people maintain three seasonal camps .",
           "current": "the mountain people maintain two seasonal camps .",
@@ -95,11 +26,9 @@
     },
     {
       "type": "TEST_NUMERIC_FACT_CHANGE",
-      "severity": "REVIEW",
       "path": "TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md",
-      "folder": "TOOLS/REPOSITORY/CONTINUITY_TEST",
       "commit": "e6350894e3507b1029442b336c542f8fe19a8a3e",
-      "changes": [
+      "items": [
         {
           "statement": "the mountain people maintain two seasonal camps .",
           "previous": [

@@ -1,10 +1,7 @@
 # ARUUN Continuity Report
 
-**Mode:** READ-ONLY
 **Scope:** `TOOLS/REPOSITORY/CONTINUITY_TEST`
-**Generated reports excluded:** yes
-**Administrative/master documents excluded from canon findings:** yes
-**Test fixtures included:** yes
+**Mode:** READ-ONLY
 
 Documents analyzed: 1
 Continuity findings: 3
@@ -13,13 +10,12 @@ Continuity findings: 3
 
 ### 1. TEST_POTENTIAL_CANON_LOSS — `TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md`
 - Historical commit: `e6350894e3507b1029442b336c542f8fe19a8a3e`
-- Potentially dropped: 1
-  - elders teach children through observation and practice.
+- elders teach children through observation and practice.
 
 ### 2. TEST_MODIFIED_FACT — `TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md`
 - Historical commit: `e6350894e3507b1029442b336c542f8fe19a8a3e`
-- `{'previous': 'the mountain people maintain three seasonal camps .', 'current': 'the mountain people maintain two seasonal camps .', 'similarity': 0.94}`
+- {'previous': 'the mountain people maintain three seasonal camps .', 'current': 'the mountain people maintain two seasonal camps .', 'similarity': 0.94}
 
 ### 3. TEST_NUMERIC_FACT_CHANGE — `TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md`
 - Historical commit: `e6350894e3507b1029442b336c542f8fe19a8a3e`
-- `{'statement': 'the mountain people maintain two seasonal camps .', 'previous': ['3'], 'current': ['2']}`
+- {'statement': 'the mountain people maintain two seasonal camps .', 'previous': ['3'], 'current': ['2']}

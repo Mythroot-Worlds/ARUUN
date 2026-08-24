@@ -1,10 +1,7 @@
 # ARUUN Continuity Report
 
-**Mode:** READ-ONLY
 **Scope:** `03_PEOPLES/CULTURES/HEARTH`
-**Generated reports excluded:** yes
-**Administrative/master documents excluded from canon findings:** yes
-**Test fixtures included:** no
+**Mode:** READ-ONLY
 
 Documents analyzed: 18
 Continuity findings: 0

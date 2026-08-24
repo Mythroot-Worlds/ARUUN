@@ -1,8 +1,9 @@
 # CORE A.C.E. Detective Report
 
-Bounded investigation trace: knowns, unknowns, assumptions, hypotheses, questions, and challenge questions.
+Evidence-seeking investigation trace: knowns, unknowns, hypotheses, repository targets, retrieved excerpts, and challenge questions.
 
 Cases: **30**
-Cases with unknowns: **28**
-Cases with hypotheses: **30**
-Cases generating questions: **28**
+Cases with unknowns before investigation: **24**
+Cases with unknowns after investigation: **23**
+Cases with evidence retrieved: **30**
+Cases with evidence targets: **30**

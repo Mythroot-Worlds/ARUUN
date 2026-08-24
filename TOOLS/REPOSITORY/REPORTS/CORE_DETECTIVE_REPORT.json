@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "mode": "READ_ONLY",
-  "purpose": "bounded contextual investigation before relationship classification",
+  "purpose": "bounded evidence-seeking investigation before relationship classification",
   "cases": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -21,7 +21,7 @@
         "specialist: differing indicators CRAFT, LINEAGE, SPECIALIST",
         "support: differing indicators FRAMEWORK"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -29,8 +29,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "relevant_excerpts": [
+            "## Geographic foundation The Great Plains are Hearth's largest human landscape, within the continent's ~1.5 million people. The Hearth population layer allocates 450,000 people (30%) to grassland/woodland environments. Residential communities generally run ~80\u2013150 people, with smaller groups and larger seasonal aggregations possible. Hearth has strong connectivity and gene flow.",
+            "## Anchor communities Semi-permanent/repeatedly used locations support: - elders who can no longer travel;",
+            "Household sleeping/family arrangements do not determine daytime work-group membership."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -49,7 +100,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -75,7 +126,7 @@
         "support: differing indicators REFERENCE",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone",
         "whether one document explicitly supports the other is not established by indicators alone"
@@ -85,8 +136,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "relevant_excerpts": [
+            "Major oases can support roughly **50\u2013120 people** where water and food productivity justify it. Other communities may be smaller or seasonal.",
+            "### Oasis communities Relatively stationary or semi-stationary. They provide stable food, storage, crafts, animal care, children/elder support, and refuge.",
+            "A candidate may come from any oasis or family if they demonstrate the necessary potential and are willing to learn."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -111,7 +213,7 @@
         "What evidence would falsify HISTORICAL?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -135,7 +237,7 @@
         "specialist: differing indicators CRAFT",
         "support: differing indicators FRAMEWORK"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -144,8 +246,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -164,7 +316,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -190,7 +342,7 @@
         "specialist: differing indicators CRAFT, SPECIALIST",
         "support: differing indicators AUDIT, CHECKLIST, GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -199,8 +351,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "relevant_excerpts": [
+            "### Communities Normal communities: **~80\u2013120 people**. They favor elevated ground, natural islands, ridges, stable banks, and other reliable locations. A community thinks of its territory as a network of usable places rather than one permanent settlement.",
+            "### Seasonal high-ground gatherings Three or four villages may occupy a broad territory, for example within ~25 km of one another. During major wet-season/monsoon flooding they can converge on one shared high-ground location, temporarily bringing together roughly **250\u2013500 people**.",
+            "### Density distinction Great Plains communities can be somewhat larger, potentially up to ~200 people, because broad meat, grain/seed, and plant abundance can support greater concentration. Wetland communities remain ~80\u2013120 but periodically form much larger gatherings when environmental conditions force them onto shared high ground."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -225,7 +427,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -249,7 +451,7 @@
         "specialist: differing indicators CRAFT, LINEAGE",
         "support: differing indicators REFERENCE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -257,8 +459,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "relevant_excerpts": [
+            "Major oases can support roughly **50\u2013120 people** where water and food productivity justify it. Other communities may be smaller or seasonal.",
+            "### Oasis communities Relatively stationary or semi-stationary. They provide stable food, storage, crafts, animal care, children/elder support, and refuge.",
+            "A candidate may come from any oasis or family if they demonstrate the necessary potential and are willing to learn."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -277,7 +529,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -303,7 +555,7 @@
         "specialist: differing indicators CRAFT",
         "support: differing indicators GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -312,8 +564,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Mountain Family, Partnership & Specialist-Lineage Update v0.1 **Status:** WORKING UPDATE \u2014 NOT CANON",
+            "### Mountain settlement scale Mountain settlements are now modeled at **50\u201370 people**. A 60-person midpoint is **not canon** and is not a fixed target.",
+            "### Mountain settlement scale Mountain settlements are now modeled at **50\u201370 people**. A 60-person midpoint is **not canon** and is not a fixed target."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -338,7 +640,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -364,7 +666,7 @@
         "support: differing indicators FRAMEWORK",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone",
         "whether one document explicitly supports the other is not established by indicators alone"
@@ -373,8 +675,60 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -399,7 +753,7 @@
         "What evidence would falsify HISTORICAL?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -426,7 +780,7 @@
         "support: differing indicators GUIDE",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone",
         "whether one document explicitly supports the other is not established by indicators alone"
@@ -436,8 +790,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -468,7 +873,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -493,7 +898,7 @@
         "specialist: differing indicators CRAFT, HOUSE",
         "support: differing indicators FRAMEWORK, GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -501,8 +906,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -521,7 +976,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -546,7 +1001,7 @@
         "specialist: differing indicators CRAFT, HOUSE, SPECIALIST",
         "support: differing indicators GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -555,8 +1010,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "relevant_excerpts": [
+            "### Communities Normal communities: **~80\u2013120 people**. They favor elevated ground, natural islands, ridges, stable banks, and other reliable locations. A community thinks of its territory as a network of usable places rather than one permanent settlement.",
+            "### Seasonal high-ground gatherings Three or four villages may occupy a broad territory, for example within ~25 km of one another. During major wet-season/monsoon flooding they can converge on one shared high-ground location, temporarily bringing together roughly **250\u2013500 people**.",
+            "### Density distinction Great Plains communities can be somewhat larger, potentially up to ~200 people, because broad meat, grain/seed, and plant abundance can support greater concentration. Wetland communities remain ~80\u2013120 but periodically form much larger gatherings when environmental conditions force them onto shared high ground."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md",
+          "relevant_excerpts": [
+            "**Canonical status:** Foundational working World reference / current consolidation checkpoint   **Purpose:** Living canon ledger for the prehistoric/anachronistic world currently being created.",
+            "- Animals should not exist merely as decorative monsters or spectacle. - The world is intended to support stories rather than function as an exhaustive encyclopedia. - The world's biological identity should feel **prehistoric before it feels alien**.",
+            "The moons do **not** simply push continents around."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -581,7 +1086,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -604,15 +1109,65 @@
         "specialist: differing indicators SPECIALIST",
         "support: differing indicators REFERENCE"
       ],
-      "unknown": [
+      "unknown_before": [
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "relevant_excerpts": [
+            "# HEARTH \u2014 COMPARATIVE REFERENCE ## Birth, Childhood & Coming-of-Age",
+            "# HEARTH \u2014 COMPARATIVE REFERENCE ## Birth, Childhood & Coming-of-Age",
+            "**Status:** CANON REFERENCE SHEET"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 MOUNTAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment.",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment. - Training begins early through simple lineage-specific games and tasks."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -631,7 +1186,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -651,16 +1206,58 @@
         "family: shared indicators BIRTH, CHILDHOOD",
         "family: differing indicators FAMILY"
       ],
-      "unknown": [
-        "exact scope relationship is unresolved"
-      ],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
-      "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+      "questions": [],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
       ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 COAST ## Birth, Childhood & Coming-of-Age",
+            "- Birth is a community event; biological parentage remains recognized. - Infants live within the communal environment and learn by observing everyone."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -672,7 +1269,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -697,7 +1294,7 @@
         "specialist: differing indicators CRAFT",
         "support: differing indicators FRAMEWORK"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -705,8 +1302,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "relevant_excerpts": [
+            "Typical communities are approximately **80\u2013150 people**, with particularly productive coastal locations potentially supporting larger populations.",
+            "The village is simultaneously: - home;",
+            "General competence makes the village resilient."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -725,7 +1373,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -750,7 +1398,7 @@
         "specialist: differing indicators HOUSE, LINEAGE",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone"
       ],
@@ -759,8 +1407,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "relevant_excerpts": [
+            "Typical communities are approximately **80\u2013150 people**, with particularly productive coastal locations potentially supporting larger populations.",
+            "The village is simultaneously: - home;",
+            "General competence makes the village resilient."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -779,7 +1477,7 @@
         "What evidence would falsify HISTORICAL?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -799,16 +1497,59 @@
         "family: shared indicators BIRTH, CHILDHOOD",
         "family: differing indicators FAMILY"
       ],
-      "unknown": [
-        "exact scope relationship is unresolved"
-      ],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
-      "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+      "questions": [],
+      "evidence_targets": [
+        "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md"
       ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 PLAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
+          "relevant_excerpts": [
+            "**what it is \u2192 where it belongs \u2192 what it describes \u2192 what authority it has \u2192 what it depends on \u2192 what depends on it.**",
+            "--- id: hearth.plains.family.birth_childhood title: Plains \u2014 Birth, Childhood & Coming-of-Age",
+            "id: hearth.plains.family.birth_childhood title: Plains \u2014 Birth, Childhood & Coming-of-Age domain: peoples"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -820,7 +1561,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -842,16 +1583,65 @@
         "specialist: differing indicators LINEAGE",
         "support: differing indicators REFERENCE"
       ],
-      "unknown": [
-        "population overlap is unresolved",
+      "unknown_before": [
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "relevant_excerpts": [
+            "# HEARTH \u2014 COMPARATIVE REFERENCE ## Birth, Childhood & Coming-of-Age",
+            "# HEARTH \u2014 COMPARATIVE REFERENCE ## Birth, Childhood & Coming-of-Age",
+            "**Status:** CANON REFERENCE SHEET"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -870,7 +1660,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -888,16 +1678,58 @@
         "population: shared indicators PEOPLES",
         "family: shared indicators BIRTH, CHILDHOOD"
       ],
-      "unknown": [
-        "exact scope relationship is unresolved"
-      ],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
-      "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+      "questions": [],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
       ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 COAST ## Birth, Childhood & Coming-of-Age",
+            "- Birth is a community event; biological parentage remains recognized. - Infants live within the communal environment and learn by observing everyone."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 PLAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -909,7 +1741,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -933,7 +1765,7 @@
         "specialist: differing indicators CRAFT, LINEAGE",
         "historical: differing indicators HISTORICAL, REVISION"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone"
       ],
@@ -941,8 +1773,58 @@
         "authority and specialist signals may describe overlapping roles rather than separate institutions"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_MOUNTAIN_SPECIALIZATION_v0.1.md",
+        "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+          "relevant_excerpts": [
+            "# HEARTH \u2014 ARUUNITE DEMOGRAPHIC WORKING MODEL ## Mountain Settlement Revision v0.1 **Status:** WORKING MODEL \u2014 NOT CANON",
+            "### Revised Mountain settlement size **50\u201370 people per settlement.**",
+            "### Revised Mountain settlement size **50\u201370 people per settlement.**"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_MOUNTAIN_SPECIALIZATION_v0.1.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 PROJECT CHANGELOG ADDITION ## 2026-08-23 \u2014 Hearth / Mountain Settlement & Specialist-Lineage Revision",
+            "### Decision Mountain settlements are now modeled at **50\u201370 people**. The previously used 60-person midpoint is **not canon** and is no longer a preferred fixed target.",
+            "### Structural revision Because Mountain settlements are smaller than earlier assumptions, specialist lineages are being consolidated into broader houses. Each house will eventually cover multiple related competencies while preserving the existing emphasis on deep specialist knowledge."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Mountain Family, Partnership & Specialist-Lineage Update v0.1 **Status:** WORKING UPDATE \u2014 NOT CANON",
+            "### Mountain settlement scale Mountain settlements are now modeled at **50\u201370 people**. A 60-person midpoint is **not canon** and is not a fixed target.",
+            "### Mountain settlement scale Mountain settlements are now modeled at **50\u201370 people**. A 60-person midpoint is **not canon** and is not a fixed target."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -967,7 +1849,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -989,15 +1871,65 @@
         "specialist: shared indicators LINEAGE, SPECIALIST",
         "support: differing indicators FRAMEWORK"
       ],
-      "unknown": [
+      "unknown_before": [
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 MOUNTAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment.",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment. - Training begins early through simple lineage-specific games and tasks."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1016,7 +1948,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1036,11 +1968,59 @@
         "family: shared indicators BIRTH, CHILDHOOD, FAMILY",
         "specialist: differing indicators LINEAGE, SPECIALIST"
       ],
-      "unknown": [],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 MOUNTAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment.",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment. - Training begins early through simple lineage-specific games and tasks."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1052,7 +2032,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1078,7 +2058,7 @@
         "specialist: differing indicators HOUSE, SPECIALIST",
         "support: differing indicators GUIDE, REFERENCE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -1087,8 +2067,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "relevant_excerpts": [
+            "Major oases can support roughly **50\u2013120 people** where water and food productivity justify it. Other communities may be smaller or seasonal.",
+            "### Oasis communities Relatively stationary or semi-stationary. They provide stable food, storage, crafts, animal care, children/elder support, and refuge.",
+            "A candidate may come from any oasis or family if they demonstrate the necessary potential and are willing to learn."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1113,7 +2143,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1139,7 +2169,7 @@
         "specialist: differing indicators HOUSE",
         "support: differing indicators GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -1148,8 +2178,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "relevant_excerpts": [
+            "Typical communities are approximately **80\u2013150 people**, with particularly productive coastal locations potentially supporting larger populations.",
+            "The village is simultaneously: - home;",
+            "General competence makes the village resilient."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1174,7 +2254,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1198,7 +2278,7 @@
         "specialist: differing indicators SPECIALIST",
         "support: differing indicators FRAMEWORK"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -1206,8 +2286,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "relevant_excerpts": [
+            "### Communities Normal communities: **~80\u2013120 people**. They favor elevated ground, natural islands, ridges, stable banks, and other reliable locations. A community thinks of its territory as a network of usable places rather than one permanent settlement.",
+            "### Seasonal high-ground gatherings Three or four villages may occupy a broad territory, for example within ~25 km of one another. During major wet-season/monsoon flooding they can converge on one shared high-ground location, temporarily bringing together roughly **250\u2013500 people**.",
+            "### Density distinction Great Plains communities can be somewhat larger, potentially up to ~200 people, because broad meat, grain/seed, and plant abundance can support greater concentration. Wetland communities remain ~80\u2013120 but periodically form much larger gatherings when environmental conditions force them onto shared high ground."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1226,7 +2357,7 @@
         "What evidence would falsify SUPPORTING?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1247,11 +2378,58 @@
         "family: differing indicators FAMILY",
         "specialist: differing indicators LINEAGE, SPECIALIST"
       ],
-      "unknown": [],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 COAST ## Birth, Childhood & Coming-of-Age",
+            "- Birth is a community event; biological parentage remains recognized. - Infants live within the communal environment and learn by observing everyone."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 MOUNTAINS ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment.",
+            "- Birth occurs within the extended specialist lineage. - Infants remain immersed in their specialist family's environment. - Training begins early through simple lineage-specific games and tasks."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1263,7 +2441,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1287,7 +2465,7 @@
         "specialist: shared indicators LINEAGE",
         "specialist: differing indicators CRAFT, SPECIALIST"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation"
       ],
       "assumptions": [
@@ -1295,9 +2473,57 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
       ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "relevant_excerpts": [
+            "### Communities Normal communities: **~80\u2013120 people**. They favor elevated ground, natural islands, ridges, stable banks, and other reliable locations. A community thinks of its territory as a network of usable places rather than one permanent settlement.",
+            "### Seasonal high-ground gatherings Three or four villages may occupy a broad territory, for example within ~25 km of one another. During major wet-season/monsoon flooding they can converge on one shared high-ground location, temporarily bringing together roughly **250\u2013500 people**.",
+            "### Density distinction Great Plains communities can be somewhat larger, potentially up to ~200 people, because broad meat, grain/seed, and plant abundance can support greater concentration. Wetland communities remain ~80\u2013120 but periodically form much larger gatherings when environmental conditions force them onto shared high ground."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1315,7 +2541,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1339,7 +2565,7 @@
         "specialist: differing indicators CRAFT, HOUSE, LINEAGE, SPECIALIST",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone"
       ],
@@ -1348,8 +2574,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "relevant_excerpts": [
+            "### Communities Normal communities: **~80\u2013120 people**. They favor elevated ground, natural islands, ridges, stable banks, and other reliable locations. A community thinks of its territory as a network of usable places rather than one permanent settlement.",
+            "### Seasonal high-ground gatherings Three or four villages may occupy a broad territory, for example within ~25 km of one another. During major wet-season/monsoon flooding they can converge on one shared high-ground location, temporarily bringing together roughly **250\u2013500 people**.",
+            "### Density distinction Great Plains communities can be somewhat larger, potentially up to ~200 people, because broad meat, grain/seed, and plant abundance can support greater concentration. Wetland communities remain ~80\u2013120 but periodically form much larger gatherings when environmental conditions force them onto shared high ground."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1368,7 +2644,7 @@
         "What evidence would falsify HISTORICAL?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1394,7 +2670,7 @@
         "specialist: differing indicators SPECIALIST",
         "support: differing indicators AUDIT, CHECKLIST, GUIDE, REFERENCE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -1403,8 +2679,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "relevant_excerpts": [
+            "Major oases can support roughly **50\u2013120 people** where water and food productivity justify it. Other communities may be smaller or seasonal.",
+            "### Oasis communities Relatively stationary or semi-stationary. They provide stable food, storage, crafts, animal care, children/elder support, and refuge.",
+            "A candidate may come from any oasis or family if they demonstrate the necessary potential and are willing to learn."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1429,7 +2755,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1455,7 +2781,7 @@
         "support: differing indicators AUDIT, CHECKLIST, GUIDE",
         "historical: differing indicators HISTORICAL"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "temporal precedence/supersession is not established by indicators alone",
         "whether one document explicitly supports the other is not established by indicators alone"
@@ -1465,8 +2791,59 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "relevant_excerpts": [
+            "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**.",
+            "## Settlement Mountain villages contain approximately **60\u201380 people**."
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        }
+      ],
+      "unknown_after": [
+        "temporal precedence/supersession is not established by indicators alone",
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1491,7 +2868,7 @@
         "What evidence would falsify HISTORICAL?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1516,7 +2893,7 @@
         "specialist: differing indicators HOUSE, LINEAGE, SPECIALIST",
         "support: differing indicators GUIDE"
       ],
-      "unknown": [
+      "unknown_before": [
         "authority role and organizational level require contextual confirmation",
         "whether one document explicitly supports the other is not established by indicators alone"
       ],
@@ -1525,8 +2902,58 @@
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
       "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+        "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+        "Is there another document that describes the same people/institution at a different scale?"
+      ],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md"
+      ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "relevant_excerpts": [
+            "## Geographic foundation The Great Plains are Hearth's largest human landscape, within the continent's ~1.5 million people. The Hearth population layer allocates 450,000 people (30%) to grassland/woodland environments. Residential communities generally run ~80\u2013150 people, with smaller groups and larger seasonal aggregations possible. Hearth has strong connectivity and gene flow.",
+            "## Anchor communities Semi-permanent/repeatedly used locations support: - elders who can no longer travel;",
+            "Household sleeping/family arrangements do not determine daytime work-group membership."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+            "**Design rule:** Authority is not assumed to mean monarchy, bureaucracy, or permanent political office. Each system is derived from the culture's existing survival structure."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+          "relevant_excerpts": [
+            "**Status:** CANONICAL CONSOLIDATION / CURRENT STATE **Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "**Purpose:** Declarative reference for the Hearth material established in the repository to this point. **Scope:** World, geography, climate, hydrology, ecology, human geography, peoples, cultural systems, family/childhood foundations, governance, and other established Hearth material.",
+            "## 1. Continental Identity"
+          ]
+        }
+      ],
+      "unknown_after": [
+        "whether one document explicitly supports the other is not established by indicators alone"
       ],
       "hypotheses": [
         {
@@ -1551,7 +2978,7 @@
         "What evidence would falsify RELATED?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1571,16 +2998,59 @@
         "family: shared indicators BIRTH, CHILDHOOD",
         "family: differing indicators FAMILY"
       ],
-      "unknown": [
-        "exact scope relationship is unresolved"
-      ],
+      "unknown_before": [],
       "assumptions": [
         "shared family vocabulary may indicate a shared subject without implying duplicate content"
       ],
-      "questions": [
-        "Do either document explicitly define the relationship or authority described?",
-        "What additional document context would resolve the scope/population/role ambiguity?"
+      "questions": [],
+      "evidence_targets": [
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
       ],
+      "evidence_found": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 WETLANDS ## Birth, Childhood & Coming-of-Age",
+            "- Birth is primarily supported by the 12\u201315-person functional group. - Infants are cared for by many adults within the group.",
+            "**Principle:** Become useful to your group and village."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# HEARTH PEOPLES \u2014 DESERT ## Birth, Childhood & Coming-of-Age",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted.",
+            "- Birth occurs within the oasis community with experienced support. - Infants remain close to family and learn early that water must not be wasted. - Education deliberately has two stages: **theory and practice**."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "relevant_excerpts": [
+            "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+            "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "relevant_excerpts": [
+            "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+            "## PLAINS - Birth is supported by experienced women; anchor communities or slower groups provide stability when needed. - Infants are carried while adults work and learn through constant observation.",
+            "- Infants are carried while adults work and learn through constant observation. - Children gradually copy useful adult tasks; aptitude is observed, but community need can override preference. - Adulthood is demonstrated by reliable contribution to survival."
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "relevant_excerpts": [
+            "- [ ] Community size - [ ] Settlement density - [ ] Seasonal movement",
+            "## B. Community & Settlement - [ ] Typical community structure",
+            "- [ ] Typical community structure - [ ] Household structure - [ ] Housing / shelter"
+          ]
+        }
+      ],
+      "unknown_after": [],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1592,7 +3062,7 @@
         "What evidence would falsify VARIANT?"
       ],
       "investigation_rounds": 2,
-      "stop_reason": "bounded evidence pass; human review remains authoritative",
+      "stop_reason": "targeted repository evidence pass; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -1602,9 +3072,10 @@
   ],
   "summary": {
     "cases": 30,
-    "with_unknowns": 28,
-    "with_hypotheses": 30,
-    "with_questions": 28,
+    "with_unknowns_before": 24,
+    "with_unknowns_after": 23,
+    "cases_with_evidence": 30,
+    "cases_with_targets": 30,
     "average_rounds": 2
   },
   "safety": {

@@ -20,15 +20,12 @@ def main():
  fresh=[r for r in disc.get('relationships',[]) if r.get('relationship_id') not in known];fresh.sort(key=lambda r:hashlib.sha1(r.get('relationship_id','').encode()).hexdigest());holdout=fresh[:min(30,len(fresh))]
  results=[]
  for r in holdout:
-  # Discovery proposal is a candidate signal, not a forced classification.
   proposed='DUPLICATE' if r.get('match_strength',0)>=4 else 'MERGE'
   domain='PEOPLES';role='CANON';scores={}
   for h in heur:
    if h.get('domain')!=domain or h.get('role')!=role: continue
    hp=h.get('proposed'); label=h.get('observed_label'); support=float(h.get('support',0) or 0)
-   # Similarity to the learned proposal controls applicability; support supplies evidence weight.
    compatibility=1.0 if hp==proposed else 0.35
-   # Strong matches favor DUPLICATE evidence; weaker matches favor MERGE evidence.
    strength=float(r.get('match_strength',0) or 0); strength_fit=1.0
    if hp=='DUPLICATE': strength_fit=max(0.2,min(1.0,strength/5.0))
    elif hp=='MERGE': strength_fit=max(0.2,min(1.0,(6-strength)/5.0))

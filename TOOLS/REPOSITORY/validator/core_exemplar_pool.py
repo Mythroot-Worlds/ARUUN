@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""CORE A.C.E. exemplar pool builder.
-
-Builds a growing, provenance-preserving example pool from human-adjudicated
-relationships. Current blind-test holdouts are excluded so exemplars cannot
-leak answers into evaluation.
-"""
+"""CORE A.C.E. exemplar pool builder."""
 from __future__ import annotations
 import argparse,json,hashlib
 from pathlib import Path
@@ -13,8 +8,7 @@ def load(p,d):
     try:return json.loads(p.read_text(encoding='utf-8')) if p.exists() else d
     except:return d
 
-def pair_key(left,right):
-    return tuple(sorted((left,right)))
+def pair_key(left,right): return tuple(sorted((left,right)))
 
 def role(path):
     p=path.upper()
@@ -32,16 +26,16 @@ def domain(path):
     if 'PEOPLES' in p or 'CULTURES' in p or 'HEARTH' in p:return 'PEOPLES'
     return 'UNKNOWN'
 
-def build(root,out):
+def build(root,out,holdout_ids=None,holdout_pairs=None):
     ledger=load(out/'CORE_DECISION_LEDGER.json',{'decisions':[]})
     annotations=load(out/'CORE_HUMAN_ANNOTATIONS.json',{'annotations':[]})
-    blind=load(out/'CORE_BLIND_TEST.json',{'predictions':[]})
-    holdout_ids={r.get('relationship_id') for r in blind.get('predictions',[]) if r.get('relationship_id')}
-    holdout_pairs={pair_key(r.get('left',''),r.get('right','')) for r in blind.get('predictions',[])}
+    if holdout_ids is None or holdout_pairs is None:
+        blind=load(out/'CORE_BLIND_TEST.json',{'predictions':[]})
+        holdout_ids={r.get('relationship_id') for r in blind.get('predictions',[]) if r.get('relationship_id')}
+        holdout_pairs={pair_key(r.get('left',''),r.get('right','')) for r in blind.get('predictions',[])}
     examples=[];seen=set()
     for d in ledger.get('decisions',[]):
-        left=d.get('left') or d.get('path_a');right=d.get('right') or d.get('path_b')
-        rid=d.get('relationship_id')
+        left=d.get('left') or d.get('path_a');right=d.get('right') or d.get('path_b');rid=d.get('relationship_id')
         if not left or not right or (rid and rid in holdout_ids) or pair_key(left,right) in holdout_pairs:continue
         k=rid or hashlib.sha1(('|'.join(pair_key(left,right))).encode()).hexdigest()[:16]
         if k in seen:continue

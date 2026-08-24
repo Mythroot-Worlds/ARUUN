@@ -1,6 +1,6 @@
 # CORE A.C.E. Detective Report
 
-Grounded claim-level evidence investigation.
+Deciding-factor-aware, grounded evidence investigation.
 
 {
   "cases": 30,
@@ -17,5 +17,6 @@ Grounded claim-level evidence investigation.
   "cases_requiring_second_pass": 0,
   "causally_justified_second_passes": 0,
   "distinct_second_pass_targets": 0,
+  "factor_dimensions": 15,
   "average_rounds": 1.0
 }

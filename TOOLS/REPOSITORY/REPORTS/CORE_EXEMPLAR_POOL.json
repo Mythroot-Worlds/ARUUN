@@ -1,6 +1,6 @@
 {
   "engine": "CORE A.C.E. Exemplar Pool",
-  "schema_version": "1.2",
+  "schema_version": "2.0",
   "mode": "READ_ONLY",
   "example_count": 42,
   "examples": [
@@ -19,20 +19,122 @@
       "role": "WORKING",
       "features": {
         "scope": [
-          "NARROW",
-          "REGIONAL"
+          "REGION"
         ],
         "function": [
-          "FAMILY_BIRTH",
-          "GOVERNANCE",
+          "FAMILY",
           "HISTORICAL",
-          "SPECIALIST",
+          "LEADERSHIP",
           "SUPPORT"
         ],
-        "authority": [
-          "SETTLEMENT_AUTHORITY"
-        ],
-        "population": []
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGION"
+            ],
+            "b": [
+              "REGION"
+            ],
+            "shared": [
+              "REGION"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "b": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "shared": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGION"
+            ],
+            "b": [
+              "REGION"
+            ],
+            "shared": [
+              "REGION"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "b": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "shared": [
+              "FAMILY",
+              "HISTORICAL",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "HUMAN_ANNOTATION",
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
@@ -53,18 +155,44 @@
       "role": "CANON",
       "features": {
         "scope": [
-          "BROAD",
+          "CONTINENTAL",
           "REGIONAL"
         ],
-        "function": [
-          "COMPARATIVE",
-          "FAMILY_BIRTH"
-        ],
+        "function": [],
         "authority": [],
-        "population": [
-          "SAME"
-        ]
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "CONTINENTAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "CONTINENTAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "CONTINENTAL",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
       },
+      "decision_factors": null,
       "source": "HUMAN_ANNOTATION",
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
     },
@@ -85,7 +213,16 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {},
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "COINCIDENTAL",
+        "expected_factors": {},
+        "observed_factors": {},
+        "decision_basis": "requires human adjudication",
+        "status": "unknown_relationship"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -109,7 +246,71 @@
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -128,16 +329,78 @@
       "domain": "PEOPLES",
       "role": "WORKING",
       "features": {
-        "scope": [
-          "NARROW"
-        ],
+        "scope": [],
         "function": [
-          "FAMILY_BIRTH"
+          "FAMILY"
         ],
         "authority": [
-          "SETTLEMENT_AUTHORITY"
+          "CULTURE"
         ],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -157,11 +420,49 @@
       "role": "TOOL",
       "features": {
         "scope": [],
-        "function": [
-          "SUPPORT"
-        ],
+        "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "relationship": {
+            "a": [
+              "DUPLICATE"
+            ],
+            "b": [
+              "DUPLICATE"
+            ],
+            "shared": [
+              "DUPLICATE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "SUPPORTING",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "one information object supplies context or evidence for another"
+        },
+        "observed_factors": {
+          "relationship": {
+            "a": [
+              "DUPLICATE"
+            ],
+            "b": [
+              "DUPLICATE"
+            ],
+            "shared": [
+              "DUPLICATE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "one information object supplies context or evidence for another",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -181,11 +482,82 @@
       "role": "CANON",
       "features": {
         "scope": [
+          "PLAINS",
           "REGIONAL"
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "shared": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "shared": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -205,14 +577,115 @@
       "role": "CANON",
       "features": {
         "scope": [
-          "NARROW",
+          "MOUNTAIN",
           "REGIONAL"
         ],
         "function": [
+          "LINEAGE",
           "SPECIALIST"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "b": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "b": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -233,10 +706,76 @@
       "features": {
         "scope": [],
         "function": [
-          "FAMILY_BIRTH"
+          "FAMILY"
         ],
-        "authority": [],
-        "population": []
+        "authority": [
+          "CULTURE"
+        ],
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -256,13 +795,115 @@
       "role": "CANON",
       "features": {
         "scope": [
-          "REGIONAL"
+          "PLAINS",
+          "REGIONAL",
+          "RIVER"
         ],
         "function": [
-          "FAMILY_BIRTH"
+          "CHILDHOOD"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "b": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "shared": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "CHILDHOOD"
+            ],
+            "b": [
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "CHILDHOOD"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "b": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "shared": [
+              "PLAINS",
+              "REGIONAL",
+              "RIVER"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "CHILDHOOD"
+            ],
+            "b": [
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "CHILDHOOD"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -286,7 +927,71 @@
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -306,14 +1011,108 @@
       "role": "WORKING",
       "features": {
         "scope": [
-          "NARROW"
+          "MOUNTAIN"
         ],
         "function": [
           "SPECIALIST",
           "SUPPORT"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "MOUNTAIN"
+            ],
+            "b": [
+              "MOUNTAIN"
+            ],
+            "shared": [
+              "MOUNTAIN"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": []
+          },
+          "dependency": {
+            "a": [
+              "INFORMS"
+            ],
+            "b": [
+              "INFORMS"
+            ],
+            "shared": [
+              "INFORMS"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "MOUNTAIN"
+            ],
+            "b": [
+              "MOUNTAIN"
+            ],
+            "shared": [
+              "MOUNTAIN"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": []
+          },
+          "dependency": {
+            "a": [
+              "INFORMS"
+            ],
+            "b": [
+              "INFORMS"
+            ],
+            "shared": [
+              "INFORMS"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -333,11 +1132,82 @@
       "role": "CANON",
       "features": {
         "scope": [
+          "REGION",
           "REGIONAL"
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -357,11 +1227,58 @@
       "role": "CANON",
       "features": {
         "scope": [
-          "REGIONAL"
+          "REGION",
+          "RIVER"
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGION",
+              "RIVER"
+            ],
+            "b": [
+              "REGION",
+              "RIVER"
+            ],
+            "shared": [
+              "REGION",
+              "RIVER"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGION",
+              "RIVER"
+            ],
+            "b": [
+              "REGION",
+              "RIVER"
+            ],
+            "shared": [
+              "REGION",
+              "RIVER"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -385,7 +1302,71 @@
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -404,17 +1385,137 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [
-          "NARROW"
-        ],
+        "scope": [],
         "function": [
           "HISTORICAL",
           "SPECIALIST"
         ],
-        "authority": [
-          "SETTLEMENT_AUTHORITY"
-        ],
-        "population": []
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "b": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "HISTORICAL",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": false,
+          "functional_continuity": true,
+          "distinguishing": "temporal state or precedence explains the relationship"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "b": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "temporal state or precedence explains the relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -434,13 +1535,115 @@
       "role": "CANON",
       "features": {
         "scope": [
+          "MOUNTAIN",
+          "PLAINS",
           "REGIONAL"
         ],
         "function": [
-          "SPECIALIST"
+          "LINEAGE"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "LINEAGE"
+            ],
+            "b": [
+              "LINEAGE"
+            ],
+            "shared": [
+              "LINEAGE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "LINEAGE"
+            ],
+            "b": [
+              "LINEAGE"
+            ],
+            "shared": [
+              "LINEAGE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -459,10 +1662,76 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [],
+        "scope": [
+          "PLAINS"
+        ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -484,7 +1753,16 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {},
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "COINCIDENTAL",
+        "expected_factors": {},
+        "observed_factors": {},
+        "decision_basis": "requires human adjudication",
+        "status": "unknown_relationship"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -505,11 +1783,119 @@
       "features": {
         "scope": [],
         "function": [
+          "AUDIT",
+          "CHECKLIST",
           "GOVERNANCE",
-          "SUPPORT"
+          "LEADERSHIP"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "SUPPORTING",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "one information object supplies context or evidence for another"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST",
+              "GOVERNANCE",
+              "LEADERSHIP"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "one information object supplies context or evidence for another",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -530,11 +1916,74 @@
       "features": {
         "scope": [],
         "function": [
-          "COMPARATIVE",
-          "FAMILY_BIRTH"
+          "CHILDHOOD"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "CHILDHOOD"
+            ],
+            "b": [
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "CHILDHOOD"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "VARIANT"
+            ],
+            "b": [
+              "VARIANT"
+            ],
+            "shared": [
+              "VARIANT"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "CHILDHOOD"
+            ],
+            "b": [
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "CHILDHOOD"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "VARIANT"
+            ],
+            "b": [
+              "VARIANT"
+            ],
+            "shared": [
+              "VARIANT"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -557,8 +2006,98 @@
           "REGIONAL"
         ],
         "function": [],
-        "authority": [],
-        "population": []
+        "authority": [
+          "CULTURE"
+        ],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -580,7 +2119,16 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {},
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "REVIEW",
+        "expected_factors": {},
+        "observed_factors": {},
+        "decision_basis": "requires human adjudication",
+        "status": "unknown_relationship"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -599,14 +2147,59 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [
-          "NARROW"
-        ],
+        "scope": [],
         "function": [
+          "LINEAGE",
           "SPECIALIST"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "b": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "b": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -630,7 +2223,71 @@
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -649,10 +2306,52 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [],
+        "scope": [
+          "RIVER"
+        ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "RIVER"
+            ],
+            "b": [
+              "RIVER"
+            ],
+            "shared": [
+              "RIVER"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "RIVER"
+            ],
+            "b": [
+              "RIVER"
+            ],
+            "shared": [
+              "RIVER"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -674,7 +2373,47 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -695,10 +2434,155 @@
       "features": {
         "scope": [],
         "function": [
-          "SUPPORT"
+          "AUDIT",
+          "CHECKLIST"
         ],
-        "authority": [],
-        "population": []
+        "authority": [
+          "CULTURE"
+        ],
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [
+              "SUPPORTING"
+            ],
+            "b": [
+              "SUPPORTING"
+            ],
+            "shared": [
+              "SUPPORTING"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "SUPPORTING"
+            ],
+            "b": [
+              "SUPPORTING"
+            ],
+            "shared": [
+              "SUPPORTING"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "SUPPORTING",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "one information object supplies context or evidence for another"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [
+              "SUPPORTING"
+            ],
+            "b": [
+              "SUPPORTING"
+            ],
+            "shared": [
+              "SUPPORTING"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "SUPPORTING"
+            ],
+            "b": [
+              "SUPPORTING"
+            ],
+            "shared": [
+              "SUPPORTING"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "one information object supplies context or evidence for another",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -719,10 +2603,74 @@
       "features": {
         "scope": [],
         "function": [
-          "HISTORICAL"
+          "ARCHIVE"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "ARCHIVE"
+            ],
+            "b": [
+              "ARCHIVE"
+            ],
+            "shared": [
+              "ARCHIVE"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "HISTORICAL",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": false,
+          "functional_continuity": true,
+          "distinguishing": "temporal state or precedence explains the relationship"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "ARCHIVE"
+            ],
+            "b": [
+              "ARCHIVE"
+            ],
+            "shared": [
+              "ARCHIVE"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "temporal state or precedence explains the relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -745,8 +2693,98 @@
           "REGIONAL"
         ],
         "function": [],
-        "authority": [],
-        "population": []
+        "authority": [
+          "CULTURE"
+        ],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE"
+            ],
+            "b": [
+              "CULTURE"
+            ],
+            "shared": [
+              "CULTURE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -765,10 +2803,52 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [],
+        "scope": [
+          "PLAINS"
+        ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -789,11 +2869,98 @@
       "features": {
         "scope": [],
         "function": [
-          "COMPARATIVE",
-          "SUPPORT"
+          "REFERENCE"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "REFERENCE"
+            ],
+            "b": [
+              "REFERENCE"
+            ],
+            "shared": [
+              "REFERENCE"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "SUPPORTING",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "one information object supplies context or evidence for another"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "REFERENCE"
+            ],
+            "b": [
+              "REFERENCE"
+            ],
+            "shared": [
+              "REFERENCE"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "one information object supplies context or evidence for another",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -814,11 +2981,81 @@
       "features": {
         "scope": [],
         "function": [
-          "FAMILY_BIRTH",
-          "GOVERNANCE"
+          "AUTHORITY",
+          "FAMILY"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "DUPLICATE"
+            ],
+            "b": [
+              "DUPLICATE"
+            ],
+            "shared": [
+              "DUPLICATE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "DUPLICATE"
+            ],
+            "b": [
+              "DUPLICATE"
+            ],
+            "shared": [
+              "DUPLICATE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -840,7 +3077,71 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "PROVENANCE"
+            ],
+            "b": [
+              "PROVENANCE"
+            ],
+            "shared": [
+              "PROVENANCE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "PROVENANCE"
+            ],
+            "b": [
+              "PROVENANCE"
+            ],
+            "shared": [
+              "PROVENANCE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -860,15 +3161,77 @@
       "role": "WORKING",
       "features": {
         "scope": [
-          "NARROW"
+          "PLAINS"
         ],
         "function": [
-          "FAMILY_BIRTH"
+          "FAMILY"
         ],
-        "authority": [
-          "SETTLEMENT_AUTHORITY"
-        ],
-        "population": []
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY"
+            ],
+            "b": [
+              "FAMILY"
+            ],
+            "shared": [
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -890,11 +3253,73 @@
         "scope": [
           "REGIONAL"
         ],
-        "function": [
-          "COMPARATIVE"
-        ],
+        "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -916,7 +3341,47 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "provenance": {
+            "a": [
+              "PROVENANCE"
+            ],
+            "b": [
+              "PROVENANCE"
+            ],
+            "shared": [
+              "PROVENANCE"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "CONFLICT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": false,
+          "functional_continuity": true,
+          "distinguishing": "compatible scope/context but incompatible claims"
+        },
+        "observed_factors": {
+          "provenance": {
+            "a": [
+              "PROVENANCE"
+            ],
+            "b": [
+              "PROVENANCE"
+            ],
+            "shared": [
+              "PROVENANCE"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "compatible scope/context but incompatible claims",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -938,7 +3403,53 @@
         "scope": [],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "relationship": {
+            "a": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "b": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "shared": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "MISPLACED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": true,
+          "functional_continuity": false,
+          "distinguishing": "information appears in a location or document where it does not belong"
+        },
+        "observed_factors": {
+          "relationship": {
+            "a": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "b": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "shared": [
+              "DUPLICATE",
+              "REVIEW"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "information appears in a location or document where it does not belong",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -962,7 +3473,71 @@
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -982,11 +3557,136 @@
       "role": "CANON",
       "features": {
         "scope": [
-          "REGIONAL"
+          "REGIONAL",
+          "RIVER"
         ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "b": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "shared": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "b": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "shared": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "VARIANT",
+        "expected_factors": {
+          "same_subject": true,
+          "scope_difference": true,
+          "functional_continuity": true,
+          "distinguishing": "same underlying subject expressed at a different scope/context"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "b": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "shared": [
+              "REGIONAL",
+              "RIVER"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON"
+            ],
+            "b": [
+              "CANON"
+            ],
+            "shared": [
+              "CANON"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "b": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "shared": [
+              "DUPLICATE",
+              "VARIANT"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "same underlying subject expressed at a different scope/context",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -1005,10 +3705,52 @@
       "domain": "PEOPLES",
       "role": "CANON",
       "features": {
-        "scope": [],
+        "scope": [
+          "PLAINS"
+        ],
         "function": [],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "meaningfully connected subject matter without stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [
+              "PLAINS"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without stronger defining relationship",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -1029,11 +3771,64 @@
       "features": {
         "scope": [],
         "function": [
-          "FAMILY_BIRTH",
-          "SUPPORT"
+          "AUDIT",
+          "CHECKLIST",
+          "FAMILY"
         ],
         "authority": [],
-        "population": []
+        "population": [],
+        "deciding_dimensions": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "SUPPORTING",
+        "expected_factors": {
+          "same_subject": false,
+          "scope_difference": false,
+          "functional_continuity": false,
+          "distinguishing": "one information object supplies context or evidence for another"
+        },
+        "observed_factors": {
+          "function": {
+            "a": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "b": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "shared": [
+              "AUDIT",
+              "CHECKLIST",
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "one information object supplies context or evidence for another",
+        "status": "candidate"
       },
       "source": "DECISION_LEDGER",
       "confidence": "HUMAN_ADJUDICATED"
@@ -1044,6 +3839,7 @@
     "pairs": 30,
     "leakage_prevented": true
   },
+  "purpose": "precedent library; examples describe deciding factors and are never authoritative classifications",
   "safety": {
     "automatic_rule_promotion": false,
     "automatic_canon_change": false,

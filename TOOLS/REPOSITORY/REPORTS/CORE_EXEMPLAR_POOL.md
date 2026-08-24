@@ -1,6 +1,6 @@
 # CORE A.C.E. Exemplar Pool
 
-Growing human-verified precedent library with structural retrieval features. Current blind-test holdouts are excluded.
+Human-verified precedent library with structured deciding-factor descriptions. Examples are advisory pattern references, not classification authority.
 
 Examples: **42**
 

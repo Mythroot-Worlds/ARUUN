@@ -2,8 +2,9 @@
   "mode": "READ_ONLY",
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
   "generated_reports_excluded": true,
+  "administrative_documents_excluded_from_canon_findings": true,
   "documents": 63,
-  "findings": 7,
+  "findings": 0,
   "records": [
     {
       "path": "00_MASTER/CANON_INDEX.md",
@@ -11,6 +12,7 @@
       "filename": "CANON_INDEX.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [
         "00_master"
       ],
@@ -61,20 +63,7 @@
             "as content is migrated into each domain, list the substantive documents and their status here.",
             "this document indexes what is currently locked ( canon ) versus in progress ( working , provisional , open , or unknown ) across the repository, and points to where each subject lives."
           ],
-          "numbers_current": [
-            "1",
-            "13",
-            "15",
-            "16",
-            "2",
-            "3",
-            "30",
-            "34",
-            "4",
-            "5",
-            "7"
-          ],
-          "numbers_previous": [],
+          "numeric_fact_changes": [],
           "similarity": 0.0835
         }
       ]
@@ -85,6 +74,7 @@
       "filename": "FOUNDATION_WORLD_PROFILE.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [
         "00_master"
       ],
@@ -97,6 +87,7 @@
       "filename": "WORLD_BIBLE.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [
         "00_master"
       ],
@@ -272,73 +263,7 @@
             "do not treat this file as complete or authoritative until it has been populated from migrated source material.",
             "this document is the human facing synthesis of aruun's established worldbuilding. it summarizes and cross references material that lives in the domain directories ( 01 world through 05 systems ); it is not itself the sole source of truth for any given subject."
           ],
-          "numbers_current": [
-            "0.08",
-            "0.65",
-            "000",
-            "1",
-            "1.0",
-            "1.5",
-            "10",
-            "105",
-            "11",
-            "114",
-            "12",
-            "120",
-            "13",
-            "14",
-            "15",
-            "150",
-            "16",
-            "160",
-            "165",
-            "17",
-            "18",
-            "180",
-            "19",
-            "2",
-            "20",
-            "200",
-            "21",
-            "214",
-            "22",
-            "225",
-            "23",
-            "24",
-            "240",
-            "25",
-            "250",
-            "26",
-            "27",
-            "3",
-            "3.5",
-            "30",
-            "300",
-            "32",
-            "34",
-            "36",
-            "375",
-            "38",
-            "4",
-            "40",
-            "45",
-            "450",
-            "5",
-            "500",
-            "6",
-            "60",
-            "64",
-            "67",
-            "7",
-            "70",
-            "700",
-            "72",
-            "8",
-            "80",
-            "800",
-            "9"
-          ],
-          "numbers_previous": [],
+          "numeric_fact_changes": [],
           "similarity": 0.0024
         }
       ]
@@ -349,6 +274,7 @@
       "filename": "WORLD_STATUS.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [
         "00_master"
       ],
@@ -381,20 +307,7 @@
           "potentially_dropped": [
             "this document tracks the current development status of aruun at a glance \u2014 which domains have substantive content, which are still open, and what the near term priorities are. it should be updated as content is migrated and created."
           ],
-          "numbers_current": [
-            "08",
-            "1",
-            "2",
-            "2026",
-            "23",
-            "3",
-            "30",
-            "34",
-            "4",
-            "5",
-            "7"
-          ],
-          "numbers_previous": [],
+          "numeric_fact_changes": [],
           "similarity": 0.0901
         }
       ]
@@ -405,6 +318,7 @@
       "filename": "CLIMATE_OVERLAY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "climate"
@@ -418,6 +332,7 @@
       "filename": "OCEAN_AND_MARINE_CLIMATE_REFERENCE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "climate"
@@ -431,6 +346,7 @@
       "filename": "HUMAN_SETTLEMENT_OVERLAY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -446,6 +362,7 @@
       "filename": "HEARTH_CURRENT_CANON.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -460,6 +377,7 @@
       "filename": "HYDROLOGY_AND_DRAINAGE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -474,6 +392,7 @@
       "filename": "MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -488,6 +407,7 @@
       "filename": "SUNSCOUR_OASIS_NETWORK.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -503,6 +423,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -517,6 +438,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -531,6 +453,7 @@
       "filename": "DOSSIER.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "continents",
@@ -545,6 +468,7 @@
       "filename": "TECTONICS.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "01_world",
         "planet"
@@ -558,6 +482,7 @@
       "filename": "CANONICAL_CREATURE_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna"
@@ -571,6 +496,7 @@
       "filename": "00_README.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -585,6 +511,7 @@
       "filename": "01_MASTER_INSTRUCTIONS.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -599,6 +526,7 @@
       "filename": "02_LIBRARY_ARCHITECTURE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -613,6 +541,7 @@
       "filename": "03_RAPID_CREATION_TEMPLATE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -627,6 +556,7 @@
       "filename": "04_STYLE_AND_FEEL.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -641,6 +571,7 @@
       "filename": "05_BATCH_PROMPT.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -655,6 +586,7 @@
       "filename": "06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna",
@@ -669,6 +601,7 @@
       "filename": "CREATURE_NECESSITY_SHEET.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna"
@@ -682,6 +615,7 @@
       "filename": "FAUNA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna"
@@ -695,6 +629,7 @@
       "filename": "PREDICTIVE_EVOLUTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "fauna"
@@ -708,6 +643,7 @@
       "filename": "CANONICAL_FLORA_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora"
@@ -721,6 +657,7 @@
       "filename": "EDIBLE_FLORA_EXPANSION_HANDOFF.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora"
@@ -734,6 +671,7 @@
       "filename": "EDIBLE_FLORA_LIBRARY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora"
@@ -747,6 +685,7 @@
       "filename": "FLORA_CREATION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora"
@@ -760,6 +699,7 @@
       "filename": "00_README.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora",
@@ -774,6 +714,7 @@
       "filename": "01_FLORA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora",
@@ -788,6 +729,7 @@
       "filename": "02_FLORA_CREATION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora",
@@ -802,6 +744,7 @@
       "filename": "FLORA_FUNCTION_MATRIX.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "02_ecology",
         "flora"
@@ -815,6 +758,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -830,6 +774,7 @@
       "filename": "COAST.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -844,6 +789,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -859,6 +805,7 @@
       "filename": "CULTURAL_AUDIT_CHECKLIST.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -873,6 +820,7 @@
       "filename": "DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -887,6 +835,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -902,6 +851,7 @@
       "filename": "DESERT.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -916,6 +866,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -930,6 +881,7 @@
       "filename": "FAMILY_PARTNERSHIP.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -944,6 +896,7 @@
       "filename": "GOVERNANCE_AND_AUTHORITY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -958,6 +911,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -973,6 +927,7 @@
       "filename": "SPECIALIST_HOUSES_CANON.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -988,6 +943,7 @@
       "filename": "SPECIALIST_LINEAGES.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1003,6 +959,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1018,6 +975,7 @@
       "filename": "PLAINS.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1032,6 +990,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1047,6 +1006,7 @@
       "filename": "FAMILY_BIRTH_CHILDHOOD.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1062,6 +1022,7 @@
       "filename": "WETLANDS.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "cultures",
@@ -1076,6 +1037,7 @@
       "filename": "HUMAN_POPULATION_GEOGRAPHY.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "demographics"
@@ -1089,6 +1051,7 @@
       "filename": "HUMAN_EVOLUTION_RESEARCH_TRACK.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [
         "03_peoples",
         "species"
@@ -1102,6 +1065,7 @@
       "filename": "CHANGELOG.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [],
       "history_versions_checked": 2,
       "versions": [
@@ -1180,115 +1144,65 @@
             "merged the previously unmerged claude/git push kyp7tp branch (which contained the full document migration) into main , and populated 00 master/canon index.md and 00 master/world status.md with the actual current state of the repository."
           ],
           "potentially_dropped": [],
-          "numbers_current": [
-            "000",
-            "08",
-            "1",
-            "1.0",
-            "1.5",
-            "10",
-            "105",
-            "11",
-            "114",
-            "12",
-            "120",
-            "15",
-            "150",
-            "16",
-            "160",
-            "180",
-            "2",
-            "20",
-            "200",
-            "2026",
-            "21",
-            "22",
-            "225",
-            "23",
-            "24",
-            "240",
-            "25",
-            "250",
-            "27",
-            "3",
-            "3.5",
-            "30",
-            "300",
-            "36",
-            "375",
-            "38",
-            "4",
-            "40",
-            "45",
-            "450",
-            "5",
-            "500",
-            "6",
-            "60",
-            "64",
-            "7",
-            "70",
-            "700",
-            "72",
-            "8",
-            "80",
-            "800",
-            "9"
-          ],
-          "numbers_previous": [
-            "000",
-            "08",
-            "1",
-            "1.0",
-            "1.5",
-            "10",
-            "105",
-            "11",
-            "114",
-            "12",
-            "120",
-            "15",
-            "150",
-            "16",
-            "160",
-            "180",
-            "2",
-            "20",
-            "200",
-            "2026",
-            "21",
-            "22",
-            "225",
-            "23",
-            "24",
-            "240",
-            "25",
-            "250",
-            "27",
-            "3",
-            "3.5",
-            "30",
-            "300",
-            "36",
-            "375",
-            "38",
-            "4",
-            "40",
-            "45",
-            "450",
-            "5",
-            "500",
-            "6",
-            "60",
-            "64",
-            "7",
-            "70",
-            "700",
-            "72",
-            "8",
-            "80",
-            "800",
-            "9"
+          "numeric_fact_changes": [
+            {
+              "statement": "highlands: 8% / 120,000",
+              "previous": [
+                "000",
+                "120",
+                "40",
+                "5",
+                "8"
+              ],
+              "current": [
+                "000",
+                "120",
+                "8"
+              ]
+            },
+            {
+              "statement": "highlands: 5% / 40,000",
+              "previous": [
+                "000",
+                "120",
+                "40",
+                "5",
+                "8"
+              ],
+              "current": [
+                "000",
+                "40",
+                "5"
+              ]
+            },
+            {
+              "statement": "highland valleys: 12% / 120,000",
+              "previous": [
+                "000",
+                "12",
+                "120",
+                "36"
+              ],
+              "current": [
+                "000",
+                "12",
+                "120"
+              ]
+            },
+            {
+              "statement": "highland valleys: 12% / 36,000",
+              "previous": [
+                "000",
+                "12",
+                "120",
+                "36"
+              ],
+              "current": [
+                "000",
+                "12",
+                "36"
+              ]
+            }
           ],
           "similarity": 0.931
         },
@@ -1367,66 +1281,7 @@
             "world bible: broad knowledge / authoritative overview."
           ],
           "potentially_dropped": [],
-          "numbers_current": [
-            "000",
-            "08",
-            "1",
-            "1.0",
-            "1.5",
-            "10",
-            "105",
-            "11",
-            "114",
-            "12",
-            "120",
-            "15",
-            "150",
-            "16",
-            "160",
-            "180",
-            "2",
-            "20",
-            "200",
-            "2026",
-            "21",
-            "22",
-            "225",
-            "23",
-            "24",
-            "240",
-            "25",
-            "250",
-            "27",
-            "3",
-            "3.5",
-            "30",
-            "300",
-            "36",
-            "375",
-            "38",
-            "4",
-            "40",
-            "45",
-            "450",
-            "5",
-            "500",
-            "6",
-            "60",
-            "64",
-            "7",
-            "70",
-            "700",
-            "72",
-            "8",
-            "80",
-            "800",
-            "9"
-          ],
-          "numbers_previous": [
-            "08",
-            "2026",
-            "23"
-          ],
+          "numeric_fact_changes": [],
           "similarity": 0.1888
         }
       ]
@@ -1437,6 +1292,7 @@
       "filename": "LICENSE.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [],
       "history_versions_checked": 0,
       "versions": []
@@ -1447,6 +1303,7 @@
       "filename": "PROJECT_OPERATING_RULES.md",
       "archive": false,
       "tool": false,
+      "administrative": false,
       "scope_tokens": [],
       "history_versions_checked": 0,
       "versions": []
@@ -1457,6 +1314,7 @@
       "filename": "README.md",
       "archive": false,
       "tool": false,
+      "administrative": true,
       "scope_tokens": [],
       "history_versions_checked": 0,
       "versions": []
@@ -1467,6 +1325,7 @@
       "filename": "ARUUN_REPOSITORY_SCHEMA_v0.1.md",
       "archive": false,
       "tool": true,
+      "administrative": false,
       "scope_tokens": [
         "tools",
         "repository"
@@ -1480,6 +1339,7 @@
       "filename": "CONTINUITY_ENGINE_SPEC_v0.1.md",
       "archive": false,
       "tool": true,
+      "administrative": false,
       "scope_tokens": [
         "tools",
         "repository"
@@ -1493,6 +1353,7 @@
       "filename": "README.md",
       "archive": false,
       "tool": true,
+      "administrative": true,
       "scope_tokens": [
         "tools",
         "repository"
@@ -1526,10 +1387,7 @@
             "this directory contains repository maintenance and validation tooling. tools are part of the aruun world package but do not dictate canon; they validate structure, metadata, dependencies, and consistency.",
             "world bible/deep entry relationship checks"
           ],
-          "numbers_current": [
-            "1"
-          ],
-          "numbers_previous": [],
+          "numeric_fact_changes": [],
           "similarity": 0.1076
         }
       ]
@@ -1540,6 +1398,7 @@
       "filename": "continuity-test-2.txt",
       "archive": false,
       "tool": true,
+      "administrative": false,
       "scope_tokens": [
         "tools",
         "repository"
@@ -1553,6 +1412,7 @@
       "filename": "continuity-test.txt",
       "archive": false,
       "tool": true,
+      "administrative": false,
       "scope_tokens": [
         "tools",
         "repository"
@@ -1561,224 +1421,5 @@
       "versions": []
     }
   ],
-  "findings_detail": [
-    {
-      "type": "POTENTIAL_CANON_LOSS",
-      "severity": "REVIEW",
-      "path": "00_MASTER/CANON_INDEX.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "dropped_count": 2,
-      "dropped": [
-        "as content is migrated into each domain, list the substantive documents and their status here.",
-        "this document indexes what is currently locked ( canon ) versus in progress ( working , provisional , open , or unknown ) across the repository, and points to where each subject lives."
-      ]
-    },
-    {
-      "type": "NUMERIC_CHANGE",
-      "severity": "REVIEW",
-      "path": "00_MASTER/CANON_INDEX.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "previous": [],
-      "current": [
-        "1",
-        "13",
-        "15",
-        "16",
-        "2",
-        "3",
-        "30",
-        "34",
-        "4",
-        "5",
-        "7"
-      ]
-    },
-    {
-      "type": "POTENTIAL_CANON_LOSS",
-      "severity": "REVIEW",
-      "path": "00_MASTER/WORLD_BIBLE.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "dropped_count": 2,
-      "dropped": [
-        "do not treat this file as complete or authoritative until it has been populated from migrated source material.",
-        "this document is the human facing synthesis of aruun's established worldbuilding. it summarizes and cross references material that lives in the domain directories ( 01 world through 05 systems ); it is not itself the sole source of truth for any given subject."
-      ]
-    },
-    {
-      "type": "NUMERIC_CHANGE",
-      "severity": "REVIEW",
-      "path": "00_MASTER/WORLD_BIBLE.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "previous": [],
-      "current": [
-        "0.08",
-        "0.65",
-        "000",
-        "1",
-        "1.0",
-        "1.5",
-        "10",
-        "105",
-        "11",
-        "114",
-        "12",
-        "120",
-        "13",
-        "14",
-        "15",
-        "150",
-        "16",
-        "160",
-        "165",
-        "17",
-        "18",
-        "180",
-        "19",
-        "2",
-        "20",
-        "200",
-        "21",
-        "214",
-        "22",
-        "225",
-        "23",
-        "24",
-        "240",
-        "25",
-        "250",
-        "26",
-        "27",
-        "3",
-        "3.5",
-        "30",
-        "300",
-        "32",
-        "34",
-        "36",
-        "375",
-        "38",
-        "4",
-        "40",
-        "45",
-        "450",
-        "5",
-        "500",
-        "6",
-        "60",
-        "64",
-        "67",
-        "7",
-        "70",
-        "700",
-        "72",
-        "8",
-        "80",
-        "800",
-        "9"
-      ]
-    },
-    {
-      "type": "POTENTIAL_CANON_LOSS",
-      "severity": "REVIEW",
-      "path": "00_MASTER/WORLD_STATUS.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "dropped_count": 1,
-      "dropped": [
-        "this document tracks the current development status of aruun at a glance \u2014 which domains have substantive content, which are still open, and what the near term priorities are. it should be updated as content is migrated and created."
-      ]
-    },
-    {
-      "type": "NUMERIC_CHANGE",
-      "severity": "REVIEW",
-      "path": "00_MASTER/WORLD_STATUS.md",
-      "folder": "00_MASTER",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "previous": [],
-      "current": [
-        "08",
-        "1",
-        "2",
-        "2026",
-        "23",
-        "3",
-        "30",
-        "34",
-        "4",
-        "5",
-        "7"
-      ]
-    },
-    {
-      "type": "NUMERIC_CHANGE",
-      "severity": "REVIEW",
-      "path": "CHANGELOG.md",
-      "folder": "",
-      "commit": "b2e82c363aafefa987a29f401ba8cb2347719888",
-      "previous": [
-        "08",
-        "2026",
-        "23"
-      ],
-      "current": [
-        "000",
-        "08",
-        "1",
-        "1.0",
-        "1.5",
-        "10",
-        "105",
-        "11",
-        "114",
-        "12",
-        "120",
-        "15",
-        "150",
-        "16",
-        "160",
-        "180",
-        "2",
-        "20",
-        "200",
-        "2026",
-        "21",
-        "22",
-        "225",
-        "23",
-        "24",
-        "240",
-        "25",
-        "250",
-        "27",
-        "3",
-        "3.5",
-        "30",
-        "300",
-        "36",
-        "375",
-        "38",
-        "4",
-        "40",
-        "45",
-        "450",
-        "5",
-        "500",
-        "6",
-        "60",
-        "64",
-        "7",
-        "70",
-        "700",
-        "72",
-        "8",
-        "80",
-        "800",
-        "9"
-      ]
-    }
-  ]
+  "findings_detail": []
 }

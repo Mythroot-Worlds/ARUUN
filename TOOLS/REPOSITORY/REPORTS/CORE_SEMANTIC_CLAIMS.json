@@ -1,0 +1,1406 @@
+{
+  "engine": "CORE Semantic Claim Extraction",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "claims": [
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/README.md",
+      "line_context": 15,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **`CHANGELOG.md`** records worldbuilding decisions and their reasoning, separate from the Git commit log of file changes.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/README.md",
+        "source_line_context": 15
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+      "line_context": 2,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This changelog records **worldbuilding decisions and their meaning** \u2014 what was established or revised, why, and what it affects.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+        "source_line_context": 2
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+      "line_context": 3,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "It is separate from the Git commit log, which records the technical history of file changes.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+        "source_line_context": 3
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+      "line_context": 149,
+      "relation_identifier": "DERIVED",
+      "verb": "summarizes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "They are not secondary canon merely because the World Bible summarizes them.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/CHANGELOG.md",
+        "source_line_context": 149
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/CANON_INDEX.md",
+      "line_context": 26,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Supersedes v0.1\u2013v1.4 (archived).",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/CANON_INDEX.md",
+        "source_line_context": 26
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+      "line_context": 466,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The world naturally supports:",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+        "source_line_context": 466
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+      "line_context": 568,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Later crops, livestock, dairy, textiles, preservation methods, or food systems appear without being supported by the world's actual flora, fauna, technology, and history.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+        "source_line_context": 568
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/WORLD_BIBLE.md",
+      "line_context": 455,
+      "relation_identifier": "CORROBORATIVE",
+      "verb": "confirms",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The ecological cross-reference confirms strong established plant-fauna relationships, including:",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/WORLD_BIBLE.md",
+        "source_line_context": 455
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/WORLD_BIBLE.md",
+      "line_context": 490,
+      "relation_identifier": "DERIVED",
+      "verb": "summarizes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The World Bible summarizes what a creator needs to know while the standalone documents preserve depth.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/WORLD_BIBLE.md",
+        "source_line_context": 490
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md",
+      "line_context": 43,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- later simple dugout or comparable craft when woodworking supports them.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md",
+        "source_line_context": 43
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "line_context": 34,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The conclave also supports trade, knowledge exchange, relationship maintenance, and other regional business.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "source_line_context": 34
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "line_context": 128,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Children are raised primarily within their group while being known and supported by the larger village.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "source_line_context": 128
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "line_context": 409,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Children belong to their family and functional group but are known and supported by the whole village.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "source_line_context": 409
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "line_context": 571,
+      "relation_identifier": "COMPLEMENTARY",
+      "verb": "extends",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The same communal principle extends beyond childcare.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "source_line_context": 571
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 4,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This document records the approved Hearth developmental framework for Plains, Mountains, River, Wetlands, Desert, and Coast.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 4
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 6,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 6
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 19,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is supported by the extended household and community.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 19
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 26,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is primarily supported by the 12\u201315-person functional group.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 26
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "line_context": 125,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- [ ] Resource disputes",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "source_line_context": 125
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "line_context": 126,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- [ ] Inter-community disputes",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "source_line_context": 126
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 34,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Disputes are initially handled by the relevant work group.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 34
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 62,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- disputes within the lineage;",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 62
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 79,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- inter-village disputes;",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 79
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 88,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Village-wide or inter-village disputes can escalate to the village council or Mountain Conclave.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 88
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 111,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- elder during family disputes;",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 111
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 122,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- major disputes.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 122
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 128,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Local disputes begin within the household or settlement.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 128
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 157,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- experienced negotiator during inter-group disputes.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 157
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 167,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Disputes begin inside the group.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 167
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 219,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Most disputes begin with families.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 219
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 220,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Community-level disputes are brought to elders.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 220
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 221,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Water disputes involve Water Watchers.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 221
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 222,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Travel or hunting disputes can involve Lifekeepers.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 222
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 223,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Major disputes can require a broader gathering.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 223
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 257,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Minor disputes are handled socially and quickly.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 257
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "line_context": 259,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Serious disputes are brought before a group of respected adults/elders.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "source_line_context": 259
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 4,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is primarily supported by the 12\u201315-person functional group.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 4
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 4,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 4
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "line_context": 4,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Birth is supported by the extended household and community.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+        "source_line_context": 4
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "line_context": 32,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This document formally supersedes the previously open questions concerning Mountain settlement size, number of Houses, House structure, and population quotas.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+        "source_line_context": 32
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
+      "line_context": 261,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "**FAVORED:** strongly supported by the combination of conditions.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
+        "source_line_context": 261
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "line_context": 346,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Social behavior:** Large mixed herds, the biggest aggregations Rift's terrain supports",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+        "source_line_context": 346
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "line_context": 484,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Evolutionary rationale:** A large, stable inland sea is exactly the kind of contained, resource-rich aquatic system that supports a dedicated apex ambush predator rather than requiring one to also hunt effectively in open ocean or fast river current",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+        "source_line_context": 484
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "line_context": 674,
+      "relation_identifier": "SUPPORTING",
+      "verb": "reinforces",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Why Shattered:** Directly reinforces the continent's defining fragmentation-and-connection theme, offered as a contrasting solution to Farwader's water crossing",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+        "source_line_context": 674
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md",
+      "line_context": 189,
+      "relation_identifier": "SCOPE_SPECIALIZATION",
+      "verb": "specializes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- Fauna link: sustains the fish-analogue populations each regional Riftlurker variant specializes on",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md",
+        "source_line_context": 189
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md",
+      "line_context": 54,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Traits strongly supported by the environment/function.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md",
+        "source_line_context": 54
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "line_context": 56,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Rationale:** Hearth's enormous open grassland is the same resource base that supports Broadback \u2014 an obvious, abundant, storable calorie source for any group willing to do the processing work.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+        "source_line_context": 56
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "line_context": 92,
+      "relation_identifier": "COMPLEMENTARY",
+      "verb": "extends",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Rationale:** Shattered's coastal dependence extends naturally to its human populations \u2014 a salt-tolerant grain growing in the same narrow strip Tideshrub and Saltgrazer already exploit is a low-effort, low-competition food source.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+        "source_line_context": 92
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "line_context": 209,
+      "relation_identifier": "COMPLEMENTARY",
+      "verb": "extends",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Rationale:** Shattered's coastline includes dry stretches where a water-rich fruit growing right at hand meaningfully extends how far a group can travel between reliable water.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+        "source_line_context": 209
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "line_context": 278,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Rationale:** Lost's shaded, humid forest floor supports a genuinely different green than Hearth's open-floodplain shoots, giving forest-dwelling Aruunites their own seasonal variety food.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+        "source_line_context": 278
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "line_context": 327,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **Food (indirect):** Does not directly feed humans \u2014 its dense, seasonal nectar flow supports a nectar-collecting insect-analogue (**flagged for coordination with fauna creation**) that concentrates and stores the nectar as a thick, preservable sugar resource Aruunites can raid from wild nest sites",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+        "source_line_context": 327
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md",
+      "line_context": 151,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "If later climate modeling supports regular fire regimes, some plant lineages can evolve around them.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md",
+        "source_line_context": 151
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md",
+      "line_context": 173,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Do not assume every climate supports tall forests.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md",
+        "source_line_context": 173
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md",
+      "line_context": 262,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- supports important fauna;",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md",
+        "source_line_context": 262
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md",
+      "line_context": 54,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Traits strongly supported by the environment/function.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md",
+        "source_line_context": 54
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md",
+      "line_context": 35,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This supports a continent-scale marine food web and strong land-sea nutrient transfer.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md",
+        "source_line_context": 35
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 21,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Where two Hearth documents genuinely conflict, this consolidation preserves the most recently established decision where the source clearly indicates that one supersedes the other.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 21
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 181,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Disputes begin within relevant work groups and may result in restitution, temporary loss of authority, reassignment, removal from dangerous responsibility, loss of trust, or extreme exclusion.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 181
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 202,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- internal disputes;",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 202
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 271,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Children belong to their family and functional group while being known and supported by the whole village.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 271
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 343,
+      "relation_identifier": "CONFLICT",
+      "verb": "disputes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Serious disputes are brought before respected adults/elders.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 343
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 433,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "If it records a deliberate setting decision and does not explicitly mark itself as non-canon/questionable, it is treated as canon.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 433
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 435,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "If it supersedes an older decision, the new decision replaces the older one here.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 435
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 437,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "If two documents conflict and neither clearly supersedes the other, the contradiction is flagged for resolution rather than silently reconciled.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 437
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "line_context": 440,
+      "relation_identifier": "HISTORICAL",
+      "verb": "records",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "**This document records where Hearth stands.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "source_line_context": 440
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md",
+      "line_context": 5,
+      "relation_identifier": "HISTORICAL",
+      "verb": "supersedes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This layer supersedes the earlier state of \"exact river courses open.\" Rivers and major drainage architecture are now an active worldbuilding decision.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md",
+        "source_line_context": 5
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md",
+      "line_context": 233,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The hydrology supports existing Hearth ecological assumptions:",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md",
+        "source_line_context": 233
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md",
+      "line_context": 236,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Potentially supports communities with mixed coastal and terrestrial subsistence.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md",
+        "source_line_context": 236
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md",
+      "line_context": 243,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Simple watercraft are plausible only where the technological and environmental context supports them.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md",
+        "source_line_context": 243
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+      "line_context": 118,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Potentially supports a string of small settlements or one larger community plus seasonal camps.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+        "source_line_context": 118
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+      "line_context": 143,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "Likely supports a smaller permanent community plus mobile groups.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+        "source_line_context": 143
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+      "line_context": 330,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This supports a mixed Desert culture of oasis communities and mobile travelers.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+        "source_line_context": 330
+      }
+    }
+  ],
+  "summary": {
+    "documents_with_claims": 27,
+    "claims": 72,
+    "by_identifier": {
+      "SUPPORTING": 32,
+      "HISTORICAL": 12,
+      "CONFLICT": 21,
+      "COMPLEMENTARY": 3,
+      "SCOPE_SPECIALIZATION": 1,
+      "DUPLICATE": 0,
+      "DERIVED": 2,
+      "CORROBORATIVE": 1
+    },
+    "entity_resolution_required": 72
+  },
+  "claim_fields": [
+    "subject",
+    "verb",
+    "object",
+    "modifiers",
+    "scope",
+    "time",
+    "authority",
+    "context",
+    "source"
+  ],
+  "safety": {
+    "final_relationship_decision": false,
+    "automatic_canon_change": false,
+    "provenance_required": true
+  }
+}

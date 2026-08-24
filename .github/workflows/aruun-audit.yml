@@ -18,6 +18,8 @@ jobs:
         with: {python-version: '3.x'}
       - name: Run read-only repository validator
         run: python TOOLS/REPOSITORY/validate_repo.py --root . --out TOOLS/REPOSITORY/REPORTS
+      - name: Run read-only World Bible layout validation — primary Mythroot CORE mode
+        run: python TOOLS/REPOSITORY/validator/world_bible_layout_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run read-only content placement audit
         run: python TOOLS/REPOSITORY/validator/content_placement_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run read-only content lineage audit
@@ -36,9 +38,9 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/core_evidence_matrix.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Build CORE leakage-safe mugshot/exemplar library
         run: python TOOLS/REPOSITORY/validator/core_exemplar_pool.py --root . --out TOOLS/REPOSITORY/REPORTS
-      - name: Run CORE A.C.E. Detective investigation — primary live reasoning
+      - name: Run CORE A.C.E. Detective investigation — secondary relationship research
         run: python TOOLS/REPOSITORY/validator/core_detective.py --root . --out TOOLS/REPOSITORY/REPORTS
-      - name: Run CORE A.C.E. Robin semantic analysis — primary live reasoning
+      - name: Run CORE A.C.E. Robin semantic analysis — secondary relationship research
         run: python TOOLS/REPOSITORY/validator/core_robin.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Cross-check Batman and Robin
         run: python TOOLS/REPOSITORY/validator/core_crosscheck.py --root . --out TOOLS/REPOSITORY/REPORTS
@@ -85,7 +87,7 @@ jobs:
       - name: Print audit summary
         if: always()
         run: |
-          for f in AUDIT_SUMMARY.md CONTENT_PLACEMENT_REPORT.md CONTENT_LINEAGE_REPORT.md CANONICAL_ASSEMBLY_REVIEW.md CANONICAL_CONSOLIDATION_REVIEW.md CORE_ACE_CALIBRATION_REPORT.md CORE_RELATIONSHIP_DISCOVERY.md CORE_ADJUDICATION_QUEUE.md CORE_EVIDENCE_MATRIX.md CORE_EXEMPLAR_POOL.md CORE_DETECTIVE_REPORT.md CORE_ROBIN_REPORT.md CORE_CROSSCHECK_REPORT.md CORE_ORACLE_REPORT.md CORE_NIGHTWING_REPORT.md CORE_ALFRED_REPORT.md CORE_BLIND_TEST.md CORE_HUMAN_RECONCILIATION.md CORE_RELATIONSHIP_METRICS.md CONTINUITY_REPORT.md; do
+          for f in AUDIT_SUMMARY.md CONTENT_PLACEMENT_REPORT.md CONTENT_LINEAGE_REPORT.md CANONICAL_ASSEMBLY_REVIEW.md CANONICAL_CONSOLIDATION_REVIEW.md CORE_ACE_CALIBRATION_REPORT.md CORE_RELATIONSHIP_DISCOVERY.md CORE_ADJUDICATION_QUEUE.md CORE_EVIDENCE_MATRIX.md CORE_EXEMPLAR_POOL.md CORE_WORLD_BIBLE_LAYOUT_REPORT.md CORE_DETECTIVE_REPORT.md CORE_ROBIN_REPORT.md CORE_CROSSCHECK_REPORT.md CORE_ORACLE_REPORT.md CORE_NIGHTWING_REPORT.md CORE_ALFRED_REPORT.md CORE_BLIND_TEST.md CORE_HUMAN_RECONCILIATION.md CORE_RELATIONSHIP_METRICS.md CONTINUITY_REPORT.md; do
             [ -f "TOOLS/REPOSITORY/REPORTS/$f" ] && cat "TOOLS/REPOSITORY/REPORTS/$f"
           done
           [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ] && cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md

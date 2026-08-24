@@ -1,14 +1,28 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "2.1",
+  "schema_version": "2.2",
   "mode": "READ_ONLY",
-  "purpose": "bounded investigation using deciding factors, configurable evidence neighborhoods, grounded claim candidates, question coverage, and auditable second-pass targeting",
+  "domain_profile": "Mythroot Worldbuilding",
+  "purpose": "bounded investigation using Mythroot deciding factors, configurable evidence neighborhoods, grounded claim candidates, question coverage, and auditable second-pass targeting",
   "cases": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -189,6 +203,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -4279,7 +4378,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 129
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -4291,6 +4390,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -4488,6 +4600,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -8708,7 +8905,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 133
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -8720,6 +8917,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -8926,6 +9136,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -13385,7 +13680,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 142
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -13397,6 +13692,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -13614,6 +13922,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -18650,7 +19043,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 164
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -18662,6 +19055,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -18836,6 +19242,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -22961,7 +23452,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 132
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -22973,6 +23464,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -23180,6 +23684,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -26550,7 +27139,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 108
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -26562,6 +27151,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -26736,6 +27338,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -31085,7 +31772,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 136
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -31097,6 +31784,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -31312,6 +32012,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -35787,7 +36572,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 144
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -35799,6 +36584,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -35998,6 +36796,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -40485,7 +41368,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 143
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -40497,6 +41380,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -40706,6 +41602,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -45249,7 +46230,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 146
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -45261,6 +46242,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -45397,6 +46391,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -47232,7 +48311,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 57
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -47244,6 +48323,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -47361,6 +48453,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -50456,7 +51633,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 95
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -50468,6 +51645,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -50646,6 +51836,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -54773,7 +56048,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 131
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -54785,6 +56060,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -54986,6 +56274,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -59263,7 +60636,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -59275,6 +60648,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -59396,6 +60782,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -62510,7 +63981,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 97
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -62522,6 +63993,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -62657,6 +64141,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -66026,7 +67595,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 107
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -66038,6 +67607,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -66156,6 +67738,91 @@
           "different": []
         }
       },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        }
+      },
       "known": [
         "scope: differs PLAINS",
         "family: shared BIRTH, CHILDHOOD"
@@ -66216,7 +67883,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 0
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -66228,6 +67895,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -66405,6 +68085,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -69047,7 +70812,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 85
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -69059,6 +70824,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -69195,6 +70973,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -71834,7 +73697,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 81
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -71846,6 +73709,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -71968,6 +73844,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -75055,7 +77016,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 95
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -75067,6 +77028,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -75290,6 +77264,91 @@
             "CONFLICT"
           ],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -80108,7 +82167,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -80120,6 +82179,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -80344,6 +82416,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -85162,7 +87319,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -85174,6 +87331,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -85336,6 +87506,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -89568,7 +91823,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -89580,6 +91835,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -89701,6 +91969,91 @@
           "different": []
         }
       },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": false,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        }
+      },
       "known": [
         "family: shared BIRTH, CHILDHOOD",
         "family: differs FAMILY",
@@ -89762,7 +92115,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 0
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -89774,6 +92127,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -89990,6 +92356,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -94227,7 +96678,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 135
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -94239,6 +96690,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -94425,6 +96889,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": false,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -98589,7 +101138,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 132
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -98601,6 +101150,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -98832,6 +101394,91 @@
             "CONFLICT"
           ],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -103912,7 +106559,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 166
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -103924,6 +106571,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -104147,6 +106807,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -109264,7 +112009,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 167
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -109276,6 +112021,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -109496,6 +112254,91 @@
           "different": [
             "CONFLICT"
           ]
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -114313,7 +117156,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 156
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -114325,6 +117168,19 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "domain_profile": "Mythroot Worldbuilding",
+      "domain_profile_version": "0.1",
+      "mythroot_principles": {
+        "purpose_before_inventory": "Information matters when it changes or supports a worldbuilding decision; completeness is not measured by filling every possible field.",
+        "scope_and_scale_matter": "The same subject may legitimately exist at continental, regional, settlement, group, or individual scale.",
+        "depth_follows_importance": "Depth should follow story importance, world importance, and intended application rather than uniform detail everywhere.",
+        "coherence_is_systemic": "Geography, settlement, economy, politics, law, history, culture, daily life, and ecology can constrain or explain one another.",
+        "canon_has_states": "Hard canon, flexible canon, open space, and unknown are different information states.",
+        "absence_is_not_automatically_error": "An undocumented area may be intentionally open, genuinely unknown, or actually missing; these states must be distinguished.",
+        "relationship_requires_deciding_factors": "A relationship label is justified by the factors that explain why the relationship exists, not by lexical overlap alone.",
+        "evidence_has_provenance": "Claims should remain traceable to their source and context.",
+        "human_validation_is_authoritative": "CORE may identify, compare, infer, and escalate, but it does not silently alter canon or promote hypotheses to canon."
       },
       "deciding_factors": {
         "subject": {
@@ -114450,6 +117306,91 @@
           "b": [],
           "shared": [],
           "different": []
+        }
+      },
+      "principle_checks": {
+        "VARIANT": {
+          "gate_factors": [
+            "same underlying subject",
+            "meaningful scope/context difference",
+            "functional continuity"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "SUPPORTING": {
+          "gate_factors": [
+            "one source supplies context/evidence needed by another",
+            "complementary function",
+            "traceable support relationship"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "HISTORICAL": {
+          "gate_factors": [
+            "related subject",
+            "temporal distinction",
+            "evidence of precedence/revision/state change"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "CONFLICT": {
+          "gate_factors": [
+            "comparable subject/scope",
+            "incompatible claims",
+            "conflict survives contextual explanation"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "MISPLACED": {
+          "gate_factors": [
+            "information is relevant somewhere",
+            "current document/scope is not the appropriate home",
+            "a more appropriate placement exists"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "DUPLICATE": {
+          "gate_factors": [
+            "same substantive information",
+            "no meaningful scope/function distinction",
+            "no additional contextual value"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
+        },
+        "RELATED": {
+          "gate_factors": [
+            "meaningful connection",
+            "no stronger relationship gate established"
+          ],
+          "same_subject_signal": false,
+          "scope_signal": true,
+          "functional_continuity_signal": true,
+          "status": "candidate_only",
+          "reason": "Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate."
         }
       },
       "known": [
@@ -116904,7 +119845,7 @@
         "keyword_only_claims": 0,
         "unique_claims": 79
       },
-      "stop_reason": "bounded investigation completed; deciding factors recorded; human review remains authoritative",
+      "stop_reason": "bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,

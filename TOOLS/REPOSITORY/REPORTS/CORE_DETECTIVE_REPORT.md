@@ -1,6 +1,6 @@
 # CORE A.C.E. Detective Report
 
-Deciding-factor-aware, grounded evidence investigation.
+Mythroot deciding-factor-aware, grounded evidence investigation.
 
 {
   "cases": 30,

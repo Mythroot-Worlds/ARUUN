@@ -3,7 +3,7 @@
 **Mode:** READ-ONLY
 **Scope:** `ALL_ACTIVE_NON_GENERATED_CONTENT`
 
-Documents analyzed: 69
+Documents analyzed: 70
 Placement candidates: 13
 
 ## Review Candidates

@@ -1,24 +1,33 @@
 {
   "engine": "CORE Relationship Metrics",
   "mode": "TELEMETRY_ONLY",
-  "relationship_count": 10,
-  "candidate_count": 10,
-  "human_confirmed_count": 10,
-  "unresolved_count": 1,
-  "by_final_label": {
-    "COINCIDENTAL": 2,
-    "CONFLICT": 1,
-    "HISTORICAL": 1,
-    "MISPLACED": 1,
-    "RELATED": 1,
-    "REVIEW": 1,
-    "SUPPORTING": 1,
-    "VARIANT": 2
+  "discovery": {
+    "documents_analyzed": 18,
+    "relationships_discovered": 70,
+    "review_queue_size": 70,
+    "novel_discovered_relationships": 70,
+    "discovered_already_adjudicated": 0
   },
-  "by_proposed_label": {
-    "DUPLICATE": 2,
-    "KEEP": 1,
-    "MERGE": 7
+  "human_calibration": {
+    "relationship_count": 10,
+    "candidate_count": 10,
+    "human_confirmed_count": 10,
+    "unresolved_count": 1,
+    "by_final_label": {
+      "COINCIDENTAL": 2,
+      "CONFLICT": 1,
+      "HISTORICAL": 1,
+      "MISPLACED": 1,
+      "RELATED": 1,
+      "REVIEW": 1,
+      "SUPPORTING": 1,
+      "VARIANT": 2
+    },
+    "by_proposed_label": {
+      "DUPLICATE": 2,
+      "KEEP": 1,
+      "MERGE": 7
+    }
   },
   "ace_decisions": 10,
   "ace_heuristic_candidates": 10,
@@ -134,7 +143,7 @@
       }
     }
   ],
-  "run_comparison_note": "Persist these metrics between runs to calculate discovery growth, novelty, confirmation rate, false-positive rate, and coverage once candidate discovery telemetry is available.",
+  "run_comparison_note": "Compare discovery counts and stable relationship IDs across runs. Human adjudication remains the ground truth for confirmation and false-positive rates.",
   "safety": {
     "automatic_relationship_acceptance": false,
     "automatic_canon_change": false,

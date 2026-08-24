@@ -1,13 +1,16 @@
 # CORE Relationship Metrics
 
-**Telemetry only.** These metrics measure relationships and human adjudication; they do not authorize canon changes.
+**Telemetry only.** Discovery metrics measure candidate relationships; human adjudication remains the ground truth.
 
+Discovered relationships: **70**
+Novel discovered relationships: **70**
+Discovery review queue: **70**
 Human-confirmed relationships: **10**
-Unresolved: **1**
+Unresolved human decisions: **1**
 A.C.E. labeled decisions: **10**
 A.C.E. heuristic candidates: **10**
 
-## Final labels
+## Human-adjudicated labels
 - `COINCIDENTAL`: **2**
 - `CONFLICT`: **1**
 - `HISTORICAL`: **1**
@@ -17,10 +20,11 @@ A.C.E. heuristic candidates: **10**
 - `SUPPORTING`: **1**
 - `VARIANT`: **2**
 
-## Next-run metrics
+## Longitudinal metrics now enabled
 - Discovery growth
 - Novel relationship discovery
-- Human confirmation rate
-- False-positive rate
+- Stable-ID overlap across runs
+- Human confirmation rate (after adjudication)
+- False-positive rate (after adjudication)
 - Coverage
 - Anomaly recognition rate

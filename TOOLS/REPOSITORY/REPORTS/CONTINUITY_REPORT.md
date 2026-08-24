@@ -6,7 +6,7 @@
 **Generated audit reports excluded:** yes
 **Administrative/master documents excluded from canon findings:** yes
 
-Documents analyzed: 63
+Documents analyzed: 64
 Continuity findings: 0
 
 No canon continuity findings were generated.

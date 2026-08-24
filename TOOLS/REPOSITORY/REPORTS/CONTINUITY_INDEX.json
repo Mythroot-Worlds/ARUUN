@@ -3,7 +3,7 @@
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
   "generated_reports_excluded": true,
   "administrative_documents_excluded_from_canon_findings": true,
-  "documents": 63,
+  "documents": 64,
   "findings": 0,
   "records": [
     {
@@ -1343,6 +1343,21 @@
       "scope_tokens": [
         "tools",
         "repository"
+      ],
+      "history_versions_checked": 0,
+      "versions": []
+    },
+    {
+      "path": "TOOLS/REPOSITORY/CONTINUITY_TEST/CONTINUITY_TEST.md",
+      "folder": "TOOLS/REPOSITORY/CONTINUITY_TEST",
+      "filename": "CONTINUITY_TEST.md",
+      "archive": false,
+      "tool": true,
+      "administrative": false,
+      "scope_tokens": [
+        "tools",
+        "repository",
+        "continuity_test"
       ],
       "history_versions_checked": 0,
       "versions": []

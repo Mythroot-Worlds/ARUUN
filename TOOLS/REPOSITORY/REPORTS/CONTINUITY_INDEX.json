@@ -1359,8 +1359,26 @@
         "repository",
         "continuity_test"
       ],
-      "history_versions_checked": 0,
-      "versions": []
+      "history_versions_checked": 1,
+      "versions": [
+        {
+          "commit": "e6350894e3507b1029442b336c542f8fe19a8a3e",
+          "preserved": [
+            "they use pack animals for transport .",
+            "this document is deliberately disposable. it exists only to test git history continuity detection.",
+            "when this file is deliberately rewritten, the continuity engine should identify preserved information, additions, modifications, and potentially dropped information. this fixture is not canon."
+          ],
+          "added": [
+            "the mountain people maintain two seasonal camps ."
+          ],
+          "potentially_dropped": [
+            "elders teach children through observation and practice.",
+            "the mountain people maintain three seasonal camps ."
+          ],
+          "numeric_fact_changes": [],
+          "similarity": 0.9331
+        }
+      ]
     },
     {
       "path": "TOOLS/REPOSITORY/README.md",

@@ -38,6 +38,10 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/core_evidence_matrix.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run CORE A.C.E. Detective investigation
         run: python TOOLS/REPOSITORY/validator/core_detective.py --root . --out TOOLS/REPOSITORY/REPORTS
+      - name: Run CORE A.C.E. Robin semantic cross-check
+        run: python TOOLS/REPOSITORY/validator/core_robin.py --root . --out TOOLS/REPOSITORY/REPORTS
+      - name: Cross-check Batman and Robin
+        run: python TOOLS/REPOSITORY/validator/core_crosscheck.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Reconcile human blind-test annotations to stable relationship IDs
         run: python TOOLS/REPOSITORY/validator/core_human_reconcile.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run CORE relationship discovery metrics
@@ -73,7 +77,7 @@ jobs:
       - name: Print audit summary
         if: always()
         run: |
-          for f in AUDIT_SUMMARY.md CONTENT_PLACEMENT_REPORT.md CONTENT_LINEAGE_REPORT.md CANONICAL_ASSEMBLY_REVIEW.md CANONICAL_CONSOLIDATION_REVIEW.md CORE_ACE_CALIBRATION_REPORT.md CORE_RELATIONSHIP_DISCOVERY.md CORE_ADJUDICATION_QUEUE.md CORE_BLIND_TEST.md CORE_EVIDENCE_MATRIX.md CORE_DETECTIVE_REPORT.md CORE_HUMAN_RECONCILIATION.md CORE_RELATIONSHIP_METRICS.md CONTINUITY_REPORT.md; do
+          for f in AUDIT_SUMMARY.md CONTENT_PLACEMENT_REPORT.md CONTENT_LINEAGE_REPORT.md CANONICAL_ASSEMBLY_REVIEW.md CANONICAL_CONSOLIDATION_REVIEW.md CORE_ACE_CALIBRATION_REPORT.md CORE_RELATIONSHIP_DISCOVERY.md CORE_ADJUDICATION_QUEUE.md CORE_BLIND_TEST.md CORE_EVIDENCE_MATRIX.md CORE_DETECTIVE_REPORT.md CORE_ROBIN_REPORT.md CORE_CROSSCHECK_REPORT.md CORE_HUMAN_RECONCILIATION.md CORE_RELATIONSHIP_METRICS.md CONTINUITY_REPORT.md; do
             [ -f "TOOLS/REPOSITORY/REPORTS/$f" ] && cat "TOOLS/REPOSITORY/REPORTS/$f"
           done
           [ -f TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md ] && cat TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md

@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "1.2",
+  "schema_version": "1.3",
   "mode": "READ_ONLY",
-  "purpose": "bounded evidence-seeking investigation with post-evidence hypothesis/uncertainty updates",
+  "purpose": "bounded evidence-seeking investigation with question-specific evidence validity",
   "cases": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -83,17 +83,28 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -203,14 +214,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -329,14 +358,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -448,14 +495,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -571,14 +636,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -690,14 +773,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -816,17 +917,27 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
+      "evidence_updates": [],
       "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "explicit support relationship is not established by indicators alone",
         "temporal precedence/supersession is not established by indicators alone"
       ],
       "hypotheses": [
@@ -946,14 +1057,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -1079,14 +1208,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -1197,14 +1344,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -1317,16 +1482,27 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1421,6 +1597,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -1522,17 +1699,28 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1640,13 +1828,31 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -1747,6 +1953,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -1844,16 +2051,27 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -1945,6 +2163,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -2045,13 +2264,31 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -2165,16 +2402,27 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -2270,6 +2518,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -2373,14 +2622,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -2499,14 +2766,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -2622,17 +2907,28 @@
           ]
         }
       ],
-      "evidence_updates": [
+      "evidence_validity": [
         {
-          "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": false
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 0.5,
+          "answers_question": false
         }
       ],
-      "unknown_after": [],
+      "evidence_updates": [],
+      "unknown_after": [
+        "authority role and organizational level require contextual confirmation",
+        "explicit support relationship is not established by indicators alone"
+      ],
       "hypotheses": [
         {
           "label": "VARIANT",
@@ -2727,6 +3023,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -2827,13 +3124,31 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -2943,13 +3258,31 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -3063,14 +3396,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -3190,14 +3541,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [
@@ -3317,14 +3686,32 @@
           ]
         }
       ],
+      "evidence_validity": [
+        {
+          "question": "Which document sections explicitly define the disputed scope, authority, or support relationship?",
+          "checks": [
+            {
+              "test": "explicit_authority",
+              "passed": true
+            },
+            {
+              "test": "organizational_scale",
+              "passed": true
+            }
+          ],
+          "answerability": 1.0,
+          "answers_question": true
+        }
+      ],
       "evidence_updates": [
         {
           "type": "evidence_update",
-          "effect": "reduced uncertainty",
-          "basis": [
-            "authority/organizational context gained from settlement-level evidence",
-            "supporting-document context found"
-          ]
+          "effect": "reduced_uncertainty",
+          "resolved_unknowns": [
+            "authority role and organizational level require contextual confirmation",
+            "explicit support relationship is not established by indicators alone"
+          ],
+          "basis": "retrieved evidence passed the question-specific answerability test"
         }
       ],
       "unknown_after": [],
@@ -3430,6 +3817,7 @@
           ]
         }
       ],
+      "evidence_validity": [],
       "evidence_updates": [],
       "unknown_after": [],
       "hypotheses": [
@@ -3455,10 +3843,11 @@
   "summary": {
     "cases": 30,
     "with_unknowns_before": 24,
-    "with_unknowns_after": 7,
+    "with_unknowns_after": 13,
     "cases_with_evidence": 30,
-    "cases_with_updates": 24,
-    "unknown_cases_reduced": 17,
+    "cases_with_updates": 17,
+    "unknown_cases_reduced": 11,
+    "questions_fully_answered": 17,
     "average_rounds": 2
   },
   "safety": {

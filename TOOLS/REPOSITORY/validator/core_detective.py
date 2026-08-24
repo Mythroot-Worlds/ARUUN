@@ -49,14 +49,13 @@ def passages(path,root,dimension):
 def extract_entities(text):
  vals=[]
  for m in re.finditer(r'\b(?:the\s+)?([A-Z][A-Za-z0-9_-]{2,}(?:\s+[A-Z][A-Za-z0-9_-]{2,}){0,4})\b',text):
-  v=m.group(1).strip(' .,;:()[]');
+  v=m.group(1).strip(' .,;:()[]')
   if v.upper() not in {'THE','THIS','THAT','WHICH','DOCUMENT','SOURCE','CURRENT','FORMER'} and v not in vals: vals.append(v)
  return vals[:12]
 
 def claim_from(path,text,dimension,question_entities=()):
  u=text.upper();patterns={'authority':r'(?:(?:AUTHORITY|LEADER|LEADERSHIP|GOVERNANCE|COUNCIL|HEAD).{0,140}(?:VILLAGE|SETTLEMENT|REGION|REGIONAL|CONTINENT|CONTINENTAL)|(?:VILLAGE|SETTLEMENT|REGION|REGIONAL|CONTINENT|CONTINENTAL).{0,140}(?:AUTHORITY|LEADER|LEADERSHIP|GOVERNANCE|COUNCIL|HEAD))','support':r'(?:SUPPORT|INFORMS|REFERENCES|DERIVED FROM|BASED ON|BUILDS ON).{0,160}(?:DOCUMENT|GUIDE|FRAMEWORK|CHECKLIST|CANON|SOURCE)','temporal':r'(?:REVISED|SUPERSEDES|REPLACED|PREVIOUS|FORMER|EARLIER|CURRENT|OLDER|REVISION).{0,160}(?:VERSION|DOCUMENT|CANON|SOURCE|TEXT)?','general':r'(?!)'}
- direct=bool(re.search(patterns[dimension],u,re.S));contextual=bool(any(w in u for w in FOCUS.get(dimension,[])));entities=extract_entities(text)
- grounded=direct and len(entities)>=1
+ direct=bool(re.search(patterns[dimension],u,re.S));contextual=bool(any(w in u for w in FOCUS.get(dimension,[])));entities=extract_entities(text);grounded=direct and len(entities)>=1
  if grounded:quality='DIRECT';score=1.0;reason='question_specific_relation_with_grounded_entity'
  elif contextual:quality='CONTEXTUAL';score=.5;reason='dimension_signal_without_grounded_relation'
  else:quality='KEYWORD_ONLY';score=.1;reason='weak_signal'
@@ -74,10 +73,12 @@ def collect_claims(paths,root,dimension):
  return claims
 
 def validity(question,dimension,claims):
- relevant=[c for c in claims if c['dimension']==dimension];direct=[c for c in relevant if c['claim_type']=='DIRECT'];context=[c for c in relevant if c['claim_type']=='CONTEXTUAL'];sources={c['source'] for c in context}
- answered=bool(direct) or len(sources)>=2
- quality=1.0 if direct else (.75 if len(sources)>=2 else (.5 if context else 0.0))
- return {'question':question,'dimension':dimension,'answerability':quality,'answers_question':answered,'direct_claims':len(direct),'contextual_claims':len(context),'independent_context_sources':len(sources),'evidence_quality':relevant,'grounded_direct_claims':sum(1 for c in direct if c['grounded'])}
+ relevant=[c for c in claims if c['dimension']==dimension];direct=[c for c in relevant if c['claim_type']=='DIRECT'];grounded=[c for c in direct if c['grounded']];context=[c for c in relevant if c['claim_type']=='CONTEXTUAL'];sources={c['source'] for c in context}
+ # Relevance/context is evidence, not an answer. A question can only close when
+ # a grounded, question-specific claim is present. Otherwise it remains partial.
+ answered=bool(grounded)
+ quality=1.0 if grounded else (.5 if context else 0.0)
+ return {'question':question,'dimension':dimension,'answerability':quality,'answers_question':answered,'direct_claims':len(direct),'grounded_direct_claims':len(grounded),'contextual_claims':len(context),'independent_context_sources':len(sources),'evidence_quality':relevant}
 
 def missing_targets(remaining,root,a,b,used,pool):
  targets=[];reasons=[];used=set(used)|{a,b}
@@ -94,22 +95,11 @@ def missing_targets(remaining,root,a,b,used,pool):
 def principle_checks(factor_map):
  dimensions=factor_map['dimensions'];checks={}
  for label,gates in RELATIONSHIP_GATES.items():
-  same_subject=bool(dimensions['subject']['shared'])
-  scope_difference=bool(dimensions['scope']['different'] or dimensions['scope']['shared'])
-  functional_continuity=bool(dimensions['function']['shared'])
-  checks[label]={
-   'gate_factors':list(gates),
-   'same_subject_signal':same_subject,
-   'scope_signal':scope_difference,
-   'functional_continuity_signal':functional_continuity,
-   'status':'candidate_only',
-   'reason':'Mythroot principles require the deciding factors to explain the relationship; lexical overlap alone cannot promote a gate.'
-  }
+  checks[label]={'gate_factors':list(gates),'same_subject_signal':bool(dimensions['subject']['shared']),'scope_signal':bool(dimensions['scope']['different'] or dimensions['scope']['shared']),'functional_continuity_signal':bool(dimensions['function']['shared']),'status':'candidate_only','reason':'Mythroot principles require deciding factors to explain the relationship; lexical overlap alone cannot promote a gate.'}
  return checks
 
 def investigate(r,root,pool=DEFAULT_POOL_SIZE):
- a,b=r.get('left',''),r.get('right','');ta,tb=terms(read(a,root)),terms(read(b,root));factor_map=factor_snapshot(read(a,root),read(b,root));profile=profile_snapshot()
- unknown=[];known=[]
+ a,b=r.get('left',''),r.get('right','');ta,tb=terms(read(a,root)),terms(read(b,root));factor_map=factor_snapshot(read(a,root),read(b,root));profile=profile_snapshot();unknown=[];known=[]
  for d in FOCUS:
   common=set(ta[d])&set(tb[d]);diff=set(ta[d])^set(tb[d])
   if common:known.append(f'{d}: shared {", ".join(sorted(common))}')
@@ -131,9 +121,9 @@ def investigate(r,root,pool=DEFAULT_POOL_SIZE):
   resolved2=[u for u,v in zip(remaining,vals) if v['answers_question']];resolved+=resolved2;remaining=[u for u in remaining if u not in resolved2]
   rounds.append({'round':2,'trigger':'round 1 was insufficient','trigger_evidence':why,'evidence_targets':second,'questions':q2,'claim_count':len(all_claims),'evidence_validity':vals,'unanswered_after_round':remaining,'next_round_justified':False})
  direct=sum(c['claim_type']=='DIRECT' for c in all_claims);grounded=sum(c['grounded'] for c in all_claims);context=sum(c['claim_type']=='CONTEXTUAL' for c in all_claims);unique=len({(c['source'],c['passage'],c['dimension']) for c in all_claims})
- return {'relationship_id':r.get('relationship_id'),'documents':{'a':a,'b':b},'domain_profile':profile['name'],'domain_profile_version':profile['version'],'mythroot_principles':profile['principles'],'deciding_factors':factor_map['dimensions'],'principle_checks':principle_checks(factor_map),'known':known,'unknown_before':sorted(set(unknown)),'questions':questions,'investigation_rounds':len(rounds),'investigation_rounds_detail':rounds,'evidence_pool_size':pool,'evidence_targets':targets,'evidence_claims':all_claims,'evidence_updates':[{'type':'evidence_update','effect':'reduced_uncertainty','resolved_unknowns':sorted(set(resolved)),'basis':'claim-level evidence met grounded question validity rule'}] if resolved else [],'unknown_after':sorted(set(remaining)),'second_pass':{'attempted':len(rounds)>1,'causally_justified':len(rounds)>1,'missing_evidence':rounds[1].get('trigger_evidence',[]) if len(rounds)>1 else [],'targets':rounds[1]['evidence_targets'] if len(rounds)>1 else [],'new_targets_distinct_from_round_one':bool(len(rounds)>1 and set(rounds[1]['evidence_targets'])-set(targets))},'evidence_quality_summary':{'direct_claims':direct,'grounded_direct_claims':grounded,'contextual_claims':context,'keyword_only_claims':sum(c['claim_type']=='KEYWORD_ONLY' for c in all_claims),'unique_claims':unique},'stop_reason':'bounded investigation completed; Mythroot deciding factors recorded; human review remains authoritative','safety':{'self_training':False,'automatic_rule_promotion':False,'automatic_canon_change':False}}
+ return {'relationship_id':r.get('relationship_id'),'documents':{'a':a,'b':b},'domain_profile':profile['name'],'domain_profile_version':profile['version'],'mythroot_principles':profile['principles'],'deciding_factors':factor_map['dimensions'],'principle_checks':principle_checks(factor_map),'known':known,'unknown_before':sorted(set(unknown)),'questions':questions,'investigation_rounds':len(rounds),'investigation_rounds_detail':rounds,'evidence_pool_size':pool,'evidence_targets':targets,'evidence_claims':all_claims,'evidence_updates':[{'type':'evidence_update','effect':'reduced_uncertainty','resolved_unknowns':sorted(set(resolved)),'basis':'grounded question-specific evidence'}] if resolved else [],'unknown_after':sorted(set(remaining)),'second_pass':{'attempted':len(rounds)>1,'causally_justified':len(rounds)>1,'missing_evidence':rounds[1].get('trigger_evidence',[]) if len(rounds)>1 else [],'targets':rounds[1]['evidence_targets'] if len(rounds)>1 else [],'new_targets_distinct_from_round_one':bool(len(rounds)>1 and set(rounds[1]['evidence_targets'])-set(targets))},'evidence_quality_summary':{'direct_claims':direct,'grounded_direct_claims':grounded,'contextual_claims':context,'keyword_only_claims':sum(c['claim_type']=='KEYWORD_ONLY' for c in all_claims),'unique_claims':unique},'stop_reason':'bounded investigation completed; unresolved questions remain explicit; human review remains authoritative','safety':{'self_training':False,'automatic_rule_promotion':False,'automatic_canon_change':False}}
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');ap.add_argument('--pool-size',type=int,default=DEFAULT_POOL_SIZE);x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out;pool=max(1,min(x.pool_size,MAX_POOL_SIZE));blind=load(out/'CORE_BLIND_TEST.json',{'predictions':[]});cases=[investigate(r,root,pool) for r in blind.get('predictions',[])];before=sum(bool(c['unknown_before']) for c in cases);after=sum(bool(c['unknown_after']) for c in cases);updates=sum(bool(c['evidence_updates']) for c in cases);answered=sum(sum(1 for v in rnd['evidence_validity'] if v['answers_question']) for c in cases for rnd in c['investigation_rounds_detail']);direct=sum(c['evidence_quality_summary']['direct_claims'] for c in cases);grounded=sum(c['evidence_quality_summary']['grounded_direct_claims'] for c in cases);context=sum(c['evidence_quality_summary']['contextual_claims'] for c in cases);unique=sum(c['evidence_quality_summary']['unique_claims'] for c in cases);second=sum(c['second_pass']['attempted'] for c in cases);causal=sum(c['second_pass']['causally_justified'] for c in cases);distinct=sum(c['second_pass']['new_targets_distinct_from_round_one'] for c in cases);report={'engine':'CORE A.C.E. Detective','schema_version':'2.2','mode':'READ_ONLY','domain_profile':'Mythroot Worldbuilding','purpose':'bounded investigation using Mythroot deciding factors, configurable evidence neighborhoods, grounded claim candidates, question coverage, and auditable second-pass targeting','cases':cases,'summary':{'cases':len(cases),'evidence_pool_size':pool,'with_unknowns_before':before,'with_unknowns_after':after,'unknown_cases_reduced':before-after,'cases_with_evidence_updates':updates,'questions_answered':answered,'direct_claims':direct,'grounded_direct_claims':grounded,'contextual_claims':context,'unique_claims':unique,'cases_requiring_second_pass':second,'causally_justified_second_passes':causal,'distinct_second_pass_targets':distinct,'factor_dimensions':15,'average_rounds':round(sum(c['investigation_rounds'] for c in cases)/len(cases),2) if cases else 0},'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
+ ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');ap.add_argument('--pool-size',type=int,default=DEFAULT_POOL_SIZE);x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out;pool=max(1,min(x.pool_size,MAX_POOL_SIZE));blind=load(out/'CORE_BLIND_TEST.json',{'predictions':[]});cases=[investigate(r,root,pool) for r in blind.get('predictions',[])];before=sum(bool(c['unknown_before']) for c in cases);after=sum(bool(c['unknown_after']) for c in cases);updates=sum(bool(c['evidence_updates']) for c in cases);answered=sum(sum(1 for v in rnd['evidence_validity'] if v['answers_question']) for c in cases for rnd in c['investigation_rounds_detail']);direct=sum(c['evidence_quality_summary']['direct_claims'] for c in cases);grounded=sum(c['evidence_quality_summary']['grounded_direct_claims'] for c in cases);context=sum(c['evidence_quality_summary']['contextual_claims'] for c in cases);unique=sum(c['evidence_quality_summary']['unique_claims'] for c in cases);second=sum(c['second_pass']['attempted'] for c in cases);causal=sum(c['second_pass']['causally_justified'] for c in cases);distinct=sum(c['second_pass']['new_targets_distinct_from_round_one'] for c in cases);report={'engine':'CORE A.C.E. Detective','schema_version':'2.3','mode':'READ_ONLY','domain_profile':'Mythroot Worldbuilding','purpose':'bounded investigation using Mythroot deciding factors, configurable evidence neighborhoods, grounded claim candidates, question coverage, and auditable second-pass targeting','cases':cases,'summary':{'cases':len(cases),'evidence_pool_size':pool,'with_unknowns_before':before,'with_unknowns_after':after,'unknown_cases_reduced':before-after,'cases_with_evidence_updates':updates,'questions_answered':answered,'direct_claims':direct,'grounded_direct_claims':grounded,'contextual_claims':context,'unique_claims':unique,'cases_requiring_second_pass':second,'causally_justified_second_passes':causal,'distinct_second_pass_targets':distinct,'factor_dimensions':15,'average_rounds':round(sum(c['investigation_rounds'] for c in cases)/len(cases),2) if cases else 0},'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
  out.mkdir(parents=True,exist_ok=True);(out/'CORE_DETECTIVE_REPORT.json').write_text(json.dumps(report,indent=2),encoding='utf-8');(out/'CORE_DETECTIVE_REPORT.md').write_text('# CORE A.C.E. Detective Report\n\nMythroot deciding-factor-aware, grounded evidence investigation.\n\n'+json.dumps(report['summary'],indent=2),encoding='utf-8');print(json.dumps(report['summary'],indent=2))
 if __name__=='__main__':main()

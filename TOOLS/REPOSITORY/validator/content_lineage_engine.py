@@ -42,8 +42,6 @@ def subject_key(path,t):
  for key,(base,terms) in ALIASES.items():
   if base in n: return key,"DIRECT_NAME"
   if all(x in n for x in terms): return key,"DIRECT_TERMS"
- # Content-only inference is deliberately conservative: require both terms
- # and a world-content path; references/system docs are excluded upstream.
  low=t.lower()
  for key,(_,terms) in ALIASES.items():
   if sum(low.count(x) for x in terms)>=10: return key,"CONTENT_STRONG"
@@ -54,8 +52,7 @@ def main():
  for p in base.rglob("*.md"):
   rel=p.relative_to(root).as_posix()
   if any(x in SKIP for x in p.parts) or rel.startswith(ARCHIVE) or rel.startswith(REPORTS) or likely_system_or_reference(rel): continue
-  t=p.read_text(encoding="utf-8",errors="replace"); key,reason=subject_key(p,t)
-  docs.append((rel,t,key,reason))
+  t=p.read_text(encoding="utf-8",errors="replace"); key,reason=subject_key(p,t); docs.append((rel,t,key,reason))
  groups={}
  for rel,t,key,reason in docs:
   if key and (reason.startswith("DIRECT") or likely_regional_source(rel,key)): groups.setdefault(key,[]).append((rel,t,reason))
@@ -70,12 +67,12 @@ def main():
     comparisons.append({"a":ra,"b":rb,"sections_only_in_a":sorted(set(sa)-set(sb)),"sections_only_in_b":sorted(set(sb)-set(sa)),"changed_sections":[h for h in common if similarity(sa[h],sb[h])<0.82],"overall_similarity":round(similarity(ta,tb),3)})
   clusters.append({"subject":key,"documents":entries,"comparisons":comparisons,"review_status":"UNRESOLVED"})
  out=root/a.out;out.mkdir(parents=True,exist_ok=True); data={"mode":"READ_ONLY","scope":a.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT","clusters":len(clusters),"clusters_detail":clusters}
- (out+Path("/CONTENT_LINEAGE_REPORT.json")).write_text(json.dumps(data,indent=2),encoding="utf-8")
- lines=["# ARUUN Content Lineage & Consolidation Audit","","**Mode:** READ-ONLY",f"**Scope:** `{a.scope or 'ALL_ACTIVE_NON_GENERATED_CONTENT'}`",f"**Lineage clusters:** {len(clusters)}","","Lineage requires a plausible shared subject. Mere mention/reference does not create lineage. System/reference documents are excluded.","","## Review Protocol","","Human decisions only: `KEEP`, `MERGE`, `MOVE`, `LINK`, `ARCHIVE`, `UNRESOLVED`.",""]
+ (out / "CONTENT_LINEAGE_REPORT.json").write_text(json.dumps(data,indent=2),encoding="utf-8")
+ lines=["# ARUUN Content Lineage & Consolidation Audit","","**Mode:** READ-ONLY",f"**Scope:** `{a.scope or 'ALL_ACTIVE_NON_GENERATED_CONTENT'}`",f"**Lineage clusters:** {len(clusters)}","","Lineage requires a plausible shared subject. Mere mention/reference does not create lineage. System/reference documents are excluded.","","## Review Protocol","","Human decisions only: `KEEP`, `MERGE`, `MOVE`, `LINK`, `ARCHIVE`, `UNRESOLVED`",""]
  for c in clusters:
   lines += [f"## {c['subject']}","","### Sources"]+[f"- `{x['path']}` — match basis: `{x['match_basis']}` ({x['word_count']} indexed words; sections: {', '.join(x['sections']) or 'none'})" for x in c['documents']]
   for cmp in c['comparisons']: lines += ["",f"### Compare: `{cmp['a']}` ↔ `{cmp['b']}`",f"- Similarity: **{cmp['overall_similarity']}**",f"- Only in first: {', '.join(cmp['sections_only_in_a']) or 'none'}",f"- Only in second: {', '.join(cmp['sections_only_in_b']) or 'none'}",f"- Potentially changed sections: {', '.join(cmp['changed_sections']) or 'none'}"]
   lines += ["","**Human decision:** `UNRESOLVED`",""]
- (out+Path("/CONTENT_LINEAGE_REPORT.md")).write_text("\n".join(lines),encoding="utf-8")
+ (out / "CONTENT_LINEAGE_REPORT.md").write_text("\n".join(lines),encoding="utf-8")
  print(f"Identified {len(clusters)} subject lineage clusters.")
 if __name__=="__main__": main()

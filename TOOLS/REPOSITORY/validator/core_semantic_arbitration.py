@@ -12,7 +12,7 @@ by validators, CI, and human-review tooling without changing canon.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Iterable, Mapping, Optional
+from typing import Mapping, Optional
 
 FINAL_RELATIONSHIPS = frozenset({
     "DUPLICATE", "SUPPORTING", "HISTORICAL", "CONFLICT", "MISPLACED",
@@ -21,7 +21,7 @@ FINAL_RELATIONSHIPS = frozenset({
 LEGACY_RELATIONSHIPS = frozenset({"VARIANT"})
 ROLES = frozenset({
     "AUTHORITATIVE", "REFERENCE", "SUPPORTING", "HISTORICAL", "WORKING",
-    "TOOL", "ARCHIVE", "UNKNOWN",
+    "TOOL", "ARCHIVE",
 })
 
 @dataclass(frozen=True)

@@ -48,7 +48,7 @@ def score_region(body,region):
 def expected_region(path,t):
  u=path.upper()
  for r in REGIONS:
-  if f"/{r}/" in "/"+u+"/" or u.endswith(f"/{r}.MD") or u.endswith(f"/{r}.MD".replace("/","")):
+  if f"/{r}/" in "/"+u+"/" or u.endswith(f"/{r}.MD"):
    return r
  fm=front(t)
  for r in REGIONS:
@@ -59,11 +59,6 @@ def subject_from_name(path):
  s=path.stem.lower().replace("-","_")
  if s.endswith("_comparative"):s=s[:-12]
  return SUBJECT_RULES.get(s,(None,None))[0]
-
-def home_for(subject,region,domain):
- if region and subject:return f"03_PEOPLES/CULTURES/HEARTH/{region}/{SUBJECT_RULES.get(subject.split('.')[-2]+'_'+subject.split('.')[-1],('',subject.upper().replace('.','_')+'.md'))[1]}"
- if subject:return f"03_PEOPLES/.../{subject.replace('.','/')}.md"
- return None
 
 def main():
  ap=argparse.ArgumentParser();ap.add_argument("--root",default=".");ap.add_argument("--out",default="TOOLS/REPOSITORY/REPORTS");ap.add_argument("--scope");a=ap.parse_args();root=Path(a.root).resolve();base=root/a.scope if a.scope else root
@@ -77,39 +72,35 @@ def main():
  findings=[]
  for rel,t,fm in docs:
   upper=rel.upper(); low=t.lower(); region=expected_region(rel,t)
-  # Tool-like content living outside explicit tool/reference/archive layers.
   tool_hits=[h for h in TOOL_HINTS if h in low]
-  is_tool_path=upper.startswith("02_ECOLOGY/") and any(x in upper for x in ("MATRIX","CREATION_PACKAGE","NECESSITY","PREDICTIVE")) or upper.startswith("TOOLS/")
+  is_tool_path=(upper.startswith("02_ECOLOGY/") and any(x in upper for x in ("MATRIX","CREATION_PACKAGE","NECESSITY","PREDICTIVE"))) or upper.startswith("TOOLS/")
   if len(tool_hits)>=2 and not is_tool_path and not upper.startswith("00_MASTER/"):
    findings.append({"type":"TOOL_CANDIDATE","path":rel,"confidence":"medium","signals":tool_hits[:8],"recommendation":"Review whether this material belongs in a tool/reference layer rather than ordinary lore."})
-  # Regional content outside its regional directory.
   region_scores={r:score_region(t,r) for r in REGIONS}; ranked=sorted(region_scores.items(),key=lambda x:x[1],reverse=True)
   if ranked and ranked[0][1]>=8 and ranked[0][1]>=ranked[1][1]*1.5 and "/HEARTH/" in upper and "/"+ranked[0][0]+"/" not in "/"+upper+"/":
    r,sc=ranked[0]
    if not upper.startswith("03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/"):
     findings.append({"type":"REGIONAL_PLACEMENT_CANDIDATE","path":rel,"confidence":"medium","candidate_region":r,"score":sc,"other_region_score":ranked[1][1],"recommendation":f"Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/{r}/."})
-  # Known subject aliases in non-canonical names/locations.
-  subj=subject_from_name(p)
+  subj=subject_from_name(Path(rel))
   if subj and "/COMPARATIVE/" not in upper:
    if region and "/"+region+"/" not in "/"+upper+"/":
     findings.append({"type":"SUBJECT_PLACEMENT_CANDIDATE","path":rel,"subject":subj,"confidence":"high","recommendation":"Review regional placement against the one-region/one-authoritative-subject architecture."})
-   if p.stem.lower() in {"family_birth_childhood","family_partnership","governance_and_authority"} and region is None:
+   if Path(rel).stem.lower() in {"family_birth_childhood","family_partnership","governance_and_authority"} and region is None:
     findings.append({"type":"LEGACY_FLAT_REGIONAL_FILE","path":rel,"subject":subj,"confidence":"high","recommendation":"Likely legacy flat file; compare against regional source files before migration."})
-  # Explicit metadata/path mismatch, independent of content.
   meta_region=(fm.get("people") or fm.get("region") or "").upper()
   if meta_region in REGIONS and "/"+meta_region+"/" not in "/"+upper+"/":
    findings.append({"type":"METADATA_PATH_MISMATCH","path":rel,"declared_region":meta_region,"confidence":"high","recommendation":"Review metadata or move candidate; do not auto-correct."})
- # duplicate subject names across active docs
  byname={}
  for rel,t,fm in docs:
-  key=pure=Path(rel).stem.lower().replace("_comparative","")
+  key=Path(rel).stem.lower().replace("_comparative","")
   if key in SUBJECT_RULES:byname.setdefault(key,[]).append(rel)
  for key,paths in byname.items():
   if len(paths)>1:findings.append({"type":"SUBJECT_LINEAGE_CLUSTER","subject":key,"paths":paths,"confidence":"high","recommendation":"Review these files as one subject lineage; decide authoritative source, supporting copy, or archive."})
  out=root/a.out;out.mkdir(parents=True,exist_ok=True)
  data={"mode":"READ_ONLY","scope":a.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT","documents":len(docs),"findings":len(findings),"findings_detail":findings}
  (out/"CONTENT_PLACEMENT_REPORT.json").write_text(json.dumps(data,indent=2),encoding="utf-8")
- lines=["# ARUUN Content Placement Audit","","**Mode:** READ-ONLY","f"**Scope:** `{a.scope or 'ALL_ACTIVE_NON_GENERATED_CONTENT'}`" if False else f"**Scope:** `{a.scope or 'ALL_ACTIVE_NON_GENERATED_CONTENT'}`","",f"Documents analyzed: {len(docs)}",f"Placement candidates: {len(findings)}","","## Review Candidates"]
+ scope=a.scope or "ALL_ACTIVE_NON_GENERATED_CONTENT"
+ lines=["# ARUUN Content Placement Audit","","**Mode:** READ-ONLY",f"**Scope:** `{scope}`","",f"Documents analyzed: {len(docs)}",f"Placement candidates: {len(findings)}","","## Review Candidates"]
  for i,f in enumerate(findings,1):
   lines += [f"### {i}. {f['type']}",f"- **Path:** `{f.get('path','—')}`",f"- **Confidence:** {f.get('confidence','—')}",f"- **Recommendation:** {f.get('recommendation','—')}"]
   if 'candidate_region' in f:lines.append(f"- **Candidate region:** {f['candidate_region']}")

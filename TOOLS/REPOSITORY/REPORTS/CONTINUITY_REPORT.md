@@ -6,7 +6,7 @@
 **Administrative/master documents excluded from canon findings:** yes
 **Test fixtures included:** no
 
-Documents analyzed: 66
+Documents analyzed: 69
 Continuity findings: 0
 
 No canon continuity findings were generated.

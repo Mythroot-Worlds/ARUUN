@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Document Triage",
-  "schema_version": "3.2",
+  "schema_version": "3.3",
   "mode": "READ_ONLY",
-  "purpose": "identify canonical knowns first, evaluate the document against those knowns, then classify the relationship",
+  "purpose": "establish document identity and canonical layer placement before classifying the relationship",
   "cases": [
     {
       "relationship_id": "REL-ead9ec80b42f820d",
@@ -12,7 +12,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -604,7 +640,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -934,7 +1006,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -1196,7 +1269,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -1788,7 +1897,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "subject": "partnership",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "subject": "governance_authority",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -2356,7 +2501,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -2686,7 +2867,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -2948,7 +3130,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -3278,7 +3496,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -3540,7 +3759,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -3870,7 +4125,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -4131,10 +4387,46 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "decision": "RELATED",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "subject": "partnership",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "subject": "cultural",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "SUPPORTING",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": true
+      },
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -4467,8 +4759,7 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        },
-        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
+        }
       },
       "canonical_context": {
         "a": {
@@ -4735,7 +5026,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -5293,7 +5620,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+          "subject": "demographic_mountain",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+          "subject": "specialist_lineages",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -5889,7 +6252,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -6481,7 +6880,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "subject": "partnership",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -7045,7 +7480,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -7375,7 +7846,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -7637,7 +8109,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "subject": "partnership",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -8201,7 +8709,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -8531,7 +9075,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -8793,7 +9338,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "subject": "partnership",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -9355,11 +9936,47 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "subject": "cultural",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "SUPPORTING",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "subject": "governance_authority",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": true
+      },
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -9691,8 +10308,7 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        },
-        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
+        }
       },
       "canonical_context": {
         "a": {
@@ -9944,7 +10560,7 @@
           "temporal_precedence_is_not_conflict": true
         }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -9959,6 +10575,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -10517,6 +11169,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -11075,6 +11763,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+          "subject": "specialist_houses",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+          "subject": "specialist_lineages",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -11730,7 +12454,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "SUPPORTING",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "SUPPORTING",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": true
+      },
       "layered_comparison": {
         "decision": "SUPPORTING",
         "layers": {
@@ -12061,7 +12821,7 @@
             "temporal_precedence_is_not_conflict": true
           }
         },
-        "canonical_decision_basis": "document is explicitly comparative and shares the canonical subject vocabulary"
+        "canonical_decision_basis": "document identity places one side in the supporting/reference layer"
       },
       "canonical_context": {
         "a": {
@@ -12323,7 +13083,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -12915,7 +13711,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -13508,6 +14340,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -14066,6 +14934,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -14623,7 +15527,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -14953,7 +15893,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -15216,6 +16157,42 @@
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
       "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "REVIEW",
         "layers": {
@@ -15771,11 +16748,47 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+          "subject": "cultural",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "SUPPORTING",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+          "subject": "",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": false,
+        "same_scope": true,
+        "regional_siblings": false,
+        "supporting_layer": true
+      },
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -16105,8 +17118,7 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        },
-        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
+        }
       },
       "canonical_context": {
         "a": {
@@ -16356,7 +17368,7 @@
           "temporal_precedence_is_not_conflict": true
         }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -16370,7 +17382,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": true,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -16700,7 +17748,8 @@
             "contrast_words_are_not_conflict": true,
             "temporal_precedence_is_not_conflict": true
           }
-        }
+        },
+        "canonical_decision_basis": "same canonical subject represented in distinct regional scopes"
       },
       "canonical_context": {
         "a": {
@@ -16962,7 +18011,43 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "canonical-grounded relationship resolved directly",
+      "reason": "identity/canonical-layer grounded relationship resolved directly",
+      "identity": {
+        "a": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "b": {
+          "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "subject": "birth_childhood",
+          "content_type": "CULTURE",
+          "scope": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "role": "AUTHORITATIVE",
+          "identity_basis": [
+            "path",
+            "filename"
+          ]
+        },
+        "same_subject": true,
+        "same_scope": false,
+        "regional_siblings": false,
+        "supporting_layer": false
+      },
       "layered_comparison": {
         "decision": "RELATED",
         "layers": {
@@ -18283,8 +19368,8 @@
   ],
   "summary": {
     "cases": 30,
-    "direct_triage": 24,
-    "deep_investigation": 6,
+    "direct_triage": 22,
+    "deep_investigation": 8,
     "canonical_grounded_cases": 30,
     "canonical_hint_counts": {
       "VARIANT": 0,
@@ -18296,10 +19381,14 @@
       "DUPLICATE": 0,
       "REVIEW": 18
     },
+    "identity_layer_counts": {
+      "supporting_layer": 4,
+      "regional_siblings": 8,
+      "same_subject_same_scope": 7
+    },
     "decisions": {
-      "RELATED": 20,
-      "CONFLICT": 3,
-      "REVIEW": 6,
+      "RELATED": 21,
+      "REVIEW": 8,
       "SUPPORTING": 1
     },
     "calibration_cases": 2,

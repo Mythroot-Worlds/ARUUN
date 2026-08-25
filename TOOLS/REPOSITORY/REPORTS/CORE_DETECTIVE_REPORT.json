@@ -1,6 +1,6 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "3.4",
+  "schema_version": "3.5",
   "mode": "READ_ONLY",
   "purpose": "simple document triage first; deep Batman/Robin investigation only for genuinely ambiguous cases",
   "cases": [
@@ -862,6 +862,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "cultural",
+            "right": "governance_authority"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1979,
+              "containment_left": 0.3406,
+              "containment_right": 0.3208,
+              "shared_terms": 188,
+              "left_terms": 552,
+              "right_terms": 586
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "SUPPORTING",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "cultural_audit_checklist"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "governance_and_authority"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -1576,176 +1657,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -8,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -8,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -14,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -15,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "canon_status=MIXED",
-              "development_state=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -1759,8 +1679,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -6932,6 +6858,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1933,
+              "containment_left": 0.3253,
+              "containment_right": 0.3225,
+              "shared_terms": 149,
+              "left_terms": 458,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -7585,180 +7592,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "importance=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -15,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "canon_status=MIXED",
-              "development_state=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -48,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -7770,8 +7612,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -12943,6 +12791,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1915,
+              "containment_left": 0.3899,
+              "containment_right": 0.2734,
+              "shared_terms": 108,
+              "left_terms": 277,
+              "right_terms": 395
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "wetlands"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -13564,184 +13493,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=DIFFERENT",
-              "coherence=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "importance=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -15,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "canon_status=MIXED",
-              "development_state=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -39,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=SAME",
-              "depth=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -45,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [
-              "scale=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "MISPLACED",
-          "SUPPORTING",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -13757,8 +13517,14 @@
           "story_relevance",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -18930,6 +18696,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "specialist_houses",
+            "right": "specialist_lineages"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": "MOUNTAINS",
+              "continent": null,
+              "regional_scope": true
+            },
+            "right": {
+              "region": "MOUNTAINS",
+              "continent": null,
+              "regional_scope": true
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1921,
+              "containment_left": 0.2431,
+              "containment_right": 0.4783,
+              "shared_terms": 44,
+              "left_terms": 181,
+              "right_terms": 92
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/mountains",
+              "specialist_houses_canon"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "specialist_lineages"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -19532,175 +19379,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -5,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED",
-              "depth=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -8,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -14,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [
-              "scope=SAME"
-            ],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -21,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -19722,8 +19409,14 @@
           "story_relevance",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -24907,6 +24600,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1923,
+              "containment_left": 0.2041,
+              "containment_right": 0.7692,
+              "shared_terms": 50,
+              "left_terms": 245,
+              "right_terms": 65
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "AUTHORITATIVE",
+            "right": "SUPPORTING"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/comparative",
+              "family_birth_childhood"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -30855,6 +30629,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1903,
+              "containment_left": 0.3468,
+              "containment_right": 0.2965,
+              "shared_terms": 137,
+              "left_terms": 395,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -31503,179 +31358,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "importance=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -21,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -39,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED",
-              "depth=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -48,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -31689,8 +31380,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -36920,6 +36617,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1864,
+              "containment_left": 0.2926,
+              "containment_right": 0.3392,
+              "shared_terms": 134,
+              "left_terms": 458,
+              "right_terms": 395
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -37557,183 +37335,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "dependency=SAME",
-              "importance=SAME"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -15,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "canon_status=MIXED",
-              "development_state=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -45,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [
-              "scale=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -37745,8 +37355,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -43041,6 +42657,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1749,
+              "containment_left": 0.3971,
+              "containment_right": 0.2381,
+              "shared_terms": 110,
+              "left_terms": 277,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "wetlands"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -43671,180 +43368,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "importance=SAME"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -15,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "canon_status=MIXED",
-              "development_state=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -42,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -48,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis",
-              "scope=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "SUPPORTING",
-          "MISPLACED",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -43860,8 +43392,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -48951,6 +48489,87 @@
       "triage_status": "ESCALATE",
       "triage_decision": "REVIEW",
       "triage_reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "cultural",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1841,
+              "containment_left": 0.2844,
+              "containment_right": 0.3428,
+              "shared_terms": 157,
+              "left_terms": 552,
+              "right_terms": 458
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "SUPPORTING",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "cultural_audit_checklist"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      },
       "domain_profile": "Mythroot Worldbuilding",
       "deciding_factors": {
         "subject": {
@@ -49646,176 +49265,15 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "MEDIUM",
-        "decision_basis": "Nearest viable hypotheses remain too close.",
+        "decision": "RELATED",
+        "confidence": "HIGH",
+        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT",
-              "scope=MIXED",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": [],
-            "discriminating_factors": [
-              "subject"
-            ]
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 6,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=MIXED",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "one artifact supplies context, evidence, reference, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=DIFFERENT"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "HISTORICAL",
-            "status": "DISQUALIFIED",
-            "score": -21,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": -27,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "scale=MIXED",
-              "depth=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed MIXED",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": -30,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed MIXED",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -33,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [],
-            "supporting_factors": [
-              "depth=SAME"
-            ],
-            "blocking_factors": [
-              "subject expected SAME, observed DIFFERENT",
-              "scope expected SAME, observed MIXED",
-              "subject=DIFFERENT blocks hypothesis"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "RELATED"
         ],
         "viable_relationships": [
-          "RELATED",
-          "MISPLACED",
-          "SUPPORTING",
-          "COINCIDENTAL"
+          "RELATED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -49827,8 +49285,14 @@
           "intentionality",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE"
+        ],
+        "decisive_layers": [
+          "category",
+          "subject"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -55081,11 +54545,11 @@
     "grounded_direct_claims": 279,
     "pair_resolving_claims": 279,
     "relationship_decisions": {
-      "RELATED": 21,
-      "REVIEW": 9
+      "RELATED": 29,
+      "REVIEW": 1
     },
-    "cases_with_non_review_decision": 21,
-    "cases_escalated_to_review": 9
+    "cases_with_non_review_decision": 29,
+    "cases_escalated_to_review": 1
   },
   "safety": {
     "human_validation_required": true,

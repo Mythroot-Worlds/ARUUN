@@ -12,9 +12,9 @@
   "grounded_direct_claims": 279,
   "pair_resolving_claims": 279,
   "relationship_decisions": {
-    "RELATED": 21,
-    "REVIEW": 9
+    "RELATED": 29,
+    "REVIEW": 1
   },
-  "cases_with_non_review_decision": 21,
-  "cases_escalated_to_review": 9
+  "cases_with_non_review_decision": 29,
+  "cases_escalated_to_review": 1
 }

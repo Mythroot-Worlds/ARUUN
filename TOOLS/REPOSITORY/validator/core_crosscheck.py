@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Cross-check Batman's repository investigation with Robin's independent semantic signals."""
+"""CORE A.C.E. Cross-Check: compare factor coverage, not mismatched roles."""
 from __future__ import annotations
 import argparse,json
 from pathlib import Path
@@ -10,19 +10,19 @@ def load(p,d):
  except:return d
 
 def cross_case(bat,rob):
- b={v['dimension']:v for v in bat.get('investigation_rounds_detail',[{}])[0].get('evidence_validity',[])}
- r=rob.get('robin_results',{});dims=sorted(set(b)|set(r)|set(QUESTIONS));rows=[]
- for d in dims:
-  bv=b.get(d,{});rv=r.get(d,{})
-  ba=bool(bv.get('answers_question'));rs=bool(rv.get('supports_semantic_relation'))
-  if ba and rs:state='AGREE'
-  elif ba and not rs:state='BATMAN_ONLY'
-  elif not ba and rs:state='ROBIN_ONLY'
-  elif d in b or d in r:state='NEITHER'
-  else:state='NO_SIGNAL'
-  rows.append({'dimension':d,'question':QUESTIONS.get(d),'batman_answered':ba,'robin_semantic_support':rs,'state':state,'batman_answerability':bv.get('answerability',0),'robin_confidence':rv.get('confidence','none'),'ambiguity_signals':rv.get('ambiguity_signals',0)})
- agree=sum(x['state']=='AGREE' for x in rows);conflicts=sum(x['state'] in {'BATMAN_ONLY','ROBIN_ONLY'} for x in rows);return {'relationship_id':bat.get('relationship_id'),'documents':bat.get('documents',{}),'dimensions':rows,'agreement_count':agree,'disagreement_count':conflicts,'status':'AGREE' if agree and conflicts==0 else ('CONFLICT' if conflicts else 'INCONCLUSIVE')}
+ b={v['dimension']:v for v in bat.get('investigation_rounds_detail',[{}])[0].get('evidence_validity',[])};r=rob.get('robin_results',{});rows=[]
+ for d in QUESTIONS:
+  bv=b.get(d,{});rv=r.get(d,{});ba=bool(bv.get('answers_question'));rs=rv.get('evidence_state','NO_SIGNAL') in {'SUPPORTED','SIGNAL_ONLY'};contradiction=bool(rv.get('contradiction_signal'))
+  if contradiction:state='CONTRADICTED'
+  elif ba and rs:state='CORROBORATED'
+  elif ba:state='BATMAN_UNCORROBORATED'
+  elif rs:state='ROBIN_SUPPORT_ONLY'
+  else:state='UNRESOLVED'
+  rows.append({'dimension':d,'question':QUESTIONS[d],'batman_answered':ba,'robin_factor_state':rv.get('evidence_state','NO_SIGNAL'),'robin_factor_support':rs,'state':state,'batman_answerability':bv.get('answerability',0),'robin_confidence':rv.get('confidence','none'),'ambiguity_signals':rv.get('ambiguity_signals',0),'contradiction_signal':contradiction})
+ corroborated=sum(x['state']=='CORROBORATED' for x in rows);contradicted=sum(x['state']=='CONTRADICTED' for x in rows);unresolved=sum(x['state']=='UNRESOLVED' for x in rows)
+ status='CONTRADICTION' if contradicted else ('CORROBORATED' if corroborated and unresolved==0 else ('MIXED_COVERAGE' if corroborated else 'EVIDENCE_GAP'))
+ return {'relationship_id':bat.get('relationship_id'),'documents':bat.get('documents',{}),'dimensions':rows,'corroborated_count':corroborated,'contradiction_count':contradicted,'unresolved_count':unresolved,'status':status,'role_note':'Batman solves the relationship; Robin investigates factors. Absence of Robin support is not a conflict.'}
 
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out;bd=load(out/'CORE_DETECTIVE_REPORT.json',{'cases':[]});rd=load(out/'CORE_ROBIN_REPORT.json',{'cases':[]});rmap={c.get('relationship_id'):c for c in rd.get('cases',[])};cases=[cross_case(c,rmap.get(c.get('relationship_id'),{})) for c in bd.get('cases',[])];summary={'cases':len(cases),'agree':sum(c['status']=='AGREE' for c in cases),'conflict':sum(c['status']=='CONFLICT' for c in cases),'inconclusive':sum(c['status']=='INCONCLUSIVE' for c in cases),'batman_only_dimensions':sum(x['state']=='BATMAN_ONLY' for c in cases for x in c['dimensions']),'robin_only_dimensions':sum(x['state']=='ROBIN_ONLY' for c in cases for x in c['dimensions']),'factor_dimensions_available':len(QUESTIONS)};payload={'engine':'CORE A.C.E. Cross-Check','schema_version':'1.1','mode':'READ_ONLY','purpose':'cross-reference independent Detective and semantic-analysis perspectives across the complete deciding-factor question bank','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}};(out/'CORE_CROSSCHECK_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_CROSSCHECK_REPORT.md').write_text('# CORE Batman / Robin Cross-Check\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
+ ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();out=Path(x.root).resolve()/x.out;bd=load(out/'CORE_DETECTIVE_REPORT.json',{'cases':[]});rd=load(out/'CORE_ROBIN_REPORT.json',{'cases':[]});rmap={c.get('relationship_id'):c for c in rd.get('cases',[])};cases=[cross_case(c,rmap.get(c.get('relationship_id'),{})) for c in bd.get('cases',[])];summary={'cases':len(cases),'corroborated':sum(c['status']=='CORROBORATED' for c in cases),'mixed_coverage':sum(c['status']=='MIXED_COVERAGE' for c in cases),'evidence_gap':sum(c['status']=='EVIDENCE_GAP' for c in cases),'contradiction':sum(c['status']=='CONTRADICTION' for c in cases),'corroborated_dimensions':sum(c['corroborated_count'] for c in cases),'contradiction_dimensions':sum(c['contradiction_count'] for c in cases),'unresolved_dimensions':sum(c['unresolved_count'] for c in cases),'factor_dimensions_available':len(QUESTIONS)};payload={'engine':'CORE A.C.E. Cross-Check','schema_version':'2.0','mode':'READ_ONLY','purpose':'cross-reference Batman case decisions against Robin factor coverage without treating role differences as conflicts','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}};(out/'CORE_CROSSCHECK_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_CROSSCHECK_REPORT.md').write_text('# CORE Batman / Robin Cross-Check\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

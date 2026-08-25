@@ -1776,6 +1776,22 @@
 - **Related:** —
 - **Status:** open
 
+## META-0225 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0226 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
 ## DEMO-001 — WARNING
 - **Category:** semantic_conflict
 - **Path:** `00_MASTER/WORLD_BIBLE.md`

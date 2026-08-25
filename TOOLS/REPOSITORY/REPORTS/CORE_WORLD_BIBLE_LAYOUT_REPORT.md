@@ -1,8 +1,8 @@
 # CORE World Bible Layout Report
 
-Documents: 106
+Documents: 107
 Proper location: 59
-Unmapped: 47
+Unmapped: 48
 Low schema signal: 20
 
 ## Flags
@@ -74,3 +74,4 @@ Low schema signal: 20
 - **TOOLS/REPOSITORY/RECONCILIATION/REVIEW_PROTOCOL.md** — UNMAPPED_LOCATION
 - **TOOLS/REPOSITORY/RECONCILIATION/REVIEW_QUEUE.md** — UNMAPPED_LOCATION
 - **TOOLS/REPOSITORY/RECONCILIATION/VERSION_OVERLAY_SPEC.md** — UNMAPPED_LOCATION
+- **TOOLS/REPOSITORY/validator/core_variant_calibration.md** — UNMAPPED_LOCATION

@@ -4137,18 +4137,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "COAST",
-            "DESERT",
-            "PLAINS",
-            "RIVER",
-            "VILLAGE",
-            "WETLANDS"
-          ],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -4157,55 +4148,40 @@
           "description": "the level at which the subject operates",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "BIRTH",
-            "CHILDHOOD",
-            "LINEAGE"
-          ],
-          "different_signals": [
-            "FAMILY",
-            "REFERENCE",
-            "SPECIALIST",
-            "SUPPORT"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
@@ -4311,8 +4287,8 @@
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 5,
-        "non_operational_signals": 4
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -6150,8 +6126,8 @@
     "cases": 30,
     "factor_dimensions": 16,
     "operational_dimensions": 6,
-    "cases_with_non_operational_signals": 19,
-    "non_operational_signals": 143
+    "cases_with_non_operational_signals": 18,
+    "non_operational_signals": 139
   },
   "next_patch": "Expand Detective question generation for non-operational dimensions only when their factor evidence warrants investigation."
 }

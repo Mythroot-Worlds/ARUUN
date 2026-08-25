@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""CORE foundational ontology: the deciding factors behind document meaning."""
+"""CORE foundational ontology: deciding factors behind document meaning."""
 from __future__ import annotations
 import re
 
 DIMENSIONS = {
     "subject": ("what is being described", ()),
-    "scope": ("how broadly or narrowly the information applies", ("CONTINENT", "CONTINENTAL", "HEARTH-WIDE", "REGIONAL", "REGION", "MOUNTAIN", "RIVER", "PLAINS", "SETTLEMENT", "VILLAGE", "LOCAL")),
+    "scope": ("how broadly or narrowly the information applies", ("CONTINENT", "CONTINENTAL", "HEARTH-WIDE", "REGIONAL", "REGION", "MOUNTAIN", "RIVER", "PLAINS", "SETTLEMENT", "VILLAGE", "LOCAL", "WETLANDS", "DESERT", "COAST")),
     "scale": ("the level at which the subject operates", ("PERSONAL", "LOCAL", "REGIONAL", "NATIONAL", "POLITICAL", "GLOBAL", "COSMIC")),
     "function": ("why the document or information exists", ("FAMILY", "BIRTH", "CHILDHOOD", "GOVERNANCE", "AUTHORITY", "LEADERSHIP", "SPECIALIST", "LINEAGE", "SUPPORT", "CHECKLIST", "AUDIT", "REFERENCE", "HISTORICAL", "ARCHIVE", "REVISION")),
     "depth": ("how deeply the subject is developed", ("LEVEL 0", "LEVEL 1", "LEVEL 2", "LEVEL 3", "LEVEL 4", "FOUNDATION", "FUNCTIONAL", "DEVELOPED", "DEEP")),
@@ -22,14 +22,16 @@ DIMENSIONS = {
     "story_relevance": ("whether the information generates creative consequences", ("STORY", "CONFLICT", "MYSTERY", "STORY OPPORTUNITY", "NARRATIVE", "STORY GENERATION")),
 }
 
+# VARIANT is intentionally narrow: same underlying information AND same scope,
+# with wording/detail differences. Same subject across different regions is RELATED.
 RELATIONSHIP_FACTORS = {
-    "VARIANT": {"same_subject": True, "scope_difference": True, "functional_continuity": True, "distinguishing": "same underlying subject expressed at a different scope/context"},
-    "SUPPORTING": {"same_subject": False, "scope_difference": False, "functional_continuity": False, "distinguishing": "one information object supplies context or evidence for another"},
-    "HISTORICAL": {"same_subject": True, "scope_difference": False, "functional_continuity": True, "distinguishing": "temporal state or precedence explains the relationship"},
-    "CONFLICT": {"same_subject": True, "scope_difference": False, "functional_continuity": True, "distinguishing": "compatible scope/context but incompatible claims"},
-    "MISPLACED": {"same_subject": False, "scope_difference": True, "functional_continuity": False, "distinguishing": "information appears in a location or document where it does not belong"},
-    "DUPLICATE": {"same_subject": True, "scope_difference": False, "functional_continuity": True, "distinguishing": "substantially the same information with no meaningful contextual distinction"},
-    "RELATED": {"same_subject": False, "scope_difference": False, "functional_continuity": False, "distinguishing": "meaningfully connected subject matter without stronger defining relationship"},
+    "VARIANT": {"same_subject": True, "same_scope": True, "functional_continuity": True, "distinguishing": "same underlying information and scope expressed with wording/detail differences"},
+    "SUPPORTING": {"support_function": True, "dependency_signal": True, "distinguishing": "one information object supplies context, evidence, reference, or operational support for another"},
+    "HISTORICAL": {"same_subject": True, "temporal_difference": True, "functional_continuity": True, "distinguishing": "temporal state, revision, or precedence explains the relationship"},
+    "CONFLICT": {"same_subject": True, "same_scope": True, "functional_continuity": True, "incompatible_claims": True, "distinguishing": "same subject and scope but substantively incompatible claims"},
+    "MISPLACED": {"scope_mismatch": True, "location_function_mismatch": True, "distinguishing": "information appears in a location or document where it does not belong"},
+    "DUPLICATE": {"same_subject": True, "same_scope": True, "functional_continuity": True, "distinguishing": "substantially the same information with no meaningful contextual distinction"},
+    "RELATED": {"meaningful_connection": True, "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"},
 }
 
 def hits(text: str):

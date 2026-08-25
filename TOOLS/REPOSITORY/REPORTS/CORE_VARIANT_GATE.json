@@ -1,17 +1,39 @@
 {
   "engine": "CORE VARIANT Gate",
-  "schema_version": "3.0",
+  "schema_version": "4.0",
   "mode": "READ_ONLY",
-  "definition": "VARIANT means near-equivalent informational content for the same subject within the same scope, document role, purpose, and applicable time. Wording, presentation, formatting, and modest detail may differ. Similar information across different regions is not VARIANT.",
-  "candidate_count": 70,
+  "definition": "VARIANT means near-equivalent informational content for the same structural identity, scope, document role, purpose, and applicable time. Wording, presentation, formatting, and modest detail may differ. Similar information across different regions or roles is not VARIANT.",
+  "candidate_count": 71,
   "variant_candidates": 0,
-  "rejected_variant_candidates": 70,
+  "rejected_variant_candidates": 71,
   "relationships": [
     {
-      "relationship_id": "VAR-93affc52",
+      "relationship_id": "VAR-28c9a8bb",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6606,
         "a_to_b": 0.3211,
@@ -369,10 +391,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4c81fee8",
+      "relationship_id": "VAR-870529e7",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != WETLANDS",
+        "region mismatch: COAST != WETLANDS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2802,
         "a_to_b": 0.2706,
@@ -489,10 +537,32 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-a398455f",
+      "relationship_id": "VAR-338f6cf2",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6401,
         "a_to_b": 0.2801,
@@ -808,10 +878,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-725baba0",
+      "relationship_id": "VAR-3607e2a0",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != governance_and_authority",
+        "document role mismatch: family_partnership != governance_authority",
+        "purpose mismatch: family_partnership != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1879,
         "a_to_b": 0.1745,
@@ -3351,7 +3447,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -3359,6 +3455,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -3371,10 +3468,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-6dfc7728",
+      "relationship_id": "VAR-874a2408",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: WETLANDS != RIVER",
+        "region mismatch: WETLANDS != RIVER",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2372,
         "a_to_b": 0.2372,
@@ -3485,10 +3608,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-c391a58d",
+      "relationship_id": "VAR-faedb646",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: PLAINS != RIVER",
+        "region mismatch: PLAINS != RIVER",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2082,
         "a_to_b": 0.2123,
@@ -3593,10 +3742,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ddad67b1",
+      "relationship_id": "VAR-1473383c",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: WETLANDS != PLAINS",
+        "region mismatch: WETLANDS != PLAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2499,
         "a_to_b": 0.2399,
@@ -3701,10 +3876,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-a8a1e7aa",
+      "relationship_id": "VAR-1ab68b21",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != cultural_audit_checklist",
+        "document role mismatch: family_partnership != audit_support",
+        "purpose mismatch: family_partnership != audit_support"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1721,
         "a_to_b": 0.1528,
@@ -6034,7 +6235,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -6042,6 +6243,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -6054,10 +6256,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-941716af",
+      "relationship_id": "VAR-803988a7",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: wetlands != coast",
+        "document role mismatch: wetlands != coast",
+        "purpose mismatch: wetlands != coast"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1488,
         "a_to_b": 0.1947,
@@ -6593,7 +6821,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -6601,6 +6829,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -6613,10 +6842,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4130203b",
+      "relationship_id": "VAR-34fd6910",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "demographic_mountain_revision",
+        "role": "demographic_mountain_revision",
+        "purpose": "demographic_mountain_revision",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_lineages",
+        "role": "specialist_lineages",
+        "purpose": "specialist_lineages",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: demographic_mountain_revision != specialist_lineages",
+        "document role mismatch: demographic_mountain_revision != specialist_lineages",
+        "purpose mismatch: demographic_mountain_revision != specialist_lineages"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.264,
         "a_to_b": 0.2948,
@@ -6765,10 +7020,32 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ae2799f7",
+      "relationship_id": "VAR-cf83bc8d",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6294,
         "a_to_b": 0.2589,
@@ -7078,10 +7355,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-9f42957f",
+      "relationship_id": "VAR-d51b2e88",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != coast",
+        "document role mismatch: family_partnership != coast",
+        "purpose mismatch: family_partnership != coast"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1505,
         "a_to_b": 0.1289,
@@ -9129,7 +9432,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -9137,6 +9440,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -9149,10 +9453,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f09a3f92",
+      "relationship_id": "VAR-f8aaf89d",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: RIVER != DESERT",
+        "region mismatch: RIVER != DESERT",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.226,
         "a_to_b": 0.235,
@@ -9287,10 +9617,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-85ead9f6",
+      "relationship_id": "VAR-e5fc36d7",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != plains",
+        "document role mismatch: family_partnership != plains",
+        "purpose mismatch: family_partnership != plains"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1512,
         "a_to_b": 0.1216,
@@ -11206,7 +11562,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -11214,6 +11570,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -11226,10 +11583,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-669dc10c",
+      "relationship_id": "VAR-e3ae1d10",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != RIVER",
+        "region mismatch: COAST != RIVER",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2345,
         "a_to_b": 0.2299,
@@ -11346,10 +11729,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-23affb1b",
+      "relationship_id": "VAR-6475997e",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != desert",
+        "document role mismatch: family_partnership != desert",
+        "purpose mismatch: family_partnership != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1539,
         "a_to_b": 0.1351,
@@ -13439,7 +13848,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -13447,6 +13856,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -13459,10 +13869,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b80d7d1d",
+      "relationship_id": "VAR-4b147e3b",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != governance_and_authority",
+        "document role mismatch: audit_support != governance_authority",
+        "purpose mismatch: audit_support != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1456,
         "a_to_b": 0.1604,
@@ -14982,7 +15418,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -14990,6 +15426,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -15002,10 +15439,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b731ca86",
+      "relationship_id": "VAR-7d8ab9e2",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: coast != desert",
+        "document role mismatch: coast != desert",
+        "purpose mismatch: coast != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1384,
         "a_to_b": 0.1437,
@@ -15877,7 +16340,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -15885,6 +16348,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -15897,10 +16361,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-8c8e19c8",
+      "relationship_id": "VAR-b3ebbda4",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: wetlands != plains",
+        "document role mismatch: wetlands != plains",
+        "purpose mismatch: wetlands != plains"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1642,
@@ -16304,7 +16794,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -16312,6 +16802,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -16324,10 +16815,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d4c037ae",
+      "relationship_id": "VAR-9642a78f",
       "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_lineages",
+        "role": "specialist_lineages",
+        "purpose": "specialist_lineages",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: specialist_houses_canon != specialist_lineages",
+        "document role mismatch: specialist_houses != specialist_lineages",
+        "purpose mismatch: specialist_houses != specialist_lineages"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1764,
         "a_to_b": 0.164,
@@ -16511,10 +17028,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5f99a81a",
+      "relationship_id": "VAR-57d482c3",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2558,
         "a_to_b": 0.0934,
@@ -16708,7 +17249,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": true,
           "role": true,
@@ -16716,6 +17257,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:claims",
           "time_unspecified_in_both_documents"
         ],
@@ -16726,10 +17268,32 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b873e65d",
+      "relationship_id": "VAR-e289ebe1",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6089,
         "a_to_b": 0.2178,
@@ -17039,10 +17603,32 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-940bd7d3",
+      "relationship_id": "VAR-a11b54f1",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6266,
         "a_to_b": 0.2533,
@@ -17358,10 +17944,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f0d0318c",
+      "relationship_id": "VAR-c5898699",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: plains != desert",
+        "document role mismatch: plains != desert",
+        "purpose mismatch: plains != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1408,
         "a_to_b": 0.1491,
@@ -18089,7 +18701,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -18097,6 +18709,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -18109,10 +18722,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ec62cbf0",
+      "relationship_id": "VAR-7af9e6da",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: coast != plains",
+        "document role mismatch: coast != plains",
+        "purpose mismatch: coast != plains"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1206,
@@ -18834,7 +19473,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -18842,6 +19481,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -18854,10 +19494,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f6b60cc5",
+      "relationship_id": "VAR-42378797",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: WETLANDS != MOUNTAINS",
+        "region mismatch: WETLANDS != MOUNTAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.197,
         "a_to_b": 0.197,
@@ -18968,10 +19634,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-677b83b5",
+      "relationship_id": "VAR-3fb61b34",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: wetlands != desert",
+        "document role mismatch: wetlands != desert",
+        "purpose mismatch: wetlands != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1388,
         "a_to_b": 0.188,
@@ -19501,7 +20193,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -19509,6 +20201,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -19521,10 +20214,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d33c3ddc",
+      "relationship_id": "VAR-ca18f658",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != coast",
+        "document role mismatch: audit_support != coast",
+        "purpose mismatch: audit_support != coast"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1318,
         "a_to_b": 0.1245,
@@ -20612,7 +21331,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -20620,6 +21339,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -20632,10 +21352,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ec69c05f",
+      "relationship_id": "VAR-af315843",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: PLAINS != MOUNTAINS",
+        "region mismatch: PLAINS != MOUNTAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2075,
         "a_to_b": 0.212,
@@ -20740,10 +21486,32 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-555873e1",
+      "relationship_id": "VAR-966aa486",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": true,
+      "identity_reasons": [],
       "pairwise_semantic_comparison": {
         "score": 0.6339,
         "a_to_b": 0.2679,
@@ -21029,10 +21797,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4fb3ec61",
+      "relationship_id": "VAR-e2c01416",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1203,
         "a_to_b": 0.123,
@@ -21125,10 +21917,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-affdf340",
+      "relationship_id": "VAR-d8fd6ca5",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != MOUNTAINS",
+        "region mismatch: COAST != MOUNTAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.188,
         "a_to_b": 0.1808,
@@ -21245,10 +22063,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-845f5fe2",
+      "relationship_id": "VAR-84965aa9",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: governance_and_authority != desert",
+        "document role mismatch: governance_authority != desert",
+        "purpose mismatch: governance_authority != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1205,
@@ -22504,7 +23348,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -22512,6 +23356,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -22524,10 +23369,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-bdca4d7e",
+      "relationship_id": "VAR-6008dc3e",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != PLAINS",
+        "region mismatch: COAST != PLAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1983,
         "a_to_b": 0.1929,
@@ -22638,10 +23509,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-fa223b33",
+      "relationship_id": "VAR-bae637e4",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: coast != governance_and_authority",
+        "document role mismatch: coast != governance_authority",
+        "purpose mismatch: coast != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1349,
         "a_to_b": 0.1469,
@@ -23909,7 +24806,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -23917,6 +24814,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -23929,10 +24827,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-be46b026",
+      "relationship_id": "VAR-5e3df5d2",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != DESERT",
+        "region mismatch: COAST != DESERT",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1939,
         "a_to_b": 0.2072,
@@ -24073,10 +24997,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-6f2e3117",
+      "relationship_id": "VAR-b2d69915",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: RIVER != MOUNTAINS",
+        "region mismatch: RIVER != MOUNTAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1934,
         "a_to_b": 0.1934,
@@ -24187,10 +25137,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-00e9b851",
+      "relationship_id": "VAR-6c5b3540",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != desert",
+        "document role mismatch: audit_support != desert",
+        "purpose mismatch: audit_support != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1271,
         "a_to_b": 0.1237,
@@ -25266,7 +26242,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -25274,6 +26250,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -25286,10 +26263,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-063516cf",
+      "relationship_id": "VAR-9b88b31e",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != family_birth_childhood",
+        "document role mismatch: family_partnership != family_birth_childhood",
+        "purpose mismatch: family_partnership != family_birth_childhood"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1665,
         "a_to_b": 0.1291,
@@ -27139,7 +28142,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -27147,6 +28150,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -27159,10 +28163,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-dfea55cd",
+      "relationship_id": "VAR-035ba908",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: DESERT != MOUNTAINS",
+        "region mismatch: DESERT != MOUNTAINS",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2282,
         "a_to_b": 0.2041,
@@ -27297,10 +28327,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-40842a8c",
+      "relationship_id": "VAR-7bb20df1",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1348,
         "a_to_b": 0.144,
@@ -27387,10 +28441,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-e3e3e3fe",
+      "relationship_id": "VAR-07f332e1",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1212,
         "a_to_b": 0.1238,
@@ -27483,10 +28561,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-a395b80b",
+      "relationship_id": "VAR-96b5f5e5",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: WETLANDS != DESERT",
+        "region mismatch: WETLANDS != DESERT",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1717,
         "a_to_b": 0.1787,
@@ -27621,10 +28725,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-de368f37",
+      "relationship_id": "VAR-8ed85cd5",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != wetlands",
+        "document role mismatch: family_partnership != wetlands",
+        "purpose mismatch: family_partnership != wetlands"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0938,
         "a_to_b": 0.0687,
@@ -29330,7 +30460,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -29338,6 +30468,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -29350,10 +30481,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-c646ceff",
+      "relationship_id": "VAR-f00b4250",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != wetlands",
+        "document role mismatch: audit_support != wetlands",
+        "purpose mismatch: audit_support != wetlands"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0765,
         "a_to_b": 0.0639,
@@ -30099,7 +31256,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -30107,6 +31264,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -30119,10 +31277,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0f29c462",
+      "relationship_id": "VAR-8ac68a68",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: plains != governance_and_authority",
+        "document role mismatch: plains != governance_authority",
+        "purpose mismatch: plains != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1326,
         "a_to_b": 0.1443,
@@ -31264,7 +32448,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -31272,6 +32456,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -31284,10 +32469,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b3cdcef8",
+      "relationship_id": "VAR-03afc691",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: PLAINS != DESERT",
+        "region mismatch: PLAINS != DESERT",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2081,
         "a_to_b": 0.2307,
@@ -31416,10 +32627,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-e066187f",
+      "relationship_id": "VAR-35bda9c2",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != governance_and_authority",
+        "document role mismatch: family_birth_childhood != governance_authority",
+        "purpose mismatch: family_birth_childhood != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1217,
         "a_to_b": 0.1381,
@@ -32483,7 +33720,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -32491,6 +33728,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -32503,10 +33741,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5b81b139",
+      "relationship_id": "VAR-6acba083",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != plains",
+        "document role mismatch: audit_support != plains",
+        "purpose mismatch: audit_support != plains"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1152,
         "a_to_b": 0.1139,
@@ -33426,7 +34690,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -33434,6 +34698,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -33446,10 +34711,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-46eb1fa2",
+      "relationship_id": "VAR-14623780",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != plains",
+        "document role mismatch: family_birth_childhood != plains",
+        "purpose mismatch: family_birth_childhood != plains"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1051,
         "a_to_b": 0.1088,
@@ -34015,7 +35306,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -34023,6 +35314,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -34035,10 +35327,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b6de0f21",
+      "relationship_id": "VAR-90062c35",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: wetlands != governance_and_authority",
+        "document role mismatch: wetlands != governance_authority",
+        "purpose mismatch: wetlands != governance_authority"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0818,
         "a_to_b": 0.103,
@@ -34934,7 +36252,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -34942,6 +36260,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -34954,10 +36273,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-bc467574",
+      "relationship_id": "VAR-1e5f7987",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != coast",
+        "document role mismatch: family_birth_childhood != coast",
+        "purpose mismatch: family_birth_childhood != coast"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1055,
         "a_to_b": 0.111,
@@ -35625,7 +36970,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -35633,6 +36978,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -35645,10 +36991,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-fbd50d63",
+      "relationship_id": "VAR-8e313330",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != cultural_audit_checklist",
+        "document role mismatch: family_birth_childhood != audit_support",
+        "purpose mismatch: family_birth_childhood != audit_support"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.122,
         "a_to_b": 0.1306,
@@ -36490,7 +37862,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -36498,6 +37870,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -36510,10 +37883,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b7d90fd8",
+      "relationship_id": "VAR-a223f3ec",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != desert",
+        "document role mismatch: family_birth_childhood != desert",
+        "purpose mismatch: family_birth_childhood != desert"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.102,
         "a_to_b": 0.1085,
@@ -37199,7 +38598,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -37207,6 +38606,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -37219,10 +38619,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-1160959f",
+      "relationship_id": "VAR-0f2295b3",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != wetlands",
+        "document role mismatch: family_birth_childhood != wetlands",
+        "purpose mismatch: family_birth_childhood != wetlands"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0907,
         "a_to_b": 0.0748,
@@ -37602,7 +39028,7 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": true,
+          "scope": false,
           "time": true,
           "purpose": false,
           "role": false,
@@ -37610,6 +39036,7 @@
         },
         "reasons": [
           "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
           "variant_gate_failed:claims",
@@ -37622,10 +39049,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0a8f7cdc",
+      "relationship_id": "VAR-a5fce7df",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: coast != specialist_houses_canon",
+        "document role mismatch: coast != specialist_houses",
+        "purpose mismatch: coast != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0799,
         "a_to_b": 0.0645,
@@ -38092,10 +39545,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-596884a7",
+      "relationship_id": "VAR-265444c6",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "demographic_mountain_revision",
+        "role": "demographic_mountain_revision",
+        "purpose": "demographic_mountain_revision",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: demographic_mountain_revision != specialist_houses_canon",
+        "document role mismatch: demographic_mountain_revision != specialist_houses",
+        "purpose mismatch: demographic_mountain_revision != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1241,
         "a_to_b": 0.1387,
@@ -38250,10 +39729,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-679829e0",
+      "relationship_id": "VAR-9bd12172",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1475,
@@ -38352,10 +39855,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ad8c05fb",
+      "relationship_id": "VAR-b62b2e36",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: cultural_audit_checklist != specialist_houses_canon",
+        "document role mismatch: audit_support != specialist_houses",
+        "purpose mismatch: audit_support != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0723,
         "a_to_b": 0.0558,
@@ -39020,10 +40549,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-701a88c7",
+      "relationship_id": "VAR-d76fae02",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: plains != specialist_houses_canon",
+        "document role mismatch: plains != specialist_houses",
+        "purpose mismatch: plains != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0735,
         "a_to_b": 0.0604,
@@ -39382,10 +40937,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-8322dd3e",
+      "relationship_id": "VAR-4af132a5",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != specialist_houses_canon",
+        "document role mismatch: family_partnership != specialist_houses",
+        "purpose mismatch: family_partnership != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0919,
         "a_to_b": 0.0615,
@@ -40944,10 +42525,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-e7c8846a",
+      "relationship_id": "VAR-96304451",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: governance_and_authority != specialist_houses_canon",
+        "document role mismatch: governance_authority != specialist_houses",
+        "purpose mismatch: governance_authority != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1153,
         "a_to_b": 0.0755,
@@ -41726,10 +43333,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b1adf771",
+      "relationship_id": "VAR-52300c35",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: wetlands != specialist_houses_canon",
+        "document role mismatch: wetlands != specialist_houses",
+        "purpose mismatch: wetlands != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.064,
         "a_to_b": 0.0619,
@@ -41944,10 +43577,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-44eb3d53",
+      "relationship_id": "VAR-39f8e001",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != family_birth_childhood_comparative"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1328,
         "a_to_b": 0.1339,
@@ -42064,10 +43721,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4ff8d6d6",
+      "relationship_id": "VAR-caa6f9c7",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood != specialist_houses_canon",
+        "document role mismatch: family_birth_childhood != specialist_houses",
+        "purpose mismatch: family_birth_childhood != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0789,
         "a_to_b": 0.0669,
@@ -42420,10 +44103,34 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5333fa39",
+      "relationship_id": "VAR-fd428276",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_birth_childhood_comparative != family_birth_childhood"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1,
         "a_to_b": 0.1,
@@ -42516,10 +44223,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-06221740",
+      "relationship_id": "VAR-e6805552",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: desert != specialist_houses_canon",
+        "document role mismatch: desert != specialist_houses",
+        "purpose mismatch: desert != specialist_houses"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0721,
         "a_to_b": 0.0582,
@@ -42986,10 +44719,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-cf901ffe",
+      "relationship_id": "VAR-87872007",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_lineages",
+        "role": "specialist_lineages",
+        "purpose": "specialist_lineages",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: governance_and_authority != specialist_lineages",
+        "document role mismatch: governance_authority != specialist_lineages",
+        "purpose mismatch: governance_authority != specialist_lineages"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.2609,
         "a_to_b": 0.1162,
@@ -43726,10 +45485,39 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-554f3df7",
+      "relationship_id": "VAR-77ebce58",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST"
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "population mismatch: COAST != MOUNTAINS",
+        "region mismatch: COAST != MOUNTAINS",
+        "subject mismatch: family_birth_childhood != specialist_houses_canon",
+        "document role mismatch: family_birth_childhood != specialist_houses",
+        "purpose mismatch: family_birth_childhood != specialist_houses",
+        "regional scope mismatch"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.0869,
         "a_to_b": 0.0903,
@@ -43866,10 +45654,36 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-1d2aa511",
+      "relationship_id": "VAR-efa96ed8",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT"
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: desert != family_birth_childhood",
+        "document role mismatch: desert != family_birth_childhood",
+        "purpose mismatch: desert != family_birth_childhood"
+      ],
       "pairwise_semantic_comparison": {
         "score": 0.1067,
         "a_to_b": 0.082,
@@ -44328,8 +46142,974 @@
         "comparison_basis": "information_units"
       },
       "variant_status": "REJECTED"
+    },
+    {
+      "relationship_id": "VAR-2ec50aa7",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "source": "same_scope_identity_candidate",
+      "left_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null
+      },
+      "right_identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null
+      },
+      "identity_match": false,
+      "identity_reasons": [
+        "subject mismatch: family_partnership != family_birth_childhood_comparative",
+        "document role mismatch: family_partnership != family_birth_childhood",
+        "purpose mismatch: family_partnership != family_birth_childhood"
+      ],
+      "pairwise_semantic_comparison": {
+        "score": 0.1058,
+        "a_to_b": 0.0566,
+        "b_to_a": 0.155,
+        "same_information": false,
+        "contradiction_signal": false,
+        "unmatched_a": 144,
+        "unmatched_b": 3,
+        "alignments": [
+          {
+            "a": "<!-- Migrated document: this file combines multiple source documents preserved verbatim below, each under its own heading with original filename noted. No content has been reconciled or edited. -->",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0714,
+            "same_section": false
+          },
+          {
+            "a": "**Status:** WORKING DRAFT \u2014 REVIEW BEFORE LOCK",
+            "b": "**Status:** CANON REFERENCE SHEET",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "Mountain people generally marry within the same specialist occupation/lineage:",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "Marriage is primarily a survival institution rather than a system based on romantic attraction.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "Mountain communities periodically gather in a major conclave to exchange marriageable partners and coordinate specialist populations.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.04,
+            "same_section": false
+          },
+          {
+            "a": "The conclave also supports trade, knowledge exchange, relationship maintenance, and other regional business.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0294,
+            "same_section": false
+          },
+          {
+            "a": "Remote communities may participate through regional gatherings or representatives when distance prevents attendance.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "The people do not need a scientific understanding of genetics.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0333,
+            "same_section": false
+          },
+          {
+            "a": "Marriage exchanges therefore cycle among villages and families rather than repeatedly pairing the same close groups.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0385,
+            "same_section": false
+          },
+          {
+            "a": "Children grow up within the extended specialist lineage and learn from many adults possessing the same skill.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1304,
+            "same_section": false
+          },
+          {
+            "a": "A hunter child can therefore have a large network of hunting teachers across the family.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "Extended households of roughly 10\u201320 people:",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0357,
+            "same_section": false
+          },
+          {
+            "a": "Families and communities help identify appropriate partners based on:",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "Communities maintain recurring relationships with settlements upstream and downstream.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "remain in one partner's community;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "move to the other partner's community;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "Children belong to both parents' families.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "Genealogical memory is practical knowledge: people remember who is related to whom and where those relatives live.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "A broader category of reciprocal relationship exists between communities with long-standing connections.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "A traveler from a known river-connected community may be treated as river kin even without close biological relationship.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0385,
+            "same_section": false
+          },
+          {
+            "a": "Children remain connected to both sides.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "Extended family and community help redistribute responsibilities.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "Each group is substantially self-contained while remaining part of a cooperative village.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0294,
+            "same_section": false
+          },
+          {
+            "a": "> **Keep your group alive. Keep the village alive.**",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "Children are raised primarily within their group while being known and supported by the larger village.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "Children can learn from adults outside their immediate group through work exchanges and seasonal gatherings.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.087,
+            "same_section": false
+          },
+          {
+            "a": "Large wet-season gatherings provide opportunities for people from multiple villages to meet, maintain relationships, and form partnerships.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0263,
+            "same_section": false
+          },
+          {
+            "a": "Extended family households exist within oasis communities.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "The oasis is the larger survival community, while the Lifekeeper network connects multiple oases.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0909,
+            "same_section": false
+          },
+          {
+            "a": "Working proposal: partnerships commonly connect different oasis communities, reinforcing the larger network.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "Unlike the Mountains, partnership is not restricted to the same specialist lineage.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "Children belong to their family and oasis community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1176,
+            "same_section": false
+          },
+          {
+            "a": "Children showing unusual aptitude for travel, hunting, endurance, judgment, or environmental awareness may eventually enter Lifekeeper training.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0357,
+            "same_section": false
+          },
+          {
+            "a": "During abundance, people take what they need.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0333,
+            "same_section": false
+          },
+          {
+            "a": "During scarcity, Water Watchers establish practical limits so the community survives.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "> **Water is shared, but survival requires discipline.**",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "The community itself is the practical household.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "Coastal people live communally rather than in separate nuclear-family households.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0312,
+            "same_section": false
+          },
+          {
+            "a": "Large communal structures contain shared sleeping areas.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "Most adults sleep together on mats in a large common space.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "Children have a protected section within the communal structure.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "These are community spaces, not personal property.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "Any adult can legitimately regard a community child as their child in the social sense.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0952,
+            "same_section": false
+          },
+          {
+            "a": "Children are raised communally.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0625,
+            "same_section": false
+          },
+          {
+            "a": "Children can maintain strong individual bonds with parents and other adults without parenting becoming a private household responsibility.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0741,
+            "same_section": false
+          },
+          {
+            "a": "Working proposal: partnerships exist within the communal structure and do not automatically create separate households.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.04,
+            "same_section": false
+          },
+          {
+            "a": "The community remains the primary domestic unit.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "Privacy exists as a specific social need rather than as everyday household separation.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0303,
+            "same_section": false
+          },
+          {
+            "a": "People can seek enclosed spaces when needed, while ordinary life remains highly communal.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0385,
+            "same_section": false
+          },
+          {
+            "a": "> **Almost everything is shared; privacy exists when it is needed.**",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0323,
+            "same_section": false
+          },
+          {
+            "a": "Households contain family members, but daily survival often occurs through traveling groups.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "Working proposal: partnership is influenced by community need, mobility, and family relationships.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "The system should preserve Plains cooperation without turning marriage into rigid occupational assignment.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "Children are raised within the broader community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1176,
+            "same_section": false
+          },
+          {
+            "a": "They observe adult work from infancy and gradually acquire useful skills according to developmental stage and community need.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0385,
+            "same_section": false
+          },
+          {
+            "a": "Family remains important, but mobility distributes kin across multiple communities.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "Guest-right is a strong cultural institution.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0345,
+            "same_section": false
+          },
+          {
+            "a": "A peaceful traveler entering a Plains community is temporarily protected by that community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "The guest is expected not to endanger or exploit the people providing protection.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0312,
+            "same_section": false
+          },
+          {
+            "a": "These distinctions should be preserved during later development.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "11. Cross-cultural marriage and kin networks",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0714,
+            "same_section": false
+          },
+          {
+            "a": "**Status:** Working proposals derived from established Hearth cultural canon. Review before lock.",
+            "b": "**Status:** CANON REFERENCE SHEET",
+            "score": 0.1538,
+            "same_section": false
+          },
+          {
+            "a": "3. recurring anchor communities;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0625,
+            "same_section": false
+          },
+          {
+            "a": "4. the broader Plains cultural network.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0357,
+            "same_section": false
+          },
+          {
+            "a": "The mobile group is usually around 10\u201325 people, with 10\u201315 a common size. These groups are flexible rather than permanently familial. People can move between groups according to need.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0323,
+            "same_section": false
+          },
+          {
+            "a": "Anchor communities are repeatedly used places where elders who can no longer travel, very young children, injured people, craft workers, teachers, and stored resources can remain.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0625,
+            "same_section": false
+          },
+          {
+            "a": "coordinating the anchor community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0625,
+            "same_section": false
+          },
+          {
+            "a": "another community encountered during seasonal movement;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "New partners can remain with an existing community, join another traveling group, or move toward an anchor community when their skills or family responsibilities make that useful.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0312,
+            "same_section": false
+          },
+          {
+            "a": "Children are primarily attached to their family but are raised inside the larger community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0952,
+            "same_section": false
+          },
+          {
+            "a": "Very young children may remain near the anchor community while older children increasingly accompany mobile groups when capable.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.12,
+            "same_section": false
+          },
+          {
+            "a": "Training follows developmental stage and community need rather than a fixed universal curriculum.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "Children observe adult work constantly and gradually take on useful responsibilities.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "Because people move between groups and communities, kinship can be geographically distributed.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "A person may have close relatives in several communities without living with them.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "This makes the broader Plains cultural network important: family ties, hospitality, shared stories, routes, and ecological knowledge cross community boundaries.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "A peaceful traveler entering a Plains community receives temporary protection and hospitality.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "The obligation is reciprocal in spirit: anyone may someday be the traveler who needs shelter.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0294,
+            "same_section": false
+          },
+          {
+            "a": "The guest is still expected not to endanger, exploit, or deliberately expose the host community to danger.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "Because households are embedded in mobile groups and communities, family relationships can continue even when two partners no longer live together.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0345,
+            "same_section": false
+          },
+          {
+            "a": "Wetland society is **communal separatist**.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "The primary daily unit is a self-contained functional group of roughly 12\u201315 people.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0303,
+            "same_section": false
+          },
+          {
+            "a": "A village may contain several such groups. Each can operate independently, but groups deliberately help one another.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0256,
+            "same_section": false
+          },
+          {
+            "a": "The 12\u201315-person group is the practical household/survival unit.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "If Group B needs additional weaving labor and A has people available, A helps B.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0312,
+            "same_section": false
+          },
+          {
+            "a": "This is not charity. The village is treated as a larger survival system.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "> **Keep your group alive. Keep the village alive.**",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "The person most trusted for the current problem coordinates the group:",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "The same person does not automatically lead every activity.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "Because groups already cooperate, moving between them is not culturally equivalent to abandoning one's people.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.027,
+            "same_section": false
+          },
+          {
+            "a": "Children belong to their family and functional group but are known and supported by the whole village.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "spending time with adults outside their immediate group.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "A young person may spend part of a season learning from another group.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "People return unless a longer-term need or partnership gives them reason to stay.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0286,
+            "same_section": false
+          },
+          {
+            "a": "These gatherings are especially useful because several villages may temporarily occupy the same high ground during monsoon conditions.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0714,
+            "same_section": false
+          },
+          {
+            "a": "Desert society consists of oasis communities linked by mobile travelers, especially the Lifekeepers.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "The desert creates isolation through **distance and water scarcity**, while the Lifekeeper network actively reconnects the population. This distinction from Mountain isolation is established canon. \ue200filecite\ue202turn92file5\ue202L1-L14\ue201",
+            "b": "**Status:** CANON REFERENCE SHEET",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "Working proposal: oasis residents generally live in extended family households smaller than the full oasis community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "The household handles intimate family life while the oasis handles shared survival infrastructure.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "**Working proposal:** partnerships commonly connect different oasis communities.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "Instead, it gives families relationships across the desert and strengthens the same network that Lifekeepers already maintain.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.04,
+            "same_section": false
+          },
+          {
+            "a": "Children belong to their household and oasis community.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1176,
+            "same_section": false
+          },
+          {
+            "a": "A child showing unusual aptitude may eventually enter Lifekeeper training.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "A stranded traveler can receive life-saving water without being allowed to exhaust the community's reserve.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.04,
+            "same_section": false
+          },
+          {
+            "a": "Children gradually learn water discipline.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "This makes Water Watchers respected practical authorities without turning them into rulers.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0435,
+            "same_section": false
+          },
+          {
+            "a": "Together they form a distributed survival-information network.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "> **Of the people, for the people.**",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.04,
+            "same_section": false
+          },
+          {
+            "a": "> **Water is shared, but survival requires discipline.**",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "The Coastal people are the strongest communal society on Hearth.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.069,
+            "same_section": false
+          },
+          {
+            "a": "The **community itself is the practical household**.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "Their communal living is not merely communal labor. They live, sleep, eat, learn, raise children, and defend themselves together.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0769,
+            "same_section": false
+          },
+          {
+            "a": "Large communal structures contain shared sleeping spaces.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "Most adults sleep together on mats in a large common room.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "Children have a protected section within the communal structure.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "These spaces are communal facilities rather than personal property.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1053,
+            "same_section": false
+          },
+          {
+            "a": "A child has parents, but every adult can legitimately regard that child as one of their children in the social sense.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "The community is responsible for the child's survival.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.2,
+            "same_section": false
+          },
+          {
+            "a": "A couple remains part of the communal living structure.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "Their relationship is personally meaningful, but it does not split the community into nuclear-family units.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0417,
+            "same_section": false
+          },
+          {
+            "a": "The community recognizes biological kinship and lineage, but partnership does not need to reinforce occupational specialization.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0385,
+            "same_section": false
+          },
+          {
+            "a": "Prospective partners can develop relationships through everyday communal life.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "People do not have private bedrooms.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0357,
+            "same_section": false
+          },
+          {
+            "a": "When privacy is genuinely needed, an enclosed community space is available.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "Ordinary life remains highly communal.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "Children are raised communally.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0625,
+            "same_section": false
+          },
+          {
+            "a": "Children can form particularly strong bonds with their biological parents without the community treating other adults as outsiders.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.12,
+            "same_section": false
+          },
+          {
+            "a": "Because everyone participates in everything, children encounter many skills naturally.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0455,
+            "same_section": false
+          },
+          {
+            "a": "The same communal principle extends beyond childcare.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "The whole community can move through tasks in waves:",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "The Coastal people survive by functioning like a coordinated social body.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0312,
+            "same_section": false
+          },
+          {
+            "a": "Access to salt and the ability to remove salt from seawater gives Coastal people unusually strong preservation options.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0278,
+            "same_section": false
+          },
+          {
+            "a": "> **Almost everything is shared; privacy exists when it is needed.**",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0323,
+            "same_section": false
+          },
+          {
+            "a": "Specialist lineage + same-specialty marriage + annual conclave.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.05,
+            "same_section": false
+          },
+          {
+            "a": "12\u201315-person communal-separatist group + cooperative village.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0526,
+            "same_section": false
+          },
+          {
+            "a": "Oasis household + cross-oasis family network + Lifekeeper connectivity.",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0333,
+            "same_section": false
+          },
+          {
+            "a": "Communal household + communal child-rearing + shared living.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "These four profiles are **working proposals**.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0556,
+            "same_section": false
+          },
+          {
+            "a": "The following are already strongly established from prior Hearth development:",
+            "b": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "score": 0.0323,
+            "same_section": false
+          },
+          {
+            "a": "Wetland communal-separatist groups;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0588,
+            "same_section": false
+          },
+          {
+            "a": "Coastal communal child-rearing;",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.125,
+            "same_section": false
+          },
+          {
+            "a": "Coastal communal sleeping arrangements with limited enclosed privacy spaces.",
+            "b": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "score": 0.0476,
+            "same_section": false
+          },
+          {
+            "a": "**Canon rule:** documents record our decisions; they do not make them.",
+            "b": "**Status:** CANON REFERENCE SHEET",
+            "score": 0.0833,
+            "same_section": false
+          },
+          {
+            "a": "**Status:** CANON REFERENCE SHEET",
+            "b": "**Status:** Working proposals derived from established Hearth cultural canon. Review before lock.",
+            "score": 0.1538,
+            "same_section": false
+          },
+          {
+            "a": "This sheet compares the six regional developmental systems. The regional files under each People are the authoritative cultural entries; this document exists as a cross-cultural reference for creators and users who want to utilize Hearth to maximum depth.",
+            "b": "This document fills the family, household, partnership, and kinship gaps using the cultural systems established for Hearth. It distinguishes established decisions from working extrapolations.",
+            "score": 0.1111,
+            "same_section": false
+          },
+          {
+            "a": "These systems are distinct responses to the same survival problem: turning children into adults capable of keeping their communities alive.",
+            "b": "The community is responsible for the child's survival.",
+            "score": 0.2,
+            "same_section": false
+          }
+        ],
+        "explanation": [
+          "bidirectional information coverage is insufficient for equivalence"
+        ]
+      },
+      "variant_arbitration": {
+        "eligible": false,
+        "descriptor": "UNRESOLVED",
+        "gates": {
+          "subject": false,
+          "scope": false,
+          "time": true,
+          "purpose": false,
+          "role": false,
+          "claims": false
+        },
+        "reasons": [
+          "variant_gate_failed:subject",
+          "variant_gate_failed:scope",
+          "variant_gate_failed:purpose",
+          "variant_gate_failed:role",
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
+        ],
+        "claim_overlap": 0.0747,
+        "informational_equivalence": 0.0747,
+        "comparison_basis": "information_units"
+      },
+      "variant_status": "REJECTED"
     }
   ],
+  "identity_gate": {
+    "authoritative": true,
+    "fields": [
+      "entity",
+      "population",
+      "region",
+      "subregion",
+      "subject",
+      "role",
+      "purpose",
+      "scope"
+    ],
+    "semantic_similarity_cannot_override": true
+  },
   "safety": {
     "automatic_variant_acceptance": false,
     "automatic_canon_change": false,

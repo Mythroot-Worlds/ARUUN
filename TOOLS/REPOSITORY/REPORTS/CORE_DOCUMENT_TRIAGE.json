@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Document Triage",
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "mode": "READ_ONLY",
-  "purpose": "identify document type, subject, scope, and role before relationship reasoning",
+  "purpose": "classify category, subject, context, content, purpose, and information overlap before deep investigation",
   "cases": [
     {
       "relationship_id": "REL-ead9ec80b42f820d",
@@ -10,48 +10,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "DESERT",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.3673,
+              "containment_left": 0.3673,
+              "containment_right": 1.0,
+              "shared_terms": 90,
+              "left_terms": 245,
+              "right_terms": 90
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/desert",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.371
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -65,44 +108,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "COAST",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "WETLANDS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2418,
+              "containment_left": 0.3548,
+              "containment_right": 0.4314,
+              "shared_terms": 22,
+              "left_terms": 62,
+              "right_terms": 51
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/coast",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/wetlands",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.25
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -116,48 +202,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "COAST",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2531,
+              "containment_left": 0.2531,
+              "containment_right": 1.0,
+              "shared_terms": 62,
+              "left_terms": 245,
+              "right_terms": 62
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/coast",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.254
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -169,48 +298,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-            "subject": "partnership",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "partnership",
+            "right": "governance_authority"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-            "subject": "governance_authority",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2609,
+              "containment_left": 0.3489,
+              "containment_right": 0.5085,
+              "shared_terms": 298,
+              "left_terms": 854,
+              "right_terms": 586
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_partnership"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "governance_and_authority"
+            ]
+          }
         },
-        "content_similarity": 0.2642
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -224,44 +396,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "WETLANDS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "RIVER",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2338,
+              "containment_left": 0.3529,
+              "containment_right": 0.4091,
+              "shared_terms": 18,
+              "left_terms": 51,
+              "right_terms": 44
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/wetlands",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.2436
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -277,44 +492,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "PLAINS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "RIVER",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2,
+              "containment_left": 0.3261,
+              "containment_right": 0.3409,
+              "shared_terms": 15,
+              "left_terms": 46,
+              "right_terms": 44
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/plains",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.2105
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -330,44 +588,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "WETLANDS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "PLAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2125,
+              "containment_left": 0.3333,
+              "containment_right": 0.3696,
+              "shared_terms": 17,
+              "left_terms": 51,
+              "right_terms": 46
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/wetlands",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/plains",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.2222
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -382,45 +683,88 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
       },
       "triage_status": "DIRECT",
-      "decision": "SUPPORTING",
-      "reason": "support/reference role is structurally explicit",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-            "subject": "partnership",
-            "content_type": "CULTURE",
-            "scope": {
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "partnership",
+            "right": "cultural"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-            "subject": "cultural",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "SUPPORTING",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2355,
+              "containment_left": 0.3138,
+              "containment_right": 0.4855,
+              "shared_terms": 268,
+              "left_terms": 854,
+              "right_terms": 552
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "AUTHORITATIVE",
+            "right": "SUPPORTING"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_partnership"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "cultural_audit_checklist"
+            ]
+          }
         },
-        "content_similarity": 0.2365
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -434,48 +778,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2209,
+              "containment_left": 0.4801,
+              "containment_right": 0.2904,
+              "shared_terms": 133,
+              "left_terms": 277,
+              "right_terms": 458
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "wetlands"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ]
+          }
         },
-        "content_similarity": 0.2266
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -487,48 +874,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
-            "subject": "demographic_mountain",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "demographic_mountain",
+            "right": "specialist_lineages"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-            "subject": "specialist_lineages",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2093,
+              "containment_left": 0.4219,
+              "containment_right": 0.2935,
+              "shared_terms": 27,
+              "left_terms": 64,
+              "right_terms": 92
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "demographic_mountain_revision"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "specialist_lineages"
+            ]
+          }
         },
-        "content_similarity": 0.2137
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -540,48 +970,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "WETLANDS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2082,
+              "containment_left": 0.2082,
+              "containment_right": 1.0,
+              "shared_terms": 51,
+              "left_terms": 245,
+              "right_terms": 51
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/wetlands",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.2097
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -593,48 +1066,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-            "subject": "partnership",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "partnership",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2159,
+              "containment_left": 0.2728,
+              "containment_right": 0.5087,
+              "shared_terms": 233,
+              "left_terms": 854,
+              "right_terms": 458
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_partnership"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ]
+          }
         },
-        "content_similarity": 0.2171
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -648,44 +1164,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "RIVER",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "DESERT",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1858,
+              "containment_left": 0.4773,
+              "containment_right": 0.2333,
+              "shared_terms": 21,
+              "left_terms": 44,
+              "right_terms": 90
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/desert",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1913
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -699,48 +1258,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-            "subject": "partnership",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "partnership",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2091,
+              "containment_left": 0.2529,
+              "containment_right": 0.5468,
+              "shared_terms": 216,
+              "left_terms": 854,
+              "right_terms": 395
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_partnership"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ]
+          }
         },
-        "content_similarity": 0.2108
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -754,44 +1356,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "COAST",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "RIVER",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1778,
+              "containment_left": 0.2581,
+              "containment_right": 0.3636,
+              "shared_terms": 16,
+              "left_terms": 62,
+              "right_terms": 44
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/coast",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1868
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -805,48 +1450,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-            "subject": "partnership",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "partnership",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "OVERLAPPING",
+            "statistics": {
+              "jaccard": 0.2029,
+              "containment_left": 0.26,
+              "containment_right": 0.4805,
+              "shared_terms": 222,
+              "left_terms": 854,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "MEDIUM",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_partnership"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
         },
-        "content_similarity": 0.2049
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "MEDIUM",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -858,48 +1546,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "SUPPORTING",
-      "reason": "support/reference role is structurally explicit",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-            "subject": "cultural",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "cultural",
+            "right": "governance_authority"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "SUPPORTING",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-            "subject": "governance_authority",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1979,
+              "containment_left": 0.3406,
+              "containment_right": 0.3208,
+              "shared_terms": 188,
+              "left_terms": 552,
+              "right_terms": 586
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "SUPPORTING",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "cultural_audit_checklist"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "governance_and_authority"
+            ]
+          }
         },
-        "content_similarity": 0.1994
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -913,44 +1644,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1933,
+              "containment_left": 0.3253,
+              "containment_right": 0.3225,
+              "shared_terms": 149,
+              "left_terms": 458,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
         },
-        "content_similarity": 0.199
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -966,44 +1740,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1915,
+              "containment_left": 0.3899,
+              "containment_right": 0.2734,
+              "shared_terms": 108,
+              "left_terms": 277,
+              "right_terms": 395
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "wetlands"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ]
+          }
         },
-        "content_similarity": 0.1965
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -1019,44 +1836,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-            "subject": "specialist_houses",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "specialist_houses",
+            "right": "specialist_lineages"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-            "subject": "specialist_lineages",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1921,
+              "containment_left": 0.2431,
+              "containment_right": 0.4783,
+              "shared_terms": 44,
+              "left_terms": 181,
+              "right_terms": 92
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/mountains",
+              "specialist_houses_canon"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "specialist_lineages"
+            ]
+          }
         },
-        "content_similarity": 0.194
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -1070,48 +1930,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "SUPPORTING",
-      "reason": "support/reference role is structurally explicit",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "SUPPORTING",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1923,
+              "containment_left": 0.2041,
+              "containment_right": 0.7692,
+              "shared_terms": 50,
+              "left_terms": 245,
+              "right_terms": 65
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "AUTHORITATIVE",
+            "right": "SUPPORTING"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/comparative",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1887
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -1123,48 +2026,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "PLAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1878,
+              "containment_left": 0.1878,
+              "containment_right": 1.0,
+              "shared_terms": 46,
+              "left_terms": 245,
+              "right_terms": 46
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/plains",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1895
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -1176,48 +2122,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "RIVER",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1796,
+              "containment_left": 0.1796,
+              "containment_right": 1.0,
+              "shared_terms": 44,
+              "left_terms": 245,
+              "right_terms": 44
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1815
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -1231,44 +2220,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1903,
+              "containment_left": 0.3468,
+              "containment_right": 0.2965,
+              "shared_terms": 137,
+              "left_terms": 395,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
         },
-        "content_similarity": 0.1937
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -1284,44 +2316,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1864,
+              "containment_left": 0.2926,
+              "containment_right": 0.3392,
+              "shared_terms": 134,
+              "left_terms": 458,
+              "right_terms": 395
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "plains"
+            ]
+          }
         },
-        "content_similarity": 0.1903
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -1337,44 +2412,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "WETLANDS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1646,
+              "containment_left": 0.2549,
+              "containment_right": 0.3171,
+              "shared_terms": 13,
+              "left_terms": 51,
+              "right_terms": 41
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/wetlands",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.175
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -1390,44 +2508,87 @@
       },
       "triage_status": "ESCALATE",
       "decision": "REVIEW",
-      "reason": "same structural identity but substantive content differs; deep investigation required",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1749,
+              "containment_left": 0.3971,
+              "containment_right": 0.2381,
+              "shared_terms": 110,
+              "left_terms": 277,
+              "right_terms": 462
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "wetlands"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "desert"
+            ]
+          }
         },
-        "content_similarity": 0.1803
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": true,
       "safety": {
@@ -1441,48 +2602,91 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "SUPPORTING",
-      "reason": "support/reference role is structurally explicit",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-            "subject": "cultural",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "one or more relationship layers remain ambiguous",
+      "layered_comparison": {
+        "decision": "REVIEW",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "DIFFERENT",
+            "left": "cultural",
+            "right": ""
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "SUPPORTING",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-            "subject": "",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": null,
               "continent": null,
               "regional_scope": false
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": false,
-          "same_content_type": true,
-          "same_scope": true
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1841,
+              "containment_left": 0.2844,
+              "containment_right": 0.3428,
+              "shared_terms": 157,
+              "left_terms": 552,
+              "right_terms": 458
+            }
+          },
+          "purpose": {
+            "state": "DIFFERENT",
+            "left": "SUPPORTING",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "cultural_audit_checklist"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth",
+              "coast"
+            ]
+          }
         },
-        "content_similarity": 0.1856
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "DIFFERENT",
+          "context": "SAME",
+          "information": "LOW",
+          "purpose": "DIFFERENT",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -1496,44 +2700,87 @@
       },
       "triage_status": "DIRECT",
       "decision": "RELATED",
-      "reason": "same subject identity but different regional scope; not a variant",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": "PLAINS",
               "continent": null,
               "regional_scope": true
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.16,
+              "containment_left": 0.2609,
+              "containment_right": 0.2927,
+              "shared_terms": 12,
+              "left_terms": 46,
+              "right_terms": 41
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/plains",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1711
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -1547,63 +2794,286 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
       },
-      "triage_status": "ESCALATE",
-      "decision": "REVIEW",
-      "reason": "structural identity/scope/function does not establish a safe direct classification",
-      "evidence": {
-        "identity": {
-          "left": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "layered relationship resolved directly",
+      "layered_comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
               "region": null,
               "continent": null,
               "regional_scope": false
             },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
-          },
-          "right": {
-            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-            "subject": "birth_childhood",
-            "content_type": "CULTURE",
-            "scope": {
+            "right": {
               "region": "MOUNTAINS",
               "continent": null,
               "regional_scope": true
-            },
-            "role": "AUTHORITATIVE",
-            "identity_basis": [
-              "path",
-              "filename"
-            ]
+            }
           },
-          "same_subject": true,
-          "same_content_type": true,
-          "same_scope": false
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1673,
+              "containment_left": 0.1673,
+              "containment_right": 1.0,
+              "shared_terms": 41,
+              "left_terms": 245,
+              "right_terms": 41
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/mountains",
+              "family_birth_childhood"
+            ]
+          }
         },
-        "content_similarity": 0.1694
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
       },
-      "deep_investigation_required": true,
+      "deep_investigation_required": false,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
       }
     }
   ],
+  "calibration": [
+    {
+      "left": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md",
+      "right": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md",
+      "expected": "VARIANT",
+      "actual": "VARIANT",
+      "pass": true,
+      "comparison": {
+        "decision": "VARIANT",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "WORLD_ARTIFACT",
+            "right": "WORLD_ARTIFACT"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "peoples_cultural_base",
+            "right": "peoples_cultural_base"
+          },
+          "context": {
+            "state": "SAME",
+            "left": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "right": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            }
+          },
+          "content": {
+            "state": "NEAR_SAME",
+            "statistics": {
+              "jaccard": 0.4222,
+              "containment_left": 0.8261,
+              "containment_right": 0.4634,
+              "shared_terms": 152,
+              "left_terms": 184,
+              "right_terms": 328
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "HISTORICAL",
+            "right": "HISTORICAL"
+          },
+          "information_overlap": {
+            "state": "HIGH",
+            "informational_equivalence": true
+          },
+          "revision_lineage": {
+            "state": "SAME",
+            "left": [
+              "07_archive/historical/hearth_cultures",
+              "hearth_desert_peoples_cultural_base"
+            ],
+            "right": [
+              "07_archive/historical/hearth_cultures",
+              "hearth_desert_peoples_cultural_base"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "SAME",
+          "information": "HIGH",
+          "purpose": "SAME",
+          "revision_lineage": "SAME"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      }
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected": "RELATED",
+      "actual": "RELATED",
+      "pass": true,
+      "comparison": {
+        "decision": "RELATED",
+        "layers": {
+          "category": {
+            "state": "SAME",
+            "left": "CULTURE",
+            "right": "CULTURE"
+          },
+          "subject": {
+            "state": "SAME",
+            "left": "birth_childhood",
+            "right": "birth_childhood"
+          },
+          "context": {
+            "state": "DIFFERENT",
+            "left": {
+              "region": "DESERT",
+              "continent": null,
+              "regional_scope": true
+            },
+            "right": {
+              "region": "RIVER",
+              "continent": null,
+              "regional_scope": true
+            }
+          },
+          "content": {
+            "state": "DIFFERENT",
+            "statistics": {
+              "jaccard": 0.1858,
+              "containment_left": 0.2333,
+              "containment_right": 0.4773,
+              "shared_terms": 21,
+              "left_terms": 90,
+              "right_terms": 44
+            }
+          },
+          "purpose": {
+            "state": "SAME",
+            "left": "AUTHORITATIVE",
+            "right": "AUTHORITATIVE"
+          },
+          "information_overlap": {
+            "state": "LOW",
+            "informational_equivalence": false
+          },
+          "revision_lineage": {
+            "state": "DIFFERENT",
+            "left": [
+              "03_peoples/cultures/hearth/desert",
+              "family_birth_childhood"
+            ],
+            "right": [
+              "03_peoples/cultures/hearth/river",
+              "family_birth_childhood"
+            ]
+          }
+        },
+        "decision_basis": {
+          "category": "SAME",
+          "subject": "SAME",
+          "context": "DIFFERENT",
+          "information": "LOW",
+          "purpose": "SAME",
+          "revision_lineage": "DIFFERENT"
+        },
+        "rules": {
+          "variant_requires": [
+            "same category",
+            "same subject",
+            "same relevant context",
+            "same underlying information"
+          ],
+          "revision_evidence": [
+            "same normalized document key in same directory is explicit revision lineage"
+          ],
+          "related_trigger": [
+            "same conceptual category/subject with different context or materially different information"
+          ]
+        }
+      }
+    }
+  ],
   "summary": {
     "cases": 30,
-    "direct_triage": 12,
-    "deep_investigation": 18,
+    "direct_triage": 21,
+    "deep_investigation": 9,
     "decisions": {
-      "REVIEW": 18,
-      "RELATED": 8,
-      "SUPPORTING": 4
-    }
+      "RELATED": 21,
+      "REVIEW": 9
+    },
+    "calibration_cases": 2,
+    "calibration_passed": 2,
+    "calibration_failed": 0
   },
   "safety": {
     "human_validation_required": true,

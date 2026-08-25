@@ -6,121 +6,8 @@
   "cases": [
     {
       "relationship_id": "REL-ead9ec80b42f820d",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -133,241 +20,15 @@
     },
     {
       "relationship_id": "REL-9c7fbdc858131086",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
     {
       "relationship_id": "REL-341efe5ddc2482a6",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -401,481 +62,29 @@
     },
     {
       "relationship_id": "REL-d2769ca87432c610",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
     {
       "relationship_id": "REL-9119c7e451067bdb",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
     {
       "relationship_id": "REL-e37bc5dc52f71e21",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
     {
       "relationship_id": "REL-b14ccfa2f792b164",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -888,121 +97,8 @@
     },
     {
       "relationship_id": "REL-9356c781e2ab7917",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -1015,6 +111,13 @@
     },
     {
       "relationship_id": "REL-b530ce6659fa3717",
+      "decisions": [],
+      "status": "UNRESOLVED",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
+    },
+    {
+      "relationship_id": "REL-d760a97344d0c388",
       "decisions": [
         {
           "dimension": "subject",
@@ -1060,9 +163,9 @@
         },
         {
           "dimension": "importance",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -1088,9 +191,9 @@
         },
         {
           "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -1116,9 +219,9 @@
         },
         {
           "dimension": "usability",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -1130,13 +233,6 @@
         }
       ],
       "status": "ESCALATE",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
-    },
-    {
-      "relationship_id": "REL-d760a97344d0c388",
-      "decisions": [],
-      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -1502,248 +598,135 @@
     },
     {
       "relationship_id": "REL-05ae219e967b33df",
+      "decisions": [
+        {
+          "dimension": "subject",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "scope",
+          "cross_state": "CORROBORATED",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "Batman and Robin provide compatible evidence"
+        },
+        {
+          "dimension": "scale",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "function",
+          "cross_state": "CORROBORATED",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "Batman and Robin provide compatible evidence"
+        },
+        {
+          "dimension": "depth",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "canon_status",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "importance",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "development_state",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "relationship",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "dependency",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "consequence",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "provenance",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "intentionality",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "coherence",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "usability",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
+          "dimension": "story_relevance",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        }
+      ],
+      "status": "ESCALATE",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
+    },
+    {
+      "relationship_id": "REL-57b3e2bb2bf24c47",
       "decisions": [],
       "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
     {
-      "relationship_id": "REL-57b3e2bb2bf24c47",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
-    },
-    {
       "relationship_id": "REL-78aa0ac023ba1f89",
-      "decisions": [
-        {
-          "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "coverage or evidence remains incomplete"
-        }
-      ],
-      "status": "ESCALATE",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     },
@@ -2116,20 +1099,6 @@
     },
     {
       "relationship_id": "REL-773193a03cf54926",
-      "decisions": [],
-      "status": "UNRESOLVED",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
-    },
-    {
-      "relationship_id": "REL-1405f0ab574f068e",
-      "decisions": [],
-      "status": "UNRESOLVED",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
-    },
-    {
-      "relationship_id": "REL-53a134160c6d375a",
       "decisions": [
         {
           "dimension": "subject",
@@ -2147,9 +1116,9 @@
         },
         {
           "dimension": "scale",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -2175,44 +1144,44 @@
         },
         {
           "dimension": "importance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "development_state",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "relationship",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "dependency",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "consequence",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "provenance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -2238,13 +1207,27 @@
         },
         {
           "dimension": "story_relevance",
-          "cross_state": "UNRESOLVED",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         }
       ],
       "status": "ESCALATE",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "decisions": [],
+      "status": "UNRESOLVED",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "decisions": [],
+      "status": "UNRESOLVED",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction or evidence gap"
     }
@@ -2252,8 +1235,8 @@
   "summary": {
     "cases": 30,
     "resolved": 0,
-    "escalate": 18,
-    "unresolved": 12
+    "escalate": 9,
+    "unresolved": 21
   },
   "safety": {
     "human_validation_required": true,

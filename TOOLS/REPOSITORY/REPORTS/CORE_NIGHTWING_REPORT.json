@@ -6,152 +6,7 @@
   "cases": [
     {
       "relationship_id": "REL-ead9ec80b42f820d",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -161,302 +16,12 @@
     },
     {
       "relationship_id": "REL-9c7fbdc858131086",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-341efe5ddc2482a6",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -481,602 +46,22 @@
     },
     {
       "relationship_id": "REL-d2769ca87432c610",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-9119c7e451067bdb",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-e37bc5dc52f71e21",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-b14ccfa2f792b164",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -1086,152 +71,7 @@
     },
     {
       "relationship_id": "REL-9356c781e2ab7917",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -1241,6 +81,11 @@
     },
     {
       "relationship_id": "REL-b530ce6659fa3717",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-d760a97344d0c388",
       "dimensions": [
         {
           "dimension": "subject",
@@ -1298,10 +143,10 @@
         },
         {
           "dimension": "importance",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
@@ -1334,10 +179,10 @@
         },
         {
           "dimension": "consequence",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
@@ -1370,10 +215,10 @@
         },
         {
           "dimension": "usability",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
@@ -1387,11 +232,6 @@
           }
         }
       ],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-d760a97344d0c388",
-      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -1846,307 +686,162 @@
     },
     {
       "relationship_id": "REL-05ae219e967b33df",
-      "dimensions": [],
+      "dimensions": [
+        {
+          "dimension": "subject",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "scope",
+          "verdict": "CONVERGENT",
+          "basis": {
+            "batman_answered": true,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "scale",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "function",
+          "verdict": "CONVERGENT",
+          "basis": {
+            "batman_answered": true,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "depth",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "canon_status",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "importance",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "development_state",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "relationship",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "dependency",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "consequence",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "provenance",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "intentionality",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "coherence",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "usability",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "story_relevance",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        }
+      ],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-57b3e2bb2bf24c47",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
       "relationship_id": "REL-78aa0ac023ba1f89",
-      "dimensions": [
-        {
-          "dimension": "subject",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scope",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "scale",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "function",
-          "verdict": "CONVERGENT",
-          "basis": {
-            "batman_answered": true,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "depth",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "canon_status",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "importance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "development_state",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "relationship",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "dependency",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "consequence",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "provenance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "intentionality",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "coherence",
-          "verdict": "PARTIAL",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "usability",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_factor_support": false,
-            "oracle_context": true
-          }
-        }
-      ],
+      "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -2606,16 +1301,6 @@
     },
     {
       "relationship_id": "REL-773193a03cf54926",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-1405f0ab574f068e",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-53a134160c6d375a",
       "dimensions": [
         {
           "dimension": "subject",
@@ -2637,10 +1322,10 @@
         },
         {
           "dimension": "scale",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
@@ -2673,55 +1358,55 @@
         },
         {
           "dimension": "importance",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "development_state",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "relationship",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "dependency",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "consequence",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "provenance",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         },
@@ -2754,22 +1439,32 @@
         },
         {
           "dimension": "story_relevance",
-          "verdict": "UNRESOLVED",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": false,
+            "robin_factor_support": true,
             "oracle_context": true
           }
         }
       ],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     }
   ],
   "summary": {
     "cases": 30,
-    "convergent_dimensions": 36,
-    "partial_dimensions": 155,
+    "convergent_dimensions": 18,
+    "partial_dimensions": 92,
     "contradictory_dimensions": 0,
-    "unresolved_dimensions": 97
+    "unresolved_dimensions": 34
   }
 }

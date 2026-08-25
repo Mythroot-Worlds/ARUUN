@@ -3,6 +3,6 @@
 {
   "cases": 30,
   "resolved": 0,
-  "escalate": 18,
-  "unresolved": 12
+  "escalate": 9,
+  "unresolved": 21
 }

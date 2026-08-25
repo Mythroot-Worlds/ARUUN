@@ -1663,8 +1663,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -1690,7 +1690,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -7602,8 +7603,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -7627,7 +7628,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -13507,8 +13509,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -13536,7 +13538,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -19397,8 +19400,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -19432,7 +19435,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -25288,8 +25292,8 @@
       "relationship_reasoning": {
         "decision": "SUPPORTING",
         "confidence": "HIGH",
-        "decision_basis": "One document is an explicitly comparative/derived secondary layer while the other is authoritative source material for the same subject.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "One document is explicitly comparative/derived secondary material while the other is source material for the same subject.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "SUPPORTING"
         ],
@@ -25325,7 +25329,8 @@
           "subject",
           "purpose",
           "content"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -31232,8 +31237,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -31259,7 +31264,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -37213,8 +37219,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -37238,7 +37244,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -43250,8 +43257,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -43279,7 +43286,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -49151,8 +49159,8 @@
       "relationship_reasoning": {
         "decision": "RELATED",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; the artifacts are not variants of the same information.",
-        "reasoning_mode": "layered_then_factor_adjudication",
+        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
+        "reasoning_mode": "layered_ontology_authoritative",
         "candidates": [
           "RELATED"
         ],
@@ -49176,7 +49184,8 @@
         "decisive_layers": [
           "category",
           "subject"
-        ]
+        ],
+        "legacy_exemplar_override": false
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",

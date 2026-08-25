@@ -1,23 +1,17 @@
 {
   "engine": "CORE VARIANT Gate",
-  "schema_version": "2.0",
+  "schema_version": "3.0",
   "mode": "READ_ONLY",
-  "definition": "VARIANT means near-equivalent informational content: same subject, scope, time, purpose, role, and substantially equivalent underlying information. Wording, presentation, formatting, and modest detail may differ.",
+  "definition": "VARIANT means near-equivalent informational content for the same subject within the same scope, document role, purpose, and applicable time. Wording, presentation, formatting, and modest detail may differ. Similar information across different regions is not VARIANT.",
   "candidate_count": 70,
   "variant_candidates": 0,
   "rejected_variant_candidates": 70,
   "relationships": [
     {
-      "relationship_id": "REL-ead9ec80b42f820d",
+      "relationship_id": "VAR-1263242d",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 90,
-      "jaccard": 0.375,
-      "match_strength": 5,
-      "match_strength_label": "Near Certain",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6606,
         "a_to_b": 0.3211,
@@ -355,20 +349,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.6532,
         "informational_equivalence": 0.6532,
@@ -377,16 +369,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "relationship_id": "VAR-887f848a",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 23,
-      "jaccard": 0.2584,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2802,
         "a_to_b": 0.2706,
@@ -483,20 +469,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1847,
         "informational_equivalence": 0.1847,
@@ -505,16 +489,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-9c7fbdc858131086",
+      "relationship_id": "VAR-a3722fa0",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 62,
-      "jaccard": 0.2583,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6401,
         "a_to_b": 0.2801,
@@ -810,20 +788,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.6233,
         "informational_equivalence": 0.6233,
@@ -832,16 +808,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-341efe5ddc2482a6",
+      "relationship_id": "VAR-ea09be2e",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 286,
-      "jaccard": 0.2544,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1879,
         "a_to_b": 0.1745,
@@ -3381,19 +3351,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1709,
         "informational_equivalence": 0.1709,
@@ -3402,16 +3371,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-90b218660b55f84f",
+      "relationship_id": "VAR-a554e882",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 19,
-      "jaccard": 0.25,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2372,
         "a_to_b": 0.2372,
@@ -3502,20 +3465,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.136,
         "informational_equivalence": 0.136,
@@ -3524,16 +3485,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-50cd84d073a9394d",
+      "relationship_id": "VAR-ec72cd87",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 18,
-      "jaccard": 0.25,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2082,
         "a_to_b": 0.2123,
@@ -3618,20 +3573,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0916,
         "informational_equivalence": 0.0916,
@@ -3640,16 +3593,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-3fb322fe3ce82be1",
+      "relationship_id": "VAR-d4964dc4",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 18,
-      "jaccard": 0.2338,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2499,
         "a_to_b": 0.2399,
@@ -3734,20 +3681,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1481,
         "informational_equivalence": 0.1481,
@@ -3756,16 +3701,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-63e65f85b9949f10",
+      "relationship_id": "VAR-dad3628a",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "shared_terms": 258,
-      "jaccard": 0.2295,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1721,
         "a_to_b": 0.1528,
@@ -6095,19 +6034,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1511,
         "informational_equivalence": 0.1511,
@@ -6116,16 +6054,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-d2769ca87432c610",
+      "relationship_id": "VAR-ac7ff5e5",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "shared_terms": 134,
-      "jaccard": 0.2248,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1488,
         "a_to_b": 0.1947,
@@ -6661,19 +6593,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1265,
         "informational_equivalence": 0.1265,
@@ -6682,16 +6613,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-9119c7e451067bdb",
+      "relationship_id": "VAR-bc6e5776",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "shared_terms": 28,
-      "jaccard": 0.224,
-      "match_strength": 4,
-      "match_strength_label": "Strong",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.264,
         "a_to_b": 0.2948,
@@ -6820,7 +6745,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -6828,10 +6753,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.2255,
         "informational_equivalence": 0.2255,
@@ -6840,16 +6765,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-e37bc5dc52f71e21",
+      "relationship_id": "VAR-abf3e7fd",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 50,
-      "jaccard": 0.2083,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6294,
         "a_to_b": 0.2589,
@@ -7139,20 +7058,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.615,
         "informational_equivalence": 0.615,
@@ -7161,16 +7078,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-b14ccfa2f792b164",
+      "relationship_id": "VAR-8a79719b",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "shared_terms": 222,
-      "jaccard": 0.2081,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1505,
         "a_to_b": 0.1289,
@@ -9218,19 +9129,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.131,
         "informational_equivalence": 0.131,
@@ -9239,16 +9149,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-6393b0e5604c64be",
+      "relationship_id": "VAR-4b1e198d",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 23,
-      "jaccard": 0.2054,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.226,
         "a_to_b": 0.235,
@@ -9363,20 +9267,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.115,
         "informational_equivalence": 0.115,
@@ -9385,16 +9287,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-9356c781e2ab7917",
+      "relationship_id": "VAR-45a516aa",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "shared_terms": 207,
-      "jaccard": 0.2033,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1512,
         "a_to_b": 0.1216,
@@ -11310,19 +11206,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1376,
         "informational_equivalence": 0.1376,
@@ -11331,16 +11226,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-feb21b4aefc7a187",
+      "relationship_id": "VAR-6ab73a40",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 18,
-      "jaccard": 0.2022,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2345,
         "a_to_b": 0.2299,
@@ -11437,20 +11326,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1282,
         "informational_equivalence": 0.1282,
@@ -11459,16 +11346,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-b530ce6659fa3717",
+      "relationship_id": "VAR-e36fcf93",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 214,
-      "jaccard": 0.198,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1539,
         "a_to_b": 0.1351,
@@ -13558,19 +13439,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1441,
         "informational_equivalence": 0.1441,
@@ -13579,16 +13459,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-d760a97344d0c388",
+      "relationship_id": "VAR-81e82030",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 182,
-      "jaccard": 0.1944,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1456,
         "a_to_b": 0.1604,
@@ -15108,19 +14982,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1225,
         "informational_equivalence": 0.1225,
@@ -15129,16 +15002,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-eefa3db53e167615",
+      "relationship_id": "VAR-13caa209",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 148,
-      "jaccard": 0.1942,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1384,
         "a_to_b": 0.1437,
@@ -16010,19 +15877,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1256,
         "informational_equivalence": 0.1256,
@@ -16031,16 +15897,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-999325433c79bc99",
+      "relationship_id": "VAR-ec99feb1",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "shared_terms": 108,
-      "jaccard": 0.1935,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1642,
@@ -16444,19 +16304,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1177,
         "informational_equivalence": 0.1177,
@@ -16465,16 +16324,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-f51bfc99cb5d96a7",
+      "relationship_id": "VAR-999870e8",
       "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "shared_terms": 44,
-      "jaccard": 0.193,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1764,
         "a_to_b": 0.164,
@@ -16639,17 +16492,17 @@
         "gates": {
           "subject": false,
           "scope": true,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1543,
         "informational_equivalence": 0.1543,
@@ -16658,16 +16511,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-05ae219e967b33df",
+      "relationship_id": "VAR-8a2fbf08",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 49,
-      "jaccard": 0.1914,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2558,
         "a_to_b": 0.0934,
@@ -16861,19 +16708,16 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "scope": true,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.2318,
         "informational_equivalence": 0.2318,
@@ -16882,16 +16726,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "relationship_id": "VAR-b42e0c3c",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 45,
-      "jaccard": 0.1875,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6089,
         "a_to_b": 0.2178,
@@ -17181,20 +17019,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.5952,
         "informational_equivalence": 0.5952,
@@ -17203,16 +17039,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-78aa0ac023ba1f89",
+      "relationship_id": "VAR-9417683a",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 45,
-      "jaccard": 0.1875,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6266,
         "a_to_b": 0.2533,
@@ -17508,20 +17338,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.6114,
         "informational_equivalence": 0.6114,
@@ -17530,16 +17358,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-fad598e6ee381f08",
+      "relationship_id": "VAR-f353c2eb",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 133,
-      "jaccard": 0.1865,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1408,
         "a_to_b": 0.1491,
@@ -18267,19 +18089,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1249,
         "informational_equivalence": 0.1249,
@@ -18288,16 +18109,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-675f7dc38c063173",
+      "relationship_id": "VAR-b3b5df1d",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "shared_terms": 131,
-      "jaccard": 0.1848,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1206,
@@ -19019,19 +18834,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.115,
         "informational_equivalence": 0.115,
@@ -19040,16 +18854,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-2bccf3bd93305a2f",
+      "relationship_id": "VAR-d69808fa",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 14,
-      "jaccard": 0.1795,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.197,
         "a_to_b": 0.197,
@@ -19140,20 +18948,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1049,
         "informational_equivalence": 0.1049,
@@ -19162,16 +18968,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-93788d9bb20b191c",
+      "relationship_id": "VAR-857653dd",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 111,
-      "jaccard": 0.1776,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1388,
         "a_to_b": 0.188,
@@ -19701,19 +19501,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1185,
         "informational_equivalence": 0.1185,
@@ -19722,16 +19521,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-773193a03cf54926",
+      "relationship_id": "VAR-34fc7b17",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "shared_terms": 150,
-      "jaccard": 0.1771,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1318,
         "a_to_b": 0.1245,
@@ -20819,19 +20612,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1175,
         "informational_equivalence": 0.1175,
@@ -20840,16 +20632,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-1405f0ab574f068e",
+      "relationship_id": "VAR-8989eb3f",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 13,
-      "jaccard": 0.1757,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2075,
         "a_to_b": 0.212,
@@ -20934,20 +20720,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.107,
         "informational_equivalence": 0.107,
@@ -20956,16 +20740,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-53a134160c6d375a",
+      "relationship_id": "VAR-bf9c2b02",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 42,
-      "jaccard": 0.175,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.6339,
         "a_to_b": 0.2679,
@@ -21231,20 +21009,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.6068,
         "informational_equivalence": 0.6068,
@@ -21253,16 +21029,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-30f5a9626f7e6afd",
+      "relationship_id": "VAR-16aeb695",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 17,
-      "jaccard": 0.1735,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1203,
         "a_to_b": 0.123,
@@ -21337,18 +21107,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0202,
         "informational_equivalence": 0.0202,
@@ -21357,16 +21125,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-b329cd231d2727ad",
+      "relationship_id": "VAR-963bfd08",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 15,
-      "jaccard": 0.1685,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.188,
         "a_to_b": 0.1808,
@@ -21463,20 +21225,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0951,
         "informational_equivalence": 0.0951,
@@ -21485,16 +21245,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-f4e20b002bded05b",
+      "relationship_id": "VAR-b66f4766",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 146,
-      "jaccard": 0.165,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1205,
@@ -22750,19 +22504,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1086,
         "informational_equivalence": 0.1086,
@@ -22771,16 +22524,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-d1a7bee30a221feb",
+      "relationship_id": "VAR-d7a26faf",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 15,
-      "jaccard": 0.163,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1983,
         "a_to_b": 0.1929,
@@ -22871,20 +22618,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0862,
         "informational_equivalence": 0.0862,
@@ -22893,16 +22638,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-bd1c8665a244842a",
+      "relationship_id": "VAR-a2871692",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 142,
-      "jaccard": 0.1608,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1349,
         "a_to_b": 0.1469,
@@ -24170,19 +23909,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1158,
         "informational_equivalence": 0.1158,
@@ -24191,16 +23929,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-e0cced50cb5960dc",
+      "relationship_id": "VAR-2e9d71cb",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 21,
-      "jaccard": 0.1603,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1939,
         "a_to_b": 0.2072,
@@ -24321,20 +24053,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0848,
         "informational_equivalence": 0.0848,
@@ -24343,16 +24073,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-7770c1de53d22d03",
+      "relationship_id": "VAR-bebb8937",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 12,
-      "jaccard": 0.16,
-      "match_strength": 3,
-      "match_strength_label": "Moderate",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1934,
         "a_to_b": 0.1934,
@@ -24443,20 +24167,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0934,
         "informational_equivalence": 0.0934,
@@ -24465,16 +24187,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-bb7994106d0f01f6",
+      "relationship_id": "VAR-06e889d2",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 138,
-      "jaccard": 0.1595,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1271,
         "a_to_b": 0.1237,
@@ -25550,19 +25266,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1056,
         "informational_equivalence": 0.1056,
@@ -25571,16 +25286,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "relationship_id": "VAR-2fc80c67",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 147,
-      "jaccard": 0.1581,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1665,
         "a_to_b": 0.1291,
@@ -27430,19 +27139,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1405,
         "informational_equivalence": 0.1405,
@@ -27451,16 +27159,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-691ab0ffea5a8ddd",
+      "relationship_id": "VAR-1f9956c5",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 18,
-      "jaccard": 0.1579,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2282,
         "a_to_b": 0.2041,
@@ -27575,20 +27277,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1165,
         "informational_equivalence": 0.1165,
@@ -27597,16 +27297,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-51f1b244d00d546d",
+      "relationship_id": "VAR-f6d0aace",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 15,
-      "jaccard": 0.1579,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1348,
         "a_to_b": 0.144,
@@ -27675,18 +27369,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0271,
         "informational_equivalence": 0.0271,
@@ -27695,16 +27387,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-5371fbbbcd98ffd1",
+      "relationship_id": "VAR-5174c9a8",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 15,
-      "jaccard": 0.1579,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1212,
         "a_to_b": 0.1238,
@@ -27779,18 +27465,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0148,
         "informational_equivalence": 0.0148,
@@ -27799,16 +27483,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-6ec15f56d38ae655",
+      "relationship_id": "VAR-d2aa30bd",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 19,
-      "jaccard": 0.157,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1717,
         "a_to_b": 0.1787,
@@ -27923,20 +27601,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0723,
         "informational_equivalence": 0.0723,
@@ -27945,16 +27621,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-879f1faee1124f5d",
+      "relationship_id": "VAR-3325001e",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "shared_terms": 151,
-      "jaccard": 0.1566,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0938,
         "a_to_b": 0.0687,
@@ -29660,19 +29330,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0801,
         "informational_equivalence": 0.0801,
@@ -29681,16 +29350,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-dffe4c73e4cfa6b9",
+      "relationship_id": "VAR-38ccde40",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "shared_terms": 111,
-      "jaccard": 0.1559,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0765,
         "a_to_b": 0.0639,
@@ -30436,19 +30099,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0682,
         "informational_equivalence": 0.0682,
@@ -30457,16 +30119,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-23635a2218f45fb1",
+      "relationship_id": "VAR-bca220aa",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 127,
-      "jaccard": 0.1523,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1326,
         "a_to_b": 0.1443,
@@ -31608,19 +31264,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1197,
         "informational_equivalence": 0.1197,
@@ -31629,16 +31284,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-193f32ad2d9de810",
+      "relationship_id": "VAR-72883c84",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 17,
-      "jaccard": 0.1441,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2081,
         "a_to_b": 0.2307,
@@ -31747,20 +31396,18 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
-          "subject": false,
+          "subject": true,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
-          "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "same_subject_different_scope",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0885,
         "informational_equivalence": 0.0885,
@@ -31769,16 +31416,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-8bca83b957da6f2e",
+      "relationship_id": "VAR-fd387bc6",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 102,
-      "jaccard": 0.1435,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1217,
         "a_to_b": 0.1381,
@@ -32842,19 +32483,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.1041,
         "informational_equivalence": 0.1041,
@@ -32863,16 +32503,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-28ac4c37dd679ec6",
+      "relationship_id": "VAR-b196f508",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "shared_terms": 117,
-      "jaccard": 0.1434,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1152,
         "a_to_b": 0.1139,
@@ -33792,19 +33426,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0978,
         "informational_equivalence": 0.0978,
@@ -33813,16 +33446,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-ed6dfb7c702bc752",
+      "relationship_id": "VAR-590479e9",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "shared_terms": 78,
-      "jaccard": 0.1418,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1051,
         "a_to_b": 0.1088,
@@ -34388,19 +34015,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0956,
         "informational_equivalence": 0.0956,
@@ -34409,16 +34035,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-0b3c9d254927f41d",
+      "relationship_id": "VAR-bc27f61e",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "shared_terms": 104,
-      "jaccard": 0.1392,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0818,
         "a_to_b": 0.103,
@@ -35314,19 +34934,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0704,
         "informational_equivalence": 0.0704,
@@ -35335,16 +34954,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-af2a40ec0f6f2d0a",
+      "relationship_id": "VAR-587c3d32",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "shared_terms": 84,
-      "jaccard": 0.1382,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1055,
         "a_to_b": 0.111,
@@ -36012,19 +35625,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0917,
         "informational_equivalence": 0.0917,
@@ -36033,16 +35645,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-040e4a4a7cc22c80",
+      "relationship_id": "VAR-4236eea9",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "shared_terms": 93,
-      "jaccard": 0.1344,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.122,
         "a_to_b": 0.1306,
@@ -36884,19 +36490,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0884,
         "informational_equivalence": 0.0884,
@@ -36905,16 +36510,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-235e306bef3d4304",
+      "relationship_id": "VAR-ff85df3a",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "shared_terms": 80,
-      "jaccard": 0.1294,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.102,
         "a_to_b": 0.1085,
@@ -37600,19 +37199,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0877,
         "informational_equivalence": 0.0877,
@@ -37621,16 +37219,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-e793b0e075cf8c23",
+      "relationship_id": "VAR-d1ce90b1",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "shared_terms": 59,
-      "jaccard": 0.1285,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0907,
         "a_to_b": 0.0748,
@@ -38010,19 +37602,18 @@
         "descriptor": "UNRESOLVED",
         "gates": {
           "subject": false,
-          "scope": false,
-          "time": false,
+          "scope": true,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
-          "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0835,
         "informational_equivalence": 0.0835,
@@ -38031,16 +37622,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-232cec354bd43aba",
+      "relationship_id": "VAR-e25d0a30",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 71,
-      "jaccard": 0.1263,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0799,
         "a_to_b": 0.0645,
@@ -38487,7 +38072,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -38495,10 +38080,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0666,
         "informational_equivalence": 0.0666,
@@ -38507,16 +38092,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-72e255c74d740ee4",
+      "relationship_id": "VAR-4d7f38e1",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 27,
-      "jaccard": 0.125,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1241,
         "a_to_b": 0.1387,
@@ -38651,7 +38230,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -38659,10 +38238,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0925,
         "informational_equivalence": 0.0925,
@@ -38671,16 +38250,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-63c6ff0ac1ceecb0",
+      "relationship_id": "VAR-7417422a",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 14,
-      "jaccard": 0.1239,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1475,
@@ -38761,18 +38334,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.019,
         "informational_equivalence": 0.019,
@@ -38781,16 +38352,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-b224e377289a5822",
+      "relationship_id": "VAR-b85621ab",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 80,
-      "jaccard": 0.1238,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0723,
         "a_to_b": 0.0558,
@@ -39435,7 +39000,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -39443,10 +39008,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0583,
         "informational_equivalence": 0.0583,
@@ -39455,16 +39020,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-d9d112d54ea48658",
+      "relationship_id": "VAR-0d8b59d0",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 60,
-      "jaccard": 0.1179,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0735,
         "a_to_b": 0.0604,
@@ -39803,7 +39362,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -39811,10 +39370,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0646,
         "informational_equivalence": 0.0646,
@@ -39823,16 +39382,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-4fa696c3cbeb60db",
+      "relationship_id": "VAR-24480009",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 104,
-      "jaccard": 0.1138,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0919,
         "a_to_b": 0.0615,
@@ -41371,7 +40924,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -41379,10 +40932,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.085,
         "informational_equivalence": 0.085,
@@ -41391,16 +40944,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-8638cf21392a42fa",
+      "relationship_id": "VAR-52b509f7",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 76,
-      "jaccard": 0.1121,
-      "match_strength": 2,
-      "match_strength_label": "Weak",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1153,
         "a_to_b": 0.0755,
@@ -42159,7 +41706,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -42167,10 +41714,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0992,
         "informational_equivalence": 0.0992,
@@ -42179,16 +41726,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-c04041f0ac1c1e21",
+      "relationship_id": "VAR-06557098",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 45,
-      "jaccard": 0.1087,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.064,
         "a_to_b": 0.0619,
@@ -42383,7 +41924,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -42391,10 +41932,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0569,
         "informational_equivalence": 0.0569,
@@ -42403,16 +41944,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-ed460f945de5591e",
+      "relationship_id": "VAR-7090c954",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "shared_terms": 15,
-      "jaccard": 0.1071,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1328,
         "a_to_b": 0.1339,
@@ -42511,18 +42046,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0257,
         "informational_equivalence": 0.0257,
@@ -42531,16 +42064,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-8d381cdc12c23313",
+      "relationship_id": "VAR-3d0e6f64",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 40,
-      "jaccard": 0.105,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0789,
         "a_to_b": 0.0669,
@@ -42873,7 +42400,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -42881,10 +42408,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0656,
         "informational_equivalence": 0.0656,
@@ -42893,16 +42420,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-3a5d6786a3b536d1",
+      "relationship_id": "VAR-7cf98c70",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 10,
-      "jaccard": 0.1031,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1,
         "a_to_b": 0.1,
@@ -42977,18 +42498,16 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
-          "purpose": false,
-          "role": false,
+          "time": true,
+          "purpose": true,
+          "role": true,
           "claims": false
         },
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
-          "variant_gate_failed:purpose",
-          "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0,
         "informational_equivalence": 0.0,
@@ -42997,16 +42516,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-611f05a8b4f4793f",
+      "relationship_id": "VAR-769953c8",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 59,
-      "jaccard": 0.1017,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0721,
         "a_to_b": 0.0582,
@@ -43453,7 +42966,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -43461,10 +42974,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0621,
         "informational_equivalence": 0.0621,
@@ -43473,16 +42986,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-cff466521f8c52e3",
+      "relationship_id": "VAR-e3c5eb62",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "shared_terms": 61,
-      "jaccard": 0.1012,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.2609,
         "a_to_b": 0.1162,
@@ -44199,7 +43706,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -44207,10 +43714,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.2314,
         "informational_equivalence": 0.2314,
@@ -44219,16 +43726,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-55504e87091de8ae",
+      "relationship_id": "VAR-199162a2",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "shared_terms": 21,
-      "jaccard": 0.0946,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.0869,
         "a_to_b": 0.0903,
@@ -44345,7 +43846,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -44353,10 +43854,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0606,
         "informational_equivalence": 0.0606,
@@ -44365,16 +43866,10 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "REL-2aa256d2321cd8d4",
+      "relationship_id": "VAR-7a466796",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "shared_terms": 46,
-      "jaccard": 0.0916,
-      "match_strength": 1,
-      "match_strength_label": "Minimal",
-      "classification": "UNCLASSIFIED",
-      "status": "DISCOVERED_UNREVIEWED",
-      "review_required": true,
+      "source": "relationship_discovery",
       "pairwise_semantic_comparison": {
         "score": 0.1067,
         "a_to_b": 0.082,
@@ -44815,7 +44310,7 @@
         "gates": {
           "subject": false,
           "scope": false,
-          "time": false,
+          "time": true,
           "purpose": false,
           "role": false,
           "claims": false
@@ -44823,10 +44318,10 @@
         "reasons": [
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
-          "variant_gate_failed:time",
           "variant_gate_failed:purpose",
           "variant_gate_failed:role",
-          "variant_gate_failed:claims"
+          "variant_gate_failed:claims",
+          "time_unspecified_in_both_documents"
         ],
         "claim_overlap": 0.0847,
         "informational_equivalence": 0.0847,

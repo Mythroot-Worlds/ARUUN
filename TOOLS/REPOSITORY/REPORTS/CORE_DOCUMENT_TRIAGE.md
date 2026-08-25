@@ -18,7 +18,8 @@
   "identity_layer_counts": {
     "supporting_layer": 4,
     "regional_siblings": 8,
-    "same_subject_same_scope": 7
+    "same_subject_same_scope": 7,
+    "authoritative_pairs": 26
   },
   "decisions": {
     "RELATED": 21,

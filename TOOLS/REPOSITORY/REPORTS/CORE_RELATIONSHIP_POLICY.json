@@ -1,0 +1,332 @@
+{
+  "engine": "CORE Relationship Policy Validator",
+  "ontology_version": "2.0",
+  "policy": {
+    "variant": "same underlying information in the same relevant context; wording/detail/version differences allowed",
+    "related": "meaningful conceptual relationship with materially different context or information",
+    "regional_rule": "different regional groups are RELATED, not VARIANT"
+  },
+  "cases": [
+    {
+      "left": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md",
+      "right": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md",
+      "expected": "VARIANT",
+      "actual": "VARIANT",
+      "pass": true,
+      "status": "TESTED",
+      "reason": "explicit revision example",
+      "layers": {
+        "category": {
+          "state": "SAME",
+          "left": "WORLD_ARTIFACT",
+          "right": "WORLD_ARTIFACT"
+        },
+        "subject": {
+          "state": "SAME",
+          "left": "peoples_cultural_base",
+          "right": "peoples_cultural_base"
+        },
+        "context": {
+          "state": "SAME",
+          "left": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "right": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          }
+        },
+        "content": {
+          "state": "NEAR_SAME",
+          "statistics": {
+            "jaccard": 0.4222,
+            "containment_left": 0.8261,
+            "containment_right": 0.4634,
+            "shared_terms": 152,
+            "left_terms": 184,
+            "right_terms": 328
+          }
+        },
+        "purpose": {
+          "state": "SAME",
+          "left": "HISTORICAL",
+          "right": "HISTORICAL"
+        },
+        "information_overlap": {
+          "state": "HIGH",
+          "informational_equivalence": true
+        },
+        "revision_lineage": {
+          "state": "SAME",
+          "left": [
+            "07_archive/historical/hearth_cultures",
+            "hearth_desert_peoples_cultural_base"
+          ],
+          "right": [
+            "07_archive/historical/hearth_cultures",
+            "hearth_desert_peoples_cultural_base"
+          ]
+        },
+        "path": {
+          "left": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md",
+          "right": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md"
+        }
+      },
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "SAME",
+        "information": "HIGH",
+        "purpose": "SAME",
+        "revision_lineage": "SAME"
+      }
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected": "RELATED",
+      "actual": "RELATED",
+      "pass": true,
+      "status": "TESTED",
+      "reason": "same subject, different regional context",
+      "layers": {
+        "category": {
+          "state": "SAME",
+          "left": "CULTURE",
+          "right": "CULTURE"
+        },
+        "subject": {
+          "state": "SAME",
+          "left": "birth_childhood",
+          "right": "birth_childhood"
+        },
+        "context": {
+          "state": "DIFFERENT",
+          "left": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "right": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          }
+        },
+        "content": {
+          "state": "DIFFERENT",
+          "statistics": {
+            "jaccard": 0.1858,
+            "containment_left": 0.2333,
+            "containment_right": 0.4773,
+            "shared_terms": 21,
+            "left_terms": 90,
+            "right_terms": 44
+          }
+        },
+        "purpose": {
+          "state": "SAME",
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE"
+        },
+        "information_overlap": {
+          "state": "LOW",
+          "informational_equivalence": false
+        },
+        "revision_lineage": {
+          "state": "DIFFERENT",
+          "left": [
+            "03_peoples/cultures/hearth/desert",
+            "family_birth_childhood"
+          ],
+          "right": [
+            "03_peoples/cultures/hearth/river",
+            "family_birth_childhood"
+          ]
+        },
+        "path": {
+          "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+        }
+      },
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      }
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected": "RELATED",
+      "actual": "RELATED",
+      "pass": true,
+      "status": "TESTED",
+      "reason": "same subject, different regional context",
+      "layers": {
+        "category": {
+          "state": "SAME",
+          "left": "CULTURE",
+          "right": "CULTURE"
+        },
+        "subject": {
+          "state": "SAME",
+          "left": "birth_childhood",
+          "right": "birth_childhood"
+        },
+        "context": {
+          "state": "DIFFERENT",
+          "left": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "right": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          }
+        },
+        "content": {
+          "state": "OVERLAPPING",
+          "statistics": {
+            "jaccard": 0.2418,
+            "containment_left": 0.3548,
+            "containment_right": 0.4314,
+            "shared_terms": 22,
+            "left_terms": 62,
+            "right_terms": 51
+          }
+        },
+        "purpose": {
+          "state": "SAME",
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE"
+        },
+        "information_overlap": {
+          "state": "MEDIUM",
+          "informational_equivalence": false
+        },
+        "revision_lineage": {
+          "state": "DIFFERENT",
+          "left": [
+            "03_peoples/cultures/hearth/coast",
+            "family_birth_childhood"
+          ],
+          "right": [
+            "03_peoples/cultures/hearth/wetlands",
+            "family_birth_childhood"
+          ]
+        },
+        "path": {
+          "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md"
+        }
+      },
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "MEDIUM",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      }
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected": "RELATED",
+      "actual": "RELATED",
+      "pass": true,
+      "status": "TESTED",
+      "reason": "same subject, different regional context",
+      "layers": {
+        "category": {
+          "state": "SAME",
+          "left": "CULTURE",
+          "right": "CULTURE"
+        },
+        "subject": {
+          "state": "SAME",
+          "left": "birth_childhood",
+          "right": "birth_childhood"
+        },
+        "context": {
+          "state": "DIFFERENT",
+          "left": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "right": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          }
+        },
+        "content": {
+          "state": "DIFFERENT",
+          "statistics": {
+            "jaccard": 0.16,
+            "containment_left": 0.2609,
+            "containment_right": 0.2927,
+            "shared_terms": 12,
+            "left_terms": 46,
+            "right_terms": 41
+          }
+        },
+        "purpose": {
+          "state": "SAME",
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE"
+        },
+        "information_overlap": {
+          "state": "LOW",
+          "informational_equivalence": false
+        },
+        "revision_lineage": {
+          "state": "DIFFERENT",
+          "left": [
+            "03_peoples/cultures/hearth/plains",
+            "family_birth_childhood"
+          ],
+          "right": [
+            "03_peoples/cultures/hearth/mountains",
+            "family_birth_childhood"
+          ]
+        },
+        "path": {
+          "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+        }
+      },
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      }
+    }
+  ],
+  "legacy_policy_conflicts": [],
+  "summary": {
+    "policy_cases": 4,
+    "policy_passed": 4,
+    "policy_failed": 0,
+    "missing_fixtures": 0,
+    "legacy_policy_conflicts": 0
+  },
+  "safety": {
+    "historical_human_labels_preserved": true,
+    "automatic_rule_promotion": false,
+    "automatic_canon_change": false
+  }
+}

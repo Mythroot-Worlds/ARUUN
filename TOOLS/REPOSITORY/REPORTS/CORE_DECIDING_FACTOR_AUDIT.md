@@ -5,7 +5,7 @@ This report exposes where Batman has factor evidence outside its current operati
 Cases: **30**
 Ontology dimensions: **16**
 Current operational dimensions: **6**
-Cases with non-operational signals: **8**
-Non-operational signals: **78**
+Cases with non-operational signals: **3**
+Non-operational signals: **29**
 
 **Read-only. No relationship or canon decision is made by this audit.**

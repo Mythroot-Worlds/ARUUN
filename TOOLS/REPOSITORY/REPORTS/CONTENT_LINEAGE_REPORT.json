@@ -1,14 +1,119 @@
 {
   "mode": "READ_ONLY",
+  "identity_first": true,
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
-  "clusters": 1,
+  "clusters": 4,
   "clusters_detail": [
     {
-      "subject": "family_birth_childhood",
+      "subject": "readme",
+      "content_type": "TOOLING",
+      "documents": [
+        {
+          "path": "TOOLS/REPOSITORY/README.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "TOOLS/REPOSITORY/README.md",
+            "subject": "readme",
+            "content_type": "TOOLING",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "ARUUN Repository Tooling",
+            "`ARUUN_REPOSITORY_SCHEMA_v0.1.md`",
+            "`validate_repo.py`",
+            "Running the audit",
+            "Generated reports",
+            "Operating principle"
+          ],
+          "word_count": 120
+        },
+        {
+          "path": "TOOLS/REPOSITORY/RECONCILIATION/README.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "TOOLS/REPOSITORY/RECONCILIATION/README.md",
+            "subject": "readme",
+            "content_type": "TOOLING",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "ARUUN Reconciliation Layer"
+          ],
+          "word_count": 34
+        }
+      ],
+      "comparisons": [
+        {
+          "a": "TOOLS/REPOSITORY/README.md",
+          "b": "TOOLS/REPOSITORY/RECONCILIATION/README.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "SAME_SCOPE",
+          "sections_only_in_a": [
+            "aruun_repository_schema_v0_1_md",
+            "aruun_repository_tooling",
+            "generated_reports",
+            "operating_principle",
+            "running_the_audit",
+            "validate_repo_py"
+          ],
+          "sections_only_in_b": [
+            "aruun_reconciliation_layer"
+          ],
+          "unit_analysis": {},
+          "overall_similarity": 0.208
+        }
+      ],
+      "review_status": "UNRESOLVED"
+    },
+    {
+      "subject": "birth_childhood",
+      "content_type": "CULTURE",
       "documents": [
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
             "PLAINS",
@@ -24,7 +129,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "COAST",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -32,7 +152,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "WETLANDS",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -40,7 +175,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "PLAINS",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -48,7 +198,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "RIVER",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -56,7 +221,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "DESERT",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -64,7 +244,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "SUPPORTING",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -72,7 +267,22 @@
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-          "match_basis": "DIRECT_NAME",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+            "subject": "birth_childhood",
+            "content_type": "CULTURE",
+            "scope": {
+              "region": "MOUNTAINS",
+              "continent": null,
+              "regional_scope": true
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
           "sections": [
             "Birth, Childhood & Coming-of-Age"
           ],
@@ -83,6 +293,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -103,6 +324,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -123,6 +355,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -143,6 +386,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -163,6 +417,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -183,6 +448,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "SAME_SCOPE",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -203,6 +479,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [
             "birth_childhood_coming_of_age_working_canon_v0_1",
             "canon_note",
@@ -223,6 +510,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -266,6 +564,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -297,6 +606,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -329,6 +649,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -365,6 +696,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -406,6 +748,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "COAST",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -438,6 +791,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -479,6 +843,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -510,6 +885,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -545,6 +931,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -585,6 +982,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "WETLANDS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -616,6 +1024,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -646,6 +1065,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -680,6 +1110,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -719,6 +1160,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "PLAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -760,6 +1212,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -795,6 +1258,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -835,6 +1309,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "RIVER",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -866,6 +1351,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+          "scope_a": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -899,6 +1395,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": "DESERT",
+            "continent": null,
+            "regional_scope": true
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -945,6 +1452,17 @@
         {
           "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
           "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": "MOUNTAINS",
+            "continent": null,
+            "regional_scope": true
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
           "sections_only_in_a": [],
           "sections_only_in_b": [],
           "unit_analysis": {
@@ -981,6 +1499,567 @@
             }
           },
           "overall_similarity": 0.215
+        }
+      ],
+      "review_status": "UNRESOLVED"
+    },
+    {
+      "subject": "00_readme",
+      "content_type": "ECOLOGY",
+      "documents": [
+        {
+          "path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md",
+            "subject": "00_readme",
+            "content_type": "ECOLOGY",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "MYTHROOT FLORA CREATION PACKAGE v0.1"
+          ],
+          "word_count": 56
+        },
+        {
+          "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+            "subject": "00_readme",
+            "content_type": "ECOLOGY",
+            "scope": {
+              "region": null,
+              "continent": null,
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "Goal",
+            "Core workflow",
+            "Required references",
+            "Naming",
+            "Deliverable"
+          ],
+          "word_count": 120
+        }
+      ],
+      "comparisons": [
+        {
+          "a": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md",
+          "b": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+          "scope_a": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": null,
+            "regional_scope": false
+          },
+          "regional_scope_relation": "SAME_SCOPE",
+          "sections_only_in_a": [
+            "mythroot_flora_creation_package_v0_1"
+          ],
+          "sections_only_in_b": [
+            "core_workflow",
+            "deliverable",
+            "goal",
+            "naming",
+            "required_references"
+          ],
+          "unit_analysis": {},
+          "overall_similarity": 0.193
+        }
+      ],
+      "review_status": "UNRESOLVED"
+    },
+    {
+      "subject": "dossier",
+      "content_type": "GEOGRAPHY",
+      "documents": [
+        {
+          "path": "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "subject": "dossier",
+            "content_type": "GEOGRAPHY",
+            "scope": {
+              "region": null,
+              "continent": "SHATTERED",
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "Geography & Climate Reference \u2014 v0.1",
+            "Geographic identity",
+            "Major geographic structures",
+            "Climate",
+            "Largest fragment",
+            "Wetter fragments",
+            "Drier eastern fragments",
+            "Water system",
+            "Established ecological seed",
+            "Ecological identity",
+            "Artist's Map Brief",
+            "Open cartographic details"
+          ],
+          "word_count": 145
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+            "subject": "dossier",
+            "content_type": "GEOGRAPHY",
+            "scope": {
+              "region": null,
+              "continent": "RIFT",
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "Geography & Climate Reference \u2014 v0.1",
+            "Geographic identity",
+            "Major geographic structures",
+            "Highlands",
+            "Rift floor",
+            "Lakes and wetlands",
+            "Volcanic regions",
+            "Branches",
+            "Water system",
+            "Ecological identity",
+            "Artist's Map Brief",
+            "Open cartographic details"
+          ],
+          "word_count": 140
+        },
+        {
+          "path": "01_WORLD/CONTINENTS/LOST/DOSSIER.md",
+          "match_basis": "STRUCTURAL_IDENTITY",
+          "identity": {
+            "path": "01_WORLD/CONTINENTS/LOST/DOSSIER.md",
+            "subject": "dossier",
+            "content_type": "GEOGRAPHY",
+            "scope": {
+              "region": null,
+              "continent": "LOST",
+              "regional_scope": false
+            },
+            "role": "AUTHORITATIVE",
+            "identity_basis": [
+              "path",
+              "filename"
+            ]
+          },
+          "sections": [
+            "Geography & Climate Reference \u2014 v0.1",
+            "Geographic identity",
+            "Major geographic structures",
+            "Climate",
+            "Warm/moist coasts",
+            "Cooler/drier current coasts",
+            "Interior",
+            "Mountains",
+            "Interior basins",
+            "Ecological identity",
+            "Artist's Map Brief",
+            "Open cartographic details"
+          ],
+          "word_count": 135
+        }
+      ],
+      "comparisons": [
+        {
+          "a": "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+          "b": "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+          "scope_a": {
+            "region": null,
+            "continent": "SHATTERED",
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": "RIFT",
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
+          "sections_only_in_a": [
+            "climate",
+            "drier_eastern_fragments",
+            "established_ecological_seed",
+            "largest_fragment",
+            "wetter_fragments"
+          ],
+          "sections_only_in_b": [
+            "branches",
+            "highlands",
+            "lakes_and_wetlands",
+            "rift_floor",
+            "volcanic_regions"
+          ],
+          "unit_analysis": {
+            "artist_s_map_brief": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "Show several enormous continental fragments, one especially large western/central fragment, deep seas and straits, independent mountains, wet coastal zones, drier interiors, smaller islands, and geological relationships suggesting former connection without making the fragments clean puzzle pieces."
+              ],
+              "unique_to_b": [
+                "Show two enormous halves, an irregular central rift, large lakes/inland seas, wetlands, steep escarpments, highlands, volcanic zones, dry rift-floor basins, wet uplands, and sections where the rift is narrow versus wide."
+              ],
+              "possible_conflicts": []
+            },
+            "ecological_identity": {
+              "units_a": 0,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [],
+              "unique_to_b": [
+                "*Transition and instability.** Strong environmental gradients per unit distance."
+              ],
+              "possible_conflicts": []
+            },
+            "geographic_identity": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "Shattered is a former continental system divided into several enormous continental fragments. These are continental-scale islands, not a field of small islands."
+              ],
+              "unique_to_b": [
+                "Rift is one enormous continental system actively separating into two major halves. The rift is irregular and immature rather than a clean oceanic split."
+              ],
+              "possible_conflicts": []
+            },
+            "geography_climate_reference_v0_1": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "score": 1.0,
+                  "status": "LIKELY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": []
+            },
+            "major_geographic_structures": {
+              "units_a": 2,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "one especially large western/central fragment",
+                "several enormous eastern/northern fragments"
+              ],
+              "unique_to_b": [
+                "branching/variable rift geometry"
+              ],
+              "possible_conflicts": []
+            },
+            "open_cartographic_details": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+                  "b": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+                  "score": 0.687,
+                  "status": "POSSIBLY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": [
+                {
+                  "a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+                  "b": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+                  "reason": "similar evidence unit with material wording/content difference; human review required"
+                }
+              ]
+            },
+            "water_system": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "The seas separating fragments are major marine systems. Some straits are narrow and potentially strongly tidal; others form deep oceanic basins."
+              ],
+              "unique_to_b": [
+                "The rift creates a chain of major drainage basins, potentially freshwater, saline, seasonal, river-connected, inland-sea-connected, or intermittently isolated."
+              ],
+              "possible_conflicts": []
+            }
+          },
+          "overall_similarity": 0.407
+        },
+        {
+          "a": "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+          "b": "01_WORLD/CONTINENTS/LOST/DOSSIER.md",
+          "scope_a": {
+            "region": null,
+            "continent": "SHATTERED",
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": "LOST",
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
+          "sections_only_in_a": [
+            "drier_eastern_fragments",
+            "established_ecological_seed",
+            "largest_fragment",
+            "water_system",
+            "wetter_fragments"
+          ],
+          "sections_only_in_b": [
+            "cooler_drier_current_coasts",
+            "interior",
+            "interior_basins",
+            "mountains",
+            "warm_moist_coasts"
+          ],
+          "unit_analysis": {
+            "artist_s_map_brief": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "Show several enormous continental fragments, one especially large western/central fragment, deep seas and straits, independent mountains, wet coastal zones, drier interiors, smaller islands, and geological relationships suggesting former connection without making the fragments clean puzzle pieces."
+              ],
+              "unique_to_b": [
+                "Show one enormous continuous landmass, huge interior distances, multiple independent mountain systems, ancient and younger ranges, broad plateaus, major basins, large rivers, potential inland seas/lakes, and varied coastal environments."
+              ],
+              "possible_conflicts": []
+            },
+            "climate": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "Ocean influence is stronger than on Hearth."
+              ],
+              "unique_to_b": [
+                "Lost is not climatically magical. Its climate follows latitude, circulation, currents, elevation, mountains, and continentality."
+              ],
+              "possible_conflicts": []
+            },
+            "ecological_identity": {
+              "units_a": 0,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [],
+              "unique_to_b": [
+                "*Deep-time independence.** Its eventual biological difference comes primarily from hundreds of millions of years of independent evolution, not alien climate physics."
+              ],
+              "possible_conflicts": []
+            },
+            "geographic_identity": {
+              "units_a": 1,
+              "units_b": 2,
+              "shared_units": [],
+              "unique_to_a": [
+                "Shattered is a former continental system divided into several enormous continental fragments. These are continental-scale islands, not a field of small islands."
+              ],
+              "unique_to_b": [
+                "Lost is one enormous continuous continent separated from the main continental cluster by an immense ocean. Working isolation: roughly 700 million\u20131 billion years.",
+                "Its geology continued evolving throughout isolation."
+              ],
+              "possible_conflicts": []
+            },
+            "geography_climate_reference_v0_1": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "score": 1.0,
+                  "status": "LIKELY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": []
+            },
+            "major_geographic_structures": {
+              "units_a": 2,
+              "units_b": 2,
+              "shared_units": [],
+              "unique_to_a": [
+                "one especially large western/central fragment",
+                "several enormous eastern/northern fragments"
+              ],
+              "unique_to_b": [
+                "ancient/recurring inland lakes and wetlands",
+                "local volcanic/active regions"
+              ],
+              "possible_conflicts": []
+            },
+            "open_cartographic_details": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+                  "b": "Exact coastline, mountain placement, basin geometry, currents, climate boundaries, and regional names remain to be refined.",
+                  "score": 0.887,
+                  "status": "LIKELY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": []
+            }
+          },
+          "overall_similarity": 0.436
+        },
+        {
+          "a": "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+          "b": "01_WORLD/CONTINENTS/LOST/DOSSIER.md",
+          "scope_a": {
+            "region": null,
+            "continent": "RIFT",
+            "regional_scope": false
+          },
+          "scope_b": {
+            "region": null,
+            "continent": "LOST",
+            "regional_scope": false
+          },
+          "regional_scope_relation": "REGIONAL_SIBLINGS",
+          "sections_only_in_a": [
+            "branches",
+            "highlands",
+            "lakes_and_wetlands",
+            "rift_floor",
+            "volcanic_regions",
+            "water_system"
+          ],
+          "sections_only_in_b": [
+            "climate",
+            "cooler_drier_current_coasts",
+            "interior",
+            "interior_basins",
+            "mountains",
+            "warm_moist_coasts"
+          ],
+          "unit_analysis": {
+            "artist_s_map_brief": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "Show two enormous halves, an irregular central rift, large lakes/inland seas, wetlands, steep escarpments, highlands, volcanic zones, dry rift-floor basins, wet uplands, and sections where the rift is narrow versus wide."
+              ],
+              "unique_to_b": [
+                "Show one enormous continuous landmass, huge interior distances, multiple independent mountain systems, ancient and younger ranges, broad plateaus, major basins, large rivers, potential inland seas/lakes, and varied coastal environments."
+              ],
+              "possible_conflicts": []
+            },
+            "ecological_identity": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [],
+              "unique_to_a": [
+                "*Transition and instability.** Strong environmental gradients per unit distance."
+              ],
+              "unique_to_b": [
+                "*Deep-time independence.** Its eventual biological difference comes primarily from hundreds of millions of years of independent evolution, not alien climate physics."
+              ],
+              "possible_conflicts": []
+            },
+            "geographic_identity": {
+              "units_a": 1,
+              "units_b": 2,
+              "shared_units": [],
+              "unique_to_a": [
+                "Rift is one enormous continental system actively separating into two major halves. The rift is irregular and immature rather than a clean oceanic split."
+              ],
+              "unique_to_b": [
+                "Lost is one enormous continuous continent separated from the main continental cluster by an immense ocean. Working isolation: roughly 700 million\u20131 billion years.",
+                "Its geology continued evolving throughout isolation."
+              ],
+              "possible_conflicts": []
+            },
+            "geography_climate_reference_v0_1": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+                  "score": 1.0,
+                  "status": "LIKELY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": []
+            },
+            "major_geographic_structures": {
+              "units_a": 1,
+              "units_b": 2,
+              "shared_units": [],
+              "unique_to_a": [
+                "branching/variable rift geometry"
+              ],
+              "unique_to_b": [
+                "ancient/recurring inland lakes and wetlands",
+                "local volcanic/active regions"
+              ],
+              "possible_conflicts": []
+            },
+            "open_cartographic_details": {
+              "units_a": 1,
+              "units_b": 1,
+              "shared_units": [
+                {
+                  "a": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+                  "b": "Exact coastline, mountain placement, basin geometry, currents, climate boundaries, and regional names remain to be refined.",
+                  "score": 0.744,
+                  "status": "LIKELY_SHARED"
+                }
+              ],
+              "unique_to_a": [],
+              "unique_to_b": [],
+              "possible_conflicts": []
+            }
+          },
+          "overall_similarity": 0.407
         }
       ],
       "review_status": "UNRESOLVED"

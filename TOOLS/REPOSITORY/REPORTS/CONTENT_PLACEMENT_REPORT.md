@@ -4,13 +4,15 @@
 **Scope:** `ALL_ACTIVE_NON_GENERATED_CONTENT`
 
 Documents analyzed: 71
-Placement candidates: 13
+Placement candidates: 12
+
+Structural document identity is evaluated before semantic regional routing. Geography is not redirected into culture solely from body-language overlap.
 
 ## Review Candidates
 ### 1. REGIONAL_PLACEMENT_CANDIDATE
 - **Path:** `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md`
 - **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/.
+- **Recommendation:** Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/.
 - **Candidate region:** COAST
 
 ### 2. LEGACY_FLAT_REGIONAL_FILE
@@ -26,19 +28,19 @@ Placement candidates: 13
 ### 4. REGIONAL_PLACEMENT_CANDIDATE
 - **Path:** `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md`
 - **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/WETLANDS/.
+- **Recommendation:** Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/WETLANDS/.
 - **Candidate region:** WETLANDS
 
 ### 5. REGIONAL_PLACEMENT_CANDIDATE
 - **Path:** `03_PEOPLES/CULTURES/HEARTH/COAST.md`
 - **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/.
+- **Recommendation:** Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/.
 - **Candidate region:** COAST
 
 ### 6. REGIONAL_PLACEMENT_CANDIDATE
 - **Path:** `03_PEOPLES/CULTURES/HEARTH/PLAINS.md`
 - **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/PLAINS/.
+- **Recommendation:** Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/PLAINS/.
 - **Candidate region:** PLAINS
 
 ### 7. LEGACY_FLAT_REGIONAL_FILE
@@ -49,7 +51,7 @@ Placement candidates: 13
 ### 8. REGIONAL_PLACEMENT_CANDIDATE
 - **Path:** `03_PEOPLES/CULTURES/HEARTH/DESERT.md`
 - **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/.
+- **Recommendation:** Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/.
 - **Candidate region:** DESERT
 
 ### 9. CONSTRUCTION_METHOD_CANDIDATE
@@ -70,14 +72,8 @@ Placement candidates: 13
 - **Recommendation:** Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool.
 - **Signals:** formula, necessity sheet, predictive evolution
 
-### 12. REGIONAL_PLACEMENT_CANDIDATE
-- **Path:** `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md`
-- **Confidence:** medium
-- **Recommendation:** Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/.
-- **Candidate region:** DESERT
-
-### 13. SUBJECT_LINEAGE_CLUSTER
+### 12. SUBJECT_LINEAGE_CLUSTER
 - **Path:** `—`
 - **Confidence:** high
-- **Recommendation:** Review these files as one subject lineage; decide authoritative source, supporting copy, or archive.
+- **Recommendation:** Review these same-type files as one subject lineage; regional siblings should be treated as scope variants rather than automatic replacement candidates.
 - **Lineage candidates:** 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md, 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md, 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md

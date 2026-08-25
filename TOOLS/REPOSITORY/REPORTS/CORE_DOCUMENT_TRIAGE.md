@@ -2,11 +2,11 @@
 
 {
   "cases": 30,
-  "direct_triage": 11,
-  "deep_investigation": 19,
+  "direct_triage": 12,
+  "deep_investigation": 18,
   "decisions": {
-    "REVIEW": 19,
+    "REVIEW": 18,
     "RELATED": 8,
-    "SUPPORTING": 3
+    "SUPPORTING": 4
   }
 }

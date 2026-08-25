@@ -2,8 +2,8 @@
 
 {
   "cases": 30,
-  "convergent_dimensions": 38,
-  "partial_dimensions": 162,
+  "convergent_dimensions": 36,
+  "partial_dimensions": 155,
   "contradictory_dimensions": 0,
-  "unresolved_dimensions": 104
+  "unresolved_dimensions": 97
 }

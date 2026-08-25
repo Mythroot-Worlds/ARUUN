@@ -3,7 +3,16 @@
   "rule": "PROPOSE ONLY \u2014 HUMAN CANON DECISION REQUIRED",
   "assemblies": [
     {
-      "subject": "family_birth_childhood",
+      "subject": "readme",
+      "status": "REVIEW_REQUIRED",
+      "sources": [
+        "TOOLS/REPOSITORY/README.md",
+        "TOOLS/REPOSITORY/RECONCILIATION/README.md"
+      ],
+      "proposed_units": []
+    },
+    {
+      "subject": "birth_childhood",
       "status": "REVIEW_REQUIRED",
       "sources": [
         "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
@@ -2426,6 +2435,391 @@
           ],
           "text_a": "| People | Developmental emphasis | |---|---| | Plains | Carry your share | | Mountains | Master your lineage's knowledge | | River | Read the water and know the network | | Wetlands | Become useful to your group and village | | Desert | Learn knowledge from elders, then prove it in practice | | Coast | Become broadly capable and dependable |",
           "text_b": "*Principle:** Master your lineage's knowledge.",
+          "decision": "UNRESOLVED"
+        }
+      ]
+    },
+    {
+      "subject": "00_readme",
+      "status": "REVIEW_REQUIRED",
+      "sources": [
+        "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md",
+        "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md"
+      ],
+      "proposed_units": []
+    },
+    {
+      "subject": "dossier",
+      "status": "REVIEW_REQUIRED",
+      "sources": [
+        "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+        "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+        "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+      ],
+      "proposed_units": [
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "Show several enormous continental fragments, one especially large western/central fragment, deep seas and straits, independent mountains, wet coastal zones, drier interiors, smaller islands, and geological relationships suggesting former connection without making the fragments clean puzzle pieces.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "Show two enormous halves, an irregular central rift, large lakes/inland seas, wetlands, steep escarpments, highlands, volcanic zones, dry rift-floor basins, wet uplands, and sections where the rift is narrow versus wide.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "ecological_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "*Transition and instability.** Strong environmental gradients per unit distance.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "Shattered is a former continental system divided into several enormous continental fragments. These are continental-scale islands, not a field of small islands.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "Rift is one enormous continental system actively separating into two major halves. The rift is irregular and immature rather than a clean oceanic split.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "LIKELY_SHARED",
+          "section": "geography_climate_reference_v0_1",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text_a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "text_b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "one especially large western/central fragment",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "several enormous eastern/northern fragments",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "branching/variable rift geometry",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "POSSIBLY_SHARED",
+          "section": "open_cartographic_details",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text_a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+          "text_b": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "POSSIBLE_CONFLICT",
+          "section": "open_cartographic_details",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text_a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+          "text_b": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "water_system",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "The seas separating fragments are major marine systems. Some straits are narrow and potentially strongly tidal; others form deep oceanic basins.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "water_system",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "The rift creates a chain of major drainage basins, potentially freshwater, saline, seasonal, river-connected, inland-sea-connected, or intermittently isolated.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "Show several enormous continental fragments, one especially large western/central fragment, deep seas and straits, independent mountains, wet coastal zones, drier interiors, smaller islands, and geological relationships suggesting former connection without making the fragments clean puzzle pieces.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Show one enormous continuous landmass, huge interior distances, multiple independent mountain systems, ancient and younger ranges, broad plateaus, major basins, large rivers, potential inland seas/lakes, and varied coastal environments.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "climate",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "Ocean influence is stronger than on Hearth.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "climate",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Lost is not climatically magical. Its climate follows latitude, circulation, currents, elevation, mountains, and continentality.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "ecological_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "*Deep-time independence.** Its eventual biological difference comes primarily from hundreds of millions of years of independent evolution, not alien climate physics.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "Shattered is a former continental system divided into several enormous continental fragments. These are continental-scale islands, not a field of small islands.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Lost is one enormous continuous continent separated from the main continental cluster by an immense ocean. Working isolation: roughly 700 million\u20131 billion years.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Its geology continued evolving throughout isolation.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "LIKELY_SHARED",
+          "section": "geography_climate_reference_v0_1",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text_a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "text_b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "one especially large western/central fragment",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md"
+          ],
+          "text": "several enormous eastern/northern fragments",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "ancient/recurring inland lakes and wetlands",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "local volcanic/active regions",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "LIKELY_SHARED",
+          "section": "open_cartographic_details",
+          "sources": [
+            "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text_a": "Exact fragment count/shape, coastline geometry, mountain placement, currents, climate boundaries, and regional names remain to be refined.",
+          "text_b": "Exact coastline, mountain placement, basin geometry, currents, climate boundaries, and regional names remain to be refined.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "Show two enormous halves, an irregular central rift, large lakes/inland seas, wetlands, steep escarpments, highlands, volcanic zones, dry rift-floor basins, wet uplands, and sections where the rift is narrow versus wide.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "artist_s_map_brief",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Show one enormous continuous landmass, huge interior distances, multiple independent mountain systems, ancient and younger ranges, broad plateaus, major basins, large rivers, potential inland seas/lakes, and varied coastal environments.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "ecological_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "*Transition and instability.** Strong environmental gradients per unit distance.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "ecological_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "*Deep-time independence.** Its eventual biological difference comes primarily from hundreds of millions of years of independent evolution, not alien climate physics.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "Rift is one enormous continental system actively separating into two major halves. The rift is irregular and immature rather than a clean oceanic split.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Lost is one enormous continuous continent separated from the main continental cluster by an immense ocean. Working isolation: roughly 700 million\u20131 billion years.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "geographic_identity",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "Its geology continued evolving throughout isolation.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "LIKELY_SHARED",
+          "section": "geography_climate_reference_v0_1",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text_a": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "text_b": "*Purpose:** Standalone reference for mapmaking and future regional development.",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md"
+          ],
+          "text": "branching/variable rift geometry",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "ancient/recurring inland lakes and wetlands",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "SOURCE_SPECIFIC",
+          "section": "major_geographic_structures",
+          "sources": [
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text": "local volcanic/active regions",
+          "decision": "UNRESOLVED"
+        },
+        {
+          "type": "LIKELY_SHARED",
+          "section": "open_cartographic_details",
+          "sources": [
+            "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+            "01_WORLD/CONTINENTS/LOST/DOSSIER.md"
+          ],
+          "text_a": "Exact rift geometry, lake positions, volcanic centers, mountain placement, climate boundaries, and regional names remain to be refined.",
+          "text_b": "Exact coastline, mountain placement, basin geometry, currents, climate boundaries, and regional names remain to be refined.",
           "decision": "UNRESOLVED"
         }
       ]

@@ -2,20 +2,50 @@
   "mode": "READ_ONLY",
   "scope": "ALL_ACTIVE_NON_GENERATED_CONTENT",
   "documents": 71,
-  "findings": 13,
+  "findings": 12,
   "findings_detail": [
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "subject": "partnership",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "candidate_region": "COAST",
       "score": 24,
       "other_region_score": 15,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
+      "recommendation": "Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
     },
     {
       "type": "LEGACY_FLAT_REGIONAL_FILE",
       "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "subject": "partnership",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "subject": "family.partnership",
       "confidence": "high",
       "recommendation": "Likely legacy flat file; compare against regional source files before migration."
@@ -23,6 +53,21 @@
     {
       "type": "LEGACY_FLAT_REGIONAL_FILE",
       "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "subject": "birth_childhood",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "subject": "family.birth_childhood",
       "confidence": "high",
       "recommendation": "Likely legacy flat file; compare against regional source files before migration."
@@ -30,33 +75,93 @@
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "subject": "",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "candidate_region": "WETLANDS",
       "score": 12,
       "other_region_score": 6,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/WETLANDS/."
+      "recommendation": "Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/WETLANDS/."
     },
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "subject": "",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "candidate_region": "COAST",
       "score": 44,
       "other_region_score": 4,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
+      "recommendation": "Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/COAST/."
     },
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+        "subject": "",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "candidate_region": "PLAINS",
       "score": 10,
       "other_region_score": 1,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/PLAINS/."
+      "recommendation": "Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/PLAINS/."
     },
     {
       "type": "LEGACY_FLAT_REGIONAL_FILE",
       "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "subject": "governance_authority",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "subject": "governance.authority",
       "confidence": "high",
       "recommendation": "Likely legacy flat file; compare against regional source files before migration."
@@ -64,15 +169,45 @@
     {
       "type": "REGIONAL_PLACEMENT_CANDIDATE",
       "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "identity": {
+        "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+        "subject": "",
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "candidate_region": "DESERT",
       "score": 18,
       "other_region_score": 4,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
+      "recommendation": "Review whether region-specific culture content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
     },
     {
       "type": "CONSTRUCTION_METHOD_CANDIDATE",
       "path": "02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
+      "identity": {
+        "path": "02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
+        "subject": "predictive_evolution_matrix",
+        "content_type": "ECOLOGY",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "signals": [
         "necessity sheet",
@@ -83,6 +218,21 @@
     {
       "type": "CONSTRUCTION_METHOD_CANDIDATE",
       "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+      "identity": {
+        "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+        "subject": "00_readme",
+        "content_type": "ECOLOGY",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "signals": [
         "creation package",
@@ -94,6 +244,21 @@
     {
       "type": "CONSTRUCTION_METHOD_CANDIDATE",
       "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md",
+      "identity": {
+        "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md",
+        "subject": "05_batch_prompt",
+        "content_type": "ECOLOGY",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "role": "AUTHORITATIVE",
+        "identity_basis": [
+          "path",
+          "filename"
+        ]
+      },
       "confidence": "medium",
       "signals": [
         "formula",
@@ -101,15 +266,6 @@
         "predictive evolution"
       ],
       "recommendation": "Review whether this is construction methodology. If so, link it from the world artifact rather than treating the world artifact itself as a tool."
-    },
-    {
-      "type": "REGIONAL_PLACEMENT_CANDIDATE",
-      "path": "01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
-      "confidence": "medium",
-      "candidate_region": "DESERT",
-      "score": 70,
-      "other_region_score": 30,
-      "recommendation": "Review whether region-specific content belongs under 03_PEOPLES/CULTURES/HEARTH/DESERT/."
     },
     {
       "type": "SUBJECT_LINEAGE_CLUSTER",
@@ -124,8 +280,12 @@
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
         "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
       ],
+      "identity_types": [
+        "CULTURE"
+      ],
       "confidence": "high",
-      "recommendation": "Review these files as one subject lineage; decide authoritative source, supporting copy, or archive."
+      "recommendation": "Review these same-type files as one subject lineage; regional siblings should be treated as scope variants rather than automatic replacement candidates."
     }
-  ]
+  ],
+  "identity_first": true
 }

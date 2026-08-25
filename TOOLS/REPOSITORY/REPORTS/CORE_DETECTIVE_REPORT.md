@@ -3,19 +3,19 @@
 {
   "cases": 30,
   "case_source": "CORE_ADJUDICATION_QUEUE.json",
-  "triage_direct": 11,
-  "triage_escalated": 19,
-  "deep_investigation_rate": 0.633,
-  "cases_using_robin_factor_map": 19,
-  "cases_missing_robin_factor_map": 11,
-  "cases_with_unresolved_factors": 19,
-  "grounded_direct_claims": 558,
-  "pair_resolving_claims": 558,
+  "triage_direct": 12,
+  "triage_escalated": 18,
+  "deep_investigation_rate": 0.6,
+  "cases_using_robin_factor_map": 18,
+  "cases_missing_robin_factor_map": 12,
+  "cases_with_unresolved_factors": 18,
+  "grounded_direct_claims": 536,
+  "pair_resolving_claims": 536,
   "relationship_decisions": {
-    "REVIEW": 19,
+    "REVIEW": 18,
     "RELATED": 8,
-    "SUPPORTING": 3
+    "SUPPORTING": 4
   },
-  "cases_with_non_review_decision": 11,
-  "cases_escalated_to_review": 19
+  "cases_with_non_review_decision": 12,
+  "cases_escalated_to_review": 18
 }

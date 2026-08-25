@@ -1,21 +1,10 @@
 # CORE VARIANT Gate
 
-VARIANT is informational near-equivalence within the same structural identity. Similar subject matter across different regions or document roles is **not** VARIANT.
+VARIANT requires the same subject, same regional/scope identity, same document type, and substantial informational overlap. Different regions are **RELATED**, not VARIANT.
 
 Candidates assessed: **71**
 Eligible VARIANT candidates: **0**
 Rejected VARIANT candidates: **71**
 
-## Identity gate
-- Entity
-- Population
-- Regional scope
-- Subregion
-- Subject
-- Document role
-- Purpose
-- Applicable time when explicitly specified
+Identity is authoritative. Role/purpose are compatibility signals rather than blanket hard gates so legitimate regional variants can differ in presentation/depth.
 
-Identity is authoritative: semantic similarity cannot override a structural identity mismatch.
-
-Same-scope candidate discovery remains broader than VARIANT arbitration so true variants are not lost merely because generic relationship discovery favors other relationships.

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CORE document triage: identity/layer placement before relationship classification."""
+"""CORE document triage: canonical identity/layer placement before relationships."""
 from __future__ import annotations
 import argparse,json
 from pathlib import Path
@@ -25,29 +25,33 @@ def triage(case,root):
     same_scope=ia['scope']==ib['scope']
     regional_siblings=bool(ia['scope'].get('regional_scope') and ib['scope'].get('regional_scope') and ia['scope']!=ib['scope'])
     supporting_layer=ia['role']=='SUPPORTING' or ib['role']=='SUPPORTING'
+    authoritative_pair=ia['role']=='AUTHORITATIVE' and ib['role']=='AUTHORITATIVE'
+    time_compatible=ia['role']!='HISTORICAL' and ib['role']!='HISTORICAL'
     hint=canon.get('canonical_relationship_hint','REVIEW');base=result['decision']
 
-    # Identity and canonical layer placement outrank generic semantic hints.
-    # A comparative/reference document is supporting material, not a competing
-    # canon entry. Regional entries with the same subject are canonical siblings.
+    # Canonical identity and layer placement outrank generic semantic hints.
     if supporting_layer and same_subject:
         result['decision']='SUPPORTING';result['canonical_decision_basis']='document identity places one side in the supporting/reference layer'
     elif regional_siblings and same_subject:
         result['decision']='RELATED';result['canonical_decision_basis']='same canonical subject represented in distinct regional scopes'
     elif hint=='CONFLICT':
-        # CONFLICT is a high-bar result: same subject + same scope + explicit
-        # claim-level evidence. Never manufacture it from contrastive wording.
         evidence=canon.get('a_against_knowns',{}).get('conflict_evidence',[])+canon.get('b_against_knowns',{}).get('conflict_evidence',[])
-        if same_subject and same_scope and evidence:
-            result['decision']='CONFLICT';result['canonical_decision_basis']='explicit claim-level contradiction evidence in same subject/scope'
-    elif hint=='SUPPORTING' and base in {'RELATED','REVIEW'} and same_subject:
+        if same_subject and same_scope and authoritative_pair and time_compatible and evidence:
+            result['decision']='CONFLICT';result['canonical_decision_basis']='explicit claim-level contradiction evidence between authoritative same-scope documents'
+        else:
+            result['decision']=base if base in {'RELATED','SUPPORTING','HISTORICAL','COINCIDENTAL'} else 'REVIEW'
+            result['canonical_decision_basis']='conflict hint rejected because subject/scope/authority/time/evidence gates were not all satisfied'
+    elif hint=='SUPPORTING' and base in {'RELATED','VARIANT','DUPLICATE','REVIEW'} and same_subject:
         result['decision']='SUPPORTING';result['canonical_decision_basis']=canon.get('canonical_hint_reason')
     elif hint=='RELATED' and base in {'VARIANT','DUPLICATE','REVIEW'} and not same_scope:
         result['decision']='RELATED';result['canonical_decision_basis']=canon.get('canonical_hint_reason')
 
     status='DIRECT' if result['decision'] in {'DUPLICATE','VARIANT','RELATED','SUPPORTING','HISTORICAL','CONFLICT','COINCIDENTAL'} else 'ESCALATE'
     reason='identity/canonical-layer grounded relationship resolved directly' if status=='DIRECT' else 'canonical knowns supplied to deep investigation because relationship remains ambiguous'
-    return {'relationship_id':case.get('relationship_id'),'documents':{'a':a,'b':b},'triage_status':status,'decision':result['decision'],'reason':reason,'identity':{'a':ia,'b':ib,'same_subject':same_subject,'same_scope':same_scope,'regional_siblings':regional_siblings,'supporting_layer':supporting_layer},'layered_comparison':result,'canonical_context':canon,'deep_investigation_required':status!='DIRECT','safety':{'automatic_canon_change':False,'automatic_rule_promotion':False}}
+    return {'relationship_id':case.get('relationship_id'),'documents':{'a':a,'b':b},'triage_status':status,'decision':result['decision'],'reason':reason,
+      'identity':{'a':ia,'b':ib,'same_subject':same_subject,'same_scope':same_scope,'regional_siblings':regional_siblings,'supporting_layer':supporting_layer,'authoritative_pair':authoritative_pair,'time_compatible':time_compatible},
+      'layered_comparison':result,'canonical_context':canon,'deep_investigation_required':status!='DIRECT',
+      'safety':{'automatic_canon_change':False,'automatic_rule_promotion':False}}
 
 def run_calibration(root):
     out=[]
@@ -58,9 +62,9 @@ def run_calibration(root):
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out
     queue=load(out/'CORE_ADJUDICATION_QUEUE.json',{'queue':[]});results=[triage(c,root) for c in queue.get('queue',[])];cal=run_calibration(root)
-    summary={'cases':len(results),'direct_triage':sum(x['triage_status']=='DIRECT' for x in results),'deep_investigation':sum(x['deep_investigation_required'] for x in results),'canonical_grounded_cases':sum(bool(x.get('canonical_context')) for x in results),'canonical_hint_counts':{h:sum(x.get('canonical_context',{}).get('canonical_relationship_hint')==h for x in results) for h in ('VARIANT','RELATED','SUPPORTING','HISTORICAL','CONFLICT','MISPLACED','DUPLICATE','REVIEW')},'identity_layer_counts':{'supporting_layer':sum(x['identity']['supporting_layer'] for x in results),'regional_siblings':sum(x['identity']['regional_siblings'] for x in results),'same_subject_same_scope':sum(x['identity']['same_subject'] and x['identity']['same_scope'] for x in results)},'decisions':{},'calibration_cases':len(cal),'calibration_passed':sum(x['pass'] for x in cal),'calibration_failed':sum(not x['pass'] for x in cal)}
+    summary={'cases':len(results),'direct_triage':sum(x['triage_status']=='DIRECT' for x in results),'deep_investigation':sum(x['deep_investigation_required'] for x in results),'canonical_grounded_cases':sum(bool(x.get('canonical_context')) for x in results),'canonical_hint_counts':{h:sum(x.get('canonical_context',{}).get('canonical_relationship_hint')==h for x in results) for h in ('VARIANT','RELATED','SUPPORTING','HISTORICAL','CONFLICT','MISPLACED','DUPLICATE','REVIEW')},'identity_layer_counts':{'supporting_layer':sum(x['identity']['supporting_layer'] for x in results),'regional_siblings':sum(x['identity']['regional_siblings'] for x in results),'same_subject_same_scope':sum(x['identity']['same_subject'] and x['identity']['same_scope'] for x in results),'authoritative_pairs':sum(x['identity']['authoritative_pair'] for x in results)},'decisions':{},'calibration_cases':len(cal),'calibration_passed':sum(x['pass'] for x in cal),'calibration_failed':sum(not x['pass'] for x in cal)}
     for x in results:summary['decisions'][x['decision']]=summary['decisions'].get(x['decision'],0)+1
-    payload={'engine':'CORE A.C.E. Document Triage','schema_version':'3.3','mode':'READ_ONLY','purpose':'establish document identity and canonical layer placement before classifying the relationship','cases':results,'calibration':cal,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
+    payload={'engine':'CORE A.C.E. Document Triage','schema_version':'3.4','mode':'READ_ONLY','purpose':'establish document identity and canonical layer placement before classifying the relationship','cases':results,'calibration':cal,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
     (out/'CORE_DOCUMENT_TRIAGE.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_DOCUMENT_TRIAGE.md').write_text('# CORE Document Triage\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
     if any(not x['pass'] for x in cal): raise SystemExit('Layered relationship calibration failed')
 if __name__=='__main__':main()

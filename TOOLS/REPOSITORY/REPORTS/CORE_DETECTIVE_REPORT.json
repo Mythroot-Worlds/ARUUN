@@ -1579,7 +1579,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -1758,7 +1758,9 @@
           "importance",
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -7586,7 +7588,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -7767,7 +7769,9 @@
         "unresolved_dimensions": [
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -13563,7 +13567,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -13752,7 +13756,9 @@
           "intentionality",
           "story_relevance",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -19529,7 +19535,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -19715,7 +19721,9 @@
           "provenance",
           "story_relevance",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -25487,7 +25495,7 @@
         "decision": "REVIEW",
         "confidence": "LOW",
         "decision_basis": "A factor needed to discriminate the strongest hypothesis remains unknown.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "HISTORICAL",
@@ -25673,7 +25681,9 @@
           "intentionality",
           "story_relevance",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -31496,7 +31506,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -31678,7 +31688,9 @@
           "consequence",
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -37548,7 +37560,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -37732,7 +37744,9 @@
         "unresolved_dimensions": [
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -43660,7 +43674,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -43845,7 +43859,9 @@
           "dependency",
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -49633,7 +49649,7 @@
         "decision": "REVIEW",
         "confidence": "MEDIUM",
         "decision_basis": "Nearest viable hypotheses remain too close.",
-        "reasoning_mode": "hypothesis_then_discriminator",
+        "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
           {
             "relationship": "RELATED",
@@ -49810,7 +49826,9 @@
         "unresolved_dimensions": [
           "intentionality",
           "usability"
-        ]
+        ],
+        "rejected_alternatives": [],
+        "decisive_layers": []
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",

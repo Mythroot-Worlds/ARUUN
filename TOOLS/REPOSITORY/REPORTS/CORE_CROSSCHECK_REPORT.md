@@ -6,5 +6,6 @@
   "conflict": 9,
   "inconclusive": 1,
   "batman_only_dimensions": 8,
-  "robin_only_dimensions": 1
+  "robin_only_dimensions": 1,
+  "factor_dimensions_available": 16
 }

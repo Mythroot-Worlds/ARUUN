@@ -7,7 +7,15 @@ Review queue: **30**
 
 ## Resolution vocabulary
 - Current: `DUPLICATE`, `VARIANT`, `SUPPORTING`, `HISTORICAL`, `MISPLACED`, `CONFLICT`, `RELATED`, `COINCIDENTAL`, `REVIEW`, `UNRESOLVED`
-- `VARIANT` is current but tightly gated: it means informational near-equivalence, not shared subject matter.
+- `VARIANT` is tightly gated: informational near-equivalence, not mere shared subject matter.
+
+## Required deciding-factor questions
+- What exact subject is each artifact describing?
+- At what scope does each apply?
+- What function does each perform?
+- What relationship is actually supported?
+- Does either depend on or derive from the other?
+- What establishes provenance or authority?
 
 | Review | Strength | Variant gate | Claim overlap | Relationship | Status |
 |---|---:|---|---:|---|---|

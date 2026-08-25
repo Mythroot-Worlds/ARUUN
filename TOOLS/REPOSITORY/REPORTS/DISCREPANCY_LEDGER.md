@@ -1810,13 +1810,29 @@
 
 ## META-0229 — WARNING
 - **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0230 — INFO
+- **Category:** status
+- **Path:** `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md`
+- **Finding:** Status vocabulary not yet mapped: canonical repository workflow rule.
+- **Recommendation:** Add an explicit mapping only if this existing phrase is intended to remain active.
+- **Related:** —
+- **Status:** open
+
+## META-0231 — WARNING
+- **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
 - **Status:** open
 
-## META-0230 — WARNING
+## META-0232 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.

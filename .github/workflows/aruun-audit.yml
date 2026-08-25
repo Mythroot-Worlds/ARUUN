@@ -28,6 +28,8 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/core_information_units.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Resolve first-class CORE document identity before placement and lineage
         run: python -m py_compile TOOLS/REPOSITORY/validator/core_document_identity.py
+      - name: Run CORE structural identity calibration fixtures
+        run: python TOOLS/REPOSITORY/validator/core_identity_calibration.py
       - name: Run read-only content placement audit
         run: python TOOLS/REPOSITORY/validator/content_placement_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run read-only content lineage audit
@@ -128,4 +130,4 @@ jobs:
             f="TOOLS/REPOSITORY/REPORTS/HEARTH/$region/CONTINUITY_REPORT.md"
             [ -f "$f" ] && { echo "===== HEARTH/$region ====="; cat "$f"; }
           done
-          [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md ] && cat TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md
+          [ -f TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md ] && cat "TOOLS/REPOSITORY/REPORTS/CONTINUITY_TEST/CONTINUITY_REPORT.md"

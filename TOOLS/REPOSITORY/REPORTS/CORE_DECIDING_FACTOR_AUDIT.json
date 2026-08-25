@@ -26,11 +26,15 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [],
+          "shared_signals": [
+            "DESERT"
+          ],
           "different_signals": [
+            "COAST",
             "PLAINS",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -225,7 +229,9 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
-            "VILLAGE"
+            "COAST",
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -413,11 +419,15 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [],
+          "shared_signals": [
+            "COAST"
+          ],
           "different_signals": [
+            "DESERT",
             "PLAINS",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -611,13 +621,16 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "PLAINS",
             "REGIONAL",
             "RIVER",
             "SETTLEMENT",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "different_signals": [
             "CONTINENT"
@@ -850,7 +863,8 @@
           "shared_signals": [],
           "different_signals": [
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -1230,7 +1244,8 @@
           "shared_signals": [],
           "different_signals": [
             "PLAINS",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -1419,13 +1434,16 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "PLAINS",
             "REGIONAL",
             "RIVER",
             "SETTLEMENT",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "different_signals": [
             "CONTINENT",
@@ -1669,9 +1687,11 @@
             "SETTLEMENT"
           ],
           "different_signals": [
+            "COAST",
             "LOCAL",
             "PLAINS",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -2094,9 +2114,12 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "different_signals": [
+            "COAST",
+            "DESERT",
             "PLAINS",
             "RIVER"
           ],
@@ -2292,15 +2315,18 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
             "RIVER",
             "SETTLEMENT",
             "VILLAGE"
           ],
           "different_signals": [
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "PLAINS",
-            "REGIONAL"
+            "REGIONAL",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -2533,6 +2559,7 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
+            "DESERT",
             "RIVER"
           ],
           "has_signal": true,
@@ -2727,12 +2754,15 @@
             "PLAINS"
           ],
           "different_signals": [
+            "COAST",
             "CONTINENT",
+            "DESERT",
             "MOUNTAIN",
             "REGIONAL",
             "RIVER",
             "SETTLEMENT",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -2960,6 +2990,7 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
+            "COAST",
             "RIVER"
           ],
           "has_signal": true,
@@ -3147,6 +3178,7 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "REGIONAL",
@@ -3154,8 +3186,10 @@
             "VILLAGE"
           ],
           "different_signals": [
+            "COAST",
             "PLAINS",
-            "RIVER"
+            "RIVER",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -3384,14 +3418,17 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
             "CONTINENT",
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "PLAINS",
             "REGIONAL",
             "RIVER",
             "SETTLEMENT",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "different_signals": [
             "CONTINENTAL",
@@ -3629,6 +3666,8 @@
             "VILLAGE"
           ],
           "different_signals": [
+            "COAST",
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "REGIONAL",
@@ -3860,7 +3899,8 @@
           "different_signals": [
             "CONTINENT",
             "RIVER",
-            "SETTLEMENT"
+            "SETTLEMENT",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -4289,9 +4329,12 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
+            "DESERT",
             "PLAINS",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "different_signals": [
             "REGIONAL"
@@ -4494,8 +4537,11 @@
             "PLAINS"
           ],
           "different_signals": [
+            "COAST",
+            "DESERT",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -4692,8 +4738,11 @@
             "RIVER"
           ],
           "different_signals": [
+            "COAST",
+            "DESERT",
             "PLAINS",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -4891,6 +4940,7 @@
           ],
           "different_signals": [
             "CONTINENT",
+            "DESERT",
             "MOUNTAIN",
             "PLAINS",
             "REGIONAL",
@@ -5117,6 +5167,7 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
+            "COAST",
             "CONTINENT",
             "LOCAL",
             "PLAINS",
@@ -5341,7 +5392,8 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -5538,11 +5590,13 @@
             "SETTLEMENT"
           ],
           "different_signals": [
+            "DESERT",
             "MOUNTAIN",
             "PLAINS",
             "REGIONAL",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -5757,6 +5811,7 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [
+            "COAST",
             "RIVER",
             "SETTLEMENT",
             "VILLAGE"
@@ -5764,11 +5819,13 @@
           "different_signals": [
             "CONTINENT",
             "CONTINENTAL",
+            "DESERT",
             "LOCAL",
             "MOUNTAIN",
             "PLAINS",
             "REGION",
-            "REGIONAL"
+            "REGIONAL",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,
@@ -6188,9 +6245,12 @@
           "operational_focus": true,
           "shared_signals": [],
           "different_signals": [
+            "COAST",
+            "DESERT",
             "PLAINS",
             "RIVER",
-            "VILLAGE"
+            "VILLAGE",
+            "WETLANDS"
           ],
           "has_signal": true,
           "investigated": false,

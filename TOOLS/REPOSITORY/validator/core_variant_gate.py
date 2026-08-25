@@ -5,8 +5,9 @@ import argparse,json,re
 from pathlib import Path
 from core_variant_arbitration import assess_variant
 from core_semantic_comparator import compare_units
-from core_identity_resolver import resolve_identity, identity_match
+from core_identity_resolver import resolve_identity
 from core_document_identity import identify
+from core_variant_calibration import variant_identity_compatible
 
 SKIP={'.git','.github','TOOLS','07_ARCHIVE','node_modules','__pycache__'}
 def load(p,d):
@@ -24,6 +25,10 @@ def discover_same_scope_pairs(root):
         if any(part in SKIP for part in p.parts):continue
         files.append(rel)
     return files
+def scope_key(identity):
+    scope=identity.get('structural_scope') or identity.get('scope')
+    if isinstance(scope,dict):return tuple(sorted(scope.items()))
+    return scope
 def candidate_key(identity):
     return set(re.findall(r'[a-z0-9]+',identity.get('subject') or '')) | set(re.findall(r'[a-z0-9]+',identity.get('role') or ''))
 def main():
@@ -34,19 +39,31 @@ def main():
         nonlocal eligible,rejected
         key=tuple(sorted((left_rel,right_rel)))
         if key in seen or left_rel==right_rel:return
-        seen.add(key);left=doc_context(root,left_rel,claims,units);right=doc_context(root,right_rel,claims,units);same_identity,identity_reasons=identity_match(left,right);comparison=compare_units(left['information_units'],right['information_units']);assessment=assess_variant(left,right)
-        if not same_identity:assessment.eligible=False
-        x={'relationship_id':f'VAR-{abs(hash(key)) & 0xffffffff:08x}','left':left_rel,'right':right_rel,'source':source,'left_identity':{k:left.get(k) for k in ('entity','population','region','subregion','subject','role','purpose','scope','content_type','structural_scope')},'right_identity':{k:right.get(k) for k in ('entity','population','region','subregion','subject','role','purpose','scope','content_type','structural_scope')},'identity_match':same_identity,'identity_reasons':identity_reasons,'pairwise_semantic_comparison':comparison.as_dict(),'variant_arbitration':assessment.as_dict()}
+        seen.add(key);left=doc_context(root,left_rel,claims,units);right=doc_context(root,right_rel,claims,units)
+        identity_ok,identity_reasons=variant_identity_compatible(left,right)
+        comparison=compare_units(left['information_units'],right['information_units']);assessment=assess_variant(left,right)
+        if not identity_ok:
+            assessment.eligible=False
+            assessment.reasons.extend([f'identity_gate:{r}' for r in identity_reasons if r!='same_resolved_scope'])
+        x={'relationship_id':f'VAR-{abs(hash(key)) & 0xffffffff:08x}','left':left_rel,'right':right_rel,'source':source,
+           'left_identity':{k:left.get(k) for k in ('entity','population','region','subregion','subject','role','purpose','scope','content_type','structural_scope')},
+           'right_identity':{k:right.get(k) for k in ('entity','population','region','subregion','subject','role','purpose','scope','content_type','structural_scope')},
+           'identity_match':identity_ok,'identity_reasons':identity_reasons,
+           'pairwise_semantic_comparison':comparison.as_dict(),'variant_arbitration':assessment.as_dict()}
         x['variant_status']='ELIGIBLE' if assessment.eligible else 'REJECTED';eligible+=int(assessment.eligible);rejected+=int(not assessment.eligible);rows.append(x)
     for r in discovery.get('relationships',[]):assess_pair(r['left'],r['right'])
     files=discover_same_scope_pairs(root);ctx={f:doc_context(root,f,claims,units) for f in files};by_scope={}
-    for f,c in ctx.items():by_scope.setdefault(c.get('scope'),[]).append(f)
+    for f,c in ctx.items():by_scope.setdefault(scope_key(c),[]).append(f)
     for scope,items in by_scope.items():
         for i,left in enumerate(items):
             for right in items[i+1:]:
                 if candidate_key(ctx[left]) & candidate_key(ctx[right]):assess_pair(left,right,'same_scope_identity_candidate')
-    result={'engine':'CORE VARIANT Gate','schema_version':'5.0','mode':'READ_ONLY','definition':'VARIANT means substantially equivalent informational content for the same subject, same regional/scope identity, and same document type. Regional variants may differ in wording, depth, presentation, or modest detail. Different regions are RELATED, not VARIANT.','candidate_count':len(rows),'variant_candidates':eligible,'rejected_variant_candidates':rejected,'relationships':rows,'identity_gate':{'authoritative':True,'fields':['subject','scope','content_type'],'compatibility_fields':['role','purpose'],'semantic_similarity_cannot_override':True},'safety':{'automatic_variant_acceptance':False,'automatic_canon_change':False,'provenance_required':True}}
+    result={'engine':'CORE VARIANT Gate','schema_version':'5.1','mode':'READ_ONLY',
+      'definition':'VARIANT means substantially equivalent informational content for the same subject, same regional/scope identity, and same document type. Regional variants may differ in wording, depth, presentation, or modest detail. Different regions are RELATED, not VARIANT.',
+      'candidate_count':len(rows),'variant_candidates':eligible,'rejected_variant_candidates':rejected,'relationships':rows,
+      'identity_gate':{'authoritative':True,'fields':['subject','structural_scope','content_type'],'compatibility_fields':['role','purpose'],'semantic_similarity_cannot_override':True,'scope_key_normalized':True},
+      'safety':{'automatic_variant_acceptance':False,'automatic_canon_change':False,'provenance_required':True}}
     (out/'CORE_VARIANT_GATE.json').write_text(json.dumps(result,indent=2),encoding='utf-8')
-    md=['# CORE VARIANT Gate','','VARIANT requires the same subject, same regional/scope identity, same document type, and substantial informational overlap. Different regions are **RELATED**, not VARIANT.','',f"Candidates assessed: **{len(rows)}**",f"Eligible VARIANT candidates: **{eligible}**",f"Rejected VARIANT candidates: **{rejected}**",'','Identity is authoritative. Role/purpose are compatibility signals rather than blanket hard gates so legitimate regional variants can differ in presentation/depth.','']
+    md=['# CORE VARIANT Gate','','VARIANT requires the same subject, same regional/scope identity, same document type, and substantial informational overlap. Different regions are **RELATED**, not VARIANT.','',f"Candidates assessed: **{len(rows)}**",f"Eligible VARIANT candidates: **{eligible}**",f"Rejected VARIANT candidates: **{rejected}**",'','Identity is authoritative. Role/purpose are compatibility signals rather than blanket hard gates so legitimate same-scope variants can differ in presentation/depth. The scope key is normalized before candidate grouping.','']
     (out/'CORE_VARIANT_GATE.md').write_text('\n'.join(md)+'\n',encoding='utf-8');print(f'CORE VARIANT gate: {len(rows)} assessed; {eligible} eligible; {rejected} rejected.')
 if __name__=='__main__':main()

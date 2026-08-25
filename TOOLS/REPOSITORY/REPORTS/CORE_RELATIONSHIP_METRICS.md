@@ -1,6 +1,6 @@
 # CORE Relationship Metrics
 
-**Telemetry only.** Discovery metrics measure candidate relationships; human adjudication remains the ground truth.
+**Telemetry only.** Discovery metrics measure candidate relationships; human adjudication remains historical provenance and ontology-v2 calibration is derived separately.
 
 Discovered relationships: **70**
 Novel discovered relationships: **41**
@@ -9,6 +9,14 @@ Human-confirmed relationships: **40**
 Unresolved human decisions: **1**
 A.C.E. labeled decisions: **40**
 A.C.E. heuristic candidates: **14**
+
+## Ontology v2 calibration
+- **RELATED**: **9**
+- **REVIEW**: **20**
+
+## Migration status
+- **LEGACY_AGREES**: **9**
+- **ONTOLOGY_REQUIRES_REVIEW**: **20**
 
 ## Match strength distribution
 - **5/5**: **1** candidates
@@ -32,7 +40,7 @@ A.C.E. heuristic candidates: **14**
 - Novel relationship discovery
 - Stable-ID overlap across runs
 - Match-strength distribution
-- Human confirmation rate (after adjudication)
-- False-positive rate (after adjudication)
+- Historical human confirmation
+- Ontology-v2 calibration agreement/conflict
 - Coverage
 - Anomaly recognition rate

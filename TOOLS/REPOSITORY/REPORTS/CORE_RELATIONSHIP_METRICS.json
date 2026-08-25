@@ -36,6 +36,18 @@
       "MERGE": 22
     }
   },
+  "ontology_v2_calibration": {
+    "records": 29,
+    "by_active_label": {
+      "RELATED": 9,
+      "REVIEW": 20
+    },
+    "by_migration_status": {
+      "LEGACY_AGREES": 9,
+      "ONTOLOGY_REQUIRES_REVIEW": 20
+    },
+    "legacy_labels_immutable": true
+  },
   "ace_decisions": 40,
   "ace_heuristic_candidates": 14,
   "relationship_records": [
@@ -480,11 +492,13 @@
       }
     }
   ],
-  "run_comparison_note": "Compare discovery counts, stable relationship IDs, and match-strength distributions across runs. Human adjudication remains the ground truth for confirmation and false-positive rates.",
+  "run_comparison_note": "Compare discovery counts, stable relationship IDs, match-strength distributions, and ontology-v2 migration status across runs. Historical human labels remain provenance; ontology-v2 labels are derived active-policy calibration and conflicts require human review.",
   "safety": {
     "automatic_relationship_acceptance": false,
     "automatic_canon_change": false,
     "stable_relationship_ids": true,
-    "provenance_required": true
+    "provenance_required": true,
+    "historical_labels_immutable": true,
+    "ontology_conflicts_require_human_review": true
   }
 }

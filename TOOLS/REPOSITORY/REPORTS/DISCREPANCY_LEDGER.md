@@ -1842,13 +1842,21 @@
 
 ## META-0233 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Path:** `TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
 - **Status:** open
 
 ## META-0234 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0235 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.

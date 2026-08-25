@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""CORE document identity: structural identity before semantic reasoning.
-
-Identity is advisory/read-only. It answers what an artifact is, its subject,
-scope, and functional role from path/name/metadata before content similarity
-or relationship reasoning is allowed to influence placement or lineage.
-"""
+"""CORE A.C.E. document identity: structural identity before semantic reasoning."""
 from __future__ import annotations
 import re
 from pathlib import Path
@@ -14,7 +9,8 @@ STOP={"the","and","for","with","from","that","this","document","regional","famil
 
 def subject_from_path(path):
     stem=Path(path).stem.lower()
-    stem=re.sub(r"_comparative$|_revision\d*$|_v\d+$|_draft\d*$","",stem)
+    # Normalize integer and decimal version suffixes: v1, v0.1, v2.5, etc.
+    stem=re.sub(r"_comparative$|_revision\d*(?:\.\d+)?$|_v\d+(?:\.\d+)?$|_draft\d*(?:\.\d+)?$","",stem)
     parts=[x for x in re.split(r"[^a-z0-9]+",stem) if x and x not in STOP and x.upper() not in REGIONS]
     return "_".join(parts)
 

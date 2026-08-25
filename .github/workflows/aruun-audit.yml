@@ -50,10 +50,10 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/core_deciding_factor_audit.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Build CORE leakage-safe mugshot/exemplar library
         run: python TOOLS/REPOSITORY/validator/core_exemplar_pool.py --root . --out TOOLS/REPOSITORY/REPORTS
-      - name: Run CORE A.C.E. Detective investigation — secondary relationship research
-        run: python TOOLS/REPOSITORY/validator/core_detective.py --root . --out TOOLS/REPOSITORY/REPORTS
-      - name: Run CORE A.C.E. Robin semantic analysis — secondary relationship research
+      - name: Run CORE A.C.E. Robin deciding-factor investigation — independent research
         run: python TOOLS/REPOSITORY/validator/core_robin.py --root . --out TOOLS/REPOSITORY/REPORTS
+      - name: Run CORE A.C.E. Detective case solver — consumes Robin factor map
+        run: python TOOLS/REPOSITORY/validator/core_detective.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Cross-check Batman and Robin
         run: python TOOLS/REPOSITORY/validator/core_crosscheck.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run CORE A.C.E. Oracle association intelligence

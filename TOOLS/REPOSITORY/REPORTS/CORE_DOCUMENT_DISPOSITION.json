@@ -1,0 +1,980 @@
+{
+  "engine": "CORE A.C.E. Document Disposition",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "purpose": "turn canonical identity and relationship decisions into explainable human-approved placement recommendations",
+  "documents": [
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "DESERT",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "COAST",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "WETLANDS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "COAST",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "canonical_subject": "partnership",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "canonical_subject": "governance_authority",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "WETLANDS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "RIVER",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "PLAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "RIVER",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "WETLANDS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "PLAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "canonical_subject": "partnership",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "canonical_subject": "cultural",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "SUPPORTING",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "canonical_subject": "demographic_mountain",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "canonical_subject": "specialist_lineages",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "WETLANDS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "canonical_subject": "partnership",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "RIVER",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "DESERT",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "canonical_subject": "partnership",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "COAST",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "RIVER",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "canonical_subject": "partnership",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "canonical_subject": "cultural",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "SUPPORTING",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/",
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "canonical_subject": "governance_authority",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "canonical_subject": "specialist_houses",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "canonical_subject": "specialist_lineages",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "SUPPORTING",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "SUPPORTING",
+      "lifecycle_status": null,
+      "relationship_class": "SUPPORTING",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "PLAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "RIVER",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "WETLANDS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "canonical_subject": "cultural",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "SUPPORTING",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/",
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "canonical_subject": "",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "REVIEW",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "PLAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": null,
+      "action": "REVIEW",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    },
+    {
+      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "canonical_subject": "birth_childhood",
+      "domain_category": "CULTURE",
+      "context_scope": {
+        "region": "MOUNTAINS",
+        "continent": null,
+        "regional_scope": true
+      },
+      "document_role": "AUTHORITATIVE",
+      "lifecycle_status": null,
+      "relationship_class": "RELATED",
+      "recommended_destination": "03_PEOPLES/CULTURES/HEARTH/True/",
+      "action": "NO_MOVE_AUTOMATICALLY",
+      "evidence_basis": "canonical identity + layered relationship + document role/scope"
+    }
+  ],
+  "summary": {
+    "documents": 60,
+    "review": 35,
+    "recommended_destinations": 29,
+    "automatic_moves": 0,
+    "safety": "read-only; no canon or files are moved"
+  },
+  "safety": {
+    "automatic_moves": false,
+    "automatic_canon_change": false,
+    "human_validation_required": true
+  }
+}

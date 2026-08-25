@@ -2,10 +2,12 @@
 
 {
   "cases": 30,
-  "agree": 0,
-  "conflict": 29,
-  "inconclusive": 1,
-  "batman_only_dimensions": 5,
-  "robin_only_dimensions": 58,
+  "corroborated": 0,
+  "mixed_coverage": 1,
+  "evidence_gap": 29,
+  "contradiction": 0,
+  "corroborated_dimensions": 2,
+  "contradiction_dimensions": 0,
+  "unresolved_dimensions": 416,
   "factor_dimensions_available": 16
 }

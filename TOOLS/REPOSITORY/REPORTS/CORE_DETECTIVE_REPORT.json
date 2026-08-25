@@ -94740,179 +94740,225 @@
       "robin_factor_investigation": {
         "subject": {
           "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?",
-          "relation_observations": 1,
-          "syntax_supported": 1,
-          "entity_observations": 1,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": true,
-          "confidence": "high",
-          "evidence_state": "SUPPORTED",
-          "contradiction_signal": false
+          "relationship_state": "DIFFERENT",
+          "deciding_factor": true,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [
+            "same"
+          ],
+          "evidence_strength": {
+            "left": 0.2,
+            "right": 0.0
+          }
         },
         "scope": {
           "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?",
-          "relation_observations": 13,
-          "syntax_supported": 1,
-          "entity_observations": 7,
-          "ambiguity_signals": 3,
-          "supports_semantic_relation": true,
-          "confidence": "medium",
-          "evidence_state": "SUPPORTED",
-          "contradiction_signal": false
+          "relationship_state": "MIXED",
+          "deciding_factor": true,
+          "needs_batman_attention": true,
+          "shared_evidence": [
+            "hearth",
+            "mountain"
+          ],
+          "differing_evidence": [
+            "coast",
+            "desert",
+            "mountains",
+            "plains",
+            "river",
+            "settlement",
+            "village",
+            "wetlands"
+          ],
+          "evidence_strength": {
+            "left": 1.0,
+            "right": 0.36
+          }
         },
         "scale": {
           "question": "At what scale does the described subject operate, and does that scale materially differ?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "function": {
           "question": "What function does each artifact or described element perform?",
-          "relation_observations": 18,
-          "syntax_supported": 7,
-          "entity_observations": 7,
-          "ambiguity_signals": 12,
-          "supports_semantic_relation": true,
-          "confidence": "medium",
-          "evidence_state": "SUPPORTED",
-          "contradiction_signal": false
+          "relationship_state": "MIXED",
+          "deciding_factor": true,
+          "needs_batman_attention": true,
+          "shared_evidence": [
+            "birth",
+            "childhood",
+            "culture",
+            "family",
+            "lineage",
+            "specialist"
+          ],
+          "differing_evidence": [
+            "support"
+          ],
+          "evidence_strength": {
+            "left": 1.0,
+            "right": 0.8
+          }
         },
         "depth": {
           "question": "Does one artifact provide a different level of development or depth rather than the same informational job?",
-          "relation_observations": 2,
-          "syntax_supported": 2,
-          "entity_observations": 2,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": true,
-          "confidence": "high",
-          "evidence_state": "SUPPORTED",
-          "contradiction_signal": false
+          "relationship_state": "DIFFERENT",
+          "deciding_factor": true,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [
+            "deep",
+            "functional"
+          ],
+          "evidence_strength": {
+            "left": 0.4,
+            "right": 0.0
+          }
         },
         "canon_status": {
           "question": "What status does each claim have, and could an apparent disagreement be explained by differing canon states?",
-          "relation_observations": 4,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 1,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "SIGNAL_ONLY",
-          "contradiction_signal": false
+          "relationship_state": "SAME",
+          "deciding_factor": false,
+          "needs_batman_attention": false,
+          "shared_evidence": [
+            "canon"
+          ],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.12,
+            "right": 0.12
+          }
         },
         "importance": {
           "question": "Does either artifact establish core material while the other is supporting or optional material?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "development_state": {
           "question": "Is the difference explained by one area being developed while the other remains partial, open, or intentionally unfinished?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "relationship": {
           "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "dependency": {
           "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "consequence": {
           "question": "What downstream world systems does each artifact affect, and are those consequences compatible or distinct?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "provenance": {
           "question": "Where did each claim originate, and does provenance establish precedence or authority?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "intentionality": {
           "question": "Is an apparent absence or omission intentionally open, unexplored, creator-expandable, or otherwise deliberate?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "coherence": {
           "question": "How does each artifact connect to geography, settlement, economy, politics, law, history, culture, daily life, or ecology?",
-          "relation_observations": 2,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "SIGNAL_ONLY",
-          "contradiction_signal": false
+          "relationship_state": "DIFFERENT",
+          "deciding_factor": true,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [
+            "settlement"
+          ],
+          "evidence_strength": {
+            "left": 0.12,
+            "right": 0.0
+          }
         },
         "usability": {
           "question": "Is the difference caused by creator-facing usability, licensing, presentation, or world-meaning?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         },
         "story_relevance": {
           "question": "What story, conflict, mystery, narrative consequence, or story-generation opportunity does each artifact create?",
-          "relation_observations": 0,
-          "syntax_supported": 0,
-          "entity_observations": 0,
-          "ambiguity_signals": 0,
-          "supports_semantic_relation": false,
-          "confidence": "low",
-          "evidence_state": "NO_SIGNAL",
-          "contradiction_signal": false
+          "relationship_state": "UNKNOWN",
+          "deciding_factor": false,
+          "needs_batman_attention": true,
+          "shared_evidence": [],
+          "differing_evidence": [],
+          "evidence_strength": {
+            "left": 0.0,
+            "right": 0.0
+          }
         }
       },
       "case_question": {

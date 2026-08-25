@@ -2169,17 +2169,17 @@
       "decisions": [
         {
           "dimension": "subject",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "scope",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
+          "cross_state": "BATMAN_UNCORROBORATED",
+          "nightwing_verdict": "PARTIAL",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "coverage or evidence remains incomplete"
         },
         {
           "dimension": "scale",
@@ -2190,23 +2190,23 @@
         },
         {
           "dimension": "function",
-          "cross_state": "CORROBORATED",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "Batman and Robin provide compatible evidence"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
+          "cross_state": "BATMAN_UNCORROBORATED",
           "nightwing_verdict": "PARTIAL",
           "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "coverage or evidence remains incomplete"
         },
         {
+          "dimension": "depth",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "coverage or evidence remains incomplete"
+        },
+        {
           "dimension": "canon_status",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "coverage or evidence remains incomplete"
         },
         {
@@ -2260,9 +2260,9 @@
         },
         {
           "dimension": "coherence",
-          "cross_state": "ROBIN_SUPPORT_ONLY",
-          "nightwing_verdict": "PARTIAL",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "UNRESOLVED",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "coverage or evidence remains incomplete"
         },
         {

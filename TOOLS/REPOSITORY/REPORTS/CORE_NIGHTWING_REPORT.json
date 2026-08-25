@@ -2709,19 +2709,19 @@
       "dimensions": [
         {
           "dimension": "subject",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
         {
           "dimension": "scope",
-          "verdict": "CONVERGENT",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": true,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
@@ -2736,28 +2736,28 @@
         },
         {
           "dimension": "function",
-          "verdict": "CONVERGENT",
+          "verdict": "PARTIAL",
           "basis": {
             "batman_answered": true,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
         {
           "dimension": "depth",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
         {
           "dimension": "canon_status",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
@@ -2826,10 +2826,10 @@
         },
         {
           "dimension": "coherence",
-          "verdict": "PARTIAL",
+          "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
-            "robin_factor_support": true,
+            "robin_factor_support": false,
             "oracle_context": true
           }
         },
@@ -4507,9 +4507,9 @@
   ],
   "summary": {
     "cases": 30,
-    "convergent_dimensions": 2,
-    "partial_dimensions": 62,
+    "convergent_dimensions": 0,
+    "partial_dimensions": 60,
     "contradictory_dimensions": 0,
-    "unresolved_dimensions": 416
+    "unresolved_dimensions": 420
   }
 }

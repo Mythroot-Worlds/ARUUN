@@ -26,6 +26,8 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/core_semantic_claims.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Extract CORE information units for semantic comparison
         run: python TOOLS/REPOSITORY/validator/core_information_units.py --root . --out TOOLS/REPOSITORY/REPORTS
+      - name: Resolve first-class CORE document identity before placement and lineage
+        run: python -m py_compile TOOLS/REPOSITORY/validator/core_document_identity.py
       - name: Run read-only content placement audit
         run: python TOOLS/REPOSITORY/validator/content_placement_engine.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run read-only content lineage audit

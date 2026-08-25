@@ -25,16 +25,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "PLAINS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -76,7 +76,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -109,9 +109,9 @@
         "context": {
           "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "DESERT",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": "MOUNTAINS",
@@ -268,16 +268,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "WETLANDS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -319,7 +319,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "DIFFERENT",
         "revision_lineage": "DIFFERENT"
@@ -350,11 +350,11 @@
           "right": "birth_childhood"
         },
         "context": {
-          "state": "DIFFERENT",
+          "state": "SAME",
           "left": {
-            "region": null,
+            "region": "DESERT",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": "DESERT",
@@ -401,7 +401,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "DIFFERENT",
+        "context": "SAME",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -993,16 +993,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "DESERT",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -1044,7 +1044,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -1073,11 +1073,11 @@
           "right": "governance_authority"
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "COAST",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": null,
@@ -1124,7 +1124,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -1154,16 +1154,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "WETLANDS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -1205,7 +1205,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -1315,16 +1315,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "WETLANDS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -1366,7 +1366,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -1476,16 +1476,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "DESERT",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -1527,7 +1527,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "DIFFERENT",
         "revision_lineage": "DIFFERENT"
@@ -1637,11 +1637,11 @@
           "right": "governance_authority"
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "PLAINS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": null,
@@ -1688,7 +1688,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -1717,11 +1717,11 @@
           "right": "governance_authority"
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "WETLANDS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": null,
@@ -1768,7 +1768,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -2119,16 +2119,16 @@
           "right": ""
         },
         "context": {
-          "state": "SAME",
+          "state": "DIFFERENT",
           "left": {
             "region": null,
             "continent": null,
             "regional_scope": false
           },
           "right": {
-            "region": null,
+            "region": "COAST",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           }
         },
         "content": {
@@ -2170,7 +2170,7 @@
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
-        "context": "SAME",
+        "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
@@ -2201,9 +2201,9 @@
         "context": {
           "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "COAST",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": "MOUNTAINS",
@@ -2281,9 +2281,9 @@
         "context": {
           "state": "DIFFERENT",
           "left": {
-            "region": null,
+            "region": "WETLANDS",
             "continent": null,
-            "regional_scope": false
+            "regional_scope": true
           },
           "right": {
             "region": "MOUNTAINS",

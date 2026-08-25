@@ -1,14 +1,14 @@
 {
   "engine": "CORE VARIANT Gate",
-  "schema_version": "5.1",
+  "schema_version": "5.2",
   "mode": "READ_ONLY",
-  "definition": "VARIANT means substantially equivalent informational content for the same subject, same regional/scope identity, and same document type. Regional variants may differ in wording, depth, presentation, or modest detail. Different regions are RELATED, not VARIANT.",
+  "definition": "VARIANT means substantially equivalent informational content for the same canonical family, same regional/scope identity, and same document type. Regional variants may differ in wording, depth, presentation, or modest detail. Different regions are RELATED, not VARIANT.",
   "candidate_count": 71,
   "variant_candidates": 0,
   "rejected_variant_candidates": 71,
   "relationships": [
     {
-      "relationship_id": "VAR-e654ec47",
+      "relationship_id": "VAR-738699c8",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -26,7 +26,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -42,12 +45,16 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6606,
         "a_to_b": 0.3211,
@@ -385,6 +392,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -403,7 +411,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f7074339",
+      "relationship_id": "VAR-a7dabfc0",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -421,7 +429,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -437,12 +448,16 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2802,
         "a_to_b": 0.2706,
@@ -539,6 +554,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -558,7 +574,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-cdaf73e1",
+      "relationship_id": "VAR-b3ac6a4d",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -576,7 +592,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -592,12 +611,16 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6401,
         "a_to_b": 0.2801,
@@ -893,6 +916,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -912,7 +936,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d319eff3",
+      "relationship_id": "VAR-1f792c9c",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -930,7 +954,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -946,13 +973,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1879,
         "a_to_b": 0.1745,
@@ -3491,6 +3522,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -3498,6 +3530,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -3511,7 +3544,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-fde4ccaf",
+      "relationship_id": "VAR-c1e2287e",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -3529,7 +3562,10 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -3545,12 +3581,16 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2372,
         "a_to_b": 0.2372,
@@ -3641,6 +3681,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -3660,7 +3701,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b6fa1e6b",
+      "relationship_id": "VAR-536713c3",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -3678,7 +3719,10 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -3694,12 +3738,16 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2082,
         "a_to_b": 0.2123,
@@ -3784,6 +3832,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -3803,7 +3852,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-487436f2",
+      "relationship_id": "VAR-56477422",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -3821,7 +3870,10 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -3837,12 +3889,16 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2499,
         "a_to_b": 0.2399,
@@ -3927,6 +3983,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -3946,7 +4003,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-2d2cc328",
+      "relationship_id": "VAR-8ef903f1",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "source": "relationship_discovery",
@@ -3964,7 +4021,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -3980,13 +4040,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1721,
         "a_to_b": 0.1528,
@@ -6315,6 +6379,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -6322,6 +6387,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -6337,7 +6403,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-be8ee458",
+      "relationship_id": "VAR-0f341761",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
@@ -6352,10 +6418,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -6368,16 +6437,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1488,
         "a_to_b": 0.1947,
@@ -6912,6 +6985,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -6919,6 +6993,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -6932,7 +7007,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b03a1a7e",
+      "relationship_id": "VAR-0594c95c",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
@@ -6950,7 +7025,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-c87a01d2510e",
+        "canonical_family_key": "demographic_mountain",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -6966,13 +7044,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-f3b653b9615c",
+        "canonical_family_key": "specialist_lineages",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.264,
         "a_to_b": 0.2948,
@@ -7099,6 +7181,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -7106,6 +7189,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -7119,7 +7203,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4117d443",
+      "relationship_id": "VAR-6a411fdf",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -7137,7 +7221,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -7153,12 +7240,16 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6294,
         "a_to_b": 0.2589,
@@ -7448,6 +7539,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -7467,7 +7559,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-fb2395d3",
+      "relationship_id": "VAR-36812262",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
@@ -7485,7 +7577,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -7498,16 +7593,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1505,
         "a_to_b": 0.1289,
@@ -9554,6 +9653,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -9561,6 +9661,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -9574,7 +9675,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-63bbeab7",
+      "relationship_id": "VAR-0b77ac99",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -9592,7 +9693,10 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -9608,12 +9712,16 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.226,
         "a_to_b": 0.235,
@@ -9728,6 +9836,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -9747,7 +9856,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-162ece85",
+      "relationship_id": "VAR-12f097a6",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
@@ -9765,7 +9874,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -9778,16 +9890,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1512,
         "a_to_b": 0.1216,
@@ -11702,6 +11818,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -11709,6 +11826,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -11722,7 +11840,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-098a676a",
+      "relationship_id": "VAR-d18947a5",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -11740,7 +11858,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -11756,12 +11877,16 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2345,
         "a_to_b": 0.2299,
@@ -11858,6 +11983,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -11877,7 +12003,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4b2b319b",
+      "relationship_id": "VAR-250dce92",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -11895,7 +12021,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -11908,16 +12037,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1539,
         "a_to_b": 0.1351,
@@ -14006,6 +14139,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -14013,6 +14147,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -14026,7 +14161,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-efb09f94",
+      "relationship_id": "VAR-9b0a0db7",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -14044,7 +14179,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -14060,13 +14198,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1456,
         "a_to_b": 0.1604,
@@ -15585,6 +15727,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -15592,6 +15735,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -15607,7 +15751,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-a685d4d6",
+      "relationship_id": "VAR-85240668",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -15622,10 +15766,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -15638,16 +15785,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1384,
         "a_to_b": 0.1437,
@@ -16518,6 +16669,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -16525,6 +16677,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -16538,7 +16691,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0c8940cb",
+      "relationship_id": "VAR-747a5273",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
@@ -16553,10 +16706,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -16569,16 +16725,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1642,
@@ -16981,6 +17141,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -16988,6 +17149,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -17001,7 +17163,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-53563e40",
+      "relationship_id": "VAR-ee880572",
       "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
@@ -17019,7 +17181,10 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -17035,13 +17200,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-f3b653b9615c",
+        "canonical_family_key": "specialist_lineages",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "same_resolved_scope"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1764,
         "a_to_b": 0.164,
@@ -17204,6 +17373,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": true,
           "content_type": true,
@@ -17211,6 +17381,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:claims",
           "identity_gate:different_subject"
@@ -17222,7 +17393,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-eb49cb8f",
+      "relationship_id": "VAR-5203a723",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -17240,7 +17411,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -17256,12 +17430,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2558,
         "a_to_b": 0.0934,
@@ -17454,6 +17632,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -17473,7 +17652,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-8c15367b",
+      "relationship_id": "VAR-4a1941a8",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -17491,7 +17670,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -17507,12 +17689,16 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6089,
         "a_to_b": 0.2178,
@@ -17802,6 +17988,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -17821,7 +18008,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-be56811a",
+      "relationship_id": "VAR-ec10583c",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -17839,7 +18026,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -17855,12 +18045,16 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6266,
         "a_to_b": 0.2533,
@@ -18156,6 +18350,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -18175,7 +18370,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-2adf804c",
+      "relationship_id": "VAR-f280e399",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -18190,10 +18385,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -18206,16 +18404,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1408,
         "a_to_b": 0.1491,
@@ -18942,6 +19144,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -18949,6 +19152,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -18962,7 +19166,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5ad7e484",
+      "relationship_id": "VAR-d3fb9f14",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
@@ -18977,10 +19181,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -18993,16 +19200,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1206,
@@ -19723,6 +19934,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -19730,6 +19942,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -19743,7 +19956,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d92f58d2",
+      "relationship_id": "VAR-6adf4328",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -19761,7 +19974,10 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -19777,12 +19993,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.197,
         "a_to_b": 0.197,
@@ -19873,6 +20093,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -19892,7 +20113,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ee874890",
+      "relationship_id": "VAR-0f512d24",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -19907,10 +20128,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -19923,16 +20147,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1388,
         "a_to_b": 0.188,
@@ -20461,6 +20689,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -20468,6 +20697,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -20481,7 +20711,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-84f4640b",
+      "relationship_id": "VAR-70995501",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
@@ -20499,7 +20729,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -20512,16 +20745,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1318,
         "a_to_b": 0.1245,
@@ -21608,6 +21845,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -21615,6 +21853,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -21630,7 +21869,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-242cbb0a",
+      "relationship_id": "VAR-3684e1a1",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -21648,7 +21887,10 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -21664,12 +21906,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2075,
         "a_to_b": 0.212,
@@ -21754,6 +22000,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -21773,7 +22020,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-04e03038",
+      "relationship_id": "VAR-d06806b7",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -21791,7 +22038,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -21807,12 +22057,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.6339,
         "a_to_b": 0.2679,
@@ -22078,6 +22332,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -22097,7 +22352,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4a13b2d0",
+      "relationship_id": "VAR-222aae50",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -22115,7 +22370,10 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -22131,12 +22389,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1203,
         "a_to_b": 0.123,
@@ -22209,6 +22471,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -22228,7 +22491,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-46d54e35",
+      "relationship_id": "VAR-0e01a698",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -22246,7 +22509,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -22262,12 +22528,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.188,
         "a_to_b": 0.1808,
@@ -22364,6 +22634,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -22383,7 +22654,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-920ba122",
+      "relationship_id": "VAR-7b0abcea",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -22401,7 +22672,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -22414,16 +22688,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1286,
         "a_to_b": 0.1205,
@@ -23678,6 +23956,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -23685,6 +23964,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -23698,7 +23978,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ce0a5478",
+      "relationship_id": "VAR-8c7fa1c7",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -23716,7 +23996,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -23732,12 +24015,16 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1983,
         "a_to_b": 0.1929,
@@ -23828,6 +24115,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -23847,7 +24135,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-62133cea",
+      "relationship_id": "VAR-6084340a",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -23862,10 +24150,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -23881,13 +24172,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1349,
         "a_to_b": 0.1469,
@@ -25154,6 +25449,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -25161,6 +25457,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -25174,7 +25471,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-3019f0a9",
+      "relationship_id": "VAR-58d938f2",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -25192,7 +25489,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -25208,12 +25508,16 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1939,
         "a_to_b": 0.2072,
@@ -25334,6 +25638,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -25353,7 +25658,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-263efc8b",
+      "relationship_id": "VAR-948dcb0d",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -25371,7 +25676,10 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -25387,12 +25695,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1934,
         "a_to_b": 0.1934,
@@ -25483,6 +25795,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -25502,7 +25815,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d4c1f858",
+      "relationship_id": "VAR-4a9e2cbb",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -25520,7 +25833,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -25533,16 +25849,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1271,
         "a_to_b": 0.1237,
@@ -26617,6 +26937,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -26624,6 +26945,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -26639,7 +26961,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-33529e98",
+      "relationship_id": "VAR-c0a27153",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -26657,7 +26979,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -26673,13 +26998,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1665,
         "a_to_b": 0.1291,
@@ -28528,6 +28857,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -28535,6 +28865,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -28548,7 +28879,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5f7ac69b",
+      "relationship_id": "VAR-b80ff474",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -28566,7 +28897,10 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -28582,12 +28916,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2282,
         "a_to_b": 0.2041,
@@ -28702,6 +29040,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -28721,7 +29060,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-8f254a81",
+      "relationship_id": "VAR-122fb337",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -28739,7 +29078,10 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -28755,12 +29097,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1348,
         "a_to_b": 0.144,
@@ -28827,6 +29173,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -28846,7 +29193,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-4aa55d73",
+      "relationship_id": "VAR-4bd93635",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -28864,7 +29211,10 @@
           "region": "RIVER",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -28880,12 +29230,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1212,
         "a_to_b": 0.1238,
@@ -28958,6 +29312,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -28977,7 +29332,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-9bb26aa6",
+      "relationship_id": "VAR-61c924b4",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -28995,7 +29350,10 @@
           "region": "WETLANDS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -29011,12 +29369,16 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1717,
         "a_to_b": 0.1787,
@@ -29131,6 +29493,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -29150,7 +29513,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-2f959761",
+      "relationship_id": "VAR-d03f1ecf",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
@@ -29168,7 +29531,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -29181,16 +29547,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0938,
         "a_to_b": 0.0687,
@@ -30895,6 +31265,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -30902,6 +31273,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -30915,7 +31287,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-9920c2ad",
+      "relationship_id": "VAR-a565f7c5",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
@@ -30933,7 +31305,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -30946,16 +31321,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0765,
         "a_to_b": 0.0639,
@@ -31700,6 +32079,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -31707,6 +32087,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -31722,7 +32103,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d6d906a7",
+      "relationship_id": "VAR-80e46596",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -31737,10 +32118,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -31756,13 +32140,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1326,
         "a_to_b": 0.1443,
@@ -32903,6 +33291,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -32910,6 +33299,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -32923,7 +33313,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-e6afccde",
+      "relationship_id": "VAR-52913cd3",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -32941,7 +33331,10 @@
           "region": "PLAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -32957,12 +33350,16 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_resolved_scope"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.2081,
         "a_to_b": 0.2307,
@@ -33071,6 +33468,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -33090,7 +33488,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-afcffeac",
+      "relationship_id": "VAR-e960a055",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -33108,7 +33506,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -33124,13 +33525,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1217,
         "a_to_b": 0.1381,
@@ -34193,6 +34598,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -34200,6 +34606,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -34213,7 +34620,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d3643efe",
+      "relationship_id": "VAR-776a51c6",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
@@ -34231,7 +34638,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -34244,16 +34654,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1152,
         "a_to_b": 0.1139,
@@ -35172,6 +35586,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -35179,6 +35594,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -35194,7 +35610,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0d1b22c2",
+      "relationship_id": "VAR-dcd80b5f",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "source": "relationship_discovery",
@@ -35212,7 +35628,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -35225,16 +35644,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1051,
         "a_to_b": 0.1088,
@@ -35799,6 +36222,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -35806,6 +36230,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -35819,7 +36244,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f03fcf83",
+      "relationship_id": "VAR-9bebe3f5",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "source": "relationship_discovery",
@@ -35834,10 +36259,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -35853,13 +36281,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0818,
         "a_to_b": 0.103,
@@ -36754,6 +37186,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -36761,6 +37194,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -36774,7 +37208,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d97717a6",
+      "relationship_id": "VAR-12c9a1df",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "source": "relationship_discovery",
@@ -36792,7 +37226,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -36805,16 +37242,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1055,
         "a_to_b": 0.111,
@@ -37481,6 +37922,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -37488,6 +37930,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -37501,7 +37944,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-54c50bdc",
+      "relationship_id": "VAR-d843c832",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "source": "relationship_discovery",
@@ -37519,7 +37962,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -37535,13 +37981,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.122,
         "a_to_b": 0.1306,
@@ -38382,6 +38832,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -38389,6 +38840,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -38404,7 +38856,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-dc6d1719",
+      "relationship_id": "VAR-91a76d2d",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "source": "relationship_discovery",
@@ -38422,7 +38874,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -38435,16 +38890,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.102,
         "a_to_b": 0.1085,
@@ -39129,6 +39588,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -39136,6 +39596,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -39149,7 +39610,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f3b459e6",
+      "relationship_id": "VAR-0657ab16",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "source": "relationship_discovery",
@@ -39167,7 +39628,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -39180,16 +39644,20 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0907,
         "a_to_b": 0.0748,
@@ -39568,6 +40036,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -39575,6 +40044,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -39588,7 +40058,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-3b3f6509",
+      "relationship_id": "VAR-230975e3",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -39603,10 +40073,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "COAST",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -39622,13 +40095,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0799,
         "a_to_b": 0.0645,
@@ -40073,6 +40550,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -40080,6 +40558,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -40093,7 +40572,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f509ed64",
+      "relationship_id": "VAR-09155094",
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -40111,7 +40590,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-c87a01d2510e",
+        "canonical_family_key": "demographic_mountain",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -40127,13 +40609,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1241,
         "a_to_b": 0.1387,
@@ -40266,6 +40752,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -40273,6 +40760,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -40286,7 +40774,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0cd895d5",
+      "relationship_id": "VAR-63fefc32",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -40304,7 +40792,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -40320,12 +40811,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.133,
         "a_to_b": 0.1475,
@@ -40404,6 +40899,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -40423,7 +40919,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-6d10f3f2",
+      "relationship_id": "VAR-e8839c36",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -40441,7 +40937,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-8c52c7f87fb5",
+        "canonical_family_key": "cultural",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -40457,13 +40956,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0723,
         "a_to_b": 0.0558,
@@ -41106,6 +41609,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -41113,6 +41617,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -41128,7 +41633,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-d7ccdfb2",
+      "relationship_id": "VAR-04fc884d",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -41143,10 +41648,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "PLAINS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -41162,13 +41670,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0735,
         "a_to_b": 0.0604,
@@ -41505,6 +42017,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -41512,6 +42025,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -41525,7 +42039,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-ca38b200",
+      "relationship_id": "VAR-e4147d51",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -41543,7 +42057,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -41559,13 +42076,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0919,
         "a_to_b": 0.0615,
@@ -43102,6 +43623,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -43109,6 +43631,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -43122,7 +43645,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-098e79de",
+      "relationship_id": "VAR-88168573",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -43140,7 +43663,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -43156,13 +43682,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1153,
         "a_to_b": 0.0755,
@@ -43919,6 +44449,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -43926,6 +44457,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -43939,7 +44471,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0ecc5772",
+      "relationship_id": "VAR-21ccd1d8",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -43954,10 +44486,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "WETLANDS",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -43973,13 +44508,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.064,
         "a_to_b": 0.0619,
@@ -44172,6 +44711,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -44179,6 +44719,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -44192,7 +44733,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-11010560",
+      "relationship_id": "VAR-a176b59e",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "relationship_discovery",
@@ -44210,7 +44751,10 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -44226,12 +44770,16 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1328,
         "a_to_b": 0.1339,
@@ -44328,6 +44876,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -44347,7 +44896,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-127d5cb9",
+      "relationship_id": "VAR-1a2d0998",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -44365,7 +44914,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -44381,13 +44933,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0789,
         "a_to_b": 0.0669,
@@ -44718,6 +45274,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -44725,6 +45282,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -44738,7 +45296,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-f223f13b",
+      "relationship_id": "VAR-88519528",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -44756,7 +45314,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -44772,12 +45333,16 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "scope_unresolved"
       ],
+      "canonical_family_match": true,
       "pairwise_semantic_comparison": {
         "score": 0.1,
         "a_to_b": 0.1,
@@ -44850,6 +45415,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": true,
           "subject": true,
           "scope": false,
           "content_type": true,
@@ -44869,7 +45435,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-0b4700d1",
+      "relationship_id": "VAR-0484315e",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -44884,10 +45450,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -44903,13 +45472,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0721,
         "a_to_b": 0.0582,
@@ -45354,6 +45927,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -45361,6 +45935,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -45374,7 +45949,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-2bb5e8b5",
+      "relationship_id": "VAR-8b970cab",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "source": "relationship_discovery",
@@ -45392,7 +45967,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-9fb17d14be42",
+        "canonical_family_key": "governance_authority",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -45408,13 +45986,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-f3b653b9615c",
+        "canonical_family_key": "specialist_lineages",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.2609,
         "a_to_b": 0.1162,
@@ -46129,6 +46711,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -46136,6 +46719,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -46149,7 +46733,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-b5638bcb",
+      "relationship_id": "VAR-dc9369b7",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "source": "relationship_discovery",
@@ -46167,7 +46751,10 @@
           "region": "COAST",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -46183,13 +46770,17 @@
           "region": "MOUNTAINS",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-5aa4e0c757fc",
+        "canonical_family_key": "specialist_houses",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "different_resolved_scope"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.0869,
         "a_to_b": 0.0903,
@@ -46304,6 +46895,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -46311,6 +46903,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -46324,7 +46917,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-5a367ba3",
+      "relationship_id": "VAR-00ca0099",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "source": "relationship_discovery",
@@ -46339,10 +46932,13 @@
         "scope": null,
         "content_type": "CULTURE",
         "structural_scope": {
-          "region": null,
+          "region": "DESERT",
           "continent": null,
-          "regional_scope": false
-        }
+          "regional_scope": true
+        },
+        "canonical_family_id": null,
+        "canonical_family_key": null,
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -46358,13 +46954,17 @@
           "region": "DESERT",
           "continent": null,
           "regional_scope": true
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "REGIONAL_SPECIALIZATION"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1067,
         "a_to_b": 0.082,
@@ -46803,6 +47403,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -46810,6 +47411,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -46823,7 +47425,7 @@
       "variant_status": "REJECTED"
     },
     {
-      "relationship_id": "VAR-c3b182db",
+      "relationship_id": "VAR-08b8e2e2",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "source": "same_scope_identity_candidate",
@@ -46841,7 +47443,10 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-5af9166c8ae0",
+        "canonical_family_key": "partnership",
+        "relation_to_family": "FAMILY_ROOT_OR_UNSCOPED"
       },
       "right_identity": {
         "entity": "HEARTH",
@@ -46857,13 +47462,17 @@
           "region": null,
           "continent": null,
           "regional_scope": false
-        }
+        },
+        "canonical_family_id": "FAM-66bb4efea46c",
+        "canonical_family_key": "family_birth_childhood",
+        "relation_to_family": "SUPPORTING_ARTIFACT"
       },
       "identity_match": false,
       "identity_reasons": [
         "different_subject",
         "scope_unresolved"
       ],
+      "canonical_family_match": false,
       "pairwise_semantic_comparison": {
         "score": 0.1058,
         "a_to_b": 0.0566,
@@ -47764,6 +48373,7 @@
         "eligible": false,
         "descriptor": "UNRESOLVED",
         "gates": {
+          "canonical_family": false,
           "subject": false,
           "scope": false,
           "content_type": true,
@@ -47771,6 +48381,7 @@
           "claims": false
         },
         "reasons": [
+          "variant_gate_failed:canonical_family",
           "variant_gate_failed:subject",
           "variant_gate_failed:scope",
           "variant_gate_failed:claims",
@@ -47787,6 +48398,7 @@
   "identity_gate": {
     "authoritative": true,
     "fields": [
+      "canonical_family_id",
       "subject",
       "structural_scope",
       "content_type"

@@ -2,8 +2,8 @@
 
 {
   "cases": 30,
-  "direct_triage": 22,
-  "deep_investigation": 8,
+  "direct_triage": 27,
+  "deep_investigation": 3,
   "canonical_grounded_cases": 30,
   "canonical_hint_counts": {
     "VARIANT": 0,
@@ -17,13 +17,13 @@
   },
   "identity_layer_counts": {
     "supporting_layer": 4,
-    "regional_siblings": 8,
-    "same_subject_same_scope": 7,
+    "regional_siblings": 14,
+    "same_subject_same_scope": 1,
     "authoritative_pairs": 26
   },
   "decisions": {
-    "RELATED": 21,
-    "REVIEW": 8,
+    "RELATED": 26,
+    "REVIEW": 3,
     "SUPPORTING": 1
   },
   "calibration_cases": 2,

@@ -1,0 +1,1013 @@
+{
+  "engine": "CORE A.C.E. Document Triage",
+  "schema_version": "1.0",
+  "mode": "READ_ONLY",
+  "purpose": "identify what a document is, where it belongs, and whether an obvious existing relationship can be classified before deep investigation",
+  "cases": [
+    {
+      "relationship_id": "REL-ead9ec80b42f820d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "DESERT",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.371
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "COAST",
+          "right": "WETLANDS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.25
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-9c7fbdc858131086",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "COAST",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.254
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-341efe5ddc2482a6",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "partnership",
+          "right": "governance_authority",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2642
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-90b218660b55f84f",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "WETLANDS",
+          "right": "RIVER",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2436
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-50cd84d073a9394d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "PLAINS",
+          "right": "RIVER",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2105
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-3fb322fe3ce82be1",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "WETLANDS",
+          "right": "PLAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2222
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-63e65f85b9949f10",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "SUPPORTING",
+      "reason": "support/reference role is structurally explicit",
+      "evidence": {
+        "subject": {
+          "left": "partnership",
+          "right": "cultural_audit_checklist",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "SUPPORTING",
+          "same": false
+        },
+        "content_similarity": 0.2365
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-d2769ca87432c610",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "wetlands",
+          "right": "coast",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2266
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-9119c7e451067bdb",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "demographic_mountain_revision",
+          "right": "specialist_lineages",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": "MOUNTAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2137
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-e37bc5dc52f71e21",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "WETLANDS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2097
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-b14ccfa2f792b164",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "partnership",
+          "right": "coast",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2171
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-6393b0e5604c64be",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "RIVER",
+          "right": "DESERT",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1913
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-9356c781e2ab7917",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "partnership",
+          "right": "plains",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2108
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-feb21b4aefc7a187",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "COAST",
+          "right": "RIVER",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1868
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-b530ce6659fa3717",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "partnership",
+          "right": "desert",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.2049
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-d760a97344d0c388",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "SUPPORTING",
+      "reason": "support/reference role is structurally explicit",
+      "evidence": {
+        "subject": {
+          "left": "cultural_audit_checklist",
+          "right": "governance_authority",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "SUPPORTING",
+          "right": "AUTHORITATIVE",
+          "same": false
+        },
+        "content_similarity": 0.1994
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-eefa3db53e167615",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "coast",
+          "right": "desert",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.199
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-999325433c79bc99",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "wetlands",
+          "right": "plains",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1965
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-f51bfc99cb5d96a7",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "specialist_houses",
+          "right": "specialist_lineages",
+          "same": false
+        },
+        "scope": {
+          "left": "MOUNTAINS",
+          "right": "MOUNTAINS",
+          "same": true
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.194
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-05ae219e967b33df",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1887
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "PLAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1895
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-78aa0ac023ba1f89",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "RIVER",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1815
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-fad598e6ee381f08",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "plains",
+          "right": "desert",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1937
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-675f7dc38c063173",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "coast",
+          "right": "plains",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1903
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-2bccf3bd93305a2f",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "WETLANDS",
+          "right": "MOUNTAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.175
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-93788d9bb20b191c",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "wetlands",
+          "right": "desert",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1803
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-773193a03cf54926",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "SUPPORTING",
+      "reason": "support/reference role is structurally explicit",
+      "evidence": {
+        "subject": {
+          "left": "cultural_audit_checklist",
+          "right": "coast",
+          "same": false
+        },
+        "scope": {
+          "left": null,
+          "right": null,
+          "same": false
+        },
+        "role": {
+          "left": "SUPPORTING",
+          "right": "AUTHORITATIVE",
+          "same": false
+        },
+        "content_similarity": 0.1856
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "DIRECT",
+      "decision": "RELATED",
+      "reason": "same subject identity but different regional scope; not a variant",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": "PLAINS",
+          "right": "MOUNTAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1711
+      },
+      "deep_investigation_required": false,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    },
+    {
+      "relationship_id": "REL-53a134160c6d375a",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "structural identity/scope/function does not establish a safe direct classification",
+      "evidence": {
+        "subject": {
+          "left": "birth_childhood",
+          "right": "birth_childhood",
+          "same": true
+        },
+        "scope": {
+          "left": null,
+          "right": "MOUNTAINS",
+          "same": false
+        },
+        "role": {
+          "left": "AUTHORITATIVE",
+          "right": "AUTHORITATIVE",
+          "same": true
+        },
+        "content_similarity": 0.1694
+      },
+      "deep_investigation_required": true,
+      "safety": {
+        "automatic_canon_change": false,
+        "automatic_rule_promotion": false
+      }
+    }
+  ],
+  "summary": {
+    "cases": 30,
+    "direct_triage": 11,
+    "deep_investigation": 19,
+    "decisions": {
+      "REVIEW": 19,
+      "RELATED": 8,
+      "SUPPORTING": 3
+    }
+  },
+  "safety": {
+    "human_validation_required": true,
+    "automatic_canon_change": false,
+    "automatic_rule_promotion": false
+  }
+}

@@ -23,11 +23,15 @@ def normalize(text):
     text=re.sub(r'\s+',' ',text).strip()
     return text
 
-def units(path):
+def units(path, root):
     try: body=path.read_text(encoding='utf-8',errors='replace')[:160000]
     except Exception:return []
     section='DOCUMENT'
     out=[]
+    # Discovery and downstream gates use repository-relative source paths.
+    # Keep the same canonical identity here so pairwise lookup can actually
+    # join information units to discovered relationship candidates.
+    source=path.relative_to(root).as_posix()
     for line_no,raw in enumerate(body.splitlines(),1):
         s=raw.strip()
         if not s: continue
@@ -42,16 +46,16 @@ def units(path):
         if len(text)<30: continue
         norm=normalize(text)
         if not norm: continue
-        out.append({'source':path.as_posix(),'line':line_no,'section':section,'text':text[:1000],'normalized':norm,'fingerprint':hashlib.sha1(norm.encode()).hexdigest()[:16]})
+        out.append({'source':source,'line':line_no,'section':section,'text':text[:1000],'normalized':norm,'fingerprint':hashlib.sha1(norm.encode()).hexdigest()[:16]})
     return out
 
 def main():
     ap=argparse.ArgumentParser(); ap.add_argument('--root',default='.'); ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS'); a=ap.parse_args(); root=Path(a.root).resolve(); out=root/a.out; out.mkdir(parents=True,exist_ok=True)
     all_units=[]
-    for p in files(root): all_units.extend(units(p))
-    report={'engine':'CORE Information Unit Extraction','schema_version':'1.0','mode':'READ_ONLY','units':all_units,'summary':{'documents_with_units':len({u['source'] for u in all_units}),'information_units':len(all_units)},'safety':{'final_relationship_decision':False,'automatic_canon_change':False,'provenance_required':True}}
+    for p in files(root): all_units.extend(units(p, root))
+    report={'engine':'CORE Information Unit Extraction','schema_version':'1.1','mode':'READ_ONLY','units':all_units,'summary':{'documents_with_units':len({u['source'] for u in all_units}),'information_units':len(all_units)},'safety':{'final_relationship_decision':False,'automatic_canon_change':False,'provenance_required':True},'source_path_contract':'repository-relative POSIX paths; matches CORE relationship discovery and VARIANT gate identities'}
     (out/'CORE_INFORMATION_UNITS.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
-    md=['# CORE Information Units','','Information units capture what prose says before relationship adjudication.','They supplement—not replace—explicit semantic relationship claims.','',f"Documents with units: **{report['summary']['documents_with_units']}**",f"Information units: **{report['summary']['information_units']}**"]
+    md=['# CORE Information Units','','Information units capture what prose says before relationship adjudication.','They supplement—not replace—explicit semantic relationship claims.','',f"Documents with units: **{report['summary']['documents_with_units']}**",f"Information units: **{report['summary']['information_units']}**",'', 'Source paths use repository-relative POSIX paths so downstream relationship joins resolve consistently.']
     (out/'CORE_INFORMATION_UNITS.md').write_text('\n'.join(md)+'\n',encoding='utf-8')
     print(f"CORE information units: {len(all_units)} across {report['summary']['documents_with_units']} documents.")
 if __name__=='__main__': main()

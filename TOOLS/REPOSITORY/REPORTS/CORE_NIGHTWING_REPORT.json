@@ -9,9 +9,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -126,10 +126,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -153,18 +153,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -186,9 +186,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -303,10 +303,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -330,9 +330,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -480,10 +480,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -507,18 +507,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -540,9 +540,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -657,10 +657,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -684,9 +684,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -717,9 +717,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -834,10 +834,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -861,18 +861,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1011,10 +1011,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1038,9 +1038,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1062,9 +1062,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1179,10 +1179,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1206,9 +1206,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1239,9 +1239,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1356,10 +1356,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1383,9 +1383,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1416,9 +1416,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1533,10 +1533,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1560,18 +1560,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1593,9 +1593,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1710,10 +1710,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1737,9 +1737,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -1878,10 +1878,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -1905,9 +1905,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2064,18 +2064,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2097,9 +2097,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2214,10 +2214,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -2241,9 +2241,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2274,9 +2274,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -2391,10 +2391,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -2418,9 +2418,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2559,9 +2559,9 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": false,
+            "batman_answered": true,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -2586,18 +2586,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2727,10 +2727,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -2754,18 +2754,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -2785,15 +2785,6 @@
     {
       "relationship_id": "REL-d1a7bee30a221feb",
       "dimensions": [
-        {
-          "dimension": "authority",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
-            "oracle_context": true
-          }
-        },
         {
           "dimension": "canon_status",
           "verdict": "UNRESOLVED",
@@ -2904,9 +2895,9 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": false,
+            "batman_answered": true,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -2922,24 +2913,6 @@
         },
         {
           "dimension": "subject",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "support",
-          "verdict": "DIVERGENT",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": true,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "temporal",
           "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
@@ -3081,10 +3054,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -3240,10 +3213,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -3267,18 +3240,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3435,18 +3408,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3468,9 +3441,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3585,10 +3558,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -3612,18 +3585,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -3645,9 +3618,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3762,10 +3735,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -3789,9 +3762,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3822,9 +3795,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3939,10 +3912,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -3966,9 +3939,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -3998,15 +3971,6 @@
       "relationship_id": "REL-b329cd231d2727ad",
       "dimensions": [
         {
-          "dimension": "authority",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
-            "oracle_context": true
-          }
-        },
-        {
           "dimension": "canon_status",
           "verdict": "UNRESOLVED",
           "basis": {
@@ -4134,24 +4098,6 @@
         },
         {
           "dimension": "subject",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "support",
-          "verdict": "UNRESOLVED",
-          "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
-            "oracle_context": true
-          }
-        },
-        {
-          "dimension": "temporal",
           "verdict": "UNRESOLVED",
           "basis": {
             "batman_answered": false,
@@ -4293,10 +4239,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -4320,9 +4266,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -4353,9 +4299,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -4470,10 +4416,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -4497,9 +4443,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -4530,9 +4476,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -4647,10 +4593,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -4674,18 +4620,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -4824,10 +4770,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "CONVERGENT",
           "basis": {
-            "batman_answered": false,
-            "robin_semantic_support": false,
+            "batman_answered": true,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -4851,9 +4797,9 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -4884,9 +4830,9 @@
       "dimensions": [
         {
           "dimension": "authority",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -5001,10 +4947,10 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
             "batman_answered": false,
-            "robin_semantic_support": false,
+            "robin_semantic_support": true,
             "oracle_context": true
           }
         },
@@ -5028,18 +4974,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "DIVERGENT",
+          "verdict": "UNRESOLVED",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -5169,9 +5115,9 @@
         },
         {
           "dimension": "scope",
-          "verdict": "UNRESOLVED",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": false,
+            "batman_answered": true,
             "robin_semantic_support": false,
             "oracle_context": true
           }
@@ -5196,18 +5142,18 @@
         },
         {
           "dimension": "support",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
         },
         {
           "dimension": "temporal",
-          "verdict": "CONVERGENT",
+          "verdict": "DIVERGENT",
           "basis": {
-            "batman_answered": true,
+            "batman_answered": false,
             "robin_semantic_support": true,
             "oracle_context": true
           }
@@ -5227,8 +5173,8 @@
   ],
   "summary": {
     "cases": 30,
-    "convergent_dimensions": 66,
-    "divergent_dimensions": 9,
-    "unresolved_dimensions": 485
+    "convergent_dimensions": 32,
+    "divergent_dimensions": 63,
+    "unresolved_dimensions": 459
   }
 }

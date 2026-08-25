@@ -2,10 +2,10 @@
 
 {
   "cases": 30,
-  "agree": 20,
-  "conflict": 9,
+  "agree": 0,
+  "conflict": 29,
   "inconclusive": 1,
-  "batman_only_dimensions": 8,
-  "robin_only_dimensions": 1,
+  "batman_only_dimensions": 5,
+  "robin_only_dimensions": 58,
   "factor_dimensions_available": 16
 }

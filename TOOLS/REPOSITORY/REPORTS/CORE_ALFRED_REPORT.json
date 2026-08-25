@@ -9,148 +9,7 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "subject",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        }
-      ],
-      "status": "UNRESOLVED",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
-    },
-    {
-      "relationship_id": "REL-611f05a8b4f4793f",
-      "decisions": [
-        {
-          "dimension": "authority",
-          "cross_state": "BATMAN_ONLY",
+          "cross_state": "ROBIN_ONLY",
           "nightwing_verdict": "DIVERGENT",
           "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
@@ -199,7 +58,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -227,7 +86,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -241,10 +100,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -262,10 +121,151 @@
         },
         {
           "dimension": "support",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "temporal",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "usability",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        }
+      ],
+      "status": "ESCALATE",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
+    },
+    {
+      "relationship_id": "REL-611f05a8b4f4793f",
+      "decisions": [
+        {
+          "dimension": "authority",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "canon_status",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "coherence",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "consequence",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "dependency",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "depth",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "development_state",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "function",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "importance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "intentionality",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "provenance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "relationship",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "scale",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "scope",
           "cross_state": "AGREE",
           "nightwing_verdict": "CONVERGENT",
           "alfred_decision": "CONVERGED",
           "reason": "independent perspectives converge"
+        },
+        {
+          "dimension": "story_relevance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "subject",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "support",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -340,7 +340,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -368,7 +368,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -382,10 +382,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -403,17 +403,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -423,7 +423,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -432,10 +432,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -481,7 +481,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -509,7 +509,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -523,9 +523,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -544,10 +544,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -564,7 +564,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -573,10 +573,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -622,7 +622,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -650,7 +650,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -664,9 +664,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -685,17 +685,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -705,7 +705,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -763,7 +763,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -791,7 +791,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -805,10 +805,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -826,10 +826,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -839,7 +839,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -848,10 +848,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -897,7 +897,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -925,7 +925,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -939,10 +939,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -960,10 +960,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -980,7 +980,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -989,10 +989,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -1038,7 +1038,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1066,7 +1066,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1080,10 +1080,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -1101,10 +1101,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -1121,7 +1121,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -1130,10 +1130,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -1179,7 +1179,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1207,7 +1207,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1221,10 +1221,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -1242,17 +1242,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -1262,7 +1262,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -1271,10 +1271,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -1320,7 +1320,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1348,7 +1348,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1362,9 +1362,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -1383,10 +1383,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -1403,7 +1403,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -1454,7 +1454,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1482,7 +1482,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1496,10 +1496,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -1517,10 +1517,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -1530,7 +1530,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -1581,7 +1581,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1609,7 +1609,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1644,17 +1644,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -1664,7 +1664,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -1673,148 +1673,7 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "canon_status",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "coherence",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "consequence",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "dependency",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "depth",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "development_state",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "function",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "importance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "intentionality",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "provenance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "scale",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "story_relevance",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "subject",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
-        },
-        {
-          "dimension": "usability",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        }
-      ],
-      "status": "UNRESOLVED",
-      "human_review_required": true,
-      "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
-    },
-    {
-      "relationship_id": "REL-232cec354bd43aba",
-      "decisions": [
-        {
-          "dimension": "authority",
-          "cross_state": "BATMAN_ONLY",
+          "cross_state": "ROBIN_ONLY",
           "nightwing_verdict": "DIVERGENT",
           "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1863,7 +1722,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1891,7 +1750,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -1905,10 +1764,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -1926,10 +1785,151 @@
         },
         {
           "dimension": "support",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "temporal",
           "cross_state": "AGREE",
           "nightwing_verdict": "CONVERGENT",
           "alfred_decision": "CONVERGED",
           "reason": "independent perspectives converge"
+        },
+        {
+          "dimension": "usability",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        }
+      ],
+      "status": "ESCALATE",
+      "human_review_required": true,
+      "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
+    },
+    {
+      "relationship_id": "REL-232cec354bd43aba",
+      "decisions": [
+        {
+          "dimension": "authority",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "canon_status",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "coherence",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "consequence",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "dependency",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "depth",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "development_state",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "function",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "importance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "intentionality",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "provenance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "relationship",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "scale",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "scope",
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
+        },
+        {
+          "dimension": "story_relevance",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "subject",
+          "cross_state": "NO_SIGNAL",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
+          "reason": "perspectives do not establish a shared interpretation"
+        },
+        {
+          "dimension": "support",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -1997,7 +1997,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2025,7 +2025,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2039,9 +2039,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "BATMAN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -2060,17 +2060,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -2080,7 +2080,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -2131,7 +2131,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2159,7 +2159,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2173,10 +2173,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -2194,17 +2194,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -2214,20 +2214,13 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
     {
       "relationship_id": "REL-d1a7bee30a221feb",
       "decisions": [
-        {
-          "dimension": "authority",
-          "cross_state": "NEITHER",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
         {
           "dimension": "canon_status",
           "cross_state": "NO_SIGNAL",
@@ -2272,7 +2265,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2300,7 +2293,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2314,9 +2307,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "BATMAN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -2329,20 +2322,6 @@
         {
           "dimension": "subject",
           "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "support",
-          "cross_state": "ROBIN_ONLY",
-          "nightwing_verdict": "DIVERGENT",
-          "alfred_decision": "REQUIRES_CONTEXT",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "temporal",
-          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2413,7 +2392,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2441,7 +2420,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2455,10 +2434,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -2540,7 +2519,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2568,7 +2547,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2582,10 +2561,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -2603,17 +2582,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -2623,7 +2602,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -2674,7 +2653,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2702,7 +2681,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2737,17 +2716,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -2757,7 +2736,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -2766,10 +2745,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -2815,7 +2794,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2843,7 +2822,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2857,9 +2836,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -2878,16 +2857,16 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "BATMAN_ONLY",
-          "nightwing_verdict": "DIVERGENT",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -2907,10 +2886,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -2956,7 +2935,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2984,7 +2963,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -2998,9 +2977,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -3019,10 +2998,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -3048,10 +3027,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -3097,7 +3076,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3125,7 +3104,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3139,10 +3118,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -3160,10 +3139,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -3180,20 +3159,13 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
     {
       "relationship_id": "REL-b329cd231d2727ad",
       "decisions": [
-        {
-          "dimension": "authority",
-          "cross_state": "NEITHER",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
         {
           "dimension": "canon_status",
           "cross_state": "NO_SIGNAL",
@@ -3238,7 +3210,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3266,7 +3238,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3295,20 +3267,6 @@
         {
           "dimension": "subject",
           "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "support",
-          "cross_state": "NEITHER",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
-        },
-        {
-          "dimension": "temporal",
-          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3379,7 +3337,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3407,7 +3365,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3421,9 +3379,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -3442,10 +3400,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -3462,7 +3420,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -3471,9 +3429,9 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "BATMAN_ONLY",
-          "nightwing_verdict": "DIVERGENT",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -3520,7 +3478,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3548,7 +3506,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3562,10 +3520,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -3583,10 +3541,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -3612,10 +3570,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -3661,7 +3619,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3689,7 +3647,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3703,9 +3661,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -3724,16 +3682,16 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "BATMAN_ONLY",
-          "nightwing_verdict": "DIVERGENT",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -3802,7 +3760,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3830,7 +3788,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3844,10 +3802,10 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
-          "reason": "perspectives do not establish a shared interpretation"
+          "cross_state": "AGREE",
+          "nightwing_verdict": "CONVERGENT",
+          "alfred_decision": "CONVERGED",
+          "reason": "independent perspectives converge"
         },
         {
           "dimension": "story_relevance",
@@ -3865,10 +3823,10 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
@@ -3885,7 +3843,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     },
@@ -3894,10 +3852,10 @@
       "decisions": [
         {
           "dimension": "authority",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "canon_status",
@@ -3943,7 +3901,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3971,7 +3929,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -3985,9 +3943,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -4006,16 +3964,16 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "BATMAN_ONLY",
-          "nightwing_verdict": "DIVERGENT",
-          "alfred_decision": "REQUIRES_CONTEXT",
+          "cross_state": "NEITHER",
+          "nightwing_verdict": "UNRESOLVED",
+          "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -4077,7 +4035,7 @@
         },
         {
           "dimension": "function",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -4105,7 +4063,7 @@
         },
         {
           "dimension": "relationship",
-          "cross_state": "NO_SIGNAL",
+          "cross_state": "NEITHER",
           "nightwing_verdict": "UNRESOLVED",
           "alfred_decision": "UNRESOLVED",
           "reason": "perspectives do not establish a shared interpretation"
@@ -4119,9 +4077,9 @@
         },
         {
           "dimension": "scope",
-          "cross_state": "NO_SIGNAL",
-          "nightwing_verdict": "UNRESOLVED",
-          "alfred_decision": "UNRESOLVED",
+          "cross_state": "BATMAN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
           "reason": "perspectives do not establish a shared interpretation"
         },
         {
@@ -4140,17 +4098,17 @@
         },
         {
           "dimension": "support",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "temporal",
-          "cross_state": "AGREE",
-          "nightwing_verdict": "CONVERGENT",
-          "alfred_decision": "CONVERGED",
-          "reason": "independent perspectives converge"
+          "cross_state": "ROBIN_ONLY",
+          "nightwing_verdict": "DIVERGENT",
+          "alfred_decision": "REQUIRES_CONTEXT",
+          "reason": "perspectives do not establish a shared interpretation"
         },
         {
           "dimension": "usability",
@@ -4160,7 +4118,7 @@
           "reason": "perspectives do not establish a shared interpretation"
         }
       ],
-      "status": "UNRESOLVED",
+      "status": "ESCALATE",
       "human_review_required": true,
       "stop_rule": "stop only when required dimensions converge without unresolved contradiction"
     }
@@ -4168,8 +4126,8 @@
   "summary": {
     "cases": 30,
     "resolved": 0,
-    "escalate": 9,
-    "unresolved": 21
+    "escalate": 29,
+    "unresolved": 1
   },
   "safety": {
     "human_validation_required": true,

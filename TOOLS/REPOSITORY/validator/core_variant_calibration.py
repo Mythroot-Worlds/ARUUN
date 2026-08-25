@@ -1,18 +1,12 @@
-"""Small, shared calibration helpers for CORE VARIANT decisions.
+"""Shared identity/evidence gates for CORE VARIANT decisions.
 
-This module keeps the operational definition in code so callers do not invent
-relationship semantics independently.
+The operational rule is structural identity first, semantic evidence second.
 """
-
 from __future__ import annotations
 
 
 def variant_scope_compatible(a: dict, b: dict) -> tuple[bool, str]:
-    """Return whether two resolved identities may be ordinary VARIANTs.
-
-    Different resolved regions are never VARIANTs. Unknown scope is not an
-    agreement; it is an unresolved identity condition and must be reviewed.
-    """
+    """Return whether two documents occupy the same resolved scope."""
     sa = a.get("scope") or a.get("region")
     sb = b.get("scope") or b.get("region")
     if not sa or not sb:
@@ -20,6 +14,24 @@ def variant_scope_compatible(a: dict, b: dict) -> tuple[bool, str]:
     if sa != sb:
         return False, "different_resolved_scope"
     return True, "same_resolved_scope"
+
+
+def variant_identity_compatible(a: dict, b: dict) -> tuple[bool, list[str]]:
+    """Check only authoritative VARIANT identity fields.
+
+    Subject, scope and document type are hard identity gates. Role/purpose are
+    compatibility signals and must not erase legitimate same-scope variants.
+    """
+    reasons: list[str] = []
+    for key in ("subject", "content_type"):
+        av, bv = a.get(key), b.get(key)
+        if not av or not bv:
+            reasons.append(f"{key}_unresolved")
+        elif av != bv:
+            reasons.append(f"different_{key}")
+    ok, scope_reason = variant_scope_compatible(a, b)
+    reasons.append(scope_reason)
+    return not reasons or all(r == "same_resolved_scope" for r in reasons), reasons
 
 
 def variant_information_compatible(a: dict, b: dict) -> tuple[bool, str]:
@@ -46,9 +58,9 @@ def variant_information_compatible(a: dict, b: dict) -> tuple[bool, str]:
 
 def variant_gate(a: dict, b: dict) -> tuple[bool, list[str]]:
     reasons: list[str] = []
-    ok, reason = variant_scope_compatible(a, b)
-    reasons.append(reason)
-    if not ok:
+    identity_ok, identity_reasons = variant_identity_compatible(a, b)
+    reasons.extend(identity_reasons)
+    if not identity_ok:
         return False, reasons
     ok, reason = variant_information_compatible(a, b)
     reasons.append(reason)

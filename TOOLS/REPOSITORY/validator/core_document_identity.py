@@ -3,6 +3,7 @@
 from __future__ import annotations
 import re
 from pathlib import Path
+from core_document_naming import parse as parse_naming
 
 REGIONS=("PLAINS","MOUNTAINS","RIVER","WETLANDS","DESERT","COAST")
 STOP={"the","and","for","with","from","that","this","document","regional","family","final","draft","version","comparative","variant","duplicate","supporting","historical","canonical","canon","hearth","region","regions","reference","audit","checklist"}
@@ -17,10 +18,12 @@ def scope_from_path(path):
     path_obj=Path(path)
     parts=[p.upper().replace("-","_") for p in path_obj.parts]
     region=next((r for r in reversed(parts) if r in REGIONS),None)
-    # Canonical flat regional documents such as HEARTH/COAST.md encode their
-    # regional scope in the filename rather than a directory component.
     if region is None and path_obj.stem.upper() in REGIONS:
         region=path_obj.stem.upper()
+    naming=parse_naming(path)
+    if region is None and naming.get('normalized'):
+        token=naming.get('scope_token')
+        if token in REGIONS: region=token
     continent=None
     if "CONTINENTS" in parts:
         i=parts.index("CONTINENTS")
@@ -42,9 +45,25 @@ def role_from_path(path):
     if any(x in u for x in ("CHECKLIST","AUDIT","FRAMEWORK","GUIDE","REFERENCE","OPERATING_RULES","COMPARATIVE")):return "SUPPORTING"
     return "AUTHORITATIVE"
 
+def identity_layer(path, scope, role, content):
+    stem=Path(path).stem.upper()
+    if content=="CULTURE" and role=="AUTHORITATIVE":
+        if stem in REGIONS or scope.get('region') and Path(path).parent.name.upper() in REGIONS and Path(path).stem.upper() in REGIONS:
+            return "CANONICAL_ROOT"
+        if scope.get('region'):
+            return "REGIONAL_SPECIALIZATION"
+        return "CANONICAL_ROOT"
+    if role=="SUPPORTING": return "SUPPORTING_ARTIFACT"
+    if role=="HISTORICAL": return "HISTORICAL_ARTIFACT"
+    return "GENERAL_ARTIFACT"
+
 def identify(path):
     scope=scope_from_path(path)
-    return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content_type(path),"scope":scope,"role":role_from_path(path),"identity_basis":["path","filename"]}
+    content=content_type(path)
+    role=role_from_path(path)
+    naming=parse_naming(path)
+    layer=identity_layer(path,scope,role,content)
+    return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content,"scope":scope,"role":role,"identity_layer":layer,"naming":naming,"identity_basis":["path","filename","document_naming_status_codes"]}
 
 def same_identity(a,b):
     return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and a["scope"]==b["scope"]

@@ -6,7 +6,7 @@ ontology changes, an older label may conflict with the current policy; that is
 reported as a POLICY_CONFLICT rather than silently treated as a current gold label.
 """
 from __future__ import annotations
-import argparse,json,re
+import argparse,json
 from pathlib import Path
 from core_layered_relationship import compare
 
@@ -17,17 +17,14 @@ def load(p,d=None):
     return json.loads(p.read_text(encoding='utf-8'))
 
 def expected_from_layers(result):
-    l=result['layers']; category=l['category']['state']; subject=l['subject']['state']; context=l['context']['state']; info=l['information_overlap']['state']; revision=l['revision_lineage']['state'];
+    l=result['layers']; category=l['category']['state']; subject=l['subject']['state']; context=l['context']['state']; revision=l['revision_lineage']['state']
     if revision=='SAME' and category=='SAME' and subject=='SAME' and context=='SAME': return 'VARIANT'
     if category=='SAME' and subject=='SAME' and context=='DIFFERENT': return 'RELATED'
     if result['decision'] in {'DUPLICATE','VARIANT','RELATED','SUPPORTING','HISTORICAL','CONFLICT','MISPLACED','COINCIDENTAL'}: return result['decision']
     return 'REVIEW'
 
 def region_from_path(path):
-    parts=[p.upper() for p in Path(path).parts]
-    for p in parts:
-        if p in REGIONS:return p
-    return None
+    return next((p for p in (x.upper() for x in Path(path).parts) if p in REGIONS),None)
 
 def policy_cases():
     return [
@@ -43,18 +40,18 @@ def main():
     for a,b,expected,reason in policy_cases():
         pa,pb=root/a,root/b
         if not pa.exists() or not pb.exists():
-            cases.append({'left':a,'right':b,'expected':expected,'actual':None,'status':'FIXTURE_MISSING','reason':reason});continue
+            cases.append({'left':a,'right':b,'expected':expected,'actual':None,'pass':None,'status':'FIXTURE_MISSING','reason':reason});continue
         r=compare(a,pa.read_text(encoding='utf-8',errors='replace'),b,pb.read_text(encoding='utf-8',errors='replace'))
-        cases.append({'left':a,'right':b,'expected':expected,'actual':r['decision'],'pass':r['decision']==expected,'reason':reason,'layers':r['layers'],'decision_basis':r['decision_basis']})
+        cases.append({'left':a,'right':b,'expected':expected,'actual':r['decision'],'pass':r['decision']==expected,'status':'TESTED','reason':reason,'layers':r['layers'],'decision_basis':r['decision_basis']})
     human=load(out/'CORE_HUMAN_RECONCILIATION.json',{'matched':[]})
     conflicts=[]
     for m in human.get('matched',[]):
-        choices=set(m.get('human_raw_choices',[])); left,right=m.get('left',''),m.get('right','')
-        la,lb=region_from_path(left),region_from_path(right)
-        # Current policy explicitly rejects regional siblings as VARIANT.
+        choices=set(m.get('human_raw_choices',[])); left,right=m.get('left',''),m.get('right',''); la,lb=region_from_path(left),region_from_path(right)
         if la and lb and la!=lb and 'VARIANT' in choices:
             conflicts.append({'relationship_id':m.get('relationship_id'),'left':left,'right':right,'legacy_human_label':'VARIANT','current_policy':'RELATED','status':'POLICY_CONFLICT','reason':'different regional groups are related, not variants'})
-    summary={'policy_cases':len(cases),'policy_passed':sum(c.get('pass',False) for c in cases),'policy_failed':sum(c.get('pass') is False for c in cases),'missing_fixtures':sum(c['status']=='FIXTURE_MISSING' for c in cases),'legacy_policy_conflicts':len(conflicts)}
+    tested=[c for c in cases if c.get('status')=='TESTED']
+    missing=[c for c in cases if c.get('status')=='FIXTURE_MISSING']
+    summary={'policy_cases':len(cases),'policy_passed':sum(c.get('pass') is True for c in cases),'policy_failed':sum(c.get('pass') is False for c in cases),'missing_fixtures':len(missing),'legacy_policy_conflicts':len(conflicts)}
     report={'engine':'CORE Relationship Policy Validator','ontology_version':'2.0','policy':{'variant':'same underlying information in the same relevant context; wording/detail/version differences allowed','related':'meaningful conceptual relationship with materially different context or information','regional_rule':'different regional groups are RELATED, not VARIANT'},'cases':cases,'legacy_policy_conflicts':conflicts,'summary':summary,'safety':{'historical_human_labels_preserved':True,'automatic_rule_promotion':False,'automatic_canon_change':False}}
     (out/'CORE_RELATIONSHIP_POLICY.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     (out/'CORE_RELATIONSHIP_POLICY.md').write_text('# CORE Relationship Policy\n\n'+json.dumps(summary,indent=2)+'\n\nLegacy human labels that conflict with the current ontology are reported, not silently rewritten.\n',encoding='utf-8')

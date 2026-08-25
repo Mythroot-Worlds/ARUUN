@@ -1,8 +1,9 @@
 # CORE Document Disposition
 
 Documents: 60
-Review: 35
-Recommended destinations: 29
+Review: 34
+Recommended destinations: 30
+Regional destinations: 25
 
 No files are moved automatically.
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
@@ -13,6 +14,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -20,8 +22,9 @@ No files are moved automatically.
 - Scope: `{'region': 'DESERT', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/DESERT/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -29,8 +32,9 @@ No files are moved automatically.
 - Scope: `{'region': 'COAST', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COAST/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -38,8 +42,9 @@ No files are moved automatically.
 - Scope: `{'region': 'WETLANDS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/WETLANDS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -49,6 +54,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -56,8 +62,9 @@ No files are moved automatically.
 - Scope: `{'region': 'COAST', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COAST/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
 - Subject: `partnership`
@@ -67,6 +74,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md
 - Subject: `governance_authority`
@@ -76,6 +84,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -83,8 +92,9 @@ No files are moved automatically.
 - Scope: `{'region': 'WETLANDS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/WETLANDS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -92,8 +102,9 @@ No files are moved automatically.
 - Scope: `{'region': 'RIVER', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/RIVER/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -101,8 +112,9 @@ No files are moved automatically.
 - Scope: `{'region': 'PLAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/PLAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -110,8 +122,9 @@ No files are moved automatically.
 - Scope: `{'region': 'RIVER', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/RIVER/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -119,8 +132,9 @@ No files are moved automatically.
 - Scope: `{'region': 'WETLANDS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/WETLANDS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -128,8 +142,9 @@ No files are moved automatically.
 - Scope: `{'region': 'PLAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/PLAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
 - Subject: `partnership`
@@ -139,6 +154,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md
 - Subject: `cultural`
@@ -148,6 +164,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS.md
 - Subject: ``
@@ -157,6 +174,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST.md
 - Subject: ``
@@ -166,6 +184,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md
 - Subject: `demographic_mountain`
@@ -175,6 +194,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md
 - Subject: `specialist_lineages`
@@ -182,8 +202,9 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -193,6 +214,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -200,8 +222,9 @@ No files are moved automatically.
 - Scope: `{'region': 'WETLANDS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/WETLANDS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
 - Subject: `partnership`
@@ -211,6 +234,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST.md
 - Subject: ``
@@ -220,6 +244,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -227,8 +252,9 @@ No files are moved automatically.
 - Scope: `{'region': 'RIVER', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/RIVER/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -236,8 +262,9 @@ No files are moved automatically.
 - Scope: `{'region': 'DESERT', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/DESERT/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
 - Subject: `partnership`
@@ -247,6 +274,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS.md
 - Subject: ``
@@ -256,6 +284,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -263,8 +292,9 @@ No files are moved automatically.
 - Scope: `{'region': 'COAST', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COAST/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -272,8 +302,9 @@ No files are moved automatically.
 - Scope: `{'region': 'RIVER', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/RIVER/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
 - Subject: `partnership`
@@ -283,6 +314,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT.md
 - Subject: ``
@@ -292,6 +324,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md
 - Subject: `cultural`
@@ -301,6 +334,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md
 - Subject: `governance_authority`
@@ -310,6 +344,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST.md
 - Subject: ``
@@ -319,6 +354,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT.md
 - Subject: ``
@@ -328,6 +364,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS.md
 - Subject: ``
@@ -337,6 +374,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS.md
 - Subject: ``
@@ -346,6 +384,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md
 - Subject: `specialist_houses`
@@ -353,8 +392,9 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md
 - Subject: `specialist_lineages`
@@ -362,8 +402,9 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -371,8 +412,9 @@ No files are moved automatically.
 - Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
 - Role: `AUTHORITATIVE`
 - Relationship: `SUPPORTING`
-- Recommended destination: `REVIEW`
-- Action: `REVIEW`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md
 - Subject: `birth_childhood`
@@ -382,6 +424,7 @@ No files are moved automatically.
 - Relationship: `SUPPORTING`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -391,6 +434,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -398,8 +442,9 @@ No files are moved automatically.
 - Scope: `{'region': 'PLAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/PLAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -409,6 +454,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -416,8 +462,9 @@ No files are moved automatically.
 - Scope: `{'region': 'RIVER', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/RIVER/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS.md
 - Subject: ``
@@ -427,6 +474,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT.md
 - Subject: ``
@@ -436,6 +484,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST.md
 - Subject: ``
@@ -445,6 +494,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS.md
 - Subject: ``
@@ -454,6 +504,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -461,8 +512,9 @@ No files are moved automatically.
 - Scope: `{'region': 'WETLANDS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/WETLANDS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -470,8 +522,9 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/WETLANDS.md
 - Subject: ``
@@ -481,6 +534,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/DESERT.md
 - Subject: ``
@@ -490,6 +544,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md
 - Subject: `cultural`
@@ -499,6 +554,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/COAST.md
 - Subject: ``
@@ -508,6 +564,7 @@ No files are moved automatically.
 - Relationship: `REVIEW`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -515,8 +572,9 @@ No files are moved automatically.
 - Scope: `{'region': 'PLAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/PLAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -524,8 +582,9 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping
 
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -535,6 +594,7 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `REVIEW`
 - Action: `REVIEW`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, no safe canonical destination inferred
 
 ## 03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
@@ -542,5 +602,6 @@ No files are moved automatically.
 - Scope: `{'region': 'MOUNTAINS', 'continent': None, 'regional_scope': True}`
 - Role: `AUTHORITATIVE`
 - Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/True/`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/`
 - Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, domain/category, scope, document role, lifecycle, domain-aware destination mapping

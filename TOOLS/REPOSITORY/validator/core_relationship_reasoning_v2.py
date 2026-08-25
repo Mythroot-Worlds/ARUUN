@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Relationship hypothesis engine for Batman.
 
-VARIANT is deliberately narrow: same normalized subject and same structural
-region scope. Different regional instances are RELATED unless another stronger
-relationship is evidenced.
+Batman adjudicates genuinely ambiguous cases after document triage. The layered
+comparison is the primary structural evidence; Robin supplies independent
+factor evidence for the remaining ambiguity. VARIANT stays narrow: same
+information in the same relevant context, with wording/detail/version changes.
 """
 from __future__ import annotations
 
@@ -37,7 +38,44 @@ def candidate(name,m,robin):
  score=10*len(reasons)+3*len(supports)-12*len(blocks)-5*len(set(unknown))
  return {'relationship':name,'status':'DISQUALIFIED' if blocks else ('UNCERTAIN' if unknown else 'VIABLE'),'score':score,'description':m['description'],'required_factors':reasons,'supporting_factors':supports,'blocking_factors':blocks,'decisive_dimensions':sorted(dims(m)),'decisive_unknowns':sorted(set(unknown))}
 
-def evaluate_relationships(robin):
+def layered_states(layered):
+ if not layered:return {}
+ layers=layered.get('layers',{})
+ return {
+  'category':str(layers.get('category',{}).get('state','UNKNOWN')).upper(),
+  'subject':str(layers.get('subject',{}).get('state','UNKNOWN')).upper(),
+  'scope':str(layers.get('context',{}).get('state','UNKNOWN')).upper(),
+  'function':str(layers.get('purpose',{}).get('state','UNKNOWN')).upper(),
+  'content':str(layers.get('content',{}).get('state','UNKNOWN')).upper(),
+  'information':str(layers.get('information_overlap',{}).get('state','UNKNOWN')).upper(),
+  'revision':str(layers.get('revision_lineage',{}).get('state','UNKNOWN')).upper(),
+ }
+
+def layered_adjudication(layered):
+ s=layered_states(layered)
+ if not s:return None
+ basis=[]
+ if s['category']!='SAME':
+  return {'decision':'REVIEW','confidence':'LOW','basis':'Category differs or is unresolved; deep investigation required.','decisive_layers':['category'],'rejected_alternatives':[]}
+ if s['subject']=='DIFFERENT':
+  return {'decision':'RELATED','confidence':'HIGH','basis':'Same broad category but different subject; the artifacts are not variants of the same information.','decisive_layers':['category','subject'],'rejected_alternatives':['VARIANT','DUPLICATE']}
+ if s['scope']=='DIFFERENT':
+  if s['content'] in {'NEAR_SAME','SAME'} and s['information']=='HIGH':
+   return {'decision':'RELATED','confidence':'HIGH','basis':'Same subject but different contextual scope; regional/contextual identity prevents VARIANT.','decisive_layers':['subject','context'],'rejected_alternatives':['VARIANT','DUPLICATE']}
+  return {'decision':'RELATED','confidence':'HIGH','basis':'Same subject with materially different context; regional/contextual difference makes this RELATED.','decisive_layers':['subject','context','content'],'rejected_alternatives':['VARIANT','DUPLICATE']}
+ if s['subject']=='SAME' and s['scope']=='SAME':
+  if s['revision']=='SAME_REVISION_LINEAGE':
+   return {'decision':'VARIANT','confidence':'HIGH','basis':'Same subject and context with explicit revision lineage; version/detail changes are variants.','decisive_layers':['subject','context','revision'],'rejected_alternatives':['RELATED']}
+  if s['information']=='HIGH' or s['content']=='NEAR_SAME':
+   return {'decision':'VARIANT','confidence':'HIGH','basis':'Same subject and context with substantially equivalent information.','decisive_layers':['subject','context','content','information'],'rejected_alternatives':['RELATED']}
+ if s['revision']=='SAME_REVISION_LINEAGE':
+  return {'decision':'HISTORICAL','confidence':'HIGH','basis':'Explicit revision lineage explains the relationship but the current layered identity is not otherwise equivalent.','decisive_layers':['revision'],'rejected_alternatives':['RELATED']}
+ return None
+
+def evaluate_relationships(robin,layered=None):
+ la=layered_adjudication(layered)
+ if la and la['decision'] in {'VARIANT','RELATED','HISTORICAL'}:
+  return {'decision':la['decision'],'confidence':la['confidence'],'decision_basis':la['basis'],'reasoning_mode':'layered_then_factor_adjudication','candidates':[la['decision']],'viable_relationships':[la['decision']],'uncertain_relationships':[],'decisive_unknowns':[],'non_decisive_unknowns':sorted(d for d in robin if state(robin,d)=='UNKNOWN'),'unresolved_dimensions':sorted(d for d in robin if state(robin,d)=='UNKNOWN'),'rejected_alternatives':la['rejected_alternatives'],'decisive_layers':la['decisive_layers']}
  cs=[candidate(n,m,robin) for n,m in MODELS.items()];cs.sort(key=lambda c:(c['status']=='VIABLE',c['score']),reverse=True);viable=[c for c in cs if c['status']=='VIABLE'];best=viable[0] if viable else None;competitors=viable[1:3] if best else []
  discriminators=sorted(set(best['decisive_dimensions'])-set().union(*(set(c['decisive_dimensions']) for c in competitors))) if best and competitors else (best['decisive_dimensions'] if best else [])
  decisive_unknown=sorted(d for d in discriminators if state(robin,d)=='UNKNOWN')
@@ -49,4 +87,4 @@ def evaluate_relationships(robin):
  else:
   decision='REVIEW';confidence='LOW';basis='A factor needed to discriminate the strongest hypothesis remains unknown.'
  unknowns=sorted(d for d in robin if state(robin,d)=='UNKNOWN');relevant=sorted(set(best['decisive_unknowns']) if best else set())
- return {'decision':decision,'confidence':confidence,'decision_basis':basis,'reasoning_mode':'hypothesis_then_discriminator','candidates':cs,'viable_relationships':[c['relationship'] for c in viable],'uncertain_relationships':[c['relationship'] for c in cs if c['status']=='UNCERTAIN'],'decisive_unknowns':relevant,'non_decisive_unknowns':sorted(set(unknowns)-set(relevant)),'unresolved_dimensions':unknowns}
+ return {'decision':decision,'confidence':confidence,'decision_basis':basis,'reasoning_mode':'layered_then_factor_adjudication','candidates':cs,'viable_relationships':[c['relationship'] for c in viable],'uncertain_relationships':[c['relationship'] for c in cs if c['status']=='UNCERTAIN'],'decisive_unknowns':relevant,'non_decisive_unknowns':sorted(set(unknowns)-set(relevant)),'unresolved_dimensions':unknowns,'rejected_alternatives':[],'decisive_layers':[]}

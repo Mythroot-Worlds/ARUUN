@@ -9,5 +9,10 @@
   "cases_missing_robin_factor_map": 0,
   "cases_with_unresolved_factors": 30,
   "grounded_direct_claims": 807,
-  "pair_resolving_claims": 807
+  "pair_resolving_claims": 807,
+  "relationship_decisions": {
+    "REVIEW": 30
+  },
+  "cases_with_non_review_decision": 0,
+  "cases_escalated_to_review": 30
 }

@@ -1,8 +1,8 @@
 {
   "engine": "CORE A.C.E. Detective",
-  "schema_version": "3.1",
+  "schema_version": "3.2",
   "mode": "READ_ONLY",
-  "purpose": "Batman solves the relationship case using Robin's independent complete deciding-factor investigation plus grounded repository evidence",
+  "purpose": "Batman solves relationship cases by evaluating Robin's complete deciding-factor matrix against explicit relationship gates and grounded repository evidence",
   "cases": [
     {
       "relationship_id": "REL-ead9ec80b42f820d",
@@ -374,9 +374,146 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -5291,7 +5428,7 @@
         "contextual_claims": 21,
         "unique_claims": 181
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -5640,9 +5777,143 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "coherence",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -10199,7 +10470,7 @@
         "contextual_claims": 21,
         "unique_claims": 167
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -10573,9 +10844,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -15438,7 +15845,7 @@
         "contextual_claims": 21,
         "unique_claims": 179
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -15962,9 +16369,135 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "dependency=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -1,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "intentionality"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -21089,7 +21622,7 @@
         "contextual_claims": 13,
         "unique_claims": 189
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -21443,9 +21976,142 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=SAME",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -26050,7 +26716,7 @@
         "contextual_claims": 21,
         "unique_claims": 169
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -26397,9 +27063,143 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=SAME",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "depth",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -31004,7 +31804,7 @@
         "contextual_claims": 21,
         "unique_claims": 169
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -31355,9 +32155,142 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=SAME",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "coherence",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -35938,7 +36871,7 @@
         "contextual_claims": 21,
         "unique_claims": 168
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -36481,9 +37414,136 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED",
+              "disqualified by dependency=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "consequence",
+          "intentionality"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -41662,7 +42722,7 @@
         "contextual_claims": 18,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -42112,9 +43172,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "scale=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -12,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT",
+              "disqualified by dependency=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "provenance",
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -47193,7 +48389,7 @@
         "contextual_claims": 20,
         "unique_claims": 190
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -47604,9 +48800,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "depth=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "depth=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "importance",
+          "dependency",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -52671,7 +54002,7 @@
         "contextual_claims": 13,
         "unique_claims": 179
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -53051,9 +54382,146 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -57940,7 +59408,7 @@
         "contextual_claims": 21,
         "unique_claims": 180
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -58458,9 +59926,138 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "dependency=MIXED",
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "intentionality"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -63633,7 +65230,7 @@
         "contextual_claims": 16,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -63984,9 +65581,142 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=SAME",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -68619,7 +70349,7 @@
         "contextual_claims": 21,
         "unique_claims": 170
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -69127,9 +70857,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "dependency=MIXED",
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -6,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "depth=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "SUPPORTING",
+          "RELATED",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "consequence",
+          "intentionality"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -74362,7 +76227,7 @@
         "contextual_claims": 16,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -74707,9 +76572,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "depth",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -79290,7 +81290,7 @@
         "contextual_claims": 21,
         "unique_claims": 168
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -79805,9 +81805,135 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -5,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -6,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED",
+              "disqualified by dependency=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "consequence",
+          "intentionality"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -84958,7 +87084,7 @@
         "contextual_claims": 16,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -85487,9 +87613,136 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=SAME",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED",
+              "disqualified by dependency=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "importance",
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -90640,7 +92893,7 @@
         "contextual_claims": 15,
         "unique_claims": 189
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -91121,9 +93374,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -17,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT",
+              "disqualified by dependency=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -96274,7 +98662,7 @@
         "contextual_claims": 17,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -96720,9 +99108,147 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "scale=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -16,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=SAME",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN",
+              "disqualified by dependency=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "consequence",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -101873,7 +104399,7 @@
         "contextual_claims": 20,
         "unique_claims": 190
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -102304,9 +104830,143 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "VARIANT",
+            "status": "VIABLE",
+            "score": 7,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "VIABLE",
+            "score": 4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=SAME",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          }
+        ],
+        "viable_relationships": [
+          "VARIANT",
+          "CONFLICT",
+          "HISTORICAL",
+          "RELATED",
+          "DUPLICATE",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "importance",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -107469,7 +110129,7 @@
         "contextual_claims": 19,
         "unique_claims": 191
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -107866,9 +110526,142 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "CONFLICT",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "VIABLE",
+            "score": 4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=SAME",
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": 0,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [
+              "required subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "CONFLICT",
+          "HISTORICAL",
+          "MISPLACED",
+          "DUPLICATE",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "importance",
+          "development_state",
+          "dependency",
+          "consequence",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -112913,7 +115706,7 @@
         "contextual_claims": 21,
         "unique_claims": 187
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -113290,9 +116083,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -118179,7 +121108,7 @@
         "contextual_claims": 21,
         "unique_claims": 180
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -118556,9 +121485,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -123469,7 +126534,7 @@
         "contextual_claims": 21,
         "unique_claims": 181
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -123946,9 +127011,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "importance=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -16,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT",
+              "disqualified by dependency=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "consequence",
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -129157,7 +132357,7 @@
         "contextual_claims": 17,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -129622,9 +132822,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [
+              "dependency=SAME"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "scale=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -12,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -134845,7 +138181,7 @@
         "contextual_claims": 20,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -135204,9 +138540,143 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "coherence",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -139863,7 +143333,7 @@
         "contextual_claims": 21,
         "unique_claims": 171
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -140321,9 +143791,143 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -12,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "dependency",
+          "consequence",
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -145392,7 +148996,7 @@
         "contextual_claims": 17,
         "unique_claims": 190
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -145903,9 +149507,138 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=MIXED",
+              "scope=MIXED",
+              "coherence=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [
+              "depth=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -11,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scale=MIXED",
+              "depth=SAME",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed MIXED",
+              "disqualified by dependency=DIFFERENT",
+              "disqualified by provenance=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "intentionality",
+          "usability"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -151086,7 +154819,7 @@
         "contextual_claims": 19,
         "unique_claims": 192
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -151438,9 +155171,144 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 2,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -4,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed UNKNOWN",
+              "blocked by subject=UNKNOWN"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "SUPPORTING",
+          "COINCIDENTAL",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "subject",
+          "scale",
+          "depth",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "coherence",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -156097,7 +159965,7 @@
         "contextual_claims": 21,
         "unique_claims": 171
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -156475,9 +160343,145 @@
         }
       },
       "robin_handoff_status": "RECEIVED",
+      "relationship_reasoning": {
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Robin factor matrix evaluated against explicit relationship gates and support factors; this layer does not alter canon.",
+        "candidates": [
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears in a location or document where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 1,
+            "description": "surface similarity without meaningful informational dependency or shared subject",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT"
+            ],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "one artifact supplies context, evidence, reference, or operational support for another",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "REVIEW",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "evidence is insufficient or materially ambiguous for a safe automatic classification",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -7,
+            "description": "compatible context but substantively incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED",
+              "canon_status=SAME"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -8,
+            "description": "same underlying subject expressed as a meaningful contextual or scoped variant",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "scope=MIXED (meaningful contextual difference)"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -9,
+            "description": "a temporal state, revision, or precedence relationship explains the difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -10,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "required subject=SAME, observed DIFFERENT",
+              "blocked by subject=DIFFERENT"
+            ]
+          }
+        ],
+        "viable_relationships": [
+          "MISPLACED",
+          "RELATED",
+          "COINCIDENTAL",
+          "SUPPORTING",
+          "REVIEW"
+        ],
+        "unresolved_dimensions": [
+          "scale",
+          "importance",
+          "development_state",
+          "relationship",
+          "dependency",
+          "consequence",
+          "provenance",
+          "intentionality",
+          "usability",
+          "story_relevance"
+        ]
+      },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
-        "status": "evidence_gated"
+        "status": "reasoned_candidate"
       },
       "investigation_rounds": 2,
       "investigation_rounds_detail": [
@@ -161440,7 +165444,7 @@
         "contextual_claims": 21,
         "unique_claims": 183
       },
-      "stop_reason": "relationship remains evidence-gated; unresolved deciding factors remain explicit; human review remains authoritative",
+      "stop_reason": "relationship candidate synthesized from Robin factors; human adjudication remains authoritative",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -161457,7 +165461,12 @@
     "cases_missing_robin_factor_map": 0,
     "cases_with_unresolved_factors": 30,
     "grounded_direct_claims": 807,
-    "pair_resolving_claims": 807
+    "pair_resolving_claims": 807,
+    "relationship_decisions": {
+      "REVIEW": 30
+    },
+    "cases_with_non_review_decision": 0,
+    "cases_escalated_to_review": 30
   },
   "safety": {
     "human_validation_required": true,

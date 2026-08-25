@@ -2922,24 +2922,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "COAST",
-            "CONTINENT",
-            "DESERT",
-            "LOCAL",
-            "MOUNTAIN",
-            "PLAINS",
-            "REGIONAL",
-            "RIVER",
-            "SETTLEMENT",
-            "VILLAGE",
-            "WETLANDS"
-          ],
-          "different_signals": [
-            "CONTINENTAL",
-            "REGION"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -2947,65 +2932,41 @@
           "dimension": "scale",
           "description": "the level at which the subject operates",
           "operational_focus": false,
-          "shared_signals": [
-            "LOCAL",
-            "REGIONAL"
-          ],
-          "different_signals": [
-            "POLITICAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "AUTHORITY",
-            "FAMILY",
-            "LEADERSHIP",
-            "LINEAGE",
-            "SPECIALIST",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "AUDIT",
-            "BIRTH",
-            "CHECKLIST",
-            "CHILDHOOD"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEVELOPED",
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
@@ -3022,41 +2983,30 @@
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEVELOPED",
-            "OPEN"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
-          "shared_signals": [
-            "CONFLICT"
-          ],
-          "different_signals": [
-            "RELATED",
-            "REVIEW"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "BASED ON",
-            "DERIVED FROM"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
@@ -3072,13 +3022,11 @@
           "dimension": "provenance",
           "description": "where the information originated",
           "operational_focus": false,
-          "shared_signals": [
-            "SOURCE"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "intentionality",
@@ -3094,20 +3042,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "CULTURE",
-            "SETTLEMENT"
-          ],
-          "different_signals": [
-            "ECOLOGY",
-            "ECONOMY",
-            "GEOGRAPHY",
-            "HISTORY",
-            "LAW"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -3123,20 +3062,18 @@
           "dimension": "story_relevance",
           "description": "whether the information generates creative consequences",
           "operational_focus": false,
-          "shared_signals": [
-            "CONFLICT"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         }
       ],
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 11,
-        "non_operational_signals": 10
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -3166,19 +3103,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "SETTLEMENT",
-            "VILLAGE"
-          ],
-          "different_signals": [
-            "COAST",
-            "DESERT",
-            "LOCAL",
-            "MOUNTAIN",
-            "REGIONAL",
-            "RIVER"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -3187,124 +3114,90 @@
           "description": "the level at which the subject operates",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "LOCAL",
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "LINEAGE",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "REFERENCE",
-            "SPECIALIST"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEEP",
-            "DEVELOPED",
-            "FOUNDATION"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
-          "shared_signals": [
-            "CORE"
-          ],
-          "different_signals": [
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEVELOPED",
-            "OPEN"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT",
-            "RELATED",
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "BASED ON"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
           "description": "what other world systems this information affects",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONSEQUENCE"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "provenance",
@@ -3330,15 +3223,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "CULTURE",
-            "LAW",
-            "SETTLEMENT"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -3355,19 +3244,17 @@
           "description": "whether the information generates creative consequences",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         }
       ],
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 12,
-        "non_operational_signals": 11
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -3397,17 +3284,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "LOCAL",
-            "PLAINS"
-          ],
-          "different_signals": [
-            "CONTINENT",
-            "RIVER",
-            "SETTLEMENT",
-            "WETLANDS"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -3415,109 +3294,81 @@
           "dimension": "scale",
           "description": "the level at which the subject operates",
           "operational_focus": false,
-          "shared_signals": [
-            "LOCAL"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "AUTHORITY",
-            "LINEAGE"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
-          "shared_signals": [
-            "FUNCTIONAL"
-          ],
-          "different_signals": [
-            "FOUNDATION"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
-          "shared_signals": [
-            "CORE"
-          ],
-          "different_signals": [
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "RELATED",
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "BASED ON"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
@@ -3554,15 +3405,10 @@
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CULTURE",
-            "LAW",
-            "POLITICS",
-            "SETTLEMENT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -3588,8 +3434,8 @@
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 10,
-        "non_operational_signals": 9
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -3619,16 +3465,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "MOUNTAIN",
-            "REGIONAL",
-            "SETTLEMENT",
-            "VILLAGE"
-          ],
-          "different_signals": [
-            "LOCAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -3636,57 +3475,41 @@
           "dimension": "scale",
           "description": "the level at which the subject operates",
           "operational_focus": false,
-          "shared_signals": [
-            "REGIONAL"
-          ],
-          "different_signals": [
-            "LOCAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "SPECIALIST"
-          ],
-          "different_signals": [
-            "BIRTH",
-            "FAMILY",
-            "HISTORICAL",
-            "LINEAGE"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
-          "shared_signals": [
-            "DEEP"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON",
-            "OPEN"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
@@ -3702,27 +3525,21 @@
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
-          "shared_signals": [
-            "OPEN"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
-          "shared_signals": [
-            "RELATED"
-          ],
-          "different_signals": [
-            "HISTORICAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
@@ -3768,15 +3585,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "SETTLEMENT"
-          ],
-          "different_signals": [
-            "HISTORY"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -3802,8 +3615,8 @@
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 8,
-        "non_operational_signals": 7
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -3833,18 +3646,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "COAST",
-            "DESERT",
-            "PLAINS",
-            "RIVER",
-            "VILLAGE",
-            "WETLANDS"
-          ],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -3853,55 +3657,40 @@
           "description": "the level at which the subject operates",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "BIRTH",
-            "CHILDHOOD",
-            "LINEAGE"
-          ],
-          "different_signals": [
-            "FAMILY",
-            "REFERENCE",
-            "SPECIALIST",
-            "SUPPORT"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
@@ -4007,8 +3796,8 @@
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 5,
-        "non_operational_signals": 4
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -4400,19 +4189,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "LOCAL"
-          ],
-          "different_signals": [
-            "CONTINENT",
-            "DESERT",
-            "MOUNTAIN",
-            "PLAINS",
-            "REGIONAL",
-            "SETTLEMENT",
-            "VILLAGE"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -4420,113 +4199,81 @@
           "dimension": "scale",
           "description": "the level at which the subject operates",
           "operational_focus": false,
-          "shared_signals": [
-            "LOCAL"
-          ],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "AUTHORITY",
-            "LINEAGE",
-            "REFERENCE"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
-          "shared_signals": [
-            "FOUNDATION"
-          ],
-          "different_signals": [
-            "DEEP",
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON",
-            "OPEN"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
-          "shared_signals": [
-            "CORE"
-          ],
-          "different_signals": [
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
-          "shared_signals": [
-            "OPEN"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT",
-            "RELATED",
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "BASED ON"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
@@ -4562,16 +4309,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "LAW"
-          ],
-          "different_signals": [
-            "CULTURE",
-            "SETTLEMENT"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -4588,19 +4330,17 @@
           "description": "whether the information generates creative consequences",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         }
       ],
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 11,
-        "non_operational_signals": 10
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -4631,16 +4371,8 @@
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
           "shared_signals": [],
-          "different_signals": [
-            "COAST",
-            "CONTINENT",
-            "LOCAL",
-            "PLAINS",
-            "RIVER",
-            "SETTLEMENT",
-            "VILLAGE"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -4649,121 +4381,90 @@
           "description": "the level at which the subject operates",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "LOCAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "AUTHORITY",
-            "LINEAGE",
-            "SPECIALIST"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEVELOPED",
-            "FOUNDATION",
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
-          "shared_signals": [
-            "CORE",
-            "SUPPORTING"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEVELOPED",
-            "OPEN"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
-          "shared_signals": [
-            "RELATED",
-            "SUPPORTING"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
-          "shared_signals": [
-            "BASED ON"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
           "description": "what other world systems this information affects",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONSEQUENCE"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "provenance",
@@ -4789,16 +4490,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "LAW"
-          ],
-          "different_signals": [
-            "CULTURE",
-            "SETTLEMENT"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -4824,8 +4520,8 @@
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 11,
-        "non_operational_signals": 10
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -5036,20 +4732,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "LOCAL",
-            "SETTLEMENT"
-          ],
-          "different_signals": [
-            "DESERT",
-            "MOUNTAIN",
-            "PLAINS",
-            "REGIONAL",
-            "RIVER",
-            "VILLAGE",
-            "WETLANDS"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -5057,96 +4742,71 @@
           "dimension": "scale",
           "description": "the level at which the subject operates",
           "operational_focus": false,
-          "shared_signals": [
-            "LOCAL"
-          ],
-          "different_signals": [
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "LINEAGE",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "REFERENCE"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "DEEP",
-            "FOUNDATION",
-            "FUNCTIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
-          "shared_signals": [
-            "CORE"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "OPEN"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
@@ -5192,17 +4852,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "CULTURE",
-            "SETTLEMENT"
-          ],
-          "different_signals": [
-            "LAW",
-            "POLITICS"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -5219,19 +4873,17 @@
           "description": "whether the information generates creative consequences",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         }
       ],
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 10,
-        "non_operational_signals": 9
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -5261,24 +4913,9 @@
           "dimension": "scope",
           "description": "how broadly or narrowly the information applies",
           "operational_focus": true,
-          "shared_signals": [
-            "COAST",
-            "RIVER",
-            "SETTLEMENT",
-            "VILLAGE"
-          ],
-          "different_signals": [
-            "CONTINENT",
-            "CONTINENTAL",
-            "DESERT",
-            "LOCAL",
-            "MOUNTAIN",
-            "PLAINS",
-            "REGION",
-            "REGIONAL",
-            "WETLANDS"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
           "status": "INVESTIGATED"
         },
@@ -5287,134 +4924,100 @@
           "description": "the level at which the subject operates",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "LOCAL",
-            "REGIONAL"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "function",
           "description": "why the document or information exists",
           "operational_focus": false,
-          "shared_signals": [
-            "FAMILY",
-            "LEADERSHIP",
-            "LINEAGE",
-            "SPECIALIST",
-            "SUPPORT"
-          ],
-          "different_signals": [
-            "AUDIT",
-            "AUTHORITY",
-            "BIRTH",
-            "CHECKLIST",
-            "CHILDHOOD"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "depth",
           "description": "how deeply the subject is developed",
           "operational_focus": false,
-          "shared_signals": [
-            "DEVELOPED"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "canon_status",
           "description": "whether information is established, flexible, open, or unknown",
           "operational_focus": false,
-          "shared_signals": [
-            "CANON"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "importance",
           "description": "how much the information matters to the world",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CORE",
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "development_state",
           "description": "whether an area is developed or intentionally unfinished",
           "operational_focus": false,
-          "shared_signals": [
-            "DEVELOPED"
-          ],
+          "shared_signals": [],
           "different_signals": [],
-          "has_signal": true,
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "relationship",
           "description": "how two information objects relate",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT",
-            "RELATED",
-            "SUPPORTING"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "dependency",
           "description": "what other information this material relies upon",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "BASED ON"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "consequence",
           "description": "what other world systems this information affects",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONSEQUENCE"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "provenance",
           "description": "where the information originated",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "SOURCE"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "intentionality",
@@ -5430,20 +5033,11 @@
           "dimension": "coherence",
           "description": "whether the element connects logically to surrounding systems",
           "operational_focus": false,
-          "shared_signals": [
-            "CULTURE",
-            "LAW",
-            "SETTLEMENT"
-          ],
-          "different_signals": [
-            "ECOLOGY",
-            "ECONOMY",
-            "GEOGRAPHY",
-            "HISTORY"
-          ],
-          "has_signal": true,
+          "shared_signals": [],
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         },
         {
           "dimension": "usability",
@@ -5460,19 +5054,17 @@
           "description": "whether the information generates creative consequences",
           "operational_focus": false,
           "shared_signals": [],
-          "different_signals": [
-            "CONFLICT"
-          ],
-          "has_signal": true,
+          "different_signals": [],
+          "has_signal": false,
           "investigated": false,
-          "status": "SIGNAL_PRESENT_REQUIRES_REVIEW"
+          "status": "NO_SIGNAL"
         }
       ],
       "coverage": {
         "total_dimensions": 16,
         "operational_dimensions": 1,
-        "dimensions_with_signals": 13,
-        "non_operational_signals": 12
+        "dimensions_with_signals": 0,
+        "non_operational_signals": 0
       },
       "safety": {
         "purpose": "expose deciding-factor evidence gaps for later Detective expansion",
@@ -5847,8 +5439,8 @@
     "cases": 30,
     "factor_dimensions": 16,
     "operational_dimensions": 6,
-    "cases_with_non_operational_signals": 9,
-    "non_operational_signals": 82
+    "cases_with_non_operational_signals": 0,
+    "non_operational_signals": 0
   },
   "next_patch": "Expand Detective question generation for non-operational dimensions only when their factor evidence warrants investigation."
 }

@@ -326,17 +326,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.14832535885167464,
             "claim_overlap": 9,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -568,17 +573,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.14832535885167464,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -908,17 +918,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.16574585635359115,
             "claim_overlap": 9,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.1695906432748538,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -1150,17 +1165,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.16574585635359115,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.1695906432748538,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -1490,17 +1510,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.16574585635359115,
             "claim_overlap": 9,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -1732,17 +1757,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.16574585635359115,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -1757,10 +1787,10 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
+      "decision": "RELATED",
       "reason": "canonical-grounded relationship resolved directly",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -2060,19 +2090,23 @@
             "known_claim_count": 41,
             "token_overlap": 0.17849686847599164,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 39,
             "token_overlap": 0.1958904109589041,
             "claim_overlap": 12,
-            "conflict_signals": 2
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -2291,17 +2325,22 @@
           "known_claim_count": 41,
           "token_overlap": 0.17849686847599164,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 39,
           "token_overlap": 0.1958904109589041,
           "claim_overlap": 12,
-          "conflict_signals": 2
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -2631,17 +2670,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.1695906432748538,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.20625,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -2873,17 +2917,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.1695906432748538,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -3213,17 +3262,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.16071428571428573,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.20625,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -3455,17 +3509,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.16071428571428573,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -3795,17 +3854,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.1695906432748538,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.16071428571428573,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -4037,17 +4101,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.1695906432748538,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.16071428571428573,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -4371,19 +4440,35 @@
             "known_claim_count": 41,
             "token_overlap": 0.17849686847599164,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.22759601706970128,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": [
+              {
+                "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+                "canonical_claim": "## Cultural Audit Checklist v0.1",
+                "shared_subject_terms": [
+                  "cultural"
+                ],
+                "signals": [
+                  "\\bconflicts? with\\b"
+                ]
+              }
+            ]
           },
           "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
       },
       "canonical_context": {
         "a": {
@@ -4608,17 +4693,33 @@
           "known_claim_count": 41,
           "token_overlap": 0.17849686847599164,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.22759601706970128,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": [
+            {
+              "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+              "canonical_claim": "## Cultural Audit Checklist v0.1",
+              "shared_subject_terms": [
+                "cultural"
+              ],
+              "signals": [
+                "\\bconflicts? with\\b"
+              ]
+            }
+          ]
         },
         "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -4633,10 +4734,10 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
+      "decision": "RELATED",
       "reason": "canonical-grounded relationship resolved directly",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -4931,19 +5032,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.3643031784841076,
             "claim_overlap": 9,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.28034188034188035,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -5157,17 +5262,22 @@
           "known_claim_count": 38,
           "token_overlap": 0.3643031784841076,
           "claim_overlap": 9,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.28034188034188035,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -5499,17 +5609,22 @@
             "known_claim_count": 42,
             "token_overlap": 0.14985590778097982,
             "claim_overlap": 5,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 50,
             "token_overlap": 0.2140845070422535,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -5743,17 +5858,22 @@
           "known_claim_count": 42,
           "token_overlap": 0.14985590778097982,
           "claim_overlap": 5,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 50,
           "token_overlap": 0.2140845070422535,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -6083,17 +6203,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.1695906432748538,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -6325,17 +6450,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.1695906432748538,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -6350,10 +6480,10 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
+      "decision": "RELATED",
       "reason": "canonical-grounded relationship resolved directly",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -6651,19 +6781,23 @@
             "known_claim_count": 41,
             "token_overlap": 0.17849686847599164,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.28034188034188035,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -6880,17 +7014,22 @@
           "known_claim_count": 41,
           "token_overlap": 0.17849686847599164,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.28034188034188035,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -7220,17 +7359,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.20625,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.14832535885167464,
             "claim_overlap": 9,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -7462,17 +7606,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.14832535885167464,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -7487,10 +7636,10 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
+      "decision": "RELATED",
       "reason": "canonical-grounded relationship resolved directly",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -7788,19 +7937,23 @@
             "known_claim_count": 41,
             "token_overlap": 0.17849686847599164,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.2660377358490566,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -8017,17 +8170,22 @@
           "known_claim_count": 41,
           "token_overlap": 0.17849686847599164,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.2660377358490566,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -8357,17 +8515,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.16574585635359115,
             "claim_overlap": 9,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.20625,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -8599,17 +8762,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.16574585635359115,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -8624,10 +8792,10 @@
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
       },
       "triage_status": "DIRECT",
-      "decision": "CONFLICT",
+      "decision": "RELATED",
       "reason": "canonical-grounded relationship resolved directly",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "RELATED",
         "layers": {
           "category": {
             "state": "SAME",
@@ -8925,19 +9093,23 @@
             "known_claim_count": 41,
             "token_overlap": 0.17849686847599164,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.23027375201288244,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -9154,17 +9326,22 @@
           "known_claim_count": 41,
           "token_overlap": 0.17849686847599164,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.23027375201288244,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -9487,19 +9664,35 @@
             "known_claim_count": 44,
             "token_overlap": 0.22759601706970128,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": [
+              {
+                "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+                "canonical_claim": "## Cultural Audit Checklist v0.1",
+                "shared_subject_terms": [
+                  "cultural"
+                ],
+                "signals": [
+                  "\\bconflicts? with\\b"
+                ]
+              }
+            ]
           },
           "b_against_knowns": {
             "known_claim_count": 39,
             "token_overlap": 0.1958904109589041,
             "claim_overlap": 12,
-            "conflict_signals": 2
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
       },
       "canonical_context": {
         "a": {
@@ -9723,17 +9916,33 @@
           "known_claim_count": 44,
           "token_overlap": 0.22759601706970128,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": [
+            {
+              "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+              "canonical_claim": "## Cultural Audit Checklist v0.1",
+              "shared_subject_terms": [
+                "cultural"
+              ],
+              "signals": [
+                "\\bconflicts? with\\b"
+              ]
+            }
+          ]
         },
         "b_against_knowns": {
           "known_claim_count": 39,
           "token_overlap": 0.1958904109589041,
           "claim_overlap": 12,
-          "conflict_signals": 2
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -9747,11 +9956,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -10046,19 +10255,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.28034188034188035,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.23027375201288244,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -10272,19 +10485,24 @@
           "known_claim_count": 38,
           "token_overlap": 0.28034188034188035,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.23027375201288244,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -10296,11 +10514,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -10595,19 +10813,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.3643031784841076,
             "claim_overlap": 9,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.2660377358490566,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -10821,19 +11043,24 @@
           "known_claim_count": 38,
           "token_overlap": 0.3643031784841076,
           "claim_overlap": 9,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.2660377358490566,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -10845,11 +11072,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -11193,19 +11420,23 @@
             "known_claim_count": 70,
             "token_overlap": 0.23739495798319327,
             "claim_overlap": 10,
-            "conflict_signals": 2
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 50,
             "token_overlap": 0.2140845070422535,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -11468,19 +11699,24 @@
           "known_claim_count": 70,
           "token_overlap": 0.23739495798319327,
           "claim_overlap": 10,
-          "conflict_signals": 2
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 50,
           "token_overlap": 0.2140845070422535,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -11808,17 +12044,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.37579617834394907,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "SUPPORTING",
           "canonical_hint_reason": "document is explicitly comparative and shares the canonical subject vocabulary",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         },
         "canonical_decision_basis": "document is explicitly comparative and shares the canonical subject vocabulary"
       },
@@ -12051,17 +12292,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.37579617834394907,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "SUPPORTING",
         "canonical_hint_reason": "document is explicitly comparative and shares the canonical subject vocabulary",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -12391,17 +12637,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.16071428571428573,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -12633,17 +12884,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.16071428571428573,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -12973,17 +13229,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.20625,
             "claim_overlap": 14,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -13215,17 +13476,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -13239,11 +13505,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -13538,19 +13804,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.2660377358490566,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.23027375201288244,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -13764,19 +14034,24 @@
           "known_claim_count": 38,
           "token_overlap": 0.2660377358490566,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.23027375201288244,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -13788,11 +14063,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -14087,19 +14362,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.28034188034188035,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.2660377358490566,
             "claim_overlap": 7,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -14313,19 +14592,24 @@
           "known_claim_count": 38,
           "token_overlap": 0.28034188034188035,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.2660377358490566,
           "claim_overlap": 7,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -14653,17 +14937,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.1695906432748538,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.1111111111111111,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -14895,17 +15184,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.1695906432748538,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.1111111111111111,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -14919,11 +15213,11 @@
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
       },
-      "triage_status": "DIRECT",
-      "decision": "CONFLICT",
-      "reason": "canonical-grounded relationship resolved directly",
+      "triage_status": "ESCALATE",
+      "decision": "REVIEW",
+      "reason": "canonical knowns supplied to deep investigation because relationship remains ambiguous",
       "layered_comparison": {
-        "decision": "CONFLICT",
+        "decision": "REVIEW",
         "layers": {
           "category": {
             "state": "SAME",
@@ -15218,19 +15512,23 @@
             "known_claim_count": 38,
             "token_overlap": 0.3643031784841076,
             "claim_overlap": 9,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.23027375201288244,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
-          "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
-        },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+          "canonical_relationship_hint": "REVIEW",
+          "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
+        }
       },
       "canonical_context": {
         "a": {
@@ -15444,19 +15742,24 @@
           "known_claim_count": 38,
           "token_overlap": 0.3643031784841076,
           "claim_overlap": 9,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.23027375201288244,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
-      "deep_investigation_required": false,
+      "deep_investigation_required": true,
       "safety": {
         "automatic_canon_change": false,
         "automatic_rule_promotion": false
@@ -15775,19 +16078,35 @@
             "known_claim_count": 44,
             "token_overlap": 0.22759601706970128,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": [
+              {
+                "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+                "canonical_claim": "## Cultural Audit Checklist v0.1",
+                "shared_subject_terms": [
+                  "cultural"
+                ],
+                "signals": [
+                  "\\bconflicts? with\\b"
+                ]
+              }
+            ]
           },
           "b_against_knowns": {
             "known_claim_count": 38,
             "token_overlap": 0.28034188034188035,
             "claim_overlap": 12,
-            "conflict_signals": 1
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "CONFLICT",
-          "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         },
-        "canonical_decision_basis": "document language contains multiple contradiction/precedence signals against repository-known claims"
+        "canonical_decision_basis": "explicit claim-level contradiction evidence against repository-known claims"
       },
       "canonical_context": {
         "a": {
@@ -16009,17 +16328,33 @@
           "known_claim_count": 44,
           "token_overlap": 0.22759601706970128,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": [
+            {
+              "candidate_claim": "if an existing document conflicts with a better-developed cultural idea, flag the conflict, decide what makes the world work best, then update the record.",
+              "canonical_claim": "## Cultural Audit Checklist v0.1",
+              "shared_subject_terms": [
+                "cultural"
+              ],
+              "signals": [
+                "\\bconflicts? with\\b"
+              ]
+            }
+          ]
         },
         "b_against_knowns": {
           "known_claim_count": 38,
           "token_overlap": 0.28034188034188035,
           "claim_overlap": 12,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_hint_reason": "explicit claim-level contradiction evidence against repository-known claims",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -16349,17 +16684,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.16071428571428573,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.1111111111111111,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "RELATED",
           "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -16591,17 +16931,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.16071428571428573,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.1111111111111111,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -16931,17 +17276,22 @@
             "known_claim_count": 44,
             "token_overlap": 0.3069306930693069,
             "claim_overlap": 33,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "b_against_knowns": {
             "known_claim_count": 44,
             "token_overlap": 0.1111111111111111,
             "claim_overlap": 10,
-            "conflict_signals": 0
+            "conflict_evidence": []
           },
           "canonical_relationship_hint": "REVIEW",
           "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+          "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+          "conflict_policy": {
+            "requires_explicit_claim_level_incompatibility": true,
+            "contrast_words_are_not_conflict": true,
+            "temporal_precedence_is_not_conflict": true
+          }
         }
       },
       "canonical_context": {
@@ -17173,17 +17523,22 @@
           "known_claim_count": 44,
           "token_overlap": 0.3069306930693069,
           "claim_overlap": 33,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.1111111111111111,
           "claim_overlap": 10,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "REVIEW",
         "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       },
       "deep_investigation_required": false,
       "safety": {
@@ -17569,17 +17924,22 @@
           "known_claim_count": 69,
           "token_overlap": 0.31042128603104213,
           "claim_overlap": 19,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 69,
           "token_overlap": 0.24561403508771928,
           "claim_overlap": 17,
-          "conflict_signals": 1
+          "conflict_evidence": []
         },
-        "canonical_relationship_hint": "CONFLICT",
-        "canonical_hint_reason": "document language contains multiple contradiction/precedence signals against repository-known claims",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_relationship_hint": "REVIEW",
+        "canonical_hint_reason": "canonical knowns collected; no relationship promoted without evidence",
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       }
     },
     {
@@ -17902,38 +18262,44 @@
           "known_claim_count": 44,
           "token_overlap": 0.14832535885167464,
           "claim_overlap": 9,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "b_against_knowns": {
           "known_claim_count": 44,
           "token_overlap": 0.20625,
           "claim_overlap": 14,
-          "conflict_signals": 0
+          "conflict_evidence": []
         },
         "canonical_relationship_hint": "RELATED",
         "canonical_hint_reason": "same canonical subject vocabulary is evaluated against distinct regional knowns",
-        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification."
+        "canonical_grounding": "Each document is evaluated against repository-known subject/context evidence before relationship classification.",
+        "conflict_policy": {
+          "requires_explicit_claim_level_incompatibility": true,
+          "contrast_words_are_not_conflict": true,
+          "temporal_precedence_is_not_conflict": true
+        }
       }
     }
   ],
   "summary": {
     "cases": 30,
-    "direct_triage": 30,
-    "deep_investigation": 0,
+    "direct_triage": 24,
+    "deep_investigation": 6,
     "canonical_grounded_cases": 30,
     "canonical_hint_counts": {
       "VARIANT": 0,
       "RELATED": 8,
       "SUPPORTING": 1,
       "HISTORICAL": 0,
-      "CONFLICT": 15,
+      "CONFLICT": 3,
       "MISPLACED": 0,
       "DUPLICATE": 0,
-      "REVIEW": 6
+      "REVIEW": 18
     },
     "decisions": {
-      "RELATED": 15,
-      "CONFLICT": 14,
+      "RELATED": 20,
+      "CONFLICT": 3,
+      "REVIEW": 6,
       "SUPPORTING": 1
     },
     "calibration_cases": 2,

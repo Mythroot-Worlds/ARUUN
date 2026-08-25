@@ -62,32 +62,18 @@ def local_analysis(path,root,dimension):
     return out[:12]
 
 def robin_case(case,root):
-    docs=[case.get('left',''),case.get('right','')]
-    analyses=[];results={}
+    docs=[case.get('left',''),case.get('right','')];analyses=[];results={}
     for d in QUESTIONS:
         items=[]
         for p in docs: items.extend(local_analysis(p,root,d))
-        explicit=[x for x in items if x['syntax_signal'] and x['relation_candidate']]
-        entities=sum(len(x['entities']) for x in explicit)
-        ambiguity=sum(1 for x in items if len(x['relation_terms'])>1 or len(x['entities'])>3)
-        results[d]={
-            'question':QUESTIONS[d],
-            'relation_observations':len(items),
-            'syntax_supported':len(explicit),
-            'entity_observations':entities,
-            'ambiguity_signals':ambiguity,
-            'supports_semantic_relation':bool(explicit and entities>0),
-            'confidence':'high' if explicit and entities>0 and ambiguity==0 else ('medium' if explicit else 'low'),
-            'evidence_state':'SUPPORTED' if explicit else ('SIGNAL_ONLY' if items else 'NO_SIGNAL'),
-            'contradiction_signal':bool(d=='relationship' and any('conflict' in x['relation_terms'] for x in items)),
-        }
+        analyses.extend(items);explicit=[x for x in items if x['syntax_signal'] and x['relation_candidate']];entities=sum(len(x['entities']) for x in explicit);ambiguity=sum(1 for x in items if len(x['relation_terms'])>1 or len(x['entities'])>3)
+        results[d]={'question':QUESTIONS[d],'relation_observations':len(items),'syntax_supported':len(explicit),'entity_observations':entities,'ambiguity_signals':ambiguity,'supports_semantic_relation':bool(explicit and entities>0),'confidence':'high' if explicit and entities>0 and ambiguity==0 else ('medium' if explicit else 'low'),'evidence_state':'SUPPORTED' if explicit else ('SIGNAL_ONLY' if items else 'NO_SIGNAL'),'contradiction_signal':bool(d=='relationship' and any('conflict' in x['relation_terms'] for x in items))}
     return {'relationship_id':case.get('relationship_id'),'documents':{'a':docs[0],'b':docs[1]},'robin_results':results,'observations':analyses,'method':'independent deciding-factor investigation across all ontology dimensions','role':'factor_investigator','independence':'Robin does not consume Batman conclusions; it investigates source text independently'}
 
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out
-    blind=load(out/'CORE_BLIND_TEST.json',{'predictions':[]})
-    cases=[robin_case(c,root) for c in blind.get('predictions',[])]
+    queue=load(out/'CORE_ADJUDICATION_QUEUE.json',{'queue':[]});cases=[robin_case(c,root) for c in queue.get('queue',[])]
     summary={'cases':len(cases),'factor_dimensions':len(QUESTIONS),'supported_dimensions':sum(sum(v['evidence_state']=='SUPPORTED' for v in c['robin_results'].values()) for c in cases),'signal_only_dimensions':sum(sum(v['evidence_state']=='SIGNAL_ONLY' for v in c['robin_results'].values()) for c in cases),'no_signal_dimensions':sum(sum(v['evidence_state']=='NO_SIGNAL' for v in c['robin_results'].values()) for c in cases),'contradiction_signals':sum(sum(v['contradiction_signal'] for v in c['robin_results'].values()) for c in cases)}
-    payload={'engine':'CORE A.C.E. Robin','schema_version':'2.0','mode':'READ_ONLY','purpose':'independent deciding-factor investigation; Robin maps evidence, Batman solves the case','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
+    payload={'engine':'CORE A.C.E. Robin','schema_version':'2.1','mode':'READ_ONLY','purpose':'independent deciding-factor investigation; Robin maps evidence from the fresh adjudication queue, Batman solves the case','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
     (out/'CORE_ROBIN_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_ROBIN_REPORT.md').write_text('# CORE A.C.E. Robin Factor Investigation\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

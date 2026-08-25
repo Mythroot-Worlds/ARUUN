@@ -9,18 +9,7 @@ from mythroot_profile import profile_snapshot, RELATIONSHIP_GATES
 DEFAULT_POOL_SIZE=10
 MAX_POOL_SIZE=20
 FOCUS={'authority':['AUTHORITY','LEADERSHIP','GOVERNANCE','COUNCIL','LEADER','HEAD','HOUSE'],'scope':['CONTINENT','CONTINENTAL','HEARTH-WIDE','REGIONAL','REGION','MOUNTAIN','RIVER','PLAINS','SETTLEMENT','VILLAGE','LOCAL'],'support':['SUPPORT','INFORMS','REFERENCES','DERIVED FROM','BASED ON','BUILDS ON','CHECKLIST','AUDIT','REFERENCE'],'temporal':['REVISED','SUPERSEDES','REPLACED','PREVIOUS','FORMER','EARLIER','CURRENT','OLDER','REVISION','HISTORICAL'],'family':['FAMILY','BIRTH','CHILDHOOD','MARRIAGE','KIN','HOUSEHOLD'],'specialist':['SPECIALIST','LINEAGE','HOUSE','CRAFT','KEEPER']}
-CASE_QUESTIONS={
- 'subject':'Are these artifacts describing the same underlying subject, or merely related subjects?',
- 'scope':'Do these artifacts apply to the same geographic, social, organizational, or conceptual scope?',
- 'function':'Do the artifacts perform the same informational function, or do they serve different purposes?',
- 'role':'Do the artifacts have the same document/artifact role, or is one source, supporting, derived, historical, audit, or tool material?',
- 'temporal':'Do the artifacts describe the same temporal state, or is one earlier, revised, superseded, or historical?',
- 'relationship':'What relationship is actually supported between these two artifacts: variant, duplicate, supporting, historical, misplaced, conflict, related, or coincidental?',
- 'provenance':'What evidence establishes where each claim came from and whether either artifact derives from or has precedence over the other?',
- 'dependency':'Does either artifact explicitly depend on, derive from, reference, or inform the other?',
- 'consequence':'Would treating these artifacts as equivalent create a materially different downstream world or repository result?',
- 'intentionality':'Could an apparent difference be intentional scope, development state, or creator choice rather than an inconsistency?',
-}
+CASE_QUESTIONS={'subject':'Are these artifacts describing the same underlying subject, or merely related subjects?','scope':'Do these artifacts apply to the same geographic, social, organizational, or conceptual scope?','function':'Do the artifacts perform the same informational function, or do they serve different purposes?','role':'Do the artifacts have the same document/artifact role, or is one source, supporting, derived, historical, audit, or tool material?','temporal':'Do the artifacts describe the same temporal state, or is one earlier, revised, superseded, or historical?','relationship':'What relationship is actually supported between these two artifacts: variant, duplicate, supporting, historical, misplaced, conflict, related, or coincidental?','provenance':'What evidence establishes where each claim came from and whether either artifact derives from or has precedence over the other?','dependency':'Does either artifact explicitly depend on, derive from, reference, or inform the other?','consequence':'Would treating these artifacts as equivalent create a materially different downstream world or repository result?','intentionality':'Could an apparent difference be intentional scope, development state, or creator choice rather than an inconsistency?'}
 RELATION_TERMS=('SAME','VARIANT','DUPLICATE','DERIVED','SUPPORT','SUPPORTING','REFERENCE','REFERENCES','BASED ON','BUILDS ON','SUPERSEDES','REPLACES','CONFLICT','DIFFERENT','SEPARATE','REGIONAL','REGION','HISTORICAL','PREVIOUS','CURRENT')
 
 def load(p,d):
@@ -45,9 +34,9 @@ def candidates(a,b,root,exclude=(),pool=DEFAULT_POOL_SIZE):
  return [p for _,p in sorted(rows,key=lambda x:(x[0],x[1]),reverse=True)[:max(1,min(pool,MAX_POOL_SIZE))]]
 
 def question_for_unknown(text):
- l=text.lower()
- for key in ('authority','support','temporal'):
-  if key in l:return key,CASE_QUESTIONS[key]
+ l=text.lower();mapping=(('authority','authority'),('support','support'),('temporal','temporal'),('scope','scope'),('function','function'),('role','role'),('provenance','provenance'),('dependency','dependency'),('consequence','consequence'),('intentional','intentionality'),('subject','subject'))
+ for key,needle in mapping:
+  if needle in l:return key,CASE_QUESTIONS[key]
  return 'relationship',CASE_QUESTIONS['relationship']
 
 def passages(path,root,dimension):
@@ -65,11 +54,16 @@ def pair_anchors(a,b):
  aa,bb=stem_tokens(a),stem_tokens(b);common=aa&bb
  return common or ((aa|bb)-{'hearth','region','regions'})
 
+def extract_entities(text):
+ vals=[]
+ for m in re.finditer(r'\b(?:the\s+)?([A-Z][A-Za-z0-9_-]{2,}(?:\s+[A-Z][A-Za-z0-9_-]{2,}){0,4})\b',text):
+  v=m.group(1).strip(' .,;:()[]')
+  if v.upper() not in {'THE','THIS','THAT','WHICH','DOCUMENT','SOURCE','CURRENT','FORMER'} and v not in vals:vals.append(v)
+ return vals[:12]
+
 def claim_from(path,text,dimension,pair_anchors=()):
  u=text.upper();patterns={'authority':r'(?:(?:AUTHORITY|LEADER|LEADERSHIP|GOVERNANCE|COUNCIL|HEAD).{0,140}(?:VILLAGE|SETTLEMENT|REGION|REGIONAL|CONTINENT|CONTINENTAL)|(?:VILLAGE|SETTLEMENT|REGION|REGIONAL|CONTINENT|CONTINENTAL).{0,140}(?:AUTHORITY|LEADER|LEADERSHIP|GOVERNANCE|COUNCIL|HEAD))','support':r'(?:SUPPORT|INFORMS|REFERENCES|DERIVED FROM|BASED ON|BUILDS ON).{0,160}(?:DOCUMENT|GUIDE|FRAMEWORK|CHECKLIST|CANON|SOURCE)','temporal':r'(?:REVISED|SUPERSEDES|REPLACED|PREVIOUS|FORMER|EARLIER|CURRENT|OLDER|REVISION).{0,160}(?:VERSION|DOCUMENT|CANON|SOURCE|TEXT)?','relationship':r'(?:SAME|VARIANT|DUPLICATE|DERIVED|SUPPORT|SUPPORTING|REFERENCE|REFERENCES|BASED ON|BUILDS ON|SUPERSEDES|REPLACES|CONFLICT|DIFFERENT|SEPARATE|REGIONAL|HISTORICAL|PREVIOUS|CURRENT).{0,180}'}
- direct=bool(re.search(patterns.get(dimension,patterns['relationship']),u,re.S));contextual=bool(any(w in u for w in FOCUS.get(dimension,[]))) or bool(any(w in u for w in RELATION_TERMS))
- anchors={x for x in pair_anchors if x.upper() in u};pair_relevant=bool(anchors) or (dimension=='relationship' and direct)
- entities=extract_entities(text);grounded=direct and pair_relevant and (len(entities)>=1 or dimension=='relationship')
+ direct=bool(re.search(patterns.get(dimension,patterns['relationship']),u,re.S));contextual=bool(any(w in u for w in FOCUS.get(dimension,[]))) or bool(any(w in u for w in RELATION_TERMS));anchors={x for x in pair_anchors if x.upper() in u};pair_relevant=bool(anchors) or (dimension=='relationship' and direct);entities=extract_entities(text);grounded=direct and pair_relevant and (len(entities)>=1 or dimension=='relationship')
  if grounded:quality='DIRECT';score=1.0;reason='question_specific_and_pair_relevant'
  elif direct or contextual:quality='CONTEXTUAL';score=.5;reason='dimension_signal_but_not_pair_resolving'
  else:quality='KEYWORD_ONLY';score=.1;reason='weak_signal'
@@ -77,13 +71,6 @@ def claim_from(path,text,dimension,pair_anchors=()):
  if any(x in up for x in ['CHECKLIST','AUDIT','FRAMEWORK','GUIDE','OPERATING_RULES']):source='supporting'
  if any(x in up for x in ['ARCHIVE','HISTORICAL','REVISION']):source='historical'
  return {'source':path,'passage':text,'dimension':dimension,'claim':text,'claim_type':quality,'quality_score':score,'reason':reason,'source_role':source,'entities':entities,'grounded':grounded,'pair_relevant':pair_relevant,'pair_anchors':sorted(anchors)}
-
-def extract_entities(text):
- vals=[]
- for m in re.finditer(r'\b(?:the\s+)?([A-Z][A-Za-z0-9_-]{2,}(?:\s+[A-Z][A-Za-z0-9_-]{2,}){0,4})\b',text):
-  v=m.group(1).strip(' .,;:()[]')
-  if v.upper() not in {'THE','THIS','THAT','WHICH','DOCUMENT','SOURCE','CURRENT','FORMER'} and v not in vals: vals.append(v)
- return vals[:12]
 
 def collect_claims(paths,root,dimension,pair_anchors=()):
  claims=[];seen=set()
@@ -94,9 +81,8 @@ def collect_claims(paths,root,dimension,pair_anchors=()):
  return claims
 
 def validity(question,dimension,claims):
- relevant=[c for c in claims if c['dimension']==dimension];direct=[c for c in relevant if c['claim_type']=='DIRECT'];grounded=[c for c in direct if c['grounded']];context=[c for c in relevant if c['claim_type']=='CONTEXTUAL'];sources={c['source'] for c in context}
- answered=bool(grounded);quality=1.0 if grounded else (.5 if context else 0.0)
- return {'question':question,'dimension':dimension,'answerability':quality,'answers_question':answered,'direct_claims':len(direct),'grounded_direct_claims':len(grounded),'contextual_claims':len(context),'independent_context_sources':len(sources),'pair_resolving_claims':len([c for c in relevant if c.get('pair_relevant')]),'evidence_quality':relevant}
+ relevant=[c for c in claims if c['dimension']==dimension];direct=[c for c in relevant if c['claim_type']=='DIRECT'];grounded=[c for c in direct if c['grounded']];context=[c for c in relevant if c['claim_type']=='CONTEXTUAL'];sources={c['source'] for c in context};pair_claims=[c for c in relevant if c.get('pair_relevant')];answered=bool(grounded);quality=1.0 if grounded else (.5 if context else 0.0)
+ return {'question':question,'dimension':dimension,'answerability':quality,'answers_question':answered,'direct_claims':len(direct),'grounded_direct_claims':len(grounded),'contextual_claims':len(context),'independent_context_sources':len(sources),'pair_resolving_claims':len(pair_claims),'evidence_quality':relevant}
 
 def missing_targets(remaining,root,a,b,used,pool,pair_anchors):
  targets=[];reasons=[];used=set(used)|{a,b}
@@ -104,7 +90,7 @@ def missing_targets(remaining,root,a,b,used,pool,pair_anchors):
   dim,_=question_for_unknown(u);rows=[]
   for p in files(root):
    if p in used:continue
-   text=read(p,root);score=len(terms(text).get(dim,[]))*2 + sum(1 for x in pair_anchors if x.upper() in text.upper())
+   text=read(p,root);score=len(terms(text).get(dim,[]))*2+sum(1 for x in pair_anchors if x.upper() in text.upper())
    if score:rows.append((score,p))
   for _,p in sorted(rows,key=lambda x:(x[0],x[1]),reverse=True)[:pool]:
    if p not in targets:targets.append(p);reasons.append({'missing':u,'dimension':dim,'target':p,'reason':'first pass lacked pair-resolving evidence'})
@@ -121,10 +107,7 @@ def investigate(r,root,pool=DEFAULT_POOL_SIZE):
   common=set(ta[d])&set(tb[d]);diff=set(ta[d])^set(tb[d])
   if common:known.append(f'{d}: shared {", ".join(sorted(common))}')
   if diff:known.append(f'{d}: differs {", ".join(sorted(diff))}')
- # A case is not solved merely because a keyword has a supporting sentence.
- # Ask the relationship-level questions explicitly, then add specialist questions
- # only when the evidence shows that dimension is actually relevant.
- unknown.extend(['relationship between the two artifacts requires explicit case evidence'])
+ unknown.append('relationship between the two artifacts requires explicit case evidence')
  if ta['authority'] or tb['authority']:unknown.append('authority role and organizational level require contextual confirmation')
  if ta['support'] or tb['support']:unknown.append('explicit support relationship is not established by indicators alone')
  if ta['temporal'] or tb['temporal']:unknown.append('temporal precedence/supersession is not established by indicators alone')

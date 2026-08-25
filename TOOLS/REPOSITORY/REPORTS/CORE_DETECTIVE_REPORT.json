@@ -1661,15 +1661,176 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 11,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -11,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -11,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -14,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -15,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -1685,13 +1846,28 @@
         ],
         "rejected_alternatives": [
           "VARIANT",
-          "DUPLICATE"
+          "CONFLICT",
+          "DUPLICATE",
+          "HISTORICAL"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -7601,15 +7777,180 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 14,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "importance=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -15,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -48,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -7622,14 +7963,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -13507,15 +13863,181 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 14,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=DIFFERENT",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "importance=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -15,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -48,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -13532,14 +14054,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -19398,15 +19935,174 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 11,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -11,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -11,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -14,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [
+              "scope=SAME"
+            ],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -21,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -19430,13 +20126,28 @@
         ],
         "rejected_alternatives": [
           "VARIANT",
-          "DUPLICATE"
+          "CONFLICT",
+          "DUPLICATE",
+          "HISTORICAL"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -25290,15 +26001,168 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "SUPPORTING",
-        "confidence": "HIGH",
-        "decision_basis": "One document is explicitly comparative/derived secondary material while the other is source material for the same subject.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Layered constraints leave multiple plausible relationships or a decisive factor unresolved.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "SUPPORTING"
+          {
+            "relationship": "HISTORICAL",
+            "status": "VIABLE",
+            "score": 13,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [
+              "subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 11,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=SAME",
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "coherence=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 0,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": 1,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [
+              "subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "scope expected SAME, observed MIXED"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": 1,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [
+              "subject=SAME"
+            ],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "scope expected SAME, observed MIXED"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -2,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [
+              "subject=SAME"
+            ],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "scope expected SAME, observed MIXED"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "SUPPORTING"
+          "HISTORICAL",
+          "SUPPORTING",
+          "RELATED",
+          "MISPLACED",
+          "COINCIDENTAL"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -25322,15 +26186,23 @@
         ],
         "rejected_alternatives": [
           "VARIANT",
-          "DUPLICATE",
-          "RELATED"
+          "CONFLICT",
+          "DUPLICATE"
         ],
         "decisive_layers": [
-          "subject",
           "purpose",
-          "content"
+          "path"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [],
+          "supported": [
+            "SUPPORTING"
+          ],
+          "basis": [
+            "comparative path plus differing role supports SUPPORTING"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -31235,15 +32107,178 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 14,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "importance=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -21,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -48,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -31258,14 +32293,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -37217,15 +38267,181 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 14,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "dependency=SAME",
+              "importance=SAME"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -15,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -48,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -37238,14 +38454,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -43255,15 +44486,180 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
+        "decision": "COINCIDENTAL",
         "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision_basis": "Layered constraints narrow the field; Robin evidence discriminates the surviving hypotheses.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 14,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED",
+              "importance=SAME"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -15,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "canon_status=MIXED",
+              "development_state=DIFFERENT",
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -45,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -48,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "scope=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "SUPPORTING",
+          "MISPLACED"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -43280,14 +44676,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -49157,15 +50568,173 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "HIGH",
-        "decision_basis": "Same broad category but different subject; structural subject identity prevents VARIANT/DUPLICATE.",
-        "reasoning_mode": "layered_ontology_authoritative",
+        "decision": "REVIEW",
+        "confidence": "MEDIUM",
+        "decision_basis": "Layered constraints leave multiple plausible relationships or a decisive factor unresolved.",
+        "reasoning_mode": "layered_constraints_then_factor_adjudication",
         "candidates": [
-          "RELATED"
+          {
+            "relationship": "COINCIDENTAL",
+            "status": "VIABLE",
+            "score": 11,
+            "description": "surface similarity without meaningful connection",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "layered ontology support"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "RELATED",
+            "status": "VIABLE",
+            "score": 9,
+            "description": "meaningfully connected material without a stronger defining relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "subject=DIFFERENT",
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "MISPLACED",
+            "status": "VIABLE",
+            "score": 6,
+            "description": "information appears where its role or scope does not belong",
+            "required_factors": [],
+            "supporting_factors": [
+              "scope=MIXED",
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "coherence",
+              "function",
+              "scope"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "SUPPORTING",
+            "status": "VIABLE",
+            "score": 3,
+            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [],
+            "decisive_dimensions": [
+              "dependency",
+              "function",
+              "provenance"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "HISTORICAL",
+            "status": "DISQUALIFIED",
+            "score": -21,
+            "description": "temporal state, revision, or precedence explains the relationship",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "canon_status",
+              "development_state",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "VARIANT",
+            "status": "DISQUALIFIED",
+            "score": -33,
+            "description": "same information, same scope, wording/detail difference",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed MIXED",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "CONFLICT",
+            "status": "DISQUALIFIED",
+            "score": -33,
+            "description": "same subject and scope but incompatible claims",
+            "required_factors": [],
+            "supporting_factors": [
+              "function=MIXED"
+            ],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed MIXED",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "function",
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          },
+          {
+            "relationship": "DUPLICATE",
+            "status": "DISQUALIFIED",
+            "score": -36,
+            "description": "substantially the same information with no meaningful contextual distinction",
+            "required_factors": [],
+            "supporting_factors": [],
+            "blocking_factors": [
+              "subject expected SAME, observed DIFFERENT",
+              "scope expected SAME, observed MIXED",
+              "subject=DIFFERENT blocks hypothesis",
+              "layered ontology exclusion: subject differs"
+            ],
+            "decisive_dimensions": [
+              "scope",
+              "subject"
+            ],
+            "decisive_unknowns": []
+          }
         ],
         "viable_relationships": [
-          "RELATED"
+          "COINCIDENTAL",
+          "RELATED",
+          "MISPLACED",
+          "SUPPORTING"
         ],
         "uncertain_relationships": [],
         "decisive_unknowns": [],
@@ -49178,14 +50747,29 @@
           "usability"
         ],
         "rejected_alternatives": [
+          "HISTORICAL",
           "VARIANT",
+          "CONFLICT",
           "DUPLICATE"
         ],
         "decisive_layers": [
-          "category",
           "subject"
         ],
-        "legacy_exemplar_override": false
+        "legacy_exemplar_override": false,
+        "layered_constraints": {
+          "excluded": [
+            "CONFLICT",
+            "DUPLICATE",
+            "HISTORICAL",
+            "VARIANT"
+          ],
+          "supported": [
+            "COINCIDENTAL"
+          ],
+          "basis": [
+            "subject differs"
+          ]
+        }
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -54438,11 +56022,12 @@
     "grounded_direct_claims": 279,
     "pair_resolving_claims": 279,
     "relationship_decisions": {
-      "RELATED": 29,
-      "SUPPORTING": 1
+      "RELATED": 21,
+      "COINCIDENTAL": 7,
+      "REVIEW": 2
     },
-    "cases_with_non_review_decision": 30,
-    "cases_escalated_to_review": 0
+    "cases_with_non_review_decision": 28,
+    "cases_escalated_to_review": 2
   },
   "safety": {
     "human_validation_required": true,

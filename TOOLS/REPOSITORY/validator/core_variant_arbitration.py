@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Evidence-gated VARIANT arbitration for Mythroot CORE.
 
-VARIANT means the same subject within the same regional/scope identity and
-same document type, with substantially overlapping information. Role/purpose
-are compatibility signals rather than hard identity requirements: regional
-variants may legitimately differ in depth, presentation, or supporting detail.
+VARIANT means the same canonical family within the same regional/scope identity
+and same document type, with substantially overlapping information. Role/purpose
+are compatibility signals rather than hard identity requirements.
 """
 from __future__ import annotations
 from dataclasses import dataclass, asdict
@@ -47,14 +46,13 @@ def _claims_from_units(units):return [u.get("normalized") or u.get("text") or u 
 
 def assess_variant(a:dict[str,Any],b:dict[str,Any],min_claim_overlap=.65):
     claims_a=a.get("claims") or _claims_from_units(a.get("information_units",[]));claims_b=b.get("claims") or _claims_from_units(b.get("information_units",[]))
-    gates={"subject":_same(a.get("subject"),b.get("subject")),"scope":_same(a.get("scope"),b.get("scope")),"content_type":_same(a.get("content_type"),b.get("content_type")),"time":_same_or_unspecified(a.get("time"),b.get("time")),"claims":False}
+    family_a=a.get("canonical_family_id");family_b=b.get("canonical_family_id")
+    family_gate=_same(family_a,family_b) if family_a is not None and family_b is not None else _same(a.get("subject"),b.get("subject"))
+    gates={"canonical_family":family_gate,"subject":_same(a.get("subject"),b.get("subject")),"scope":_same(a.get("scope"),b.get("scope")),"content_type":_same(a.get("content_type"),b.get("content_type")),"time":_same_or_unspecified(a.get("time"),b.get("time")),"claims":False}
     overlap=claim_overlap(claims_a,claims_b);gates["claims"]=overlap>=min_claim_overlap
     reasons=[]
     for k,ok in gates.items():
         if not ok:reasons.append(f"variant_gate_failed:{k}")
-    # Role/purpose are compatibility evidence, not hard identity. Explicit
-    # historical/supporting roles remain non-variant because they describe a
-    # different document function rather than a regional expression of content.
     ra,rb=_norm(a.get("role")),_norm(b.get("role"));pa,pb=_norm(a.get("purpose")),_norm(b.get("purpose"))
     if {ra,rb} & {"historical","audit_support"} and ra!=rb:reasons.append("incompatible_document_role")
     if {pa,pb} & {"audit_support","historical"} and pa!=pb:reasons.append("incompatible_document_purpose")
@@ -62,5 +60,5 @@ def assess_variant(a:dict[str,Any],b:dict[str,Any],min_claim_overlap=.65):
     eligible=all(gates.values()) and compatible and bool(claims_a) and bool(claims_b)
     if gates["subject"] and not gates["scope"]:reasons.append("same_subject_different_scope")
     basis="semantic_claims" if a.get("claims") and b.get("claims") else "information_units"
-    return VariantAssessment(eligible,"VARIANT" if eligible else "UNRESOLVED",gates,reasons or ["same subject, same scope, same document type, and substantially equivalent information"],round(overlap,4),round(overlap,4),basis)
+    return VariantAssessment(eligible,"VARIANT" if eligible else "UNRESOLVED",gates,reasons or ["same canonical family, same subject, same scope, same document type, and substantially equivalent information"],round(overlap,4),round(overlap,4),basis)
 def resolve_relationship(a,b):return assess_variant(a,b).as_dict()

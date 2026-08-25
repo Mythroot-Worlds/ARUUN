@@ -24,9 +24,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -39,9 +50,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -654,9 +676,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -669,9 +702,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -1285,9 +1329,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -1300,9 +1355,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -1915,9 +1981,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -1930,9 +2007,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -2521,9 +2609,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -2536,9 +2635,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -3152,9 +3262,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -3167,9 +3288,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -3783,9 +3915,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -3798,9 +3941,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -4414,9 +4568,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -4429,9 +4594,20 @@
             "regional_scope": false
           },
           "role": "SUPPORTING",
+          "identity_layer": "SUPPORTING_ARTIFACT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -5055,9 +5231,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -5070,9 +5257,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -5652,9 +5850,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -5667,9 +5876,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -6286,9 +6506,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -6301,9 +6532,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -6916,9 +7158,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -6931,9 +7184,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -7518,9 +7782,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -7533,9 +7808,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -8149,9 +8435,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -8164,9 +8461,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -8751,9 +9059,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -8766,9 +9085,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -9382,9 +9712,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -9397,9 +9738,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -9984,9 +10336,20 @@
             "regional_scope": false
           },
           "role": "SUPPORTING",
+          "identity_layer": "SUPPORTING_ARTIFACT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -9999,9 +10362,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -10623,9 +10997,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -10638,9 +11023,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -11220,9 +11616,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -11235,9 +11642,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -11817,9 +12235,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -11832,9 +12261,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -12511,9 +12951,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -12526,9 +12977,20 @@
             "regional_scope": false
           },
           "role": "SUPPORTING",
+          "identity_layer": "SUPPORTING_ARTIFACT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -13142,9 +13604,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -13157,9 +13630,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -13772,9 +14256,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -13787,9 +14282,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -14402,9 +14908,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -14417,9 +14934,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -14999,9 +15527,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -15014,9 +15553,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -15596,9 +16146,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -15611,9 +16172,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -16227,9 +16799,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -16242,9 +16825,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -16824,9 +17418,20 @@
             "regional_scope": false
           },
           "role": "SUPPORTING",
+          "identity_layer": "SUPPORTING_ARTIFACT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -16839,9 +17444,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": false,
@@ -17459,9 +18075,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -17474,9 +18101,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,
@@ -18090,9 +18728,20 @@
             "regional_scope": false
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "CANONICAL_ROOT",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "b": {
@@ -18105,9 +18754,20 @@
             "regional_scope": true
           },
           "role": "AUTHORITATIVE",
+          "identity_layer": "REGIONAL_SPECIALIZATION",
+          "naming": {
+            "normalized": false,
+            "status_code": null,
+            "status_name": null,
+            "scope_token": null,
+            "subject_token": null,
+            "record_id": null,
+            "basis": "legacy_or_unstructured_filename"
+          },
           "identity_basis": [
             "path",
-            "filename"
+            "filename",
+            "document_naming_status_codes"
           ]
         },
         "same_subject": true,

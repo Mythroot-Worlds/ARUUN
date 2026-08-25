@@ -17,9 +17,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -41,9 +52,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "subject": "family.partnership",
@@ -63,9 +85,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "subject": "family.birth_childhood",
@@ -85,9 +118,20 @@
           "regional_scope": true
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -109,9 +153,20 @@
           "regional_scope": true
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -133,9 +188,20 @@
           "regional_scope": true
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -157,9 +223,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "subject": "governance.authority",
@@ -179,9 +256,20 @@
           "regional_scope": true
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "CANONICAL_ROOT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -203,9 +291,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "GENERAL_ARTIFACT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -228,9 +327,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "GENERAL_ARTIFACT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",
@@ -254,9 +364,20 @@
           "regional_scope": false
         },
         "role": "AUTHORITATIVE",
+        "identity_layer": "GENERAL_ARTIFACT",
+        "naming": {
+          "normalized": false,
+          "status_code": null,
+          "status_name": null,
+          "scope_token": null,
+          "subject_token": null,
+          "record_id": null,
+          "basis": "legacy_or_unstructured_filename"
+        },
         "identity_basis": [
           "path",
-          "filename"
+          "filename",
+          "document_naming_status_codes"
         ]
       },
       "confidence": "medium",

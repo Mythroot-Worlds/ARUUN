@@ -9,14 +9,18 @@ STOP={"the","and","for","with","from","that","this","document","regional","famil
 
 def subject_from_path(path):
     stem=Path(path).stem.lower()
-    # Normalize integer and decimal version suffixes: v1, v0.1, v2.5, etc.
     stem=re.sub(r"_comparative$|_revision\d*(?:\.\d+)?$|_v\d+(?:\.\d+)?$|_draft\d*(?:\.\d+)?$","",stem)
     parts=[x for x in re.split(r"[^a-z0-9]+",stem) if x and x not in STOP and x.upper() not in REGIONS]
     return "_".join(parts)
 
 def scope_from_path(path):
-    parts=[p.upper().replace("-","_") for p in Path(path).parts]
+    path_obj=Path(path)
+    parts=[p.upper().replace("-","_") for p in path_obj.parts]
     region=next((r for r in reversed(parts) if r in REGIONS),None)
+    # Canonical flat regional documents such as HEARTH/COAST.md encode their
+    # regional scope in the filename rather than a directory component.
+    if region is None and path_obj.stem.upper() in REGIONS:
+        region=path_obj.stem.upper()
     continent=None
     if "CONTINENTS" in parts:
         i=parts.index("CONTINENTS")

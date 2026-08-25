@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
-"""CORE A.C.E. Batman: bounded relationship case solver.
-
-Robin investigates deciding factors independently; Batman synthesizes the
-factor matrix into explicit relationship candidates and then grounds the case
-with repository evidence. Human adjudication remains authoritative.
-"""
+"""CORE A.C.E. Batman: bounded relationship case solver."""
 from __future__ import annotations
 import argparse,json,re
 from pathlib import Path
 from core_foundations import factor_snapshot
 from core_deciding_factor_questions import QUESTIONS
-from core_relationship_reasoning import evaluate_relationships
+from core_relationship_reasoning_v2 import evaluate_relationships
 from mythroot_profile import profile_snapshot
 
 DEFAULT_POOL_SIZE=10
@@ -76,13 +71,11 @@ def main():
  ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');ap.add_argument('--pool-size',type=int,default=DEFAULT_POOL_SIZE);x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out;pool=max(1,min(x.pool_size,MAX_POOL_SIZE))
  queue=load(out/'CORE_ADJUDICATION_QUEUE.json',{'queue':[]});rr=load(out/'CORE_ROBIN_REPORT.json',{'cases':[]});rmap={c.get('relationship_id'):c for c in rr.get('cases',[])}
  live=queue.get('queue',[]);source='CORE_ADJUDICATION_QUEUE.json'
- if not live:
-  live=load(out/'CORE_BLIND_TEST.json',{'predictions':[]}).get('predictions',[]);source='CORE_BLIND_TEST.json (fallback: queue empty)'
- cases=[investigate(r,root,rmap.get(r.get('relationship_id'),{}),pool) for r in live]
- decisions={}
+ if not live: live=load(out/'CORE_BLIND_TEST.json',{'predictions':[]}).get('predictions',[]);source='CORE_BLIND_TEST.json (fallback: queue empty)'
+ cases=[investigate(r,root,rmap.get(r.get('relationship_id'),{}),pool) for r in live];decisions={}
  for c in cases:
   d=c['relationship_reasoning']['decision'];decisions[d]=decisions.get(d,0)+1
  summary={'cases':len(cases),'case_source':source,'factor_dimensions':len(QUESTIONS),'questions_per_case':len(QUESTIONS),'cases_using_robin_factor_map':sum(bool(c['robin_factor_investigation']) for c in cases),'cases_missing_robin_factor_map':sum(not bool(c['robin_factor_investigation']) for c in cases),'cases_with_unresolved_factors':sum(bool(c['unknown_after']) for c in cases),'grounded_direct_claims':sum(c['evidence_quality_summary']['grounded_direct_claims'] for c in cases),'pair_resolving_claims':sum(c['evidence_quality_summary']['pair_resolving_claims'] for c in cases),'relationship_decisions':decisions,'cases_with_non_review_decision':sum(c['relationship_reasoning']['decision']!='REVIEW' for c in cases),'cases_escalated_to_review':sum(c['relationship_reasoning']['decision']=='REVIEW' for c in cases)}
- payload={'engine':'CORE A.C.E. Detective','schema_version':'3.2','mode':'READ_ONLY','purpose':'Batman solves relationship cases by evaluating Robin\'s complete deciding-factor matrix against explicit relationship gates and grounded repository evidence','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
+ payload={'engine':'CORE A.C.E. Detective','schema_version':'3.3','mode':'READ_ONLY','purpose':'Batman solves relationship cases by comparing plausible hypotheses against Robin\'s complete deciding-factor matrix','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
  (out/'CORE_DETECTIVE_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_DETECTIVE_REPORT.md').write_text('# CORE A.C.E. Detective Case Solver\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

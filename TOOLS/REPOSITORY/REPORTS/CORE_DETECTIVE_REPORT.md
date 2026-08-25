@@ -13,8 +13,8 @@
   "pair_resolving_claims": 279,
   "relationship_decisions": {
     "RELATED": 29,
-    "REVIEW": 1
+    "SUPPORTING": 1
   },
-  "cases_with_non_review_decision": 29,
-  "cases_escalated_to_review": 1
+  "cases_with_non_review_decision": 30,
+  "cases_escalated_to_review": 0
 }

@@ -918,6 +918,10 @@
               "03_peoples/cultures/hearth",
               "governance_and_authority"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
           }
         },
         "decision_basis": {
@@ -6914,6 +6918,10 @@
               "03_peoples/cultures/hearth",
               "desert"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
           }
         },
         "decision_basis": {
@@ -12847,6 +12855,10 @@
               "03_peoples/cultures/hearth",
               "plains"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
           }
         },
         "decision_basis": {
@@ -18752,6 +18764,10 @@
               "03_peoples/cultures/hearth/mountains",
               "specialist_lineages"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md"
           }
         },
         "decision_basis": {
@@ -24656,6 +24672,10 @@
               "03_peoples/cultures/hearth/comparative",
               "family_birth_childhood"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
           }
         },
         "decision_basis": {
@@ -25266,182 +25286,22 @@
       },
       "robin_handoff_status": "RECEIVED",
       "relationship_reasoning": {
-        "decision": "REVIEW",
-        "confidence": "LOW",
-        "decision_basis": "A factor needed to discriminate the strongest hypothesis remains unknown.",
+        "decision": "SUPPORTING",
+        "confidence": "HIGH",
+        "decision_basis": "One document is an explicitly comparative/derived secondary layer while the other is authoritative source material for the same subject.",
         "reasoning_mode": "layered_then_factor_adjudication",
         "candidates": [
-          {
-            "relationship": "HISTORICAL",
-            "status": "VIABLE",
-            "score": 13,
-            "description": "temporal state, revision, or precedence explains the relationship",
-            "required_factors": [
-              "subject=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "canon_status",
-              "development_state",
-              "subject"
-            ],
-            "decisive_unknowns": [
-              "development_state"
-            ],
-            "discriminating_factors": [
-              "canon_status",
-              "development_state"
-            ]
-          },
-          {
-            "relationship": "RELATED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "meaningfully connected material without a stronger defining relationship",
-            "required_factors": [],
-            "supporting_factors": [
-              "subject=SAME",
-              "scope=MIXED",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "MISPLACED",
-            "status": "VIABLE",
-            "score": 9,
-            "description": "information appears where its role or scope does not belong",
-            "required_factors": [],
-            "supporting_factors": [
-              "scope=MIXED",
-              "coherence=DIFFERENT",
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "coherence",
-              "function",
-              "scope"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "SUPPORTING",
-            "status": "VIABLE",
-            "score": 3,
-            "description": "one artifact supplies context, evidence, reference, comparative synthesis, or operational support",
-            "required_factors": [],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "provenance"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "COINCIDENTAL",
-            "status": "VIABLE",
-            "score": 0,
-            "description": "surface similarity without meaningful connection",
-            "required_factors": [],
-            "supporting_factors": [],
-            "blocking_factors": [],
-            "decisive_dimensions": [
-              "dependency",
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "CONFLICT",
-            "status": "DISQUALIFIED",
-            "score": 4,
-            "description": "same subject and scope but incompatible claims",
-            "required_factors": [
-              "subject=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED",
-              "canon_status=SAME"
-            ],
-            "blocking_factors": [
-              "scope expected SAME, observed MIXED"
-            ],
-            "decisive_dimensions": [
-              "function",
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "VARIANT",
-            "status": "DISQUALIFIED",
-            "score": 1,
-            "description": "same information, same scope, wording/detail difference",
-            "required_factors": [
-              "subject=SAME"
-            ],
-            "supporting_factors": [
-              "function=MIXED"
-            ],
-            "blocking_factors": [
-              "scope expected SAME, observed MIXED"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          },
-          {
-            "relationship": "DUPLICATE",
-            "status": "DISQUALIFIED",
-            "score": -2,
-            "description": "substantially the same information with no meaningful contextual distinction",
-            "required_factors": [
-              "subject=SAME"
-            ],
-            "supporting_factors": [],
-            "blocking_factors": [
-              "scope expected SAME, observed MIXED"
-            ],
-            "decisive_dimensions": [
-              "scope",
-              "subject"
-            ],
-            "decisive_unknowns": []
-          }
+          "SUPPORTING"
         ],
         "viable_relationships": [
-          "HISTORICAL",
-          "RELATED",
-          "MISPLACED",
-          "SUPPORTING",
-          "COINCIDENTAL"
+          "SUPPORTING"
         ],
         "uncertain_relationships": [],
-        "decisive_unknowns": [
-          "development_state"
-        ],
+        "decisive_unknowns": [],
         "non_decisive_unknowns": [
           "consequence",
           "dependency",
+          "development_state",
           "importance",
           "intentionality",
           "story_relevance",
@@ -25456,8 +25316,16 @@
           "story_relevance",
           "usability"
         ],
-        "rejected_alternatives": [],
-        "decisive_layers": []
+        "rejected_alternatives": [
+          "VARIANT",
+          "DUPLICATE",
+          "RELATED"
+        ],
+        "decisive_layers": [
+          "subject",
+          "purpose",
+          "content"
+        ]
       },
       "case_question": {
         "question": "What relationship is actually supported between these two artifacts?",
@@ -30685,6 +30553,10 @@
               "03_peoples/cultures/hearth",
               "desert"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
           }
         },
         "decision_basis": {
@@ -36673,6 +36545,10 @@
               "03_peoples/cultures/hearth",
               "plains"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md"
           }
         },
         "decision_basis": {
@@ -42713,6 +42589,10 @@
               "03_peoples/cultures/hearth",
               "desert"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
           }
         },
         "decision_basis": {
@@ -48545,6 +48425,10 @@
               "03_peoples/cultures/hearth",
               "coast"
             ]
+          },
+          "path": {
+            "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+            "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
           }
         },
         "decision_basis": {
@@ -54546,10 +54430,10 @@
     "pair_resolving_claims": 279,
     "relationship_decisions": {
       "RELATED": 29,
-      "REVIEW": 1
+      "SUPPORTING": 1
     },
-    "cases_with_non_review_decision": 29,
-    "cases_escalated_to_review": 1
+    "cases_with_non_review_decision": 30,
+    "cases_escalated_to_review": 0
   },
   "safety": {
     "human_validation_required": true,

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """CORE A.C.E. Robin: independent deciding-factor investigator.
 
-Robin does not solve the case. Robin maps evidence across the complete deciding-
-factor ontology so Batman can solve the relationship using a broader, explicit
-factor record instead of treating every semantic difference as a conflict.
+Robin does not solve the case. Robin builds a complete, auditable factor matrix
+for both artifacts so Batman can distinguish same-information variants from
+merely related, supporting, historical, regional, or conflicting material.
 """
 from __future__ import annotations
 import argparse,json,re
@@ -29,6 +29,15 @@ RELATIONS={
     'usability':['usability','creator-ready','license-ready','world usage guide'],
     'story_relevance':['story','conflict','mystery','story opportunity','narrative','story generation'],
 }
+PATH_HINTS={
+    'scope':['REGIONS','PLAINS','MOUNTAINS','RIVER','WETLANDS','DESERT','COAST','HEARTH','CONTINENTS','WORLD'],
+    'function':['FAMILY','BIRTH','CHILDHOOD','GOVERNANCE','AUTHORITY','PARTNERSHIP','FOOD','SUBSISTENCE','SETTLEMENT','HOUSING','CULTURE','CHECKLIST','AUDIT','REFERENCE'],
+    'depth':['LEVEL_0','LEVEL_1','LEVEL_2','LEVEL_3','LEVEL_4'],
+    'canon_status':['CANON','ARCHIVE','HISTORICAL','DRAFT'],
+    'importance':['CORE','SUPPORTING','OPTIONAL'],
+    'development_state':['DEVELOPED','PARTIAL','OPEN'],
+    'relationship':['COMPARATIVE','VARIANT','DUPLICATE','SUPPORTING','HISTORICAL'],
+}
 
 def load(p,d):
     try:return json.loads(p.read_text(encoding='utf-8')) if p.exists() else d
@@ -48,32 +57,45 @@ def named_spans(sentence):
     vals=[]
     for m in re.finditer(r'\b([A-Z][A-Za-z0-9_-]{2,}(?:\s+[A-Z][A-Za-z0-9_-]{2,}){0,4})\b',sentence):
         v=m.group(1).strip(' .,;:()[]')
-        if v not in vals and v.upper() not in {'THE','THIS','THAT','WHICH','DOCUMENT','SOURCE','CURRENT','FORMER'}: vals.append(v)
+        if v not in vals and v.upper() not in {'THE','THIS','THAT','WHICH','DOCUMENT','SOURCE','CURRENT','FORMER'}:vals.append(v)
     return vals[:10]
 
 def local_analysis(path,root,dimension):
     ss=sentences(read(path,root));out=[]
     for i,s in enumerate(ss):
         hits=relation_hits(s,dimension)
-        if not hits: continue
+        if not hits:continue
         lo=max(0,i-MAX_WINDOW);hi=min(len(ss),i+MAX_WINDOW+1);window=ss[lo:hi];entities=named_spans(s)
         syntax_signal=bool(re.search(r'\b(?:is|are|has|have|governs?|rules?|leads?|supports?|informs?|derives?|replaces?|supersedes?|belongs?|contains?|within|under|from|for|differs?|same)\b',s,re.I))
         out.append({'source':path,'dimension':dimension,'sentence':s,'window':window,'relation_terms':hits,'entities':entities,'syntax_signal':syntax_signal,'subject_candidate':entities[0] if entities else None,'object_candidates':entities[1:] if len(entities)>1 else [],'relation_candidate':hits[0],'context_depth':len(window)})
     return out[:12]
 
+def path_evidence(path,dimension):
+    u=path.upper();return [h.lower() for h in PATH_HINTS.get(dimension,[]) if h in u]
+
+def lexical_evidence(text,dimension):
+    u=text.lower();return sorted({w for w in RELATIONS.get(dimension,[]) if re.search(r'\b'+re.escape(w)+r'\w*\b',u)})
+
+def document_factor(path,root,dimension):
+    text=read(path,root);local=local_analysis(path,root,dimension);ph=path_evidence(path,dimension);lh=lexical_evidence(text,dimension);terms=sorted(set(ph+lh));explicit=[x for x in local if x['syntax_signal']];score=min(1.0,(len(terms)*.12)+(len(explicit)*.08))
+    return {'path':path,'dimension':dimension,'evidence_terms':terms,'path_evidence':ph,'language_evidence':lh,'observations':local[:8],'evidence_count':len(local),'explicit_relation_count':len(explicit),'presence':'PRESENT' if terms else 'ABSENT','evidence_strength':round(score,3)}
+
+def compare_factor(a,b,dimension,root):
+    left=document_factor(a,root,dimension);right=document_factor(b,root,dimension);ls=set(left['evidence_terms']);rs=set(right['evidence_terms']);shared=sorted(ls&rs);different=sorted(ls^rs)
+    if not ls and not rs:state='UNKNOWN'
+    elif shared and not different:state='SAME'
+    elif shared and different:state='MIXED'
+    else:state='DIFFERENT'
+    deciding=state in {'DIFFERENT','MIXED'}
+    return {'dimension':dimension,'question':QUESTIONS[dimension],'left':left,'right':right,'shared_evidence':shared,'differing_evidence':different,'relationship_state':state,'deciding_factor':deciding,'why_it_matters':'A difference matters only if it can change the relationship classification; a shared label alone does not make two artifacts variants.','needs_batman_attention':deciding or state=='UNKNOWN'}
+
 def robin_case(case,root):
-    docs=[case.get('left',''),case.get('right','')];analyses=[];results={}
-    for d in QUESTIONS:
-        items=[]
-        for p in docs: items.extend(local_analysis(p,root,d))
-        analyses.extend(items);explicit=[x for x in items if x['syntax_signal'] and x['relation_candidate']];entities=sum(len(x['entities']) for x in explicit);ambiguity=sum(1 for x in items if len(x['relation_terms'])>1 or len(x['entities'])>3)
-        results[d]={'question':QUESTIONS[d],'relation_observations':len(items),'syntax_supported':len(explicit),'entity_observations':entities,'ambiguity_signals':ambiguity,'supports_semantic_relation':bool(explicit and entities>0),'confidence':'high' if explicit and entities>0 and ambiguity==0 else ('medium' if explicit else 'low'),'evidence_state':'SUPPORTED' if explicit else ('SIGNAL_ONLY' if items else 'NO_SIGNAL'),'contradiction_signal':bool(d=='relationship' and any('conflict' in x['relation_terms'] for x in items))}
-    return {'relationship_id':case.get('relationship_id'),'documents':{'a':docs[0],'b':docs[1]},'robin_results':results,'observations':analyses,'method':'independent deciding-factor investigation across all ontology dimensions','role':'factor_investigator','independence':'Robin does not consume Batman conclusions; it investigates source text independently'}
+    a,b=case.get('left',''),case.get('right','');matrix={d:compare_factor(a,b,d,root) for d in QUESTIONS};deciding=[d for d,v in matrix.items() if v['deciding_factor']];unknown=[d for d,v in matrix.items() if v['relationship_state']=='UNKNOWN'];same=[d for d,v in matrix.items() if v['relationship_state']=='SAME'];mixed=[d for d,v in matrix.items() if v['relationship_state']=='MIXED'];different=[d for d,v in matrix.items() if v['relationship_state']=='DIFFERENT']
+    return {'relationship_id':case.get('relationship_id'),'documents':{'a':a,'b':b},'robin_results':{d:{'question':v['question'],'relationship_state':v['relationship_state'],'deciding_factor':v['deciding_factor'],'needs_batman_attention':v['needs_batman_attention'],'shared_evidence':v['shared_evidence'],'differing_evidence':v['differing_evidence'],'evidence_strength':{'left':v['left']['evidence_strength'],'right':v['right']['evidence_strength']}} for d,v in matrix.items()},'factor_matrix':matrix,'summary':{'factor_dimensions':len(matrix),'same_dimensions':same,'mixed_dimensions':mixed,'different_dimensions':different,'unknown_dimensions':unknown,'deciding_factor_dimensions':deciding,'deciding_factor_count':len(deciding)},'observations':[o for v in matrix.values() for o in v['left']['observations']+v['right']['observations']],'method':'complete deciding-factor matrix across both artifacts; path evidence and document-language evidence are compared separately','role':'factor_investigator','independence':'Robin does not consume Batman conclusions; it investigates source text independently'}
 
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out
-    queue=load(out/'CORE_ADJUDICATION_QUEUE.json',{'queue':[]});cases=[robin_case(c,root) for c in queue.get('queue',[])]
-    summary={'cases':len(cases),'factor_dimensions':len(QUESTIONS),'supported_dimensions':sum(sum(v['evidence_state']=='SUPPORTED' for v in c['robin_results'].values()) for c in cases),'signal_only_dimensions':sum(sum(v['evidence_state']=='SIGNAL_ONLY' for v in c['robin_results'].values()) for c in cases),'no_signal_dimensions':sum(sum(v['evidence_state']=='NO_SIGNAL' for v in c['robin_results'].values()) for c in cases),'contradiction_signals':sum(sum(v['contradiction_signal'] for v in c['robin_results'].values()) for c in cases)}
-    payload={'engine':'CORE A.C.E. Robin','schema_version':'2.1','mode':'READ_ONLY','purpose':'independent deciding-factor investigation; Robin maps evidence from the fresh adjudication queue, Batman solves the case','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
-    (out/'CORE_ROBIN_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_ROBIN_REPORT.md').write_text('# CORE A.C.E. Robin Factor Investigation\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
+    ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default='TOOLS/REPOSITORY/REPORTS');x=ap.parse_args();root=Path(x.root).resolve();out=root/x.out;queue=load(out/'CORE_ADJUDICATION_QUEUE.json',{'queue':[]});cases=[robin_case(c,root) for c in queue.get('queue',[])]
+    summary={'cases':len(cases),'factor_dimensions':len(QUESTIONS),'matrix_cells':len(cases)*len(QUESTIONS),'cases_with_deciding_factors':sum(bool(c['summary']['deciding_factor_dimensions']) for c in cases),'total_deciding_factor_cells':sum(c['summary']['deciding_factor_count'] for c in cases),'total_same_cells':sum(len(c['summary']['same_dimensions']) for c in cases),'total_mixed_cells':sum(len(c['summary']['mixed_dimensions']) for c in cases),'total_different_cells':sum(len(c['summary']['different_dimensions']) for c in cases),'total_unknown_cells':sum(len(c['summary']['unknown_dimensions']) for c in cases)}
+    payload={'engine':'CORE A.C.E. Robin','schema_version':'3.0','mode':'READ_ONLY','purpose':'independent complete deciding-factor matrix; differences are surfaced as evidence for Batman, not conclusions','cases':cases,'summary':summary,'safety':{'human_validation_required':True,'automatic_canon_change':False,'automatic_rule_promotion':False}}
+    (out/'CORE_ROBIN_REPORT.json').write_text(json.dumps(payload,indent=2),encoding='utf-8');(out/'CORE_ROBIN_REPORT.md').write_text('# CORE A.C.E. Robin Factor Matrix\n\n'+json.dumps(summary,indent=2),encoding='utf-8');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

@@ -1946,13 +1946,29 @@
 
 ## META-0252 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Path:** `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
 - **Status:** open
 
 ## META-0253 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0254 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0255 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.

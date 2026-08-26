@@ -51,6 +51,9 @@ def scope_relation(a_scope,b_scope):
  if ar is None and br is None:
   if ac is not None or bc is not None:return "SAME" if ac==bc and ac is not None else "UNCERTAIN"
   return "UNCERTAIN"
+ # A known regional scope and an unresolved regional scope are not agreement.
+ # The unresolved side may be a broader Hearth/world document or simply lack enough
+ # routing evidence; semantic similarity must not promote it to SAME.
  return "UNCERTAIN"
 def same_identity(a,b):return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and scope_relation(a["scope"],b["scope"])=="SAME"
 def identity_match(a,b):
@@ -59,5 +62,5 @@ def identity_match(a,b):
  if a.get("content_type")!=b.get("content_type"):reasons.append(f"content_type mismatch: {a.get('content_type')} != {b.get('content_type')}")
  sr=scope_relation(a.get("scope",{}),b.get("scope",{}))
  if sr=="DIFFERENT":reasons.append(f"scope mismatch: {a.get('scope')} != {b.get('scope')}")
- elif sr=="UNCERTAIN":reasons.append("scope unresolved: unresolved scope cannot be treated as agreement with another unresolved or known scope")
+ elif sr=="UNCERTAIN":reasons.append("scope unresolved: known and unresolved scope cannot be treated as agreement; both unresolved scopes also require review")
  return {"status":"MATCH" if not reasons else ("MISMATCH" if any('mismatch' in r for r in reasons) else "UNCERTAIN"),"same_identity":not reasons,"reasons":reasons,"scope_relation":sr}

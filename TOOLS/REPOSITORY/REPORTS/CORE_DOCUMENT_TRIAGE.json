@@ -1,6 +1,6 @@
 {
   "engine": "CORE A.C.E. Document Triage",
-  "schema_version": "3.6",
+  "schema_version": "3.7",
   "mode": "READ_ONLY",
   "purpose": "identify and place documents before describing pair relationships",
   "cases": [
@@ -1246,6 +1246,7 @@
             "temporal_precedence_is_not_conflict": true
           }
         },
+        "canonical_decision_basis": "same cultural domain with distinct scope is sufficient for organizational relationship; content similarity is not required",
         "relationship_tags": [
           "RELATED"
         ]
@@ -9435,6 +9436,7 @@
             "temporal_precedence_is_not_conflict": true
           }
         },
+        "canonical_decision_basis": "same cultural domain with distinct scope is sufficient for organizational relationship; content similarity is not required",
         "relationship_tags": [
           "RELATED"
         ]
@@ -10928,6 +10930,7 @@
             "temporal_precedence_is_not_conflict": true
           }
         },
+        "canonical_decision_basis": "same cultural scope and document category establish a useful organizational relationship despite different subjects",
         "relationship_tags": []
       },
       "canonical_context": {
@@ -19679,6 +19682,7 @@
             "temporal_precedence_is_not_conflict": true
           }
         },
+        "canonical_decision_basis": "same cultural domain with distinct scope is sufficient for organizational relationship; content similarity is not required",
         "relationship_tags": []
       },
       "canonical_context": {

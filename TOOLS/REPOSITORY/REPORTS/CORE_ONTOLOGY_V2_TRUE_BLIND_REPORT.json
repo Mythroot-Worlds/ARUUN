@@ -11,8 +11,8 @@
       "relationship_id": "REL-8bca83b957da6f2e",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "prediction": "REVIEW",
-      "triage_status": "ESCALATE",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
@@ -24,14 +24,14 @@
       "human_validation_required": true,
       "expected_label": "RELATED",
       "evaluated": true,
-      "correct": false
+      "correct": true
     },
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "prediction": "REVIEW",
-      "triage_status": "ESCALATE",
+      "prediction": "VARIANT",
+      "triage_status": "DIRECT",
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
@@ -43,7 +43,7 @@
       "human_validation_required": true,
       "expected_label": "VARIANT",
       "evaluated": true,
-      "correct": false
+      "correct": true
     },
     {
       "relationship_id": "REL-3a5d6786a3b536d1",
@@ -68,8 +68,8 @@
       "relationship_id": "REL-8d381cdc12c23313",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "triage_status": "ESCALATE",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
@@ -81,14 +81,14 @@
       "human_validation_required": true,
       "expected_label": "RELATED",
       "evaluated": true,
-      "correct": false
+      "correct": true
     },
     {
       "relationship_id": "REL-0b3c9d254927f41d",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "prediction": "REVIEW",
-      "triage_status": "ESCALATE",
+      "prediction": "VARIANT",
+      "triage_status": "DIRECT",
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
@@ -125,8 +125,8 @@
       "relationship_id": "REL-ad1f1bd5ac0ddbcc",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "REVIEW",
-      "triage_status": "ESCALATE",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
       "decision_basis": {
         "category": "SAME",
         "subject": "DIFFERENT",
@@ -138,18 +138,18 @@
       "human_validation_required": true,
       "expected_label": "RELATED",
       "evaluated": true,
-      "correct": false
+      "correct": true
     }
   ],
   "summary": {
     "holdout_size": 7,
     "labeled_holdout": 7,
-    "correct": 2,
-    "accuracy": 0.286,
+    "correct": 6,
+    "accuracy": 0.857,
     "distinct_predictions": 2,
     "prediction_counts": {
-      "REVIEW": 5,
-      "RELATED": 2
+      "RELATED": 5,
+      "VARIANT": 2
     },
     "unlabeled_holdout": 0
   },

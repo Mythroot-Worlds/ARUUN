@@ -35,10 +35,16 @@ def triage(case,root):
     a,b=case.get('left',''),case.get('right','');result=compare(a,text(root,a),b,text(root,b));canon=canonical_result(case,root);result['canonical_context']=canon
     ia,ib=identify(a),identify(b);pa,pb=placement(ia),placement(ib);same_subject=ia['content_type']==ib['content_type'] and ia['subject']==ib['subject'];same_scope=ia['scope']==ib['scope'];regional_siblings=bool(ia['scope'].get('regional_scope') and ib['scope'].get('regional_scope') and ia['scope']!=ib['scope']);supporting_layer=ia['role']=='SUPPORTING' or ib['role']=='SUPPORTING';authoritative_pair=ia['role']=='AUTHORITATIVE' and ib['role']=='AUTHORITATIVE';time_compatible=ia['role']!='HISTORICAL' and ib['role']!='HISTORICAL';hint=canon.get('canonical_relationship_hint','REVIEW');base=result['decision']
     broad_regional_pair=(_is_broad_hearth_root(ia) and _is_regional_root(ib)) or (_is_broad_hearth_root(ib) and _is_regional_root(ia))
+    both_canonical_roots=ia.get('identity_layer')=='CANONICAL_ROOT' and ib.get('identity_layer')=='CANONICAL_ROOT'
     if regional_siblings and same_subject:
         result['decision']='RELATED';result['canonical_decision_basis']='same canonical subject represented in distinct regional scopes'
     elif broad_regional_pair and authoritative_pair:
         result['decision']='VARIANT';result['canonical_decision_basis']='broad Hearth canonical framework and regional canonical root are layered representations of the same cultural domain'
+    # Two authoritative canonical roots with different subjects are distinct
+    # organizational documents, not alternate versions of one subject. This is
+    # intentionally evaluated before generic VARIANT hints/base decisions.
+    elif both_canonical_roots and not same_subject:
+        result['decision']='RELATED';result['canonical_decision_basis']='distinct authoritative canonical roots cover different subjects; relationship is organizational, not a variant'
     # A VARIANT hint cannot override a first-class identity finding that the
     # documents have different subjects. VARIANT is a same-subject relation.
     elif hint=='VARIANT' and not same_subject:

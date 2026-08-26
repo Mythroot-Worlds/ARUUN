@@ -1,88 +1,20 @@
 {
-  "holdout_size": 30,
+  "holdout_size": 9,
   "predictions": [
-    {
-      "relationship_id": "REL-72e255c74d740ee4",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-4fa696c3cbeb60db",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-5371fbbbcd98ffd1",
-      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-af2a40ec0f6f2d0a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-235e306bef3d4304",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-232cec354bd43aba",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-28ac4c37dd679ec6",
-      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
     {
       "relationship_id": "REL-193f32ad2d9de810",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "prediction": "RELATED",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-8bca83b957da6f2e",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-7770c1de53d22d03",
-      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-cff466521f8c52e3",
-      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-040e4a4a7cc22c80",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "prediction": "REVIEW",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     },
     {
@@ -90,13 +22,15 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "prediction": "RELATED",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-d9d112d54ea48658",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     },
     {
@@ -104,55 +38,15 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "prediction": "RELATED",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-51f1b244d00d546d",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-ed6dfb7c702bc752",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-63c6ff0ac1ceecb0",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-e793b0e075cf8c23",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-8638cf21392a42fa",
-      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-bd1c8665a244842a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-f4e20b002bded05b",
-      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "prediction": "REVIEW",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     },
     {
@@ -160,55 +54,95 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "prediction": "RELATED",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-30f5a9626f7e6afd",
-      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-b224e377289a5822",
-      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     },
     {
       "relationship_id": "REL-3a5d6786a3b536d1",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "REVIEW",
+      "prediction": "SUPPORTING",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "DIFFERENT",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     },
     {
-      "relationship_id": "REL-2aa256d2321cd8d4",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-55504e87091de8ae",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-c04041f0ac1c1e21",
-      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-8d381cdc12c23313",
+      "relationship_id": "REL-53a134160c6d375a",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "prediction": "REVIEW",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-d1a7bee30a221feb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-ed460f945de5591e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "prediction": "SUPPORTING",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "DIFFERENT",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-e0cced50cb5960dc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "prediction": "RELATED",
+      "triage_status": "DIRECT",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "SAME",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
       "human_validation_required": true
     }
   ]

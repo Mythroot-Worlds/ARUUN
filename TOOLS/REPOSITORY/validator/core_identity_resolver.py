@@ -6,16 +6,12 @@ from pathlib import Path
 
 REGIONS={"HEARTH","PLAINS","MOUNTAINS","RIVER","WETLANDS","DESERT","COAST"}
 
-
 def normalize_name(value):
     return re.sub(r"[^a-z0-9]+","_",value.lower()).strip("_") if value else None
 
-
 def _front_context(path):
-    try:
-        body=path.read_text(encoding="utf-8",errors="replace")[:30000]
-    except Exception:
-        return {}
+    try: body=path.read_text(encoding="utf-8",errors="replace")[:30000]
+    except Exception: return {}
     out={}
     for line in body.splitlines()[:120]:
         m=re.match(r"^\s*[-#]*\s*(subject|scope|population|region|subregion|entity|purpose|role|document\s*role|type)\s*[:=-]\s*(.+?)\s*$",line,re.I)
@@ -25,9 +21,7 @@ def _front_context(path):
         out[key]=m.group(2).strip()
     return out
 
-
 def resolve_identity(root, rel):
-    """Return a conservative identity tuple; structural scope is authoritative."""
     path=Path(rel); parts=[p.upper() for p in path.parts]; stem=path.stem.upper()
     entity=None; region=None; subregion=None
     if "HEARTH" in parts:
@@ -48,17 +42,28 @@ def resolve_identity(root, rel):
     if front.get("subject"): subject=normalize_name(front["subject"])
     if front.get("role"): role=normalize_name(front["role"])
     if front.get("purpose"): purpose=normalize_name(front["purpose"])
+    if front.get("region"):
+        fr=normalize_name(front["region"]).upper()
+        if fr in REGIONS: region=fr
+    if front.get("scope"):
+        fs=normalize_name(front["scope"]).upper()
+        if fs in REGIONS: region=fs
+        elif fs in {"HEARTH_WIDE","HEARTH","WORLD","GLOBAL"}: region=None
+    if front.get("subregion"): subregion=normalize_name(front["subregion"])
     population=region
-    return {"entity":entity,"population":population,"region":region,"subregion":subregion,"subject":subject,"role":role,"purpose":purpose,"scope":region}
+    scope=region
+    return {"entity":entity,"population":population,"region":region,"subregion":subregion,"subject":subject,"role":role,"purpose":purpose,"scope":scope,
+            "identity_confidence": "HIGH" if region or entity or front.get("subject") else "MEDIUM",
+            "identity_source": "frontmatter" if front else "path"}
 
-
-def identity_match(left, right):
-    """Return (same_identity, reasons). Semantic similarity is not considered."""
-    reasons=[]
+def identity_match(left,right):
+    """Return (same_identity, reasons). Missing structural identity is uncertain, never agreement."""
+    reasons=[]; uncertain=[]
     for key,label in (("entity","entity"),("population","population"),("region","region"),("subregion","subregion"),("subject","subject"),("role","document role"),("purpose","purpose")):
-        a=left.get(key); b=right.get(key)
-        if a is not None and b is not None and a!=b:
-            reasons.append(f"{label} mismatch: {a} != {b}")
-    if left.get("region") and right.get("region") and left["region"]!=right["region"]:
-        reasons.append("regional scope mismatch")
-    return (not reasons, reasons)
+        a,b=left.get(key),right.get(key)
+        if a is not None and b is not None and a!=b: reasons.append(f"{label} mismatch: {a} != {b}")
+        elif a is None or b is None: uncertain.append(f"{label} unresolved")
+    if left.get("region") and right.get("region") and left["region"]!=right["region"]: reasons.append("regional scope mismatch")
+    if reasons: return (False,reasons)
+    if uncertain: return (False,[*uncertain,"identity uncertain: missing structural field cannot be treated as agreement"])
+    return (True,[])

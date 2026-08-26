@@ -1,5 +1,5 @@
 {
-  "holdout_size": 6,
+  "holdout_size": 5,
   "predictions": [
     {
       "relationship_id": "REL-193f32ad2d9de810",
@@ -29,22 +29,6 @@
         "context": "DIFFERENT",
         "information": "LOW",
         "purpose": "DIFFERENT",
-        "revision_lineage": "DIFFERENT"
-      },
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-53a134160c6d375a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "triage_status": "DIRECT",
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
         "revision_lineage": "DIFFERENT"
       },
       "human_validation_required": true

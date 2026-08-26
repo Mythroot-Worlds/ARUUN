@@ -2,7 +2,7 @@
   "engine": "CORE A.C.E. Exemplar Pool",
   "schema_version": "2.0",
   "mode": "READ_ONLY",
-  "example_count": 53,
+  "example_count": 54,
   "examples": [
     {
       "example_id": "ANN-23635a2218f45fb1",
@@ -229,6 +229,65 @@
         "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
         "status": "candidate"
       },
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-53a134160c6d375a",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING"
+      ],
+      "proposed": null,
+      "reason": "Broad family/birth framework versus narrower Mountain expression.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "MOUNTAIN"
+        ],
+        "function": [
+          "BIRTH",
+          "FAMILY"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "MOUNTAIN"
+            ],
+            "b": [
+              "MOUNTAIN"
+            ],
+            "shared": [
+              "MOUNTAIN"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "b": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "shared": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": null,
       "source": "HUMAN_ANNOTATION",
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
     },

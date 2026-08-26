@@ -840,6 +840,63 @@
       }
     },
     {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "line_context": 90,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "| Wetlands | WORKING | Children are raised primarily within their functional group while being known and supported by the larger village; work exchanges broaden their teaching network.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+        "source_line_context": 90
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "line_context": 131,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The current source material supports these distinct organizing principles:",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+        "source_line_context": 131
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "line_context": 134,
+      "relation_identifier": "COMPLEMENTARY",
+      "verb": "extends",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "- **River:** family extends along a connected geographic/social corridor.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+        "source_line_context": 134
+      }
+    },
+    {
       "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "line_context": 32,
       "relation_identifier": "HISTORICAL",
@@ -1468,19 +1525,19 @@
     }
   ],
   "summary": {
-    "documents_with_claims": 28,
-    "claims": 77,
+    "documents_with_claims": 29,
+    "claims": 80,
     "by_identifier": {
-      "SUPPORTING": 37,
+      "SUPPORTING": 39,
       "HISTORICAL": 12,
       "CONFLICT": 21,
-      "COMPLEMENTARY": 3,
+      "COMPLEMENTARY": 4,
       "SCOPE_SPECIALIZATION": 1,
       "DUPLICATE": 0,
       "DERIVED": 2,
       "CORROBORATIVE": 1
     },
-    "entity_resolution_required": 77
+    "entity_resolution_required": 80
   },
   "claim_fields": [
     "subject",

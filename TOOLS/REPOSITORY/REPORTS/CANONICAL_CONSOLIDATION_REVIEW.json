@@ -1,7 +1,7 @@
 {
   "mode": "READ_ONLY",
   "review_only": true,
-  "unit_count": 105,
+  "unit_count": 106,
   "context_model": {
     "domains": [
       "ECOLOGY",
@@ -628,6 +628,53 @@
           "domain": "WORLD",
           "role": "CANON",
           "text": "> **Nobody rules the community; the community carries itself.**"
+        }
+      ]
+    },
+    {
+      "unit": "Documents record decisions; they do not make decisions.",
+      "sources": [
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "text": "Documents record decisions; they do not make decisions."
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "text": "**Documents record decisions. They do not make decisions.**"
         }
       ]
     },

@@ -490,87 +490,6 @@
       "source": "CORE_HUMAN_RECONCILIATION.json"
     },
     {
-      "relationship_id": "REL-53a134160c6d375a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "legacy_human_labels": [
-        "RELATED",
-        "SUPPORTING"
-      ],
-      "legacy_reasoning": "Broad family/birth framework versus narrower Mountain expression.",
-      "ontology_v2_label": "RELATED",
-      "migration_status": "LEGACY_AGREES",
-      "identity_layers": {
-        "category": {
-          "state": "SAME",
-          "left": "CULTURE",
-          "right": "CULTURE"
-        },
-        "subject": {
-          "state": "SAME",
-          "left": "birth_childhood",
-          "right": "birth_childhood"
-        },
-        "context": {
-          "state": "DIFFERENT",
-          "left": {
-            "region": null,
-            "continent": null,
-            "regional_scope": false
-          },
-          "right": {
-            "region": "MOUNTAINS",
-            "continent": null,
-            "regional_scope": true
-          }
-        },
-        "content": {
-          "state": "DIFFERENT",
-          "statistics": {
-            "jaccard": 0.1673,
-            "containment_left": 0.1673,
-            "containment_right": 1.0,
-            "shared_terms": 41,
-            "left_terms": 245,
-            "right_terms": 41
-          }
-        },
-        "purpose": {
-          "state": "SAME",
-          "left": "AUTHORITATIVE",
-          "right": "AUTHORITATIVE"
-        },
-        "information_overlap": {
-          "state": "LOW",
-          "informational_equivalence": false
-        },
-        "revision_lineage": {
-          "state": "DIFFERENT",
-          "left": [
-            "03_peoples/cultures/hearth",
-            "family_birth_childhood"
-          ],
-          "right": [
-            "03_peoples/cultures/hearth/mountains",
-            "family_birth_childhood"
-          ]
-        },
-        "path": {
-          "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-          "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md"
-        }
-      },
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
-        "revision_lineage": "DIFFERENT"
-      },
-      "source": "CORE_HUMAN_RECONCILIATION.json"
-    },
-    {
       "relationship_id": "REL-ed460f945de5591e",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
@@ -1455,13 +1374,13 @@
     }
   ],
   "summary": {
-    "records": 18,
-    "legacy_agrees": 6,
+    "records": 17,
+    "legacy_agrees": 5,
     "legacy_conflicts": 0,
     "requires_review": 12,
     "active_label_counts": {
       "REVIEW": 12,
-      "RELATED": 6
+      "RELATED": 5
     }
   },
   "safety": {

@@ -1,14 +1,14 @@
 # CORE Document Disposition
 
 Documents: 60
-Review: 8
+Review: 4
 Recommended destinations: 60
-Regional destinations: 35
-Canonical root documents: 29
-Supporting documents: 9
+Regional destinations: 33
+Canonical root documents: 27
+Supporting documents: 11
 Historical documents: 0
 Normalized names: 0
-Canonical families: 8
+Canonical families: 9
 
 No files are moved automatically.
 ## 03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md
@@ -68,6 +68,36 @@ No files are moved automatically.
 - Status: `C` / `CANON`
 - Relationship: `RELATED`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/DESERT/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
+## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
+- Subject: `partnership`
+- Canonical family: `FAM-5af9166c8ae0` / `partnership`
+- Family relation: `FAMILY_ROOT_OR_UNSCOPED`
+- Identity layer: `CANONICAL_ROOT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `AUTHORITATIVE`
+- Naming normalized: `False`
+- Status: `C` / `CANON`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
+## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md
+- Subject: `cultural_matrix_kinship`
+- Canonical family: `FAM-851e64554afe` / `cultural_matrix_kinship`
+- Family relation: `SUPPORTING_ARTIFACT`
+- Identity layer: `SUPPORTING_ARTIFACT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `SUPPORTING`
+- Naming normalized: `False`
+- Status: `—` / `—`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
 - Action: `NO_MOVE_AUTOMATICALLY`
 - Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
 
@@ -371,6 +401,36 @@ No files are moved automatically.
 - Action: `NO_MOVE_AUTOMATICALLY`
 - Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
 
+## 03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md
+- Subject: `cultural`
+- Canonical family: `FAM-8c52c7f87fb5` / `cultural`
+- Family relation: `SUPPORTING_ARTIFACT`
+- Identity layer: `SUPPORTING_ARTIFACT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `SUPPORTING`
+- Naming normalized: `False`
+- Status: `—` / `—`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
+## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md
+- Subject: `cultural_matrix_kinship`
+- Canonical family: `FAM-851e64554afe` / `cultural_matrix_kinship`
+- Family relation: `SUPPORTING_ARTIFACT`
+- Identity layer: `SUPPORTING_ARTIFACT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `SUPPORTING`
+- Naming normalized: `False`
+- Status: `—` / `—`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
 ## 03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md
 - Subject: `birth_childhood`
 - Canonical family: `FAM-66bb4efea46c` / `family_birth_childhood`
@@ -389,6 +449,36 @@ No files are moved automatically.
 ## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md
 - Subject: `cultural_matrix_developmental`
 - Canonical family: `FAM-c2feb0cd35a3` / `cultural_matrix_developmental`
+- Family relation: `SUPPORTING_ARTIFACT`
+- Identity layer: `SUPPORTING_ARTIFACT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `SUPPORTING`
+- Naming normalized: `False`
+- Status: `—` / `—`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
+## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md
+- Subject: `cultural_matrix_developmental`
+- Canonical family: `FAM-c2feb0cd35a3` / `cultural_matrix_developmental`
+- Family relation: `SUPPORTING_ARTIFACT`
+- Identity layer: `SUPPORTING_ARTIFACT`
+- Category: `CULTURE`
+- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
+- Role: `SUPPORTING`
+- Naming normalized: `False`
+- Status: `—` / `—`
+- Relationship: `RELATED`
+- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
+- Action: `NO_MOVE_AUTOMATICALLY`
+- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
+
+## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md
+- Subject: `cultural_matrix_kinship`
+- Canonical family: `FAM-851e64554afe` / `cultural_matrix_kinship`
 - Family relation: `SUPPORTING_ARTIFACT`
 - Identity layer: `SUPPORTING_ARTIFACT`
 - Category: `CULTURE`
@@ -819,94 +909,4 @@ No files are moved automatically.
 - Relationship: `RELATED`
 - Recommended destination: `03_PEOPLES/CULTURES/HEARTH/DESERT/`
 - Action: `NO_MOVE_AUTOMATICALLY`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/COAST.md
-- Subject: ``
-- Canonical family: `UNRESOLVED` / `UNRESOLVED`
-- Family relation: `REGIONAL_SPECIALIZATION`
-- Identity layer: `CANONICAL_ROOT`
-- Category: `CULTURE`
-- Scope: `{'region': 'COAST', 'continent': None, 'regional_scope': True}`
-- Role: `AUTHORITATIVE`
-- Naming normalized: `False`
-- Status: `C` / `CANON`
-- Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COAST/`
-- Action: `NO_MOVE_AUTOMATICALLY`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/PLAINS.md
-- Subject: ``
-- Canonical family: `UNRESOLVED` / `UNRESOLVED`
-- Family relation: `REGIONAL_SPECIALIZATION`
-- Identity layer: `CANONICAL_ROOT`
-- Category: `CULTURE`
-- Scope: `{'region': 'PLAINS', 'continent': None, 'regional_scope': True}`
-- Role: `AUTHORITATIVE`
-- Naming normalized: `False`
-- Status: `C` / `CANON`
-- Relationship: `RELATED`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/PLAINS/`
-- Action: `NO_MOVE_AUTOMATICALLY`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md
-- Subject: `cultural_matrix_developmental`
-- Canonical family: `FAM-c2feb0cd35a3` / `cultural_matrix_developmental`
-- Family relation: `SUPPORTING_ARTIFACT`
-- Identity layer: `SUPPORTING_ARTIFACT`
-- Category: `CULTURE`
-- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
-- Role: `SUPPORTING`
-- Naming normalized: `False`
-- Status: `—` / `—`
-- Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
-- Action: `REVIEW`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md
-- Subject: `birth_childhood`
-- Canonical family: `FAM-66bb4efea46c` / `family_birth_childhood`
-- Family relation: `SUPPORTING_ARTIFACT`
-- Identity layer: `SUPPORTING_ARTIFACT`
-- Category: `CULTURE`
-- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
-- Role: `SUPPORTING`
-- Naming normalized: `False`
-- Status: `—` / `—`
-- Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
-- Action: `REVIEW`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md
-- Subject: `partnership`
-- Canonical family: `FAM-5af9166c8ae0` / `partnership`
-- Family relation: `FAMILY_ROOT_OR_UNSCOPED`
-- Identity layer: `CANONICAL_ROOT`
-- Category: `CULTURE`
-- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
-- Role: `AUTHORITATIVE`
-- Naming normalized: `False`
-- Status: `C` / `CANON`
-- Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/`
-- Action: `REVIEW`
-- Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping
-
-## 03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md
-- Subject: `cultural_matrix_developmental`
-- Canonical family: `FAM-c2feb0cd35a3` / `cultural_matrix_developmental`
-- Family relation: `SUPPORTING_ARTIFACT`
-- Identity layer: `SUPPORTING_ARTIFACT`
-- Category: `CULTURE`
-- Scope: `{'region': None, 'continent': None, 'regional_scope': False}`
-- Role: `SUPPORTING`
-- Naming normalized: `False`
-- Status: `—` / `—`
-- Relationship: `REVIEW`
-- Recommended destination: `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/`
-- Action: `REVIEW`
 - Evidence: canonical identity, canonical family lineage, domain/category, scope, document role, lifecycle, document naming/status rules, domain-aware destination mapping

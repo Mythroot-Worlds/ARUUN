@@ -45,25 +45,6 @@
       "correct": true
     },
     {
-      "relationship_id": "REL-53a134160c6d375a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "triage_status": "DIRECT",
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
-        "revision_lineage": "DIFFERENT"
-      },
-      "human_validation_required": true,
-      "expected_label": "RELATED",
-      "evaluated": true,
-      "correct": true
-    },
-    {
       "relationship_id": "REL-d1a7bee30a221feb",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -122,13 +103,13 @@
     }
   ],
   "summary": {
-    "holdout_size": 6,
-    "labeled_holdout": 6,
-    "correct": 6,
+    "holdout_size": 5,
+    "labeled_holdout": 5,
+    "correct": 5,
     "accuracy": 1.0,
     "distinct_predictions": 1,
     "prediction_counts": {
-      "RELATED": 6
+      "RELATED": 5
     },
     "unlabeled_holdout": 0
   },

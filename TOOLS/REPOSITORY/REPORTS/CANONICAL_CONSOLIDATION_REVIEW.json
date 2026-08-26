@@ -1736,9 +1736,10 @@
       "unit": "Adolescents accompany experienced adults on supervised journeys to other river settlements.",
       "sources": [
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
         "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
       ],
-      "occurrences": 2,
+      "occurrences": 3,
       "contexts": [
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
@@ -1749,6 +1750,17 @@
             "CULTURES",
             "HEARTH",
             "RIVER"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
           ]
         },
         {
@@ -1770,6 +1782,12 @@
           "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
           "domain": "PEOPLES",
           "role": "CANON",
+          "text": "Adolescents accompany experienced adults on supervised journeys to other river settlements."
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
           "text": "Adolescents accompany experienced adults on supervised journeys to other river settlements."
         },
         {

@@ -2,13 +2,13 @@
 
 {
   "cases": 30,
-  "direct_triage": 28,
+  "direct_triage": 30,
   "corroborated": 0,
-  "mixed_coverage": 2,
+  "mixed_coverage": 0,
   "evidence_gap": 0,
   "contradiction": 0,
-  "corroborated_dimensions": 4,
+  "corroborated_dimensions": 0,
   "contradiction_dimensions": 0,
-  "unresolved_dimensions": 10,
+  "unresolved_dimensions": 0,
   "factor_dimensions_available": 16
 }

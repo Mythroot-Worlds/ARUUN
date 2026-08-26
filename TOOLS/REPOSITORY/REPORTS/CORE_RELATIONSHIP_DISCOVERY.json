@@ -2,9 +2,9 @@
   "engine": "CORE Relationship Discovery",
   "mode": "READ_ONLY",
   "scope": "03_PEOPLES/CULTURES/HEARTH",
-  "documents_analyzed": 21,
-  "relationships_discovered": 111,
-  "review_queue_size": 111,
+  "documents_analyzed": 22,
+  "relationships_discovered": 125,
+  "review_queue_size": 125,
   "relationships": [
     {
       "relationship_id": "REL-4ce40ae776e75ba3",
@@ -24,6 +24,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 90,
       "jaccard": 0.375,
+      "match_strength": 5,
+      "match_strength_label": "Near Certain",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-fa20a89a1722471f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "shared_terms": 249,
+      "jaccard": 0.3552,
       "match_strength": 5,
       "match_strength_label": "Near Certain",
       "classification": "UNCLASSIFIED",
@@ -55,6 +67,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-aabf53fe5f6f22b5",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 315,
+      "jaccard": 0.3052,
+      "match_strength": 5,
+      "match_strength_label": "Near Certain",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-9bc2398fa5630083",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
@@ -72,6 +96,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
       "shared_terms": 271,
       "jaccard": 0.2694,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-906286fef0d46951",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "shared_terms": 181,
+      "jaccard": 0.2642,
       "match_strength": 4,
       "match_strength_label": "Strong",
       "classification": "UNCLASSIFIED",
@@ -115,6 +151,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-8197c87b212ac508",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 197,
+      "jaccard": 0.2575,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-341efe5ddc2482a6",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
@@ -144,6 +192,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 18,
       "jaccard": 0.25,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-58f47afa9dd85aeb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 209,
+      "jaccard": 0.2391,
       "match_strength": 4,
       "match_strength_label": "Strong",
       "classification": "UNCLASSIFIED",
@@ -199,6 +259,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-9a91297a46c77be5",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 193,
+      "jaccard": 0.2239,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-309c9b8cabd4216c",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
@@ -223,6 +295,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-045e1ba9c2be20d4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "shared_terms": 140,
+      "jaccard": 0.2134,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-5ed56b8e91294937",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
@@ -240,6 +324,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "shared_terms": 111,
       "jaccard": 0.209,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-e8869effbad951e2",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 155,
+      "jaccard": 0.2086,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -379,6 +475,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-75f0245d70d39f64",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 155,
+      "jaccard": 0.1907,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-57b3e2bb2bf24c47",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -432,6 +540,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
       "shared_terms": 139,
       "jaccard": 0.1831,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-c4bbbbed142442ef",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 116,
+      "jaccard": 0.183,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -643,6 +763,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-beacaf2f02432a6f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 110,
+      "jaccard": 0.1622,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-bd1c8665a244842a",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
@@ -811,8 +943,8 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-293ec0255c3104ae",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "relationship_id": "REL-edc3f66a40129c36",
+      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "shared_terms": 44,
       "jaccard": 0.1533,
@@ -823,8 +955,8 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-edc3f66a40129c36",
-      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "relationship_id": "REL-293ec0255c3104ae",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "shared_terms": 44,
       "jaccard": 0.1533,
@@ -852,6 +984,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "shared_terms": 105,
       "jaccard": 0.1494,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-ac300ee174abd25b",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 88,
+      "jaccard": 0.1459,
       "match_strength": 2,
       "match_strength_label": "Weak",
       "classification": "UNCLASSIFIED",
@@ -1231,6 +1375,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-2f88b585362ecfc9",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "shared_terms": 58,
+      "jaccard": 0.1068,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-8d381cdc12c23313",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
@@ -1320,6 +1476,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 46,
       "jaccard": 0.0916,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-36052a75d5ff8953",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 49,
+      "jaccard": 0.0889,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",

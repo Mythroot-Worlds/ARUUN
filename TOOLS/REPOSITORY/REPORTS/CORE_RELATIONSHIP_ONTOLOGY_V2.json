@@ -970,95 +970,15 @@
         "revision_lineage": "DIFFERENT"
       },
       "source": "CORE_HUMAN_RECONCILIATION.json"
-    },
-    {
-      "relationship_id": "REL-af2a40ec0f6f2d0a",
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "legacy_human_labels": [
-        "RELATED"
-      ],
-      "legacy_reasoning": "Broad continental family/birth versus broad regional culture.",
-      "ontology_v2_label": "REVIEW",
-      "migration_status": "ONTOLOGY_REQUIRES_REVIEW",
-      "identity_layers": {
-        "category": {
-          "state": "SAME",
-          "left": "CULTURE",
-          "right": "CULTURE"
-        },
-        "subject": {
-          "state": "DIFFERENT",
-          "left": "birth_childhood",
-          "right": ""
-        },
-        "context": {
-          "state": "DIFFERENT",
-          "left": {
-            "region": null,
-            "continent": null,
-            "regional_scope": false
-          },
-          "right": {
-            "region": "COAST",
-            "continent": null,
-            "regional_scope": true
-          }
-        },
-        "content": {
-          "state": "DIFFERENT",
-          "statistics": {
-            "jaccard": 0.1431,
-            "containment_left": 0.3592,
-            "containment_right": 0.1921,
-            "shared_terms": 88,
-            "left_terms": 245,
-            "right_terms": 458
-          }
-        },
-        "purpose": {
-          "state": "SAME",
-          "left": "AUTHORITATIVE",
-          "right": "AUTHORITATIVE"
-        },
-        "information_overlap": {
-          "state": "LOW",
-          "informational_equivalence": false
-        },
-        "revision_lineage": {
-          "state": "DIFFERENT",
-          "left": [
-            "03_peoples/cultures/hearth",
-            "family_birth_childhood"
-          ],
-          "right": [
-            "03_peoples/cultures/hearth",
-            "coast"
-          ]
-        },
-        "path": {
-          "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-          "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
-        }
-      },
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "DIFFERENT",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
-        "revision_lineage": "DIFFERENT"
-      },
-      "source": "CORE_HUMAN_RECONCILIATION.json"
     }
   ],
   "summary": {
-    "records": 13,
+    "records": 12,
     "legacy_agrees": 2,
     "legacy_conflicts": 0,
-    "requires_review": 11,
+    "requires_review": 10,
     "active_label_counts": {
-      "REVIEW": 11,
+      "REVIEW": 10,
       "RELATED": 2
     }
   },

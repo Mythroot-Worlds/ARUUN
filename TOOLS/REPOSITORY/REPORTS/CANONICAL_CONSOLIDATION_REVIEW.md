@@ -7,7 +7,7 @@ Repeated wording is not treated as canon overlap unless document context support
 ## Decision vocabulary
 `KEEP` · `MERGE` · `MOVE` · `LINK` · `ARCHIVE` · `UNRESOLVED`
 
-Context-qualified shared evidence units: **69**
+Context-qualified shared evidence units: **105**
 
 ## 1. Hearth: ~1.5 million
 - **Status:** SHARED_EVIDENCE
@@ -163,7 +163,403 @@ Context-qualified shared evidence units: **69**
   - `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md`
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
 
-## 14. Do not begin by asking:
+## 14. Birth is a community event; biological parentage remains recognized.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 15. Infants live within the communal environment and learn by observing everyone.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 16. Children rotate through fishing, gathering, hunting, land reading, guarding, weaving, tools, food processing, and preservation.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 17. Everyone learns broad survival skills rather than inheriting a narrow role from parents.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 18. Adolescents increasingly participate fully in communal work cycles.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 19. Adulthood means being able to care for oneself and contribute reliably to the community.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 20. **Principle:** Become broadly capable and dependable.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 21. Birth is primarily supported by the 12–15-person functional group.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 22. Infants are cared for by many adults within the group.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 23. Children rotate through gathering, fishing, hunting, weaving, food processing, scouting, and terrain/water awareness.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 24. Adolescents can spend seasons with other groups to discover aptitude and spread knowledge.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 25. Adulthood means being trusted to carry an independent portion of the group's survival burden.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 26. **Principle:** Become useful to your group and village.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 27. Birth is supported by experienced women; anchor communities or slower groups provide stability when needed.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 28. Infants are carried while adults work and learn through constant observation.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 29. Adulthood is demonstrated by reliable contribution to survival.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 30. **Principle:** Carry your share.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 31. Birth is supported by the extended household and community.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 32. Infants are gradually and safely introduced to water.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 33. Children learn fishing, gathering, swimming, currents, plants, animals, boats/rafts, and weather.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 34. Adolescents accompany experienced adults on supervised journeys to other river settlements.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 35. Adulthood means being able to travel the river safely enough to be useful.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 36. **Principle:** Read the water and know the network.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 37. Birth occurs within the oasis community with experienced support.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 38. Infants remain close to family and learn early that water must not be wasted.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 39. Education deliberately has two stages: **theory and practice**.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 40. Children rotate through elders, gatherers, hunters, Water Watchers, animal handlers, Lifekeepers, and other experienced adults rather than learning only from parents.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 41. Adolescents begin supervised travel between nearby settlements; exceptional candidates may later attempt the Lifekeeper Trials.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 42. Ordinary adulthood is demonstrated by responsible handling of scarce resources, especially water.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 43. **Principle:** The elders teach the knowledge. The experienced show the practice. The child learns by doing.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md`
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+
+## 44. Birth occurs within the extended specialist lineage.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 45. Infants remain immersed in their specialist family's environment.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 46. Training begins early through simple lineage-specific games and tasks.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 47. Adolescents perform real work and may be redirected if their aptitude differs from the expected specialty.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 48. Adulthood requires sustained competence recognized by the specialist lineage.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 49. **Principle:** Master your lineage's knowledge.
+- **Status:** SHARED_EVIDENCE
+- **Occurrences:** 2
+- **Contexts:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — PEOPLES / REFERENCE
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — PEOPLES / CANON
+- **Decision:** `UNRESOLVED`
+- **Provenance:
+  - `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md`
+  - `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md`
+
+## 50. Do not begin by asking:
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -174,7 +570,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
 
-## 15. Before designing individual species, every major continental system should eventually have broad representatives of:
+## 51. Before designing individual species, every major continental system should eventually have broad representatives of:
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -185,7 +581,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
 
-## 16. ecosystem engineers;
+## 52. ecosystem engineers;
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -196,7 +592,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md`
 
-## 17. Use this matrix to rapidly create plausible canonical plants from environmental and ecological requirements.
+## 53. Use this matrix to rapidly create plausible canonical plants from environmental and ecological requirements.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -207,7 +603,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 18. > **CONTINENT → CLIMATE → FUNCTION → EVOLUTIONARY POSSIBILITIES → PLANT**
+## 54. > **CONTINENT → CLIMATE → FUNCTION → EVOLUTIONARY POSSIBILITIES → PLANT**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 3
 - **Contexts:
@@ -220,7 +616,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 19. Potential growth forms:
+## 55. Potential growth forms:
 - grass/grass-like
 - herbaceous
 - vine
@@ -243,7 +639,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 20. Choose based on function and climate.
+## 56. Choose based on function and climate.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -254,7 +650,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 21. Possible strategies:
+## 57. Possible strategies:
 - shallow spreading
 - deep taproot
 - dense fibrous roots
@@ -275,7 +671,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 22. Ask what problem the roots solve.
+## 58. Ask what problem the roots solve.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -286,7 +682,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 23. Possible solutions:
+## 59. Possible solutions:
 - continuous water uptake
 - deep groundwater access
 - water storage
@@ -307,7 +703,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 24. Possible solutions:
+## 60. Possible solutions:
 - low-growing full-sun growth
 - shade tolerance
 - canopy competition
@@ -327,7 +723,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 25. Do not automatically maximize growth. Competition matters.
+## 61. Do not automatically maximize growth. Competition matters.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -338,7 +734,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 26. Possible strategies:
+## 62. Possible strategies:
 - wind pollination
 - water pollination
 - animal pollination
@@ -360,7 +756,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 27. Possible mechanisms:
+## 63. Possible mechanisms:
 - wind
 - water
 - animals
@@ -379,7 +775,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 28. Choose based on geography and available dispersal agents.
+## 64. Choose based on geography and available dispersal agents.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -390,7 +786,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 29. Possible solutions:
+## 65. Possible solutions:
 - toxins
 - irritants
 - bitter compounds
@@ -411,7 +807,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 30. Defense should have an ecological purpose and cost.
+## 66. Defense should have an ecological purpose and cost.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -422,7 +818,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 31. Possible strategies:
+## 67. Possible strategies:
 - fast-growing annual-like cycle
 - long-lived perennial
 - slow-growing woody plant
@@ -442,7 +838,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 32. Consider:
+## 68. Consider:
 - grazers
 - browsers
 - pollinators
@@ -462,7 +858,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 33. A plant should exist within a network rather than as an isolated object.
+## 69. A plant should exist within a network rather than as an isolated object.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -473,7 +869,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 34. Lost should be evolutionarily different, not randomly fantastical.
+## 70. Lost should be evolutionarily different, not randomly fantastical.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -484,7 +880,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 35. Use scale appropriate to climate and mechanics.
+## 71. Use scale appropriate to climate and mechanics.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -495,7 +891,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 36. Possible:
+## 72. Possible:
 - ground-hugging mats
 - ankle/knee-high vegetation
 - waist-high shrubs
@@ -513,7 +909,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 37. Very tall forests require strong ecological and mechanical justification.
+## 73. Very tall forests require strong ecological and mechanical justification.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -524,7 +920,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 38. The project's broad vegetation aesthetic favors **thick, robust growth over absurd vertical height**.
+## 74. The project's broad vegetation aesthetic favors **thick, robust growth over absurd vertical height**.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -535,7 +931,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 39. **Working name:**  
+## 75. **Working name:**  
 **Continent:**  
 **Climate/environment:**  
 **Primary function:**  
@@ -563,7 +959,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 40. Do not attempt to invent every plant.
+## 76. Do not attempt to invent every plant.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -574,7 +970,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 41. Build:
+## 77. Build:
 1. foundational producers;
 2. major herbivore food sources;
 3. major browse resources;
@@ -593,7 +989,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 42. Stop when the ecosystem has enough functional coverage to support the animal library and make each region visually/ecologically distinct.
+## 78. Stop when the ecosystem has enough functional coverage to support the animal library and make each region visually/ecologically distinct.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -604,7 +1000,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 43. Before accepting a plant:
+## 79. Before accepting a plant:
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -615,7 +1011,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 44. **Does it have a job?**
+## 80. **Does it have a job?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -626,7 +1022,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 45. **Does the climate explain it?**
+## 81. **Does the climate explain it?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -637,7 +1033,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 46. **Does the continent affect its distribution or divergence?**
+## 82. **Does the continent affect its distribution or divergence?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -648,7 +1044,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 47. **Does its anatomy/physiology solve a real problem?**
+## 83. **Does its anatomy/physiology solve a real problem?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -659,7 +1055,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 48. **Does it have a tradeoff?**
+## 84. **Does it have a tradeoff?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -670,7 +1066,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 49. **Does it interact with animals or other plants?**
+## 85. **Does it interact with animals or other plants?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -681,7 +1077,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 50. **Does it make the ecosystem more believable?**
+## 86. **Does it make the ecosystem more believable?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -692,7 +1088,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 51. **Is it actually different enough to deserve its own canonical entry?**
+## 87. **Is it actually different enough to deserve its own canonical entry?**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -703,7 +1099,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 52. If not, revise, merge, or leave it as an implied background organism.
+## 88. If not, revise, merge, or leave it as an implied background organism.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -714,7 +1110,7 @@ Context-qualified shared evidence units: **69**
   - `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md`
   - `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md`
 
-## 53. **Purpose:** Standalone reference for mapmaking and future regional development.
+## 89. **Purpose:** Standalone reference for mapmaking and future regional development.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 4
 - **Contexts:
@@ -729,7 +1125,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/LOST/DOSSIER.md`
   - `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md`
 
-## 54. Great Western/Southwestern Watershed:** Frostward/Aegir → Stonehearth → Great Plains → Greenmarsh/SilverSpine → coast.
+## 90. Great Western/Southwestern Watershed:** Frostward/Aegir → Stonehearth → Great Plains → Greenmarsh/SilverSpine → coast.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -740,7 +1136,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 55. Greenmarsh:** low-gradient receiving basin with wetlands, lakes, backwaters, and distributaries.
+## 91. Greenmarsh:** low-gradient receiving basin with wetlands, lakes, backwaters, and distributaries.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -751,7 +1147,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 56. Northern Chain:** northern uplands → lake systems → rivers → Greenmarsh and/or northern coast.
+## 92. Northern Chain:** northern uplands → lake systems → rivers → Greenmarsh and/or northern coast.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -762,7 +1158,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 57. Sunscour:** major closed/endorheic basin draining inward to an inland lake/salt system.
+## 93. Sunscour:** major closed/endorheic basin draining inward to an inland lake/salt system.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -773,7 +1169,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 58. Southward Range:** major watershed divide separating interior and southern coastal drainage.
+## 94. Southward Range:** major watershed divide separating interior and southern coastal drainage.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -784,7 +1180,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 59. Embercoast:** short, steep volcanic rivers draining to coastal plains/estuaries.
+## 95. Embercoast:** short, steep volcanic rivers draining to coastal plains/estuaries.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -795,7 +1191,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 60. Eastern/southeastern uplands:** shorter direct-to-coast drainage systems.
+## 96. Eastern/southeastern uplands:** shorter direct-to-coast drainage systems.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -806,7 +1202,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 61. The **SilverSpine Delta** is the terminal deltaic complex of the principal continental river network.
+## 97. The **SilverSpine Delta** is the terminal deltaic complex of the principal continental river network.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -817,7 +1213,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 62. Embercoast Volcanic Arc
+## 98. Embercoast Volcanic Arc
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -828,7 +1224,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 63. Stormcoast Peninsula
+## 99. Stormcoast Peninsula
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -839,7 +1235,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 64. Coastal Isles / Isle Chains
+## 100. Coastal Isles / Isle Chains
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -850,7 +1246,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 65. **environment → water → resources → human corridors → population density → contact/isolation → peoples**
+## 101. **environment → water → resources → human corridors → population density → contact/isolation → peoples**
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -861,7 +1257,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 66. | Human zone | Share | Approx. population |
+## 102. | Human zone | Share | Approx. population |
 |---|---:|---:|
 | River valleys & floodplains | 25% | 375,000 |
 | Grassland / woodland mosaic | 30% | 450,000 |
@@ -881,7 +1277,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 67. D1 — HIGH:** repeatedly productive environments capable of supporting persistent communities and large seasonal aggregations.
+## 103. D1 — HIGH:** repeatedly productive environments capable of supporting persistent communities and large seasonal aggregations.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -892,7 +1288,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 68. D3 — LOW:** small populations concentrated around specific resources.
+## 104. D3 — LOW:** small populations concentrated around specific resources.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:
@@ -903,7 +1299,7 @@ Context-qualified shared evidence units: **69**
   - `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md`
   - `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md`
 
-## 69. A geographic region does not automatically equal one people.
+## 105. A geographic region does not automatically equal one people.
 - **Status:** SHARED_EVIDENCE
 - **Occurrences:** 2
 - **Contexts:

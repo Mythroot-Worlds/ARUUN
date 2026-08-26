@@ -4,6 +4,78 @@
   "purpose": "measure canonical placement from identity_layer independently of relationship-label perfection",
   "cases": [
     {
+      "relationship_id": "REL-4ce40ae776e75ba3",
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "CANONICAL_ROOT",
+      "identity_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "identity_role": "AUTHORITATIVE",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "identity_layer": "CANONICAL_ROOT",
+        "role": "AUTHORITATIVE",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
+      "relationship_id": "REL-4ce40ae776e75ba3",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "SUPPORTING_ARTIFACT",
+      "identity_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "identity_role": "SUPPORTING",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "identity_layer": "SUPPORTING_ARTIFACT",
+        "role": "SUPPORTING",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
       "relationship_id": "REL-ead9ec80b42f820d",
       "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
@@ -68,6 +140,78 @@
         "identity_layer": "REGIONAL_SPECIALIZATION",
         "role": "AUTHORITATIVE",
         "repository_parent": "03_PEOPLES/CULTURES/HEARTH/DESERT",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
+      "relationship_id": "REL-9bc2398fa5630083",
+      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/DESERT",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/DESERT",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "REGIONAL_SPECIALIZATION",
+      "identity_scope": {
+        "region": "DESERT",
+        "continent": null,
+        "regional_scope": true
+      },
+      "identity_role": "AUTHORITATIVE",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": "DESERT",
+          "continent": null,
+          "regional_scope": true
+        },
+        "identity_layer": "REGIONAL_SPECIALIZATION",
+        "role": "AUTHORITATIVE",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/DESERT",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
+      "relationship_id": "REL-9bc2398fa5630083",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "SUPPORTING_ARTIFACT",
+      "identity_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "identity_role": "SUPPORTING",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "identity_layer": "SUPPORTING_ARTIFACT",
+        "role": "SUPPORTING",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
         "placement_basis": [
           "document_identity_layer",
           "document_scope",
@@ -708,6 +852,78 @@
         "identity_layer": "REGIONAL_SPECIALIZATION",
         "role": "AUTHORITATIVE",
         "repository_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
+      "relationship_id": "REL-5ed56b8e91294937",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COAST",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COAST",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "REGIONAL_SPECIALIZATION",
+      "identity_scope": {
+        "region": "COAST",
+        "continent": null,
+        "regional_scope": true
+      },
+      "identity_role": "AUTHORITATIVE",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": "COAST",
+          "continent": null,
+          "regional_scope": true
+        },
+        "identity_layer": "REGIONAL_SPECIALIZATION",
+        "role": "AUTHORITATIVE",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COAST",
+        "placement_basis": [
+          "document_identity_layer",
+          "document_scope",
+          "filename_when_canonical_regional_root"
+        ]
+      }
+    },
+    {
+      "relationship_id": "REL-5ed56b8e91294937",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "placement_correct": true,
+      "placement_scored": true,
+      "identity_layer": "SUPPORTING_ARTIFACT",
+      "identity_scope": {
+        "region": null,
+        "continent": null,
+        "regional_scope": false
+      },
+      "identity_role": "SUPPORTING",
+      "identity_content_type": "CULTURE",
+      "relationship_decision": "RELATED",
+      "relationship_tags": [
+        "SUPPORTING"
+      ],
+      "placement_basis": {
+        "content_type": "CULTURE",
+        "scope": {
+          "region": null,
+          "continent": null,
+          "regional_scope": false
+        },
+        "identity_layer": "SUPPORTING_ARTIFACT",
+        "role": "SUPPORTING",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
         "placement_basis": [
           "document_identity_layer",
           "document_scope",
@@ -1782,155 +1998,11 @@
       }
     },
     {
-      "relationship_id": "REL-2bccf3bd93305a2f",
-      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/WETLANDS",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/WETLANDS",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "REGIONAL_SPECIALIZATION",
-      "identity_scope": {
-        "region": "WETLANDS",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "WETLANDS",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "REGIONAL_SPECIALIZATION",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/WETLANDS",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-2bccf3bd93305a2f",
-      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "REGIONAL_SPECIALIZATION",
-      "identity_scope": {
-        "region": "MOUNTAINS",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "MOUNTAINS",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "REGIONAL_SPECIALIZATION",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-93788d9bb20b191c",
-      "document": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "CANONICAL_ROOT",
-      "identity_scope": {
-        "region": "WETLANDS",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "WETLANDS",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "CANONICAL_ROOT",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-93788d9bb20b191c",
-      "document": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "CANONICAL_ROOT",
-      "identity_scope": {
-        "region": "DESERT",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "DESERT",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "CANONICAL_ROOT",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-773193a03cf54926",
-      "document": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
+      "relationship_id": "REL-2be6660290dd8dcd",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
       "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
-      "placement_correct": false,
+      "placement_correct": true,
       "placement_scored": true,
       "identity_layer": "SUPPORTING_ARTIFACT",
       "identity_scope": {
@@ -1953,7 +2025,7 @@
         },
         "identity_layer": "SUPPORTING_ARTIFACT",
         "role": "SUPPORTING",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
         "placement_basis": [
           "document_identity_layer",
           "document_scope",
@@ -1962,19 +2034,19 @@
       }
     },
     {
-      "relationship_id": "REL-773193a03cf54926",
-      "document": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH",
+      "relationship_id": "REL-2be6660290dd8dcd",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
       "placement_correct": true,
       "placement_scored": true,
-      "identity_layer": "CANONICAL_ROOT",
+      "identity_layer": "SUPPORTING_ARTIFACT",
       "identity_scope": {
-        "region": "COAST",
+        "region": null,
         "continent": null,
-        "regional_scope": true
+        "regional_scope": false
       },
-      "identity_role": "AUTHORITATIVE",
+      "identity_role": "SUPPORTING",
       "identity_content_type": "CULTURE",
       "relationship_decision": "REVIEW",
       "relationship_tags": [
@@ -1983,13 +2055,13 @@
       "placement_basis": {
         "content_type": "CULTURE",
         "scope": {
-          "region": "COAST",
+          "region": null,
           "continent": null,
-          "regional_scope": true
+          "regional_scope": false
         },
-        "identity_layer": "CANONICAL_ROOT",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH",
+        "identity_layer": "SUPPORTING_ARTIFACT",
+        "role": "SUPPORTING",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
         "placement_basis": [
           "document_identity_layer",
           "document_scope",
@@ -1998,80 +2070,8 @@
       }
     },
     {
-      "relationship_id": "REL-1405f0ab574f068e",
-      "document": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/PLAINS",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/PLAINS",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "REGIONAL_SPECIALIZATION",
-      "identity_scope": {
-        "region": "PLAINS",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "PLAINS",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "REGIONAL_SPECIALIZATION",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/PLAINS",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-1405f0ab574f068e",
-      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-      "placement_correct": true,
-      "placement_scored": true,
-      "identity_layer": "REGIONAL_SPECIALIZATION",
-      "identity_scope": {
-        "region": "MOUNTAINS",
-        "continent": null,
-        "regional_scope": true
-      },
-      "identity_role": "AUTHORITATIVE",
-      "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
-      "relationship_tags": [
-        "RELATED"
-      ],
-      "placement_basis": {
-        "content_type": "CULTURE",
-        "scope": {
-          "region": "MOUNTAINS",
-          "continent": null,
-          "regional_scope": true
-        },
-        "identity_layer": "REGIONAL_SPECIALIZATION",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-        "placement_basis": [
-          "document_identity_layer",
-          "document_scope",
-          "filename_when_canonical_regional_root"
-        ]
-      }
-    },
-    {
-      "relationship_id": "REL-53a134160c6d375a",
-      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "relationship_id": "REL-ab9c45308d901f53",
+      "document": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "expected_parent": "03_PEOPLES/CULTURES/HEARTH",
       "proposed_parent": "03_PEOPLES/CULTURES/HEARTH",
       "placement_correct": true,
@@ -2084,9 +2084,9 @@
       },
       "identity_role": "AUTHORITATIVE",
       "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
+      "relationship_decision": "REVIEW",
       "relationship_tags": [
-        "RELATED"
+        "SUPPORTING"
       ],
       "placement_basis": {
         "content_type": "CULTURE",
@@ -2106,34 +2106,34 @@
       }
     },
     {
-      "relationship_id": "REL-53a134160c6d375a",
-      "document": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
-      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
+      "relationship_id": "REL-ab9c45308d901f53",
+      "document": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "expected_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
+      "proposed_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
       "placement_correct": true,
       "placement_scored": true,
-      "identity_layer": "REGIONAL_SPECIALIZATION",
+      "identity_layer": "SUPPORTING_ARTIFACT",
       "identity_scope": {
-        "region": "MOUNTAINS",
+        "region": null,
         "continent": null,
-        "regional_scope": true
+        "regional_scope": false
       },
-      "identity_role": "AUTHORITATIVE",
+      "identity_role": "SUPPORTING",
       "identity_content_type": "CULTURE",
-      "relationship_decision": "RELATED",
+      "relationship_decision": "REVIEW",
       "relationship_tags": [
-        "RELATED"
+        "SUPPORTING"
       ],
       "placement_basis": {
         "content_type": "CULTURE",
         "scope": {
-          "region": "MOUNTAINS",
+          "region": null,
           "continent": null,
-          "regional_scope": true
+          "regional_scope": false
         },
-        "identity_layer": "REGIONAL_SPECIALIZATION",
-        "role": "AUTHORITATIVE",
-        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS",
+        "identity_layer": "SUPPORTING_ARTIFACT",
+        "role": "SUPPORTING",
+        "repository_parent": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE",
         "placement_basis": [
           "document_identity_layer",
           "document_scope",
@@ -2146,9 +2146,9 @@
     "documents": 60,
     "scored_documents": 60,
     "unscored_documents": 0,
-    "correct_placements": 57,
-    "incorrect_placements": 3,
-    "placement_accuracy": 0.95,
+    "correct_placements": 58,
+    "incorrect_placements": 2,
+    "placement_accuracy": 0.967,
     "critical_wrong_hearth_placements": 0,
     "placement_source": "identity.identity_layer",
     "scope_region_is_specialization_only": true,

@@ -63,7 +63,28 @@ def identify(path):
     role=role_from_path(path)
     naming=parse_naming(path)
     layer=identity_layer(path,scope,role,content)
-    return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content,"scope":scope,"role":role,"identity_layer":layer,"naming":naming,"identity_basis":["path","filename","document_naming_status_codes"]}
+    return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content,"scope":scope,"role":role,"identity_layer":layer,"naming":naming,"identity_basis":["path","filename","document_naming_status_codes"],"identity_confidence":{"region":"HIGH" if scope.get("region") else "LOW","scope":"HIGH" if scope.get("regional_scope") else "LOW"},"identity_source":{"region":"path" if scope.get("region") else "inferred_unresolved","scope":"path" if scope.get("regional_scope") else "inferred_unresolved"}}
+
+def scope_relation(a_scope,b_scope):
+    """Return SAME, DIFFERENT, or UNCERTAIN; unknown scope never equals known scope."""
+    ar,br=a_scope.get("region"),b_scope.get("region")
+    ac,bc=a_scope.get("continent"),b_scope.get("continent")
+    if ar is not None and br is not None:
+        return "SAME" if ar==br and ac==bc else "DIFFERENT"
+    if ar is None and br is None:
+        if ac is not None or bc is not None:
+            return "SAME" if ac==bc else "DIFFERENT"
+        return "UNCERTAIN"
+    return "UNCERTAIN"
 
 def same_identity(a,b):
-    return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and a["scope"]==b["scope"]
+    return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and scope_relation(a["scope"],b["scope"])=="SAME"
+
+def identity_match(a,b):
+    reasons=[]
+    if a.get("subject")!=b.get("subject"): reasons.append(f"subject mismatch: {a.get('subject')} != {b.get('subject')}")
+    if a.get("content_type")!=b.get("content_type"): reasons.append(f"content_type mismatch: {a.get('content_type')} != {b.get('content_type')}")
+    sr=scope_relation(a.get("scope",{}),b.get("scope",{}))
+    if sr=="DIFFERENT": reasons.append(f"scope mismatch: {a.get('scope')} != {b.get('scope')}")
+    elif sr=="UNCERTAIN": reasons.append("scope unresolved: known and unknown scope, or both scope values unresolved")
+    return {"status":"MATCH" if not reasons else ("MISMATCH" if any('mismatch' in r for r in reasons) else "UNCERTAIN"),"same_identity":not reasons,"reasons":reasons,"scope_relation":sr}

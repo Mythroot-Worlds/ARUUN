@@ -4,87 +4,60 @@ from __future__ import annotations
 import re
 from pathlib import Path
 from core_document_naming import parse as parse_naming
-
 REGIONS=("PLAINS","MOUNTAINS","RIVER","WETLANDS","DESERT","COAST")
 STOP={"the","and","for","with","from","that","this","document","regional","family","final","draft","version","comparative","variant","duplicate","supporting","historical","canonical","canon","hearth","region","regions","reference","audit","checklist"}
-
 def subject_from_path(path):
-    stem=Path(path).stem.lower()
-    stem=re.sub(r"_comparative$|_revision\d*(?:\.\d+)?$|_v\d+(?:\.\d+)?$|_draft\d*(?:\.\d+)?$","",stem)
-    parts=[x for x in re.split(r"[^a-z0-9]+",stem) if x and x not in STOP and x.upper() not in REGIONS]
-    return "_".join(parts)
-
+ stem=Path(path).stem.lower();stem=re.sub(r"_comparative$|_revision\d*(?:\.\d+)?$|_v\d+(?:\.\d+)?$|_draft\d*(?:\.\d+)?$","",stem);parts=[x for x in re.split(r"[^a-z0-9]+",stem) if x and x not in STOP and x.upper() not in REGIONS];return "_".join(parts)
 def scope_from_path(path):
-    path_obj=Path(path)
-    parts=[p.upper().replace("-","_") for p in path_obj.parts]
-    region=next((r for r in reversed(parts) if r in REGIONS),None)
-    if region is None and path_obj.stem.upper() in REGIONS:
-        region=path_obj.stem.upper()
-    naming=parse_naming(path)
-    if region is None and naming.get('normalized'):
-        token=naming.get('scope_token')
-        if token in REGIONS: region=token
-    continent=None
-    if "CONTINENTS" in parts:
-        i=parts.index("CONTINENTS")
-        if i+1<len(parts): continent=parts[i+1]
-    return {"region":region,"continent":continent,"regional_scope":region is not None}
-
+ p=Path(path);parts=[x.upper().replace("-","_") for x in p.parts];region=next((r for r in reversed(parts) if r in REGIONS),None)
+ if region is None and p.stem.upper() in REGIONS:region=p.stem.upper()
+ naming=parse_naming(path)
+ if region is None and naming.get('normalized'):
+  token=naming.get('scope_token')
+  if token in REGIONS:region=token
+ continent=None
+ if "CONTINENTS" in parts:
+  i=parts.index("CONTINENTS")
+  if i+1<len(parts):continent=parts[i+1]
+ return {"region":region,"continent":continent,"regional_scope":region is not None}
 def content_type(path):
-    u="/"+Path(path).as_posix().upper()+"/"
-    if "/03_PEOPLES/CULTURES/" in u:return "CULTURE"
-    if "/01_WORLD/CONTINENTS/" in u or "/01_WORLD/GEOGRAPHY/" in u or "/01_WORLD/HYDROLOGY/" in u:return "GEOGRAPHY"
-    if "/02_ECOLOGY/" in u:return "ECOLOGY"
-    if "/00_MASTER/" in u:return "MASTER"
-    if "/TOOLS/" in u:return "TOOLING"
-    return "WORLD_ARTIFACT"
-
+ u="/"+Path(path).as_posix().upper()+"/"
+ if "/03_PEOPLES/CULTURES/" in u:return "CULTURE"
+ if "/01_WORLD/CONTINENTS/" in u or "/01_WORLD/GEOGRAPHY/" in u or "/01_WORLD/HYDROLOGY/" in u:return "GEOGRAPHY"
+ if "/02_ECOLOGY/" in u:return "ECOLOGY"
+ if "/00_MASTER/" in u:return "MASTER"
+ if "/TOOLS/" in u:return "TOOLING"
+ return "WORLD_ARTIFACT"
 def role_from_path(path):
-    u=Path(path).as_posix().upper()
-    if any(x in u for x in ("HISTORICAL","ARCHIVE","LEGACY","SUPERSEDED","PREVIOUS")):return "HISTORICAL"
-    if any(x in u for x in ("CHECKLIST","AUDIT","FRAMEWORK","GUIDE","REFERENCE","OPERATING_RULES","COMPARATIVE")):return "SUPPORTING"
-    return "AUTHORITATIVE"
-
-def identity_layer(path, scope, role, content):
-    stem=Path(path).stem.upper()
-    if content=="CULTURE" and role=="AUTHORITATIVE":
-        if stem in REGIONS or scope.get('region') and Path(path).parent.name.upper() in REGIONS and Path(path).stem.upper() in REGIONS:
-            return "CANONICAL_ROOT"
-        if scope.get('region'):
-            return "REGIONAL_SPECIALIZATION"
-        return "CANONICAL_ROOT"
-    if role=="SUPPORTING": return "SUPPORTING_ARTIFACT"
-    if role=="HISTORICAL": return "HISTORICAL_ARTIFACT"
-    return "GENERAL_ARTIFACT"
-
+ u=Path(path).as_posix().upper()
+ if any(x in u for x in ("HISTORICAL","ARCHIVE","LEGACY","SUPERSEDED","PREVIOUS")):return "HISTORICAL"
+ if any(x in u for x in ("CHECKLIST","AUDIT","FRAMEWORK","GUIDE","REFERENCE","OPERATING_RULES","COMPARATIVE")):return "SUPPORTING"
+ return "AUTHORITATIVE"
+def identity_layer(path,scope,role,content):
+ stem=Path(path).stem.upper()
+ if content=="CULTURE" and role=="AUTHORITATIVE":
+  if stem in REGIONS or scope.get('region') and Path(path).parent.name.upper() in REGIONS and Path(path).stem.upper() in REGIONS:return "CANONICAL_ROOT"
+  if scope.get('region'):return "REGIONAL_SPECIALIZATION"
+  return "CANONICAL_ROOT"
+ if role=="SUPPORTING":return "SUPPORTING_ARTIFACT"
+ if role=="HISTORICAL":return "HISTORICAL_ARTIFACT"
+ return "GENERAL_ARTIFACT"
 def identify(path):
-    scope=scope_from_path(path)
-    content=content_type(path)
-    role=role_from_path(path)
-    naming=parse_naming(path)
-    layer=identity_layer(path,scope,role,content)
-    return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content,"scope":scope,"role":role,"identity_layer":layer,"naming":naming,"identity_basis":["path","filename","document_naming_status_codes"],"identity_confidence":{"region":"HIGH" if scope.get("region") else "LOW","scope":"HIGH" if scope.get("regional_scope") else "LOW"},"identity_source":{"region":"path" if scope.get("region") else "inferred_unresolved","scope":"path" if scope.get("regional_scope") else "inferred_unresolved"}}
-
+ scope=scope_from_path(path);content=content_type(path);role=role_from_path(path);naming=parse_naming(path);layer=identity_layer(path,scope,role,content)
+ return {"path":Path(path).as_posix(),"subject":subject_from_path(path),"content_type":content,"scope":scope,"role":role,"identity_layer":layer,"naming":naming,"identity_basis":["path","filename","document_naming_status_codes"],"identity_confidence":{"region":"HIGH" if scope.get("region") else "LOW","scope":"HIGH" if scope.get("regional_scope") else "LOW"},"identity_source":{"region":"path" if scope.get("region") else "unresolved","scope":"path" if scope.get("regional_scope") else "unresolved"}}
 def scope_relation(a_scope,b_scope):
-    """Return SAME, DIFFERENT, or UNCERTAIN; unknown scope never equals known scope."""
-    ar,br=a_scope.get("region"),b_scope.get("region")
-    ac,bc=a_scope.get("continent"),b_scope.get("continent")
-    if ar is not None and br is not None:
-        return "SAME" if ar==br and ac==bc else "DIFFERENT"
-    if ar is None and br is None:
-        if ac is not None or bc is not None:
-            return "SAME" if ac==bc else "DIFFERENT"
-        return "UNCERTAIN"
-    return "UNCERTAIN"
-
-def same_identity(a,b):
-    return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and scope_relation(a["scope"],b["scope"])=="SAME"
-
+ ar,br=a_scope.get("region"),b_scope.get("region");ac,bc=a_scope.get("continent"),b_scope.get("continent")
+ if ar is not None and br is not None:return "SAME" if ar==br and ac==bc else "DIFFERENT"
+ if ar is None and br is None:
+  if ac is not None or bc is not None:return "SAME" if ac==bc and ac is not None else "UNCERTAIN"
+  return "UNCERTAIN"
+ return "UNCERTAIN"
+def same_identity(a,b):return a["subject"]==b["subject"] and a["content_type"]==b["content_type"] and scope_relation(a["scope"],b["scope"])=="SAME"
 def identity_match(a,b):
-    reasons=[]
-    if a.get("subject")!=b.get("subject"): reasons.append(f"subject mismatch: {a.get('subject')} != {b.get('subject')}")
-    if a.get("content_type")!=b.get("content_type"): reasons.append(f"content_type mismatch: {a.get('content_type')} != {b.get('content_type')}")
-    sr=scope_relation(a.get("scope",{}),b.get("scope",{}))
-    if sr=="DIFFERENT": reasons.append(f"scope mismatch: {a.get('scope')} != {b.get('scope')}")
-    elif sr=="UNCERTAIN": reasons.append("scope unresolved: known and unknown scope, or both scope values unresolved")
-    return {"status":"MATCH" if not reasons else ("MISMATCH" if any('mismatch' in r for r in reasons) else "UNCERTAIN"),"same_identity":not reasons,"reasons":reasons,"scope_relation":sr}
+ reasons=[]
+ if a.get("subject")!=b.get("subject"):reasons.append(f"subject mismatch: {a.get('subject')} != {b.get('subject')}")
+ if a.get("content_type")!=b.get("content_type"):reasons.append(f"content_type mismatch: {a.get('content_type')} != {b.get('content_type')}")
+ sr=scope_relation(a.get("scope",{}),b.get("scope",{}))
+ if sr=="DIFFERENT":reasons.append(f"scope mismatch: {a.get('scope')} != {b.get('scope')}")
+ elif sr=="UNCERTAIN":reasons.append("scope unresolved: unresolved scope cannot be treated as agreement with another unresolved or known scope")
+ return {"status":"MATCH" if not reasons else ("MISMATCH" if any('mismatch' in r for r in reasons) else "UNCERTAIN"),"same_identity":not reasons,"reasons":reasons,"scope_relation":sr}

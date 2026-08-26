@@ -3,5 +3,5 @@
 Multi-dimensional deciding-factor comparison layered over precedent retrieval.
 
 Holdouts: **30**
-Changed predictions: **3**
+Changed predictions: **4**
 Distinct predictions: **4**

@@ -8,18 +8,18 @@
   "canonical_hint_counts": {
     "VARIANT": 0,
     "RELATED": 4,
-    "SUPPORTING": 9,
+    "SUPPORTING": 12,
     "HISTORICAL": 0,
     "CONFLICT": 1,
     "MISPLACED": 0,
     "DUPLICATE": 0,
-    "REVIEW": 16
+    "REVIEW": 13
   },
   "identity_layer_counts": {
-    "supporting_layer": 19,
+    "supporting_layer": 21,
     "regional_siblings": 5,
     "same_subject_same_scope": 0,
-    "authoritative_pairs": 11
+    "authoritative_pairs": 9
   },
   "decisions": {
     "RELATED": 30

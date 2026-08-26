@@ -745,6 +745,63 @@
       }
     },
     {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "line_context": 78,
+      "relation_identifier": "COMPLEMENTARY",
+      "verb": "extends",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "River kinship extends across a connected geographic corridor, with bilateral family ties and broader river kin relationships.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "source_line_context": 78
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "line_context": 148,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supported by",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "These remain development questions until supported by regional source material.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "source_line_context": 148
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "line_context": 154,
+      "relation_identifier": "SUPPORTING",
+      "verb": "supports",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "The current material supports a useful cross-cultural distinction:",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "source_line_context": 154
+      }
+    },
+    {
       "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "line_context": 109,
       "relation_identifier": "SUPPORTING",
@@ -1734,19 +1791,19 @@
     }
   ],
   "summary": {
-    "documents_with_claims": 31,
-    "claims": 91,
+    "documents_with_claims": 32,
+    "claims": 94,
     "by_identifier": {
-      "SUPPORTING": 45,
+      "SUPPORTING": 47,
       "HISTORICAL": 13,
       "CONFLICT": 25,
-      "COMPLEMENTARY": 4,
+      "COMPLEMENTARY": 5,
       "SCOPE_SPECIALIZATION": 1,
       "DUPLICATE": 0,
       "DERIVED": 2,
       "CORROBORATIVE": 1
     },
-    "entity_resolution_required": 91
+    "entity_resolution_required": 94
   },
   "claim_fields": [
     "subject",

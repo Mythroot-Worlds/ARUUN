@@ -8,13 +8,13 @@
     "status": "current authoritative World Bible for development"
   },
   "summary": {
-    "documents": 113,
-    "proper_location": 63,
+    "documents": 115,
+    "proper_location": 65,
     "unmapped": 50,
     "low_schema_signal": 20,
     "conflict_flags": 71,
     "file_types": {
-      "reference_document": 88,
+      "reference_document": 90,
       "master_world": 2,
       "regional_culture": 4,
       "domain_reference": 15,
@@ -3331,6 +3331,99 @@
       }
     },
     {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "file_type": "reference_document",
+      "role": "peoples",
+      "expected_category": "people/culture",
+      "proper_location": true,
+      "version": {
+        "declared_version": null,
+        "version_mentions": [],
+        "archived_path": false
+      },
+      "canonical_status": {
+        "markers": [
+          "OPEN"
+        ],
+        "status_line": ""
+      },
+      "world_bible_category_candidates": [
+        "MYTHROOT \u2014 PREHISTORIC MASTER WORLD BIBLE",
+        "Preservation & Canon Update \u2014 v1.5",
+        "CANON STATUS RULE",
+        "LOCKED CANON",
+        "FLEXIBLE / PROVISIONAL",
+        "OPEN",
+        "UNKNOWN",
+        "WORKING INFERENCE",
+        "RETIRED",
+        "1. WORLD IDENTITY",
+        "Planet Name",
+        "2. PLANETARY FOUNDATION",
+        "3. TECTONIC WORLD MODEL",
+        "Geological history",
+        "Lost isolation",
+        "4. GLOBAL CLIMATE MODEL",
+        "5. OCEAN CIRCULATION & MARINE CLIMATE",
+        "6. ECOLOGY",
+        "Ecological identity by continent",
+        "7. HUMANITY \u2014 ARUUNITES",
+        "Species identity",
+        "Species-level evolutionary principle",
+        "8. ARUUNITE BASELINE",
+        "9. CONTINENTAL ARUUNITE EVOLUTIONARY PROFILES",
+        "Hearth",
+        "Rift",
+        "Shattered",
+        "Lost",
+        "10. HUMAN POPULATION GEOGRAPHY",
+        "Global working population",
+        "Community scale",
+        "Population distribution",
+        "Hearth \u2014 1.5 million",
+        "Shattered \u2014 800,000",
+        "Rift \u2014 1 million",
+        "Lost \u2014 300,000",
+        "11. HUMAN MOBILITY",
+        "Watercraft boundary",
+        "12. PEOPLES & CULTURES",
+        "World Bible role",
+        "Continental Cultural documents",
+        "13. DEMOGRAPHIC / EVOLUTIONARY DIVERGENCE RULE",
+        "14. LOST PEOPLE DEVELOPMENT RULE",
+        "15. FOOD & PLANT DEVELOPMENT",
+        "Agriculture status",
+        "16. DOMESTICATION \u2014 OPEN NEXT PASS",
+        "17. CANONICAL FAUNA & ECOLOGICAL INTEGRATION",
+        "18. STANDALONE DOCUMENT ARCHITECTURE",
+        "19. MATRIX REFERENCE NOTE",
+        "20. ANACHRONISM & INTERNAL COHERENCE"
+      ],
+      "schema_signal": {
+        "matched": [
+          "PEOPLE",
+          "CULTURE",
+          "FAMILY",
+          "FOOD",
+          "CHILD",
+          "KIN",
+          "HOUSE"
+        ],
+        "missing": [
+          "GOVERNANCE",
+          "LANGUAGE"
+        ],
+        "coverage": 0.778
+      },
+      "conflicts": [],
+      "comparison_mode": "DOCUMENT_TO_WORLD_BIBLE_SCHEMA",
+      "cross_file_comparison_used": false,
+      "provenance": {
+        "source": "repository_file",
+        "world_bible": "00_MASTER/WORLD_BIBLE.md"
+      }
+    },
+    {
       "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "file_type": "domain_reference",
       "role": "peoples",
@@ -3508,6 +3601,100 @@
           "LANGUAGE"
         ],
         "coverage": 0.889
+      },
+      "conflicts": [],
+      "comparison_mode": "DOCUMENT_TO_WORLD_BIBLE_SCHEMA",
+      "cross_file_comparison_used": false,
+      "provenance": {
+        "source": "repository_file",
+        "world_bible": "00_MASTER/WORLD_BIBLE.md"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "file_type": "reference_document",
+      "role": "peoples",
+      "expected_category": "people/culture",
+      "proper_location": true,
+      "version": {
+        "declared_version": null,
+        "version_mentions": [],
+        "archived_path": false
+      },
+      "canonical_status": {
+        "markers": [
+          "OPEN",
+          "UNKNOWN"
+        ],
+        "status_line": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON"
+      },
+      "world_bible_category_candidates": [
+        "MYTHROOT \u2014 PREHISTORIC MASTER WORLD BIBLE",
+        "Preservation & Canon Update \u2014 v1.5",
+        "CANON STATUS RULE",
+        "LOCKED CANON",
+        "FLEXIBLE / PROVISIONAL",
+        "OPEN",
+        "UNKNOWN",
+        "WORKING INFERENCE",
+        "RETIRED",
+        "1. WORLD IDENTITY",
+        "Planet Name",
+        "2. PLANETARY FOUNDATION",
+        "3. TECTONIC WORLD MODEL",
+        "Geological history",
+        "Lost isolation",
+        "4. GLOBAL CLIMATE MODEL",
+        "5. OCEAN CIRCULATION & MARINE CLIMATE",
+        "6. ECOLOGY",
+        "Ecological identity by continent",
+        "7. HUMANITY \u2014 ARUUNITES",
+        "Species identity",
+        "Species-level evolutionary principle",
+        "8. ARUUNITE BASELINE",
+        "9. CONTINENTAL ARUUNITE EVOLUTIONARY PROFILES",
+        "Hearth",
+        "Rift",
+        "Shattered",
+        "Lost",
+        "10. HUMAN POPULATION GEOGRAPHY",
+        "Global working population",
+        "Community scale",
+        "Population distribution",
+        "Hearth \u2014 1.5 million",
+        "Shattered \u2014 800,000",
+        "Rift \u2014 1 million",
+        "Lost \u2014 300,000",
+        "11. HUMAN MOBILITY",
+        "Watercraft boundary",
+        "12. PEOPLES & CULTURES",
+        "World Bible role",
+        "Continental Cultural documents",
+        "13. DEMOGRAPHIC / EVOLUTIONARY DIVERGENCE RULE",
+        "14. LOST PEOPLE DEVELOPMENT RULE",
+        "15. FOOD & PLANT DEVELOPMENT",
+        "Agriculture status",
+        "16. DOMESTICATION \u2014 OPEN NEXT PASS",
+        "17. CANONICAL FAUNA & ECOLOGICAL INTEGRATION",
+        "18. STANDALONE DOCUMENT ARCHITECTURE",
+        "19. MATRIX REFERENCE NOTE",
+        "20. ANACHRONISM & INTERNAL COHERENCE"
+      ],
+      "schema_signal": {
+        "matched": [
+          "PEOPLE",
+          "CULTURE",
+          "KIN",
+          "HOUSE"
+        ],
+        "missing": [
+          "FAMILY",
+          "GOVERNANCE",
+          "LANGUAGE",
+          "FOOD",
+          "CHILD"
+        ],
+        "coverage": 0.444
       },
       "conflicts": [],
       "comparison_mode": "DOCUMENT_TO_WORLD_BIBLE_SCHEMA",

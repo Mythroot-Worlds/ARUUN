@@ -1,7 +1,7 @@
 {
   "engine": "CORE Human Adjudication Queue",
   "mode": "REVIEW_ONLY",
-  "source_discoveries": 125,
+  "source_discoveries": 153,
   "queue_size": 30,
   "final_label_vocabulary": [
     "COINCIDENTAL",
@@ -632,6 +632,49 @@
     },
     {
       "review_id": "ADJ-015",
+      "relationship_id": "REL-6f47ea8881a36b64",
+      "match_strength": 4,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "deciding_factor_questions": [
+        {
+          "dimension": "subject",
+          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
+        },
+        {
+          "dimension": "scope",
+          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
+        },
+        {
+          "dimension": "function",
+          "question": "What function does each artifact or described element perform?"
+        },
+        {
+          "dimension": "relationship",
+          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
+        },
+        {
+          "dimension": "dependency",
+          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
+        },
+        {
+          "dimension": "provenance",
+          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
+        }
+      ],
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0,
+        "gates": {},
+        "reasons": []
+      },
+      "suggested_classification": "UNCLASSIFIED",
+      "human_label": null,
+      "human_reason": null,
+      "review_status": "PENDING"
+    },
+    {
+      "review_id": "ADJ-016",
       "relationship_id": "REL-90b218660b55f84f",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -674,7 +717,7 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-016",
+      "review_id": "ADJ-017",
       "relationship_id": "REL-50cd84d073a9394d",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -717,7 +760,93 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-017",
+      "review_id": "ADJ-018",
+      "relationship_id": "REL-6e028c75828484ff",
+      "match_strength": 4,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "deciding_factor_questions": [
+        {
+          "dimension": "subject",
+          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
+        },
+        {
+          "dimension": "scope",
+          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
+        },
+        {
+          "dimension": "function",
+          "question": "What function does each artifact or described element perform?"
+        },
+        {
+          "dimension": "relationship",
+          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
+        },
+        {
+          "dimension": "dependency",
+          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
+        },
+        {
+          "dimension": "provenance",
+          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
+        }
+      ],
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0,
+        "gates": {},
+        "reasons": []
+      },
+      "suggested_classification": "UNCLASSIFIED",
+      "human_label": null,
+      "human_reason": null,
+      "review_status": "PENDING"
+    },
+    {
+      "review_id": "ADJ-019",
+      "relationship_id": "REL-1b712529283ae64f",
+      "match_strength": 4,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "deciding_factor_questions": [
+        {
+          "dimension": "subject",
+          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
+        },
+        {
+          "dimension": "scope",
+          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
+        },
+        {
+          "dimension": "function",
+          "question": "What function does each artifact or described element perform?"
+        },
+        {
+          "dimension": "relationship",
+          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
+        },
+        {
+          "dimension": "dependency",
+          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
+        },
+        {
+          "dimension": "provenance",
+          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
+        }
+      ],
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0,
+        "gates": {},
+        "reasons": []
+      },
+      "suggested_classification": "UNCLASSIFIED",
+      "human_label": null,
+      "human_reason": null,
+      "review_status": "PENDING"
+    },
+    {
+      "review_id": "ADJ-020",
       "relationship_id": "REL-58f47afa9dd85aeb",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
@@ -760,7 +889,7 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-018",
+      "review_id": "ADJ-021",
       "relationship_id": "REL-3fb322fe3ce82be1",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -803,7 +932,7 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-019",
+      "review_id": "ADJ-022",
       "relationship_id": "REL-63e65f85b9949f10",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
@@ -846,7 +975,50 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-020",
+      "review_id": "ADJ-023",
+      "relationship_id": "REL-2888a33559c9fb21",
+      "match_strength": 4,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "deciding_factor_questions": [
+        {
+          "dimension": "subject",
+          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
+        },
+        {
+          "dimension": "scope",
+          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
+        },
+        {
+          "dimension": "function",
+          "question": "What function does each artifact or described element perform?"
+        },
+        {
+          "dimension": "relationship",
+          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
+        },
+        {
+          "dimension": "dependency",
+          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
+        },
+        {
+          "dimension": "provenance",
+          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
+        }
+      ],
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0,
+        "gates": {},
+        "reasons": []
+      },
+      "suggested_classification": "UNCLASSIFIED",
+      "human_label": null,
+      "human_reason": null,
+      "review_status": "PENDING"
+    },
+    {
+      "review_id": "ADJ-024",
       "relationship_id": "REL-d2769ca87432c610",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
@@ -889,7 +1061,7 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-021",
+      "review_id": "ADJ-025",
       "relationship_id": "REL-9119c7e451067bdb",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
@@ -932,7 +1104,7 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-022",
+      "review_id": "ADJ-026",
       "relationship_id": "REL-9a91297a46c77be5",
       "match_strength": 4,
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
@@ -975,7 +1147,50 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-023",
+      "review_id": "ADJ-027",
+      "relationship_id": "REL-107eb174356afb8d",
+      "match_strength": 3,
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "deciding_factor_questions": [
+        {
+          "dimension": "subject",
+          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
+        },
+        {
+          "dimension": "scope",
+          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
+        },
+        {
+          "dimension": "function",
+          "question": "What function does each artifact or described element perform?"
+        },
+        {
+          "dimension": "relationship",
+          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
+        },
+        {
+          "dimension": "dependency",
+          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
+        },
+        {
+          "dimension": "provenance",
+          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
+        }
+      ],
+      "variant_gate": {
+        "eligible": false,
+        "claim_overlap": 0,
+        "gates": {},
+        "reasons": []
+      },
+      "suggested_classification": "UNCLASSIFIED",
+      "human_label": null,
+      "human_reason": null,
+      "review_status": "PENDING"
+    },
+    {
+      "review_id": "ADJ-028",
       "relationship_id": "REL-309c9b8cabd4216c",
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
@@ -1018,226 +1233,11 @@
       "review_status": "PENDING"
     },
     {
-      "review_id": "ADJ-024",
-      "relationship_id": "REL-8d0173eed0ee9b89",
+      "review_id": "ADJ-029",
+      "relationship_id": "REL-1c68dc77865c81c0",
       "match_strength": 3,
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
-      "deciding_factor_questions": [
-        {
-          "dimension": "subject",
-          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
-        },
-        {
-          "dimension": "scope",
-          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
-        },
-        {
-          "dimension": "function",
-          "question": "What function does each artifact or described element perform?"
-        },
-        {
-          "dimension": "relationship",
-          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
-        },
-        {
-          "dimension": "dependency",
-          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
-        },
-        {
-          "dimension": "provenance",
-          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
-        }
-      ],
-      "variant_gate": {
-        "eligible": false,
-        "claim_overlap": 0,
-        "gates": {},
-        "reasons": []
-      },
-      "suggested_classification": "UNCLASSIFIED",
-      "human_label": null,
-      "human_reason": null,
-      "review_status": "PENDING"
-    },
-    {
-      "review_id": "ADJ-025",
-      "relationship_id": "REL-045e1ba9c2be20d4",
-      "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-      "deciding_factor_questions": [
-        {
-          "dimension": "subject",
-          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
-        },
-        {
-          "dimension": "scope",
-          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
-        },
-        {
-          "dimension": "function",
-          "question": "What function does each artifact or described element perform?"
-        },
-        {
-          "dimension": "relationship",
-          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
-        },
-        {
-          "dimension": "dependency",
-          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
-        },
-        {
-          "dimension": "provenance",
-          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
-        }
-      ],
-      "variant_gate": {
-        "eligible": false,
-        "claim_overlap": 0,
-        "gates": {},
-        "reasons": []
-      },
-      "suggested_classification": "UNCLASSIFIED",
-      "human_label": null,
-      "human_reason": null,
-      "review_status": "PENDING"
-    },
-    {
-      "review_id": "ADJ-026",
-      "relationship_id": "REL-5ed56b8e91294937",
-      "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-      "deciding_factor_questions": [
-        {
-          "dimension": "subject",
-          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
-        },
-        {
-          "dimension": "scope",
-          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
-        },
-        {
-          "dimension": "function",
-          "question": "What function does each artifact or described element perform?"
-        },
-        {
-          "dimension": "relationship",
-          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
-        },
-        {
-          "dimension": "dependency",
-          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
-        },
-        {
-          "dimension": "provenance",
-          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
-        }
-      ],
-      "variant_gate": {
-        "eligible": false,
-        "claim_overlap": 0,
-        "gates": {},
-        "reasons": []
-      },
-      "suggested_classification": "UNCLASSIFIED",
-      "human_label": null,
-      "human_reason": null,
-      "review_status": "PENDING"
-    },
-    {
-      "review_id": "ADJ-027",
-      "relationship_id": "REL-f2c3a75770cdfc18",
-      "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
-      "deciding_factor_questions": [
-        {
-          "dimension": "subject",
-          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
-        },
-        {
-          "dimension": "scope",
-          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
-        },
-        {
-          "dimension": "function",
-          "question": "What function does each artifact or described element perform?"
-        },
-        {
-          "dimension": "relationship",
-          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
-        },
-        {
-          "dimension": "dependency",
-          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
-        },
-        {
-          "dimension": "provenance",
-          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
-        }
-      ],
-      "variant_gate": {
-        "eligible": false,
-        "claim_overlap": 0,
-        "gates": {},
-        "reasons": []
-      },
-      "suggested_classification": "UNCLASSIFIED",
-      "human_label": null,
-      "human_reason": null,
-      "review_status": "PENDING"
-    },
-    {
-      "review_id": "ADJ-028",
-      "relationship_id": "REL-e8869effbad951e2",
-      "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
-      "deciding_factor_questions": [
-        {
-          "dimension": "subject",
-          "question": "What exact underlying subject is each artifact describing, and are they materially the same subject?"
-        },
-        {
-          "dimension": "scope",
-          "question": "At what geographic, social, organizational, or conceptual scope does each claim apply?"
-        },
-        {
-          "dimension": "function",
-          "question": "What function does each artifact or described element perform?"
-        },
-        {
-          "dimension": "relationship",
-          "question": "What relationship type is actually supported by the evidence: related, variant, supporting, historical, conflict, misplaced, duplicate, coincidental, or review?"
-        },
-        {
-          "dimension": "dependency",
-          "question": "Does either artifact depend on, derive from, reference, build on, or inform the other?"
-        },
-        {
-          "dimension": "provenance",
-          "question": "Where did each claim originate, and does provenance establish precedence or authority?"
-        }
-      ],
-      "variant_gate": {
-        "eligible": false,
-        "claim_overlap": 0,
-        "gates": {},
-        "reasons": []
-      },
-      "suggested_classification": "UNCLASSIFIED",
-      "human_label": null,
-      "human_reason": null,
-      "review_status": "PENDING"
-    },
-    {
-      "review_id": "ADJ-029",
-      "relationship_id": "REL-e37bc5dc52f71e21",
-      "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
       "deciding_factor_questions": [
         {
           "dimension": "subject",
@@ -1277,10 +1277,10 @@
     },
     {
       "review_id": "ADJ-030",
-      "relationship_id": "REL-b14ccfa2f792b164",
+      "relationship_id": "REL-8d0173eed0ee9b89",
       "match_strength": 3,
-      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
       "deciding_factor_questions": [
         {
           "dimension": "subject",

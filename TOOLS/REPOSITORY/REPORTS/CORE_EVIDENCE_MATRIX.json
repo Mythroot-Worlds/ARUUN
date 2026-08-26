@@ -417,6 +417,1014 @@
       "changed": false
     },
     {
+      "relationship_id": "REL-e8869effbad951e2",
+      "matrix": {
+        "scope_a": "BROAD",
+        "scope_b": "NARROW",
+        "scope_relation": "DIFFERENT",
+        "function_a": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST"
+        ],
+        "function_b": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_overlap": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST"
+        ],
+        "function_difference": [
+          "SUPPORT"
+        ],
+        "deciding_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "CONTINENT",
+              "LOCAL",
+              "PLAINS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "LOCAL",
+              "PLAINS"
+            ],
+            "different": [
+              "COAST",
+              "CONTINENT",
+              "DESERT",
+              "MOUNTAIN",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL"
+            ],
+            "b": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "LOCAL"
+            ],
+            "different": [
+              "REGIONAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "different": [
+              "REFERENCE",
+              "SPECIALIST"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FOUNDATION",
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": [
+              "FOUNDATION"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [
+              "CORE",
+              "SUPPORTING"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "CORE",
+              "SUPPORTING"
+            ]
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "RELATED",
+              "SUPPORTING"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": [
+              "SUPPORTING"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [
+              "BASED ON"
+            ],
+            "shared": [
+              "BASED ON"
+            ],
+            "different": []
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [],
+            "different": [
+              "SOURCE"
+            ]
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "LAW"
+            ],
+            "b": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "LAW"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "SETTLEMENT"
+            ]
+          },
+          "usability": {
+            "a": [],
+            "b": [
+              "USABILITY"
+            ],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "matrix_prediction": "RELATED",
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "CONTINENT",
+              "LOCAL",
+              "PLAINS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "LOCAL",
+              "PLAINS"
+            ],
+            "different": [
+              "COAST",
+              "CONTINENT",
+              "DESERT",
+              "MOUNTAIN",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL"
+            ],
+            "b": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "LOCAL"
+            ],
+            "different": [
+              "REGIONAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SUPPORT"
+            ],
+            "different": [
+              "REFERENCE",
+              "SPECIALIST"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FOUNDATION",
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": [
+              "FOUNDATION"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [
+              "CORE",
+              "SUPPORTING"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "CORE",
+              "SUPPORTING"
+            ]
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "RELATED",
+              "SUPPORTING"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": [
+              "SUPPORTING"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [
+              "BASED ON"
+            ],
+            "shared": [
+              "BASED ON"
+            ],
+            "different": []
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [],
+            "different": [
+              "SOURCE"
+            ]
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "LAW"
+            ],
+            "b": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "LAW"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "SETTLEMENT"
+            ]
+          },
+          "usability": {
+            "a": [],
+            "b": [
+              "USABILITY"
+            ],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "prior_prediction": "RELATED",
+      "changed": false
+    },
+    {
+      "relationship_id": "REL-58f47afa9dd85aeb",
+      "matrix": {
+        "scope_a": "BROAD",
+        "scope_b": "NARROW",
+        "scope_relation": "DIFFERENT",
+        "function_a": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_b": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_overlap": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_difference": [],
+        "deciding_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "CONTINENT",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "different": [
+              "CONTINENT",
+              "REGION"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "POLITICAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "different": [
+              "POLITICAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": [
+              "LINEAGE",
+              "REFERENCE"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "CONFLICT",
+              "RELATED",
+              "REVIEW"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": [
+              "CONFLICT",
+              "REVIEW"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON",
+              "DERIVED FROM"
+            ],
+            "b": [
+              "BASED ON"
+            ],
+            "shared": [
+              "BASED ON"
+            ],
+            "different": [
+              "DERIVED FROM"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "CULTURE",
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [],
+            "b": [
+              "USABILITY"
+            ],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [
+              "CONFLICT"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "CONFLICT"
+            ]
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "matrix_prediction": "RELATED",
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "CONTINENT",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "different": [
+              "CONTINENT",
+              "REGION"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "POLITICAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "different": [
+              "POLITICAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": [
+              "LINEAGE",
+              "REFERENCE"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": []
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "CONFLICT",
+              "RELATED",
+              "REVIEW"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": [
+              "CONFLICT",
+              "REVIEW"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON",
+              "DERIVED FROM"
+            ],
+            "b": [
+              "BASED ON"
+            ],
+            "shared": [
+              "BASED ON"
+            ],
+            "different": [
+              "DERIVED FROM"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "CULTURE",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "CULTURE",
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [],
+            "b": [
+              "USABILITY"
+            ],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [
+              "CONFLICT"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "CONFLICT"
+            ]
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "prior_prediction": "RELATED",
+      "changed": false
+    },
+    {
       "relationship_id": "REL-f7775056a9cfb9df",
       "matrix": {
         "scope_a": "NARROW",
@@ -4767,6 +5775,466 @@
       "changed": false
     },
     {
+      "relationship_id": "REL-2f88b585362ecfc9",
+      "matrix": {
+        "scope_a": "NARROW",
+        "scope_b": "NARROW",
+        "scope_relation": "SAME",
+        "function_a": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_b": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST"
+        ],
+        "function_overlap": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST"
+        ],
+        "function_difference": [
+          "SUPPORT"
+        ],
+        "deciding_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT",
+              "VILLAGE"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT",
+              "VILLAGE"
+            ],
+            "different": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "PLAINS",
+              "REGION",
+              "RIVER",
+              "WETLANDS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "LOCAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "FAMILY",
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "FAMILY",
+              "SPECIALIST"
+            ],
+            "different": [
+              "AUTHORITY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "REFERENCE",
+              "SUPPORT"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "DEEP"
+            ],
+            "shared": [],
+            "different": [
+              "DEEP",
+              "FUNCTIONAL"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": []
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "BASED ON"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "SOURCE"
+            ]
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [
+              "USABILITY"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "matrix_prediction": "RELATED",
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT",
+              "VILLAGE"
+            ],
+            "shared": [
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT",
+              "VILLAGE"
+            ],
+            "different": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "PLAINS",
+              "REGION",
+              "RIVER",
+              "WETLANDS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "LOCAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "FAMILY",
+              "LINEAGE",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "FAMILY",
+              "SPECIALIST"
+            ],
+            "different": [
+              "AUTHORITY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "REFERENCE",
+              "SUPPORT"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "DEEP"
+            ],
+            "shared": [],
+            "different": [
+              "DEEP",
+              "FUNCTIONAL"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": []
+          },
+          "importance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [
+              "RELATED"
+            ],
+            "shared": [
+              "RELATED"
+            ],
+            "different": []
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "BASED ON"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "SOURCE"
+            ]
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [
+              "USABILITY"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "prior_prediction": "RELATED",
+      "changed": false
+    },
+    {
       "relationship_id": "REL-66a8d06394838750",
       "matrix": {
         "scope_a": "NARROW",
@@ -5750,6 +7218,526 @@
       },
       "prior_prediction": "RELATED",
       "changed": false
+    },
+    {
+      "relationship_id": "REL-906286fef0d46951",
+      "matrix": {
+        "scope_a": "NARROW",
+        "scope_b": "NARROW",
+        "scope_relation": "SAME",
+        "function_a": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_b": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_overlap": [
+          "FAMILY",
+          "GOVERNANCE",
+          "SPECIALIST",
+          "SUPPORT"
+        ],
+        "function_difference": [],
+        "deciding_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "COAST",
+              "DESERT",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "different": [
+              "LOCAL",
+              "MOUNTAIN"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "LOCAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "BIRTH",
+              "CHILDHOOD",
+              "FAMILY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": [
+              "BIRTH",
+              "CHILDHOOD",
+              "LINEAGE"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "DEVELOPED",
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": [
+              "DEVELOPED"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN",
+              "UNKNOWN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": [
+              "UNKNOWN"
+            ]
+          },
+          "importance": {
+            "a": [],
+            "b": [
+              "CORE"
+            ],
+            "shared": [],
+            "different": [
+              "CORE"
+            ]
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "DEVELOPED",
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": [
+              "DEVELOPED"
+            ]
+          },
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "RELATED"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "BASED ON"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [
+              "AFFECTS"
+            ],
+            "shared": [],
+            "different": [
+              "AFFECTS"
+            ]
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [
+              "USABILITY"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "matrix_prediction": "DUPLICATE",
+      "decision_factors": {
+        "relationship": "DUPLICATE",
+        "expected_factors": {
+          "same_subject": true,
+          "same_scope": true,
+          "functional_continuity": true,
+          "distinguishing": "substantially the same information with no meaningful contextual distinction"
+        },
+        "observed_factors": {
+          "subject": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "scope": {
+            "a": [
+              "COAST",
+              "DESERT",
+              "LOCAL",
+              "MOUNTAIN",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "b": [
+              "COAST",
+              "DESERT",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "shared": [
+              "COAST",
+              "DESERT",
+              "PLAINS",
+              "REGION",
+              "REGIONAL",
+              "RIVER",
+              "SETTLEMENT",
+              "VILLAGE",
+              "WETLANDS"
+            ],
+            "different": [
+              "LOCAL",
+              "MOUNTAIN"
+            ]
+          },
+          "scale": {
+            "a": [
+              "LOCAL",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "LOCAL"
+            ]
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "b": [
+              "AUTHORITY",
+              "BIRTH",
+              "CHILDHOOD",
+              "FAMILY",
+              "LEADERSHIP",
+              "LINEAGE",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "FAMILY",
+              "LEADERSHIP",
+              "REFERENCE",
+              "SPECIALIST",
+              "SUPPORT"
+            ],
+            "different": [
+              "BIRTH",
+              "CHILDHOOD",
+              "LINEAGE"
+            ]
+          },
+          "depth": {
+            "a": [
+              "FUNCTIONAL"
+            ],
+            "b": [
+              "DEVELOPED",
+              "FUNCTIONAL"
+            ],
+            "shared": [
+              "FUNCTIONAL"
+            ],
+            "different": [
+              "DEVELOPED"
+            ]
+          },
+          "canon_status": {
+            "a": [
+              "CANON",
+              "OPEN"
+            ],
+            "b": [
+              "CANON",
+              "OPEN",
+              "UNKNOWN"
+            ],
+            "shared": [
+              "CANON",
+              "OPEN"
+            ],
+            "different": [
+              "UNKNOWN"
+            ]
+          },
+          "importance": {
+            "a": [],
+            "b": [
+              "CORE"
+            ],
+            "shared": [],
+            "different": [
+              "CORE"
+            ]
+          },
+          "development_state": {
+            "a": [
+              "OPEN"
+            ],
+            "b": [
+              "DEVELOPED",
+              "OPEN"
+            ],
+            "shared": [
+              "OPEN"
+            ],
+            "different": [
+              "DEVELOPED"
+            ]
+          },
+          "relationship": {
+            "a": [
+              "RELATED"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "RELATED"
+            ]
+          },
+          "dependency": {
+            "a": [
+              "BASED ON"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "BASED ON"
+            ]
+          },
+          "consequence": {
+            "a": [],
+            "b": [
+              "AFFECTS"
+            ],
+            "shared": [],
+            "different": [
+              "AFFECTS"
+            ]
+          },
+          "provenance": {
+            "a": [
+              "SOURCE"
+            ],
+            "b": [
+              "SOURCE"
+            ],
+            "shared": [
+              "SOURCE"
+            ],
+            "different": []
+          },
+          "intentionality": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
+            ],
+            "different": [
+              "DAILY LIFE",
+              "ECONOMY",
+              "LAW"
+            ]
+          },
+          "usability": {
+            "a": [
+              "USABILITY"
+            ],
+            "b": [],
+            "shared": [],
+            "different": [
+              "USABILITY"
+            ]
+          },
+          "story_relevance": {
+            "a": [],
+            "b": [],
+            "shared": [],
+            "different": []
+          }
+        },
+        "decision_basis": "substantially the same information with no meaningful contextual distinction",
+        "status": "candidate"
+      },
+      "prior_prediction": "SUPPORTING",
+      "changed": true
     },
     {
       "relationship_id": "REL-cff466521f8c52e3",
@@ -11592,1894 +13580,11 @@
       },
       "prior_prediction": "VARIANT",
       "changed": false
-    },
-    {
-      "relationship_id": "REL-4e6b02fc2580a7a2",
-      "matrix": {
-        "scope_a": "NARROW",
-        "scope_b": "BROAD",
-        "scope_relation": "DIFFERENT",
-        "function_a": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_b": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST",
-          "SUPPORT"
-        ],
-        "function_overlap": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_difference": [
-          "SUPPORT"
-        ],
-        "deciding_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "CONTINENT",
-              "CONTINENTAL",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "different": [
-              "CONTINENT",
-              "CONTINENTAL",
-              "REGION"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL",
-              "PERSONAL",
-              "REGIONAL"
-            ],
-            "b": [
-              "LOCAL",
-              "POLITICAL",
-              "REGIONAL"
-            ],
-            "shared": [
-              "LOCAL",
-              "REGIONAL"
-            ],
-            "different": [
-              "PERSONAL",
-              "POLITICAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "FAMILY",
-              "GOVERNANCE",
-              "LEADERSHIP",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST"
-            ],
-            "shared": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "GOVERNANCE",
-              "REFERENCE",
-              "SUPPORT"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED",
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON",
-              "OPEN"
-            ],
-            "b": [
-              "CANON",
-              "OPEN"
-            ],
-            "shared": [
-              "CANON",
-              "OPEN"
-            ],
-            "different": []
-          },
-          "importance": {
-            "a": [
-              "CORE"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "CORE"
-            ]
-          },
-          "development_state": {
-            "a": [
-              "OPEN"
-            ],
-            "b": [
-              "DEVELOPED",
-              "OPEN"
-            ],
-            "shared": [
-              "OPEN"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [
-              "RELATED",
-              "REVIEW"
-            ],
-            "b": [
-              "CONFLICT"
-            ],
-            "shared": [],
-            "different": [
-              "CONFLICT",
-              "RELATED",
-              "REVIEW"
-            ]
-          },
-          "dependency": {
-            "a": [
-              "BASED ON",
-              "DERIVED FROM"
-            ],
-            "b": [
-              "BASED ON"
-            ],
-            "shared": [
-              "BASED ON"
-            ],
-            "different": [
-              "DERIVED FROM"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "provenance": {
-            "a": [
-              "SOURCE"
-            ],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [
-              "SOURCE"
-            ],
-            "different": []
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "CULTURE",
-              "DAILY LIFE",
-              "SETTLEMENT"
-            ],
-            "b": [
-              "CULTURE",
-              "SETTLEMENT"
-            ],
-            "shared": [
-              "CULTURE",
-              "SETTLEMENT"
-            ],
-            "different": [
-              "DAILY LIFE"
-            ]
-          },
-          "usability": {
-            "a": [
-              "USABILITY"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "USABILITY"
-            ]
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [
-              "CONFLICT"
-            ],
-            "shared": [],
-            "different": [
-              "CONFLICT"
-            ]
-          }
-        },
-        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
-      },
-      "matrix_prediction": "RELATED",
-      "decision_factors": {
-        "relationship": "RELATED",
-        "expected_factors": {
-          "meaningful_connection": true,
-          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
-        },
-        "observed_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "CONTINENT",
-              "CONTINENTAL",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "MOUNTAIN",
-              "PLAINS",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "different": [
-              "CONTINENT",
-              "CONTINENTAL",
-              "REGION"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL",
-              "PERSONAL",
-              "REGIONAL"
-            ],
-            "b": [
-              "LOCAL",
-              "POLITICAL",
-              "REGIONAL"
-            ],
-            "shared": [
-              "LOCAL",
-              "REGIONAL"
-            ],
-            "different": [
-              "PERSONAL",
-              "POLITICAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "FAMILY",
-              "GOVERNANCE",
-              "LEADERSHIP",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST"
-            ],
-            "shared": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "GOVERNANCE",
-              "REFERENCE",
-              "SUPPORT"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED",
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON",
-              "OPEN"
-            ],
-            "b": [
-              "CANON",
-              "OPEN"
-            ],
-            "shared": [
-              "CANON",
-              "OPEN"
-            ],
-            "different": []
-          },
-          "importance": {
-            "a": [
-              "CORE"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "CORE"
-            ]
-          },
-          "development_state": {
-            "a": [
-              "OPEN"
-            ],
-            "b": [
-              "DEVELOPED",
-              "OPEN"
-            ],
-            "shared": [
-              "OPEN"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [
-              "RELATED",
-              "REVIEW"
-            ],
-            "b": [
-              "CONFLICT"
-            ],
-            "shared": [],
-            "different": [
-              "CONFLICT",
-              "RELATED",
-              "REVIEW"
-            ]
-          },
-          "dependency": {
-            "a": [
-              "BASED ON",
-              "DERIVED FROM"
-            ],
-            "b": [
-              "BASED ON"
-            ],
-            "shared": [
-              "BASED ON"
-            ],
-            "different": [
-              "DERIVED FROM"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "provenance": {
-            "a": [
-              "SOURCE"
-            ],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [
-              "SOURCE"
-            ],
-            "different": []
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "CULTURE",
-              "DAILY LIFE",
-              "SETTLEMENT"
-            ],
-            "b": [
-              "CULTURE",
-              "SETTLEMENT"
-            ],
-            "shared": [
-              "CULTURE",
-              "SETTLEMENT"
-            ],
-            "different": [
-              "DAILY LIFE"
-            ]
-          },
-          "usability": {
-            "a": [
-              "USABILITY"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "USABILITY"
-            ]
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [
-              "CONFLICT"
-            ],
-            "shared": [],
-            "different": [
-              "CONFLICT"
-            ]
-          }
-        },
-        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
-        "status": "candidate"
-      },
-      "prior_prediction": "RELATED",
-      "changed": false
-    },
-    {
-      "relationship_id": "REL-af2a40ec0f6f2d0a",
-      "matrix": {
-        "scope_a": "NARROW",
-        "scope_b": "NARROW",
-        "scope_relation": "SAME",
-        "function_a": [
-          "FAMILY",
-          "SPECIALIST",
-          "SUPPORT"
-        ],
-        "function_b": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_overlap": [
-          "FAMILY",
-          "SPECIALIST"
-        ],
-        "function_difference": [
-          "GOVERNANCE",
-          "SUPPORT"
-        ],
-        "deciding_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "RIVER",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE"
-            ],
-            "shared": [
-              "COAST",
-              "RIVER",
-              "VILLAGE"
-            ],
-            "different": [
-              "DESERT",
-              "PLAINS",
-              "SETTLEMENT",
-              "WETLANDS"
-            ]
-          },
-          "scale": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "function": {
-            "a": [
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "b": [
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "FAMILY",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "LEADERSHIP"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED"
-            ],
-            "shared": [],
-            "different": [
-              "DEVELOPED",
-              "FUNCTIONAL"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON"
-            ],
-            "b": [
-              "CANON"
-            ],
-            "shared": [
-              "CANON"
-            ],
-            "different": []
-          },
-          "importance": {
-            "a": [],
-            "b": [
-              "CORE",
-              "SUPPORTING"
-            ],
-            "shared": [],
-            "different": [
-              "CORE",
-              "SUPPORTING"
-            ]
-          },
-          "development_state": {
-            "a": [],
-            "b": [
-              "DEVELOPED"
-            ],
-            "shared": [],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [],
-            "b": [
-              "RELATED",
-              "SUPPORTING"
-            ],
-            "shared": [],
-            "different": [
-              "RELATED",
-              "SUPPORTING"
-            ]
-          },
-          "dependency": {
-            "a": [],
-            "b": [
-              "BASED ON"
-            ],
-            "shared": [],
-            "different": [
-              "BASED ON"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [
-              "CONSEQUENCE"
-            ],
-            "shared": [],
-            "different": [
-              "CONSEQUENCE"
-            ]
-          },
-          "provenance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [],
-            "b": [
-              "CULTURE",
-              "LAW",
-              "SETTLEMENT"
-            ],
-            "shared": [],
-            "different": [
-              "CULTURE",
-              "LAW",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
-      },
-      "matrix_prediction": "RELATED",
-      "decision_factors": {
-        "relationship": "RELATED",
-        "expected_factors": {
-          "meaningful_connection": true,
-          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
-        },
-        "observed_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "RIVER",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE"
-            ],
-            "shared": [
-              "COAST",
-              "RIVER",
-              "VILLAGE"
-            ],
-            "different": [
-              "DESERT",
-              "PLAINS",
-              "SETTLEMENT",
-              "WETLANDS"
-            ]
-          },
-          "scale": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "function": {
-            "a": [
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "b": [
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "FAMILY",
-              "LINEAGE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "LEADERSHIP"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED"
-            ],
-            "shared": [],
-            "different": [
-              "DEVELOPED",
-              "FUNCTIONAL"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON"
-            ],
-            "b": [
-              "CANON"
-            ],
-            "shared": [
-              "CANON"
-            ],
-            "different": []
-          },
-          "importance": {
-            "a": [],
-            "b": [
-              "CORE",
-              "SUPPORTING"
-            ],
-            "shared": [],
-            "different": [
-              "CORE",
-              "SUPPORTING"
-            ]
-          },
-          "development_state": {
-            "a": [],
-            "b": [
-              "DEVELOPED"
-            ],
-            "shared": [],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [],
-            "b": [
-              "RELATED",
-              "SUPPORTING"
-            ],
-            "shared": [],
-            "different": [
-              "RELATED",
-              "SUPPORTING"
-            ]
-          },
-          "dependency": {
-            "a": [],
-            "b": [
-              "BASED ON"
-            ],
-            "shared": [],
-            "different": [
-              "BASED ON"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [
-              "CONSEQUENCE"
-            ],
-            "shared": [],
-            "different": [
-              "CONSEQUENCE"
-            ]
-          },
-          "provenance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [],
-            "b": [
-              "CULTURE",
-              "LAW",
-              "SETTLEMENT"
-            ],
-            "shared": [],
-            "different": [
-              "CULTURE",
-              "LAW",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
-        "status": "candidate"
-      },
-      "prior_prediction": "RELATED",
-      "changed": false
-    },
-    {
-      "relationship_id": "REL-a35e805d70837fb9",
-      "matrix": {
-        "scope_a": "NARROW",
-        "scope_b": "NARROW",
-        "scope_relation": "SAME",
-        "function_a": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_b": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST",
-          "SUPPORT"
-        ],
-        "function_overlap": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_difference": [
-          "SUPPORT"
-        ],
-        "deciding_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "LOCAL",
-              "PLAINS",
-              "RIVER",
-              "SETTLEMENT",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "PLAINS",
-              "RIVER",
-              "WETLANDS"
-            ],
-            "different": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "REGION",
-              "REGIONAL",
-              "SETTLEMENT",
-              "VILLAGE"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL"
-            ],
-            "b": [
-              "REGIONAL"
-            ],
-            "shared": [],
-            "different": [
-              "LOCAL",
-              "REGIONAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "GOVERNANCE",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "FAMILY",
-              "LINEAGE",
-              "SUPPORT"
-            ],
-            "different": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "GOVERNANCE",
-              "LEADERSHIP",
-              "REFERENCE",
-              "SPECIALIST"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FUNCTIONAL"
-            ],
-            "different": []
-          },
-          "canon_status": {
-            "a": [
-              "CANON"
-            ],
-            "b": [
-              "CANON",
-              "UNKNOWN"
-            ],
-            "shared": [
-              "CANON"
-            ],
-            "different": [
-              "UNKNOWN"
-            ]
-          },
-          "importance": {
-            "a": [
-              "CORE"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "CORE"
-            ]
-          },
-          "development_state": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "relationship": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "dependency": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "consequence": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "provenance": {
-            "a": [],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [],
-            "different": [
-              "SOURCE"
-            ]
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "CULTURE",
-              "POLITICS",
-              "SETTLEMENT"
-            ],
-            "b": [
-              "CULTURE"
-            ],
-            "shared": [
-              "CULTURE"
-            ],
-            "different": [
-              "POLITICS",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
-      },
-      "matrix_prediction": "RELATED",
-      "decision_factors": {
-        "relationship": "RELATED",
-        "expected_factors": {
-          "meaningful_connection": true,
-          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
-        },
-        "observed_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "LOCAL",
-              "PLAINS",
-              "RIVER",
-              "SETTLEMENT",
-              "WETLANDS"
-            ],
-            "b": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "PLAINS",
-              "RIVER",
-              "WETLANDS"
-            ],
-            "different": [
-              "COAST",
-              "DESERT",
-              "LOCAL",
-              "REGION",
-              "REGIONAL",
-              "SETTLEMENT",
-              "VILLAGE"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL"
-            ],
-            "b": [
-              "REGIONAL"
-            ],
-            "shared": [],
-            "different": [
-              "LOCAL",
-              "REGIONAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "GOVERNANCE",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "FAMILY",
-              "LINEAGE",
-              "SUPPORT"
-            ],
-            "different": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "GOVERNANCE",
-              "LEADERSHIP",
-              "REFERENCE",
-              "SPECIALIST"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FUNCTIONAL"
-            ],
-            "different": []
-          },
-          "canon_status": {
-            "a": [
-              "CANON"
-            ],
-            "b": [
-              "CANON",
-              "UNKNOWN"
-            ],
-            "shared": [
-              "CANON"
-            ],
-            "different": [
-              "UNKNOWN"
-            ]
-          },
-          "importance": {
-            "a": [
-              "CORE"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "CORE"
-            ]
-          },
-          "development_state": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "relationship": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "dependency": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "consequence": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "provenance": {
-            "a": [],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [],
-            "different": [
-              "SOURCE"
-            ]
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "CULTURE",
-              "POLITICS",
-              "SETTLEMENT"
-            ],
-            "b": [
-              "CULTURE"
-            ],
-            "shared": [
-              "CULTURE"
-            ],
-            "different": [
-              "POLITICS",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
-        "status": "candidate"
-      },
-      "prior_prediction": "RELATED",
-      "changed": false
-    },
-    {
-      "relationship_id": "REL-23ccfc9f889876b3",
-      "matrix": {
-        "scope_a": "BROAD",
-        "scope_b": "NARROW",
-        "scope_relation": "DIFFERENT",
-        "function_a": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_b": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST",
-          "SUPPORT"
-        ],
-        "function_overlap": [
-          "FAMILY",
-          "GOVERNANCE",
-          "SPECIALIST"
-        ],
-        "function_difference": [
-          "SUPPORT"
-        ],
-        "deciding_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "CONTINENT",
-              "LOCAL",
-              "PLAINS"
-            ],
-            "b": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "PLAINS"
-            ],
-            "different": [
-              "COAST",
-              "CONTINENT",
-              "DESERT",
-              "LOCAL",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL"
-            ],
-            "b": [
-              "REGIONAL"
-            ],
-            "shared": [],
-            "different": [
-              "LOCAL",
-              "REGIONAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "SUPPORT"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED",
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FUNCTIONAL"
-            ],
-            "different": [
-              "DEVELOPED",
-              "FOUNDATION"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON",
-              "OPEN"
-            ],
-            "b": [
-              "CANON",
-              "OPEN",
-              "UNKNOWN"
-            ],
-            "shared": [
-              "CANON",
-              "OPEN"
-            ],
-            "different": [
-              "UNKNOWN"
-            ]
-          },
-          "importance": {
-            "a": [
-              "CORE",
-              "SUPPORTING"
-            ],
-            "b": [
-              "CORE"
-            ],
-            "shared": [
-              "CORE"
-            ],
-            "different": [
-              "SUPPORTING"
-            ]
-          },
-          "development_state": {
-            "a": [
-              "OPEN"
-            ],
-            "b": [
-              "DEVELOPED",
-              "OPEN"
-            ],
-            "shared": [
-              "OPEN"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [
-              "RELATED",
-              "SUPPORTING"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "RELATED",
-              "SUPPORTING"
-            ]
-          },
-          "dependency": {
-            "a": [
-              "BASED ON"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "BASED ON"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [
-              "AFFECTS"
-            ],
-            "shared": [],
-            "different": [
-              "AFFECTS"
-            ]
-          },
-          "provenance": {
-            "a": [],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [],
-            "different": [
-              "SOURCE"
-            ]
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "LAW"
-            ],
-            "b": [
-              "SETTLEMENT"
-            ],
-            "shared": [],
-            "different": [
-              "LAW",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
-      },
-      "matrix_prediction": "RELATED",
-      "decision_factors": {
-        "relationship": "RELATED",
-        "expected_factors": {
-          "meaningful_connection": true,
-          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
-        },
-        "observed_factors": {
-          "subject": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "scope": {
-            "a": [
-              "CONTINENT",
-              "LOCAL",
-              "PLAINS"
-            ],
-            "b": [
-              "COAST",
-              "DESERT",
-              "PLAINS",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ],
-            "shared": [
-              "PLAINS"
-            ],
-            "different": [
-              "COAST",
-              "CONTINENT",
-              "DESERT",
-              "LOCAL",
-              "REGION",
-              "REGIONAL",
-              "RIVER",
-              "SETTLEMENT",
-              "VILLAGE",
-              "WETLANDS"
-            ]
-          },
-          "scale": {
-            "a": [
-              "LOCAL"
-            ],
-            "b": [
-              "REGIONAL"
-            ],
-            "shared": [],
-            "different": [
-              "LOCAL",
-              "REGIONAL"
-            ]
-          },
-          "function": {
-            "a": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "SUPPORT"
-            ],
-            "b": [
-              "AUTHORITY",
-              "BIRTH",
-              "CHILDHOOD",
-              "FAMILY",
-              "LEADERSHIP",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST",
-              "SUPPORT"
-            ],
-            "shared": [
-              "AUTHORITY",
-              "FAMILY",
-              "LEADERSHIP",
-              "SUPPORT"
-            ],
-            "different": [
-              "BIRTH",
-              "CHILDHOOD",
-              "LINEAGE",
-              "REFERENCE",
-              "SPECIALIST"
-            ]
-          },
-          "depth": {
-            "a": [
-              "FOUNDATION",
-              "FUNCTIONAL"
-            ],
-            "b": [
-              "DEVELOPED",
-              "FUNCTIONAL"
-            ],
-            "shared": [
-              "FUNCTIONAL"
-            ],
-            "different": [
-              "DEVELOPED",
-              "FOUNDATION"
-            ]
-          },
-          "canon_status": {
-            "a": [
-              "CANON",
-              "OPEN"
-            ],
-            "b": [
-              "CANON",
-              "OPEN",
-              "UNKNOWN"
-            ],
-            "shared": [
-              "CANON",
-              "OPEN"
-            ],
-            "different": [
-              "UNKNOWN"
-            ]
-          },
-          "importance": {
-            "a": [
-              "CORE",
-              "SUPPORTING"
-            ],
-            "b": [
-              "CORE"
-            ],
-            "shared": [
-              "CORE"
-            ],
-            "different": [
-              "SUPPORTING"
-            ]
-          },
-          "development_state": {
-            "a": [
-              "OPEN"
-            ],
-            "b": [
-              "DEVELOPED",
-              "OPEN"
-            ],
-            "shared": [
-              "OPEN"
-            ],
-            "different": [
-              "DEVELOPED"
-            ]
-          },
-          "relationship": {
-            "a": [
-              "RELATED",
-              "SUPPORTING"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "RELATED",
-              "SUPPORTING"
-            ]
-          },
-          "dependency": {
-            "a": [
-              "BASED ON"
-            ],
-            "b": [],
-            "shared": [],
-            "different": [
-              "BASED ON"
-            ]
-          },
-          "consequence": {
-            "a": [],
-            "b": [
-              "AFFECTS"
-            ],
-            "shared": [],
-            "different": [
-              "AFFECTS"
-            ]
-          },
-          "provenance": {
-            "a": [],
-            "b": [
-              "SOURCE"
-            ],
-            "shared": [],
-            "different": [
-              "SOURCE"
-            ]
-          },
-          "intentionality": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "coherence": {
-            "a": [
-              "LAW"
-            ],
-            "b": [
-              "SETTLEMENT"
-            ],
-            "shared": [],
-            "different": [
-              "LAW",
-              "SETTLEMENT"
-            ]
-          },
-          "usability": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          },
-          "story_relevance": {
-            "a": [],
-            "b": [],
-            "shared": [],
-            "different": []
-          }
-        },
-        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
-        "status": "candidate"
-      },
-      "prior_prediction": "RELATED",
-      "changed": false
     }
   ],
   "summary": {
     "holdouts": 30,
-    "changed": 3,
+    "changed": 4,
     "distinct_predictions": 4,
     "factor_dimensions": 15,
     "safety": {

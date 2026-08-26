@@ -1,6 +1,38 @@
 {
-  "holdout_size": 2,
+  "holdout_size": 7,
   "predictions": [
+    {
+      "relationship_id": "REL-8bca83b957da6f2e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "prediction": "REVIEW",
+      "triage_status": "ESCALATE",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "DIFFERENT",
+        "context": "SAME",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-ed6dfb7c702bc752",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "prediction": "REVIEW",
+      "triage_status": "ESCALATE",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "DIFFERENT",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
     {
       "relationship_id": "REL-3a5d6786a3b536d1",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
@@ -18,6 +50,38 @@
       "human_validation_required": true
     },
     {
+      "relationship_id": "REL-8d381cdc12c23313",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "prediction": "REVIEW",
+      "triage_status": "ESCALATE",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "DIFFERENT",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-0b3c9d254927f41d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "prediction": "REVIEW",
+      "triage_status": "ESCALATE",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "DIFFERENT",
+        "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
       "relationship_id": "REL-e0cced50cb5960dc",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
@@ -27,6 +91,22 @@
         "category": "SAME",
         "subject": "SAME",
         "context": "DIFFERENT",
+        "information": "LOW",
+        "purpose": "SAME",
+        "revision_lineage": "DIFFERENT"
+      },
+      "human_validation_required": true
+    },
+    {
+      "relationship_id": "REL-ad1f1bd5ac0ddbcc",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "prediction": "REVIEW",
+      "triage_status": "ESCALATE",
+      "decision_basis": {
+        "category": "SAME",
+        "subject": "DIFFERENT",
+        "context": "SAME",
         "information": "LOW",
         "purpose": "SAME",
         "revision_lineage": "DIFFERENT"

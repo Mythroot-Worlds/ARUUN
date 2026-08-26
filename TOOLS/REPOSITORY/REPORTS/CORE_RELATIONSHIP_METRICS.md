@@ -2,28 +2,26 @@
 
 **Telemetry only.** Discovery metrics measure candidate relationships; human adjudication remains historical provenance and ontology-v2 calibration is derived separately.
 
-Discovered relationships: **125**
-Novel discovered relationships: **96**
-Discovery review queue: **125**
+Discovered relationships: **153**
+Novel discovered relationships: **124**
+Discovery review queue: **153**
 Human-confirmed relationships: **40**
 Unresolved human decisions: **1**
 A.C.E. labeled decisions: **40**
 A.C.E. heuristic candidates: **14**
 
 ## Ontology v2 calibration
-- **RELATED**: **2**
-- **REVIEW**: **10**
+- **REVIEW**: **6**
 
 ## Migration status
-- **LEGACY_AGREES**: **2**
-- **ONTOLOGY_REQUIRES_REVIEW**: **10**
+- **ONTOLOGY_REQUIRES_REVIEW**: **6**
 
 ## Match strength distribution
 - **5/5**: **6** candidates
-- **4/5**: **16** candidates
-- **3/5**: **45** candidates
-- **2/5**: **44** candidates
-- **1/5**: **14** candidates
+- **4/5**: **20** candidates
+- **3/5**: **54** candidates
+- **2/5**: **54** candidates
+- **1/5**: **19** candidates
 
 ## Human-adjudicated labels
 - `COINCIDENTAL`: **2**

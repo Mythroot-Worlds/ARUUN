@@ -2,9 +2,9 @@
   "engine": "CORE Relationship Discovery",
   "mode": "READ_ONLY",
   "scope": "03_PEOPLES/CULTURES/HEARTH",
-  "documents_analyzed": 22,
-  "relationships_discovered": 125,
-  "review_queue_size": 125,
+  "documents_analyzed": 24,
+  "relationships_discovered": 153,
+  "review_queue_size": 153,
   "relationships": [
     {
       "relationship_id": "REL-4ce40ae776e75ba3",
@@ -175,6 +175,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-6f47ea8881a36b64",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "shared_terms": 170,
+      "jaccard": 0.2526,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-90b218660b55f84f",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
@@ -192,6 +204,30 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 18,
       "jaccard": 0.25,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-6e028c75828484ff",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 165,
+      "jaccard": 0.2434,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-1b712529283ae64f",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "shared_terms": 179,
+      "jaccard": 0.2393,
       "match_strength": 4,
       "match_strength_label": "Strong",
       "classification": "UNCLASSIFIED",
@@ -235,6 +271,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-2888a33559c9fb21",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "shared_terms": 184,
+      "jaccard": 0.2263,
+      "match_strength": 4,
+      "match_strength_label": "Strong",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-d2769ca87432c610",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
@@ -271,11 +319,35 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-107eb174356afb8d",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 238,
+      "jaccard": 0.2192,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-309c9b8cabd4216c",
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "shared_terms": 161,
       "jaccard": 0.2176,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-1c68dc77865c81c0",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 183,
+      "jaccard": 0.2155,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -403,6 +475,30 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-db849e8b00cba3d4",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 178,
+      "jaccard": 0.2018,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-142ee08673bb3d1c",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 151,
+      "jaccard": 0.2013,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-b530ce6659fa3717",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
@@ -480,6 +576,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "shared_terms": 155,
       "jaccard": 0.1907,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-d61ec069923ec591",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "shared_terms": 114,
+      "jaccard": 0.1906,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -571,6 +679,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-f3a3a012832cee3e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 122,
+      "jaccard": 0.181,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-ab9c45308d901f53",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
@@ -619,6 +739,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-ff3f63edd55a090c",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "shared_terms": 116,
+      "jaccard": 0.1766,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-1405f0ab574f068e",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -660,6 +792,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "shared_terms": 17,
       "jaccard": 0.1735,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-fc7e09f2466df371",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 127,
+      "jaccard": 0.1719,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -768,6 +912,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "shared_terms": 110,
       "jaccard": 0.1622,
+      "match_strength": 3,
+      "match_strength_label": "Moderate",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-53b24dcf33ead370",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 131,
+      "jaccard": 0.1609,
       "match_strength": 3,
       "match_strength_label": "Moderate",
       "classification": "UNCLASSIFIED",
@@ -943,8 +1099,8 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-edc3f66a40129c36",
-      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "relationship_id": "REL-293ec0255c3104ae",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "shared_terms": 44,
       "jaccard": 0.1533,
@@ -955,8 +1111,8 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-293ec0255c3104ae",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "relationship_id": "REL-edc3f66a40129c36",
+      "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "shared_terms": 44,
       "jaccard": 0.1533,
@@ -979,11 +1135,47 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-1a9a434752d84d47",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 115,
+      "jaccard": 0.1513,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-3a056f860a8f01ea",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "shared_terms": 105,
       "jaccard": 0.1494,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-c6ca872a22310c35",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 122,
+      "jaccard": 0.1493,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-54e3fb43c193ce34",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 94,
+      "jaccard": 0.1485,
       "match_strength": 2,
       "match_strength_label": "Weak",
       "classification": "UNCLASSIFIED",
@@ -1195,6 +1387,30 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-fa92c60c4626eea9",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 140,
+      "jaccard": 0.133,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-0e92bb16e64ffab0",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 108,
+      "jaccard": 0.1315,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-235e306bef3d4304",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
@@ -1207,11 +1423,59 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-c912eff4959873e0",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 92,
+      "jaccard": 0.1285,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-e793b0e075cf8c23",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "shared_terms": 59,
       "jaccard": 0.1285,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-bad79063893b54d2",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 73,
+      "jaccard": 0.1283,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-b0f8a45b3b8d8af8",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 72,
+      "jaccard": 0.1281,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-9a18e1d22045e943",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 86,
+      "jaccard": 0.1267,
       "match_strength": 2,
       "match_strength_label": "Weak",
       "classification": "UNCLASSIFIED",
@@ -1291,6 +1555,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-f9b338d0e7c97feb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 73,
+      "jaccard": 0.1227,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-d9d112d54ea48658",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
@@ -1344,6 +1620,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "shared_terms": 46,
       "jaccard": 0.1093,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-84fc5c10cb8b7cbb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 80,
+      "jaccard": 0.109,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",
@@ -1447,6 +1735,30 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-2a3403e69e4555fd",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "shared_terms": 48,
+      "jaccard": 0.0982,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-fe799878c80599e9",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 66,
+      "jaccard": 0.0973,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-55504e87091de8ae",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
@@ -1464,6 +1776,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "shared_terms": 38,
       "jaccard": 0.0931,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-c19d3240cd0d5691",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "shared_terms": 50,
+      "jaccard": 0.0916,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",
@@ -1500,6 +1824,18 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "shared_terms": 33,
       "jaccard": 0.0851,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-14661e9184585e44",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "shared_terms": 43,
+      "jaccard": 0.0805,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",

@@ -728,10 +728,12 @@
     {
       "unit": "Documents record decisions; they do not make decisions.",
       "sources": [
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
         "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
       ],
-      "occurrences": 2,
+      "occurrences": 4,
       "contexts": [
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
@@ -741,6 +743,28 @@
             "03_PEOPLES",
             "CULTURES",
             "HEARTH"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
           ]
         },
         {
@@ -763,6 +787,18 @@
           "domain": "PEOPLES",
           "role": "CANON",
           "text": "Documents record decisions; they do not make decisions."
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "text": "**Documents record decisions. They do not make decisions.**"
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "text": "**Documents record decisions. They do not make decisions.**"
         },
         {
           "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",

@@ -2,14 +2,14 @@
 
 Explicit relational language is evidence, not a final decision.
 
-Claims extracted: **91**
-Documents with claims: **31**
+Claims extracted: **94**
+Documents with claims: **32**
 
 ## Descriptor counts
-- **SUPPORTING**: 45
+- **SUPPORTING**: 47
 - **HISTORICAL**: 13
 - **CONFLICT**: 25
-- **COMPLEMENTARY**: 4
+- **COMPLEMENTARY**: 5
 - **SCOPE_SPECIALIZATION**: 1
 - **DUPLICATE**: 0
 - **DERIVED**: 2

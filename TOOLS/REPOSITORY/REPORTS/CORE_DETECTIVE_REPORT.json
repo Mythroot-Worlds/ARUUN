@@ -747,6 +747,59 @@
       }
     },
     {
+      "relationship_id": "REL-6f47ea8881a36b64",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
       "relationship_id": "REL-90b218660b55f84f",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -804,6 +857,112 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-6e028c75828484ff",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-1b712529283ae64f",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md"
       },
       "role": "case_solver",
       "triage_status": "DIRECT",
@@ -1012,6 +1171,59 @@
       }
     },
     {
+      "relationship_id": "REL-2888a33559c9fb21",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
       "relationship_id": "REL-d2769ca87432c610",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
@@ -1171,6 +1383,59 @@
       }
     },
     {
+      "relationship_id": "REL-107eb174356afb8d",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
       "relationship_id": "REL-309c9b8cabd4216c",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
@@ -1224,328 +1489,63 @@
       }
     },
     {
+      "relationship_id": "REL-1c68dc77865c81c0",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
       "relationship_id": "REL-8d0173eed0ee9b89",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-045e1ba9c2be20d4",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-5ed56b8e91294937",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-f2c3a75770cdfc18",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-e8869effbad951e2",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-e37bc5dc52f71e21",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-b14ccfa2f792b164",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COAST.md"
       },
       "role": "case_solver",
       "triage_status": "DIRECT",

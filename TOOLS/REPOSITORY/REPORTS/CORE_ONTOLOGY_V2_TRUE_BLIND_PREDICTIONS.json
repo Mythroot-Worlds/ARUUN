@@ -1,58 +1,10 @@
 {
-  "holdout_size": 5,
+  "holdout_size": 2,
   "predictions": [
-    {
-      "relationship_id": "REL-193f32ad2d9de810",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "triage_status": "DIRECT",
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
-        "revision_lineage": "DIFFERENT"
-      },
-      "human_validation_required": true
-    },
     {
       "relationship_id": "REL-3a5d6786a3b536d1",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "triage_status": "DIRECT",
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "DIFFERENT",
-        "revision_lineage": "DIFFERENT"
-      },
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-d1a7bee30a221feb",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "prediction": "RELATED",
-      "triage_status": "DIRECT",
-      "decision_basis": {
-        "category": "SAME",
-        "subject": "SAME",
-        "context": "DIFFERENT",
-        "information": "LOW",
-        "purpose": "SAME",
-        "revision_lineage": "DIFFERENT"
-      },
-      "human_validation_required": true
-    },
-    {
-      "relationship_id": "REL-ed460f945de5591e",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "prediction": "RELATED",
       "triage_status": "DIRECT",
       "decision_basis": {

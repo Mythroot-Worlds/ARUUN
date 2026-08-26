@@ -111,6 +111,59 @@
       }
     },
     {
+      "relationship_id": "REL-ad6509275b53ba84",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
       "relationship_id": "REL-74005ef2a9834c37",
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
@@ -168,6 +221,112 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-4e6b02fc2580a7a2",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-2f9de55b575b00cc",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md"
       },
       "role": "case_solver",
       "triage_status": "DIRECT",
@@ -698,6 +857,59 @@
       "documents": {
         "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md"
+      },
+      "role": "case_solver",
+      "triage_status": "DIRECT",
+      "triage_decision": "RELATED",
+      "triage_reason": "identity and placement resolved before relationship detail",
+      "triage_evidence": {},
+      "relationship_reasoning": {
+        "decision": "RELATED",
+        "confidence": "STRUCTURAL",
+        "decision_basis": "identity and placement resolved before relationship detail",
+        "candidates": [
+          "RELATED"
+        ],
+        "viable_relationships": [
+          "RELATED"
+        ],
+        "unresolved_dimensions": []
+      },
+      "case_question": {
+        "question": "What is this document relationship and where does it belong?",
+        "status": "resolved_by_triage"
+      },
+      "investigation_rounds": 0,
+      "investigation_rounds_detail": [],
+      "evidence_targets": [],
+      "evidence_claims": [],
+      "unknown_after": [],
+      "evidence_updates": [
+        {
+          "type": "triage_update",
+          "effect": "resolved_without_deep_investigation",
+          "basis": "identity and placement resolved before relationship detail"
+        }
+      ],
+      "evidence_quality_summary": {
+        "direct_claims": 0,
+        "grounded_direct_claims": 0,
+        "pair_resolving_claims": 0,
+        "contextual_claims": 0,
+        "unique_claims": 0
+      },
+      "stop_reason": "clear relationship resolved by document triage; Batman not required",
+      "safety": {
+        "self_training": false,
+        "automatic_rule_promotion": false,
+        "automatic_canon_change": false
+      }
+    },
+    {
+      "relationship_id": "REL-8d0173eed0ee9b89",
+      "documents": {
+        "a": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md"
       },
       "role": "case_solver",
       "triage_status": "DIRECT",
@@ -1292,6 +1504,24 @@
                 ]
               },
               {
+                "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                "score": 11,
+                "claims": [
+                  "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "**Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "This produces different regional answers.",
+                  "## 2. REGIONAL MATRIX",
+                  "| Region | Authority basis | Primary authority structure | Decision scale | Status |",
+                  "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED |",
+                  "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "| River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "| Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+                  "| Desert | Specialized survival responsibility | Elders + Water Watchers + Lifekeepers | Family/oasis \u2192 inter-oasis network | ESTABLISHED / WORKING DETAILS |",
+                  "| Coast | Communal trust + competence | Communal coordination / elders | Community-wide | ESTABLISHED / WORKING DETAILS |"
+                ]
+              },
+              {
                 "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
                 "score": 11,
                 "claims": [
@@ -1376,22 +1606,6 @@
                 "claims": [
                   "# HEARTH PEOPLES \u2014 PLAINS"
                 ]
-              },
-              {
-                "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-                "score": 6,
-                "claims": [
-                  "# HEARTH \u2014 GREAT PLAINS PEOPLE",
-                  "## Cultural Base v0.1",
-                  "The Great Plains are Hearth's largest human landscape, within the continent's ~1.5 million people. The Hearth population layer allocates 450,000 people (30%) to grassland/woodland environments. Residential communities generally run ~80\u2013150 people, with smaller groups and larger seasonal aggregations possible. Hearth has strong connectivity and gene flow.",
-                  "The Plains people are highly mobile, cooperative, environmentally alert, and broadly welcoming to peaceful outsiders.",
-                  "A practical cultural rule is **don't get caught slipping**: environmental awareness is continuous because predator and prey movements can change where it is safe and productive to remain.",
-                  "Large kills can require field processing, temporary processing locations, runners, retrieval groups, preservation, and coordinated transport. The Plains diet remains diversified rather than relying exclusively on megafauna.",
-                  "4. **Plains cultural network** \u2014 the broad connected world of related communities sharing language continuums, stories, routes, ecological knowledge, marriage exchange and hospitality.",
-                  "- the responsible person explains the decision;",
-                  "Plains people continuously monitor:",
-                  "## Working cultural principle"
-                ]
               }
             ],
             "canonical_question": "What is canonically known about CULTURAL_AUDIT_CHECKLIST?",
@@ -1421,6 +1635,24 @@
                   "- temporary loss of decision-making authority;",
                   "# II. MOUNTAINS",
                   "Mountain authority is strongly tied to **specialist houses and lineage heads**."
+                ]
+              },
+              {
+                "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                "score": 16,
+                "claims": [
+                  "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "**Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+                  "**Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "This produces different regional answers.",
+                  "## 2. REGIONAL MATRIX",
+                  "| Region | Authority basis | Primary authority structure | Decision scale | Status |",
+                  "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED |",
+                  "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "| River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "| Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |"
                 ]
               },
               {
@@ -1490,13 +1722,6 @@
                 "claims": [
                   "The annual Mountain Conclave continues to serve marriage exchange, specialist population balancing, knowledge exchange, trade, and regional coordination."
                 ]
-              },
-              {
-                "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
-                "score": 6,
-                "claims": [
-                  "# HEARTH PEOPLES \u2014 MOUNTAINS"
-                ]
               }
             ],
             "canonical_question": "What is canonically known about GOVERNANCE_AND_AUTHORITY?",
@@ -1505,8 +1730,8 @@
           },
           "shared_subject_tokens": [],
           "a_against_knowns": {
-            "known_claim_count": 66,
-            "token_overlap": 0.2572509457755359,
+            "known_claim_count": 68,
+            "token_overlap": 0.2655440414507772,
             "claim_overlap": 12,
             "conflict_evidence": [
               {
@@ -1522,8 +1747,8 @@
             ]
           },
           "b_against_knowns": {
-            "known_claim_count": 39,
-            "token_overlap": 0.1958904109589041,
+            "known_claim_count": 50,
+            "token_overlap": 0.21941489361702127,
             "claim_overlap": 12,
             "conflict_evidence": []
           },
@@ -2477,6 +2702,7 @@
           "trigger": "ambiguous case investigation",
           "evidence_targets": [
             "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+            "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
             "00_MASTER/CANON_INDEX.md",
             "CHANGELOG.md",
             "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
@@ -2484,8 +2710,7 @@
             "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
             "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md",
             "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-            "00_MASTER/FOUNDATION_WORLD_PROFILE.md",
-            "00_MASTER/WORLD_STATUS.md"
+            "00_MASTER/FOUNDATION_WORLD_PROFILE.md"
           ],
           "evidence_validity": [
             {
@@ -2504,9 +2729,9 @@
               "dimension": "scope",
               "answerability": 1.0,
               "answers_question": true,
-              "direct_claims": 16,
-              "grounded_direct_claims": 16,
-              "pair_resolving_claims": 16,
+              "direct_claims": 20,
+              "grounded_direct_claims": 20,
+              "pair_resolving_claims": 20,
               "contextual_claims": 3,
               "evidence_quality": [
                 {
@@ -2799,6 +3024,115 @@
                   "grounded": false,
                   "pair_relevant": false,
                   "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "dimension": "scope",
+                  "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "dimension": "scope",
+                  "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "cultural",
+                    "governance"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "This produces different regional answers.",
+                  "dimension": "scope",
+                  "claim": "This produces different regional answers.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "## 2. REGIONAL MATRIX",
+                  "dimension": "scope",
+                  "claim": "## 2. REGIONAL MATRIX",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "dimension": "scope",
+                  "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "dimension": "scope",
+                  "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "dimension": "scope",
+                  "claim": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+                  "dimension": "scope",
+                  "claim": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
                   "source_role": "primary"
                 },
                 {
@@ -3599,84 +3933,6 @@
                   "pair_relevant": false,
                   "pair_anchors": [],
                   "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Planet / physical world | Established (gravity, day length, tilt, orbit, star, land/water ratio, moons, 7-plate tectonics) | | Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open |",
-                  "dimension": "scope",
-                  "claim": "| Planet / physical world | Established (gravity, day length, tilt, orbit, star, land/water ratio, moons, 7-plate tectonics) | | Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open |",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design |",
-                  "dimension": "scope",
-                  "claim": "| Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design |",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Ecology (flora) | 30 canonical entries + active edible-flora expansion track | | Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems |",
-                  "dimension": "scope",
-                  "claim": "| Ecology (flora) | 30 canonical entries + active edible-flora expansion track | | Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "cultural",
-                    "governance"
-                  ],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-                  "dimension": "scope",
-                  "claim": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "cultural",
-                    "governance"
-                  ],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "1. **Cultures for Shattered, Rift, and Lost** \u2014 right now only Hearth has been built out; the other three continents are geography without people. 2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of.",
-                  "dimension": "scope",
-                  "claim": "1. **Cultures for Shattered, Rift, and Lost** \u2014 right now only Hearth has been built out; the other three continents are geography without people. 2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "dimension": "scope",
-                  "claim": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
                 }
               ]
             },
@@ -3696,9 +3952,9 @@
               "dimension": "function",
               "answerability": 1.0,
               "answers_question": true,
-              "direct_claims": 28,
-              "grounded_direct_claims": 28,
-              "pair_resolving_claims": 28,
+              "direct_claims": 34,
+              "grounded_direct_claims": 34,
+              "pair_resolving_claims": 34,
               "contextual_claims": 12,
               "evidence_quality": [
                 {
@@ -4012,6 +4268,121 @@
                   "grounded": false,
                   "pair_relevant": false,
                   "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "dimension": "function",
+                  "claim": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority",
+                    "cultural",
+                    "governance"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+                  "dimension": "function",
+                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority",
+                    "governance"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "dimension": "function",
+                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority",
+                    "governance"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "dimension": "function",
+                  "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "dimension": "function",
+                  "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "cultural",
+                    "governance"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "> **Who is trusted to make a particular kind of decision, and why?**",
+                  "dimension": "function",
+                  "claim": "> **Who is trusted to make a particular kind of decision, and why?**",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "dimension": "function",
+                  "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "dimension": "function",
+                  "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "authority"
+                  ],
                   "source_role": "primary"
                 },
                 {
@@ -4821,93 +5192,6 @@
                     "authority"
                   ],
                   "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "subject: World Status status: working canonical: false",
-                  "dimension": "function",
-                  "claim": "subject: World Status status: working canonical: false",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design | | Ecology (flora) | 30 canonical entries + active edible-flora expansion track |",
-                  "dimension": "function",
-                  "claim": "| Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design | | Ecology (flora) | 30 canonical entries + active edible-flora expansion track |",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-                  "dimension": "function",
-                  "claim": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "cultural",
-                    "governance"
-                  ],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "| Systems (magic/tech/economics) | **Empty** \u2014 agriculture and domestication explicitly not yet unlocked | | Working/unresolved | Not yet tracked in `06_WORKING/` despite several known open questions |",
-                  "dimension": "function",
-                  "claim": "| Systems (magic/tech/economics) | **Empty** \u2014 agriculture and domestication explicitly not yet unlocked | | Working/unresolved | Not yet tracked in `06_WORKING/` despite several known open questions |",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of. 3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision.",
-                  "dimension": "function",
-                  "claim": "2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of. 3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "dimension": "function",
-                  "claim": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "00_MASTER/WORLD_STATUS.md",
-                  "passage": "4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "dimension": "function",
-                  "claim": "4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
                 }
               ]
             },
@@ -5065,6 +5349,7 @@
           "round": 2,
           "trigger": "unresolved deciding factors after round 1",
           "evidence_targets": [
+            "00_MASTER/WORLD_STATUS.md",
             "PROJECT_OPERATING_RULES.md",
             "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_v0.2.md",
             "00_MASTER/WORLD_BIBLE.md",
@@ -5073,8 +5358,7 @@
             "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.1.md",
             "02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
             "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
-            "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.4.md",
-            "TOOLS/REPOSITORY/LIVE_TEST/HEARTH_LIVE_TEST.md"
+            "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.4.md"
           ],
           "evidence_validity": [
             {
@@ -5252,6 +5536,7 @@
       ],
       "evidence_targets": [
         "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
         "00_MASTER/CANON_INDEX.md",
         "CHANGELOG.md",
         "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
@@ -5259,8 +5544,7 @@
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
         "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md",
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-        "00_MASTER/FOUNDATION_WORLD_PROFILE.md",
-        "00_MASTER/WORLD_STATUS.md"
+        "00_MASTER/FOUNDATION_WORLD_PROFILE.md"
       ],
       "evidence_claims": [
         {
@@ -5553,6 +5837,115 @@
           "grounded": false,
           "pair_relevant": false,
           "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "dimension": "scope",
+          "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "dimension": "scope",
+          "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "cultural",
+            "governance"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "This produces different regional answers.",
+          "dimension": "scope",
+          "claim": "This produces different regional answers.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "## 2. REGIONAL MATRIX",
+          "dimension": "scope",
+          "claim": "## 2. REGIONAL MATRIX",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "dimension": "scope",
+          "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "dimension": "scope",
+          "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+          "dimension": "scope",
+          "claim": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+          "dimension": "scope",
+          "claim": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
           "source_role": "primary"
         },
         {
@@ -6355,84 +6748,6 @@
           "source_role": "primary"
         },
         {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Planet / physical world | Established (gravity, day length, tilt, orbit, star, land/water ratio, moons, 7-plate tectonics) | | Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open |",
-          "dimension": "scope",
-          "claim": "| Planet / physical world | Established (gravity, day length, tilt, orbit, star, land/water ratio, moons, 7-plate tectonics) | | Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open |",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design |",
-          "dimension": "scope",
-          "claim": "| Continents | **Hearth** well-developed (geography, hydrology, settlement, one region). **Shattered / Rift / Lost** \u2014 dossier-level only | | Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design |",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Ecology (flora) | 30 canonical entries + active edible-flora expansion track | | Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems |",
-          "dimension": "scope",
-          "claim": "| Ecology (flora) | 30 canonical entries + active edible-flora expansion track | | Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "cultural",
-            "governance"
-          ],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-          "dimension": "scope",
-          "claim": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "cultural",
-            "governance"
-          ],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "1. **Cultures for Shattered, Rift, and Lost** \u2014 right now only Hearth has been built out; the other three continents are geography without people. 2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of.",
-          "dimension": "scope",
-          "claim": "1. **Cultures for Shattered, Rift, and Lost** \u2014 right now only Hearth has been built out; the other three continents are geography without people. 2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "dimension": "scope",
-          "claim": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
           "source": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
           "passage": "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES ## Cultural Audit Checklist v0.1",
           "dimension": "function",
@@ -6743,6 +7058,121 @@
           "grounded": false,
           "pair_relevant": false,
           "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "dimension": "function",
+          "claim": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority",
+            "cultural",
+            "governance"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+          "dimension": "function",
+          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority",
+            "governance"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+          "dimension": "function",
+          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority",
+            "governance"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "dimension": "function",
+          "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "dimension": "function",
+          "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "cultural",
+            "governance"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "> **Who is trusted to make a particular kind of decision, and why?**",
+          "dimension": "function",
+          "claim": "> **Who is trusted to make a particular kind of decision, and why?**",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "dimension": "function",
+          "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "dimension": "function",
+          "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "authority"
+          ],
           "source_role": "primary"
         },
         {
@@ -7552,93 +7982,6 @@
             "authority"
           ],
           "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "subject: World Status status: working canonical: false",
-          "dimension": "function",
-          "claim": "subject: World Status status: working canonical: false",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design | | Ecology (flora) | 30 canonical entries + active edible-flora expansion track |",
-          "dimension": "function",
-          "claim": "| Climate | Broad scaffold in place; exact regional values open | | Ecology (fauna) | 34 canonical exemplars + support matrices; not exhaustive by design | | Ecology (flora) | 30 canonical entries + active edible-flora expansion track |",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-          "dimension": "function",
-          "claim": "| Peoples \u2014 species baseline | Aruunite baseline established, plus per-continent evolutionary profiles | | Peoples \u2014 Hearth culture | Deepest cultural content: Coast, Desert, Plains, Wetlands, Mountains (working), family/governance systems | | Peoples \u2014 Shattered/Rift/Lost culture | **Not started** \u2014 biggest open gap |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "cultural",
-            "governance"
-          ],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "| Systems (magic/tech/economics) | **Empty** \u2014 agriculture and domestication explicitly not yet unlocked | | Working/unresolved | Not yet tracked in `06_WORKING/` despite several known open questions |",
-          "dimension": "function",
-          "claim": "| Systems (magic/tech/economics) | **Empty** \u2014 agriculture and domestication explicitly not yet unlocked | | Working/unresolved | Not yet tracked in `06_WORKING/` despite several known open questions |",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of. 3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision.",
-          "dimension": "function",
-          "claim": "2. **04_HISTORY** \u2014 no timeline exists at all yet. Even a rough eras skeleton would give future content something to hang off of. 3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "dimension": "function",
-          "claim": "3. **Domestication pass** \u2014 World Bible flags 1\u20132 pack/milking candidates as an open next step (draft material exists in `07_ARCHIVE/UNCLASSIFIED/` but hasn't been evaluated or promoted to canon). 4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "00_MASTER/WORLD_STATUS.md",
-          "passage": "4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "dimension": "function",
-          "claim": "4. **Resolve Mountain (Hearth) working material** \u2014 specialist lineages and the mountain demographic revision are explicitly marked not-yet-canon and need a decision. 5. **06_WORKING** \u2014 start actually filing open questions there (Lost's undeveloped population branches, agriculture timing, etc.) instead of leaving them buried in World Bible prose.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
         }
       ],
       "unknown_after": [
@@ -7659,11 +8002,11 @@
       ],
       "evidence_updates": [],
       "evidence_quality_summary": {
-        "direct_claims": 44,
-        "grounded_direct_claims": 44,
-        "pair_resolving_claims": 44,
+        "direct_claims": 54,
+        "grounded_direct_claims": 54,
+        "pair_resolving_claims": 54,
         "contextual_claims": 15,
-        "unique_claims": 189
+        "unique_claims": 192
       },
       "stop_reason": "ambiguous relationship escalated to Batman/Robin; human adjudication remains authoritative",
       "safety": {
@@ -8982,6 +9325,7 @@
           "trigger": "ambiguous case investigation",
           "evidence_targets": [
             "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+            "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
             "CHANGELOG.md",
             "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
             "00_MASTER/CANON_INDEX.md",
@@ -8989,8 +9333,7 @@
             "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
             "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
             "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
-            "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
-            "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md"
+            "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md"
           ],
           "evidence_validity": [
             {
@@ -9012,7 +9355,7 @@
               "direct_claims": 22,
               "grounded_direct_claims": 22,
               "pair_resolving_claims": 22,
-              "contextual_claims": 5,
+              "contextual_claims": 4,
               "evidence_quality": [
                 {
                   "source": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
@@ -9304,6 +9647,108 @@
                   "grounded": false,
                   "pair_relevant": false,
                   "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "dimension": "scope",
+                  "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "dimension": "scope",
+                  "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "This produces different regional answers.",
+                  "dimension": "scope",
+                  "claim": "This produces different regional answers.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "## 2. REGIONAL MATRIX",
+                  "dimension": "scope",
+                  "claim": "## 2. REGIONAL MATRIX",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "dimension": "scope",
+                  "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "dimension": "scope",
+                  "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "specialist"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "dimension": "scope",
+                  "claim": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "specialist"
+                  ],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+                  "dimension": "scope",
+                  "claim": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "specialist"
+                  ],
                   "source_role": "primary"
                 },
                 {
@@ -10095,108 +10540,6 @@
                   "pair_relevant": false,
                   "pair_anchors": [],
                   "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "dimension": "scope",
-                  "claim": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "The six regional developmental systems address the same survival problem: turning children into adults capable of keeping their communities alive.",
-                  "dimension": "scope",
-                  "claim": "The six regional developmental systems address the same survival problem: turning children into adults capable of keeping their communities alive.",
-                  "claim_type": "CONTEXTUAL",
-                  "quality_score": 0.5,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "- Adulthood is demonstrated through meaningful competence or dependable contribution to community survival. - Each region expresses this shared developmental purpose through a distinct cultural emphasis.",
-                  "dimension": "scope",
-                  "claim": "- Adulthood is demonstrated through meaningful competence or dependable contribution to community survival. - Each region expresses this shared developmental purpose through a distinct cultural emphasis.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-                  "dimension": "scope",
-                  "claim": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "## Regional Matrix",
-                  "dimension": "scope",
-                  "claim": "## Regional Matrix",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-                  "dimension": "scope",
-                  "claim": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "specialist"
-                  ],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "| Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. |",
-                  "dimension": "scope",
-                  "claim": "| Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "specialist"
-                  ],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "| Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. | | Wetlands | Become useful to your group and village | Trusted responsibility for an independent portion of group survival | Children rotate through many practical skills; adolescents may spend seasons with other groups to discover aptitude and spread knowledge. |",
-                  "dimension": "scope",
-                  "claim": "| Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. | | Wetlands | Become useful to your group and village | Trusted responsibility for an independent portion of group survival | Children rotate through many practical skills; adolescents may spend seasons with other groups to discover aptitude and spread knowledge. |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "specialist"
-                  ],
-                  "source_role": "primary"
                 }
               ]
             },
@@ -10533,6 +10876,104 @@
                   "grounded": false,
                   "pair_relevant": false,
                   "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "dimension": "function",
+                  "claim": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+                  "dimension": "function",
+                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "dimension": "function",
+                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "dimension": "function",
+                  "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "dimension": "function",
+                  "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "> **Who is trusted to make a particular kind of decision, and why?**",
+                  "dimension": "function",
+                  "claim": "> **Who is trusted to make a particular kind of decision, and why?**",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "dimension": "function",
+                  "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+                  "claim_type": "KEYWORD_ONLY",
+                  "quality_score": 0.1,
+                  "grounded": false,
+                  "pair_relevant": false,
+                  "pair_anchors": [],
+                  "source_role": "primary"
+                },
+                {
+                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+                  "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "dimension": "function",
+                  "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+                  "claim_type": "DIRECT",
+                  "quality_score": 1.0,
+                  "grounded": true,
+                  "pair_relevant": true,
+                  "pair_anchors": [
+                    "specialist"
+                  ],
                   "source_role": "primary"
                 },
                 {
@@ -11318,104 +11759,6 @@
                   "pair_relevant": false,
                   "pair_anchors": [],
                   "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "# HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
-                  "dimension": "function",
-                  "claim": "# HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age",
-                  "dimension": "function",
-                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "dimension": "function",
-                  "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "dimension": "function",
-                  "claim": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "The shared framework supported by the current sources is:",
-                  "dimension": "function",
-                  "claim": "The shared framework supported by the current sources is:",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "- Childhood is a period of learning and preparation for adult responsibility. - Children learn through participation, observation, instruction, practice, or some combination of these.",
-                  "dimension": "function",
-                  "claim": "- Childhood is a period of learning and preparation for adult responsibility. - Children learn through participation, observation, instruction, practice, or some combination of these.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-                  "dimension": "function",
-                  "claim": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-                  "claim_type": "KEYWORD_ONLY",
-                  "quality_score": 0.1,
-                  "grounded": false,
-                  "pair_relevant": false,
-                  "pair_anchors": [],
-                  "source_role": "primary"
-                },
-                {
-                  "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-                  "passage": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-                  "dimension": "function",
-                  "claim": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-                  "claim_type": "DIRECT",
-                  "quality_score": 1.0,
-                  "grounded": true,
-                  "pair_relevant": true,
-                  "pair_anchors": [
-                    "specialist"
-                  ],
-                  "source_role": "primary"
                 }
               ]
             },
@@ -11573,6 +11916,7 @@
           "round": 2,
           "trigger": "unresolved deciding factors after round 1",
           "evidence_targets": [
+            "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
             "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.1.md",
             "02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
             "00_MASTER/WORLD_STATUS.md",
@@ -11581,8 +11925,7 @@
             "PROJECT_OPERATING_RULES.md",
             "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.3.md",
             "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_v0.2.md",
-            "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-            "00_MASTER/WORLD_BIBLE.md"
+            "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md"
           ],
           "evidence_validity": [
             {
@@ -11760,6 +12103,7 @@
       ],
       "evidence_targets": [
         "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
         "CHANGELOG.md",
         "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
         "00_MASTER/CANON_INDEX.md",
@@ -11767,8 +12111,7 @@
         "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
         "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
-        "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
-        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md"
+        "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md"
       ],
       "evidence_claims": [
         {
@@ -12061,6 +12404,108 @@
           "grounded": false,
           "pair_relevant": false,
           "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "dimension": "scope",
+          "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "dimension": "scope",
+          "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "This produces different regional answers.",
+          "dimension": "scope",
+          "claim": "This produces different regional answers.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "## 2. REGIONAL MATRIX",
+          "dimension": "scope",
+          "claim": "## 2. REGIONAL MATRIX",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "dimension": "scope",
+          "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "dimension": "scope",
+          "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "specialist"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+          "dimension": "scope",
+          "claim": "| Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "specialist"
+          ],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+          "dimension": "scope",
+          "claim": "| Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED | | River | Knowledge + reputation + situational competence | Distributed coordination / elders / knowledge holders | Household \u2192 river community/network | ESTABLISHED | | Wetlands | Functional competence + group trust | Temporary/task-based leadership + group representatives | Functional group \u2192 village | ESTABLISHED / WORKING DETAILS |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "specialist"
+          ],
           "source_role": "primary"
         },
         {
@@ -12854,108 +13299,6 @@
           "source_role": "primary"
         },
         {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "dimension": "scope",
-          "claim": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "The six regional developmental systems address the same survival problem: turning children into adults capable of keeping their communities alive.",
-          "dimension": "scope",
-          "claim": "The six regional developmental systems address the same survival problem: turning children into adults capable of keeping their communities alive.",
-          "claim_type": "CONTEXTUAL",
-          "quality_score": 0.5,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "- Adulthood is demonstrated through meaningful competence or dependable contribution to community survival. - Each region expresses this shared developmental purpose through a distinct cultural emphasis.",
-          "dimension": "scope",
-          "claim": "- Adulthood is demonstrated through meaningful competence or dependable contribution to community survival. - Each region expresses this shared developmental purpose through a distinct cultural emphasis.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-          "dimension": "scope",
-          "claim": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "## Regional Matrix",
-          "dimension": "scope",
-          "claim": "## Regional Matrix",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-          "dimension": "scope",
-          "claim": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "specialist"
-          ],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "| Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. |",
-          "dimension": "scope",
-          "claim": "| Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "specialist"
-          ],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "| Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. | | Wetlands | Become useful to your group and village | Trusted responsibility for an independent portion of group survival | Children rotate through many practical skills; adolescents may spend seasons with other groups to discover aptitude and spread knowledge. |",
-          "dimension": "scope",
-          "claim": "| Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. | | River | Read the water and know the network | Ability to travel the river safely enough to be useful | Development centers on water knowledge, practical river skills, and supervised travel between settlements. | | Wetlands | Become useful to your group and village | Trusted responsibility for an independent portion of group survival | Children rotate through many practical skills; adolescents may spend seasons with other groups to discover aptitude and spread knowledge. |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "specialist"
-          ],
-          "source_role": "primary"
-        },
-        {
           "source": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
           "passage": "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
           "dimension": "function",
@@ -13267,6 +13610,104 @@
           "grounded": false,
           "pair_relevant": false,
           "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "dimension": "function",
+          "claim": "# MYTHROOT WORLDS \u2014 HEARTH # CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+          "dimension": "function",
+          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+          "dimension": "function",
+          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON   **Purpose:** Source-derived comparison of Hearth leadership, authority, and governance.   **Canon rule:** This document does not create, reconcile, or promote canon. Existing canonical decisions and explicit source status take precedence.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "dimension": "function",
+          "claim": "Across the six Hearth peoples, authority is generally tied to **competence, trust, responsibility, or specialized knowledge** rather than a single continent-wide sovereign structure.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "dimension": "function",
+          "claim": "The existing Hearth canon describes regional governance as culturally specific. There is no source-supported basis here for inventing a universal Hearth government.",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "> **Who is trusted to make a particular kind of decision, and why?**",
+          "dimension": "function",
+          "claim": "> **Who is trusted to make a particular kind of decision, and why?**",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "dimension": "function",
+          "claim": "| Region | Authority basis | Primary authority structure | Decision scale | Status | |---|---|---|---|---|",
+          "claim_type": "KEYWORD_ONLY",
+          "quality_score": 0.1,
+          "grounded": false,
+          "pair_relevant": false,
+          "pair_anchors": [],
+          "source_role": "primary"
+        },
+        {
+          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "passage": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "dimension": "function",
+          "claim": "|---|---|---|---|---| | Plains | Trust + demonstrated competence | Distributed, role-based leadership | Work group \u2192 community/network | ESTABLISHED | | Mountains | Specialist knowledge + lineage authority | Specialist houses / lineage heads + Conclave | House \u2192 village \u2192 regional | ESTABLISHED |",
+          "claim_type": "DIRECT",
+          "quality_score": 1.0,
+          "grounded": true,
+          "pair_relevant": true,
+          "pair_anchors": [
+            "specialist"
+          ],
           "source_role": "primary"
         },
         {
@@ -14052,104 +14493,6 @@
           "pair_relevant": false,
           "pair_anchors": [],
           "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "# HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
-          "dimension": "function",
-          "claim": "# HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age",
-          "dimension": "function",
-          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "dimension": "function",
-          "claim": "**Status:** ANALYTICAL REFERENCE \u2014 NOT CANON **Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "dimension": "function",
-          "claim": "**Scope:** Birth, Childhood & Coming-of-Age **Authority:** The regional files under each People remain the authoritative cultural entries. This document is a source-derived comparative synthesis for organization, analysis, and future development.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "The shared framework supported by the current sources is:",
-          "dimension": "function",
-          "claim": "The shared framework supported by the current sources is:",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "- Childhood is a period of learning and preparation for adult responsibility. - Children learn through participation, observation, instruction, practice, or some combination of these.",
-          "dimension": "function",
-          "claim": "- Childhood is a period of learning and preparation for adult responsibility. - Children learn through participation, observation, instruction, practice, or some combination of these.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-          "dimension": "function",
-          "claim": "This shared framework is a synthesis of the existing comparative reference and regional canon entries. It does not establish new canon.",
-          "claim_type": "KEYWORD_ONLY",
-          "quality_score": 0.1,
-          "grounded": false,
-          "pair_relevant": false,
-          "pair_anchors": [],
-          "source_role": "primary"
-        },
-        {
-          "source": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
-          "passage": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-          "dimension": "function",
-          "claim": "|---|---|---|---| | Plains | Carry your share | Reliable contribution to survival | Aptitude is observed, but community need can override preference when necessary. | | Mountains | Master your lineage's knowledge | Sustained competence recognized by the specialist lineage | Development occurs within an extended specialist lineage and begins early through lineage-specific tasks. |",
-          "claim_type": "DIRECT",
-          "quality_score": 1.0,
-          "grounded": true,
-          "pair_relevant": true,
-          "pair_anchors": [
-            "specialist"
-          ],
-          "source_role": "primary"
         }
       ],
       "unknown_after": [
@@ -14173,222 +14516,10 @@
         "direct_claims": 44,
         "grounded_direct_claims": 44,
         "pair_resolving_claims": 44,
-        "contextual_claims": 19,
+        "contextual_claims": 18,
         "unique_claims": 191
       },
       "stop_reason": "ambiguous relationship escalated to Batman/Robin; human adjudication remains authoritative",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-05ae219e967b33df",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "SUPPORTING",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "SUPPORTING",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "SUPPORTING"
-        ],
-        "viable_relationships": [
-          "SUPPORTING"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-57b3e2bb2bf24c47",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-78aa0ac023ba1f89",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
-      "safety": {
-        "self_training": false,
-        "automatic_rule_promotion": false,
-        "automatic_canon_change": false
-      }
-    },
-    {
-      "relationship_id": "REL-fad598e6ee381f08",
-      "documents": {
-        "a": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
-        "b": "03_PEOPLES/CULTURES/HEARTH/DESERT.md"
-      },
-      "role": "case_solver",
-      "triage_status": "DIRECT",
-      "triage_decision": "RELATED",
-      "triage_reason": "identity and placement resolved before relationship detail",
-      "triage_evidence": {},
-      "relationship_reasoning": {
-        "decision": "RELATED",
-        "confidence": "STRUCTURAL",
-        "decision_basis": "identity and placement resolved before relationship detail",
-        "candidates": [
-          "RELATED"
-        ],
-        "viable_relationships": [
-          "RELATED"
-        ],
-        "unresolved_dimensions": []
-      },
-      "case_question": {
-        "question": "What is this document relationship and where does it belong?",
-        "status": "resolved_by_triage"
-      },
-      "investigation_rounds": 0,
-      "investigation_rounds_detail": [],
-      "evidence_targets": [],
-      "evidence_claims": [],
-      "unknown_after": [],
-      "evidence_updates": [
-        {
-          "type": "triage_update",
-          "effect": "resolved_without_deep_investigation",
-          "basis": "identity and placement resolved before relationship detail"
-        }
-      ],
-      "evidence_quality_summary": {
-        "direct_claims": 0,
-        "grounded_direct_claims": 0,
-        "pair_resolving_claims": 0,
-        "contextual_claims": 0,
-        "unique_claims": 0
-      },
-      "stop_reason": "clear relationship resolved by document triage; Batman not required",
       "safety": {
         "self_training": false,
         "automatic_rule_promotion": false,
@@ -14405,12 +14536,11 @@
     "cases_using_robin_factor_map": 2,
     "cases_missing_robin_factor_map": 28,
     "cases_with_unresolved_factors": 2,
-    "grounded_direct_claims": 88,
-    "pair_resolving_claims": 88,
+    "grounded_direct_claims": 98,
+    "pair_resolving_claims": 98,
     "relationship_decisions": {
-      "RELATED": 27,
-      "COINCIDENTAL": 2,
-      "SUPPORTING": 1
+      "RELATED": 28,
+      "COINCIDENTAL": 2
     },
     "cases_with_non_review_decision": 30,
     "cases_escalated_to_review": 0

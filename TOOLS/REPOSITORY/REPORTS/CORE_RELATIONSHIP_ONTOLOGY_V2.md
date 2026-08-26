@@ -3,13 +3,13 @@
 Original human annotations remain immutable historical provenance. `ontology_v2_label` is a derived active-policy label.
 
 ## Summary
-- Records: **17**
-- Legacy agrees: **5**
+- Records: **13**
+- Legacy agrees: **2**
 - Legacy conflicts: **0**
-- Requires review: **12**
+- Requires review: **11**
 
 ## Active labels
-- `RELATED`: **5**
-- `REVIEW`: **12**
+- `RELATED`: **2**
+- `REVIEW`: **11**
 
 ## Conflicts requiring review

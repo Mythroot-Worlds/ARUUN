@@ -3,7 +3,7 @@
   "mode": "READ_ONLY",
   "contextual_skimming": true,
   "holdout_size": 30,
-  "exemplar_pool_size": 54,
+  "exemplar_pool_size": 58,
   "predictions": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -124,9 +124,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.538,
+      "confidence": 0.594,
       "evidence_scores": {
-        "RELATED": 6.0166010488516735,
+        "RELATED": 7.556601048851675,
         "VARIANT": 5.172379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -274,6 +274,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -305,6 +317,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -343,12 +361,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -473,9 +494,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.54,
+      "confidence": 0.594,
       "evidence_scores": {
-        "RELATED": 6.316601048851675,
+        "RELATED": 7.856601048851676,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -623,6 +644,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -654,6 +687,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -692,12 +731,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -826,9 +868,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.558,
+      "confidence": 0.608,
       "evidence_scores": {
-        "RELATED": 5.765751311064592,
+        "RELATED": 7.1057513110645925,
         "VARIANT": 4.576189500386224,
         "HISTORICAL": 1.6942135623730952,
         "COINCIDENTAL": 1.0,
@@ -970,6 +1012,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
@@ -996,6 +1050,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -1033,11 +1093,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -1157,9 +1220,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.54,
+      "confidence": 0.594,
       "evidence_scores": {
-        "RELATED": 6.316601048851675,
+        "RELATED": 7.856601048851676,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -1307,6 +1370,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -1338,6 +1413,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -1376,12 +1457,416 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
+        "ANN-f4e20b002bded05b",
+        "LED-0b7fa62c14da5a5c",
+        "LED-0f048a755a37745f",
+        "LED-1f4d9425dc932d0d",
+        "LED-2c7f63b3574579db",
+        "LED-39a4c36724bf8d6a",
+        "LED-65689af3f1d0bce6",
+        "LED-69b887dbb229ad9a",
+        "LED-6dd5155cd156c15c",
+        "LED-7062981cf353b9e5",
+        "LED-81165e4846882bbc",
+        "LED-817fa6b875cf569a",
+        "LED-95bd1fef92560afc",
+        "LED-99fe86b41548dd59",
+        "LED-cac5875be276379c",
+        "LED-e2f2e4b304ba82dc",
+        "LED-f026d494b5993efe",
+        "LED-f37595952e2a12d1"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
+      "requires_human_validation": true
+    },
+    {
+      "relationship_id": "REL-8f6b30aeda301908",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "match_strength": 2,
+      "context_a": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "lineage",
+            "people",
+            "peoples"
+          ],
+          "LOCALITY": [
+            "local",
+            "settlement"
+          ],
+          "REGIONAL": [
+            "plains",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "lineage"
+          ]
+        },
+        "headings": [
+          "# HEARTH \u2014 WETLAND PEOPLES",
+          "## Cultural Base v0.1",
+          "### Core philosophy",
+          "### Communities",
+          "### Seasonal high-ground gatherings",
+          "### Mobility and work",
+          "### Children",
+          "### Environmental knowledge",
+          "### Hospitality",
+          "### Patience",
+          "### River relationship",
+          "### Plains relationship"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "context_b": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "house",
+            "houses",
+            "lineage",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "house",
+            "houses",
+            "settlement",
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountain",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "reference"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH",
+          "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "## 1. SHARED HEARTH PATTERN",
+          "## 2. REGIONAL MATRIX",
+          "# 3. PLAINS",
+          "## Authority",
+          "## Decision pattern",
+          "## Conflict",
+          "## Cultural implication",
+          "# 4. MOUNTAINS",
+          "## Authority",
+          "## Village and regional coordination"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "MERGE",
+      "predicted_classification": "RELATED",
+      "confidence": 0.57,
+      "evidence_scores": {
+        "RELATED": 6.856601048851675,
+        "VARIANT": 5.172379000772446,
+        "HISTORICAL": 1.5113708498984764,
+        "COINCIDENTAL": 0.8,
+        "CONFLICT": 0.8,
+        "REVIEW": 0.8,
+        "MISPLACED": 0.12
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.4
+          },
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0b7fa62c14da5a5c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0f048a755a37745f",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.48,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-39a4c36724bf8d6a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-65689af3f1d0bce6",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-7062981cf353b9e5",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-99fe86b41548dd59",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-e2f2e4b304ba82dc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f026d494b5993efe",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f37595952e2a12d1",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "MISPLACED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.8
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          }
+        ],
+        "CONFLICT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "RELATED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-23635a2218f45fb1",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-691ab0ffea5a8ddd",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-6ec15f56d38ae655",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-b329cd231d2727ad",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-bd1c8665a244842a",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-f4e20b002bded05b",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-69b887dbb229ad9a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-817fa6b875cf569a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-cac5875be276379c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "REVIEW": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.8
+          }
+        ]
+      },
+      "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
+        "ANN-23635a2218f45fb1",
+        "ANN-691ab0ffea5a8ddd",
+        "ANN-6ec15f56d38ae655",
+        "ANN-b329cd231d2727ad",
+        "ANN-bd1c8665a244842a",
+        "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -1544,9 +2029,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.523,
+      "confidence": 0.581,
       "evidence_scores": {
-        "RELATED": 5.787450786638756,
+        "RELATED": 7.3274507866387575,
         "VARIANT": 5.288568501158668,
         "HISTORICAL": 1.228528137423857,
         "COINCIDENTAL": 0.6,
@@ -1694,6 +2179,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -1725,6 +2222,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -1763,12 +2266,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -1911,9 +2417,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.517,
+      "confidence": 0.578,
       "evidence_scores": {
-        "RELATED": 5.536601048851674,
+        "RELATED": 7.076601048851676,
         "VARIANT": 5.172379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -2061,6 +2567,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -2086,6 +2604,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -2124,11 +2648,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -2266,9 +2793,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.543,
+      "confidence": 0.597,
       "evidence_scores": {
-        "RELATED": 5.916601048851673,
+        "RELATED": 7.356601048851674,
         "VARIANT": 4.972379000772447,
         "HISTORICAL": 1.4113708498984763,
         "COINCIDENTAL": 0.8,
@@ -2416,6 +2943,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -2448,6 +2987,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -2485,12 +3030,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -2614,9 +3162,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.523,
+      "confidence": 0.581,
       "evidence_scores": {
-        "RELATED": 5.787450786638756,
+        "RELATED": 7.3274507866387575,
         "VARIANT": 5.288568501158668,
         "HISTORICAL": 1.228528137423857,
         "COINCIDENTAL": 0.6,
@@ -2764,6 +3312,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -2795,6 +3355,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -2833,12 +3399,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -3075,9 +3644,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.566,
+      "confidence": 0.618,
       "evidence_scores": {
-        "RELATED": 5.965751311064592,
+        "RELATED": 7.405751311064593,
         "VARIANT": 4.576189500386224,
         "HISTORICAL": 1.4142135623730951,
         "COINCIDENTAL": 1.0,
@@ -3213,6 +3782,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -3239,6 +3820,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -3276,11 +3863,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -3436,9 +4026,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.528,
+      "confidence": 0.584,
       "evidence_scores": {
-        "RELATED": 6.0166010488516735,
+        "RELATED": 7.556601048851675,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -3586,6 +4176,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -3617,6 +4219,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -3655,12 +4263,418 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
+        "ANN-f4e20b002bded05b",
+        "LED-0b7fa62c14da5a5c",
+        "LED-0f048a755a37745f",
+        "LED-1f4d9425dc932d0d",
+        "LED-2c7f63b3574579db",
+        "LED-39a4c36724bf8d6a",
+        "LED-65689af3f1d0bce6",
+        "LED-69b887dbb229ad9a",
+        "LED-6dd5155cd156c15c",
+        "LED-7062981cf353b9e5",
+        "LED-81165e4846882bbc",
+        "LED-817fa6b875cf569a",
+        "LED-95bd1fef92560afc",
+        "LED-99fe86b41548dd59",
+        "LED-cac5875be276379c",
+        "LED-e2f2e4b304ba82dc",
+        "LED-f026d494b5993efe",
+        "LED-f37595952e2a12d1"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
+      "requires_human_validation": true
+    },
+    {
+      "relationship_id": "REL-1002757d57552a92",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "match_strength": 3,
+      "context_a": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "people",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "local"
+          ],
+          "REGIONAL": [
+            "plains"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft"
+          ],
+          "SUPPORT": [
+            "supporting"
+          ]
+        },
+        "headings": [
+          "# HEARTH \u2014 GREAT PLAINS PEOPLE",
+          "## Cultural Base v0.1",
+          "## Geographic foundation",
+          "## Core character",
+          "## Mobility",
+          "## Anchor communities",
+          "## Traveling groups",
+          "## Daily/nightly rhythm",
+          "## Hunting",
+          "## Gathering",
+          "## Social organization",
+          "## Skill training"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "context_b": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "house",
+            "houses",
+            "lineage",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "house",
+            "houses",
+            "settlement",
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountain",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "reference"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH",
+          "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "## 1. SHARED HEARTH PATTERN",
+          "## 2. REGIONAL MATRIX",
+          "# 3. PLAINS",
+          "## Authority",
+          "## Decision pattern",
+          "## Conflict",
+          "## Cultural implication",
+          "# 4. MOUNTAINS",
+          "## Authority",
+          "## Village and regional coordination"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "MERGE",
+      "predicted_classification": "RELATED",
+      "confidence": 0.554,
+      "evidence_scores": {
+        "RELATED": 6.327450786638757,
+        "VARIANT": 5.088568501158669,
+        "HISTORICAL": 1.228528137423857,
+        "COINCIDENTAL": 0.6,
+        "CONFLICT": 0.6,
+        "REVIEW": 0.6,
+        "MISPLACED": 0.09
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0b7fa62c14da5a5c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0f048a755a37745f",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.48,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-39a4c36724bf8d6a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-65689af3f1d0bce6",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-7062981cf353b9e5",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-99fe86b41548dd59",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-e2f2e4b304ba82dc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f026d494b5993efe",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f37595952e2a12d1",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "MISPLACED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.6
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          }
+        ],
+        "CONFLICT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "RELATED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-23635a2218f45fb1",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-691ab0ffea5a8ddd",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-6ec15f56d38ae655",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-b329cd231d2727ad",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-bd1c8665a244842a",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-f4e20b002bded05b",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-69b887dbb229ad9a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-817fa6b875cf569a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-cac5875be276379c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "REVIEW": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.6
+          }
+        ]
+      },
+      "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
+        "ANN-23635a2218f45fb1",
+        "ANN-691ab0ffea5a8ddd",
+        "ANN-6ec15f56d38ae655",
+        "ANN-b329cd231d2727ad",
+        "ANN-bd1c8665a244842a",
+        "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -3801,9 +4815,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.562,
+      "confidence": 0.602,
       "evidence_scores": {
-        "RELATED": 6.245751311064593,
+        "RELATED": 7.385751311064594,
         "VARIANT": 4.876189500386224,
         "HISTORICAL": 1.7942135623730953,
         "COINCIDENTAL": 1.0,
@@ -3945,6 +4959,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -3977,6 +5003,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -4014,12 +5046,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -4176,9 +5211,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.54,
+      "confidence": 0.594,
       "evidence_scores": {
-        "RELATED": 6.316601048851675,
+        "RELATED": 7.856601048851676,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -4326,6 +5361,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -4357,6 +5404,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -4395,12 +5448,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -4556,11 +5612,11 @@
       "derived_domain": "PEOPLES",
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
-      "predicted_classification": "VARIANT",
-      "confidence": 0.536,
+      "predicted_classification": "RELATED",
+      "confidence": 0.538,
       "evidence_scores": {
+        "RELATED": 5.96915026221292,
         "VARIANT": 5.120947501931113,
-        "RELATED": 4.429150262212919,
         "HISTORICAL": 0.662842712474619,
         "COINCIDENTAL": 0.2,
         "CONFLICT": 0.2,
@@ -4707,6 +5763,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -4738,6 +5806,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -4776,12 +5850,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -4800,6 +5877,165 @@
         "LED-e2f2e4b304ba82dc",
         "LED-f026d494b5993efe",
         "LED-f37595952e2a12d1"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
+      "requires_human_validation": true
+    },
+    {
+      "relationship_id": "REL-8d0173eed0ee9b89",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "match_strength": 3,
+      "context_a": {
+        "indicators": {
+          "POPULATION": [
+            "clan",
+            "family",
+            "lineage",
+            "people",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "settlement"
+          ],
+          "FAMILY": [
+            "birth",
+            "childhood",
+            "family",
+            "household",
+            "marriage",
+            "partnership"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage"
+          ],
+          "SUPPORT": [
+            "audit",
+            "checklist"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "## Cultural Audit Checklist v0.1",
+          "# I. UNIVERSAL CULTURAL LAYERS",
+          "## A. Environment & Population",
+          "## B. Community & Settlement",
+          "## C. Family, Partnership & Kinship",
+          "## D. Reproduction & Childhood",
+          "## E. Labor & Economy",
+          "## F. Leadership & Decision-Making",
+          "## G. Law, Trust & Conflict",
+          "## H. Elders, Aging & Death",
+          "## I. Belief & Worldview"
+        ],
+        "scope_signals": [
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "context_b": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "house",
+            "houses",
+            "lineage",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "house",
+            "houses",
+            "settlement",
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountain",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "reference"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH",
+          "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "## 1. SHARED HEARTH PATTERN",
+          "## 2. REGIONAL MATRIX",
+          "# 3. PLAINS",
+          "## Authority",
+          "## Decision pattern",
+          "## Conflict",
+          "## Cultural implication",
+          "# 4. MOUNTAINS",
+          "## Authority",
+          "## Village and regional coordination"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "derived_domain": "PEOPLES",
+      "derived_role": "COMPARATIVE",
+      "proposed_signal": "MERGE",
+      "predicted_classification": "SUPPORTING",
+      "confidence": 1.0,
+      "evidence_scores": {
+        "SUPPORTING": 0.37
+      },
+      "evidence_detail": {
+        "SUPPORTING": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-d67c1121088abcc8",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ]
+      },
+      "exemplar_hits": [
+        "LED-d67c1121088abcc8"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -5071,9 +6307,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.536,
+      "confidence": 0.591,
       "evidence_scores": {
-        "RELATED": 6.065751311064592,
+        "RELATED": 7.605751311064593,
         "VARIANT": 5.256189500386224,
         "HISTORICAL": 1.7942135623730953,
         "COINCIDENTAL": 1.0,
@@ -5221,6 +6457,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -5246,6 +6494,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -5284,11 +6538,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -5439,9 +6696,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.54,
+      "confidence": 0.581,
       "evidence_scores": {
-        "RELATED": 5.616601048851674,
+        "RELATED": 6.656601048851674,
         "VARIANT": 4.7923790007724465,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -5583,6 +6840,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -5615,6 +6884,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -5652,12 +6927,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -5805,9 +7083,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.55,
+      "confidence": 0.603,
       "evidence_scores": {
-        "RELATED": 6.316601048851675,
+        "RELATED": 7.856601048851676,
         "VARIANT": 5.172379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -5955,6 +7233,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -5986,6 +7276,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -6024,12 +7320,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -6176,9 +7475,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.544,
+      "confidence": 0.589,
       "evidence_scores": {
-        "RELATED": 5.716601048851674,
+        "RELATED": 6.856601048851675,
         "VARIANT": 4.7923790007724465,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -6320,6 +7619,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -6352,6 +7663,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -6389,12 +7706,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -6412,6 +7732,176 @@
         "LED-e2f2e4b304ba82dc",
         "LED-f026d494b5993efe",
         "LED-f37595952e2a12d1"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
+      "requires_human_validation": true
+    },
+    {
+      "relationship_id": "REL-638639b6f1914e6a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "match_strength": 3,
+      "context_a": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "lineage",
+            "people",
+            "peoples"
+          ],
+          "LOCALITY": [
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad"
+          ],
+          "FAMILY": [
+            "birth",
+            "childhood",
+            "family",
+            "household",
+            "partnership"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance"
+          ],
+          "SPECIALIST": [
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "framework",
+            "reference"
+          ]
+        },
+        "headings": [
+          "# HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
+          "## Shared Hearth Framework",
+          "## Regional Matrix",
+          "## Regional Source Notes",
+          "### Plains",
+          "### Mountains",
+          "### River",
+          "### Wetlands",
+          "### Desert",
+          "### Coast",
+          "## Boundaries"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "context_b": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "house",
+            "houses",
+            "lineage",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "house",
+            "houses",
+            "settlement",
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountain",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "reference"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH",
+          "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "## 1. SHARED HEARTH PATTERN",
+          "## 2. REGIONAL MATRIX",
+          "# 3. PLAINS",
+          "## Authority",
+          "## Decision pattern",
+          "## Conflict",
+          "## Cultural implication",
+          "# 4. MOUNTAINS",
+          "## Authority",
+          "## Village and regional coordination"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "derived_domain": "PEOPLES",
+      "derived_role": "COMPARATIVE",
+      "proposed_signal": "MERGE",
+      "predicted_classification": "SUPPORTING",
+      "confidence": 1.0,
+      "evidence_scores": {
+        "SUPPORTING": 0.37
+      },
+      "evidence_detail": {
+        "SUPPORTING": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.6
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-d67c1121088abcc8",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ]
+      },
+      "exemplar_hits": [
+        "LED-d67c1121088abcc8"
       ],
       "prediction_status": "EXEMPLAR_ASSISTED",
       "requires_human_validation": true
@@ -6518,9 +8008,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.545,
+      "confidence": 0.597,
       "evidence_scores": {
-        "RELATED": 6.545751311064592,
+        "RELATED": 8.085751311064593,
         "VARIANT": 5.456189500386223,
         "HISTORICAL": 1.7942135623730953,
         "COINCIDENTAL": 1.0,
@@ -6668,6 +8158,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -6699,6 +8201,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -6737,12 +8245,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -6845,9 +8356,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.526,
+      "confidence": 0.582,
       "evidence_scores": {
-        "RELATED": 6.065751311064592,
+        "RELATED": 7.605751311064593,
         "VARIANT": 5.456189500386223,
         "HISTORICAL": 1.7942135623730953,
         "COINCIDENTAL": 1.0,
@@ -6995,6 +8506,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -7020,6 +8543,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -7058,11 +8587,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -7146,10 +8678,10 @@
       "derived_role": "CANON",
       "proposed_signal": "DUPLICATE",
       "predicted_classification": "VARIANT",
-      "confidence": 0.623,
+      "confidence": 0.54,
       "evidence_scores": {
         "VARIANT": 5.873790007724453,
-        "RELATED": 3.558117617995814,
+        "RELATED": 4.998117617995813,
         "HISTORICAL": 0.12727922061357855,
         "MISPLACED": 0.09,
         "COINCIDENTAL": 0.09,
@@ -7284,6 +8816,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -7310,6 +8854,12 @@
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
             "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
           {
@@ -7347,11 +8897,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -7363,6 +8916,410 @@
         "LED-7062981cf353b9e5",
         "LED-81165e4846882bbc",
         "LED-817fa6b875cf569a",
+        "LED-99fe86b41548dd59",
+        "LED-cac5875be276379c",
+        "LED-e2f2e4b304ba82dc",
+        "LED-f026d494b5993efe",
+        "LED-f37595952e2a12d1"
+      ],
+      "prediction_status": "EXEMPLAR_ASSISTED",
+      "requires_human_validation": true
+    },
+    {
+      "relationship_id": "REL-4e6b02fc2580a7a2",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "match_strength": 4,
+      "context_a": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "houses",
+            "lineage",
+            "people",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "houses",
+            "village"
+          ],
+          "REGIONAL": [
+            "mountain",
+            "mountains",
+            "regional",
+            "river"
+          ],
+          "BROAD": [
+            "broad"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "kin",
+            "marriage",
+            "partnership"
+          ],
+          "SPECIALIST": [
+            "lineage",
+            "specialist"
+          ]
+        },
+        "headings": [
+          "## Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+          "# MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "## Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+          "# 1. MOUNTAINS \u2014 LOCKED FOUNDATION",
+          "## Social unit",
+          "## Partner selection",
+          "## Approval",
+          "## Annual Mountain Conclave",
+          "## Residence",
+          "## Avoiding close kin marriage",
+          "## Children",
+          "# 2. RIVER \u2014 WORKING PROFILE"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "context_b": {
+        "indicators": {
+          "POPULATION": [
+            "family",
+            "house",
+            "houses",
+            "lineage",
+            "peoples",
+            "population"
+          ],
+          "LOCALITY": [
+            "house",
+            "houses",
+            "settlement",
+            "village"
+          ],
+          "REGIONAL": [
+            "coast",
+            "desert",
+            "mountain",
+            "mountains",
+            "plains",
+            "region",
+            "regional",
+            "river",
+            "wetlands"
+          ],
+          "BROAD": [
+            "broad",
+            "continent"
+          ],
+          "FAMILY": [
+            "family",
+            "household",
+            "marriage"
+          ],
+          "GOVERNANCE": [
+            "authority",
+            "governance",
+            "leadership"
+          ],
+          "SPECIALIST": [
+            "craft",
+            "lineage",
+            "specialist"
+          ],
+          "SUPPORT": [
+            "reference"
+          ]
+        },
+        "headings": [
+          "# MYTHROOT WORLDS \u2014 HEARTH",
+          "# CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "## 1. SHARED HEARTH PATTERN",
+          "## 2. REGIONAL MATRIX",
+          "# 3. PLAINS",
+          "## Authority",
+          "## Decision pattern",
+          "## Conflict",
+          "## Cultural implication",
+          "# 4. MOUNTAINS",
+          "## Authority",
+          "## Village and regional coordination"
+        ],
+        "scope_signals": [
+          "BROAD",
+          "REGIONAL",
+          "LOCAL_OR_SETTLEMENT",
+          "NARROW_SUBJECT"
+        ]
+      },
+      "derived_domain": "PEOPLES",
+      "derived_role": "CANON",
+      "proposed_signal": "MERGE",
+      "predicted_classification": "RELATED",
+      "confidence": 0.537,
+      "evidence_scores": {
+        "RELATED": 5.798300524425838,
+        "VARIANT": 5.004758001544891,
+        "HISTORICAL": 0.9456854249492381,
+        "COINCIDENTAL": 0.4,
+        "CONFLICT": 0.4,
+        "REVIEW": 0.4,
+        "MISPLACED": 0.06
+      },
+      "evidence_detail": {
+        "VARIANT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 15.0,
+            "proposed": "DUPLICATE",
+            "strength_fit": 0.8
+          },
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0b7fa62c14da5a5c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-0f048a755a37745f",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-1f4d9425dc932d0d",
+            "similarity": 0.48,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-2c7f63b3574579db",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-39a4c36724bf8d6a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-65689af3f1d0bce6",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-7062981cf353b9e5",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-81165e4846882bbc",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-95bd1fef92560afc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-99fe86b41548dd59",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-e2f2e4b304ba82dc",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f026d494b5993efe",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-f37595952e2a12d1",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "MISPLACED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "KEEP",
+            "strength_fit": 0.4
+          }
+        ],
+        "COINCIDENTAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          }
+        ],
+        "CONFLICT": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          }
+        ],
+        "HISTORICAL": [
+          {
+            "kind": "HEURISTIC",
+            "support": 2.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-6dd5155cd156c15c",
+            "similarity": 0.38,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "RELATED": [
+          {
+            "kind": "HEURISTIC",
+            "support": 7.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-23635a2218f45fb1",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-691ab0ffea5a8ddd",
+            "similarity": 0.38,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-6ec15f56d38ae655",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-b329cd231d2727ad",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-bd1c8665a244842a",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.28,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-f4e20b002bded05b",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-69b887dbb229ad9a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-817fa6b875cf569a",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "LED-cac5875be276379c",
+            "similarity": 0.28,
+            "source": "DECISION_LEDGER"
+          }
+        ],
+        "REVIEW": [
+          {
+            "kind": "HEURISTIC",
+            "support": 1.0,
+            "proposed": "MERGE",
+            "strength_fit": 0.4
+          }
+        ]
+      },
+      "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
+        "ANN-23635a2218f45fb1",
+        "ANN-691ab0ffea5a8ddd",
+        "ANN-6ec15f56d38ae655",
+        "ANN-b329cd231d2727ad",
+        "ANN-bd1c8665a244842a",
+        "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
+        "ANN-f4e20b002bded05b",
+        "LED-0b7fa62c14da5a5c",
+        "LED-0f048a755a37745f",
+        "LED-1f4d9425dc932d0d",
+        "LED-2c7f63b3574579db",
+        "LED-39a4c36724bf8d6a",
+        "LED-65689af3f1d0bce6",
+        "LED-69b887dbb229ad9a",
+        "LED-6dd5155cd156c15c",
+        "LED-7062981cf353b9e5",
+        "LED-81165e4846882bbc",
+        "LED-817fa6b875cf569a",
+        "LED-95bd1fef92560afc",
         "LED-99fe86b41548dd59",
         "LED-cac5875be276379c",
         "LED-e2f2e4b304ba82dc",
@@ -7478,9 +9435,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.517,
+      "confidence": 0.578,
       "evidence_scores": {
-        "RELATED": 5.536601048851674,
+        "RELATED": 7.076601048851676,
         "VARIANT": 5.172379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -7628,6 +9585,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-691ab0ffea5a8ddd",
             "similarity": 0.58,
             "source": "HUMAN_ANNOTATION"
@@ -7653,6 +9622,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -7691,11 +9666,14 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -7844,9 +9822,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.54,
+      "confidence": 0.594,
       "evidence_scores": {
-        "RELATED": 6.316601048851675,
+        "RELATED": 7.856601048851676,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -7994,6 +9972,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -8025,6 +10015,12 @@
           {
             "kind": "EXEMPLAR",
             "example_id": "ANN-c04041f0ac1c1e21",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
             "similarity": 0.48,
             "source": "HUMAN_ANNOTATION"
           },
@@ -8063,12 +10059,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -8224,9 +10223,9 @@
       "derived_role": "CANON",
       "proposed_signal": "MERGE",
       "predicted_classification": "RELATED",
-      "confidence": 0.528,
+      "confidence": 0.584,
       "evidence_scores": {
-        "RELATED": 6.0166010488516735,
+        "RELATED": 7.556601048851675,
         "VARIANT": 5.372379000772446,
         "HISTORICAL": 1.5113708498984764,
         "COINCIDENTAL": 0.8,
@@ -8374,6 +10373,18 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-193f32ad2d9de810",
+            "similarity": 0.58,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
+            "example_id": "ANN-232cec354bd43aba",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-23635a2218f45fb1",
             "similarity": 0.28,
             "source": "HUMAN_ANNOTATION"
@@ -8410,6 +10421,12 @@
           },
           {
             "kind": "EXEMPLAR",
+            "example_id": "ANN-d1a7bee30a221feb",
+            "similarity": 0.48,
+            "source": "HUMAN_ANNOTATION"
+          },
+          {
+            "kind": "EXEMPLAR",
             "example_id": "ANN-f4e20b002bded05b",
             "similarity": 0.38,
             "source": "HUMAN_ANNOTATION"
@@ -8443,12 +10460,15 @@
         ]
       },
       "exemplar_hits": [
+        "ANN-193f32ad2d9de810",
+        "ANN-232cec354bd43aba",
         "ANN-23635a2218f45fb1",
         "ANN-691ab0ffea5a8ddd",
         "ANN-6ec15f56d38ae655",
         "ANN-b329cd231d2727ad",
         "ANN-bd1c8665a244842a",
         "ANN-c04041f0ac1c1e21",
+        "ANN-d1a7bee30a221feb",
         "ANN-f4e20b002bded05b",
         "LED-0b7fa62c14da5a5c",
         "LED-0f048a755a37745f",
@@ -8460,1567 +10480,6 @@
         "LED-6dd5155cd156c15c",
         "LED-7062981cf353b9e5",
         "LED-81165e4846882bbc",
-        "LED-817fa6b875cf569a",
-        "LED-95bd1fef92560afc",
-        "LED-99fe86b41548dd59",
-        "LED-cac5875be276379c",
-        "LED-e2f2e4b304ba82dc",
-        "LED-f026d494b5993efe",
-        "LED-f37595952e2a12d1"
-      ],
-      "prediction_status": "EXEMPLAR_ASSISTED",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-232cec354bd43aba",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "match_strength": 2,
-      "context_a": {
-        "indicators": {
-          "POPULATION": [
-            "people",
-            "peoples"
-          ],
-          "LOCALITY": [
-            "village"
-          ],
-          "REGIONAL": [
-            "coast"
-          ],
-          "BROAD": [
-            "general"
-          ],
-          "SPECIALIST": [
-            "craft"
-          ],
-          "SUPPORT": [
-            "supporting"
-          ]
-        },
-        "headings": [
-          "# HEARTH \u2014 COASTAL PEOPLES",
-          "## Cultural Base v0.2 \u2014 Communal Labor & Food Preservation Integrated",
-          "## Core cultural philosophy",
-          "## Community structure",
-          "## Generalist education",
-          "## Communal labor waves",
-          "### Fishing period",
-          "### Communal meal",
-          "### Craft/production period",
-          "### Exceptions",
-          "## Why communal labor works",
-          "## Social consequence"
-        ],
-        "scope_signals": [
-          "BROAD",
-          "REGIONAL",
-          "LOCAL_OR_SETTLEMENT"
-        ]
-      },
-      "context_b": {
-        "indicators": {
-          "POPULATION": [
-            "house",
-            "houses",
-            "people",
-            "peoples",
-            "population"
-          ],
-          "LOCALITY": [
-            "house",
-            "houses",
-            "local",
-            "settlement",
-            "village"
-          ],
-          "REGIONAL": [
-            "mountain",
-            "mountains",
-            "regional"
-          ],
-          "BROAD": [
-            "broad"
-          ],
-          "FAMILY": [
-            "birth",
-            "marriage",
-            "partnership"
-          ],
-          "SPECIALIST": [
-            "craft",
-            "specialist"
-          ],
-          "HISTORICAL": [
-            "historical"
-          ]
-        },
-        "headings": [
-          "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
-          "## Settlement",
-          "## Four Houses",
-          "### Food House",
-          "### Craft House",
-          "### Shelter & Terrain House",
-          "### Knowledge & Care House",
-          "## Universal knowledge",
-          "## Environmental specialization",
-          "## Existing Mountain social structure",
-          "## Supersession"
-        ],
-        "scope_signals": [
-          "BROAD",
-          "REGIONAL",
-          "LOCAL_OR_SETTLEMENT",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "derived_domain": "PEOPLES",
-      "derived_role": "CANON",
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.518,
-      "evidence_scores": {
-        "RELATED": 4.836601048851674,
-        "VARIANT": 4.492379000772448,
-        "HISTORICAL": 1.4113708498984763,
-        "COINCIDENTAL": 0.8,
-        "CONFLICT": 0.8,
-        "REVIEW": 0.8,
-        "MISPLACED": 0.12
-      },
-      "evidence_detail": {
-        "VARIANT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 15.0,
-            "proposed": "DUPLICATE",
-            "strength_fit": 0.4
-          },
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0b7fa62c14da5a5c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0f048a755a37745f",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-1f4d9425dc932d0d",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-2c7f63b3574579db",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-39a4c36724bf8d6a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-65689af3f1d0bce6",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-7062981cf353b9e5",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-95bd1fef92560afc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-99fe86b41548dd59",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-e2f2e4b304ba82dc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f026d494b5993efe",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f37595952e2a12d1",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "MISPLACED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "KEEP",
-            "strength_fit": 0.8
-          }
-        ],
-        "COINCIDENTAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "CONFLICT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "HISTORICAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 2.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-6dd5155cd156c15c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "RELATED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 7.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-691ab0ffea5a8ddd",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-6ec15f56d38ae655",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-b329cd231d2727ad",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-bd1c8665a244842a",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-c04041f0ac1c1e21",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-f4e20b002bded05b",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-69b887dbb229ad9a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-817fa6b875cf569a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-cac5875be276379c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "REVIEW": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ]
-      },
-      "exemplar_hits": [
-        "ANN-691ab0ffea5a8ddd",
-        "ANN-6ec15f56d38ae655",
-        "ANN-b329cd231d2727ad",
-        "ANN-bd1c8665a244842a",
-        "ANN-c04041f0ac1c1e21",
-        "ANN-f4e20b002bded05b",
-        "LED-0b7fa62c14da5a5c",
-        "LED-0f048a755a37745f",
-        "LED-1f4d9425dc932d0d",
-        "LED-2c7f63b3574579db",
-        "LED-39a4c36724bf8d6a",
-        "LED-65689af3f1d0bce6",
-        "LED-69b887dbb229ad9a",
-        "LED-6dd5155cd156c15c",
-        "LED-7062981cf353b9e5",
-        "LED-817fa6b875cf569a",
-        "LED-95bd1fef92560afc",
-        "LED-99fe86b41548dd59",
-        "LED-cac5875be276379c",
-        "LED-e2f2e4b304ba82dc",
-        "LED-f026d494b5993efe",
-        "LED-f37595952e2a12d1"
-      ],
-      "prediction_status": "EXEMPLAR_ASSISTED",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-193f32ad2d9de810",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "match_strength": 2,
-      "context_a": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "peoples"
-          ],
-          "REGIONAL": [
-            "plains"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ]
-        },
-        "headings": [
-          "# HEARTH PEOPLES \u2014 PLAINS",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "context_b": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "peoples"
-          ],
-          "REGIONAL": [
-            "desert"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ]
-        },
-        "headings": [
-          "# HEARTH PEOPLES \u2014 DESERT",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "derived_domain": "PEOPLES",
-      "derived_role": "CANON",
-      "proposed_signal": "DUPLICATE",
-      "predicted_classification": "VARIANT",
-      "confidence": 0.585,
-      "evidence_scores": {
-        "VARIANT": 5.129193338482969,
-        "RELATED": 3.6374901573277514,
-        "HISTORICAL": 0.16970562748477142,
-        "MISPLACED": 0.12,
-        "COINCIDENTAL": 0.12,
-        "CONFLICT": 0.12,
-        "REVIEW": 0.12
-      },
-      "evidence_detail": {
-        "VARIANT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 15.0,
-            "proposed": "DUPLICATE",
-            "strength_fit": 0.4
-          },
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0b7fa62c14da5a5c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0f048a755a37745f",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-1f4d9425dc932d0d",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-2c7f63b3574579db",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-39a4c36724bf8d6a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-65689af3f1d0bce6",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-7062981cf353b9e5",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-81165e4846882bbc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-99fe86b41548dd59",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-e2f2e4b304ba82dc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f026d494b5993efe",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f37595952e2a12d1",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "MISPLACED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "KEEP",
-            "strength_fit": 0.8
-          }
-        ],
-        "COINCIDENTAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "CONFLICT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "HISTORICAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 2.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "RELATED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 7.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-691ab0ffea5a8ddd",
-            "similarity": 0.58,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-6ec15f56d38ae655",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-b329cd231d2727ad",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-bd1c8665a244842a",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-c04041f0ac1c1e21",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-f4e20b002bded05b",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-69b887dbb229ad9a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-817fa6b875cf569a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-cac5875be276379c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "REVIEW": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ]
-      },
-      "exemplar_hits": [
-        "ANN-691ab0ffea5a8ddd",
-        "ANN-6ec15f56d38ae655",
-        "ANN-b329cd231d2727ad",
-        "ANN-bd1c8665a244842a",
-        "ANN-c04041f0ac1c1e21",
-        "ANN-f4e20b002bded05b",
-        "LED-0b7fa62c14da5a5c",
-        "LED-0f048a755a37745f",
-        "LED-1f4d9425dc932d0d",
-        "LED-2c7f63b3574579db",
-        "LED-39a4c36724bf8d6a",
-        "LED-65689af3f1d0bce6",
-        "LED-69b887dbb229ad9a",
-        "LED-7062981cf353b9e5",
-        "LED-81165e4846882bbc",
-        "LED-817fa6b875cf569a",
-        "LED-99fe86b41548dd59",
-        "LED-cac5875be276379c",
-        "LED-e2f2e4b304ba82dc",
-        "LED-f026d494b5993efe",
-        "LED-f37595952e2a12d1"
-      ],
-      "prediction_status": "EXEMPLAR_ASSISTED",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-ed460f945de5591e",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "match_strength": 1,
-      "context_a": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "peoples"
-          ],
-          "REGIONAL": [
-            "desert"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ]
-        },
-        "headings": [
-          "# HEARTH PEOPLES \u2014 DESERT",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "context_b": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "lineage",
-            "people",
-            "peoples"
-          ],
-          "LOCALITY": [
-            "village"
-          ],
-          "REGIONAL": [
-            "coast",
-            "desert",
-            "mountains",
-            "plains",
-            "regional",
-            "river",
-            "wetlands"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ],
-          "SPECIALIST": [
-            "lineage"
-          ],
-          "SUPPORT": [
-            "reference"
-          ]
-        },
-        "headings": [
-          "# HEARTH \u2014 COMPARATIVE REFERENCE",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "LOCAL_OR_SETTLEMENT",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "derived_domain": "PEOPLES",
-      "derived_role": "CANON",
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.532,
-      "evidence_scores": {
-        "RELATED": 5.965751311064592,
-        "VARIANT": 5.256189500386223,
-        "HISTORICAL": 1.6942135623730952,
-        "COINCIDENTAL": 1.0,
-        "CONFLICT": 1.0,
-        "REVIEW": 1.0,
-        "MISPLACED": 0.15
-      },
-      "evidence_detail": {
-        "VARIANT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 15.0,
-            "proposed": "DUPLICATE",
-            "strength_fit": 0.2
-          },
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0b7fa62c14da5a5c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0f048a755a37745f",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-1f4d9425dc932d0d",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-2c7f63b3574579db",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-39a4c36724bf8d6a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-65689af3f1d0bce6",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-7062981cf353b9e5",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-81165e4846882bbc",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-95bd1fef92560afc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-99fe86b41548dd59",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-e2f2e4b304ba82dc",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f026d494b5993efe",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f37595952e2a12d1",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "MISPLACED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "KEEP",
-            "strength_fit": 1.0
-          }
-        ],
-        "COINCIDENTAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          }
-        ],
-        "CONFLICT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          }
-        ],
-        "HISTORICAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 2.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-6dd5155cd156c15c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "RELATED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 7.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-691ab0ffea5a8ddd",
-            "similarity": 0.58,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-6ec15f56d38ae655",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-b329cd231d2727ad",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-bd1c8665a244842a",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-c04041f0ac1c1e21",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-f4e20b002bded05b",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-69b887dbb229ad9a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-817fa6b875cf569a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-cac5875be276379c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "REVIEW": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 1.0
-          }
-        ]
-      },
-      "exemplar_hits": [
-        "ANN-691ab0ffea5a8ddd",
-        "ANN-6ec15f56d38ae655",
-        "ANN-b329cd231d2727ad",
-        "ANN-bd1c8665a244842a",
-        "ANN-c04041f0ac1c1e21",
-        "ANN-f4e20b002bded05b",
-        "LED-0b7fa62c14da5a5c",
-        "LED-0f048a755a37745f",
-        "LED-1f4d9425dc932d0d",
-        "LED-2c7f63b3574579db",
-        "LED-39a4c36724bf8d6a",
-        "LED-65689af3f1d0bce6",
-        "LED-69b887dbb229ad9a",
-        "LED-6dd5155cd156c15c",
-        "LED-7062981cf353b9e5",
-        "LED-81165e4846882bbc",
-        "LED-817fa6b875cf569a",
-        "LED-95bd1fef92560afc",
-        "LED-99fe86b41548dd59",
-        "LED-cac5875be276379c",
-        "LED-e2f2e4b304ba82dc",
-        "LED-f026d494b5993efe",
-        "LED-f37595952e2a12d1"
-      ],
-      "prediction_status": "EXEMPLAR_ASSISTED",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-d1a7bee30a221feb",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "match_strength": 3,
-      "context_a": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "peoples"
-          ],
-          "REGIONAL": [
-            "coast"
-          ],
-          "BROAD": [
-            "broad"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ]
-        },
-        "headings": [
-          "# HEARTH PEOPLES \u2014 COAST",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "BROAD",
-          "REGIONAL",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "context_b": {
-        "indicators": {
-          "POPULATION": [
-            "family",
-            "peoples"
-          ],
-          "REGIONAL": [
-            "plains"
-          ],
-          "FAMILY": [
-            "birth",
-            "childhood",
-            "family"
-          ]
-        },
-        "headings": [
-          "# HEARTH PEOPLES \u2014 PLAINS",
-          "## Birth, Childhood & Coming-of-Age"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "derived_domain": "PEOPLES",
-      "derived_role": "CANON",
-      "proposed_signal": "DUPLICATE",
-      "predicted_classification": "VARIANT",
-      "confidence": 0.623,
-      "evidence_scores": {
-        "VARIANT": 5.873790007724453,
-        "RELATED": 3.558117617995814,
-        "HISTORICAL": 0.12727922061357855,
-        "MISPLACED": 0.09,
-        "COINCIDENTAL": 0.09,
-        "CONFLICT": 0.09,
-        "REVIEW": 0.09
-      },
-      "evidence_detail": {
-        "VARIANT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 15.0,
-            "proposed": "DUPLICATE",
-            "strength_fit": 0.6
-          },
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0b7fa62c14da5a5c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0f048a755a37745f",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-1f4d9425dc932d0d",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-2c7f63b3574579db",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-39a4c36724bf8d6a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-65689af3f1d0bce6",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-7062981cf353b9e5",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-81165e4846882bbc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-99fe86b41548dd59",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-e2f2e4b304ba82dc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f026d494b5993efe",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f37595952e2a12d1",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "MISPLACED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "KEEP",
-            "strength_fit": 0.6
-          }
-        ],
-        "COINCIDENTAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          }
-        ],
-        "CONFLICT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          }
-        ],
-        "HISTORICAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 2.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          }
-        ],
-        "RELATED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 7.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-691ab0ffea5a8ddd",
-            "similarity": 0.58,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-6ec15f56d38ae655",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-b329cd231d2727ad",
-            "similarity": 0.48,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-bd1c8665a244842a",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-c04041f0ac1c1e21",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-f4e20b002bded05b",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-69b887dbb229ad9a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-817fa6b875cf569a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-cac5875be276379c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "REVIEW": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.6
-          }
-        ]
-      },
-      "exemplar_hits": [
-        "ANN-691ab0ffea5a8ddd",
-        "ANN-6ec15f56d38ae655",
-        "ANN-b329cd231d2727ad",
-        "ANN-bd1c8665a244842a",
-        "ANN-c04041f0ac1c1e21",
-        "ANN-f4e20b002bded05b",
-        "LED-0b7fa62c14da5a5c",
-        "LED-0f048a755a37745f",
-        "LED-1f4d9425dc932d0d",
-        "LED-2c7f63b3574579db",
-        "LED-39a4c36724bf8d6a",
-        "LED-65689af3f1d0bce6",
-        "LED-69b887dbb229ad9a",
-        "LED-7062981cf353b9e5",
-        "LED-81165e4846882bbc",
-        "LED-817fa6b875cf569a",
-        "LED-99fe86b41548dd59",
-        "LED-cac5875be276379c",
-        "LED-e2f2e4b304ba82dc",
-        "LED-f026d494b5993efe",
-        "LED-f37595952e2a12d1"
-      ],
-      "prediction_status": "EXEMPLAR_ASSISTED",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-72e255c74d740ee4",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "match_strength": 2,
-      "context_a": {
-        "indicators": {
-          "POPULATION": [
-            "house",
-            "houses",
-            "lineage",
-            "people",
-            "peoples"
-          ],
-          "LOCALITY": [
-            "house",
-            "houses",
-            "settlement"
-          ],
-          "REGIONAL": [
-            "mountain"
-          ],
-          "SPECIALIST": [
-            "lineage",
-            "specialist"
-          ],
-          "HISTORICAL": [
-            "revision"
-          ]
-        },
-        "headings": [
-          "# HEARTH \u2014 ARUUNITE DEMOGRAPHIC WORKING MODEL",
-          "## Mountain Settlement Revision v0.1",
-          "### Revised Mountain settlement size",
-          "### Consequence for specialization"
-        ],
-        "scope_signals": [
-          "REGIONAL",
-          "LOCAL_OR_SETTLEMENT"
-        ]
-      },
-      "context_b": {
-        "indicators": {
-          "POPULATION": [
-            "house",
-            "houses",
-            "people",
-            "peoples",
-            "population"
-          ],
-          "LOCALITY": [
-            "house",
-            "houses",
-            "local",
-            "settlement",
-            "village"
-          ],
-          "REGIONAL": [
-            "mountain",
-            "mountains",
-            "regional"
-          ],
-          "BROAD": [
-            "broad"
-          ],
-          "FAMILY": [
-            "birth",
-            "marriage",
-            "partnership"
-          ],
-          "SPECIALIST": [
-            "craft",
-            "specialist"
-          ],
-          "HISTORICAL": [
-            "historical"
-          ]
-        },
-        "headings": [
-          "# HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
-          "## Settlement",
-          "## Four Houses",
-          "### Food House",
-          "### Craft House",
-          "### Shelter & Terrain House",
-          "### Knowledge & Care House",
-          "## Universal knowledge",
-          "## Environmental specialization",
-          "## Existing Mountain social structure",
-          "## Supersession"
-        ],
-        "scope_signals": [
-          "BROAD",
-          "REGIONAL",
-          "LOCAL_OR_SETTLEMENT",
-          "NARROW_SUBJECT"
-        ]
-      },
-      "derived_domain": "PEOPLES",
-      "derived_role": "CANON",
-      "proposed_signal": "MERGE",
-      "predicted_classification": "RELATED",
-      "confidence": 0.502,
-      "evidence_scores": {
-        "RELATED": 4.836601048851674,
-        "VARIANT": 4.7923790007724465,
-        "HISTORICAL": 1.5113708498984764,
-        "COINCIDENTAL": 0.8,
-        "CONFLICT": 0.8,
-        "REVIEW": 0.8,
-        "MISPLACED": 0.12
-      },
-      "evidence_detail": {
-        "VARIANT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 15.0,
-            "proposed": "DUPLICATE",
-            "strength_fit": 0.4
-          },
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0b7fa62c14da5a5c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-0f048a755a37745f",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-1f4d9425dc932d0d",
-            "similarity": 0.48,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-2c7f63b3574579db",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-39a4c36724bf8d6a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-65689af3f1d0bce6",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-7062981cf353b9e5",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-95bd1fef92560afc",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-99fe86b41548dd59",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-e2f2e4b304ba82dc",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f026d494b5993efe",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-f37595952e2a12d1",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "MISPLACED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "KEEP",
-            "strength_fit": 0.8
-          }
-        ],
-        "COINCIDENTAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "CONFLICT": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ],
-        "HISTORICAL": [
-          {
-            "kind": "HEURISTIC",
-            "support": 2.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-6dd5155cd156c15c",
-            "similarity": 0.38,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "RELATED": [
-          {
-            "kind": "HEURISTIC",
-            "support": 7.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-691ab0ffea5a8ddd",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-6ec15f56d38ae655",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-b329cd231d2727ad",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-bd1c8665a244842a",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-c04041f0ac1c1e21",
-            "similarity": 0.38,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "ANN-f4e20b002bded05b",
-            "similarity": 0.28,
-            "source": "HUMAN_ANNOTATION"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-69b887dbb229ad9a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-817fa6b875cf569a",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          },
-          {
-            "kind": "EXEMPLAR",
-            "example_id": "LED-cac5875be276379c",
-            "similarity": 0.28,
-            "source": "DECISION_LEDGER"
-          }
-        ],
-        "REVIEW": [
-          {
-            "kind": "HEURISTIC",
-            "support": 1.0,
-            "proposed": "MERGE",
-            "strength_fit": 0.8
-          }
-        ]
-      },
-      "exemplar_hits": [
-        "ANN-691ab0ffea5a8ddd",
-        "ANN-6ec15f56d38ae655",
-        "ANN-b329cd231d2727ad",
-        "ANN-bd1c8665a244842a",
-        "ANN-c04041f0ac1c1e21",
-        "ANN-f4e20b002bded05b",
-        "LED-0b7fa62c14da5a5c",
-        "LED-0f048a755a37745f",
-        "LED-1f4d9425dc932d0d",
-        "LED-2c7f63b3574579db",
-        "LED-39a4c36724bf8d6a",
-        "LED-65689af3f1d0bce6",
-        "LED-69b887dbb229ad9a",
-        "LED-6dd5155cd156c15c",
-        "LED-7062981cf353b9e5",
         "LED-817fa6b875cf569a",
         "LED-95bd1fef92560afc",
         "LED-99fe86b41548dd59",

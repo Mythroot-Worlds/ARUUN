@@ -4,17 +4,17 @@
   "holdout_size": 30,
   "annotation_count": 31,
   "unique_annotation_pairs": 31,
-  "matched_count": 17,
-  "unmatched_annotation_count": 14,
+  "matched_count": 13,
+  "unmatched_annotation_count": 18,
   "duplicate_annotation_count": 0,
-  "remaining_holdout_count": 13,
+  "remaining_holdout_count": 17,
   "matched": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.538,
+      "machine_confidence": 0.594,
       "match_strength": 2,
       "human_raw_choices": [
         "VARIANT"
@@ -27,7 +27,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.558,
+      "machine_confidence": 0.608,
       "match_strength": 1,
       "human_raw_choices": [
         "RELATED",
@@ -42,7 +42,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.517,
+      "machine_confidence": 0.578,
       "match_strength": 2,
       "human_raw_choices": [
         "RELATED"
@@ -55,7 +55,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.543,
+      "machine_confidence": 0.597,
       "match_strength": 2,
       "human_raw_choices": [
         "SUPPORTING",
@@ -69,7 +69,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.566,
+      "machine_confidence": 0.618,
       "match_strength": 1,
       "human_raw_choices": [
         "RELATED",
@@ -84,7 +84,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.562,
+      "machine_confidence": 0.602,
       "match_strength": 1,
       "human_raw_choices": [
         "RELATED",
@@ -94,38 +94,11 @@
       "requires_human_validation": true
     },
     {
-      "relationship_id": "REL-ed460f945de5591e",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.532,
-      "match_strength": 1,
-      "human_raw_choices": [
-        "RELATED",
-        "SUPPORTING"
-      ],
-      "human_reasoning": "Same people/cultural population; regional material versus comparative/continental treatment.",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-d1a7bee30a221feb",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "machine_prediction": "VARIANT",
-      "machine_confidence": 0.623,
-      "match_strength": 3,
-      "human_raw_choices": [
-        "RELATED"
-      ],
-      "human_reasoning": "Different peoples/groups, both narrow birth/childhood material.",
-      "requires_human_validation": true
-    },
-    {
       "relationship_id": "REL-e0cced50cb5960dc",
       "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "machine_prediction": "VARIANT",
-      "machine_confidence": 0.623,
+      "machine_confidence": 0.54,
       "match_strength": 3,
       "human_raw_choices": [
         "RELATED"
@@ -134,24 +107,11 @@
       "requires_human_validation": true
     },
     {
-      "relationship_id": "REL-193f32ad2d9de810",
-      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "machine_prediction": "VARIANT",
-      "machine_confidence": 0.585,
-      "match_strength": 2,
-      "human_raw_choices": [
-        "RELATED"
-      ],
-      "human_reasoning": "Same as previous: different regional family/birth material.",
-      "requires_human_validation": true
-    },
-    {
       "relationship_id": "REL-0b3c9d254927f41d",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.544,
+      "machine_confidence": 0.589,
       "match_strength": 2,
       "human_raw_choices": [
         "RELATED"
@@ -164,7 +124,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.54,
+      "machine_confidence": 0.581,
       "match_strength": 2,
       "human_raw_choices": [
         "VARIANT",
@@ -179,7 +139,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.536,
+      "machine_confidence": 0.591,
       "match_strength": 1,
       "human_raw_choices": [
         "RELATED"
@@ -192,7 +152,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.55,
+      "machine_confidence": 0.603,
       "match_strength": 2,
       "human_raw_choices": [
         "RELATED"
@@ -205,7 +165,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.526,
+      "machine_confidence": 0.582,
       "match_strength": 1,
       "human_raw_choices": [
         "RELATED"
@@ -218,25 +178,12 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.517,
+      "machine_confidence": 0.578,
       "match_strength": 2,
       "human_raw_choices": [
         "RELATED"
       ],
       "human_reasoning": "Broad continental family/birth versus broad regional culture.",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-232cec354bd43aba",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.518,
-      "match_strength": 2,
-      "human_raw_choices": [
-        "RELATED"
-      ],
-      "human_reasoning": "Broad region versus regional family/leadership document.",
       "requires_human_validation": true
     }
   ],
@@ -251,6 +198,23 @@
       "reasoning": "Broad family/birth framework versus narrower Mountain expression."
     },
     {
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING"
+      ],
+      "reasoning": "Same people/cultural population; regional material versus comparative/continental treatment."
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "reasoning": "Different peoples/groups, both narrow birth/childhood material."
+    },
+    {
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "raw_choices": [
@@ -258,6 +222,14 @@
         "SUPPORTING"
       ],
       "reasoning": "Same people/cultural population; regional view versus continental/comparative view."
+    },
+    {
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "reasoning": "Same as previous: different regional family/birth material."
     },
     {
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
@@ -344,6 +316,14 @@
       "reasoning": "Broad region versus broad leadership."
     },
     {
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "reasoning": "Broad region versus regional family/leadership document."
+    },
+    {
       "left": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/DEMOGRAPHIC_REVISION.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "raw_choices": [
@@ -367,28 +347,35 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.54
+      "machine_confidence": 0.594
     },
     {
       "relationship_id": "REL-edc3f66a40129c36",
       "left": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.54
+      "machine_confidence": 0.594
+    },
+    {
+      "relationship_id": "REL-8f6b30aeda301908",
+      "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "machine_prediction": "RELATED",
+      "machine_confidence": 0.57
     },
     {
       "relationship_id": "REL-094f1cdf5d63f669",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.523
+      "machine_confidence": 0.581
     },
     {
       "relationship_id": "REL-81ced73e96ffb9c2",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.523
+      "machine_confidence": 0.581
     },
     {
       "relationship_id": "REL-2be6660290dd8dcd",
@@ -402,21 +389,35 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.528
+      "machine_confidence": 0.584
+    },
+    {
+      "relationship_id": "REL-1002757d57552a92",
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "machine_prediction": "RELATED",
+      "machine_confidence": 0.554
     },
     {
       "relationship_id": "REL-bf8550b0e550648f",
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.54
+      "machine_confidence": 0.594
     },
     {
       "relationship_id": "REL-74005ef2a9834c37",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
-      "machine_prediction": "VARIANT",
-      "machine_confidence": 0.536
+      "machine_prediction": "RELATED",
+      "machine_confidence": 0.538
+    },
+    {
+      "relationship_id": "REL-8d0173eed0ee9b89",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "machine_prediction": "SUPPORTING",
+      "machine_confidence": 1.0
     },
     {
       "relationship_id": "REL-659da4a5d2dec8d9",
@@ -426,32 +427,39 @@
       "machine_confidence": 1.0
     },
     {
+      "relationship_id": "REL-638639b6f1914e6a",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "machine_prediction": "SUPPORTING",
+      "machine_confidence": 1.0
+    },
+    {
       "relationship_id": "REL-07d68f8fd95e7d76",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.545
+      "machine_confidence": 0.597
+    },
+    {
+      "relationship_id": "REL-4e6b02fc2580a7a2",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "machine_prediction": "RELATED",
+      "machine_confidence": 0.537
     },
     {
       "relationship_id": "REL-a35e805d70837fb9",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.54
+      "machine_confidence": 0.594
     },
     {
       "relationship_id": "REL-23ccfc9f889876b3",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.528
-    },
-    {
-      "relationship_id": "REL-72e255c74d740ee4",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.502
+      "machine_confidence": 0.584
     }
   ],
   "safety": {

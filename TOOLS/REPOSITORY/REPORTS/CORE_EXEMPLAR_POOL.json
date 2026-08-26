@@ -2,8 +2,272 @@
   "engine": "CORE A.C.E. Exemplar Pool",
   "schema_version": "2.0",
   "mode": "READ_ONLY",
-  "example_count": 54,
+  "example_count": 58,
   "examples": [
+    {
+      "example_id": "ANN-193f32ad2d9de810",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": null,
+      "reason": "Same as previous: different regional family/birth material.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "DESERT",
+          "PLAINS",
+          "REGIONAL"
+        ],
+        "function": [
+          "BIRTH",
+          "FAMILY"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "DESERT",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "DESERT",
+              "PLAINS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "b": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "shared": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "PLAINS",
+              "REGIONAL"
+            ],
+            "b": [
+              "DESERT",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": [
+              "DESERT",
+              "PLAINS"
+            ]
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "b": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "shared": [
+              "BIRTH",
+              "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-232cec354bd43aba",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": null,
+      "reason": "Broad region versus regional family/leadership document.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "COAST",
+          "REGION",
+          "REGIONAL"
+        ],
+        "function": [
+          "FAMILY",
+          "LEADERSHIP"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "COAST",
+              "REGION",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "different": [
+              "COAST"
+            ]
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "b": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "shared": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "COAST",
+              "REGION",
+              "REGIONAL"
+            ],
+            "b": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGION",
+              "REGIONAL"
+            ],
+            "different": [
+              "COAST"
+            ]
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "b": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "shared": [
+              "FAMILY",
+              "LEADERSHIP"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
     {
       "example_id": "ANN-23635a2218f45fb1",
       "relationship_id": null,
@@ -1163,6 +1427,104 @@
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
     },
     {
+      "example_id": "ANN-d1a7bee30a221feb",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "label": "RELATED",
+      "raw_choices": [
+        "RELATED"
+      ],
+      "proposed": null,
+      "reason": "Different peoples/groups, both narrow birth/childhood material.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "COAST",
+          "PLAINS"
+        ],
+        "function": [
+          "BIRTH",
+          "CHILDHOOD"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "COAST"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [],
+            "different": [
+              "COAST",
+              "PLAINS"
+            ]
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "b": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": {
+        "relationship": "RELATED",
+        "expected_factors": {
+          "meaningful_connection": true,
+          "distinguishing": "meaningfully connected subject matter without a stronger defining relationship"
+        },
+        "observed_factors": {
+          "scope": {
+            "a": [
+              "COAST"
+            ],
+            "b": [
+              "PLAINS"
+            ],
+            "shared": [],
+            "different": [
+              "COAST",
+              "PLAINS"
+            ]
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "b": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "shared": [
+              "BIRTH",
+              "CHILDHOOD"
+            ],
+            "different": []
+          }
+        },
+        "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
+        "status": "candidate"
+      },
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
       "example_id": "ANN-e793b0e075cf8c23",
       "relationship_id": null,
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
@@ -1223,6 +1585,67 @@
             ],
             "shared": [
               "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": null,
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-ed460f945de5591e",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING"
+      ],
+      "proposed": null,
+      "reason": "Same people/cultural population; regional material versus comparative/continental treatment.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "CONTINENTAL",
+          "DESERT",
+          "REGIONAL"
+        ],
+        "function": [],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "CONTINENTAL",
+              "DESERT",
+              "REGIONAL"
+            ],
+            "b": [
+              "CONTINENTAL",
+              "REGIONAL"
+            ],
+            "shared": [
+              "CONTINENTAL",
+              "REGIONAL"
+            ],
+            "different": [
+              "DESERT"
+            ]
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
             ],
             "different": []
           }

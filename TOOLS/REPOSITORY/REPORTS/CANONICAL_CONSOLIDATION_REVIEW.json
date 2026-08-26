@@ -1,7 +1,7 @@
 {
   "mode": "READ_ONLY",
   "review_only": true,
-  "unit_count": 106,
+  "unit_count": 108,
   "context_model": {
     "domains": [
       "ECOLOGY",
@@ -355,6 +355,53 @@
       ]
     },
     {
+      "unit": "The same person does not automatically lead every activity.",
+      "sources": [
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+        "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "text": "The same person does not automatically lead every activity."
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "text": "The same person does not automatically lead every activity."
+        }
+      ]
+    },
+    {
       "unit": "| People | Developmental emphasis |\n|---|---|\n| Plains | Carry your share |\n| Mountains | Master your lineage's knowledge |\n| River | Read the water and know the network |\n| Wetlands | Become useful to your group and village |\n| Desert | Learn knowledge from elders, then prove it in practice |\n| Coast | Become broadly capable and dependable |",
       "sources": [
         "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
@@ -444,6 +491,53 @@
           "domain": "WORLD",
           "role": "CANON",
           "text": "> **Don't get caught slipping. Trust has to be earned every day.**"
+        }
+      ]
+    },
+    {
+      "unit": "Mountain authority is strongly tied to **specialist houses and lineage heads**.",
+      "sources": [
+        "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+        "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH"
+          ]
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "folder": [
+            "03_PEOPLES",
+            "CULTURES",
+            "HEARTH",
+            "COMPARATIVE"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+          "domain": "PEOPLES",
+          "role": "CANON",
+          "text": "Mountain authority is strongly tied to **specialist houses and lineage heads**."
+        },
+        {
+          "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+          "domain": "PEOPLES",
+          "role": "REFERENCE",
+          "text": "Mountain authority is strongly tied to **specialist houses and lineage heads**."
         }
       ]
     },

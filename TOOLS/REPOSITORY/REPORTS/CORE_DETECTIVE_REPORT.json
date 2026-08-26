@@ -1992,7 +1992,7 @@
             "relationship": "VARIANT",
             "status": "DISQUALIFIED",
             "score": -11,
-            "description": "same information, same scope, wording/detail difference",
+            "description": "same underlying information, same relevant context, wording/detail/version difference",
             "required_factors": [
               "scope=SAME"
             ],
@@ -2104,6 +2104,9 @@
         "decisive_layers": [
           "subject"
         ],
+        "strongest_alternative": "RELATED",
+        "strongest_alternative_status": "VIABLE",
+        "strongest_alternative_reason": "score 6 did not clear winning margin over 11",
         "legacy_exemplar_override": false,
         "layered_constraints": {
           "excluded": [
@@ -8441,7 +8444,7 @@
             "relationship": "VARIANT",
             "status": "DISQUALIFIED",
             "score": -11,
-            "description": "same information, same scope, wording/detail difference",
+            "description": "same underlying information, same relevant context, wording/detail/version difference",
             "required_factors": [
               "scope=SAME"
             ],
@@ -8559,6 +8562,9 @@
         "decisive_layers": [
           "subject"
         ],
+        "strongest_alternative": "RELATED",
+        "strongest_alternative_status": "VIABLE",
+        "strongest_alternative_reason": "score 6 did not clear winning margin over 11",
         "legacy_exemplar_override": false,
         "layered_constraints": {
           "excluded": [
@@ -15250,7 +15256,7 @@
             "blocking_factors": [
               "subject expected SAME, observed DIFFERENT",
               "subject=DIFFERENT blocks hypothesis",
-              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE but does not itself force RELATED"
+              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE/CONFLICT but does not itself force RELATED"
             ],
             "decisive_dimensions": [
               "canon_status",
@@ -15263,7 +15269,7 @@
             "relationship": "VARIANT",
             "status": "DISQUALIFIED",
             "score": -33,
-            "description": "same information, same scope, wording/detail difference",
+            "description": "same underlying information, same relevant context, wording/detail/version difference",
             "required_factors": [],
             "supporting_factors": [
               "function=MIXED"
@@ -15272,7 +15278,7 @@
               "subject expected SAME, observed DIFFERENT",
               "scope expected SAME, observed MIXED",
               "subject=DIFFERENT blocks hypothesis",
-              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE but does not itself force RELATED"
+              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE/CONFLICT but does not itself force RELATED"
             ],
             "decisive_dimensions": [
               "scope",
@@ -15293,7 +15299,7 @@
               "subject expected SAME, observed DIFFERENT",
               "scope expected SAME, observed MIXED",
               "subject=DIFFERENT blocks hypothesis",
-              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE but does not itself force RELATED"
+              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE/CONFLICT but does not itself force RELATED"
             ],
             "decisive_dimensions": [
               "function",
@@ -15313,7 +15319,7 @@
               "subject expected SAME, observed DIFFERENT",
               "scope expected SAME, observed MIXED",
               "subject=DIFFERENT blocks hypothesis",
-              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE but does not itself force RELATED"
+              "layered ontology exclusion: subject differs; different context vetoes VARIANT/DUPLICATE/CONFLICT but does not itself force RELATED"
             ],
             "decisive_dimensions": [
               "scope",
@@ -15348,6 +15354,9 @@
           "subject",
           "context"
         ],
+        "strongest_alternative": "MISPLACED",
+        "strongest_alternative_status": "VIABLE",
+        "strongest_alternative_reason": "score 14 did not clear winning margin over 17",
         "legacy_exemplar_override": false,
         "layered_constraints": {
           "excluded": [
@@ -15364,7 +15373,7 @@
           ],
           "basis": [
             "subject differs",
-            "different context vetoes VARIANT/DUPLICATE but does not itself force RELATED"
+            "different context vetoes VARIANT/DUPLICATE/CONFLICT but does not itself force RELATED"
           ]
         }
       },

@@ -2,14 +2,14 @@
   "document_count": 100,
   "documents": [
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "NON_CANONICAL",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "Master",
+      "domain": "MASTER",
       "front_matter": {
         "canonical": "false",
         "domain": "Master",
@@ -41,19 +41,19 @@
         "sha256": "3740d5c88ab5080f253fe53e9555463286311f3fdbe20ff64bfec72205afad8e",
         "source_path": "00_MASTER/CANON_INDEX.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "NON_CANONICAL",
       "status": "working",
-      "subject": "index"
+      "subject": "Canon Index"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FOUNDATION_WORLD_PROFILE.md",
+      "domain": "MASTER",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -84,14 +84,14 @@
       "subject": "foundation_world_profile"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "WORLD_BIBLE.md",
+      "domain": "MASTER",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -122,14 +122,14 @@
       "subject": "world_bible"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "NON_CANONICAL",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "Master",
+      "domain": "MASTER",
       "front_matter": {
         "canonical": "false",
         "domain": "Master",
@@ -161,19 +161,19 @@
         "sha256": "7fbd05812d6654e3cfee861e7282ce6c0561e86ac182bbf5423a34d6d0c3ef0e",
         "source_path": "00_MASTER/WORLD_STATUS.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "NON_CANONICAL",
       "status": "working",
-      "subject": "world_status"
+      "subject": "World Status"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "CLIMATE",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -211,7 +211,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CLIMATE",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -242,14 +242,14 @@
       "subject": "ocean_marine_climate"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -280,14 +280,14 @@
       "subject": "human_settlement_overlay"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -318,14 +318,14 @@
       "subject": "current"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -356,14 +356,14 @@
       "subject": "hydrology_drainage"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -394,14 +394,14 @@
       "subject": "mythroot_continental_dossier"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -432,14 +432,14 @@
       "subject": "sunscour_oasis_network"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "LOST",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -470,14 +470,14 @@
       "subject": "dossier"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "RIFT",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -508,14 +508,14 @@
       "subject": "dossier"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "SHATTERED",
         "region": null,
         "regional_scope": false
       },
-      "domain": "CONTINENTS",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -546,14 +546,14 @@
       "subject": "dossier"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "PLANET",
+      "domain": "WORLD",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -584,14 +584,14 @@
       "subject": "tectonics"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -622,14 +622,14 @@
       "subject": "creature_library"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -660,14 +660,14 @@
       "subject": "00_readme"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -698,14 +698,14 @@
       "subject": "01_master_instructions"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -736,14 +736,14 @@
       "subject": "02_library_architecture"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -774,14 +774,14 @@
       "subject": "03_rapid_creation_template"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -812,14 +812,14 @@
       "subject": "04_style_feel"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -850,14 +850,14 @@
       "subject": "05_batch_prompt"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -888,14 +888,14 @@
       "subject": "06_world_context_creature_design"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -926,14 +926,14 @@
       "subject": "creature_necessity_sheet"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -964,14 +964,14 @@
       "subject": "fauna_function_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FAUNA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1002,14 +1002,14 @@
       "subject": "predictive_evolution_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1040,14 +1040,14 @@
       "subject": "flora_library"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1078,14 +1078,14 @@
       "subject": "edible_flora_expansion_handoff"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1116,14 +1116,14 @@
       "subject": "edible_flora_library"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1154,14 +1154,14 @@
       "subject": "flora_creation_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1192,14 +1192,14 @@
       "subject": "00_readme"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1230,14 +1230,14 @@
       "subject": "01_flora_function_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1268,14 +1268,14 @@
       "subject": "02_flora_creation_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "FLORA",
+      "domain": "ECOLOGY",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1306,14 +1306,14 @@
       "subject": "flora_function_matrix"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "COAST",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1344,14 +1344,14 @@
       "subject": ""
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "COAST",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1389,7 +1389,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1427,7 +1427,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1465,7 +1465,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1503,7 +1503,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1541,7 +1541,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1579,7 +1579,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1617,7 +1617,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1655,7 +1655,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1686,14 +1686,14 @@
       "subject": "cultural"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1724,14 +1724,14 @@
       "subject": "demographic_mountain"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "DESERT",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1762,14 +1762,14 @@
       "subject": ""
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "DESERT",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1800,14 +1800,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1838,14 +1838,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1876,14 +1876,14 @@
       "subject": "partnership"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1914,14 +1914,14 @@
       "subject": "governance_authority"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "MOUNTAINS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1952,14 +1952,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "MOUNTAINS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -1990,14 +1990,14 @@
       "subject": "specialist_houses"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "MOUNTAINS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2028,14 +2028,14 @@
       "subject": "specialist_lineages"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "PLAINS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2066,14 +2066,14 @@
       "subject": ""
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "PLAINS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2104,14 +2104,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "RIVER",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2142,14 +2142,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "WETLANDS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2180,14 +2180,14 @@
       "subject": ""
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
         "region": "WETLANDS",
         "regional_scope": true
       },
-      "domain": "CULTURES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2218,14 +2218,14 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "DEMOGRAPHICS",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2256,14 +2256,14 @@
       "subject": "human_population_geography"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": "SPECIES",
+      "domain": "PEOPLES",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2301,7 +2301,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2339,7 +2339,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2377,7 +2377,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2415,7 +2415,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2453,7 +2453,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2491,7 +2491,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2529,7 +2529,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "CHANGELOG_ADDITIONS",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2567,7 +2567,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2605,7 +2605,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2643,7 +2643,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2681,7 +2681,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2719,7 +2719,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2757,7 +2757,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2795,7 +2795,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2833,7 +2833,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2871,7 +2871,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2909,7 +2909,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2947,7 +2947,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -2985,7 +2985,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3023,7 +3023,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3061,7 +3061,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3099,7 +3099,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3137,7 +3137,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3175,7 +3175,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3213,7 +3213,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3251,7 +3251,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3289,7 +3289,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3327,7 +3327,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "HISTORICAL",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3365,7 +3365,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "MIGRATION",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3403,7 +3403,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "MIGRATION",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3441,7 +3441,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "MIGRATION",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3479,7 +3479,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "MIGRATION",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3517,7 +3517,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "UNCLASSIFIED",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3555,7 +3555,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "UNCLASSIFIED",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3593,7 +3593,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": "UNCLASSIFIED",
+      "domain": "ARCHIVE",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3624,14 +3624,14 @@
       "subject": "aruunite_pack_milking_animal_design_sheet"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": null,
+      "domain": "WORLD_ARTIFACT",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3662,14 +3662,14 @@
       "subject": "changelog"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": null,
+      "domain": "WORLD_ARTIFACT",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3707,7 +3707,7 @@
         "region": null,
         "regional_scope": false
       },
-      "domain": null,
+      "domain": "WORLD_ARTIFACT",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3738,14 +3738,14 @@
       "subject": "project_operating_rules"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": null,
+      "domain": "WORLD_ARTIFACT",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3776,14 +3776,14 @@
       "subject": "readme"
     },
     {
-      "authority_layer": "AUTHORITATIVE",
+      "authority_layer": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
         "region": null,
         "regional_scope": false
       },
-      "domain": null,
+      "domain": "WORLD_ARTIFACT",
       "front_matter": {},
       "identity_basis": [
         "path",
@@ -3815,7 +3815,7 @@
     }
   ],
   "engine": "CORE A.C.E.",
-  "inventory_sha256": "d82852677897c3dddeaa0b7f91f593d8f180c582568ebdb39f3e15c6a99f210c",
+  "inventory_sha256": "f157763fae39931010e221d862ac4a6801df0da75e81ce72f83916d65253d585",
   "mode": "READ_ONLY",
   "phase": "PHASE_1_CORPUS_INVENTORY",
   "safety": {
@@ -3824,15 +3824,5 @@
     "holdout_mutation": false,
     "source_mutation": false,
     "working_material_promotion": false
-  },
-  "source_policy": {
-    "excluded": [
-      "TOOLS",
-      "08_RELEASES",
-      "TOOLS/REPOSITORY/REPORTS",
-      ".github",
-      ".git"
-    ],
-    "included": "eligible corpus documents outside generated releases, reports, tooling, and repository metadata"
   }
 }

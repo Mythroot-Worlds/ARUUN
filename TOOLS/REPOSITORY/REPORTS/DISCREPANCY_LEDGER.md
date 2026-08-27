@@ -1338,7 +1338,7 @@
 
 ## META-0176 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CROSSCHECK_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CORPUS_INVENTORY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1346,7 +1346,7 @@
 
 ## META-0177 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CROSSCHECK_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CORPUS_INVENTORY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1354,7 +1354,7 @@
 
 ## META-0178 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DECIDING_FACTOR_AUDIT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CROSSCHECK_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1362,7 +1362,7 @@
 
 ## META-0179 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DECIDING_FACTOR_AUDIT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_CROSSCHECK_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1370,7 +1370,7 @@
 
 ## META-0180 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DETECTIVE_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DECIDING_FACTOR_AUDIT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1378,7 +1378,7 @@
 
 ## META-0181 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DETECTIVE_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DECIDING_FACTOR_AUDIT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1386,7 +1386,7 @@
 
 ## META-0182 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_DISPOSITION.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DETECTIVE_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1394,7 +1394,7 @@
 
 ## META-0183 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_DISPOSITION.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DETECTIVE_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1402,7 +1402,7 @@
 
 ## META-0184 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_TRIAGE.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_DISPOSITION.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1410,7 +1410,7 @@
 
 ## META-0185 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_TRIAGE.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_DISPOSITION.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1418,7 +1418,7 @@
 
 ## META-0186 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EVIDENCE_MATRIX.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_TRIAGE.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1426,7 +1426,7 @@
 
 ## META-0187 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EVIDENCE_MATRIX.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_DOCUMENT_TRIAGE.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1434,7 +1434,7 @@
 
 ## META-0188 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EXEMPLAR_POOL.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EVIDENCE_MATRIX.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1442,7 +1442,7 @@
 
 ## META-0189 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EXEMPLAR_POOL.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EVIDENCE_MATRIX.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1450,7 +1450,7 @@
 
 ## META-0190 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_HUMAN_RECONCILIATION.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EXEMPLAR_POOL.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1458,7 +1458,7 @@
 
 ## META-0191 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_HUMAN_RECONCILIATION.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_EXEMPLAR_POOL.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1466,7 +1466,7 @@
 
 ## META-0192 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_INFORMATION_UNITS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_HUMAN_RECONCILIATION.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1474,7 +1474,7 @@
 
 ## META-0193 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_INFORMATION_UNITS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_HUMAN_RECONCILIATION.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1482,7 +1482,7 @@
 
 ## META-0194 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_NIGHTWING_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_INFORMATION_UNITS.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1490,7 +1490,7 @@
 
 ## META-0195 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_NIGHTWING_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_INFORMATION_UNITS.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1498,7 +1498,7 @@
 
 ## META-0196 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ORACLE_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_NIGHTWING_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1506,7 +1506,7 @@
 
 ## META-0197 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ORACLE_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_NIGHTWING_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1514,7 +1514,7 @@
 
 ## META-0198 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_DISCOVERY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ORACLE_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1522,7 +1522,7 @@
 
 ## META-0199 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_DISCOVERY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ORACLE_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1530,7 +1530,7 @@
 
 ## META-0200 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_METRICS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_DISCOVERY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1538,7 +1538,7 @@
 
 ## META-0201 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_METRICS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_DISCOVERY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1546,7 +1546,7 @@
 
 ## META-0202 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_ONTOLOGY_V2.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_METRICS.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1554,7 +1554,7 @@
 
 ## META-0203 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_ONTOLOGY_V2.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_METRICS.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1562,7 +1562,7 @@
 
 ## META-0204 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_POLICY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_ONTOLOGY_V2.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1570,7 +1570,7 @@
 
 ## META-0205 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_POLICY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_ONTOLOGY_V2.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1578,7 +1578,7 @@
 
 ## META-0206 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ROBIN_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_POLICY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1586,7 +1586,7 @@
 
 ## META-0207 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ROBIN_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_RELATIONSHIP_POLICY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1594,7 +1594,7 @@
 
 ## META-0208 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_CLAIMS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ROBIN_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1602,7 +1602,7 @@
 
 ## META-0209 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_CLAIMS.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_ROBIN_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1610,7 +1610,7 @@
 
 ## META-0210 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_COMPARATOR.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_CLAIMS.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1618,7 +1618,7 @@
 
 ## META-0211 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_COMPARATOR.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_CLAIMS.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1626,7 +1626,7 @@
 
 ## META-0212 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_LIBRARY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_COMPARATOR.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1634,7 +1634,7 @@
 
 ## META-0213 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_LIBRARY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_COMPARATOR.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1642,7 +1642,7 @@
 
 ## META-0214 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_VARIANT_GATE.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_LIBRARY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1650,7 +1650,7 @@
 
 ## META-0215 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_VARIANT_GATE.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_SEMANTIC_LIBRARY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1658,7 +1658,7 @@
 
 ## META-0216 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_WORLD_BIBLE_LAYOUT_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_VARIANT_GATE.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1666,7 +1666,7 @@
 
 ## META-0217 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_WORLD_BIBLE_LAYOUT_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_VARIANT_GATE.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1674,7 +1674,7 @@
 
 ## META-0218 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_WORLD_BIBLE_LAYOUT_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1682,23 +1682,23 @@
 
 ## META-0219 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_OVERLAY.md`
-- **Finding:** Missing stable document id.
-- **Recommendation:** Assign a stable ID when the document is next actively edited.
-- **Related:** —
-- **Status:** open
-
-## META-0220 — WARNING
-- **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/CORE_WORLD_BIBLE_LAYOUT_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
 - **Status:** open
 
+## META-0220 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/DISCREPANCY_LEDGER.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
 ## META-0221 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1706,7 +1706,7 @@
 
 ## META-0222 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1714,7 +1714,7 @@
 
 ## META-0223 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1722,7 +1722,7 @@
 
 ## META-0224 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/COAST/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1730,7 +1730,7 @@
 
 ## META-0225 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1738,7 +1738,7 @@
 
 ## META-0226 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1746,7 +1746,7 @@
 
 ## META-0227 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1754,7 +1754,7 @@
 
 ## META-0228 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1762,7 +1762,7 @@
 
 ## META-0229 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1770,7 +1770,7 @@
 
 ## META-0230 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1778,7 +1778,7 @@
 
 ## META-0231 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1786,7 +1786,7 @@
 
 ## META-0232 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/DESERT/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1794,7 +1794,7 @@
 
 ## META-0233 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1802,7 +1802,7 @@
 
 ## META-0234 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1810,7 +1810,7 @@
 
 ## META-0235 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1818,7 +1818,7 @@
 
 ## META-0236 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/MOUNTAINS/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1826,7 +1826,7 @@
 
 ## META-0237 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1834,7 +1834,7 @@
 
 ## META-0238 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1842,7 +1842,7 @@
 
 ## META-0239 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1850,7 +1850,7 @@
 
 ## META-0240 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/PLAINS/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1858,7 +1858,7 @@
 
 ## META-0241 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1866,7 +1866,7 @@
 
 ## META-0242 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1874,7 +1874,7 @@
 
 ## META-0243 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1882,7 +1882,7 @@
 
 ## META-0244 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_OVERLAY.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/RIVER/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1890,7 +1890,7 @@
 
 ## META-0245 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_OVERLAY.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1898,7 +1898,7 @@
 
 ## META-0246 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_OVERLAY.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1906,7 +1906,7 @@
 
 ## META-0247 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1914,7 +1914,7 @@
 
 ## META-0248 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/HEARTH/WETLANDS/CONTINUITY_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1922,7 +1922,7 @@
 
 ## META-0249 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
@@ -1930,7 +1930,7 @@
 
 ## META-0250 — WARNING
 - **Category:** metadata
-- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Path:** `TOOLS/REPOSITORY/REPORTS/NAMING_REPORT.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
 - **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
 - **Related:** —
@@ -1938,13 +1938,29 @@
 
 ## META-0251 — WARNING
 - **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Finding:** Missing stable document id.
+- **Recommendation:** Assign a stable ID when the document is next actively edited.
+- **Related:** —
+- **Status:** open
+
+## META-0252 — WARNING
+- **Category:** metadata
+- **Path:** `TOOLS/REPOSITORY/REPORTS/REPOSITORY_INDEX.md`
+- **Finding:** No recognized frontmatter or inline Status metadata.
+- **Recommendation:** Migrate metadata when actively editing; do not rewrite historical files.
+- **Related:** —
+- **Status:** open
+
+## META-0253 — WARNING
+- **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md`
 - **Finding:** Missing stable document id.
 - **Recommendation:** Assign a stable ID when the document is next actively edited.
 - **Related:** —
 - **Status:** open
 
-## META-0252 — INFO
+## META-0254 — INFO
 - **Category:** status
 - **Path:** `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md`
 - **Finding:** Status vocabulary not yet mapped: canonical repository workflow rule.
@@ -1952,7 +1968,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0253 — WARNING
+## META-0255 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md`
 - **Finding:** Missing stable document id.
@@ -1960,7 +1976,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0254 — WARNING
+## META-0256 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md`
 - **Finding:** Missing stable document id.
@@ -1968,7 +1984,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0255 — WARNING
+## META-0257 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.
@@ -1976,7 +1992,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0256 — WARNING
+## META-0258 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** Missing stable document id.
@@ -1984,7 +2000,7 @@
 - **Related:** —
 - **Status:** open
 
-## META-0257 — WARNING
+## META-0259 — WARNING
 - **Category:** metadata
 - **Path:** `TOOLS/REPOSITORY/validator/core_variant_calibration.md`
 - **Finding:** No recognized frontmatter or inline Status metadata.

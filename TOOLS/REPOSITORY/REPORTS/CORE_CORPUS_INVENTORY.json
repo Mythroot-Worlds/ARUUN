@@ -2,7 +2,15 @@
   "document_count": 100,
   "documents": [
     {
+      "authority_evidence": [
+        {
+          "source": "front_matter",
+          "status": "NON_CANONICAL"
+        }
+      ],
+      "authority_evidence_count": 1,
       "authority_layer": "NON_CANONICAL",
+      "canonical_status": "NON_CANONICAL",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
@@ -46,7 +54,16 @@
       "subject": "Canon Index"
     },
     {
-      "authority_layer": "UNRESOLVED",
+      "authority_evidence": [
+        {
+          "source": "00_MASTER/CANON_INDEX.md",
+          "statement": "LOCKED CANON \u2014 original world concept, foundation reference.",
+          "status": "LOCKED_CANON"
+        }
+      ],
+      "authority_evidence_count": 1,
+      "authority_layer": "LOCKED_CANON",
+      "canonical_status": "LOCKED_CANON",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
@@ -84,7 +101,16 @@
       "subject": "foundation_world_profile"
     },
     {
-      "authority_layer": "UNRESOLVED",
+      "authority_evidence": [
+        {
+          "source": "00_MASTER/WORLD_BIBLE.md",
+          "statement": "Current authoritative World Bible for development.",
+          "status": "LOCKED_CANON"
+        }
+      ],
+      "authority_evidence_count": 1,
+      "authority_layer": "LOCKED_CANON",
+      "canonical_status": "LOCKED_CANON",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
@@ -122,7 +148,15 @@
       "subject": "world_bible"
     },
     {
+      "authority_evidence": [
+        {
+          "source": "front_matter",
+          "status": "NON_CANONICAL"
+        }
+      ],
+      "authority_evidence_count": 1,
       "authority_layer": "NON_CANONICAL",
+      "canonical_status": "NON_CANONICAL",
       "content_type": "MASTER",
       "cultural_scope": {
         "continent": null,
@@ -166,7 +200,10 @@
       "subject": "World Status"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -204,7 +241,10 @@
       "subject": "climate_overlay"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -242,7 +282,10 @@
       "subject": "ocean_marine_climate"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
@@ -280,7 +323,10 @@
       "subject": "human_settlement_overlay"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
@@ -318,7 +364,10 @@
       "subject": "current"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
@@ -356,7 +405,10 @@
       "subject": "hydrology_drainage"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
@@ -394,7 +446,10 @@
       "subject": "mythroot_continental_dossier"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "HEARTH",
@@ -432,7 +487,10 @@
       "subject": "sunscour_oasis_network"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "LOST",
@@ -470,7 +528,10 @@
       "subject": "dossier"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "RIFT",
@@ -508,7 +569,10 @@
       "subject": "dossier"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "GEOGRAPHY",
       "cultural_scope": {
         "continent": "SHATTERED",
@@ -546,7 +610,10 @@
       "subject": "dossier"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -584,7 +651,10 @@
       "subject": "tectonics"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -622,7 +692,10 @@
       "subject": "creature_library"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -655,12 +728,15 @@
         "sha256": "44637c92afc16dad81e51c0a809a1a90c740775f95559c03a27357414303f520",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "00_readme"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -693,12 +769,15 @@
         "sha256": "781bc0ae7df77b4642e340c9f17f5406335d512d289615f26b00abb839d3dc92",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "01_master_instructions"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -731,12 +810,15 @@
         "sha256": "7481b472b892a72ba06c6af9ca45b0ca951f9709760428ac82deefea0d4d1818",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "02_library_architecture"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -769,12 +851,15 @@
         "sha256": "04429515afcb6648e64b267d3c356bb1aac3382e1a362e08c79c041b986aeb80",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "03_rapid_creation_template"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -807,12 +892,15 @@
         "sha256": "dddb79104cff0d135417b78dc86d51ec399b6aa9c1695064aef649f4e8efa611",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "04_style_feel"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -845,12 +933,15 @@
         "sha256": "5085de623f909b93d9662c26b61e77d868065e2caf9b34e63b68ed4409d77e8e",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "05_batch_prompt"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -883,12 +974,15 @@
         "sha256": "4d8807360d2a0a61de42ec0f7d0fa16ca3b161235199db117c97a3e46645aaf3",
         "source_path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "06_world_context_creature_design"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -926,7 +1020,10 @@
       "subject": "creature_necessity_sheet"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -964,7 +1061,10 @@
       "subject": "fauna_function_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1002,7 +1102,10 @@
       "subject": "predictive_evolution_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1040,7 +1143,10 @@
       "subject": "flora_library"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1078,7 +1184,10 @@
       "subject": "edible_flora_expansion_handoff"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1116,7 +1225,10 @@
       "subject": "edible_flora_library"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1154,7 +1266,10 @@
       "subject": "flora_creation_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1187,12 +1302,15 @@
         "sha256": "12629cae2286b3544000731abf770d41265285da6a1ed9c2da14431cc4255aaf",
         "source_path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "00_readme"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1225,12 +1343,15 @@
         "sha256": "76570c2b4d8299d819fa819d8e3f522a5e23ace7b705d684944345d55b213338",
         "source_path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "01_flora_function_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1263,12 +1384,15 @@
         "sha256": "d37747702916aa8b8d079f68a7461725479ba503d5e7bee7f9154a0957db80e8",
         "source_path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md"
       },
-      "role": "AUTHORITATIVE",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "02_flora_creation_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "ECOLOGY",
       "cultural_scope": {
         "continent": null,
@@ -1306,7 +1430,10 @@
       "subject": "flora_function_matrix"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1344,7 +1471,10 @@
       "subject": ""
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1382,7 +1512,10 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1420,7 +1553,10 @@
       "subject": "birth_childhood"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1458,7 +1594,10 @@
       "subject": "cultural_matrix_developmental"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1496,7 +1635,10 @@
       "subject": "cultural_matrix_elders_aging_death"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1534,7 +1676,10 @@
       "subject": "cultural_matrix_kinship"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1572,7 +1717,10 @@
       "subject": "cultural_matrix_leadership_authority_governance"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1610,7 +1758,10 @@
       "subject": "cultural_matrix_religion_belief_ritual"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1648,7 +1799,10 @@
       "subject": "cultural_matrix_work_economy_resource_exchange"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1686,7 +1840,10 @@
       "subject": "cultural"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1724,7 +1881,10 @@
       "subject": "demographic_mountain"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1762,7 +1922,10 @@
       "subject": ""
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1800,7 +1963,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1838,7 +2004,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1876,7 +2045,10 @@
       "subject": "partnership"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1914,7 +2086,10 @@
       "subject": "governance_authority"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1952,7 +2127,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -1990,7 +2168,10 @@
       "subject": "specialist_houses"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2028,7 +2209,10 @@
       "subject": "specialist_lineages"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2066,7 +2250,10 @@
       "subject": ""
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2104,7 +2291,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2142,7 +2332,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2180,7 +2373,10 @@
       "subject": ""
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "CULTURE",
       "cultural_scope": {
         "continent": null,
@@ -2218,7 +2414,10 @@
       "subject": "birth_childhood"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2256,7 +2455,10 @@
       "subject": "human_population_geography"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2294,7 +2496,10 @@
       "subject": "human_evolution_research_track"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2332,7 +2537,10 @@
       "subject": "hydrology_changelog"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2370,7 +2578,10 @@
       "subject": "mythroot_project_changelog_coastal_communal_labor"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2408,7 +2619,10 @@
       "subject": "mythroot_project_changelog_lifekeepers"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2446,7 +2660,10 @@
       "subject": "mythroot_project_changelog_mountain_specialization"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2484,7 +2701,10 @@
       "subject": "mythroot_project_changelog_peoples"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2522,7 +2742,10 @@
       "subject": "mythroot_project_changelog_sunscour_oasis"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2560,7 +2783,10 @@
       "subject": "mythroot_project_changelog"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2593,12 +2819,15 @@
         "sha256": "3b3a3108894882f2c7245ad303055c6a9316d4921b60ed23543f97018a21eb57",
         "source_path": "07_ARCHIVE/HISTORICAL/CLIMATE/MYTHROOT_OCEAN_AND_MARINE_CLIMATE_REFERENCE_v0.1.md"
       },
-      "role": "HISTORICAL",
+      "role": "SUPPORTING",
       "status": null,
       "subject": "mythroot_ocean_marine_climate"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2636,7 +2865,10 @@
       "subject": "mythroot_prehistoric_world_concept"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2674,7 +2906,10 @@
       "subject": "peoples_cultural_base"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2712,7 +2947,10 @@
       "subject": "peoples_cultural_base"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2750,7 +2988,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2788,7 +3029,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2826,7 +3070,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2864,7 +3111,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2902,7 +3152,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2940,7 +3193,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -2978,7 +3234,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3016,7 +3275,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3054,7 +3316,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3092,7 +3357,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3130,7 +3398,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3168,7 +3439,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3206,7 +3480,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3244,7 +3521,10 @@
       "subject": "mythroot_prehistoric_master_world_bible"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3282,7 +3562,10 @@
       "subject": "mythroot_human_population_geography_layer"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3320,7 +3603,10 @@
       "subject": "mythroot_human_population_geography_layer"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3358,7 +3644,10 @@
       "subject": "mythroot_prehistoric_tectonic_model"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3396,7 +3685,10 @@
       "subject": "aruun_migration_2026_08_23"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3434,7 +3726,10 @@
       "subject": "readme"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3472,7 +3767,10 @@
       "subject": "repo_table_of_contents"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3510,7 +3808,10 @@
       "subject": "source_manifest"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3548,7 +3849,10 @@
       "subject": "aruunite_pack_milking_honey_insectoid"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3586,7 +3890,10 @@
       "subject": "aruunite_pack_milking_honey_insectoid"
     },
     {
-      "authority_layer": "HISTORICAL",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3624,7 +3931,10 @@
       "subject": "aruunite_pack_milking_animal_design_sheet"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3662,7 +3972,10 @@
       "subject": "changelog"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3700,7 +4013,10 @@
       "subject": "license"
     },
     {
-      "authority_layer": "SUPPORTING",
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3738,7 +4054,10 @@
       "subject": "project_operating_rules"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3776,7 +4095,10 @@
       "subject": "readme"
     },
     {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
       "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
       "content_type": "WORLD_ARTIFACT",
       "cultural_scope": {
         "continent": null,
@@ -3815,7 +4137,7 @@
     }
   ],
   "engine": "CORE A.C.E.",
-  "inventory_sha256": "f157763fae39931010e221d862ac4a6801df0da75e81ce72f83916d65253d585",
+  "inventory_sha256": "225ed8ccd5182b75d36f77737fd29eb1654d1b7f8f8410ddfa37bcee0d6da75b",
   "mode": "READ_ONLY",
   "phase": "PHASE_1_CORPUS_INVENTORY",
   "safety": {

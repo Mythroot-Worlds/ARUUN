@@ -2,8 +2,8 @@
 
 **Phase:** 1 — Corpus Inventory  
 **Mode:** READ-ONLY  
-**Documents in source corpus:** 100  
-**Inventory SHA-256:** `225ed8ccd5182b75d36f77737fd29eb1654d1b7f8f8410ddfa37bcee0d6da75b`
+**Documents in source corpus:** 101  
+**Inventory SHA-256:** `72ad0b42ee5e9d8e7e607b2a0b7e7c0574e768ef0d4a56c01b7c8cef026feec7`
 
 ## Safety
 - Source mutation: **OFF**
@@ -15,10 +15,10 @@
 ## Summary by canonical status
 - `LOCKED_CANON`: **2**
 - `NON_CANONICAL`: **2**
-- `UNRESOLVED`: **96**
+- `UNRESOLVED`: **97**
 
 ## Summary by role
-- `AUTHORITATIVE`: **43**
+- `AUTHORITATIVE`: **44**
 - `HISTORICAL`: **34**
 - `NON_CANONICAL`: **2**
 - `SUPPORTING`: **21**
@@ -29,7 +29,7 @@
 - `MASTER`: **4**
 - `PEOPLES`: **26**
 - `WORLD`: **11**
-- `WORLD_ARTIFACT`: **5**
+- `WORLD_ARTIFACT`: **6**
 
 ## Review cases
 
@@ -130,6 +130,7 @@
 - `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.2.md` — subject=`aruunite_pack_milking_honey_insectoid`, domain=`ARCHIVE`, type=`WORLD_ARTIFACT`, role=`HISTORICAL`, canonical_status=`UNRESOLVED`, evidence=0
 - `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_ANIMAL_DESIGN_SHEET.md` — subject=`aruunite_pack_milking_animal_design_sheet`, domain=`ARCHIVE`, type=`WORLD_ARTIFACT`, role=`HISTORICAL`, canonical_status=`UNRESOLVED`, evidence=0
 - `CHANGELOG.md` — subject=`changelog`, domain=`WORLD_ARTIFACT`, type=`WORLD_ARTIFACT`, role=`AUTHORITATIVE`, canonical_status=`UNRESOLVED`, evidence=0
+- `HANDOFF_HEARTH_CULTURE_COMPLETION.md` — subject=`handoff_culture_completion`, domain=`WORLD_ARTIFACT`, type=`WORLD_ARTIFACT`, role=`AUTHORITATIVE`, canonical_status=`UNRESOLVED`, evidence=0
 - `LICENSE.md` — subject=`license`, domain=`WORLD_ARTIFACT`, type=`WORLD_ARTIFACT`, role=`AUTHORITATIVE`, canonical_status=`UNRESOLVED`, evidence=0
 - `PROJECT_OPERATING_RULES.md` — subject=`project_operating_rules`, domain=`WORLD_ARTIFACT`, type=`WORLD_ARTIFACT`, role=`SUPPORTING`, canonical_status=`UNRESOLVED`, evidence=0
 - `README.md` — subject=`readme`, domain=`WORLD_ARTIFACT`, type=`WORLD_ARTIFACT`, role=`AUTHORITATIVE`, canonical_status=`UNRESOLVED`, evidence=0

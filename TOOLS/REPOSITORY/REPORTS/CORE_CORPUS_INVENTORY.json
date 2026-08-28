@@ -1,5 +1,5 @@
 {
-  "document_count": 100,
+  "document_count": 101,
   "documents": [
     {
       "authority_evidence": [
@@ -4003,6 +4003,47 @@
         "status_name": null,
         "subject_token": null
       },
+      "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+      "provenance": {
+        "sha256": "62348a581a30b8adae505a3230667fc2046c364a33e99f59bc1ef9e1aa2b2d87",
+        "source_path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md"
+      },
+      "role": "AUTHORITATIVE",
+      "status": null,
+      "subject": "handoff_culture_completion"
+    },
+    {
+      "authority_evidence": [],
+      "authority_evidence_count": 0,
+      "authority_layer": "UNRESOLVED",
+      "canonical_status": "UNRESOLVED",
+      "content_type": "WORLD_ARTIFACT",
+      "cultural_scope": {
+        "continent": null,
+        "region": null,
+        "regional_scope": false
+      },
+      "domain": "WORLD_ARTIFACT",
+      "front_matter": {},
+      "identity_basis": [
+        "path",
+        "filename",
+        "document_naming_status_codes"
+      ],
+      "identity_confidence": {
+        "region": "LOW",
+        "scope": "LOW"
+      },
+      "identity_layer": "GENERAL_ARTIFACT",
+      "naming": {
+        "basis": "legacy_or_unstructured_filename",
+        "normalized": false,
+        "record_id": null,
+        "scope_token": null,
+        "status_code": null,
+        "status_name": null,
+        "subject_token": null
+      },
       "path": "LICENSE.md",
       "provenance": {
         "sha256": "cdd2e5348e14cb3c63e1fd8c8c539ea8b6e6f235e1730c08b9674f5885d0faff",
@@ -4137,7 +4178,7 @@
     }
   ],
   "engine": "CORE A.C.E.",
-  "inventory_sha256": "225ed8ccd5182b75d36f77737fd29eb1654d1b7f8f8410ddfa37bcee0d6da75b",
+  "inventory_sha256": "72ad0b42ee5e9d8e7e607b2a0b7e7c0574e768ef0d4a56c01b7c8cef026feec7",
   "mode": "READ_ONLY",
   "phase": "PHASE_1_CORPUS_INVENTORY",
   "safety": {

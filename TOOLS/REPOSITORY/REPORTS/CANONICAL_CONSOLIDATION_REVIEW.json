@@ -1,7 +1,7 @@
 {
   "mode": "READ_ONLY",
   "review_only": true,
-  "unit_count": 109,
+  "unit_count": 113,
   "context_model": {
     "domains": [
       "ECOLOGY",
@@ -21,6 +21,229 @@
     ]
   },
   "items": [
+    {
+      "unit": "Cross-cultural relationships with other Hearth peoples",
+      "sources": [
+        "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+        "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "folder": []
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "HANDOFFS"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "text": "Cross-cultural relationships with other Hearth peoples"
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "cross-cultural relationships with other Hearth peoples;"
+        }
+      ]
+    },
+    {
+      "unit": "`TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md`",
+      "sources": [
+        "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+        "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "folder": []
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "HANDOFFS"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "text": "`TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md`"
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "`TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md`"
+        }
+      ]
+    },
+    {
+      "unit": "`[SCOPE]_[SUBJECT]_[STATUS]-[ID].md`",
+      "sources": [
+        "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+        "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "folder": []
+        },
+        {
+          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "REPOSITORY",
+            "RULES"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "text": "`[SCOPE]_[SUBJECT]_[STATUS]-[ID].md`"
+        },
+        {
+          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "`[SCOPE]_[SUBJECT]_[STATUS]-[ID].md`"
+        }
+      ]
+    },
+    {
+      "unit": "`RIVER_FAMILY_C-0001.md`",
+      "sources": [
+        "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+        "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+        "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md"
+      ],
+      "occurrences": 3,
+      "contexts": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "folder": []
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "HANDOFFS"
+          ]
+        },
+        {
+          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "REPOSITORY",
+            "RULES"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "text": "`RIVER_FAMILY_C-0001.md`"
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "`RIVER_FAMILY_C-0001.md`"
+        },
+        {
+          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "`RIVER_FAMILY_C-0001.md`"
+        }
+      ]
+    },
+    {
+      "unit": "Total surface: ~**1.148 billion km\u00b2",
+      "sources": [
+        "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+        "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "folder": []
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "folder": [
+            "TOOLS",
+            "HANDOFFS"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+          "domain": "OTHER",
+          "role": "CANON",
+          "text": "Total surface: ~**1.148 billion km\u00b2"
+        },
+        {
+          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+          "domain": "TOOLS",
+          "role": "TOOL",
+          "text": "Total surface: ~1.148 billion km\u00b2"
+        }
+      ]
+    },
     {
       "unit": "Hearth: ~1.5 million",
       "sources": [
@@ -269,51 +492,6 @@
           "domain": "WORLD",
           "role": "CANON",
           "text": "**Lost:** Deep-time independence."
-        }
-      ]
-    },
-    {
-      "unit": "`RIVER_FAMILY_C-0001.md`",
-      "sources": [
-        "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
-        "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md"
-      ],
-      "occurrences": 2,
-      "contexts": [
-        {
-          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
-          "domain": "TOOLS",
-          "role": "TOOL",
-          "folder": [
-            "TOOLS",
-            "HANDOFFS"
-          ]
-        },
-        {
-          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
-          "domain": "TOOLS",
-          "role": "TOOL",
-          "folder": [
-            "TOOLS",
-            "REPOSITORY",
-            "RULES"
-          ]
-        }
-      ],
-      "status": "SHARED_EVIDENCE",
-      "decision": "UNRESOLVED",
-      "provenance": [
-        {
-          "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
-          "domain": "TOOLS",
-          "role": "TOOL",
-          "text": "`RIVER_FAMILY_C-0001.md`"
-        },
-        {
-          "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
-          "domain": "TOOLS",
-          "role": "TOOL",
-          "text": "`RIVER_FAMILY_C-0001.md`"
         }
       ]
     },

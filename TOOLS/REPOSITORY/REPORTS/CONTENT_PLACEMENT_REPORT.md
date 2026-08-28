@@ -3,7 +3,7 @@
 **Mode:** READ-ONLY
 **Scope:** `ALL_ACTIVE_NON_GENERATED_CONTENT`
 
-Documents analyzed: 82
+Documents analyzed: 83
 Placement candidates: 12
 
 Structural document identity is evaluated before semantic regional routing. Geography is not redirected into culture solely from body-language overlap.

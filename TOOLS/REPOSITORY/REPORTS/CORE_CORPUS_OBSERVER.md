@@ -15,123 +15,123 @@ Documents in scope: **117**
 - Filename as deciding factor: **OFF**
 
 ## Observation contract
-Document-derived information is recorded first. Existing structural and artifact identity is retained as contextual evidence for downstream engines; unresolved information remains unresolved.
+Document-derived information is recorded first. Existing structural/artifact identity and the established information-unit extractor are contextual evidence for downstream engines; unresolved information remains unresolved.
 
 ## Inventory
-- `00_MASTER/CANON_INDEX.md` — subject=`Canon Index`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `00_MASTER/FOUNDATION_WORLD_PROFILE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `00_MASTER/WORLD_BIBLE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`OVERVIEW`
-- `00_MASTER/WORLD_STATUS.md` — subject=`World Status`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/LOST/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/RIFT/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `01_WORLD/PLANET/TECTONICS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/CREATURE_NECESSITY_SHEET.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/EDIBLE_FLORA_EXPANSION_HANDOFF.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COAST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`AUDIT`
-- `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/DESERT.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/PLAINS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `03_PEOPLES/SPECIES/HUMAN_EVOLUTION_RESEARCH_TRACK.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/HEARTH_HYDROLOGY_CHANGELOG_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_COASTAL_COMMUNAL_LABOR_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_DESERT_LIFEKEEPERS_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_MOUNTAIN_SPECIALIZATION_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_PEOPLES_v0.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_SUNSCOUR_OASIS_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/CLIMATE/MYTHROOT_OCEAN_AND_MARINE_CLIMATE_REFERENCE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/FOUNDATION_WORLD_PROFILE/Mythroot_Prehistoric_World_Concept_v1.0.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.4.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.5.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.6.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.7.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.9.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.0.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.4.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/HISTORICAL/TECTONICS/MYTHROOT_PREHISTORIC_TECTONIC_MODEL_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/MIGRATION/ARUUN_DOCUMENT_MIGRATION_2026-08-23.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/MIGRATION/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/MIGRATION/REPO_TABLE_OF_CONTENTS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/MIGRATION/SOURCE_MANIFEST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_ANIMAL_DESIGN_SHEET.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`
-- `CHANGELOG.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `HANDOFF_HEARTH_CULTURE_COMPLETION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `LICENSE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `PROJECT_OPERATING_RULES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md` — subject=`family.birth_childhood`, domain=`peoples`, cultural_scope=`regional`, authority=`regional`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/CONTENT_LINEAGE_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/CONTENT_PLACEMENT_AUDIT_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`AUDIT`
-- `TOOLS/REPOSITORY/CONTINUITY_ENGINE_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/LIVE_TEST/HEARTH_LIVE_TEST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/PLACEMENT_CALIBRATION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RECONCILIATION/DISCREPANCY_LOG.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RECONCILIATION/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RECONCILIATION/REVIEW_PROTOCOL.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RECONCILIATION/REVIEW_QUEUE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RECONCILIATION/VERSION_OVERLAY_SPEC.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
-- `TOOLS/REPOSITORY/validator/core_variant_calibration.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`
+- `00_MASTER/CANON_INDEX.md` — subject=`Canon Index`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
+- `00_MASTER/FOUNDATION_WORLD_PROFILE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`218`
+- `00_MASTER/WORLD_BIBLE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`OVERVIEW`, information_units=`188`
+- `00_MASTER/WORLD_STATUS.md` — subject=`World Status`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`7`
+- `01_WORLD/CLIMATE/CLIMATE_OVERLAY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`50`
+- `01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`25`
+- `01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`254`
+- `01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`173`
+- `01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`81`
+- `01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`19`
+- `01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`137`
+- `01_WORLD/CONTINENTS/LOST/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `01_WORLD/CONTINENTS/RIFT/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `01_WORLD/PLANET/TECTONICS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`132`
+- `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`534`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`15`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`36`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`10`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`46`
+- `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`132`
+- `02_ECOLOGY/FAUNA/CREATURE_NECESSITY_SHEET.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`114`
+- `02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`101`
+- `02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`74`
+- `02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`158`
+- `02_ECOLOGY/FLORA/EDIBLE_FLORA_EXPANSION_HANDOFF.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`59`
+- `02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`224`
+- `02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`44`
+- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
+- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`36`
+- `02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`44`
+- `02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`93`
+- `03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`7`
+- `03_PEOPLES/CULTURES/HEARTH/COAST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`74`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`3`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`52`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`108`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`31`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`106`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`73`
+- `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`92`
+- `03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`AUDIT`, information_units=`118`
+- `03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`7`
+- `03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`10`
+- `03_PEOPLES/CULTURES/HEARTH/DESERT.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`76`
+- `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`44`
+- `03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`277`
+- `03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`154`
+- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
+- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`12`
+- `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`5`
+- `03_PEOPLES/CULTURES/HEARTH/PLAINS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`50`
+- `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
+- `03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
+- `03_PEOPLES/CULTURES/HEARTH/WETLANDS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`18`
+- `03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`132`
+- `03_PEOPLES/SPECIES/HUMAN_EVOLUTION_RESEARCH_TRACK.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`49`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/HEARTH_HYDROLOGY_CHANGELOG_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`9`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_COASTAL_COMMUNAL_LABOR_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`23`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_DESERT_LIFEKEEPERS_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`18`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_MOUNTAIN_SPECIALIZATION_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`9`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_PEOPLES_v0.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`22`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_SUNSCOUR_OASIS_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`20`
+- `07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`84`
+- `07_ARCHIVE/HISTORICAL/CLIMATE/MYTHROOT_OCEAN_AND_MARINE_CLIMATE_REFERENCE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`99`
+- `07_ARCHIVE/HISTORICAL/FOUNDATION_WORLD_PROFILE/Mythroot_Prehistoric_World_Concept_v1.0.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`111`
+- `07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`20`
+- `07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`46`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`176`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`197`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`208`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.4.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`214`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.5.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`241`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.6.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`286`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.7.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`338`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`312`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.9.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`162`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.0.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`183`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`244`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`238`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.3.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`251`
+- `07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.4.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`157`
+- `07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`121`
+- `07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`125`
+- `07_ARCHIVE/HISTORICAL/TECTONICS/MYTHROOT_PREHISTORIC_TECTONIC_MODEL_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`39`
+- `07_ARCHIVE/MIGRATION/ARUUN_DOCUMENT_MIGRATION_2026-08-23.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`22`
+- `07_ARCHIVE/MIGRATION/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`5`
+- `07_ARCHIVE/MIGRATION/REPO_TABLE_OF_CONTENTS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`28`
+- `07_ARCHIVE/MIGRATION/SOURCE_MANIFEST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`17`
+- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`57`
+- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.2.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`67`
+- `07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_ANIMAL_DESIGN_SHEET.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`ARCHIVE`, information_units=`147`
+- `CHANGELOG.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`80`
+- `HANDOFF_HEARTH_CULTURE_COMPLETION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`80`
+- `LICENSE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`2`
+- `PROJECT_OPERATING_RULES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`78`
+- `README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`9`
+- `TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`104`
+- `TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md` — subject=`family.birth_childhood`, domain=`peoples`, cultural_scope=`regional`, authority=`regional`, artifact_role=`UNKNOWN`, information_units=`141`
+- `TOOLS/REPOSITORY/CONTENT_LINEAGE_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `TOOLS/REPOSITORY/CONTENT_PLACEMENT_AUDIT_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`AUDIT`, information_units=`20`
+- `TOOLS/REPOSITORY/CONTINUITY_ENGINE_SPEC_v0.1.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`12`
+- `TOOLS/REPOSITORY/LIVE_TEST/HEARTH_LIVE_TEST.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`15`
+- `TOOLS/REPOSITORY/PLACEMENT_CALIBRATION.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`10`
+- `TOOLS/REPOSITORY/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`14`
+- `TOOLS/REPOSITORY/RECONCILIATION/DISCREPANCY_LOG.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`9`
+- `TOOLS/REPOSITORY/RECONCILIATION/README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`2`
+- `TOOLS/REPOSITORY/RECONCILIATION/REVIEW_PROTOCOL.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`17`
+- `TOOLS/REPOSITORY/RECONCILIATION/REVIEW_QUEUE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`5`
+- `TOOLS/REPOSITORY/RECONCILIATION/VERSION_OVERLAY_SPEC.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`5`
+- `TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`35`
+- `TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`20`
+- `TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`10`
+- `TOOLS/REPOSITORY/validator/core_variant_calibration.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`9`

@@ -1,0 +1,5637 @@
+{
+  "engine": "CORE A.C.E. Corpus Observer",
+  "phase": "1 \u2014 Corpus Inventory / observation boundary",
+  "mode": "READ_ONLY",
+  "documents_in_scope": 117,
+  "documents": [
+    {
+      "path": "00_MASTER/CANON_INDEX.md",
+      "document": {
+        "subject": "Canon Index",
+        "domain": "Master",
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": "working",
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "domain",
+          "status",
+          "subject"
+        ],
+        "headings": [
+          "Aruun \u2014 Canon Index",
+          "Domain map",
+          "00_MASTER \u2014 synthesis",
+          "01_WORLD \u2014 locked/stable",
+          "02_ECOLOGY \u2014 libraries established, expansion open",
+          "03_PEOPLES \u2014 Hearth deep, others thin",
+          "04_HISTORY \u2014 OPEN",
+          "05_SYSTEMS \u2014 OPEN"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "canon_index",
+        "role": "canon_index",
+        "purpose": "canon_index",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "frontmatter",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "3740d5c88ab5080f253fe53e9555463286311f3fdbe20ff64bfec72205afad8e",
+        "identity_basis": [],
+        "identity_source": "frontmatter"
+      }
+    },
+    {
+      "path": "00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT PREHISTORIC / ANACHRONISTIC SURVIVAL FANTASY WORLD PROFILE",
+          "Specialized Worldbuilding Profile \u2014 v1",
+          "1. Purpose",
+          "2. Prehistoric / Anachronistic Survival Fantasy Identity",
+          "Core Definition",
+          "Core World Premise",
+          "Core Creative Promise",
+          "Intended Experience"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "foundation_world_profile",
+        "role": "foundation_world_profile",
+        "purpose": "foundation_world_profile",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "4b1d8f25146f90fa06ddc888cb57c148d60954c9ab0208aaf4abb722c2870087",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "00_MASTER/WORLD_BIBLE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 PREHISTORIC MASTER WORLD BIBLE",
+          "Preservation & Canon Update \u2014 v1.5",
+          "CANON STATUS RULE",
+          "LOCKED CANON",
+          "FLEXIBLE / PROVISIONAL",
+          "OPEN",
+          "UNKNOWN",
+          "WORKING INFERENCE"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "world_bible",
+        "role": "world_bible",
+        "purpose": "world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "OVERVIEW"
+      },
+      "artifact_role": "OVERVIEW",
+      "provenance": {
+        "content_sha256": "811f5348f4289ceec51142dcbb5256437fc8634f040672812fba19ccf11265dd",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "00_MASTER/WORLD_STATUS.md",
+      "document": {
+        "subject": "World Status",
+        "domain": "Master",
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": "working",
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "domain",
+          "status",
+          "subject"
+        ],
+        "headings": [
+          "Aruun \u2014 World Status",
+          "At a glance",
+          "Near-term priorities (suggested)",
+          "Repository housekeeping note (2026-08-23)"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "world_status",
+        "role": "world_status",
+        "purpose": "world_status",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "frontmatter",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "7fbd05812d6654e3cfee861e7282ce6c0561e86ac182bbf5423a34d6d0c3ef0e",
+        "identity_basis": [],
+        "identity_source": "frontmatter"
+      }
+    },
+    {
+      "path": "01_WORLD/CLIMATE/CLIMATE_OVERLAY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World \u2014 Climate Overlay v0.1",
+          "Planetary inputs",
+          "Global climate logic",
+          "Broad belts",
+          "HEARTH \u2014 connected abundance",
+          "SHATTERED \u2014 fragmented climates",
+          "RIFT \u2014 climate shaped by active geology",
+          "LOST \u2014 deep-time isolation"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "climate_overlay",
+        "role": "climate_overlay",
+        "purpose": "climate_overlay",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "c49f18bbb9d741ad4b1b0a4561ddde3d12b11415bc0627ed6ccd1f8f92110cf5",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CLIMATE/OCEAN_AND_MARINE_CLIMATE_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 OCEAN & MARINE CLIMATE REFERENCE v0.2",
+          "Purpose",
+          "Scientific foundation",
+          "Working circulation",
+          "Hearthward Gyre \u2014 Northern subtropical basin",
+          "Equatorial Drift",
+          "Lostward Gyre \u2014 Southern subtropical basin",
+          "Upwelling"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "ocean_and_marine_climate_reference",
+        "role": "ocean_and_marine_climate_reference",
+        "purpose": "ocean_and_marine_climate_reference",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "dea080aad9b8dcbba5ea98b31162fec31ef905763593cac015be72c9b21c6ffb",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/HEARTH/GEOGRAPHY/HUMAN_SETTLEMENT_OVERLAY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Source: HEARTH_HUMAN_SETTLEMENT_GEOGRAPHY_OVERLAY_v0.1.md",
+          "HEARTH \u2014 HUMAN SETTLEMENT GEOGRAPHY OVERLAY",
+          "Peoples Phase Working Layer v0.1",
+          "Purpose",
+          "1. LOCKED STARTING POINT",
+          "2. MAP REGIONS TO OVERLAY",
+          "3. FIRST-PASS HUMAN ZONES",
+          "A. GREAT PLAINS"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "human_settlement_overlay",
+        "role": "human_settlement_overlay",
+        "purpose": "human_settlement_overlay",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "061fff15cad6ed5c3b7947c56773876c6972992529b378d41c9cb14e5392ae98",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/HEARTH/HEARTH_CURRENT_CANON.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH",
+          "CURRENT CANON CONSOLIDATION",
+          "0. CANON RULE FOR HEARTH",
+          "Default canon rule",
+          "Important distinction",
+          "PART I \u2014 HEARTH AS A WORLD",
+          "1. Continental Identity",
+          "2. Climate"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_current_canon",
+        "role": "hearth_current_canon",
+        "purpose": "hearth_current_canon",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "94f2e7ae28937f4672bf0da7a966a0899e8f56164809f00061a12dabf135edc9",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/HEARTH/HYDROLOGY_AND_DRAINAGE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 HYDROLOGY & DRAINAGE",
+          "Continental Geographic Layer v0.1",
+          "1. CONTINENTAL HYDROLOGIC LOGIC",
+          "2. MAJOR WATERSHED SYSTEMS",
+          "A. GREAT WESTERN / SOUTHWESTERN WATERSHED",
+          "Source",
+          "Flow",
+          "Character"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hydrology_and_drainage",
+        "role": "hydrology_and_drainage",
+        "purpose": "hydrology_and_drainage",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "f178ef41467b2721b99abc8fd75324709756a6ddfa6f505cc98a0b3e0ac68aec",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/HEARTH/MYTHROOT_HEARTH_CONTINENTAL_DOSSIER_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 HEARTH CONTINENTAL DOSSIER",
+          "Geography & Climate Reference \u2014 v0.1",
+          "Geographic identity",
+          "Major geographic structures",
+          "Climate",
+          "Coastal",
+          "Mountain-facing",
+          "Leeward"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_hearth_continental_dossier",
+        "role": "mythroot_hearth_continental_dossier",
+        "purpose": "mythroot_hearth_continental_dossier",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "16bbccf3f2076425bd2f0d155516131375bd7294071e199291d7d2f704709df9",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/HEARTH/REGIONS/SUNSCOUR_OASIS_NETWORK.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Source: HEARTH_SUNSCOUR_OASIS_NETWORK_v0.1.md",
+          "HEARTH \u2014 SUNSCOUR OASIS NETWORK",
+          "Regional Hydrology / Human Geography Layer v0.1",
+          "1. Source Logic",
+          "2. Scientific Oasis Rule",
+          "3. Sunscour Water Architecture",
+          "Tier 1 \u2014 Major perennial oasis systems",
+          "Tier 2 \u2014 Secondary spring/groundwater systems"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "sunscour_oasis_network",
+        "role": "sunscour_oasis_network",
+        "purpose": "sunscour_oasis_network",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "3d3982f93aefd6ff212573028b45f8f5673a12c9a04cb4ed46713886ab21794b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/LOST/DOSSIER.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 LOST CONTINENTAL DOSSIER",
+          "Geography & Climate Reference \u2014 v0.1",
+          "Geographic identity",
+          "Major geographic structures",
+          "Climate",
+          "Warm/moist coasts",
+          "Cooler/drier current coasts",
+          "Interior"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "dossier",
+        "role": "dossier",
+        "purpose": "dossier",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "9f3e226a2c5fca722a09de1d1168ad40e4b54fac57151d3167ea57eda00d9525",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/RIFT/DOSSIER.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 RIFT CONTINENTAL DOSSIER",
+          "Geography & Climate Reference \u2014 v0.1",
+          "Geographic identity",
+          "Major geographic structures",
+          "Climate",
+          "Highlands",
+          "Rift floor",
+          "Lakes and wetlands"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "dossier",
+        "role": "dossier",
+        "purpose": "dossier",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "07f04057a48ecac783353aa6518e9c72c9fc22fa747940a5b9adb2c4ccd14467",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 SHATTERED CONTINENTAL DOSSIER",
+          "Geography & Climate Reference \u2014 v0.1",
+          "Geographic identity",
+          "Major geographic structures",
+          "Climate",
+          "Largest fragment",
+          "Wetter fragments",
+          "Drier eastern fragments"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "dossier",
+        "role": "dossier",
+        "purpose": "dossier",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "d4c6ca164526ec593ad75081ae21ba1f7e75ffd5edfd70aeaa7cdb67ca678e71",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "01_WORLD/PLANET/TECTONICS.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World \u2014 Tectonic Model v0.2",
+          "Status",
+          "Scientific constraints used",
+          "Creative constraints",
+          "The actual tectonic architecture",
+          "Plate H \u2014 Hearth Plate",
+          "Plate S \u2014 Shatter-West Plate",
+          "Plate SE \u2014 Shatter-East Plate"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "tectonics",
+        "role": "tectonics",
+        "purpose": "tectonics",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "8b544092ba8780c2ee251d142d9e21c870badcd30a3eda4eba4b27c51386b98a",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CANONICAL CREATURE LIBRARY",
+          "Prehistoric-esque World, v0.2 (working draft)",
+          "INDEX",
+          "LAND",
+          "SEA / FRESHWATER",
+          "AIR",
+          "PRE-EXISTING CANDIDATES (001\u2013005)",
+          "LAND"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "canonical_creature_library",
+        "role": "canonical_creature_library",
+        "purpose": "canonical_creature_library",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "df788e297f21427324f963aa2f919a569acf1e984ee7e0f90539ffcda2bf0a71",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CREATURE LIBRARY CREATION PACKAGE v0.1",
+          "Goal",
+          "Core workflow",
+          "Required references",
+          "Naming",
+          "Deliverable"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "00_readme",
+        "role": "00_readme",
+        "purpose": "00_readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "44637c92afc16dad81e51c0a809a1a90c740775f95559c03a27357414303f520",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/01_MASTER_INSTRUCTIONS.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MASTER CREATURE-BUILDING INSTRUCTIONS",
+          "What we are building",
+          "Function comes first",
+          "Use the Predictive Evolution Matrix",
+          "Science is the boundary, not the prison",
+          "Prehistoric identity",
+          "Convergent evolution",
+          "Tradeoffs"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "01_master_instructions",
+        "role": "01_master_instructions",
+        "purpose": "01_master_instructions",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "781bc0ae7df77b4642e340c9f17f5406335d512d289615f26b00abb839d3dc92",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/02_LIBRARY_ARCHITECTURE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "CREATURE LIBRARY ARCHITECTURE",
+          "LAND",
+          "SEA / FRESHWATER",
+          "AIR",
+          "Rapid-build rule",
+          "Cross-environment organisms"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "02_library_architecture",
+        "role": "02_library_architecture",
+        "purpose": "02_library_architecture",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "7481b472b892a72ba06c6af9ca45b0ca951f9709760428ac82deefea0d4d1818",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/03_RAPID_CREATION_TEMPLATE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "RAPID CREATURE CREATION TEMPLATE",
+          "INPUTS",
+          "MATRIX OUTPUT",
+          "Favored evolutionary solutions",
+          "Plausible evolutionary solutions",
+          "Difficult / reject unless justified",
+          "CREATURE",
+          "EVOLUTIONARY LOGIC"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "03_rapid_creation_template",
+        "role": "03_rapid_creation_template",
+        "purpose": "03_rapid_creation_template",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "04429515afcb6648e64b267d3c356bb1aac3382e1a362e08c79c041b986aeb80",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/04_STYLE_AND_FEEL.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "STYLE, FEEL, AND BIOLOGICAL IDENTITY",
+          "Desired feeling",
+          "Visual vocabulary",
+          "\"T-Rex but not T-Rex\" principle",
+          "Big but not absurd",
+          "Weirdness rule",
+          "\"Why does it have that?\" test",
+          "Earth resemblance test"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "04_style_and_feel",
+        "role": "04_style_and_feel",
+        "purpose": "04_style_and_feel",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "dddb79104cff0d135417b78dc86d51ec399b6aa9c1695064aef649f4e8efa611",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/05_BATCH_PROMPT.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "COPY/PASTE BATCH PROMPT FOR CLAUDE",
+          "SOURCE OF TRUTH",
+          "CORE FORMULA",
+          "LIBRARY STRUCTURE",
+          "LAND",
+          "SEA / FRESHWATER",
+          "AIR",
+          "TARGET"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "05_batch_prompt",
+        "role": "05_batch_prompt",
+        "purpose": "05_batch_prompt",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "5085de623f909b93d9662c26b61e77d868065e2caf9b34e63b68ed4409d77e8e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/06_WORLD_CONTEXT_FOR_CREATURE_DESIGN.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 WORLD CONTEXT FOR CREATURE DESIGN",
+          "Prehistoric World Creature-Building Reference v0.1",
+          "1. PROJECT IDENTITY",
+          "2. PLANETARY FOUNDATION",
+          "3. VISUAL WORLD IDENTITY",
+          "4. CONTINENTAL SYSTEM",
+          "HEARTH",
+          "SHATTERED"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "06_world_context_for_creature_design",
+        "role": "06_world_context_for_creature_design",
+        "purpose": "06_world_context_for_creature_design",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "4d8807360d2a0a61de42ec0f7d0fa16ca3b161235199db117c97a3e46645aaf3",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/CREATURE_NECESSITY_SHEET.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "role"
+        ],
+        "headings": [
+          "MYTHROOT WORLDS",
+          "Prehistoric World \u2014 Creature Necessity Sheet v0.1",
+          "1. PRODUCTION LIMIT",
+          "Initial target",
+          "Rough working distribution",
+          "What we are NOT doing",
+          "2. THE THREE-TIER SYSTEM",
+          "TIER 1 \u2014 ESSENTIAL FUNCTIONS"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "creature_necessity_sheet",
+        "role": "creature_necessity_sheet",
+        "purpose": "creature_necessity_sheet",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "b2886893816ea5f45f239939477afa7cc4518fab3ed399a0b2a8e4e68269e0f4",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/FAUNA_FUNCTION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World \u2014 Faunal Function Matrix v0.1",
+          "Core principle",
+          "I. PRIMARY PRODUCERS",
+          "Terrestrial producers",
+          "Aquatic producers",
+          "Design question",
+          "II. SMALL CONSUMERS",
+          "III. MID-LEVEL CONSUMERS"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "fauna_function_matrix",
+        "role": "fauna_function_matrix",
+        "purpose": "fauna_function_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "dad5d423f46487820b87c9533e92fa54c2a56ca35c2831e7040253e23949bfc9",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FAUNA/PREDICTIVE_EVOLUTION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 PREHISTORIC WORLD",
+          "Predictive Evolution Matrix v0.1",
+          "Core rule",
+          "1. CONTINENT",
+          "HEARTH",
+          "SHATTERED",
+          "RIFT",
+          "LOST"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "predictive_evolution_matrix",
+        "role": "predictive_evolution_matrix",
+        "purpose": "predictive_evolution_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "24ba39b88eb746aacf2d2a6d6343ecc910167e1b62ffadb1069f8b5901b6a85e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/CANONICAL_FLORA_LIBRARY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CANONICAL FLORA LIBRARY",
+          "Prehistoric-esque World, v0.1 (working draft)",
+          "INDEX",
+          "HEARTH",
+          "SHATTERED",
+          "RIFT",
+          "LOST",
+          "OPEN GAPS / NOT ADDRESSED IN THIS PASS"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "canonical_flora_library",
+        "role": "canonical_flora_library",
+        "purpose": "canonical_flora_library",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "735281d436305e733b09fe13ab000f7a99d89b84b4134aaa9cc9f5c844d46334",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/EDIBLE_FLORA_EXPANSION_HANDOFF.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUNITE EDIBLE FLORA EXPANSION HANDOFF",
+          "Purpose",
+          "Core rule",
+          "Food categories to cover",
+          "1. Starchy grains / grass seeds",
+          "2. Seeds and nuts",
+          "3. Roots, tubers, bulbs, rhizomes, and corms",
+          "4. Fruits"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "edible_flora_expansion_handoff",
+        "role": "edible_flora_expansion_handoff",
+        "purpose": "edible_flora_expansion_handoff",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "0083eb79c8abaef8a6f48c45b04ee7683f7f2213766718d797e4bf071bcd76b4",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/EDIBLE_FLORA_LIBRARY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN \u2014 CANONICAL EDIBLE FLORA LIBRARY",
+          "Aruunite Food Ecology, v0.1 (working draft)",
+          "INDEX",
+          "1. STARCHY GRAINS / GRASS SEEDS",
+          "2. SEEDS AND NUTS",
+          "3. ROOTS, TUBERS, BULBS, CORMS",
+          "4. FRUITS",
+          "5. LEGUME / PULSE ANALOGUES"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "edible_flora_library",
+        "role": "edible_flora_library",
+        "purpose": "edible_flora_library",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "569340dfffd9a694a1714f2beb4cd2603b3836d82b8b0bfde696dbf703b5f5e4",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/FLORA_CREATION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 FLORA CREATION MATRIX v0.1",
+          "Purpose",
+          "1. INPUTS",
+          "CONTINENT",
+          "CLIMATE / ENVIRONMENT",
+          "FUNCTION",
+          "2. MATRIX OUTPUT",
+          "FAVORED"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "flora_creation_matrix",
+        "role": "flora_creation_matrix",
+        "purpose": "flora_creation_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "d37747702916aa8b8d079f68a7461725479ba503d5e7bee7f9154a0957db80e8",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/00_README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT FLORA CREATION PACKAGE v0.1"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "00_readme",
+        "role": "00_readme",
+        "purpose": "00_readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "12629cae2286b3544000731abf770d41265285da6a1ed9c2da14431cc4255aaf",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/01_FLORA_FUNCTION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 FLORA FUNCTION MATRIX v0.1",
+          "Purpose",
+          "1. PRIMARY PRODUCERS",
+          "2. GRAZING RESOURCES",
+          "3. BROWSE RESOURCES",
+          "4. FRUIT / SEED RESOURCES",
+          "5. ROOT / TUBER RESOURCES",
+          "6. GROUND COVER / SOIL STABILIZATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "01_flora_function_matrix",
+        "role": "01_flora_function_matrix",
+        "purpose": "01_flora_function_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "76570c2b4d8299d819fa819d8e3f522a5e23ace7b705d684944345d55b213338",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 FLORA CREATION MATRIX v0.1",
+          "Purpose",
+          "1. INPUTS",
+          "CONTINENT",
+          "CLIMATE / ENVIRONMENT",
+          "FUNCTION",
+          "2. MATRIX OUTPUT",
+          "FAVORED"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "02_flora_creation_matrix",
+        "role": "02_flora_creation_matrix",
+        "purpose": "02_flora_creation_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "d37747702916aa8b8d079f68a7461725479ba503d5e7bee7f9154a0957db80e8",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "02_ECOLOGY/FLORA/FLORA_FUNCTION_MATRIX.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World \u2014 Flora Function Matrix v0.1",
+          "Core principle",
+          "I. PRIMARY ENERGY CAPTURE",
+          "II. STRUCTURAL VEGETATION",
+          "III. GROUND COVER",
+          "IV. GRAZING RESOURCES",
+          "V. BROWSE / LEAF RESOURCES",
+          "VI. FRUIT / SEED / NUT RESOURCES"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "flora_function_matrix",
+        "role": "flora_function_matrix",
+        "purpose": "flora_function_matrix",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "ad6ab170736d44dbd870e15a6545c87a3046e8747f553c15709822608ac67757",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COAST/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 COAST",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "COAST",
+        "region": "COAST",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "COAST",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "a7201aae45760ead5967edc6eadb1c854bb1c67c00348e0c0eca68d514b15cb3",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COAST.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 COASTAL PEOPLES",
+          "Cultural Base v0.2 \u2014 Communal Labor & Food Preservation Integrated",
+          "Core cultural philosophy",
+          "Community structure",
+          "Generalist education",
+          "Communal labor waves",
+          "Fishing period",
+          "Communal meal"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "coast",
+        "role": "coast",
+        "purpose": "coast",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "b194769bb0401e04282ddda8cef3b93b6d5c2a6c801dafb51d1d07e298b498cb",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 COMPARATIVE REFERENCE",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood_comparative",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "733aaba9a9081ffa97f4777c75f07e73a480f278b8b7e25509570df243fd42b1",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH CULTURAL MATRIX \u2014 DEVELOPMENTAL REFERENCE",
+          "Shared Hearth Framework",
+          "Regional Matrix",
+          "Regional Source Notes",
+          "Plains",
+          "Mountains",
+          "River",
+          "Wetlands"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_developmental_reference",
+        "role": "hearth_cultural_matrix_developmental_reference",
+        "purpose": "hearth_cultural_matrix_developmental_reference",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "83bd55c22d6191d56eafe848befc9f52104715cade7447e30b535d5dde5e99c7",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH CULTURAL MATRIX \u2014 ELDERS, AGING & DEATH",
+          "1. STATUS",
+          "2. SHARED HEARTH PRINCIPLE",
+          "3. PLAINS",
+          "Existing foundation",
+          "Elder role",
+          "Aging",
+          "Death \u2014 open"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_elders_aging_death_reference",
+        "role": "hearth_cultural_matrix_elders_aging_death_reference",
+        "purpose": "hearth_cultural_matrix_elders_aging_death_reference",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "eca0339ced4efc070def1ac1a64b92a250a0ed91afc906cbbbb8040ae63f5a72",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH CULTURAL MATRIX \u2014 FAMILY, PARTNERSHIP & KINSHIP",
+          "Status Key",
+          "1. CORE SOCIAL UNIT",
+          "2. PARTNERSHIP / PARTNER SELECTION",
+          "3. RESIDENCE AFTER PARTNERSHIP",
+          "4. KINSHIP",
+          "5. CHILD / FAMILY RELATIONSHIP",
+          "6. SEPARATION / CONTINUING KIN TIES"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_family_kinship_reference",
+        "role": "hearth_cultural_matrix_family_kinship_reference",
+        "purpose": "hearth_cultural_matrix_family_kinship_reference",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "228f1336a243de42c381ab769d35697299759a5a47480b3d56880ba026d8a3ed",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH",
+          "CULTURAL MATRIX: LEADERSHIP, AUTHORITY & GOVERNANCE",
+          "1. SHARED HEARTH PATTERN",
+          "2. REGIONAL MATRIX",
+          "3. PLAINS",
+          "Authority",
+          "Decision pattern",
+          "Conflict"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_leadership_authority_governance_reference",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "e1005e351e9f9adf63ca9376773afabafbaeb32f44683ec4ec0e42b08a07be97",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH CULTURAL MATRIX \u2014 RELIGION, BELIEF, RITUAL & SPIRITUAL LIFE",
+          "1. CURRENT RESULT",
+          "2. WORLD-LEVEL MATERIAL THAT IS ESTABLISHED",
+          "3. HEARTH REGIONAL STATUS",
+          "4. SAFE SHARED FOUNDATION",
+          "5. REGIONAL QUESTIONS \u2014 NOT ANSWERS",
+          "Plains",
+          "Mountains"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_religion_belief_ritual_reference",
+        "role": "hearth_cultural_matrix_religion_belief_ritual_reference",
+        "purpose": "hearth_cultural_matrix_religion_belief_ritual_reference",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "94b5fc0695659f320276df6ff82d8761f00a3a6917cc1c6040d968729470a492",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH",
+          "CULTURAL MATRIX: WORK, ECONOMY & RESOURCE EXCHANGE",
+          "1. SHARED PATTERN",
+          "2. REGIONAL MATRIX",
+          "3. PLAINS",
+          "Work organization",
+          "Work",
+          "Anchor communities"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_matrix_work_economy_resource_exchange_reference",
+        "role": "hearth_cultural_matrix_work_economy_resource_exchange_reference",
+        "purpose": "hearth_cultural_matrix_work_economy_resource_exchange_reference",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "59f63f03009c714770360f6e4e119da8cf9074df7e11597dec3549448f5f68d6",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "Cultural Audit Checklist v0.1",
+          "I. UNIVERSAL CULTURAL LAYERS",
+          "A. Environment & Population",
+          "B. Community & Settlement",
+          "C. Family, Partnership & Kinship",
+          "D. Reproduction & Childhood",
+          "E. Labor & Economy"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "cultural_audit_checklist",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "AUDIT"
+      },
+      "artifact_role": "AUDIT",
+      "provenance": {
+        "content_sha256": "61a3af31ec22389bcfabff968702896d717bbf18e24ce4e2e51b7677eaaa816c",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/DEMOGRAPHIC_MOUNTAIN_REVISION.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 ARUUNITE DEMOGRAPHIC WORKING MODEL",
+          "Mountain Settlement Revision v0.1",
+          "Revised Mountain settlement size",
+          "Consequence for specialization"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "demographic_mountain_revision",
+        "role": "demographic_mountain_revision",
+        "purpose": "demographic_mountain_revision",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "a262799c50e2b19fc05accaea2b22698ee8d9784b248bc8d9f41d1a07ff5e76f",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 DESERT",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "DESERT",
+        "region": "DESERT",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "DESERT",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "e94f483a1720fffa0fcff47fe73d33ccadccc9053016256cd09a6580934e8d99",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 DESERT PEOPLES",
+          "Cultural Base v0.3 \u2014 Lifekeeper Network & Trials Integrated",
+          "Core philosophy",
+          "Environmental foundation",
+          "Community structure",
+          "Two complementary lifestyles",
+          "Oasis communities",
+          "Traveling hunters / Lifekeepers"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "desert",
+        "role": "desert",
+        "purpose": "desert",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "407d1f8f88cd7d6c1c7fe039e597da70350cc4ffa314f2feb0d43d36b3e444de",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "Birth, Childhood & Coming-of-Age \u2014 Working Canon v0.1",
+          "PLAINS",
+          "MOUNTAINS",
+          "RIVER",
+          "WETLANDS",
+          "DESERT",
+          "COAST"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "7de95ad72c801eceb02a1f5af9fc06a070b6c2c2068a4ec1403cb3355c9565e0",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Source: HEARTH_PEOPLES_FAMILY_PARTNERSHIP_PROFILES_v0.1.md",
+          "MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "Family, Partnership & Kinship Profiles \u2014 Working Draft v0.1",
+          "1. MOUNTAINS \u2014 LOCKED FOUNDATION",
+          "Social unit",
+          "Partner selection",
+          "Approval",
+          "Annual Mountain Conclave"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_partnership",
+        "role": "family_partnership",
+        "purpose": "family_partnership",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "5c8fbd0eee46df6f4201849acc6c56554617a790f8b41f307119ea10a3d363e5",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Source: HEARTH_LEADERSHIP_AUTHORITY_CONFLICT_v0.1.md",
+          "MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "Leadership, Authority & Conflict Resolution \u2014 Working Profiles v0.1",
+          "I. PLAINS",
+          "Leadership structure",
+          "Decision-making",
+          "Trust",
+          "Conflict"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "governance_and_authority",
+        "role": "governance_authority",
+        "purpose": "governance_authority",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "f27aa87d446666fa65a820dd1969e1ff04abc0c88a5ffea9a79f85e6afee27c9",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 MOUNTAINS",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "MOUNTAINS",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "7124bab47ed97437d0c755e8438607af74902f1c0233313aa7537479f4621fdd",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH MOUNTAINS \u2014 SPECIALIST HOUSES",
+          "Settlement",
+          "Four Houses",
+          "Food House",
+          "Craft House",
+          "Shelter & Terrain House",
+          "Knowledge & Care House",
+          "Universal knowledge"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_houses_canon",
+        "role": "specialist_houses",
+        "purpose": "specialist_houses",
+        "scope": "MOUNTAINS",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "8ac5ed9ca2ac8685e394e0f26c559fc58de105aff3a7eac198b73425a26d6983",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 HEARTH PEOPLES",
+          "Mountain Family, Partnership & Specialist-Lineage Update v0.1",
+          "Mountain settlement scale",
+          "Specialist-lineage structure",
+          "Partnership",
+          "Conclave",
+          "Explicitly undecided"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "MOUNTAINS",
+        "region": "MOUNTAINS",
+        "subregion": null,
+        "subject": "specialist_lineages",
+        "role": "specialist_lineages",
+        "purpose": "specialist_lineages",
+        "scope": "MOUNTAINS",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "58a5aaa83ab58b0c2e1adc913a7d7c609ef22c3c3af8933988064a74b6ecd217",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 PLAINS",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "PLAINS",
+        "region": "PLAINS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "PLAINS",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "1df101ea4f9b8b635b39030d5a7126a88adca2ec5357659c5b0fee14b291331f",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 GREAT PLAINS PEOPLE",
+          "Cultural Base v0.1",
+          "Geographic foundation",
+          "Core character",
+          "Mobility",
+          "Anchor communities",
+          "Traveling groups",
+          "Daily/nightly rhythm"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "plains",
+        "role": "plains",
+        "purpose": "plains",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "a320403f4d7445a79046a56945ccabaa4e63f729c9557c1887282ccac7fad368",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 RIVER",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "RIVER",
+        "region": "RIVER",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "RIVER",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "581191ddf3b2dde8c6c4f0dfeb6a649e4df6367ee1aa706a706e3408c7fe465d",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH PEOPLES \u2014 WETLANDS",
+          "Birth, Childhood & Coming-of-Age"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": "WETLANDS",
+        "region": "WETLANDS",
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "family_birth_childhood",
+        "purpose": "family_birth_childhood",
+        "scope": "WETLANDS",
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "9ef56f0afa25149f170efc3ae693fff40389d8348bd5dd3411c4a19c59d5f55a",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/CULTURES/HEARTH/WETLANDS.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 WETLAND PEOPLES",
+          "Cultural Base v0.1",
+          "Core philosophy",
+          "Communities",
+          "Seasonal high-ground gatherings",
+          "Mobility and work",
+          "Children",
+          "Environmental knowledge"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": "HEARTH",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "wetlands",
+        "role": "wetlands",
+        "purpose": "wetlands",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "952f047f7107c533b83b47ce320c4484796141dc2e70227f98fdf2edea1a5c10",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 HUMAN POPULATION GEOGRAPHY LAYER (HPGL)",
+          "Working Human Geography Framework v0.3",
+          "Purpose",
+          "Working demographic baseline",
+          "Residential scale",
+          "Mobility model",
+          "Technology constraint",
+          "Population geography rule"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "human_population_geography",
+        "role": "human_population_geography",
+        "purpose": "human_population_geography",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "9085d6f76120e9ce3bb2ab3dfcdeac6c91e7dfdecd810760b87b6a50589329f8",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "03_PEOPLES/SPECIES/HUMAN_EVOLUTION_RESEARCH_TRACK.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World",
+          "Human Evolution Research Track \u2014 v0.1",
+          "Purpose",
+          "Core Principle",
+          "Research Gate",
+          "Evolutionary Pressure Map",
+          "1. Physical Environment",
+          "2. Predation & Environmental Danger"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "human_evolution_research_track",
+        "role": "human_evolution_research_track",
+        "purpose": "human_evolution_research_track",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "ef9262ba26c25295cfbe5d86eec774d2433f9db8735be0e1acde919cbcba6c84",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/HEARTH_HYDROLOGY_CHANGELOG_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH HYDROLOGY \u2014 CHANGELOG",
+          "v0.1 \u2014 Continental drainage architecture established",
+          "Decision",
+          "Added",
+          "Still open",
+          "Principle"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_hydrology_changelog",
+        "role": "hearth_hydrology_changelog",
+        "purpose": "hearth_hydrology_changelog",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "d06fd98edd5215967926ace2e7a60e64214a4d48b0cfba369f81363c75a65c5b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_COASTAL_COMMUNAL_LABOR_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CHANGELOG ADDITION",
+          "Hearth / Coastal Peoples \u2014 Communal Labor and Food Preservation",
+          "Locked decisions",
+          "Core cultural principle",
+          "Six Hearth cultural foundations now established",
+          "Status"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog_coastal_communal_labor",
+        "role": "mythroot_project_changelog_coastal_communal_labor",
+        "purpose": "mythroot_project_changelog_coastal_communal_labor",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "03b2d80ab5d0c0d3d53e224d7b2d396302e4356c2e5dba5442621ff9b838a6e2",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_DESERT_LIFEKEEPERS_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CHANGELOG ADDITION",
+          "Hearth / Desert Peoples \u2014 Lifekeepers",
+          "Locked decisions",
+          "Core cultural phrase",
+          "Next development"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog_desert_lifekeepers",
+        "role": "mythroot_project_changelog_desert_lifekeepers",
+        "purpose": "mythroot_project_changelog_desert_lifekeepers",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "2905e24e4f6c8e3a0d6ee2ddc70366896499bc20a16ca64bc1f5619cba1fa92b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_MOUNTAIN_SPECIALIZATION_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 PROJECT CHANGELOG ADDITION",
+          "2026-08-23 \u2014 Hearth / Mountain Settlement & Specialist-Lineage Revision",
+          "Decision",
+          "Structural revision",
+          "Explicitly NOT decided",
+          "Status"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog_mountain_specialization",
+        "role": "mythroot_project_changelog_mountain_specialization",
+        "purpose": "mythroot_project_changelog_mountain_specialization",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "2665f38f4a689ccbdf4a9f7458f6daead13c88a4380e9ae253c44ad2c37ab690",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_PEOPLES_v0.3.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 PEOPLES PHASE CHANGELOG ADDITION",
+          "2026-08-22 \u2014 Hearth Peoples / Great Plains Cultural Foundation",
+          "Source layers reviewed",
+          "Great Plains decisions recorded",
+          "Next development"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog_peoples",
+        "role": "mythroot_project_changelog_peoples",
+        "purpose": "mythroot_project_changelog_peoples",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "f54b231c25ed057bade1be099c11d6116c561daf122b8c3cf3440e4b488d0bfd",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_SUNSCOUR_OASIS_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 CHANGELOG ADDITION",
+          "2026-08-23 \u2014 Hearth / Sunscour Oasis Network",
+          "Decision",
+          "Added",
+          "Major oasis placements",
+          "Cultural consequence",
+          "Scientific basis",
+          "Versioning"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog_sunscour_oasis",
+        "role": "mythroot_project_changelog_sunscour_oasis",
+        "purpose": "mythroot_project_changelog_sunscour_oasis",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "d58e1c25b6ead05beae939641a6381b50573490ed7202f30f6994de49f92110e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/CHANGELOG_ADDITIONS/MYTHROOT_PROJECT_CHANGELOG_v0.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 PROJECT CHANGELOG",
+          "Current Project Changelog",
+          "2026-08-22 \u2014 Peoples Phase / Canon Consolidation",
+          "1. Planet Name Established",
+          "2. Lost Deep-Time Isolation Clarified",
+          "3. Human Population Baseline Locked for Peoples Phase",
+          "4. Residential Community Model",
+          "5. Continental Population Allocations Added"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_project_changelog",
+        "role": "mythroot_project_changelog",
+        "purpose": "mythroot_project_changelog",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "d7e201592301fe51ebecb327989ca4e4834a4c2ee11f5bd1dc5145308e21ffba",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/CLIMATE/MYTHROOT_OCEAN_AND_MARINE_CLIMATE_REFERENCE_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 OCEAN & MARINE CLIMATE REFERENCE",
+          "Working Global Circulation Model v0.1",
+          "Purpose",
+          "1. PHYSICAL BASIS",
+          "2. WORKING LATITUDE FRAMEWORK",
+          "3. NORTHERN SUBTROPICAL GYRE",
+          "Western boundary current",
+          "Eastern boundary current"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_ocean_and_marine_climate_reference",
+        "role": "mythroot_ocean_and_marine_climate_reference",
+        "purpose": "mythroot_ocean_and_marine_climate_reference",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "3b3a3108894882f2c7245ad303055c6a9316d4921b60ed23543f97018a21eb57",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/FOUNDATION_WORLD_PROFILE/Mythroot_Prehistoric_World_Concept_v1.0.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLD CONCEPT",
+          "Prehistoric / Anachronistic Survival Fantasy \u2014 v1.0",
+          "1. Core Concept",
+          "2. Core World Philosophy",
+          "3. The Human Advantage",
+          "4. The Hunt",
+          "5. Injury Philosophy",
+          "6. Magic / Spirituality"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_world_concept",
+        "role": "mythroot_prehistoric_world_concept",
+        "purpose": "mythroot_prehistoric_world_concept",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "8177c47b2045af6cb147b87b637b8abd215821213dbde556557b09dd10639fdd",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 DESERT PEOPLES",
+          "Cultural Base v0.1 \u2014 First Pass",
+          "Core philosophy",
+          "Community structure",
+          "Isolation",
+          "Knowledge",
+          "Hospitality",
+          "Adaptation"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_desert_peoples_cultural_base",
+        "role": "hearth_desert_peoples_cultural_base",
+        "purpose": "hearth_desert_peoples_cultural_base",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "cafa6398a25d37a45d2a74d304991f5464d82a66325dadf1c3a6a115a3536cf8",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/HEARTH_CULTURES/HEARTH_DESERT_PEOPLES_CULTURAL_BASE_v0.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "HEARTH \u2014 DESERT PEOPLES",
+          "Cultural Base v0.2 \u2014 Oasis Network Integrated",
+          "Core philosophy",
+          "Environmental foundation",
+          "Oasis network",
+          "Community structure",
+          "Two complementary lifestyles",
+          "Oasis communities"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_desert_peoples_cultural_base",
+        "role": "hearth_desert_peoples_cultural_base",
+        "purpose": "hearth_desert_peoples_cultural_base",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "dd6011c785560b711163b23abf1f8d28cf3fada8a98b98ea5b7e9e28e85e3374",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity",
+          "1.1 Working Classification"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "da4d51596e02f270703780e92a16ebac131b9540b9b2b81c9fbea159161a868e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity",
+          "1.1 Working Classification"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "cba203befc44f4366467ed097472baa74890556f90d1da65e3d283f0be3a7bb5",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.3.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Canon Status Rule",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "90c42ada29dc82039c0ee6efe79d364ddfe2452ed97ddbd4e684cef16057c36c",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.4.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Canon Status Rule",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "41b52605c770f29d5f3d5c0fd2b7dd7df1935880accc1a0ffa52999c35df184a",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.5.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Canon Status Rule",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "07286da918701435f8b4650a3e485c3fb6648a19af90b5a29cda4c79d9fd918f",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.6.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Canon Status Rule",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "d8327484a423a377dc930dee61a6d6f3fca40617e7b1640a4592ce486696b3f3",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.7.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot \u2014 Master World Bible",
+          "Prehistoric / Anachronistic World \u2014 v0.1",
+          "Canon Status Rule",
+          "Current Canon Snapshot",
+          "LOCKED / ESTABLISHED",
+          "PROVISIONAL / SEED MATERIAL",
+          "UNDEFINED / OPEN",
+          "1. World Identity"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "fadbfb993e625fbfd709579ac97efa6e75dec7f680271d6926d3beaea70fba1e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.8.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.8",
+          "CANON STATUS RULE",
+          "LOCKED CANON",
+          "PROVISIONAL",
+          "OPEN",
+          "UNKNOWN",
+          "WORKING INFERENCE"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "befdf98803cb5fedfd4793daaadf413ea52fa003688c0436f941f0c18562aa50",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v0.9.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.9",
+          "1. WORLD DESIGN PROFILE",
+          "Core identity",
+          "Design philosophy",
+          "2. MAGIC & SPIRITUAL ECOLOGY",
+          "Locked / established",
+          "3. PLANETARY FOUNDATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "8d3938ef11d8ec8ff8511aeb727534669b57adee0c30f900fbbbac1bcbe41c24",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.0.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.9",
+          "1. WORLD DESIGN PROFILE",
+          "Core identity",
+          "Design philosophy",
+          "2. MAGIC & SPIRITUAL ECOLOGY",
+          "Locked / established",
+          "3. PLANETARY FOUNDATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "d2f094a22293e40ff10d86abfcf5028f4659cce97768b6e512ea5415ab9e6caa",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.9",
+          "1. WORLD DESIGN PROFILE",
+          "Core identity",
+          "Design philosophy",
+          "2. MAGIC & SPIRITUAL ECOLOGY",
+          "Locked / established",
+          "3. PLANETARY FOUNDATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "7cee0c22172cfa9993668a5040f2c296a2fae653f41ac9f501081aec964ecee9",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.9",
+          "1. WORLD DESIGN PROFILE",
+          "Core identity",
+          "Design philosophy",
+          "2. MAGIC & SPIRITUAL ECOLOGY",
+          "Locked / established",
+          "3. PLANETARY FOUNDATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "35f536d1e7deb458302efc433fa5c47c75cde2cdd1b448eeabdfb91d82864c92",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.3.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 MASTER WORLD BIBLE",
+          "Prehistoric / Anachronistic World \u2014 v0.9",
+          "1. WORLD DESIGN PROFILE",
+          "Core identity",
+          "Design philosophy",
+          "2. MAGIC & SPIRITUAL ECOLOGY",
+          "Locked / established",
+          "3. PLANETARY FOUNDATION"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "9d631ccb3db4659f04c7924c8c669797a3b31b8642f9da24c98e136849300773",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/MASTER_WORLD_BIBLE/MYTHROOT_PREHISTORIC_MASTER_WORLD_BIBLE_v1.4.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 PREHISTORIC MASTER WORLD BIBLE",
+          "Consolidated Canon Update \u2014 v1.4",
+          "CANON STATUS RULE",
+          "LOCKED CANON",
+          "FLEXIBLE / PROVISIONAL",
+          "OPEN",
+          "UNKNOWN",
+          "WORKING INFERENCE"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_master_world_bible",
+        "role": "mythroot_prehistoric_master_world_bible",
+        "purpose": "mythroot_prehistoric_master_world_bible",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "fe00558fb7a26d762b4d7f0e0109959206fa892f37494f3b8136a6838d5b7170",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 HUMAN POPULATION GEOGRAPHY LAYER (HPGL)",
+          "Working Human Geography Framework v0.1",
+          "Purpose",
+          "Working demographic baseline",
+          "Residential community model",
+          "Mobility model",
+          "Population geography rule",
+          "HEARTH \u2014 HUMAN POPULATION GEOGRAPHY"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_human_population_geography_layer",
+        "role": "mythroot_human_population_geography_layer",
+        "purpose": "mythroot_human_population_geography_layer",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "cabcee4a70f48c999a4e3cc652e440fd7d84c31161c75c3f7a71b8025ca67b3b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/POPULATION_GEOGRAPHY/MYTHROOT_HUMAN_POPULATION_GEOGRAPHY_LAYER_v0.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT \u2014 HUMAN POPULATION GEOGRAPHY LAYER (HPGL)",
+          "Working Human Geography Framework v0.2",
+          "Purpose",
+          "Working demographic baseline",
+          "Residential scale",
+          "Mobility model",
+          "Technology constraint",
+          "Population geography rule"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_human_population_geography_layer",
+        "role": "mythroot_human_population_geography_layer",
+        "purpose": "mythroot_human_population_geography_layer",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "0c781954965ce93e45e2feb1c387af54558f76e51dd79d972fd3e2e54cbcd6b7",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/HISTORICAL/TECTONICS/MYTHROOT_PREHISTORIC_TECTONIC_MODEL_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Mythroot Prehistoric World \u2014 Tectonic Model v0.1",
+          "Status",
+          "Design target",
+          "Working seven-plate architecture",
+          "1. Hearth Plate",
+          "2. Shatter Plate",
+          "3. Shatter-East Plate",
+          "4. Rift Crown Plate"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "mythroot_prehistoric_tectonic_model",
+        "role": "mythroot_prehistoric_tectonic_model",
+        "purpose": "mythroot_prehistoric_tectonic_model",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "22122113e866306cf9074d995e548617fa374dd9de15d57517e699cd30d5cd45",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/MIGRATION/ARUUN_DOCUMENT_MIGRATION_2026-08-23.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Document Migration \u2014 2026-08-23",
+          "Source reviewed",
+          "Migration policy",
+          "Current source-of-truth decisions identified in the bundle",
+          "Important working-status rule",
+          "Migration execution note"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "aruun_document_migration_2026_08_23",
+        "role": "aruun_document_migration_2026_08_23",
+        "purpose": "aruun_document_migration_2026_08_23",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "6e8c934827cd7f32a8af5dff8917d7c98f6a209bee42dad75a769f5871607a19",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/MIGRATION/README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Aruun Document Migration"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "readme",
+        "role": "readme",
+        "purpose": "readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "fee11e2053389511b69051c9b59518def866c8456397e4af96814617289a54fb",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/MIGRATION/REPO_TABLE_OF_CONTENTS.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN \u2014 DOCUMENT MIGRATION TABLE OF CONTENTS",
+          "Important",
+          "Migration rules",
+          "Current source categories",
+          "Master",
+          "World",
+          "Ecology",
+          "Peoples"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "repo_table_of_contents",
+        "role": "repo_table_of_contents",
+        "purpose": "repo_table_of_contents",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "19f073f9d8c74d7f51ab922a7a5be11a657033c53b5b681696251e3bb4f4927e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/MIGRATION/SOURCE_MANIFEST.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN MIGRATION BUNDLE \u2014 SOURCE MANIFEST",
+          "Key source files",
+          "Nested packages",
+          "Migration status"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "source_manifest",
+        "role": "source_manifest",
+        "purpose": "source_manifest",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "f9c9cc9c33e3e6aea54961d49936873e0fd72298409eb7687d1989295b4551e5",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUNITE PACK / MILKING ANIMAL + HONEY-INSECTOID \u2014 DESIGN BRIEF EXECUTION",
+          "Fauna Creation, v0.1 \u2014 PROPOSED, NOT YET CANON",
+          "PART A \u2014 PACK / MILK ANIMAL: LOWHORN",
+          "Canonical fauna integration check (\u00a718)",
+          "Why domesticate it instead of hunting it",
+          "Required Final Profile",
+          "PART B \u2014 HONEY-INSECTOID: WAXDRIFTER",
+          "Quality-test framing, addressed up front"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "aruunite_pack_milking_and_honey_insectoid",
+        "role": "aruunite_pack_milking_and_honey_insectoid",
+        "purpose": "aruunite_pack_milking_and_honey_insectoid",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "177d39561b095fe07e28efa2276f1b01d2ed556f248c63c9bd4a0ccfca614d15",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_AND_HONEY_INSECTOID_v0.2.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUNITE PACK / MILKING ANIMAL + HONEY-INSECTOID \u2014 DESIGN BRIEF EXECUTION",
+          "Fauna Creation, v0.2 \u2014 PROPOSED WORKING FAUNA, NOT YET CANON",
+          "PART A \u2014 PACK / MILK ANIMAL: LOWHORN",
+          "Canonical fauna integration check (\u00a718)",
+          "Why domesticate it instead of hunting it",
+          "Required Final Profile",
+          "PART B \u2014 HONEY-INSECTOID: WAXDRIFTER",
+          "Quality-test framing, addressed up front"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "aruunite_pack_milking_and_honey_insectoid",
+        "role": "aruunite_pack_milking_and_honey_insectoid",
+        "purpose": "aruunite_pack_milking_and_honey_insectoid",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "9ae4a4170ad6aad031131811c7136d31ac23d8550d24fabecfe722379af9c28a",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "07_ARCHIVE/UNCLASSIFIED/ARUUNITE_PACK_MILKING_ANIMAL_DESIGN_SHEET.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": "built barns;",
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "purpose"
+        ],
+        "headings": [
+          "ARUUNITE PACK / MILKING ANIMAL DESIGN SHEET",
+          "Fauna Creation Brief \u2014 Pre-Agricultural Domestication Candidate",
+          "1. DESIGN GOAL",
+          "2. SETTING CONSTRAINTS",
+          "Gravity",
+          "Technology",
+          "Ecology",
+          "3. DOMESTICATION TYPE"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "aruunite_pack_milking_animal_design_sheet",
+        "role": "aruunite_pack_milking_animal_design_sheet",
+        "purpose": "built_barns",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "frontmatter",
+        "artifact_role": "ARCHIVE"
+      },
+      "artifact_role": "ARCHIVE",
+      "provenance": {
+        "content_sha256": "15b6f25fc835d16fa464efa590691be00a04c44f98a5805e78b18b8cb23e60f9",
+        "identity_basis": [],
+        "identity_source": "frontmatter"
+      }
+    },
+    {
+      "path": "CHANGELOG.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Changelog",
+          "2026-08-23 \u2014 Migration Merged into Main; Canon Index and World Status Populated",
+          "Decision",
+          "Reason",
+          "Consequence",
+          "Status",
+          "2026-08-23 \u2014 Document Migration Bundle Applied",
+          "Decision"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "changelog",
+        "role": "changelog",
+        "purpose": "changelog",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "79286b96192922e30b59de5972d2cf5661207e8c27659f1f69af3265303c05a2",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "HANDOFF_HEARTH_CULTURE_COMPLETION.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN \u2014 Hearth Culture Completion Handoff",
+          "Purpose",
+          "Repository",
+          "Current Project",
+          "Workflow",
+          "Cultural Coverage Framework",
+          "Critical Worldbuilding Principle",
+          "River \u2014 Current Canon"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "handoff_hearth_culture_completion",
+        "role": "handoff_hearth_culture_completion",
+        "purpose": "handoff_hearth_culture_completion",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "62348a581a30b8adae505a3230667fc2046c364a33e99f59bc1ef9e1aa2b2d87",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "LICENSE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "License"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "license",
+        "role": "license",
+        "purpose": "license",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "cdd2e5348e14cb3c63e1fd8c8c539ea8b6e6f235e1730c08b9674f5885d0faff",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "PROJECT_OPERATING_RULES.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "MYTHROOT WORLDS \u2014 ARUUN PROJECT OPERATING RULES",
+          "1. Repository-First Research Rule",
+          "2. Understand the System Before Deriving New Material",
+          "3. Source Status Labels",
+          "CANON",
+          "WORKING MODEL",
+          "INFERENCE",
+          "PROPOSAL"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "project_operating_rules",
+        "role": "project_operating_rules",
+        "purpose": "project_operating_rules",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "f599a3c94e42a0c278d3b61c956dd46284611ac623cde82d07096ce4b4fae907",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Aruun",
+          "Status",
+          "How truth is tracked",
+          "Release directories",
+          "Structure"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "readme",
+        "role": "readme",
+        "purpose": "readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "b28674892fd9b5bb6830c6e01403c04be6bb1854e22405f05ebf0ed420fc4120",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/HANDOFFS/HEARTH_CULTURAL_COMPLETION_HANDOFF.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Worldbuilding Handoff \u2014 Hearth Cultural Completion",
+          "Where We Are",
+          "Working rule",
+          "Cultural Coverage Standard",
+          "Current Priority: River",
+          "River worldview \u2014 CANON",
+          "River remaining work",
+          "Hearth Completion Strategy"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_cultural_completion_handoff",
+        "role": "hearth_cultural_completion_handoff",
+        "purpose": "hearth_cultural_completion_handoff",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "e5b40feb89725386f0bfefdaf85c37242473ae9f52212686753e152657e5922b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/ARUUN_REPOSITORY_SCHEMA_v0.1.md",
+      "document": {
+        "subject": "family.birth_childhood",
+        "domain": "peoples",
+        "cultural_scope": "regional",
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": "canon",
+        "authority": "regional"
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "authority",
+          "domain",
+          "scope",
+          "status",
+          "subject"
+        ],
+        "headings": [
+          "ARUUN REPOSITORY SCHEMA v0.1",
+          "1. Core principle",
+          "2. Required metadata model",
+          "Required fields",
+          "Conditional fields",
+          "Dependency fields",
+          "3. Status vocabulary",
+          "World/content status"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "family_birth_childhood",
+        "role": "aruun_repository_schema",
+        "purpose": "aruun_repository_schema",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "frontmatter",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "4bf6528651545bff32e56174e2ee8170b87f4b2e71001923a49febaac2383077",
+        "identity_basis": [],
+        "identity_source": "frontmatter"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/CONTENT_LINEAGE_SPEC_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Content Lineage & Consolidation Specification v0.1",
+          "Purpose",
+          "Core rule",
+          "Canon rule",
+          "Preservation rule",
+          "Decision vocabulary",
+          "Important limitation"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "content_lineage_spec",
+        "role": "content_lineage_spec",
+        "purpose": "content_lineage_spec",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "7ed2886a039e483a96b9c6cc4ef4962b8923381dc600dc8dd830fe2a344b912c",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/CONTENT_PLACEMENT_AUDIT_SPEC_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Content Placement Audit v0.1",
+          "Purpose",
+          "Non-negotiable rule",
+          "Candidate classes",
+          "Evidence model",
+          "Regional architecture",
+          "Tool distinction",
+          "Cleanup workflow"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "content_placement_audit_spec",
+        "role": "audit_support",
+        "purpose": "audit_support",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "AUDIT"
+      },
+      "artifact_role": "AUDIT",
+      "provenance": {
+        "content_sha256": "bc9b8609c071f6a16f2fd388130b2278d24de62c1e681ba79214fa6bf7219999",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/CONTINUITY_ENGINE_SPEC_v0.1.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Continuity Engine v0.1",
+          "Purpose",
+          "Identity rule",
+          "Version rule",
+          "Findings",
+          "Safety",
+          "Consolidation lifecycle"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "continuity_engine_spec",
+        "role": "continuity_engine_spec",
+        "purpose": "continuity_engine_spec",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "077420efa6fa60ca96bfb7c3b29712ffa1da39757aab78fd41d1d1082d5c8e3b",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/LIVE_TEST/HEARTH_LIVE_TEST.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Live Continuity Test \u2014 Hearth",
+          "Scope",
+          "Test rule",
+          "Controlled baseline",
+          "Expected behavior",
+          "Promotion rule"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "hearth_live_test",
+        "role": "hearth_live_test",
+        "purpose": "hearth_live_test",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "a94894e65eb056667f0dc8b22de30b43c1e4c26a752f61487fd028cca5e6ff57",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/PLACEMENT_CALIBRATION.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Content Placement Calibration Rules",
+          "1. World artifact",
+          "2. Construction method",
+          "3. World artifact with construction provenance",
+          "4. Creature library rule",
+          "5. SunsCour Oasis rule",
+          "6. Archive rule",
+          "7. Authority rule"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "placement_calibration",
+        "role": "placement_calibration",
+        "purpose": "placement_calibration",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "29f5299537e1b2576fb401e08625863cc4d4ed232ffb6c150dce6f6accd12524",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Repository Tooling",
+          "Current tooling",
+          "`ARUUN_REPOSITORY_SCHEMA_v0.1.md`",
+          "`validate_repo.py`",
+          "Running the audit",
+          "Generated reports",
+          "Operating principle"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "readme",
+        "role": "readme",
+        "purpose": "readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "e5578a95b31e03af450768219595059833eb2fb931715a807eb8f49d59681f70",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RECONCILIATION/DISCREPANCY_LOG.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Discrepancy Log",
+          "Rules",
+          "Active Findings",
+          "Status vocabulary"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "discrepancy_log",
+        "role": "discrepancy_log",
+        "purpose": "discrepancy_log",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "a87e77ae0518014c176ffbb266d2786560e00517fcbb013540fa45f9bade864e",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RECONCILIATION/README.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Reconciliation Layer"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "readme",
+        "role": "readme",
+        "purpose": "readme",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "8b4a4f184966fbd1ec18595bffca2f87db1ce73ab6cea743ce56c825e5139ec4",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RECONCILIATION/REVIEW_PROTOCOL.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Reconciliation & Review Protocol",
+          "Purpose",
+          "Classification",
+          "Review rule",
+          "Version overlay",
+          "Resolution states",
+          "Canon rule",
+          "Folder rule"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "review_protocol",
+        "role": "review_protocol",
+        "purpose": "review_protocol",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "9e012d5461a270dbf4492e61ae228ea103ae9e6005143b21649c76eeb2315673",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RECONCILIATION/REVIEW_QUEUE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Reconciliation Review Queue",
+          "Rules"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "review_queue",
+        "role": "review_queue",
+        "purpose": "review_queue",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "91515db2f33e829fa226a0ec3bc6c620b8d6eb655368ddb5e6dd889c2394c32c",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RECONCILIATION/VERSION_OVERLAY_SPEC.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "ARUUN Version Overlay Specification",
+          "Goal",
+          "Overlay model",
+          "Lineage",
+          "Display requirements",
+          "Safety"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "version_overlay_spec",
+        "role": "version_overlay_spec",
+        "purpose": "version_overlay_spec",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "2c949895e359d22691e07c3fce4c0e2536537551827e529cbd2e766a2c53bd2d",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RULES/CANONICAL_DOCUMENT_MAINTENANCE.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "CANONICAL DOCUMENT MAINTENANCE RULE",
+          "Non-negotiable rule",
+          "Version history",
+          "Existing-file rule",
+          "Duplicate prevention",
+          "Supporting documents",
+          "Deprecated material",
+          "CORE compatibility principle"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "canonical_document_maintenance",
+        "role": "canonical_document_maintenance",
+        "purpose": "canonical_document_maintenance",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "21fadf63111867d16cd26572d4f0ab7eb00789133e5486126368a1c51e9938fe",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/RULES/DOCUMENT_NAMING_STATUS_CODES.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Document Naming & Status Codes",
+          "Purpose",
+          "Naming Convention",
+          "Status Codes",
+          "Rules"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "document_naming_status_codes",
+        "role": "document_naming_status_codes",
+        "purpose": "document_naming_status_codes",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "5f58a187dc7870bbe1cc2750e73cc2e5aad34448a795a831e5ef518e38f9f78d",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/validator/README_ONTOLOGY_V2_POLICY_TIGHTENING.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "Ontology v2 policy tightening",
+          "Relationship routing principle"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "readme_ontology_v2_policy_tightening",
+        "role": "readme_ontology_v2_policy_tightening",
+        "purpose": "readme_ontology_v2_policy_tightening",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "1d576b5449a963c2fbdde59163768f75520eee0c06163969134fa9910e6d6edf",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    },
+    {
+      "path": "TOOLS/REPOSITORY/validator/core_variant_calibration.md",
+      "document": {
+        "subject": null,
+        "domain": null,
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": null,
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [],
+        "headings": [
+          "CORE VARIANT Calibration",
+          "Operational definition",
+          "Regional rule",
+          "Eligibility signals",
+          "Legacy/flat handling",
+          "Regional sibling handling"
+        ],
+        "content_evidence_present": true
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "core_variant_calibration",
+        "role": "core_variant_calibration",
+        "purpose": "core_variant_calibration",
+        "scope": null,
+        "identity_confidence": "MEDIUM",
+        "identity_source": "path",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "ed9555445f4d7d0bdf020809e6b7f1692693649442e6d6a860b8fc51f608ba94",
+        "identity_basis": [],
+        "identity_source": "path"
+      }
+    }
+  ],
+  "safety": {
+    "source_mutation": false,
+    "canon_mutation": false,
+    "working_material_promotion": false,
+    "holdout_mutation": false,
+    "automatic_placement": false,
+    "generated_releases_as_sources": false,
+    "filename_as_deciding_factor": false
+  },
+  "operating_principle": "Document information is primary evidence; path/filename identity is contextual evidence, never a deciding factor by itself."
+}

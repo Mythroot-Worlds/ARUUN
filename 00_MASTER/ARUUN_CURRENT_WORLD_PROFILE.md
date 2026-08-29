@@ -2,13 +2,13 @@
 world: Aruun
 domain: Master
 subject: World Profile
-status: working
-canonical: false
+status: authoritative
+canonical: true
 ---
 
 # Aruun — Current World Profile
 
-This document summarizes the current physical and developmental state of Aruun for ongoing world development.
+This document summarizes the current physical and developmental state of Aruun for ongoing world reference.
 
 ## At a glance
 
@@ -41,4 +41,4 @@ The broad causal chain remains:
 
 **planetary parameters → atmosphere/circulation → geography → ocean circulation → climate → water systems → ecology → evolution → culture**
 
-This document is intended as a current working profile and may be revised as the world is developed.
+This document is intended as a current authoritative world profile and may be revised as the world is developed.

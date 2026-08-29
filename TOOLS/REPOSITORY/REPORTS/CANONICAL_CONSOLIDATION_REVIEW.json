@@ -1,7 +1,7 @@
 {
   "mode": "READ_ONLY",
   "review_only": true,
-  "unit_count": 113,
+  "unit_count": 114,
   "context_model": {
     "domains": [
       "ECOLOGY",
@@ -363,6 +363,48 @@
           "domain": "MASTER",
           "role": "CANON",
           "text": "> **Anachronism may be impossible; it must not be arbitrary.**"
+        }
+      ]
+    },
+    {
+      "unit": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**",
+      "sources": [
+        "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
+        "00_MASTER/WORLD_BIBLE.md"
+      ],
+      "occurrences": 2,
+      "contexts": [
+        {
+          "path": "00_MASTER/WORLD_BIBLE.md",
+          "domain": "MASTER",
+          "role": "CANON",
+          "folder": [
+            "00_MASTER"
+          ]
+        },
+        {
+          "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
+          "domain": "MASTER",
+          "role": "CANON",
+          "folder": [
+            "00_MASTER"
+          ]
+        }
+      ],
+      "status": "SHARED_EVIDENCE",
+      "decision": "UNRESOLVED",
+      "provenance": [
+        {
+          "path": "00_MASTER/WORLD_BIBLE.md",
+          "domain": "MASTER",
+          "role": "CANON",
+          "text": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**"
+        },
+        {
+          "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
+          "domain": "MASTER",
+          "role": "CANON",
+          "text": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**"
         }
       ]
     },

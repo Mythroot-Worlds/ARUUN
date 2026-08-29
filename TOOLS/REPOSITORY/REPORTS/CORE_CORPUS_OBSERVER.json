@@ -2,8 +2,74 @@
   "engine": "CORE A.C.E. Corpus Observer",
   "phase": "1 \u2014 Corpus Inventory / observation boundary",
   "mode": "READ_ONLY",
-  "documents_in_scope": 117,
+  "documents_in_scope": 118,
   "documents": [
+    {
+      "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
+      "document": {
+        "subject": "World Profile",
+        "domain": "Master",
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": "working",
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "domain",
+          "status",
+          "subject"
+        ],
+        "headings": [
+          "Aruun \u2014 Current World Profile",
+          "At a glance",
+          "Planetary Foundation",
+          "Development Notes"
+        ],
+        "content_evidence_present": true,
+        "information_unit_count": 8,
+        "information_unit_sections": [
+          "Aruun \u2014 Current World Profile",
+          "Development Notes",
+          "Planetary Foundation"
+        ],
+        "information_unit_fingerprints": [
+          "d6130f217b036040",
+          "893f4740eaebde4c",
+          "ed874621170067b9",
+          "dbb3b3b42e407f3f",
+          "bd8b42ce877adbe9",
+          "3e3450bf230c61cd",
+          "0ec4470c7d22f061",
+          "0a2c26bb9192d04d"
+        ]
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "world_profile",
+        "role": "aruun_current_world_profile",
+        "purpose": "aruun_current_world_profile",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "frontmatter",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "2f4669d173458ec6152389c6a466f869229e5c59ee54fb770aa68f2358c97fdd",
+        "identity_basis": [],
+        "identity_source": "frontmatter",
+        "information_unit_source": "core_information_units.units"
+      }
+    },
     {
       "path": "00_MASTER/CANON_INDEX.md",
       "document": {

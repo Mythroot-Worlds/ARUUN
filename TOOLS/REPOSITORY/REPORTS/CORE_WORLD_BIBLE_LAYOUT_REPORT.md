@@ -1,7 +1,7 @@
 # CORE World Bible Layout Report
 
-Documents: 118
-Proper location: 65
+Documents: 119
+Proper location: 66
 Unmapped: 53
 Low schema signal: 20
 

@@ -3,7 +3,7 @@
 **Mode:** READ-ONLY
 **Phase:** 1 — Corpus Inventory / observation boundary
 
-Documents in scope: **117**
+Documents in scope: **118**
 
 ## Safety
 - Source mutation: **OFF**
@@ -18,6 +18,7 @@ Documents in scope: **117**
 Document-derived information is recorded first. Existing structural/artifact identity and the established information-unit extractor are contextual evidence for downstream engines; unresolved information remains unresolved.
 
 ## Inventory
+- `00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md` — subject=`World Profile`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
 - `00_MASTER/CANON_INDEX.md` — subject=`Canon Index`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
 - `00_MASTER/FOUNDATION_WORLD_PROFILE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`218`
 - `00_MASTER/WORLD_BIBLE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`OVERVIEW`, information_units=`188`

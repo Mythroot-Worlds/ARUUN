@@ -22,8 +22,8 @@ Similarity: 0.9844
 ### Added
 
 ### Modified
-- this document summarizes the current physical and developmental state of aruun for ongoing world development. → this document summarizes the current physical and developmental state of aruun for ongoing world reference.
 - this document is intended as a current working profile and may be revised as the world is developed. → this document is intended as a current authoritative world profile and may be revised as the world is developed.
+- this document summarizes the current physical and developmental state of aruun for ongoing world development. → this document summarizes the current physical and developmental state of aruun for ongoing world reference.
 
 ### Potentially Dropped
 

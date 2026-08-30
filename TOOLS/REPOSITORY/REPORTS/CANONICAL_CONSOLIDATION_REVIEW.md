@@ -104,11 +104,11 @@ Context-qualified shared evidence units: **114**
 - **Occurrences:** 2
 - **Contexts:
   - `00_MASTER/WORLD_BIBLE.md` — MASTER / CANON
-  - `00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md` — MASTER / CANON
+  - `01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md` — WORLD / CANON
 - **Decision:** `UNRESOLVED`
 - **Provenance:
   - `00_MASTER/WORLD_BIBLE.md`
-  - `00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md`
+  - `01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md`
 
 ## 10. **Shattered:** fragmentation and specialization.
 - **Status:** SHARED_EVIDENCE

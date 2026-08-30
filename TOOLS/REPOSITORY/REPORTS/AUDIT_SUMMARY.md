@@ -5,7 +5,7 @@
 | Metric | Count |
 |---|---:|
 | Documents scanned | 173 |
-| Findings | 272 |
-| Errors | 0 |
+| Findings | 273 |
+| Errors | 1 |
 | Warnings | 248 |
 | Info | 24 |

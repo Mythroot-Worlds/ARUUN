@@ -5,72 +5,6 @@
   "documents_in_scope": 118,
   "documents": [
     {
-      "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-      "document": {
-        "subject": "World Profile",
-        "domain": "Master",
-        "cultural_scope": null,
-        "population": null,
-        "region": null,
-        "subregion": null,
-        "entity": null,
-        "purpose": null,
-        "role": null,
-        "status": "authoritative",
-        "authority": null
-      },
-      "content_evidence": {
-        "fields_observed": [
-          "domain",
-          "status",
-          "subject"
-        ],
-        "headings": [
-          "Aruun \u2014 Current World Profile",
-          "At a glance",
-          "Planetary Foundation",
-          "Development Notes"
-        ],
-        "content_evidence_present": true,
-        "information_unit_count": 8,
-        "information_unit_sections": [
-          "Aruun \u2014 Current World Profile",
-          "Development Notes",
-          "Planetary Foundation"
-        ],
-        "information_unit_fingerprints": [
-          "0ede017a38620e85",
-          "893f4740eaebde4c",
-          "ed874621170067b9",
-          "dbb3b3b42e407f3f",
-          "bd8b42ce877adbe9",
-          "3e3450bf230c61cd",
-          "0ec4470c7d22f061",
-          "89472093f9cbebf6"
-        ]
-      },
-      "identity": {
-        "entity": null,
-        "population": null,
-        "region": null,
-        "subregion": null,
-        "subject": "world_profile",
-        "role": "aruun_current_world_profile",
-        "purpose": "aruun_current_world_profile",
-        "scope": null,
-        "identity_confidence": "HIGH",
-        "identity_source": "frontmatter",
-        "artifact_role": "UNKNOWN"
-      },
-      "artifact_role": "UNKNOWN",
-      "provenance": {
-        "content_sha256": "5b72f385785734e0729b2300e66493a070ed69776416115c4d7e7fb737ca842f",
-        "identity_basis": [],
-        "identity_source": "frontmatter",
-        "information_unit_source": "core_information_units.units"
-      }
-    },
-    {
       "path": "00_MASTER/CANON_INDEX.md",
       "document": {
         "subject": "Canon Index",
@@ -2401,6 +2335,72 @@
         "content_sha256": "d4c6ca164526ec593ad75081ae21ba1f7e75ffd5edfd70aeaa7cdb67ca678e71",
         "identity_basis": [],
         "identity_source": "path",
+        "information_unit_source": "core_information_units.units"
+      }
+    },
+    {
+      "path": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+      "document": {
+        "subject": "World Profile",
+        "domain": "Master",
+        "cultural_scope": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "entity": null,
+        "purpose": null,
+        "role": null,
+        "status": "authoritative",
+        "authority": null
+      },
+      "content_evidence": {
+        "fields_observed": [
+          "domain",
+          "status",
+          "subject"
+        ],
+        "headings": [
+          "Aruun \u2014 Current World Profile",
+          "At a glance",
+          "Planetary Foundation",
+          "Development Notes"
+        ],
+        "content_evidence_present": true,
+        "information_unit_count": 8,
+        "information_unit_sections": [
+          "Aruun \u2014 Current World Profile",
+          "Development Notes",
+          "Planetary Foundation"
+        ],
+        "information_unit_fingerprints": [
+          "d6130f217b036040",
+          "893f4740eaebde4c",
+          "ed874621170067b9",
+          "dbb3b3b42e407f3f",
+          "bd8b42ce877adbe9",
+          "3e3450bf230c61cd",
+          "0ec4470c7d22f061",
+          "0a2c26bb9192d04d"
+        ]
+      },
+      "identity": {
+        "entity": null,
+        "population": null,
+        "region": null,
+        "subregion": null,
+        "subject": "world_profile",
+        "role": "aruun_world_profile",
+        "purpose": "aruun_world_profile",
+        "scope": null,
+        "identity_confidence": "HIGH",
+        "identity_source": "frontmatter",
+        "artifact_role": "UNKNOWN"
+      },
+      "artifact_role": "UNKNOWN",
+      "provenance": {
+        "content_sha256": "426b0318775c72b99ece9c63a16ddca8b60b339eab86de4b770d67bfd86cf048",
+        "identity_basis": [],
+        "identity_source": "frontmatter",
         "information_unit_source": "core_information_units.units"
       }
     },

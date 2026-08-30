@@ -213,25 +213,6 @@
       }
     },
     {
-      "source": "/home/runner/work/ARUUN/ARUUN/00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-      "line_context": 9,
-      "relation_identifier": "DERIVED",
-      "verb": "summarizes",
-      "subject": null,
-      "object": null,
-      "modifiers": [],
-      "scope": null,
-      "time": null,
-      "authority": null,
-      "context": "This document summarizes the current physical and developmental state of Aruun for ongoing world reference.",
-      "evidence_status": "EXPLICIT_VERB_CONTEXT",
-      "requires_entity_resolution": true,
-      "provenance": {
-        "source_file": "/home/runner/work/ARUUN/ARUUN/00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-        "source_line_context": 9
-      }
-    },
-    {
       "source": "/home/runner/work/ARUUN/ARUUN/03_PEOPLES/DEMOGRAPHICS/HUMAN_POPULATION_GEOGRAPHY.md",
       "line_context": 43,
       "relation_identifier": "SUPPORTING",
@@ -1521,6 +1502,25 @@
       "provenance": {
         "source_file": "/home/runner/work/ARUUN/ARUUN/02_ECOLOGY/FLORA/FLORA_CREATION_PACKAGE/02_FLORA_CREATION_MATRIX.md",
         "source_line_context": 54
+      }
+    },
+    {
+      "source": "/home/runner/work/ARUUN/ARUUN/01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+      "line_context": 9,
+      "relation_identifier": "DERIVED",
+      "verb": "summarizes",
+      "subject": null,
+      "object": null,
+      "modifiers": [],
+      "scope": null,
+      "time": null,
+      "authority": null,
+      "context": "This document summarizes the current physical and developmental state of Aruun for ongoing world development.",
+      "evidence_status": "EXPLICIT_VERB_CONTEXT",
+      "requires_entity_resolution": true,
+      "provenance": {
+        "source_file": "/home/runner/work/ARUUN/ARUUN/01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+        "source_line_context": 9
       }
     },
     {

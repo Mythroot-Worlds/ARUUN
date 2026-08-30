@@ -18,7 +18,6 @@ Documents in scope: **118**
 Document-derived information is recorded first. Existing structural/artifact identity and the established information-unit extractor are contextual evidence for downstream engines; unresolved information remains unresolved.
 
 ## Inventory
-- `00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md` — subject=`World Profile`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
 - `00_MASTER/CANON_INDEX.md` — subject=`Canon Index`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`6`
 - `00_MASTER/FOUNDATION_WORLD_PROFILE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`218`
 - `00_MASTER/WORLD_BIBLE.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`OVERVIEW`, information_units=`188`
@@ -33,6 +32,7 @@ Document-derived information is recorded first. Existing structural/artifact ide
 - `01_WORLD/CONTINENTS/LOST/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
 - `01_WORLD/CONTINENTS/RIFT/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
 - `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
+- `01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md` — subject=`World Profile`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
 - `01_WORLD/PLANET/TECTONICS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`132`
 - `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`534`
 - `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`15`

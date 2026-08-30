@@ -369,8 +369,8 @@
     {
       "unit": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**",
       "sources": [
-        "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-        "00_MASTER/WORLD_BIBLE.md"
+        "00_MASTER/WORLD_BIBLE.md",
+        "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md"
       ],
       "occurrences": 2,
       "contexts": [
@@ -383,11 +383,12 @@
           ]
         },
         {
-          "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-          "domain": "MASTER",
+          "path": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+          "domain": "WORLD",
           "role": "CANON",
           "folder": [
-            "00_MASTER"
+            "01_WORLD",
+            "PLANET"
           ]
         }
       ],
@@ -401,8 +402,8 @@
           "text": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**"
         },
         {
-          "path": "00_MASTER/ARUUN_CURRENT_WORLD_PROFILE.md",
-          "domain": "MASTER",
+          "path": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+          "domain": "WORLD",
           "role": "CANON",
           "text": "**planetary parameters \u2192 atmosphere/circulation \u2192 geography \u2192 ocean circulation \u2192 climate \u2192 water systems \u2192 ecology \u2192 evolution \u2192 culture**"
         }

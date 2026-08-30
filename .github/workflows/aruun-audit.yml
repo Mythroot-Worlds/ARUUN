@@ -42,8 +42,8 @@ jobs:
         run: python TOOLS/REPOSITORY/validator/canonical_consolidation_review.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Run CORE A.C.E. adaptive calibration engine
         run: python TOOLS/REPOSITORY/validator/core_ace.py --root . --out TOOLS/REPOSITORY/REPORTS
-      - name: Discover CORE relationships
-        run: python TOOLS/REPOSITORY/validator/core_relationship_discovery.py --root . --scope 03_PEOPLES/CULTURES/HEARTH --out TOOLS/REPOSITORY/REPORTS
+      - name: Discover CORE relationships across active world scopes
+        run: python TOOLS/REPOSITORY/validator/core_relationship_discovery.py --root . --scope 03_PEOPLES/CULTURES/HEARTH --scope 01_WORLD/PLANET --out TOOLS/REPOSITORY/REPORTS
       - name: Run CORE pairwise semantic comparator
         run: python TOOLS/REPOSITORY/validator/core_semantic_comparator.py --root . --out TOOLS/REPOSITORY/REPORTS
       - name: Apply evidence-gated CORE VARIANT arbitration

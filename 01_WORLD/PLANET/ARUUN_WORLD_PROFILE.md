@@ -1,6 +1,6 @@
 ---
 world: Aruun
-domain: Master
+domain: World
 subject: World Profile
 status: authoritative
 canonical: true
@@ -8,7 +8,7 @@ canonical: true
 
 # Aruun — Current World Profile
 
-This document summarizes the current physical and developmental state of Aruun for ongoing world development.
+This document summarizes the current physical and developmental state of Aruun for ongoing world reference.
 
 ## At a glance
 
@@ -29,9 +29,9 @@ This document summarizes the current physical and developmental state of Aruun f
 
 Aruun is a warm K-type-star world with approximately **0.82g surface gravity**, a **24-hour day**, and an axial tilt of approximately **31°**.
 
-Its working orbital distance is approximately **0.65 AU**, with an orbital year of approximately **214 Earth days** and an eccentricity of approximately **0.08**.
+Its orbital distance is approximately **0.65 AU**, with an orbital year of approximately **214 Earth days** and an eccentricity of approximately **0.08**.
 
-The world maintains a working land/water ratio near **70/30**, two substantial moons, and a seven-plate tectonic architecture.
+The world maintains a land/water ratio near **70/30**, two substantial moons, and a seven-plate tectonic architecture.
 
 ## Development Notes
 
@@ -41,4 +41,4 @@ The broad causal chain remains:
 
 **planetary parameters → atmosphere/circulation → geography → ocean circulation → climate → water systems → ecology → evolution → culture**
 
-This document is intended as a current working profile and may be revised as the world is developed.
+This document is maintained as an authoritative current world profile.

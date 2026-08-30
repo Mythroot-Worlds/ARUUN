@@ -1027,9 +1027,9 @@ Similarity: 0.9667
 - this document is maintained as an authoritative current world profile.
 
 ### Modified
-- the world maintains a working land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture. → the world maintains a land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture.
-- its working orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 . → its orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 .
 - this document summarizes the current physical and developmental state of aruun for ongoing world development. → this document summarizes the current physical and developmental state of aruun for ongoing world reference.
+- its working orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 . → its orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 .
+- the world maintains a working land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture. → the world maintains a land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture.
 
 ### Potentially Dropped
 - this document is intended as a current working profile and may be revised as the world is developed.

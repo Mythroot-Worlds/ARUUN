@@ -2,9 +2,10 @@
 
 **Read-only candidate generation. No relationship is accepted automatically.**
 
-Documents analyzed: **24**
-Relationship candidates discovered: **153**
-Review queue: **153**
+**Scopes:** `03_PEOPLES/CULTURES/HEARTH`, `01_WORLD/PLANET`
+**Documents analyzed:** **26**
+**Relationship candidates discovered:** **162**
+**Review queue:** **162**
 
 ## Match strength
 **5** Near Certain · **4** Strong · **3** Moderate · **2** Weak · **1** Minimal
@@ -61,4 +62,4 @@ Match strength measures how strongly two records appear connected; it does not d
 - `REL-05ae219e967b33df` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md` — **3/5 Moderate**, shared terms 49, similarity 0.1914
 - `REL-75f0245d70d39f64` — `03_PEOPLES/CULTURES/HEARTH/DESERT.md` ↔ `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md` — **3/5 Moderate**, shared terms 155, similarity 0.1907
 - `REL-d61ec069923ec591` — `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md` ↔ `03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md` — **3/5 Moderate**, shared terms 114, similarity 0.1906
-- `REL-57b3e2bb2bf24c47` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md` — **3/5 Moderate**, shared terms 45, similarity 0.1875
+- `REL-78aa0ac023ba1f89` — `03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md` ↔ `03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md` — **3/5 Moderate**, shared terms 45, similarity 0.1875

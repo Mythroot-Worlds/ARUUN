@@ -1,10 +1,13 @@
 {
   "engine": "CORE Relationship Discovery",
   "mode": "READ_ONLY",
-  "scope": "03_PEOPLES/CULTURES/HEARTH",
-  "documents_analyzed": 24,
-  "relationships_discovered": 153,
-  "review_queue_size": 153,
+  "scope": [
+    "03_PEOPLES/CULTURES/HEARTH",
+    "01_WORLD/PLANET"
+  ],
+  "documents_analyzed": 26,
+  "relationships_discovered": 162,
+  "review_queue_size": 162,
   "relationships": [
     {
       "relationship_id": "REL-4ce40ae776e75ba3",
@@ -595,9 +598,9 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-57b3e2bb2bf24c47",
+      "relationship_id": "REL-78aa0ac023ba1f89",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 45,
       "jaccard": 0.1875,
       "match_strength": 3,
@@ -607,9 +610,9 @@
       "review_required": true
     },
     {
-      "relationship_id": "REL-78aa0ac023ba1f89",
+      "relationship_id": "REL-57b3e2bb2bf24c47",
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/RIVER/FAMILY_BIRTH_CHILDHOOD.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/PLAINS/FAMILY_BIRTH_CHILDHOOD.md",
       "shared_terms": 45,
       "jaccard": 0.1875,
       "match_strength": 3,
@@ -1615,6 +1618,18 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-03820fb6af2d3ae5",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 134,
+      "jaccard": 0.1108,
+      "match_strength": 2,
+      "match_strength_label": "Weak",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-ee9588e897fd1f0c",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
@@ -1807,11 +1822,35 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-cea767e04f84a486",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 84,
+      "jaccard": 0.0901,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-36052a75d5ff8953",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "shared_terms": 49,
       "jaccard": 0.0889,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-67749e8ffdb62bb2",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "right": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+      "shared_terms": 40,
+      "jaccard": 0.0879,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",
@@ -1831,11 +1870,83 @@
       "review_required": true
     },
     {
+      "relationship_id": "REL-d3f9a985ddd323e0",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
+      "right": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+      "shared_terms": 16,
+      "jaccard": 0.0851,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-3811f0b6c7371356",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 67,
+      "jaccard": 0.0843,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-5490a2abc0c1f8e1",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 67,
+      "jaccard": 0.0843,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-59268977a464ff74",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 83,
+      "jaccard": 0.0833,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-eaa4dedbf3f7a91e",
+      "left": "03_PEOPLES/CULTURES/HEARTH/CULTURAL_AUDIT_CHECKLIST.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 79,
+      "jaccard": 0.0813,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
       "relationship_id": "REL-14661e9184585e44",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
       "shared_terms": 43,
       "jaccard": 0.0805,
+      "match_strength": 1,
+      "match_strength_label": "Minimal",
+      "classification": "UNCLASSIFIED",
+      "status": "DISCOVERED_UNREVIEWED",
+      "review_required": true
+    },
+    {
+      "relationship_id": "REL-cd751be469bde4d2",
+      "left": "01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md",
+      "right": "01_WORLD/PLANET/TECTONICS.md",
+      "shared_terms": 48,
+      "jaccard": 0.0804,
       "match_strength": 1,
       "match_strength_label": "Minimal",
       "classification": "UNCLASSIFIED",

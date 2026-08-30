@@ -10,8 +10,263 @@
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
+      "relationship_id": "REL-2ab1707fd5bdc34d",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-6393b0e5604c64be",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-e0cced50cb5960dc",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-90b218660b55f84f",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-6ec15f56d38ae655",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-feb21b4aefc7a187",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-3fb322fe3ce82be1",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-50cd84d073a9394d",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-691ab0ffea5a8ddd",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-193f32ad2d9de810",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-d1a7bee30a221feb",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-b329cd231d2727ad",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-2bccf3bd93305a2f",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-1405f0ab574f068e",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-7770c1de53d22d03",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
       "relationship_id": "REL-ead9ec80b42f820d",
       "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-30f5a9626f7e6afd",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-51f1b244d00d546d",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-5371fbbbcd98ffd1",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-ed460f945de5591e",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-63c6ff0ac1ceecb0",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-3a5d6786a3b536d1",
+      "dimensions": [],
+      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
+    },
+    {
+      "relationship_id": "REL-b6777944aa374510",
+      "dimensions": [
+        {
+          "dimension": "subject",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "scope",
+          "verdict": "CONVERGENT",
+          "basis": {
+            "batman_answered": true,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "scale",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "function",
+          "verdict": "CONVERGENT",
+          "basis": {
+            "batman_answered": true,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "depth",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "canon_status",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "importance",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "development_state",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "relationship",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "dependency",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "consequence",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "provenance",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "intentionality",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "coherence",
+          "verdict": "PARTIAL",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": true,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "usability",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        },
+        {
+          "dimension": "story_relevance",
+          "verdict": "UNRESOLVED",
+          "basis": {
+            "batman_answered": false,
+            "robin_factor_support": false,
+            "oracle_context": true
+          }
+        }
+      ],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
@@ -40,126 +295,16 @@
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     },
     {
-      "relationship_id": "REL-4e6b02fc2580a7a2",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-906286fef0d46951",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-2f9de55b575b00cc",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-2ab1707fd5bdc34d",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-9c7fbdc858131086",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-8197c87b212ac508",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-341efe5ddc2482a6",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-6f47ea8881a36b64",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-90b218660b55f84f",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-50cd84d073a9394d",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-6e028c75828484ff",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-1b712529283ae64f",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-58f47afa9dd85aeb",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-3fb322fe3ce82be1",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-63e65f85b9949f10",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-2888a33559c9fb21",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-d2769ca87432c610",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-9119c7e451067bdb",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-9a91297a46c77be5",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-107eb174356afb8d",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-309c9b8cabd4216c",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-1c68dc77865c81c0",
-      "dimensions": [],
-      "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
-    },
-    {
-      "relationship_id": "REL-8d0173eed0ee9b89",
+      "relationship_id": "REL-883ab31bf3df850e",
       "dimensions": [],
       "independent_synthesis": "Nightwing evaluates convergence, partial coverage, contradiction, and unresolved factors without overwriting Batman or Robin"
     }
   ],
   "summary": {
     "cases": 30,
-    "convergent_dimensions": 0,
-    "partial_dimensions": 0,
+    "convergent_dimensions": 2,
+    "partial_dimensions": 8,
     "contradictory_dimensions": 0,
-    "unresolved_dimensions": 0
+    "unresolved_dimensions": 6
   }
 }

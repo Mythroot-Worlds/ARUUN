@@ -4,10 +4,10 @@
   "holdout_size": 30,
   "annotation_count": 31,
   "unique_annotation_pairs": 31,
-  "matched_count": 6,
-  "unmatched_annotation_count": 25,
+  "matched_count": 3,
+  "unmatched_annotation_count": 28,
   "duplicate_annotation_count": 0,
-  "remaining_holdout_count": 24,
+  "remaining_holdout_count": 27,
   "matched": [
     {
       "relationship_id": "REL-ed6dfb7c702bc752",
@@ -20,21 +20,6 @@
         "VARIANT"
       ],
       "human_reasoning": "Broad Hearth family/birth framework versus Plains regional expression.",
-      "requires_human_validation": true
-    },
-    {
-      "relationship_id": "REL-611f05a8b4f4793f",
-      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.661,
-      "match_strength": 1,
-      "human_raw_choices": [
-        "RELATED",
-        "SUPPORTING",
-        "HISTORICAL"
-      ],
-      "human_reasoning": "Desert is a regional-level document; Mountain Specialist Houses is settlement-level. Both concern Hearth peoples. The reasoning describes scope and population hierarchy rather than historical change; preserve HISTORICAL as the raw selected option for audit.",
       "requires_human_validation": true
     },
     {
@@ -63,38 +48,38 @@
       ],
       "human_reasoning": "Supporting/audit document versus regional culture document.",
       "requires_human_validation": true
-    },
+    }
+  ],
+  "unmatched_annotations": [
     {
-      "relationship_id": "REL-2aa256d2321cd8d4",
       "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.675,
-      "match_strength": 1,
-      "human_raw_choices": [
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "raw_choices": [
         "RELATED",
         "SUPPORTING",
         "HISTORICAL"
       ],
-      "human_reasoning": "Both concern Desert peoples; one is broad regional information and the other focuses on family/birth/childhood. Reasoning indicates scope/function, not historical change; preserve HISTORICAL as raw selection.",
-      "requires_human_validation": true
+      "reasoning": "Desert is a regional-level document; Mountain Specialist Houses is settlement-level. Both concern Hearth peoples. The reasoning describes scope and population hierarchy rather than historical change; preserve HISTORICAL as the raw selected option for audit."
     },
     {
-      "relationship_id": "REL-cff466521f8c52e3",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING",
+        "HISTORICAL"
+      ],
+      "reasoning": "Both concern Desert peoples; one is broad regional information and the other focuses on family/birth/childhood. Reasoning indicates scope/function, not historical change; preserve HISTORICAL as raw selection."
+    },
+    {
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.658,
-      "match_strength": 1,
-      "human_raw_choices": [
+      "raw_choices": [
         "RELATED",
         "CONFLICT"
       ],
-      "human_reasoning": "Leadership document versus mountain lineage structure; overlapping authority can create conflict/overlap.",
-      "requires_human_validation": true
-    }
-  ],
-  "unmatched_annotations": [
+      "reasoning": "Leadership document versus mountain lineage structure; overlapping authority can create conflict/overlap."
+    },
     {
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/FAMILY_BIRTH_CHILDHOOD.md",
@@ -326,7 +311,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.609
+      "machine_confidence": 0.621
     },
     {
       "relationship_id": "REL-b0f8a45b3b8d8af8",
@@ -354,7 +339,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_RELIGION_BELIEF_RITUAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.565
+      "machine_confidence": 0.585
     },
     {
       "relationship_id": "REL-edc3f66a40129c36",
@@ -362,6 +347,13 @@
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
       "machine_confidence": 0.665
+    },
+    {
+      "relationship_id": "REL-4da0f18d1a4a2b51",
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "00_MASTER/FOUNDATION_WORLD_PROFILE.md",
+      "machine_prediction": "UNCLASSIFIED",
+      "machine_confidence": 0
     },
     {
       "relationship_id": "REL-8f6b30aeda301908",
@@ -382,7 +374,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.657
+      "machine_confidence": 0.665
     },
     {
       "relationship_id": "REL-54e3fb43c193ce34",
@@ -396,28 +388,35 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_ELDERS_AGING_DEATH_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.63
+      "machine_confidence": 0.648
+    },
+    {
+      "relationship_id": "REL-7efbbf1b7d0d9248",
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "00_MASTER/WORLD_BIBLE.md",
+      "machine_prediction": "UNCLASSIFIED",
+      "machine_confidence": 0
     },
     {
       "relationship_id": "REL-81ced73e96ffb9c2",
       "left": "03_PEOPLES/CULTURES/HEARTH/WETLANDS/FAMILY_BIRTH_CHILDHOOD.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.657
+      "machine_confidence": 0.665
     },
     {
       "relationship_id": "REL-2be6660290dd8dcd",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_DEVELOPMENTAL_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.648
+      "machine_confidence": 0.667
     },
     {
-      "relationship_id": "REL-2f88b585362ecfc9",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.604
+      "relationship_id": "REL-65c3e7975c1458db",
+      "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
+      "right": "00_MASTER/WORLD_BIBLE.md",
+      "machine_prediction": "UNCLASSIFIED",
+      "machine_confidence": 0
     },
     {
       "relationship_id": "REL-66a8d06394838750",
@@ -427,18 +426,25 @@
       "machine_confidence": 0.654
     },
     {
+      "relationship_id": "REL-883ab31bf3df850e",
+      "left": "00_MASTER/CANON_INDEX.md",
+      "right": "00_MASTER/WORLD_STATUS.md",
+      "machine_prediction": "UNCLASSIFIED",
+      "machine_confidence": 0
+    },
+    {
       "relationship_id": "REL-1002757d57552a92",
       "left": "03_PEOPLES/CULTURES/HEARTH/PLAINS.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_LEADERSHIP_AUTHORITY_GOVERNANCE_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.621
+      "machine_confidence": 0.631
     },
     {
       "relationship_id": "REL-906286fef0d46951",
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.63
+      "machine_confidence": 0.648
     },
     {
       "relationship_id": "REL-bf8550b0e550648f",
@@ -452,7 +458,7 @@
       "left": "03_PEOPLES/CULTURES/HEARTH/FAMILY_PARTNERSHIP.md",
       "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
       "machine_prediction": "RELATED",
-      "machine_confidence": 0.626
+      "machine_confidence": 0.636
     },
     {
       "relationship_id": "REL-8d0173eed0ee9b89",
@@ -462,11 +468,11 @@
       "machine_confidence": 0.648
     },
     {
-      "relationship_id": "REL-659da4a5d2dec8d9",
-      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_FAMILY_KINSHIP_REFERENCE.md",
-      "right": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
-      "machine_prediction": "RELATED",
-      "machine_confidence": 0.687
+      "relationship_id": "REL-797be5f6261df5bb",
+      "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/HEARTH_CULTURAL_MATRIX_WORK_ECONOMY_RESOURCE_EXCHANGE_REFERENCE.md",
+      "right": "00_MASTER/WORLD_BIBLE.md",
+      "machine_prediction": "UNCLASSIFIED",
+      "machine_confidence": 0
     },
     {
       "relationship_id": "REL-f9b338d0e7c97feb",

@@ -32,7 +32,7 @@ Document-derived information is recorded first. Existing structural/artifact ide
 - `01_WORLD/CONTINENTS/LOST/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
 - `01_WORLD/CONTINENTS/RIFT/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
 - `01_WORLD/CONTINENTS/SHATTERED/DOSSIER.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`13`
-- `01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md` — subject=`World Profile`, domain=`Master`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
+- `01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md` — subject=`World Profile`, domain=`World`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`8`
 - `01_WORLD/PLANET/TECTONICS.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`132`
 - `02_ECOLOGY/FAUNA/CANONICAL_CREATURE_LIBRARY.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`534`
 - `02_ECOLOGY/FAUNA/CREATURE_LIBRARY_CREATION_PACKAGE/00_README.md` — subject=`UNRESOLVED`, domain=`UNRESOLVED`, cultural_scope=`UNRESOLVED`, authority=`UNRESOLVED`, artifact_role=`UNKNOWN`, information_units=`15`

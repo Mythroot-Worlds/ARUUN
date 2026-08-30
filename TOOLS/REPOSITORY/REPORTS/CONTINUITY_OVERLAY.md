@@ -1004,6 +1004,77 @@ Similarity: 0.0901
 +`main` previously contained only placeholder/scaffolding content — the actual migrated source material had been pushed to a branch (`claude/git-push-kyp7tp`) but never merged. That branch has now been merged into `main`. A number of duplicate migration/test branches from earlier attempts still exist on the remote and should be deleted once confirmed unnecessary.
 ```
 
+## 01_WORLD/PLANET/ARUUN_WORLD_PROFILE.md — `1e7451741ad9`
+
+Similarity: 0.9667
+
+### Preserved
+- aruun is a warm k type star world with approximately 0.82g surface gravity , a 24 hour day , and an axial tilt of approximately 31° .
+- planetary parameters → atmosphere/circulation → geography → ocean circulation → climate → water systems → ecology → evolution → culture
+- the four major continental systems remain hearth, shattered, rift, and lost. lost has been isolated for a very long geological interval, while the main continental cluster continues to reorganize through active tectonics.
+- | climate | broad scaffold in place; exact regional values open |
+- | continents | hearth well developed. shattered / rift / lost — dossier level only |
+- | ecology (fauna) | canonical exemplars and support matrices; not exhaustive by design |
+- | ecology (flora) | canonical entries and active edible flora expansion track |
+- | history | empty — no timeline, eras, or events yet |
+- | peoples — hearth culture | deepest cultural content: coast, desert, plains, wetlands, mountains |
+- | peoples — shattered/rift/lost culture | not started |
+- | peoples — species baseline | aruunite baseline established, plus per continent evolutionary profiles |
+- | planet / physical world | established (gravity, day length, tilt, orbit, star, land/water ratio, moons, 7 plate tectonics) |
+- | systems (magic/tech/economics) | empty — agriculture and domestication not yet unlocked |
+
+### Added
+- this document is maintained as an authoritative current world profile.
+
+### Modified
+- the world maintains a working land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture. → the world maintains a land/water ratio near 70/30 , two substantial moons, and a seven plate tectonic architecture.
+- its working orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 . → its orbital distance is approximately 0.65 au , with an orbital year of approximately 214 earth days and an eccentricity of approximately 0.08 .
+- this document summarizes the current physical and developmental state of aruun for ongoing world development. → this document summarizes the current physical and developmental state of aruun for ongoing world reference.
+
+### Potentially Dropped
+- this document is intended as a current working profile and may be revised as the world is developed.
+
+### Unified Overlay
+```diff
+--- previous:1e7451741ad9
++++ current
+@@ -1,6 +1,6 @@
+ ---
+ world: Aruun
+-domain: Master
++domain: World
+ subject: World Profile
+ status: authoritative
+ canonical: true
+@@ -8,7 +8,7 @@
+ 
+ # Aruun — Current World Profile
+ 
+-This document summarizes the current physical and developmental state of Aruun for ongoing world development.
++This document summarizes the current physical and developmental state of Aruun for ongoing world reference.
+ 
+ ## At a glance
+ 
+@@ -29,9 +29,9 @@
+ 
+ Aruun is a warm K-type-star world with approximately **0.82g surface gravity**, a **24-hour day**, and an axial tilt of approximately **31°**.
+ 
+-Its working orbital distance is approximately **0.65 AU**, with an orbital year of approximately **214 Earth days** and an eccentricity of approximately **0.08**.
++Its orbital distance is approximately **0.65 AU**, with an orbital year of approximately **214 Earth days** and an eccentricity of approximately **0.08**.
+ 
+-The world maintains a working land/water ratio near **70/30**, two substantial moons, and a seven-plate tectonic architecture.
++The world maintains a land/water ratio near **70/30**, two substantial moons, and a seven-plate tectonic architecture.
+ 
+ ## Development Notes
+ 
+@@ -41,4 +41,4 @@
+ 
+ **planetary parameters → atmosphere/circulation → geography → ocean circulation → climate → water systems → ecology → evolution → culture**
+ 
+-This document is intended as a current working profile and may be revised as the world is developed.
++This document is maintained as an authoritative current world profile.
+```
+
 ## CHANGELOG.md — `7a4e2c37ee5e`
 
 Similarity: 0.931

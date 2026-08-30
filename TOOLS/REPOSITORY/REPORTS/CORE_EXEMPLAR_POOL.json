@@ -2,7 +2,7 @@
   "engine": "CORE A.C.E. Exemplar Pool",
   "schema_version": "2.0",
   "mode": "READ_ONLY",
-  "example_count": 65,
+  "example_count": 68,
   "examples": [
     {
       "example_id": "ANN-0b3c9d254927f41d",
@@ -592,6 +592,102 @@
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
     },
     {
+      "example_id": "ANN-2aa256d2321cd8d4",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/DESERT/FAMILY_BIRTH_CHILDHOOD.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING",
+        "HISTORICAL"
+      ],
+      "proposed": null,
+      "reason": "Both concern Desert peoples; one is broad regional information and the other focuses on family/birth/childhood. Reasoning indicates scope/function, not historical change; preserve HISTORICAL as raw selection.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "DESERT",
+          "REGIONAL"
+        ],
+        "function": [
+          "BIRTH",
+          "CHILDHOOD",
+          "FAMILY",
+          "HISTORICAL"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "DESERT",
+              "REGIONAL"
+            ],
+            "b": [
+              "DESERT",
+              "REGIONAL"
+            ],
+            "shared": [
+              "DESERT",
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "BIRTH",
+              "CHILDHOOD",
+              "FAMILY",
+              "HISTORICAL"
+            ],
+            "b": [
+              "BIRTH",
+              "CHILDHOOD",
+              "FAMILY",
+              "HISTORICAL"
+            ],
+            "shared": [
+              "BIRTH",
+              "CHILDHOOD",
+              "FAMILY",
+              "HISTORICAL"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": null,
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
       "example_id": "ANN-3a5d6786a3b536d1",
       "relationship_id": null,
       "left": "03_PEOPLES/CULTURES/HEARTH/COMPARATIVE/FAMILY_BIRTH_CHILDHOOD_COMPARATIVE.md",
@@ -759,6 +855,120 @@
             "shared": [
               "BIRTH",
               "FAMILY"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": null,
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-611f05a8b4f4793f",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/DESERT.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_HOUSES_CANON.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "SUPPORTING",
+        "HISTORICAL"
+      ],
+      "proposed": null,
+      "reason": "Desert is a regional-level document; Mountain Specialist Houses is settlement-level. Both concern Hearth peoples. The reasoning describes scope and population hierarchy rather than historical change; preserve HISTORICAL as the raw selected option for audit.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "DESERT",
+          "MOUNTAIN",
+          "REGIONAL",
+          "SETTLEMENT"
+        ],
+        "function": [
+          "AUDIT",
+          "HISTORICAL",
+          "SPECIALIST"
+        ],
+        "authority": [
+          "SETTLEMENT"
+        ],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "DESERT",
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT"
+            ],
+            "b": [
+              "DESERT",
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "DESERT",
+              "MOUNTAIN",
+              "REGIONAL",
+              "SETTLEMENT"
+            ],
+            "different": []
+          },
+          "scale": {
+            "a": [
+              "REGIONAL"
+            ],
+            "b": [
+              "REGIONAL"
+            ],
+            "shared": [
+              "REGIONAL"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "AUDIT",
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "b": [
+              "AUDIT",
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "shared": [
+              "AUDIT",
+              "HISTORICAL",
+              "SPECIALIST"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "HISTORICAL"
+            ],
+            "b": [
+              "HISTORICAL"
+            ],
+            "shared": [
+              "HISTORICAL"
+            ],
+            "different": []
+          },
+          "coherence": {
+            "a": [
+              "SETTLEMENT"
+            ],
+            "b": [
+              "SETTLEMENT"
+            ],
+            "shared": [
+              "SETTLEMENT"
             ],
             "different": []
           }
@@ -2061,6 +2271,93 @@
         "decision_basis": "meaningfully connected subject matter without a stronger defining relationship",
         "status": "candidate"
       },
+      "source": "HUMAN_ANNOTATION",
+      "confidence": "HUMAN_REVIEWED_UNMATCHED"
+    },
+    {
+      "example_id": "ANN-cff466521f8c52e3",
+      "relationship_id": null,
+      "left": "03_PEOPLES/CULTURES/HEARTH/GOVERNANCE_AND_AUTHORITY.md",
+      "right": "03_PEOPLES/CULTURES/HEARTH/MOUNTAINS/SPECIALIST_LINEAGES.md",
+      "label": "MULTI",
+      "raw_choices": [
+        "RELATED",
+        "CONFLICT"
+      ],
+      "proposed": null,
+      "reason": "Leadership document versus mountain lineage structure; overlapping authority can create conflict/overlap.",
+      "domain": "PEOPLES",
+      "role": "CANON",
+      "features": {
+        "scope": [
+          "MOUNTAIN"
+        ],
+        "function": [
+          "AUTHORITY",
+          "LEADERSHIP",
+          "LINEAGE"
+        ],
+        "authority": [],
+        "population": [],
+        "deciding_dimensions": {
+          "scope": {
+            "a": [
+              "MOUNTAIN"
+            ],
+            "b": [
+              "MOUNTAIN"
+            ],
+            "shared": [
+              "MOUNTAIN"
+            ],
+            "different": []
+          },
+          "function": {
+            "a": [
+              "AUTHORITY",
+              "LEADERSHIP",
+              "LINEAGE"
+            ],
+            "b": [
+              "AUTHORITY",
+              "LEADERSHIP",
+              "LINEAGE"
+            ],
+            "shared": [
+              "AUTHORITY",
+              "LEADERSHIP",
+              "LINEAGE"
+            ],
+            "different": []
+          },
+          "relationship": {
+            "a": [
+              "CONFLICT"
+            ],
+            "b": [
+              "CONFLICT"
+            ],
+            "shared": [
+              "CONFLICT"
+            ],
+            "different": []
+          },
+          "story_relevance": {
+            "a": [
+              "CONFLICT"
+            ],
+            "b": [
+              "CONFLICT"
+            ],
+            "shared": [
+              "CONFLICT"
+            ],
+            "different": []
+          }
+        },
+        "principle": "A deciding factor must explain the relationship; a shared word is evidence only when it supports a meaningful dimension."
+      },
+      "decision_factors": null,
       "source": "HUMAN_ANNOTATION",
       "confidence": "HUMAN_REVIEWED_UNMATCHED"
     },

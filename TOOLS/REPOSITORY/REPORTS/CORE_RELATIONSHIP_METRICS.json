@@ -2,17 +2,16 @@
   "engine": "CORE Relationship Metrics",
   "mode": "TELEMETRY_ONLY",
   "discovery": {
-    "documents_analyzed": 26,
-    "relationships_discovered": 162,
-    "review_queue_size": 162,
-    "novel_discovered_relationships": 133,
+    "documents_analyzed": 30,
+    "relationships_discovered": 158,
+    "review_queue_size": 158,
+    "novel_discovered_relationships": 129,
     "discovered_already_adjudicated": 29,
     "match_strength_distribution": {
-      "1": 27,
-      "2": 55,
-      "3": 54,
-      "4": 20,
-      "5": 6
+      "2": 94,
+      "3": 36,
+      "4": 12,
+      "5": 16
     }
   },
   "human_calibration": {
@@ -37,12 +36,12 @@
     }
   },
   "ontology_v2_calibration": {
-    "records": 6,
+    "records": 3,
     "by_active_label": {
-      "REVIEW": 6
+      "REVIEW": 3
     },
     "by_migration_status": {
-      "ONTOLOGY_REQUIRES_REVIEW": 6
+      "ONTOLOGY_REQUIRES_REVIEW": 3
     },
     "legacy_labels_immutable": true
   },

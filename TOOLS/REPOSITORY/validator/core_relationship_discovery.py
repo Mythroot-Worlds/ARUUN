@@ -18,8 +18,10 @@ def match_strength(j):
  return 1
 def strength_label(n): return ['Minimal','Weak','Moderate','Strong','Near Certain'][n-1]
 def main():
- ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default=REPORTS);ap.add_argument('--scope',default='03_PEOPLES/CULTURES/HEARTH');ap.add_argument('--min-overlap',type=int,default=8);a=ap.parse_args();root=Path(a.root).resolve();base=root/a.scope;docs=[]
- if base.exists():
+ ap=argparse.ArgumentParser();ap.add_argument('--root',default='.');ap.add_argument('--out',default=REPORTS);ap.add_argument('--scope',action='append',default=None,help='Corpus scope to include; repeat for multiple scopes.');ap.add_argument('--min-overlap',type=int,default=8);a=ap.parse_args();root=Path(a.root).resolve();scopes=a.scope or ['03_PEOPLES/CULTURES/HEARTH'];docs=[]
+ for scope in scopes:
+  base=root/scope
+  if not base.exists(): continue
   for p in base.rglob('*.md'):
    rel=p.relative_to(root).as_posix()
    if any(x in SKIP for x in p.parts) or rel.startswith(ARCHIVE) or rel.startswith(REPORTS):continue
@@ -44,9 +46,9 @@ def main():
   candidates.append({'relationship_id':rid,'left':pa,'right':pb,'shared_terms':len(inter),'jaccard':round(jac,4),'match_strength':strength,'match_strength_label':strength_label(strength),'classification':'UNCLASSIFIED','status':'DISCOVERED_UNREVIEWED','review_required':True})
  candidates.sort(key=lambda x:(x['match_strength'],x['jaccard'],x['shared_terms']),reverse=True);queue=candidates[:500]
  out=root/a.out;out.mkdir(parents=True,exist_ok=True)
- data={'engine':'CORE Relationship Discovery','mode':'READ_ONLY','scope':a.scope,'documents_analyzed':len(docs),'relationships_discovered':len(candidates),'review_queue_size':len(queue),'relationships':queue,'match_strength_scale':{'5':'Near Certain','4':'Strong','3':'Moderate','2':'Weak','1':'Minimal'},'note':'Match strength measures evidence of connection, not classification confidence. Raw similarity remains available.','safety':{'automatic_merge':False,'automatic_canon_change':False,'provenance_required':True}}
+ data={'engine':'CORE Relationship Discovery','mode':'READ_ONLY','scope':scopes,'documents_analyzed':len(docs),'relationships_discovered':len(candidates),'review_queue_size':len(queue),'relationships':queue,'match_strength_scale':{'5':'Near Certain','4':'Strong','3':'Moderate','2':'Weak','1':'Minimal'},'note':'Match strength measures evidence of connection, not classification confidence. Raw similarity remains available.','safety':{'automatic_merge':False,'automatic_canon_change':False,'provenance_required':True}}
  (out/'CORE_RELATIONSHIP_DISCOVERY.json').write_text(json.dumps(data,indent=2),encoding='utf-8')
- md=['# CORE Relationship Discovery','','**Read-only candidate generation. No relationship is accepted automatically.**','',f'Documents analyzed: **{len(docs)}**',f'Relationship candidates discovered: **{len(candidates)}**',f'Review queue: **{len(queue)}**','','## Match strength','**5** Near Certain · **4** Strong · **3** Moderate · **2** Weak · **1** Minimal','','Match strength measures how strongly two records appear connected; it does not decide what the relationship means.','', '## Strongest candidates']
+ md=['# CORE Relationship Discovery','','**Read-only candidate generation. No relationship is accepted automatically.**','',f"**Scopes:** {', '.join(f'`{s}`' for s in scopes)}",f'**Documents analyzed:** **{len(docs)}**',f'**Relationship candidates discovered:** **{len(candidates)}**',f'**Review queue:** **{len(queue)}**','','## Match strength','**5** Near Certain · **4** Strong · **3** Moderate · **2** Weak · **1** Minimal','','Match strength measures how strongly two records appear connected; it does not decide what the relationship means.','', '## Strongest candidates']
  for x in queue[:50]:md.append(f"- `{x['relationship_id']}` — `{x['left']}` ↔ `{x['right']}` — **{x['match_strength']}/5 {x['match_strength_label']}**, shared terms {x['shared_terms']}, similarity {x['jaccard']}")
  (out/'CORE_RELATIONSHIP_DISCOVERY.md').write_text('\n'.join(md)+'\n',encoding='utf-8');print(f'CORE discovery: {len(docs)} docs, {len(candidates)} candidate relationships, {len(queue)} queued.')
 if __name__=='__main__':main()
